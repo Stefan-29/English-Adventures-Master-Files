@@ -1,0 +1,659 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "SHALL — Offers and Suggestions",
+      "content": "<p><strong>'Shall'</strong> is commonly used with <em>I</em> and <em>we</em> to make polite offers or suggestions. It is more frequent in British English and formal contexts.</p><p><strong>Examples:</strong></p><ul><li>Shall we go for a walk?</li><li>Shall I open the window?</li></ul>",
+      "examples": [
+        "Shall we go for a walk?",
+        "Shall I help you with that?"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_shall_intro.mp3",
+      "functions": [
+        "Polite offers",
+        "Suggestions",
+        "Formal proposals"
+      ],
+      "tips": "Use 'shall' to offer or suggest, especially with 'I' and 'we'."
+    },
+    {
+      "id": "lesson-2",
+      "title": "WILL — Future Actions, Promises & Predictions",
+      "content": "<p><strong>'Will'</strong> expresses future actions, voluntary decisions, promises, and predictions. It's the common modal for future time in neutral English.</p><p><strong>Examples:</strong></p><ul><li>I will call you tonight.</li><li>It will rain this afternoon.</li></ul>",
+      "examples": [
+        "I will call you tonight.",
+        "It will rain this afternoon."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_will_intro.mp3",
+      "functions": [
+        "Future actions",
+        "Promises",
+        "Predictions"
+      ],
+      "tips": "Choose 'will' for straightforward future facts, promises, or voluntary actions."
+    },
+    {
+      "id": "lesson-3",
+      "title": "WOULD — Conditionals, Past of 'Will', Habitual Past",
+      "content": "<p><strong>'Would'</strong> is used in conditional sentences for hypothetical results, as the past form of 'will' in reported speech, and to describe repeated actions in the past.</p><p><strong>Examples:</strong></p><ul><li>If I had time, I would travel more.</li><li>She said she would arrive by seven.</li><li>When we were kids, we would play outside every evening.</li></ul>",
+      "examples": [
+        "If I had time, I would travel more.",
+        "She said she would arrive by seven.",
+        "When we were kids, we would play outside every evening."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_would_intro.mp3",
+      "functions": [
+        "Conditional results",
+        "Reported speech",
+        "Habitual past"
+      ],
+      "tips": "Use 'would' for hypothetical situations, reported speech of 'will', and past habits."
+    },
+    {
+      "id": "lesson-4",
+      "title": "HAD BETTER — Strong Advice and Warnings",
+      "content": "<p><strong>'Had better'</strong> gives strong advice or warnings about likely negative outcomes. In speech it is often shortened to 'better'.</p><p><strong>Examples:</strong></p><ul><li>You had better take your umbrella with you today.</li><li>That bus had better get here soon!</li></ul>",
+      "examples": [
+        "You had better take your umbrella with you today.",
+        "That bus had better get here soon!"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_had_better_intro.mp3",
+      "functions": [
+        "Strong recommendations",
+        "Warnings",
+        "Urgent advice"
+      ],
+      "tips": "Use 'had better' to warn or strongly advise; in fast speech it's often 'better'."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 5 suggestions using 'shall' with 'we' or 'I'.",
+      "hint": "Start with 'Shall we...' or 'Shall I...'.",
+      "expectedKeywords": [
+        "shall",
+        "shall we",
+        "shall I",
+        "suggestion"
+      ],
+      "sentenceStarters": [
+        "Shall we...",
+        "Shall I..."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write 5 promises or future plans using 'will'.",
+      "hint": "Use 'I will' or 'We will' to show intention or promise.",
+      "expectedKeywords": [
+        "will",
+        "I'll",
+        "we will",
+        "promise"
+      ],
+      "sentenceStarters": [
+        "I will...",
+        "We will..."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Create 5 conditional sentences using 'would' (Type 2).",
+      "hint": "If + past simple, would + base verb.",
+      "expectedKeywords": [
+        "would",
+        "if",
+        "hypothetical"
+      ],
+      "sentenceStarters": [
+        "If I were..., I would...",
+        "If she had..., she would..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-4",
+      "question": "Write 5 warnings or urgent recommendations using 'had better'.",
+      "hint": "Use 'You had better...' to signal urgency.",
+      "expectedKeywords": [
+        "had better",
+        "warning",
+        "advice"
+      ],
+      "sentenceStarters": [
+        "You had better...",
+        "They had better..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Combine 'shall' and 'had better' in a short paragraph showing suggestion and warning.",
+      "hint": "Make a suggestion, then warn about the consequence.",
+      "expectedKeywords": [
+        "shall",
+        "had better",
+        "suggestion",
+        "warning"
+      ],
+      "sentenceStarters": [
+        "Shall we... but you had better...",
+        "I shall..., but you'd better..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Report three 'will' statements in reported speech using 'would'.",
+      "hint": "Transform direct 'will' into 'would' in reported sentences.",
+      "expectedKeywords": [
+        "would",
+        "reported speech",
+        "will"
+      ],
+      "sentenceStarters": [
+        "He said he would...",
+        "She told me she would..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Write a diary entry describing past habits using 'would'.",
+      "hint": "Show repeated past actions with 'would'.",
+      "expectedKeywords": [
+        "would",
+        "habit",
+        "past"
+      ],
+      "sentenceStarters": [
+        "When I was..., I would...",
+        "As a child, I would..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Turn 5 'will' sentences into polite offers using 'shall' where suitable.",
+      "hint": "Offer help: 'Shall I...?' replaces 'I will...'.",
+      "expectedKeywords": [
+        "shall",
+        "will",
+        "offer"
+      ],
+      "sentenceStarters": [
+        "Shall I...",
+        "Shall we..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-9",
+      "question": "Write 5 negative warnings using 'had better not'.",
+      "hint": "Structure: 'You had better not + verb'.",
+      "expectedKeywords": [
+        "had better not",
+        "warning",
+        "advice"
+      ],
+      "sentenceStarters": [
+        "You had better not...",
+        "They had better not..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a short paragraph (80-120 words) including at least three different modals from this module.",
+      "hint": "Use 'shall', 'will', 'would', and 'had better' across your paragraph.",
+      "expectedKeywords": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "sentenceStarters": [
+        "I will..., but shall we...",
+        "If I..., I would..."
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Which sentence uses 'shall' (offer)?",
+      "sentence": "_____ we start the meeting?",
+      "options": [
+        "Shall",
+        "Will",
+        "Would",
+        "Had better"
+      ],
+      "correctAnswer": [
+        "Shall"
+      ],
+      "audio": "game_1_shall.mp3",
+      "hint": "Polite offers usually use 'shall'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Complete the promise:",
+      "sentence": "I _____ help you tomorrow.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": [
+        "will"
+      ],
+      "audio": "game_2_will.mp3",
+      "hint": "Promises commonly use 'will'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Form the conditional with 'would':",
+      "sentence": "If I had the money, I _____ buy a car.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": [
+        "would"
+      ],
+      "audio": "game_3_would.mp3",
+      "hint": "Use 'would' for hypothetical outcomes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Classify: 'You had better study for the test.'",
+      "sentence": "You had better study for the test.",
+      "options": [
+        "suggestion",
+        "promise",
+        "conditional",
+        "warning"
+      ],
+      "correctAnswer": [
+        "warning"
+      ],
+      "audio": "game_4_had_better.mp3",
+      "hint": "'Had better' is a warning/urgent advice.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Error spotter: Identify the incorrect modal use and correct it.",
+      "sentence": "She would go to the meeting tomorrow.",
+      "options": [
+        "Change to 'will'",
+        "Change to 'shall'",
+        "Change to 'had to'",
+        "No change"
+      ],
+      "correctAnswer": [
+        "Change to 'will'"
+      ],
+      "audio": "game_5_error.mp3",
+      "hint": "Check whether the modal matches time reference.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-6",
+      "type": "reorder",
+      "question": "Reorder to make a correct sentence with 'had better'.",
+      "sentence": "you / better / had / call / them",
+      "options": [],
+      "correctAnswer": [
+        "You had better call them."
+      ],
+      "audio": "game_6_reorder.mp3",
+      "hint": "Remember the fixed phrase 'had better'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "roleplay",
+      "question": "Respond to an offer: 'Shall I carry that for you?'",
+      "sentence": "Shall I carry that for you?",
+      "options": [
+        "Yes, please",
+        "No, thanks",
+        "Maybe later"
+      ],
+      "correctAnswer": [
+        "Yes, please"
+      ],
+      "audio": "game_7_roleplay.mp3",
+      "hint": "Accept or refuse offers politely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-8",
+      "type": "writing",
+      "question": "Prediction challenge: write a short prediction using 'will'.",
+      "sentence": "I think the weather _____ improve tomorrow.",
+      "options": [],
+      "correctAnswer": [],
+      "audio": "game_8_prediction.mp3",
+      "hint": "Use 'will' to predict future events.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "writing",
+      "question": "Write past habitual actions using 'would'.",
+      "sentence": "When I was young, I _____ spend summers at my grandmother's.",
+      "options": [],
+      "correctAnswer": [],
+      "audio": "game_9_habit.mp3",
+      "hint": "'Would' describes repeated past actions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-10",
+      "type": "simulator",
+      "question": "Warning simulator: craft 'had better' warnings for given scenarios.",
+      "sentence": "You _____ check the brakes before driving.",
+      "options": [],
+      "correctAnswer": [],
+      "audio": "game_10_simulator.mp3",
+      "hint": "Use 'had better' to give urgent, practical advice.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Which modal completes this polite offer?",
+      "sentence": "_____ we book a table for dinner?",
+      "options": [
+        "Shall",
+        "Will",
+        "Would",
+        "Had better"
+      ],
+      "correctAnswer": "Shall",
+      "audio": "quiz_1_shall.mp3",
+      "hint": "Polite offers with 'we' often use 'shall'.",
+      "difficulty": "easy",
+      "explanation": "'Shall' makes a polite suggestion when used with 'we'."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which modal expresses a promise?",
+      "sentence": "I _____ finish the report by Monday.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": "will",
+      "audio": "quiz_2_will.mp3",
+      "hint": "Promises usually use 'will'.",
+      "difficulty": "easy",
+      "explanation": "'Will' indicates a promise or voluntary future action."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Complete the conditional: 'If I were rich, I _____ travel the world.'",
+      "sentence": "If I were rich, I _____ travel the world.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": "would",
+      "audio": "quiz_3_would.mp3",
+      "hint": "Type 2 conditionals use 'would'.",
+      "difficulty": "medium",
+      "explanation": "'Would' is used for hypothetical outcomes in the conditional."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which modal best fits this warning?",
+      "sentence": "You _____ call the police if you see smoke.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": "had better",
+      "audio": "quiz_4_had_better.mp3",
+      "hint": "Use 'had better' to warn about possible danger.",
+      "difficulty": "medium",
+      "explanation": "'Had better' warns of likely negative consequences if action is not taken."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Reported speech: 'He said he _____ come later.'",
+      "sentence": "He said he _____ come later.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": "would",
+      "audio": "quiz_5_reported.mp3",
+      "hint": "'Will' becomes 'would' in reported speech.",
+      "difficulty": "easy",
+      "explanation": "In reported speech the future 'will' is typically backshifted to 'would'."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Polite offer: '_____ I carry that for you?'",
+      "sentence": "_____ I carry that for you?",
+      "options": [
+        "Shall",
+        "Will",
+        "Would",
+        "Had better"
+      ],
+      "correctAnswer": "Shall",
+      "audio": "quiz_6_offer.mp3",
+      "hint": "'Shall I...' is a polite way to offer help.",
+      "difficulty": "easy",
+      "explanation": "Use 'shall' for polite offers when the subject is 'I'."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Negative warning: 'You _____ not ignore that noise.'",
+      "sentence": "You _____ not ignore that noise.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": "had better",
+      "audio": "quiz_7_negative.mp3",
+      "hint": "'Had better not' expresses strong negative advice.",
+      "difficulty": "hard",
+      "explanation": "'Had better not' warns against a dangerous or unwise action."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Past habit: 'Every summer we _____ visit the lake.'",
+      "sentence": "Every summer we _____ visit the lake.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": "would",
+      "audio": "quiz_8_habit.mp3",
+      "hint": "'Would' often shows repeated past actions.",
+      "difficulty": "medium",
+      "explanation": "Use 'would' to describe habitual actions in the past."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Future prediction: 'I think she _____ accept the invitation.'",
+      "sentence": "I think she _____ accept the invitation.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": "will",
+      "audio": "quiz_9_prediction.mp3",
+      "hint": "Predictions commonly use 'will'.",
+      "difficulty": "easy",
+      "explanation": "'Will' signals a likely future event."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Formal usage: 'The committee _____ decide on the matter.'",
+      "sentence": "The committee _____ decide on the matter.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": "shall",
+      "audio": "quiz_10_formal.mp3",
+      "hint": "'Shall' is used in formal or official contexts.",
+      "difficulty": "medium",
+      "explanation": "'Shall' can indicate official decisions or obligations in formal language."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "shall",
+      "hint": "Polite offers and suggestions.",
+      "clue": "_h__l",
+      "sentence": "_____ we begin?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "will",
+      "hint": "Future actions and promises.",
+      "clue": "_i__",
+      "sentence": "I _____ call you later.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "would",
+      "hint": "Conditionals and past habits.",
+      "clue": "w___d",
+      "sentence": "If I could, I _____ help.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-4",
+      "word": "had better",
+      "hint": "Strong advice/warnings.",
+      "clue": "__d __t_er",
+      "sentence": "You _____ leave now.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "suggestion",
+      "hint": "A proposal for consideration.",
+      "clue": "__gg__t___",
+      "sentence": "That's a good ____.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "prediction",
+      "hint": "A statement about what will happen.",
+      "clue": "__e__c_i__",
+      "sentence": "My ____ is that they'll win.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-7",
+      "word": "conditional",
+      "hint": "Related to 'if' sentences.",
+      "clue": "__nd___o_a_",
+      "sentence": "This is a second-_____ sentence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-8",
+      "word": "warning",
+      "hint": "A notice of danger or risk.",
+      "clue": "___n__g",
+      "sentence": "He gave a clear ____.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-9",
+      "word": "promise",
+      "hint": "A pledge to do something.",
+      "clue": "___m_se",
+      "sentence": "She made a ____.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-10",
+      "word": "habit",
+      "hint": "A repeated action.",
+      "clue": "h__b_t",
+      "sentence": "It was his daily ____.",
+      "difficulty": "medium"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 5,
+      "silver": 12,
+      "gold": 25,
+      "platinum": 50
+    },
+    "badges": [
+      {
+        "id": "modal-novice",
+        "name": "Modal Novice",
+        "condition": "Complete 2 lessons",
+        "icon": "⭐",
+        "points": 10
+      },
+      {
+        "id": "modal-pro",
+        "name": "Modal Pro",
+        "condition": "Score 80% in quizzes",
+        "icon": "🏅",
+        "points": 40
+      },
+      {
+        "id": "warning-master",
+        "name": "Warning Master",
+        "condition": "Use 'had better' correctly 8 times",
+        "icon": "⚠️",
+        "points": 30
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "grammar101-modals",
+  "version": "2.0.0",
+  "description": "Professional web-based learning platform for English modal verbs with interactive lessons, quizzes, and games",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "npx http-server src -p 8001",
+    "serve": "npx http-server src -p 8001 -c-1",
+    "dev": "npx http-server src -p 8001 -o",
+    "build": "echo 'No build step required for vanilla JS'",
+    "test": "echo 'Tests not yet configured'",
+    "lint": "eslint src --fix",
+    "clean": "rm -rf node_modules package-lock.json"
+  },
+  "keywords": [
+    "education",
+    "english",
+    "grammar",
+    "modal-verbs",
+    "learning",
+    "interactive",
+    "e-learning",
+    "accessibility",
+    "responsive-design"
+  ],
+  "author": "Stefan-29",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stefan-29/Grammar101---English---Modals.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "http-server": "^14.0.0"
+  },
+  "optionalDependencies": {
+    "dotenv": "^16.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+add the quiz questions for other tenses
+add other game modes such as error detection and sentence ordering
+simplify module navigaiton to learn, play, and write
+on the play button, there should be sub-module navigation in it positioned strategically to choose the game modes consisting of:
+1. Multiple Choice
+2. Drag and Drop
+3. Error Detection
+4. Sentence Ordering
+Adjust the JSON data structures with the according names based on the game modes as well
+
+
+check all answers feature is broken, it says everything complete but the progress is actually 0%

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Loading...</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lesson-module.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="" id="favicon">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="site-title">Loading...</h1>
+            <h2 id="lesson-title">Loading...</h2>
+            <!-- Grammar Topic Selector -->
+            <div class="grammar-selector">
+                <h3>Choose Your Grammar Topic:</h3>
+                <div class="grammar-buttons" id="grammar-buttons">
+                    <!-- Buttons will be inserted here by JavaScript -->
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" id="overall-progress"></div>
+                </div>
+                <div class="progress-text">Progress: <span id="progress-percent">0%</span></div>
+                <button id="reset-progress" class="reset-btn">Reset Progress</button>
+            </div>
+            <div class="rewards-wrapper">
+                <button id="toggle-rewards" class="toggle-rewards-btn">
+                    <span class="rewards-label">🏆 Achievements</span>
+                    <span class="rewards-toggle-icon">▼</span>
+                </button>
+                <div class="rewards-container" id="rewards-container">
+                    <div class="stars-container" id="stars-container">
+                        <!-- Stars will be added here -->
+                    </div>
+                    <div class="badges-container" id="badges-container">
+                        <!-- Badges will be added here -->
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="module-navigation" id="module-navigation">
+                <!-- Module navigation buttons will be inserted here dynamically -->
+            </div>
+            <div class="modules-wrapper">
+                <button id="toggle-modules" class="toggle-modules-btn">
+                    <span class="modules-label">📚 Learning Activities</span>
+                    <span class="modules-toggle-icon">▼</span>
+                </button>
+                <div class="modules-container" id="modules-container">
+                    <!-- Modules will be inserted here dynamically -->
+                </div>
+            </div>
+        </main>
+
+        <div class="word-bank-container">
+            <h4>Word Bank <button id="toggle-word-bank" class="toggle-btn">Show/Hide</button></h4>
+            <div class="word-bank" id="word-bank">
+                <!-- Word bank categories and words will be inserted here dynamically -->
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <p>Created by Stefanus Kae</p>
+                <p>&copy; 2025 English Adventures. All rights reserved.</p>
+                <ul class="footer-links">
+                    <li><a href="mailto:stefanustankaemingk2@gmail.com">Contact Me</a></li>
+                    <li><a href="privacy-policy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+                    <li><a href="terms-of-service.html" target="_blank" rel="noopener noreferrer">Terms of Service</a></li>
+                </ul>
+            </div>
+            <button id="back-to-top" class="back-to-top-btn">Back to Top</button>
+        </footer>
+    </div>
+
+    <!-- Control Panel (Fixed Bottom Right) -->
+    <div class="control-panel-wrapper">
+        <button id="control-panel-btn" class="control-panel-btn" title="Settings Panel">
+            <span class="control-panel-icon">⚙️</span>
+        </button>
+        <div id="control-panel-menu" class="control-panel-menu">
+            <div class="settings-header">
+                <h3>Settings & Preferences</h3>
+                <button class="settings-close-btn" title="Close Settings">
+                    <span>✕</span>
+                </button>
+            </div>
+
+            <div class="settings-content">
+                <!-- Display Settings -->
+                <div class="settings-section">
+                    <h4 class="settings-section-title">📺 Display</h4>
+                    <div class="settings-group">
+                        <div class="setting-item">
+                            <label for="theme-toggle" class="setting-label">
+                                <span class="setting-icon">🌙</span>
+                                <span class="setting-text">Dark Mode</span>
+                            </label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="theme-toggle" class="toggle-input">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label for="text-size" class="setting-label">
+                                <span class="setting-icon">📝</span>
+                                <span class="setting-text">Text Size</span>
+                            </label>
+                            <div class="slider-container">
+                                <span class="slider-label">A</span>
+                                <input type="range" id="text-size" min="12" max="18" value="14" class="settings-slider">
+                                <span class="slider-label large">A</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Audio Settings -->
+                <div class="settings-section">
+                    <h4 class="settings-section-title">🎵 Audio</h4>
+                    <div class="settings-group">
+                        <div class="setting-item">
+                            <label for="music-toggle" class="setting-label">
+                                <span class="setting-icon">🎶</span>
+                                <span class="setting-text">Background Music</span>
+                            </label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="music-toggle" class="toggle-input" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="setting-item sub-item">
+                            <label for="music-volume" class="setting-label">
+                                <span class="setting-text">Music Volume</span>
+                            </label>
+                            <div class="volume-control">
+                                <span class="volume-icon">🔇</span>
+                                <input type="range" id="music-volume" min="0" max="100" value="30" class="volume-slider">
+                                <span class="volume-icon loud">🔊</span>
+                                <span class="volume-percent" id="music-volume-display">30%</span>
+                            </div>
+                        </div>
+                        <div class="setting-item">
+                            <label for="sound-toggle" class="setting-label">
+                                <span class="setting-icon">🔔</span>
+                                <span class="setting-text">Sound Effects</span>
+                            </label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="sound-toggle" class="toggle-input" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="setting-item sub-item">
+                            <label for="sound-volume" class="setting-label">
+                                <span class="setting-text">Effects Volume</span>
+                            </label>
+                            <div class="volume-control">
+                                <span class="volume-icon">🔇</span>
+                                <input type="range" id="sound-volume" min="0" max="100" value="70" class="volume-slider">
+                                <span class="volume-icon loud">🔊</span>
+                                <span class="volume-percent" id="sound-volume-display">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Learning Preferences -->
+                <div class="settings-section">
+                    <h4 class="settings-section-title">🎓 Learning</h4>
+                    <div class="settings-group">
+                        <div class="setting-item">
+                            <label for="animation-toggle" class="setting-label">
+                                <span class="setting-icon">✨</span>
+                                <span class="setting-text">Animations</span>
+                            </label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="animation-toggle" class="toggle-input" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label for="hints-toggle" class="setting-label">
+                                <span class="setting-icon">💡</span>
+                                <span class="setting-text">Auto-Show Hints</span>
+                            </label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="hints-toggle" class="toggle-input" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accessibility -->
+                <div class="settings-section">
+                    <h4 class="settings-section-title">♿ Accessibility</h4>
+                    <div class="settings-group">
+                        <div class="setting-item">
+                            <label for="focus-toggle" class="setting-label">
+                                <span class="setting-icon">👁️</span>
+                                <span class="setting-text">High Contrast</span>
+                            </label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="focus-toggle" class="toggle-input">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label for="reduce-motion" class="setting-label">
+                                <span class="setting-icon">⚡</span>
+                                <span class="setting-text">Reduce Motion</span>
+                            </label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="reduce-motion" class="toggle-input">
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="settings-section">
+                    <div class="settings-actions">
+                        <button id="reset-settings-btn" class="settings-action-btn reset-btn" title="Reset settings to default">
+                            <span class="action-icon">🔄</span> Reset to Default
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="feedback-modal" class="feedback-modal-modern">
+        <div class="feedback-modal-content">
+            <button class="modal-close-btn">&times;</button>
+            <div class="feedback-emoji-container">
+                <div id="feedback-reward" class="feedback-emoji"></div>
+            </div>
+            <h3 id="feedback-title" class="feedback-title"></h3>
+            <p id="feedback-message" class="feedback-message"></p>
+            <button id="feedback-continue" class="feedback-continue-btn">Continue</button>
+        </div>
+        <div class="modal-backdrop"></div>
+    </div>
+
+    <!-- Audio elements will be dynamically created -->
+    <div id="audio-container">
+        <!-- Audio elements will be inserted here dynamically -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script>
+    <script src="modules/imageService.js"></script>
+    <script src="modules/lessonModule.js"></script>
+    <script src="modules/writingModule.js"></script>
+    <script src="modules/gameModule.js"></script>
+    <script src="modules/quizModule.js"></script>
+    <script src="modules/spellingHelper.js"></script>
+    <script src="modules/rewardsSystem.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,673 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "SHOULD — Giving Advice and Recommendations",
+      "content": "<p><strong>'Should'</strong> is widely used to provide advice, make recommendations, or suggest what is considered sensible or appropriate.</p><p><strong>Examples:</strong></p><ul><li>You should bring a jacket; it might get cold later.</li><li>Students should read the instructions carefully before starting.</li></ul>",
+      "examples": [
+        "You should bring a jacket; it might get cold later.",
+        "Students should read the instructions carefully before starting."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_should_intro.mp3",
+      "functions": [
+        "Recommendations",
+        "Advice",
+        "Advisability"
+      ],
+      "tips": "Use 'should' to suggest what is wise, practical, or considerate."
+    },
+    {
+      "id": "lesson-2",
+      "title": "SHOULD — Expressing Expectations and Logical Deduction",
+      "content": "<p><strong>'Should'</strong> also indicates what you reasonably expect to happen or what seems logically probable based on information.</p><p><strong>Examples:</strong></p><ul><li>The package should arrive by Friday based on the tracking information.</li><li>If they left early, they should be home now.</li></ul>",
+      "examples": [
+        "The package should arrive by Friday based on the tracking information.",
+        "If they left early, they should be home now."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_should_expectation.mp3",
+      "functions": [
+        "Expectation",
+        "Logical deduction",
+        "Probability"
+      ],
+      "tips": "Use 'should' for reasonable expectations based on circumstances."
+    },
+    {
+      "id": "lesson-3",
+      "title": "OUGHT TO — Advice and What Is Appropriate",
+      "content": "<p><strong>'Ought to'</strong> is similar to 'should' but often emphasizes moral responsibility or what is considered appropriate. It can also express probability or natural expectations.</p><p><strong>Examples:</strong></p><ul><li>You ought to keep your promises; it's important for trust.</li><li>Thirty dollars ought to be sufficient for dinner.</li></ul>",
+      "examples": [
+        "You ought to keep your promises; it's important for trust.",
+        "Thirty dollars ought to be sufficient for dinner."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_ought_to_intro.mp3",
+      "functions": [
+        "Advice",
+        "Appropriateness",
+        "Expectation"
+      ],
+      "tips": "Use 'ought to' for advice with moral weight or to express what seems deserved or reasonable."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Past Forms: Using 'Should Have' and 'Ought to Have'",
+      "content": "<p><strong>'Should have' and 'ought to have'</strong> discuss what would have been wise in previous situations. They express regret or indicate that someone failed to do what was recommended.</p><p><strong>Examples:</strong></p><ul><li>You should have read the instructions before starting.</li><li>They ought to have left earlier; now they might be late.</li></ul>",
+      "examples": [
+        "You should have read the instructions before starting.",
+        "They ought to have left earlier; now they might be late."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_past_forms.mp3",
+      "functions": [
+        "Past regret",
+        "Unfulfilled advice",
+        "Missed opportunity"
+      ],
+      "tips": "Use 'should have' or 'ought to have' to discuss what would have been better in the past."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 5 recommendations using 'should' for daily activities or healthy habits.",
+      "hint": "Begin sentences with 'You should...' or 'Everyone should...' to give practical advice.",
+      "expectedKeywords": [
+        "should",
+        "advice",
+        "recommendation",
+        "healthy",
+        "appropriate"
+      ],
+      "sentenceStarters": [
+        "You should...",
+        "Everyone should..."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write 5 statements using 'ought to' to express what seems appropriate or deserved.",
+      "hint": "Use 'ought to' to suggest what is reasonable or fitting in various scenarios.",
+      "expectedKeywords": [
+        "ought to",
+        "appropriate",
+        "deserved",
+        "reasonable",
+        "fitting"
+      ],
+      "sentenceStarters": [
+        "They ought to...",
+        "This ought to..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write 5 regretful statements using 'should have' or 'ought to have' about missed opportunities.",
+      "hint": "Reflect on past situations where someone didn't do what was wise. Use past perfect forms.",
+      "expectedKeywords": [
+        "should have",
+        "ought to have",
+        "past",
+        "regret",
+        "missed"
+      ],
+      "sentenceStarters": [
+        "I should have...",
+        "They ought to have..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-4",
+      "question": "Write 5 negative recommendations using 'should not' or 'ought not' to advise against actions.",
+      "hint": "Express what is unwise, unhealthy, or inappropriate using negative forms.",
+      "expectedKeywords": [
+        "should not",
+        "ought not",
+        "shouldn't",
+        "warning",
+        "unwise"
+      ],
+      "sentenceStarters": [
+        "You should not...",
+        "They ought not..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Combine 'should' and 'ought to' in a paragraph about appropriate school or workplace behavior.",
+      "hint": "Discuss what students or employees should do and what is deserved for good conduct.",
+      "expectedKeywords": [
+        "should",
+        "ought to",
+        "behavior",
+        "conduct",
+        "appropriate"
+      ],
+      "sentenceStarters": [
+        "Staff should..., and they ought to...",
+        "Students should..., and they ought not..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write logical deductions using 'should' to express what you expect based on given information.",
+      "hint": "Use context clues to suggest probable outcomes or situations.",
+      "expectedKeywords": [
+        "should",
+        "probably",
+        "expect",
+        "logically",
+        "deduction"
+      ],
+      "sentenceStarters": [
+        "If... then they should...",
+        "Based on... it should..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Write a personal reflection using both 'should' and 'should have' about a personal decision.",
+      "hint": "Discuss what you think now and what you believe would have been wise in the past.",
+      "expectedKeywords": [
+        "should",
+        "should have",
+        "reflection",
+        "decision",
+        "wisdom"
+      ],
+      "sentenceStarters": [
+        "I think I should..., but I should have...",
+        "Next time, I should..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Create 5 sentences expressing moral or social obligations using 'ought to'.",
+      "hint": "Focus on responsibilities, kindness, or fairness using 'ought to'.",
+      "expectedKeywords": [
+        "ought to",
+        "responsibility",
+        "moral",
+        "fairness",
+        "obligation"
+      ],
+      "sentenceStarters": [
+        "People ought to...",
+        "We ought to..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-9",
+      "question": "Write 5 pieces of advice for a younger person or friend, using both 'should' and 'ought to'.",
+      "hint": "Give practical and moral guidance appropriate for someone seeking your experience.",
+      "expectedKeywords": [
+        "should",
+        "ought to",
+        "advice",
+        "guidance",
+        "wise"
+      ],
+      "sentenceStarters": [
+        "You should..., and you ought to...",
+        "My advice is to..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a short composition (80-120 words) offering advice using 'should', 'ought to', and their past forms.",
+      "hint": "Include practical recommendations, moral advice, and reflections on past wisdom.",
+      "expectedKeywords": [
+        "should",
+        "ought to",
+        "should have",
+        "ought to have"
+      ],
+      "sentenceStarters": [
+        "Everyone should..., and people ought to...",
+        "Looking back, I should have..."
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Which modal fits this advice about studying?",
+      "sentence": "You _____ start preparing weeks in advance.",
+      "options": [
+        "should",
+        "ought to",
+        "should have",
+        "would"
+      ],
+      "correctAnswer": [
+        "should"
+      ],
+      "audio": "game_1_should_advice.mp3",
+      "hint": "Use 'should' for practical recommendations.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which modal expresses what is deserved or appropriate?",
+      "sentence": "Hard workers _____ receive recognition for their effort.",
+      "options": [
+        "should",
+        "ought to",
+        "shall",
+        "will"
+      ],
+      "correctAnswer": [
+        "ought to"
+      ],
+      "audio": "game_2_ought_to_deserved.mp3",
+      "hint": "'Ought to' suggests what is appropriate or deserved.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "What is the past form here?",
+      "sentence": "You _____ asked for help when you needed it.",
+      "options": [
+        "should",
+        "ought to",
+        "should have",
+        "could"
+      ],
+      "correctAnswer": [
+        "should have"
+      ],
+      "audio": "game_3_should_have.mp3",
+      "hint": "Use 'should have' for what would have been wise in the past.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Which negation expresses caution?",
+      "sentence": "You _____ wander into unfamiliar areas alone at night.",
+      "options": [
+        "should",
+        "shouldn't",
+        "ought to",
+        "would"
+      ],
+      "correctAnswer": [
+        "shouldn't"
+      ],
+      "audio": "game_4_negative_advice.mp3",
+      "hint": "'Should not' advises against something.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Identify the sentence using 'ought to' for moral responsibility.",
+      "sentence": "Citizens _____ follow the laws of their community.",
+      "options": [
+        "Change to 'should'",
+        "Change to 'would'",
+        "Keep 'ought to'",
+        "Change to 'will'"
+      ],
+      "correctAnswer": [
+        "Keep 'ought to'"
+      ],
+      "audio": "game_5_moral_ought.mp3",
+      "hint": "Check whether the sentence involves moral responsibility.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-6",
+      "type": "reorder",
+      "question": "Reorder to make a correct sentence with 'should'.",
+      "sentence": "early / you / should / leave / really",
+      "options": [],
+      "correctAnswer": [
+        "You should really leave early."
+      ],
+      "audio": "game_6_reorder_should.mp3",
+      "hint": "Remember: subject + should + verb form.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "roleplay",
+      "question": "Respond appropriately to: 'You should try the pizza here.'",
+      "sentence": "You should try the pizza here.",
+      "options": [
+        "That sounds like a good idea",
+        "I disagree completely",
+        "None of your business"
+      ],
+      "correctAnswer": [
+        "That sounds like a good idea"
+      ],
+      "audio": "game_7_roleplay_should.mp3",
+      "hint": "Accept friendly recommendations gracefully.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-8",
+      "type": "writing",
+      "question": "Expectation challenge: write a sentence using 'should' to express a likely outcome.",
+      "sentence": "If the recipe is correct, the cake _____ come out perfectly.",
+      "options": [],
+      "correctAnswer": [],
+      "audio": "game_8_expectation.mp3",
+      "hint": "Use 'should' to express what logically should happen.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "writing",
+      "question": "Write a piece of advice using 'ought to' for personal growth.",
+      "sentence": "Everyone _____ take time for self-reflection.",
+      "options": [],
+      "correctAnswer": [],
+      "audio": "game_9_ought_personal.mp3",
+      "hint": "'Ought to' suggests what is appropriate or good.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "simulator",
+      "question": "Advice simulator: frame recommendations using 'should' and 'ought to' for various situations.",
+      "sentence": "In this difficult time, you _____ reach out to trusted people.",
+      "options": [],
+      "correctAnswer": [],
+      "audio": "game_10_advice_sim.mp3",
+      "hint": "Choose 'should' for practical advice and 'ought to' for what is right.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Which modal offers practical advice?",
+      "sentence": "You _____ check the weather before going out.",
+      "options": [
+        "should",
+        "ought to",
+        "would",
+        "could"
+      ],
+      "correctAnswer": "should",
+      "audio": "quiz_1_should_practical.mp3",
+      "hint": "'Should' is commonly used for practical guidance.",
+      "difficulty": "easy",
+      "explanation": "'Should' is the standard modal for recommendations and advisable actions."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which modal suggests something is deserved or fitting?",
+      "sentence": "Dedicated employees _____ receive fair compensation.",
+      "options": [
+        "should",
+        "ought to",
+        "would",
+        "shall"
+      ],
+      "correctAnswer": "ought to",
+      "audio": "quiz_2_ought_deserved.mp3",
+      "hint": "'Ought to' often implies what is just or appropriate.",
+      "difficulty": "easy",
+      "explanation": "'Ought to' frequently expresses what is morally right or appropriately deserved."
+    },
+    {
+      "id": "quiz-3",
+      "question": "What past form completes this regret?",
+      "sentence": "I _____ paid more attention in class.",
+      "options": [
+        "should",
+        "ought to",
+        "should have",
+        "would have"
+      ],
+      "correctAnswer": "should have",
+      "audio": "quiz_3_should_have.mp3",
+      "hint": "Use 'should have' for past situations.",
+      "difficulty": "medium",
+      "explanation": "'Should have' discusses what would have been wise or better in a past situation."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which expresses logical expectation?",
+      "sentence": "If they left on time, they _____ be here soon.",
+      "options": [
+        "should",
+        "ought to",
+        "would",
+        "could"
+      ],
+      "correctAnswer": "should",
+      "audio": "quiz_4_logical_should.mp3",
+      "hint": "Use 'should' for what you expect based on logic.",
+      "difficulty": "medium",
+      "explanation": "'Should' expresses reasonable expectations based on circumstances."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which modal negative advises against an action?",
+      "sentence": "You _____ stay up too late on school nights.",
+      "options": [
+        "should",
+        "shouldn't",
+        "would",
+        "couldn't"
+      ],
+      "correctAnswer": "shouldn't",
+      "audio": "quiz_5_shouldnt.mp3",
+      "hint": "'Should not' warns against unwise behavior.",
+      "difficulty": "easy",
+      "explanation": "'Shouldn't' advises against actions that are unwise or unhealthy."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which sentence correctly uses 'ought to' for moral responsibility?",
+      "sentence": "People _____ treat animals with kindness and respect.",
+      "options": [
+        "should",
+        "ought to",
+        "would",
+        "must"
+      ],
+      "correctAnswer": "ought to",
+      "audio": "quiz_6_ought_moral.mp3",
+      "hint": "'Ought to' connects to what is ethically right.",
+      "difficulty": "medium",
+      "explanation": "'Ought to' emphasizes moral obligation or what is ethically appropriate."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Which past form fits this reflection?",
+      "sentence": "They _____ started the project much earlier.",
+      "options": [
+        "should",
+        "ought to",
+        "ought to have",
+        "would"
+      ],
+      "correctAnswer": "ought to have",
+      "audio": "quiz_7_ought_have_past.mp3",
+      "hint": "'Ought to have' is the past form of 'ought to'.",
+      "difficulty": "medium",
+      "explanation": "'Ought to have' expresses regret or acknowledges a past mistake."
+    },
+    {
+      "id": "quiz-8",
+      "question": "What negative past form expresses regret?",
+      "sentence": "I _____ ignored your warnings.",
+      "options": [
+        "should",
+        "ought to",
+        "shouldn't have",
+        "would not"
+      ],
+      "correctAnswer": "shouldn't have",
+      "audio": "quiz_8_shouldnt_have.mp3",
+      "hint": "Use 'shouldn't have' to regret something you did.",
+      "difficulty": "hard",
+      "explanation": "'Shouldn't have' expresses regret for past unwise actions."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which sentence expresses a reasonable assumption?",
+      "sentence": "The package _____ arrive within three business days.",
+      "options": [
+        "should",
+        "ought to",
+        "would",
+        "could"
+      ],
+      "correctAnswer": "should",
+      "audio": "quiz_9_assumption.mp3",
+      "hint": "'Should' signals what reasonably seems likely.",
+      "difficulty": "easy",
+      "explanation": "'Should' expresses a reasonable assumption based on typical circumstances."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Which expresses what is appropriate in formal settings?",
+      "sentence": "Guests _____ arrive on time to a dinner party.",
+      "options": [
+        "should",
+        "ought to",
+        "would",
+        "could"
+      ],
+      "correctAnswer": "should",
+      "audio": "quiz_10_appropriate.mp3",
+      "hint": "'Should' typically indicates what is appropriate or expected.",
+      "difficulty": "medium",
+      "explanation": "'Should' indicates what is socially appropriate or expected behavior."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "should",
+      "hint": "Modal for advice and recommendations.",
+      "clue": "s_o_l_",
+      "sentence": "You _____ always wear a seatbelt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "ought",
+      "hint": "Part of the phrase meaning what is appropriate.",
+      "clue": "_u_h_",
+      "sentence": "They _____ to be home by now.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "advice",
+      "hint": "Guidance or recommendations offered.",
+      "clue": "_d_i_e",
+      "sentence": "Good _____ is worth listening to.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-4",
+      "word": "appropriate",
+      "hint": "Suitable or fitting for a situation.",
+      "clue": "_p_r_p_i_t_",
+      "sentence": "That behavior is not _____ for school.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-5",
+      "word": "expectation",
+      "hint": "What you think will likely happen.",
+      "clue": "_x_e_t_t__n",
+      "sentence": "My _____ is that you'll do well.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-6",
+      "word": "recommendation",
+      "hint": "A suggestion offered as advisable.",
+      "clue": "r_c_mm_n_a_i__",
+      "sentence": "Her _____ was to study harder.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-7",
+      "word": "logical",
+      "hint": "Based on reason or clear thinking.",
+      "clue": "l_g_c_l",
+      "sentence": "That's a _____ conclusion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "deserved",
+      "hint": "Earned or rightfully due.",
+      "clue": "d_s_r_e_",
+      "sentence": "The victory was well _____ by the team.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "regret",
+      "hint": "Feeling of sadness about a past choice.",
+      "clue": "r_g_e_",
+      "sentence": "I feel some _____ about that decision.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-10",
+      "word": "responsibility",
+      "hint": "A duty or obligation.",
+      "clue": "r_s_o_s_b_l__y",
+      "sentence": "Being a good friend is a _____ we all share.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 5,
+      "silver": 12,
+      "gold": 25,
+      "platinum": 50
+    },
+    "badges": [
+      {
+        "id": "advice-novice",
+        "name": "Advice Novice",
+        "condition": "Complete 2 lessons",
+        "icon": "💬",
+        "points": 10
+      },
+      {
+        "id": "recommendation-pro",
+        "name": "Recommendation Pro",
+        "condition": "Score 80% in quizzes",
+        "icon": "🎯",
+        "points": 40
+      },
+      {
+        "id": "wisdom-master",
+        "name": "Wisdom Master",
+        "condition": "Use 'should' and 'ought to' correctly 8 times",
+        "icon": "🧠",
+        "points": 30
+      }
+    ]
+  }
+}

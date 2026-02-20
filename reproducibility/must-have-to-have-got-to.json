@@ -1,0 +1,804 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "MUST – Personal Obligation and Rules!",
+      "content": "<p><strong>'Must'</strong> expresses an obligation imposed by the speaker (yourself or someone else) or states a rule.</p><p><strong>When to use 'Must':</strong></p><ul><li>Personal obligation: The speaker thinks it is necessary</li><li>Rules and laws: It is compulsory or the law</li><li>Strong recommendations: The speaker emphasizes importance</li><li>Logical deduction: Something must be true based on evidence</li></ul><p><strong>Examples:</strong></p><ul><li>I <strong>must</strong> buy flowers for my mother. (I impose this on myself)</li><li>Dogs <strong>must</strong> be kept on a lead. (Written rule on a sign)</li><li>All pupils <strong>must</strong> wear a uniform. (School rule—compulsory)</li><li>You <strong>must</strong> be tired after that long journey! (Logical deduction)</li></ul><p>Note: 'Must' only exists in the present tense. For past and future, use 'have to'.</p>",
+      "examples": [
+        "You must take more exercise. (Doctor's recommendation)",
+        "Cyclists must wear helmets on the road. (The law)",
+        "Julie must be tired. She's had a long journey. (Deduction from evidence)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_must_intro.mp3",
+      "functions": [
+        "Personal obligation and rules",
+        "Strong recommendations",
+        "Logical deduction",
+        "Expressing necessity"
+      ],
+      "tips": "Employ 'must' when you're the one setting the requirement or when stating an official rule. To describe the past, use 'must have been'. There's no future version—use 'will have to' instead."
+    },
+    {
+      "id": "lesson-2",
+      "title": "HAVE TO – External Obligation!",
+      "content": "<p><strong>'Have to'</strong> is used when an obligation comes from an outside source or when obeying a rule/instruction imposed by someone else.</p><p><strong>When to use 'Have To':</strong></p><ul><li>External source: A person or regulation imposes the obligation</li><li>Obeying rules: Following someone else's instructions or regulations</li><li>Duty and compliance: Required by law, employer, or authority</li><li>All tenses: Unlike 'must', 'have to' works in past and future</li></ul><p><strong>Examples:</strong></p><ul><li>I <strong>have to</strong> take more exercise. (The doctor told me it's necessary)</li><li>Do you <strong>have to</strong> wear a uniform at your school? (The school requires it)</li><li>Enzo <strong>has to</strong> wear a suit and tie at work. (Company regulations)</li><li>She <strong>had to</strong> finish the book before the midterm. (Teacher's requirement)</li><li>We <strong>will have to</strong> get a permit to enter the park. (External requirement)</li></ul>",
+      "examples": [
+        "I have to call the travel agency. (My boss asked me to)",
+        "Do you have to fasten your seat belt? (It's the law)",
+        "She had to give a presentation to the class. (The teacher required it)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_have_to_intro.mp3",
+      "functions": [
+        "External obligation",
+        "Authority or regulation imposed",
+        "All tenses (past, present, future)",
+        "Compliance and duty"
+      ],
+      "tips": "Opt for 'have to' when an outside force (person, law, or employer) creates the requirement. Unlike 'must', this form works across every tense: 'had to', 'have to', and 'will have to'."
+    },
+    {
+      "id": "lesson-3",
+      "title": "HAVE GOT TO – Informal Obligation!",
+      "content": "<p><strong>'Have got to'</strong> is an informal, conversational form expressing necessity and obligation. It's most common in British English and is primarily used in the present tense.</p><p><strong>When to use 'Have Got To':</strong></p><ul><li>Present obligation: Current necessity or requirement</li><li>Informal context: More casual than 'have to' or 'must'</li><li>Future obligation: Questions about upcoming requirements</li><li>Emphasis: To emphasize something is important</li></ul><p><strong>Examples:</strong></p><ul><li>I <strong>have got to</strong> be at work by 8:30 AM. (Obligation/necessity)</li><li>Drivers <strong>have got to</strong> get a license to drive. (Requirement)</li><li><strong>Haven't you got to</strong> be there by 7:00? (Question about future obligation)</li><li>People <strong>have got to</strong> be on time if they want a seat. (Necessity for specific outcome)</li></ul><p>For past tense, shift to 'had to'. For strict negation and certainty, prefer 'must not'.</p>",
+      "examples": [
+        "You have got to finish that project today. (Important obligation)",
+        "Haven't they got to arrive by noon? (Question about required time)",
+        "She has got to leave early for an appointment. (Present necessity)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_have_got_to_intro.mp3",
+      "functions": [
+        "Informal present obligation",
+        "Conversational necessity",
+        "Emphasis on importance",
+        "Future obligation questions"
+      ],
+      "tips": "'Have got to' is casual and relaxed. Stick to the present tense mostly. To talk about the past, shift to 'had to'. When you need to sound more forceful and certain, 'must' is a better choice."
+    },
+    {
+      "id": "lesson-4",
+      "title": "MUSTN'T vs DON'T HAVE TO – Prohibition vs No Obligation!",
+      "content": "<p>This is CRITICAL! In the negative form, the meaning changes dramatically!</p><p><strong>'MUSTN'T' = FORBIDDEN / PROHIBITED</strong></p><ul><li>The speaker thinks it is important NOT to do something</li><li>It is prohibited, forbidden, or not allowed</li><li>Strong negative command</li></ul><p><strong>Examples:</strong></p><ul><li>You <strong>mustn't</strong> tell George. (It's important not to tell—forbidden)</li><li>Students <strong>mustn't</strong> talk during the exam. (It is forbidden)</li><li>You <strong>mustn't</strong> park here. (Only residents allowed—prohibited)</li></ul><p><strong>'DON'T HAVE TO' = NOT NECESSARY / OPTIONAL</strong></p><ul><li>It is not necessary or compulsory</li><li>It is your decision—you can do it if you want</li><li>No obligation exists</li></ul><p><strong>Examples:</strong></p><ul><li>You <strong>don't have to</strong> tell George. (You can if you want, but it's not necessary)</li><li>You <strong>don't have to</strong> wear a tie. (Ties are not required, but you can if you like)</li><li>You <strong>don't have to</strong> drive me home. (Not necessary—your choice)</li></ul><p><strong>KEY DIFFERENCE:</strong> Mustn't = Forbidden/Prohibited. Don't have to = Not required/Optional.</p>",
+      "examples": [
+        "You mustn't drink and drive. (It's forbidden—serious prohibition)",
+        "You don't have to finish your plate. (It's okay if you don't—optional)",
+        "Fire fighters must not drink on duty. (Forbidden by regulation) vs. You don't have to work on Sundays. (It's not required)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_4_mustnt_vs_dont.mp3",
+      "functions": [
+        "Expressing prohibition",
+        "Expressing lack of obligation",
+        "Critical distinction in meaning",
+        "Avoiding common mistakes"
+      ],
+      "tips": "Lock this in your mind: 'Mustn't' bars you from doing something entirely. 'Don't have to' simply means it's not your responsibility—you're free to decide."
+    },
+    {
+      "id": "lesson-5",
+      "title": "MUST for Deduction – Logical Certainty!",
+      "content": "<p><strong>'Must'</strong> can also express certainty based on logical deduction and evidence. This is different from expressing obligation.</p><p><strong>When to use 'Must' for Deduction:</strong></p><ul><li>Making logical conclusions: Based on evidence or facts</li><li>Expressing near certainty: Something is probably true</li><li>Deduction from observations: Using available information</li></ul><p><strong>Structure:</strong> Subject + must + (not) be / have been</p><p><strong>Examples:</strong></p><ul><li>Julie <strong>must</strong> be tired. She has had a long journey. (Logical deduction from evidence)</li><li>There's no heat in this room. You <strong>must</strong> be cold. (Deduction from observation)</li><li>Pablo hasn't eaten all day. He <strong>must</strong> be hungry. (Logical conclusion)</li><li>I didn't order these books. There <strong>must</strong> be a mistake. (Deduction from fact)</li><li>That <strong>must</strong> be Jerry. They said he was tall with bright red hair. (Logical identification)</li></ul><p><strong>In the past:</strong> must + have been</p><ul><li>That <strong>must have been</strong> the right restaurant. There are no other restaurants on this street.</li></ul><p>This use of 'must' shows certainty and logical reasoning, not obligation.</p>",
+      "examples": [
+        "She must be the manager—she has a key to the office. (Deduction from evidence)",
+        "They must have been angry. The door was slammed. (Past deduction)",
+        "You must be joking! This can't be serious. (Expression of certainty, amazement)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_5_must_deduction.mp3",
+      "functions": [
+        "Logical deduction",
+        "Expressing certainty",
+        "Making conclusions from evidence",
+        "Past deduction (must have been)"
+      ],
+      "tips": "Lean on 'must' for deduction when the facts make something seem nearly certain. It differs from obligation—here you're drawing conclusions from available clues."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 6–8 sentences describing daily obligations. Use 'must' and 'have to' at least 3 times each to show personal vs external obligations.",
+      "hint": "Example: I must eat healthy, but I have to work late because my boss requires it.",
+      "expectedKeywords": [
+        "must",
+        "have to",
+        "has to",
+        "obligation",
+        "required",
+        "compulsory"
+      ],
+      "sentenceStarters": [
+        "I must...",
+        "I have to...",
+        "My teacher must...",
+        "Students have to..."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write about rules or laws. Use 'must' at least 5 times to express what people must do or must not do according to rules.",
+      "hint": "Example: Cyclists must wear helmets. Passengers must wear seat belts. You mustn't park in disabled spaces.",
+      "expectedKeywords": [
+        "must",
+        "must not",
+        "mustn't",
+        "rule",
+        "law",
+        "forbidden",
+        "compulsory"
+      ],
+      "sentenceStarters": [
+        "All students must...",
+        "You mustn't...",
+        "In this school, we must...",
+        "The law says you must..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Distinguish between 'mustn't' (forbidden) and 'don't have to' (not necessary). Write at least 4 sentences using each form correctly.",
+      "hint": "Example: You mustn't be late for the exam (forbidden). You don't have to bring a calculator (optional).",
+      "expectedKeywords": [
+        "mustn't",
+        "don't have to",
+        "forbidden",
+        "prohibited",
+        "optional",
+        "unnecessary"
+      ],
+      "sentenceStarters": [
+        "You mustn't...",
+        "You don't have to...",
+        "Students mustn't...",
+        "Employees don't have to..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-4",
+      "question": "Use 'have got to' to write 6–8 sentences about urgent or important present obligations. Include at least 4 uses of 'have got to' or 'has got to'.",
+      "hint": "Example: I have got to finish this homework tonight. She has got to arrive by 5 PM.",
+      "expectedKeywords": [
+        "have got to",
+        "has got to",
+        "urgent",
+        "important",
+        "must",
+        "necessary"
+      ],
+      "sentenceStarters": [
+        "I have got to...",
+        "She has got to...",
+        "We have got to...",
+        "Haven't you got to...?"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Write sentences making logical deductions using 'must' (not obligation). Use 'must be', 'must have been', and 'must do' at least 3 times each.",
+      "hint": "Example: She must be tired—she worked all night. That restaurant must be excellent; it's always full of people.",
+      "expectedKeywords": [
+        "must be",
+        "must have been",
+        "deduction",
+        "certainly",
+        "logical",
+        "evidence"
+      ],
+      "sentenceStarters": [
+        "That must be...",
+        "He must be...",
+        "You must have been...",
+        "They must have..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write about past obligations using correct tenses. Use 'had to' at least 4 times and 'must have been' at least 2 times.",
+      "hint": "Example: I had to go to the dentist yesterday. It must have been painful for him.",
+      "expectedKeywords": [
+        "had to",
+        "must have been",
+        "yesterday",
+        "past",
+        "obligation",
+        "required"
+      ],
+      "sentenceStarters": [
+        "I had to...",
+        "We had to...",
+        "She must have been...",
+        "They must have had to..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Write about future obligations using 'will have to' and 'have got to'. Include at least 4 sentences with future time references.",
+      "hint": "Example: Tomorrow, I will have to wake up early. Next week, he has got to finish his project.",
+      "expectedKeywords": [
+        "will have to",
+        "have got to",
+        "tomorrow",
+        "next",
+        "will",
+        "future"
+      ],
+      "sentenceStarters": [
+        "Tomorrow, I will have to...",
+        "Next week, we will have to...",
+        "I have got to... soon",
+        "She will have to..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Compare 'must', 'have to', and 'have got to' in practical contexts. Write 6–8 sentences showing all three forms used naturally.",
+      "hint": "Example: I must finish this work because it's important to me. I have to attend the meeting because my boss requires it. I've got to leave by 5 PM today.",
+      "expectedKeywords": [
+        "must",
+        "have to",
+        "have got to",
+        "personal",
+        "external",
+        "informal"
+      ],
+      "sentenceStarters": [
+        "I must..., but I have to..., and I've got to...",
+        "In this situation, I must...",
+        "My company requires that I..."
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Write a paragraph about school or workplace rules using both 'must' and 'mustn't' at least 5 times to show what is required and what is forbidden.",
+      "hint": "Example: Students must wear uniforms. You mustn't be late. Phones must be off during class. You mustn't speak without permission.",
+      "expectedKeywords": [
+        "must",
+        "mustn't",
+        "rule",
+        "forbidden",
+        "compulsory",
+        "regulation"
+      ],
+      "sentenceStarters": [
+        "In our school, you must...",
+        "Students mustn't...",
+        "All employees must...",
+        "You are not allowed to... (You mustn't...)"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Free writing: Describe a recent situation where you had different obligations. Explain what you must do, what you have to do (because of someone else), and what you don't have to do. Use all modals naturally.",
+      "hint": "Use all forms: 'I must...', 'I have to...', 'I've got to...', 'I don't have to...', 'I mustn't...' in natural context.",
+      "expectedKeywords": [
+        "must",
+        "have to",
+        "have got to",
+        "don't have to",
+        "mustn't",
+        "obligation"
+      ],
+      "sentenceStarters": [
+        "I must do this because...",
+        "I have to do this because...",
+        "I don't have to..., but I can if...",
+        "I mustn't..."
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Which form shows personal obligation or rules?",
+      "sentence": "All employees ____ follow the company's safety guidelines.",
+      "options": [
+        "must",
+        "have to",
+        "have got to",
+        "don't have to",
+        "might"
+      ],
+      "correctAnswer": [
+        "must"
+      ],
+      "audio": "game_1_personal_obligation.mp3",
+      "hint": "Company rules are imposed by the speaker/organization. Use 'must' for rules (Lesson 1)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which form shows external obligation from an authority?",
+      "sentence": "Drivers ____ get a license to drive a car.",
+      "options": [
+        "must",
+        "have to",
+        "have got to",
+        "don't have to",
+        "should"
+      ],
+      "correctAnswer": [
+        "have to"
+      ],
+      "audio": "game_2_external_obligation.mp3",
+      "hint": "The government/law imposes this requirement externally. Use 'have to' (Lesson 2)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Which informal, conversational form expresses present necessity?",
+      "sentence": "I ____ be at work by 8:30 AM every morning.",
+      "options": [
+        "must",
+        "have to",
+        "have got to",
+        "don't have to",
+        "had to"
+      ],
+      "correctAnswer": [
+        "have got to"
+      ],
+      "audio": "game_3_informal_obligation.mp3",
+      "hint": "Conversational and informal present obligation. Use 'have got to' (Lesson 3)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "CRITICAL: Which means FORBIDDEN?",
+      "sentence": "Students ____ cheat on exams. It's prohibited.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "shouldn't",
+        "might not",
+        "aren't allowed to"
+      ],
+      "correctAnswer": [
+        "mustn't"
+      ],
+      "audio": "game_4_forbidden.mp3",
+      "hint": "'Mustn't' = FORBIDDEN. 'Don't have to' = NOT NECESSARY (Lesson 4)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "CRITICAL: Which means NOT NECESSARY?",
+      "sentence": "You ____ wear a tie to the casual event. It's optional.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "shouldn't",
+        "can't",
+        "weren't supposed to"
+      ],
+      "correctAnswer": [
+        "don't have to"
+      ],
+      "audio": "game_5_not_necessary.mp3",
+      "hint": "'Don't have to' = NOT NECESSARY/OPTIONAL. 'Mustn't' = FORBIDDEN (Lesson 4)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which shows logical deduction (not obligation)?",
+      "sentence": "She ____ be exhausted. She worked 12 hours straight!",
+      "options": [
+        "must",
+        "have to",
+        "have got to",
+        "must not",
+        "don't have to"
+      ],
+      "correctAnswer": [
+        "must"
+      ],
+      "audio": "game_6_deduction.mp3",
+      "hint": "Based on evidence (worked 12 hours), logical deduction. Use 'must' for certainty (Lesson 5)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Which correctly expresses past obligation?",
+      "sentence": "I ____ go to the dentist yesterday. It was a scheduled appointment.",
+      "options": [
+        "must",
+        "have to",
+        "had to",
+        "have got to",
+        "must have"
+      ],
+      "correctAnswer": [
+        "had to"
+      ],
+      "audio": "game_7_past_obligation.mp3",
+      "hint": "Past obligation requires 'had to' (Lesson 2 - 'must' has no past form)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Which correctly expresses future obligation?",
+      "sentence": "We ____ submit our reports by Friday. It's a deadline.",
+      "options": [
+        "must",
+        "have to",
+        "will have to",
+        "have got to",
+        "must have been"
+      ],
+      "correctAnswer": [
+        "will have to"
+      ],
+      "audio": "game_8_future_obligation.mp3",
+      "hint": "Future obligation uses 'will have to' (Lesson 2 - 'must' has no future form)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Past deduction: Which correctly shows logical conclusion?",
+      "sentence": "Nobody answered the door. They ____ be home.",
+      "options": [
+        "must not",
+        "have not",
+        "don't have to",
+        "mustn't be",
+        "must not be"
+      ],
+      "correctAnswer": [
+        "must not be"
+      ],
+      "audio": "game_9_past_deduction.mp3",
+      "hint": "Negative deduction: 'must not be'. Different from 'mustn't' (prohibition) (Lesson 5)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Select ALL correct forms for this context: External source imposing obligation.",
+      "sentence": "The government says all drivers ____ wear seat belts.",
+      "options": [
+        "must",
+        "have to",
+        "have got to",
+        "will have to",
+        "should"
+      ],
+      "correctAnswer": [
+        "must",
+        "have to"
+      ],
+      "audio": "game_10_multiple.mp3",
+      "hint": "Both 'must' (rule) and 'have to' (external enforcement) work here (Lesson 1 & 2)",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What does 'must' express primarily?",
+      "sentence": "Students ____ pass the entrance exam to study at this university.",
+      "options": [
+        "must",
+        "have to",
+        "have got to",
+        "don't have to"
+      ],
+      "correctAnswer": "must",
+      "audio": "quiz_1_must_primary.mp3",
+      "hint": "Official requirements and personal mandates call for 'must'.",
+      "difficulty": "easy",
+      "explanation": "University entrance requirements are firm rules that 'must' be followed. This word works for stating what's compulsory."
+    },
+    {
+      "id": "quiz-2",
+      "question": "When do you use 'have to' instead of 'must'?",
+      "sentence": "I ____ attend the meeting because my boss scheduled it.",
+      "options": [
+        "must",
+        "have to",
+        "have got to",
+        "should"
+      ],
+      "correctAnswer": "have to",
+      "audio": "quiz_2_have_to_external.mp3",
+      "hint": "When someone above you makes the rule, that's 'have to'.",
+      "difficulty": "easy",
+      "explanation": "Your boss setting a meeting is an outside source creating the requirement. That's why 'have to' fits here."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which form is informal and conversational for present obligation?",
+      "sentence": "I ____ finish this project today!",
+      "options": [
+        "must",
+        "have to",
+        "have got to",
+        "will have to"
+      ],
+      "correctAnswer": "have got to",
+      "audio": "quiz_3_informal_present.mp3",
+      "hint": "For casual, present-moment requirements, use 'have got to'.",
+      "difficulty": "medium",
+      "explanation": "'Have got to' conveys a relaxed but urgent sense of today's deadline. It's how people naturally speak about pressing present tasks."
+    },
+    {
+      "id": "quiz-4",
+      "question": "CRITICAL: What is the difference between 'mustn't' and 'don't have to'?",
+      "sentence": "You ____ eat that food. It's forbidden by your doctor.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "shouldn't",
+        "haven't got to"
+      ],
+      "correctAnswer": "mustn't",
+      "audio": "quiz_4_mustnt_vs_dont.mp3",
+      "hint": "When someone forbids it (doctor's orders), use 'mustn't'.",
+      "difficulty": "hard",
+      "explanation": "Your doctor explicitly forbids this food, making it prohibited. That prohibition is 'mustn't'. If it were simply optional, you'd say 'don't have to'."
+    },
+    {
+      "id": "quiz-5",
+      "question": "How do you express obligation in the PAST?",
+      "sentence": "I ____ visit my grandmother yesterday. She wasn't feeling well.",
+      "options": [
+        "must",
+        "have to",
+        "had to",
+        "have got to"
+      ],
+      "correctAnswer": "had to",
+      "audio": "quiz_5_past_obligation.mp3",
+      "hint": "'Must' won't work in the past—reach for 'had to'.",
+      "difficulty": "easy",
+      "explanation": "'Must' doesn't exist in past form. To talk about yesterday's obligation to visit, 'had to' is what you need."
+    },
+    {
+      "id": "quiz-6",
+      "question": "How do you express obligation in the FUTURE?",
+      "sentence": "We ____ submit our applications by next Friday.",
+      "options": [
+        "must",
+        "have to",
+        "will have to",
+        "have got to"
+      ],
+      "correctAnswer": "will have to",
+      "audio": "quiz_6_future_obligation.mp3",
+      "hint": "'Must' has no future form—only 'will have to' works.",
+      "difficulty": "easy",
+      "explanation": "For future deadlines and obligations, 'will have to' is your answer. 'Must' simply doesn't have a future tense."
+    },
+    {
+      "id": "quiz-7",
+      "question": "What does 'must' show when used for deduction?",
+      "sentence": "It's 3 PM and he hasn't eaten. He ____ be hungry.",
+      "options": [
+        "must be",
+        "have to be",
+        "should be",
+        "might be"
+      ],
+      "correctAnswer": "must be",
+      "audio": "quiz_7_deduction.mp3",
+      "hint": "Based on the clues you have, make a logical guess. That's 'must be'.",
+      "difficulty": "medium",
+      "explanation": "The facts (it's 3 PM, no food eaten) let you conclude with near certainty. That's how 'must' works for reasoning, not ordering."
+    },
+    {
+      "id": "quiz-8",
+      "question": "How do you express past deduction?",
+      "sentence": "Nobody answered. They ____ be home when I called.",
+      "options": [
+        "must not",
+        "don't have to",
+        "must not be",
+        "wouldn't be"
+      ],
+      "correctAnswer": "must not be",
+      "audio": "quiz_8_past_deduction.mp3",
+      "hint": "Deduction about the past when something couldn't have happened.",
+      "difficulty": "hard",
+      "explanation": "Based on nobody answering, you logically conclude they weren't home. 'Must not be' conveys this deduction. It's reasoning, not giving orders."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which option is NOT necessary but optional?",
+      "sentence": "You ____ bring a gift to the party. It's welcome but not required.",
+      "options": [
+        "mustn't",
+        "must",
+        "don't have to",
+        "have to"
+      ],
+      "correctAnswer": "don't have to",
+      "audio": "quiz_9_optional.mp3",
+      "hint": "When something is optional, say 'don't have to'.",
+      "difficulty": "medium",
+      "explanation": "'Don't have to' signals something is your call to make. A gift is appreciated but not required, making it a choice."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Which correctly makes a negative strong prohibition?",
+      "sentence": "Fire fighters ____ drink alcohol while on duty.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "shouldn't",
+        "might not"
+      ],
+      "correctAnswer": "mustn't",
+      "audio": "quiz_10_prohibition.mp3",
+      "hint": "When the rules explicitly forbid something, 'mustn't' is the answer.",
+      "difficulty": "easy",
+      "explanation": "Regulations strictly forbid drinking while working. That prohibition is precisely what 'mustn't' expresses."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "obligation",
+      "hint": "A duty or responsibility; ____ to do something.",
+      "clue": "o_li_a___n",
+      "sentence": "You have an ____ to finish your homework.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "necessary",
+      "hint": "Required or essential; what must be done.",
+      "clue": "__ces___y",
+      "sentence": "It is ____ to wear a seat belt while driving.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "compulsory",
+      "hint": "Required by law or rule; forced or mandatory.",
+      "clue": "c__pul___y",
+      "sentence": "School uniform is ____ in many British schools.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-4",
+      "word": "external",
+      "hint": "Coming from outside; from an outward source.",
+      "clue": "ex____al",
+      "sentence": "An ____ force imposed the new rules on us.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "prohibition",
+      "hint": "The act of forbidding; what is not allowed.",
+      "clue": "p__ibi___n",
+      "sentence": "The ____ on smoking applies to all employees.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-6",
+      "word": "deduction",
+      "hint": "A logical conclusion based on evidence.",
+      "clue": "d__uc___n",
+      "sentence": "My ____ is that she must be tired based on her behavior.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "informal",
+      "hint": "Casual and conversational; not formal.",
+      "clue": "___orm__",
+      "sentence": "'Have got to' is ____ compared to 'must'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-8",
+      "word": "regulation",
+      "hint": "An official rule or requirement.",
+      "clue": "r__ul___on",
+      "sentence": "The new ____ requires all employees to wear ID badges.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-9",
+      "word": "certainty",
+      "hint": "The state of being absolutely sure.",
+      "clue": "ce____i__",
+      "sentence": "With ____, I can say this rule is important.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "optional",
+      "hint": "Left to one's choice; not required.",
+      "clue": "o__io___",
+      "sentence": "Attending the meeting is ____; it's not compulsory.",
+      "difficulty": "medium"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 15,
+      "silver": 40,
+      "gold": 70,
+      "platinum": 100
+    },
+    "badges": [
+      {
+        "id": "obligation-master",
+        "name": "Obligation Master",
+        "condition": "Complete all lessons",
+        "icon": "🎓",
+        "points": 50
+      },
+      {
+        "id": "must-expert",
+        "name": "Must Expert",
+        "icon": "📚",
+        "condition": "Score 100% on 3 writing activities",
+        "points": 45
+      },
+      {
+        "id": "modal-game-pro",
+        "name": "Obligation Game Pro",
+        "icon": "🎮",
+        "condition": "Complete all games with no mistakes",
+        "points": 48
+      },
+      {
+        "id": "vocabulary-master",
+        "name": "Grammar Vocabulary Master",
+        "icon": "✏️",
+        "condition": "Spell all words correctly on first try",
+        "points": 42
+      },
+      {
+        "id": "speed-specialist",
+        "name": "Speed Specialist",
+        "icon": "⚡",
+        "condition": "Complete 5 activities in under 10 minutes each",
+        "points": 40
+      },
+      {
+        "id": "perfection-seeker",
+        "name": "Obligation Perfectionist",
+        "icon": "🏆",
+        "condition": "Score 100% on all activities",
+        "points": 120
+      },
+      {
+        "id": "distinction-expert",
+        "name": "Distinction Expert",
+        "icon": "🎯",
+        "condition": "Master the critical distinction between 'mustn't' and 'don't have to'",
+        "points": 50
+      },
+      {
+        "id": "deduction-solver",
+        "name": "Deduction Solver",
+        "icon": "🔍",
+        "condition": "Perfect score on deduction-based questions",
+        "points": 44
+      }
+    ]
+  }
+}

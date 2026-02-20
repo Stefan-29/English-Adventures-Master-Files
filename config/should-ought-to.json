@@ -1,0 +1,87 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Should / Ought To",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Should / Ought To: Modals and Usage",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Modals Lessons",
+        "instructions": "Study 'should' and 'ought to' for giving advice, expressing expectations, and logical reasoning about what is appropriate."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Create sentences using 'should' and 'ought to' to provide recommendations and express what seems likely or appropriate."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Participate in interactive games that strengthen your understanding of how and when to use these advisory modals."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Answer brief multiple-choice questions to verify your knowledge of 'should' and 'ought to' usage."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Advice & Modal Challenge",
+        "instructions": "Test your spelling and practical application of 'should' and 'ought to' in real-world contexts."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Should Forms",
+        "words": ["should","should not","shouldn't","should have"]
+      },
+      {
+        "title": "Ought To Forms",
+        "words": ["ought to","ought not","ought to have","deserve"]
+      },
+      {
+        "title": "Advice & Reasoning",
+        "words": ["advice","recommendation","expectation","probability","logical","appropriate"]
+      },
+      {
+        "title": "Functions & Keywords",
+        "words": ["advisability","obligation","reasonable","likely","deduction","deserve"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["You should...","They ought to...","It should...","This ought to..."]
+      },
+      {
+        "title": "Context Words",
+        "words": ["probably","certainly","clearly","reasonably","logically"]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/should-ought-to.json",
+  "grammarChecker": "shouldOughtTo.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner","intermediate","advanced"]
+  }
+}

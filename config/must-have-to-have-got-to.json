@@ -1,0 +1,91 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Must - Have To - Have Got To",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Must - Have To - Have Got To: Obligation and Deduction",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Obligation Modals Lessons",
+        "instructions": "Master the usage of 'Must', 'Have To', and 'Have Got To' to express obligation, necessity, prohibition, and logical deduction."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using must, have to, and have got to in different contexts: obligation, necessity, prohibition, and deduction."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between must, have to, and have got to in real-life situations."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about must, have to, and have got to. Choose the correct answer to practice quickly!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Obligation Challenge",
+        "instructions": "Apply must, have to, and have got to correctly in various contexts and understand their nuanced differences."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Must Forms",
+        "words": ["must", "must not", "mustn't", "must be", "must have been"]
+      },
+      {
+        "title": "Have To Forms",
+        "words": ["have to", "has to", "had to", "will have to", "don't have to", "doesn't have to", "didn't have to", "won't have to"]
+      },
+      {
+        "title": "Have Got To Forms",
+        "words": ["have got to", "has got to", "haven't got to", "hasn't got to", "haven't you got to"]
+      },
+      {
+        "title": "Obligation & Necessity",
+        "words": ["obligation", "necessary", "compulsory", "required", "essential", "mandatory", "imposed", "external"]
+      },
+      {
+        "title": "Functions - Obligation",
+        "words": ["wear", "follow", "obey", "comply", "keep", "fasten", "hand in", "pass", "take", "get"]
+      },
+      {
+        "title": "Functions - Prohibition & Deduction",
+        "words": ["forbidden", "prohibited", "allowed", "permitted", "certain", "deduction", "logical", "evidence"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["I must...", "You have to...", "She has got to...", "We must not...", "You don't have to...", "That must be..."]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/must-have-to-have-got-to.json",
+  "grammarChecker": "mustHaveToHaveGotTo.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

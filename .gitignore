@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.eslintcache
+
+# Build/Output
+dist/
+build/
+.cache/
+*.min.js
+*.min.css
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Old files (legacy structure)
+app.js
+index.html
+server.ps1
+start-server.cmd
+DOWNLOAD_IMAGES.js
+TEST_IMAGE_SERVICE.js
+draft.txt
+
+# Legacy folders
+css/
+config/
+modules/
+assets/
+reproducibility/
+
+# Git
+.git/
+.gitattributes
+
+# Editor
+.editorconfig

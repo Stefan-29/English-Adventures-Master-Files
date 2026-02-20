@@ -1,0 +1,87 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Shall / Will / Would / Had Better",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Shall / Will / Would / Had better: Modals and Usage",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Modals Lessons",
+        "instructions": "Study 'shall', 'will', 'would' and 'had better' for suggestions, promises, conditionals and warnings."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Produce sentences using the target modals in the contexts shown in the lessons."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play interactive activities that reinforce the different modal functions."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Answer short multiple choice questions to check understanding of modal use."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Obligation & Modal Challenge",
+        "instructions": "Practice spelling and application of modal forms in short tasks."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Shall & Formal",
+        "words": ["shall","shall we","shall I","shall not"]
+      },
+      {
+        "title": "Will Forms",
+        "words": ["will","will not","won't","will have to"]
+      },
+      {
+        "title": "Would Forms",
+        "words": ["would","wouldn't","would have","would always"]
+      },
+      {
+        "title": "Had Better",
+        "words": ["had better","better","had better not","warning"]
+      },
+      {
+        "title": "Functions & Keywords",
+        "words": ["suggestion","promise","conditional","warning","recommendation","prediction"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["Shall we...","I will...","If I were..., I would...","You had better..."]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/shall-will-would-had-better.json",
+  "grammarChecker": "shallWillWouldHadBetter.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner","intermediate","advanced"]
+  }
+}

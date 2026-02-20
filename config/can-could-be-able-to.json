@@ -1,0 +1,91 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Can - Could - Be Able To",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Can - Could - Be Able To: Difference and Use",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Can - Could - Be Able To Lessons",
+        "instructions": "Master the usage of 'Can', 'Could', and 'Be Able To' to express ability, permission, possibility, requests, and offers in English."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using can, could, and be able to in different contexts: ability, permission, possibility, requests, and offers."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between can, could, and be able to in real-life situations."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about can, could, and be able to. Choose the correct answer to practice quickly!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Modals Challenge",
+        "instructions": "Apply can, could, and be able to correctly in various contexts and time frames."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Can Forms",
+        "words": ["can", "can't", "cannot", "can not", "could", "couldn't"]
+      },
+      {
+        "title": "Be Able To Forms",
+        "words": ["am able to", "is able to", "are able to", "was able to", "were able to", "will be able to", "won't be able to", "being able to"]
+      },
+      {
+        "title": "Functions - Ability",
+        "words": ["speak", "read", "write", "carry", "run", "see", "hear", "understand", "deal with", "solve", "manage"]
+      },
+      {
+        "title": "Functions - Permission",
+        "words": ["borrow", "use", "take", "leave", "ask", "help", "stay", "drive", "use your phone"]
+      },
+      {
+        "title": "Functions - Possibility",
+        "words": ["be true", "be for me", "order", "become", "happen", "cost", "be impossible"]
+      },
+      {
+        "title": "Time References",
+        "words": ["now", "today", "yesterday", "when I was young", "in my twenties", "one time", "ever", "always"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["I can...", "She can't...", "They could...", "He wasn't able to...", "Will you be able to...?", "Could I...?"]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/can-could-be-able-to.json",
+  "grammarChecker": "canCouldBeAbleTo.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

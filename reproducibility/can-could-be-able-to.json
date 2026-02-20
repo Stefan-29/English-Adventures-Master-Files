@@ -1,0 +1,797 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "CAN – Express Ability, Permission, Possibility, and More!",
+      "content": "<p><strong>'Can'</strong> is one of the most commonly used modal verbs in English. It expresses ability or opportunity, permission, and possibility or impossibility.</p><p><strong>Can</strong> functions:</p><ul><li><strong>Ability:</strong> I can ride a horse.</li><li><strong>Opportunity:</strong> We can stay with my brother when we are in Paris.</li><li><strong>Permission:</strong> She cannot stay out after 10 PM.</li><li><strong>Request:</strong> Can you hand me the stapler?</li><li><strong>Possibility:</strong> Any child can grow up to be president.</li></ul><p>Learn how 'Can' changes in past and future tenses and when to shift to 'could' or 'be able to'.</p>",
+      "examples": [
+        "I can speak Chinese. (present ability)",
+        "She can't swim, but she can dance. (current ability and limitation)",
+        "Can you help me? (polite request for help)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_can_intro.mp3",
+      "functions": [
+        "Present ability",
+        "Permission in present",
+        "Possibility or impossibility",
+        "Polite requests"
+      ],
+      "tips": "Apply 'can' when discussing skills you have in the present moment or what's generally feasible. When recalling past abilities, rely on 'could' for those you practiced repeatedly, or 'was able to' for achievements you accomplished a single time."
+    },
+    {
+      "id": "lesson-2",
+      "title": "COULD – Past Ability, Polite Requests, and Possibilities!",
+      "content": "<p><strong>'Could'</strong> helps you express things that might be true, abilities from your past, along with making thoughtful requests and offering suggestions. It also appears frequently in 'what-if' type sentences.</p><p><strong>Could</strong> functions:</p><ul><li><strong>Past Ability:</strong> I could run ten miles in my twenties.</li><li><strong>Possibility:</strong> Extreme rain could cause the river to flood the city.</li><li><strong>Suggestions:</strong> You could see a movie or go out to dinner.</li><li><strong>Polite Requests:</strong> Could I use your computer to email my boss?</li><li><strong>Conditional:</strong> We could go on the trip if I didn't have to work this weekend.</li></ul>",
+      "examples": [
+        "I could speak Chinese when I was a kid. (past ability)",
+        "Could you post this letter for me? (polite request)",
+        "It could be true – who knows! (possibility)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_could_intro.mp3",
+      "functions": [
+        "Past ability (repeated actions)",
+        "Possibility and speculation",
+        "Polite requests and suggestions",
+        "Conditional sentences"
+      ],
+      "tips": "Important: Never use 'could' for something you managed to do just one time in the past. Choose 'was able to' instead. For example, 'Yesterday, I was able to lift the couch' works better than 'I could lift the couch'."
+    },
+    {
+      "id": "lesson-3",
+      "title": "BE ABLE TO – Flexible Format for Ability!",
+      "content": "<p><strong>'Be able to'</strong> is used to express ability and often replaces 'can' in this function, especially when you need different tense forms.</p><p><strong>Be able to</strong> functions and forms:</p><ul><li><strong>Present:</strong> He is able to deal with difficult customers.</li><li><strong>Past:</strong> She was able to decipher the code. / I wasn't able to reach the top shelf.</li><li><strong>Future:</strong> I will be able to speak Chinese by the time I finish my course.</li><li><strong>One-time past abilities:</strong> With a sudden burst of adrenaline, he was able to lift the car off the child's leg.</li></ul><p>'Be able to' provides flexibility for expressing ability in any tense, which 'can/could' cannot provide on their own.</p>",
+      "examples": [
+        "She's very clever. She was able to decipher the code.",
+        "I'm not able to reach the top shelf. It's too high for me.",
+        "The doctor will be able to understand what she was saying."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_be_able_to_intro.mp3",
+      "functions": [
+        "Expressing ability in any tense",
+        "One-time past achievements",
+        "Future capabilities",
+        "Replacing 'can' when needed"
+      ],
+      "tips": "Lean on 'be able to' when 'can' or 'could' create grammatical problems, or when you require control over specific tenses these simpler forms can't handle."
+    },
+    {
+      "id": "lesson-4",
+      "title": "CAN vs COULD vs BE ABLE TO – Key Differences!",
+      "content": "<p>Recognizing which form fits each situation is vital for writing correct English.</p><table style=\"border-collapse: collapse; margin: 16px auto; width: 100%; max-width: 800px; font-size: 0.9rem;\"><tr style=\"background-color: #f0f0f0;\"><th style=\"border: 1px solid #999; padding: 10px;\">Aspect</th><th style=\"border: 1px solid #999; padding: 10px;\">CAN</th><th style=\"border: 1px solid #999; padding: 10px;\">COULD</th><th style=\"border: 1px solid #999; padding: 10px;\">BE ABLE TO</th></tr><tr><td style=\"border: 1px solid #999; padding: 10px;\"><strong>Present Ability</strong></td><td style=\"border: 1px solid #999; padding: 10px;\">I can swim</td><td style=\"border: 1px solid #999; padding: 10px;\">–</td><td style=\"border: 1px solid #999; padding: 10px;\">I am able to swim</td></tr><tr><td style=\"border: 1px solid #999; padding: 10px;\"><strong>Past General Ability</strong></td><td style=\"border: 1px solid #999; padding: 10px;\">–</td><td style=\"border: 1px solid #999; padding: 10px;\">I could swim as a child</td><td style=\"border: 1px solid #999; padding: 10px;\">–</td></tr><tr><td style=\"border: 1px solid #999; padding: 10px;\"><strong>Past One-time Achievement</strong></td><td style=\"border: 1px solid #999; padding: 10px;\">–</td><td style=\"border: 1px solid #999; padding: 10px;\">NOT Correct</td><td style=\"border: 1px solid #999; padding: 10px;\">He was able to lift the car</td></tr><tr><td style=\"border: 1px solid #999; padding: 10px;\"><strong>Future Ability</strong></td><td style=\"border: 1px solid #999; padding: 10px;\">I can help tomorrow</td><td style=\"border: 1px solid #999; padding: 10px;\">–</td><td style=\"border: 1px solid #999; padding: 10px;\">I will be able to help</td></tr><tr><td style=\"border: 1px solid #999; padding: 10px;\"><strong>Permission (Present)</strong></td><td style=\"border: 1px solid #999; padding: 10px;\">Can I borrow your pen?</td><td style=\"border: 1px solid #999; padding: 10px;\">–</td><td style=\"border: 1px solid #999; padding: 10px;\">–</td></tr><tr><td style=\"border: 1px solid #999; padding: 10px;\"><strong>Polite Request</strong></td><td style=\"border: 1px solid #999; padding: 10px;\">–</td><td style=\"border: 1px solid #999; padding: 10px;\">Could you help me?</td><td style=\"border: 1px solid #999; padding: 10px;\">–</td></tr><tr><td style=\"border: 1px solid #999; padding: 10px;\"><strong>Possibility</strong></td><td style=\"border: 1px solid #999; padding: 10px;\">Anyone can become rich</td><td style=\"border: 1px solid #999; padding: 10px;\">It could be true</td><td style=\"border: 1px solid #999; padding: 10px;\">–</td></tr></table>",
+      "examples": [
+        "I can speak English now. (present skill) vs. I was able to speak English after one year of practice. (one-time past result)",
+        "She could play the violin as a child. (familiar past habit) vs. Yesterday, she was able to remember all the songs. (singular past achievement)",
+        "Can you help me? (direct request) vs. Could you help me? (respectful request)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_4_comparison.mp3",
+      "functions": [
+        "Choosing correct form for tense",
+        "Understanding past ability nuances",
+        "Distinguishing general ability from one-time achievements",
+        "Formal vs. informal requests"
+      ],
+      "tips": "REMEMBER THIS: Pick 'was/were able to' when you accomplished something a single time in the past. Reserve 'could' for describing abilities you carried with you regularly or general skills from your past."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Important Comparison: 'Could Not' vs 'Might NOT'",
+      "content": "<p>Many English learners confuse these two negative forms, but they have very different meanings!</p><ul><li><strong>'Could not'</strong> (couldn't) → suggests that something is <strong>IMPOSSIBLE</strong>. It's definitely not possible.</li><li><strong>'Might not'</strong> → suggests you <strong>DO NOT KNOW</strong> if something happens. It's uncertain.</li></ul><p><strong>Examples:</strong></p><ul><li>\"Jack <strong>might not</strong> have the key.\" → Maybe he does have it, maybe he doesn't. <strong>Uncertain.</strong></li><li>\"Jack <strong>couldn't</strong> have the key.\" → It is impossible that he has the key. <strong>Definitely not.</strong></li></ul><p>This distinction is crucial for expressing certainty vs. uncertainty accurately.</p>",
+      "examples": [
+        "The shop couldn't be closed – it's only 3 PM! (impossible; the shop is definitely open)",
+        "The shop might not be open – it could be closed for lunch. (possible but uncertain)",
+        "You couldn't be serious! (impossible; you must be joking)",
+        "You might not be serious. (uncertain; maybe you are, maybe you aren't)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_5_could_vs_might.mp3",
+      "functions": [
+        "Expressing impossibility",
+        "Expressing uncertainty",
+        "Avoiding ambiguous statements",
+        "Precise modal usage"
+      ],
+      "tips": "Don't mix these up: 'Couldn't' signals something cannot or definitely won't happen. 'Might not' reveals genuine uncertainty about whether something will occur."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 6–8 sentences about your personal abilities and limitations. Use 'can' and 'can't' (or 'cannot') for present abilities. Include at least 4 ability statements.",
+      "hint": "Example: I can speak English fluently, but I can't speak Japanese.",
+      "expectedKeywords": [
+        "can",
+        "can't",
+        "cannot",
+        "I",
+        "speak",
+        "able"
+      ],
+      "sentenceStarters": [
+        "I can ___",
+        "I can't ___",
+        "I cannot ___"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write about something you could do when you were younger. Use 'could' for past general ability. Write at least 5 sentences using 'could' and 'couldn't'.",
+      "hint": "Example: When I was a child, I could run very fast, but I couldn't swim well.",
+      "expectedKeywords": [
+        "could",
+        "couldn't",
+        "when I was",
+        "young",
+        "child",
+        "able"
+      ],
+      "sentenceStarters": [
+        "When I was young, I could ___",
+        "I couldn't ___",
+        "My parents could ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Describe a time when you successfully accomplished something difficult (past one-time achievement). Use 'was/were able to' at least 4 times. Explain how you felt.",
+      "hint": "Example: Yesterday, I was able to finish the project before the deadline. I was very proud!",
+      "expectedKeywords": [
+        "was able to",
+        "were able to",
+        "wasn't able to",
+        "achieved",
+        "succeeded",
+        "managed"
+      ],
+      "sentenceStarters": [
+        "I was able to ___",
+        "We were able to ___",
+        "She wasn't able to ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-4",
+      "question": "Write 6–8 sentences asking for permission and making polite requests. Use 'Can I...?', 'Could I...?', 'Can you...?', and 'Could you...?' at least 3 times each.",
+      "hint": "Example: Can I borrow your pen? Could you help me with this? Can I ask you something?",
+      "expectedKeywords": [
+        "can I",
+        "could I",
+        "can you",
+        "could you",
+        "borrow",
+        "help",
+        "ask"
+      ],
+      "sentenceStarters": [
+        "Can I ___?",
+        "Could I ___?",
+        "Can you ___?",
+        "Could you ___?"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Write about your abilities in the future. Use 'will be able to' and 'won't be able to' at least 4 times to describe what you will or won't be able to do in 5 years.",
+      "hint": "Example: In 5 years, I will be able to speak three languages fluently. I won't be able to do everything I want.",
+      "expectedKeywords": [
+        "will be able to",
+        "won't be able to",
+        "future",
+        "in 5 years",
+        "will"
+      ],
+      "sentenceStarters": [
+        "In the future, I will be able to ___",
+        "I will be able to ___",
+        "I probably won't be able to ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write a paragraph describing possibilities and impossibilities in a given situation. Use 'can', 'could', and 'can't' to express possibility and impossibility. Include at least 6 statements.",
+      "hint": "Example: It could be raining outside, or it could be sunny. It can't be snowing in July!",
+      "expectedKeywords": [
+        "can",
+        "could",
+        "can't",
+        "could be",
+        "possibility",
+        "impossible"
+      ],
+      "sentenceStarters": [
+        "It could be ___",
+        "It can't be ___",
+        "They could ___",
+        "She can ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Compare your present abilities with your past abilities. Use both 'can' (present) and 'could' (past) at least 4 times each. Explain the differences.",
+      "hint": "Example: I can swim fast now, but when I was young, I could only swim slowly. I can drive a car now, but I couldn't drive 5 years ago.",
+      "expectedKeywords": [
+        "can",
+        "could",
+        "now",
+        "then",
+        "past",
+        "present"
+      ],
+      "sentenceStarters": [
+        "I can ___ now, but I couldn't ___",
+        "She can ___ now, whereas she could only ___"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-8",
+      "question": "Write about overcoming a challenge or difficulty. Use 'wasn't/weren't able to' at first, then 'was/were able to' for the success. Include at least 4 examples.",
+      "hint": "Example: At first, I wasn't able to understand the concept, but after studying hard, I was able to master it.",
+      "expectedKeywords": [
+        "wasn't able to",
+        "weren't able to",
+        "was able to",
+        "finally",
+        "eventually",
+        "overcome"
+      ],
+      "sentenceStarters": [
+        "At first, I wasn't able to ___",
+        "Eventually, I was able to ___",
+        "We weren't able to ___, but finally we were able to ___"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Distinguish between 'couldn't' (impossible) and 'might not' (uncertain) in your writing. Write at least 4 sentences using each form to show the difference in meaning.",
+      "hint": "Example: He couldn't be home now – it's only 9 AM! vs. He might not be home now – he could be at work.",
+      "expectedKeywords": [
+        "couldn't",
+        "might not",
+        "impossible",
+        "uncertain",
+        "must",
+        "could be"
+      ],
+      "sentenceStarters": [
+        "He couldn't ___",
+        "She might not ___",
+        "It couldn't be ___"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Free writing: Write a story or scenario using all three forms (can, could, be able to) naturally. Include present abilities, past abilities, and future possibilities. Aim for at least 10 sentences.",
+      "hint": "Mix various contexts: present abilities, past memories, future plans, permissions, requests, and possibilities.",
+      "expectedKeywords": [
+        "can",
+        "could",
+        "able",
+        "will",
+        "present",
+        "past"
+      ],
+      "sentenceStarters": [
+        "I can ___",
+        "I could always ___",
+        "will be able to ___",
+        "When I was ___"
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Which form expresses present ability?",
+      "sentence": "I ____ speak three languages.",
+      "options": [
+        "can",
+        "could",
+        "will be able to",
+        "was able to",
+        "could have"
+      ],
+      "correctAnswer": [
+        "can"
+      ],
+      "audio": "present_ability.mp3",
+      "hint": "For abilities right now, use 'can' (Lesson 1)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which form expresses repeated past ability?",
+      "sentence": "When I was young, I ____ run very fast.",
+      "options": [
+        "can",
+        "could",
+        "was able to",
+        "am able to",
+        "will be able to"
+      ],
+      "correctAnswer": [
+        "could"
+      ],
+      "audio": "past_repeated_ability.mp3",
+      "hint": "For repeated past abilities, use 'could' (Lesson 2)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Which form for a one-time past achievement?",
+      "sentence": "With great effort, he ____ lift the heavy box yesterday.",
+      "options": [
+        "can",
+        "could",
+        "was able to",
+        "can be",
+        "could be"
+      ],
+      "correctAnswer": [
+        "was able to"
+      ],
+      "audio": "one_time_achievement.mp3",
+      "hint": "For one-time past successes, use 'was able to', NOT 'could' (Lesson 3)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Which form expresses permission in a polite way?",
+      "sentence": "____ I borrow your pen?",
+      "options": [
+        "Can",
+        "Could",
+        "Can I would",
+        "Will be able to",
+        "Should"
+      ],
+      "correctAnswer": [
+        "Could"
+      ],
+      "audio": "polite_permission.mp3",
+      "hint": "'Could' is more polite than 'Can' for requests (Lesson 2)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Which form expresses possibility?",
+      "sentence": "That parcel ____ be for me – I'm expecting one.",
+      "options": [
+        "can",
+        "could",
+        "must",
+        "should",
+        "will"
+      ],
+      "correctAnswer": [
+        "could"
+      ],
+      "audio": "possibility.mp3",
+      "hint": "'Could' expresses possibility or speculation (Lesson 2)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which form is impossible?",
+      "sentence": "You ____ be 45! I thought you were about 18 years old.",
+      "options": [
+        "can",
+        "could",
+        "can't",
+        "could not be",
+        "might not"
+      ],
+      "correctAnswer": [
+        "can't"
+      ],
+      "audio": "impossibility.mp3",
+      "hint": "'Can't' shows impossibility. Use 'might not' for uncertainty (Lesson 5)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Choose the CORRECT form for a one-time past success:",
+      "sentence": "During the fire, Mrs. Johnson ____ contact the emergency services.",
+      "options": [
+        "could",
+        "was able to",
+        "has been able to",
+        "could have been able to",
+        "can"
+      ],
+      "correctAnswer": [
+        "was able to"
+      ],
+      "audio": "emergency_contact.mp3",
+      "hint": "One-time past achievement = 'was able to' (Lesson 3 & 4)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "'Could not' vs. 'Might not' – Choose the correct meaning:",
+      "sentence": "The shop ____ be closed – it's opening time!",
+      "options": [
+        "could not",
+        "might not",
+        "will not",
+        "cannot",
+        "may not"
+      ],
+      "correctAnswer": [
+        "could not"
+      ],
+      "audio": "shop_closed.mp3",
+      "hint": "'Could not' = IMPOSSIBLE. 'Might not' = UNCERTAIN (Lesson 5)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Which expresses future ability?",
+      "sentence": "After this training, I ____ perform the task professionally.",
+      "options": [
+        "can",
+        "could",
+        "will be able to",
+        "was able to",
+        "able to"
+      ],
+      "correctAnswer": [
+        "will be able to"
+      ],
+      "audio": "future_ability.mp3",
+      "hint": "For future ability, use 'will be able to' (Lesson 3 & 4)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Select ALL correct forms to complete the sentence (multiple achievement levels):",
+      "sentence": "She ____ solve mathematical problems since she was a child.",
+      "options": [
+        "can",
+        "could",
+        "has been able to",
+        "was able to",
+        "will be able to"
+      ],
+      "correctAnswer": [
+        "can",
+        "has been able to"
+      ],
+      "audio": "solve_problems.mp3",
+      "hint": "Present and past continuous ability (Lesson 1 & 3)",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What does 'can' express in the present?",
+      "sentence": "I ____ speak three languages fluently.",
+      "options": [
+        "can",
+        "could",
+        "will be able to",
+        "was able to"
+      ],
+      "correctAnswer": "can",
+      "audio": "quiz_1_present_ability.mp3",
+      "hint": "When describing your current skills, choose 'can'.",
+      "difficulty": "easy",
+      "explanation": "To talk about talents and skills you possess right now, 'can' is your choice. Saying 'I can speak three languages' communicates your present-day proficiency."
+    },
+    {
+      "id": "quiz-2",
+      "question": "When should you use 'was able to' instead of 'could'?",
+      "sentence": "With great effort, he ____ lift the heavy box yesterday.",
+      "options": [
+        "can",
+        "could",
+        "was able to",
+        "will be able to"
+      ],
+      "correctAnswer": "was able to",
+      "audio": "quiz_2_one_time_past.mp3",
+      "hint": "'Could' covers habits you had before; 'was able to' covers single accomplishments.",
+      "difficulty": "medium",
+      "explanation": "'Could' only fits when you're talking about skills from your past that happened regularly. When you managed something just once, 'was able to' is correct. For yesterday's couch-lifting achievement, say 'was able to' not 'could'."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which form makes this request MOST polite?",
+      "sentence": "____ you help me with this?",
+      "options": [
+        "Can",
+        "Could",
+        "Will",
+        "Should"
+      ],
+      "correctAnswer": "Could",
+      "audio": "quiz_3_polite_request.mp3",
+      "hint": "'Could' feels gentler and more respectful than the direct nature of 'can'.",
+      "difficulty": "easy",
+      "explanation": "'Could' has a softer, more thoughtful quality compared to 'can', which comes off as straightforward. Phrasing your request as 'Could you help me?' shows more respect than 'Can you help me?'"
+    },
+    {
+      "id": "quiz-4",
+      "question": "What is the key difference between 'couldn't' and 'might not'?",
+      "sentence": "The store ____ be closed - it's only noon!",
+      "options": [
+        "couldn't",
+        "might not",
+        "won't",
+        "cannot be"
+      ],
+      "correctAnswer": "couldn't",
+      "audio": "quiz_4_couldnt_vs_might.mp3",
+      "hint": "When something is ruled out, use 'couldn't'. When you're simply unsure, use 'might not'.",
+      "difficulty": "hard",
+      "explanation": "'Couldn't' tells us something is ruled out or cannot be true. 'Might not' means you don't have enough info to decide. A store definitely has to be open at noon, so it 'couldn't' be closed."
+    },
+    {
+      "id": "quiz-5",
+      "question": "How do you express repeated past ability?",
+      "sentence": "When I was young, I ____ run very fast.",
+      "options": [
+        "can",
+        "could",
+        "was able to",
+        "will be able to"
+      ],
+      "correctAnswer": "could",
+      "audio": "quiz_5_past_ability.mp3",
+      "hint": "'Could' describes habitual or repeated abilities in the past, like general skills you had as a child.",
+      "difficulty": "easy",
+      "explanation": "'Could' is used for repeated past abilities—skills or talents you had regularly. 'I could run fast' means this was a general ability in childhood."
+    },
+    {
+      "id": "quiz-6",
+      "question": "What verb form expresses future ability?",
+      "sentence": "After this training, I ____ perform the task professionally.",
+      "options": [
+        "can",
+        "could",
+        "will be able to",
+        "am able to"
+      ],
+      "correctAnswer": "will be able to",
+      "audio": "quiz_6_future_ability.mp3",
+      "hint": "'Be able to' provides flexibility for future tenses. 'Will be able to' = future capability.",
+      "difficulty": "easy",
+      "explanation": "For future ability, use 'will be able to'. This form bridges the gap where 'can' doesn't naturally work in future contexts."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Which form shows present permission?",
+      "sentence": "I ____ borrow your pen? (asking permission)",
+      "options": [
+        "can",
+        "could",
+        "will be able to",
+        "am able to"
+      ],
+      "correctAnswer": "can",
+      "audio": "quiz_7_permission.mp3",
+      "hint": "'Can' is used for asking permission in present situations ('Can I borrow your pen?').",
+      "difficulty": "easy",
+      "explanation": "'Can' is the standard form for requesting or granting permission in the present. 'Can I leave early?' is the natural way to ask."
+    },
+    {
+      "id": "quiz-8",
+      "question": "What expresses possibility or speculation?",
+      "sentence": "That parcel ____ be for me – I'm expecting one.",
+      "options": [
+        "can",
+        "could",
+        "must",
+        "will"
+      ],
+      "correctAnswer": "could",
+      "audio": "quiz_8_possibility.mp3",
+      "hint": "'Could' expresses possibility or things that might be true but you're not certain.",
+      "difficulty": "medium",
+      "explanation": "'Could' is used for speculation and possibility. 'Could be' suggests it's possible but uncertain. Different from 'must be' (certainty) or 'will be' (plan)."
+    },
+    {
+      "id": "quiz-9",
+      "question": "How do you express inability in the past?",
+      "sentence": "I ____ understand the concept at first.",
+      "options": [
+        "couldn't",
+        "can't",
+        "won't be able to",
+        "might not"
+      ],
+      "correctAnswer": "couldn't",
+      "audio": "quiz_9_past_inability.mp3",
+      "hint": "'Couldn't' expresses inability or lack of ability in the past period.",
+      "difficulty": "easy",
+      "explanation": "'Couldn't' shows lack of ability in the past. 'I couldn't understand' = I lacked the ability to understand at that time."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Which correctly compares present and past abilities?",
+      "sentence": "I ____ speak English now, but when I was young, I ____ speak only my native language.",
+      "options": [
+        "can / could",
+        "could / can",
+        "will be able to / could",
+        "am able to / could"
+      ],
+      "correctAnswer": "can / could",
+      "audio": "quiz_10_comparison.mp3",
+      "hint": "Present: 'can'. Past repeated ability: 'could'. Use present tense for now.",
+      "difficulty": "medium",
+      "explanation": "Use 'can' for present abilities and 'could' for past habitual abilities. This shows the contrast between current and historical capability."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "ability",
+      "hint": "The power to do something; what you ____ do.",
+      "clue": "a___i__",
+      "sentence": "Swimming is a useful ____ to have.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "permission",
+      "hint": "Can I have ___? (asking for approval)",
+      "clue": "___mi___on",
+      "sentence": "You need ____ from the teacher to leave.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "possibility",
+      "hint": "Could = expresses ___",
+      "clue": "____ibi____",
+      "sentence": "Is there a ____ it might rain tomorrow?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-4",
+      "word": "opportunity",
+      "hint": "Can = ability or ___",
+      "clue": "____r___i__",
+      "sentence": "I had the ____ to travel last summer.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-5",
+      "word": "request",
+      "hint": "Could you...? = polite ___",
+      "clue": "___ue__",
+      "sentence": "Can you help me? This is a ___.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-6",
+      "word": "achievement",
+      "hint": "Past one-time success or ___",
+      "clue": "a_hi__e____",
+      "sentence": "Finishing the race was a great ___.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "impossible",
+      "hint": "'Couldn't' shows something is ___",
+      "clue": "____ssib__",
+      "sentence": "It is ____ for me to be in two places at once.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-8",
+      "word": "uncertain",
+      "hint": "'Might not' expresses being ___",
+      "clue": "_____ta__",
+      "sentence": "The outcome is ____ – we just don't know.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "efficient",
+      "hint": "Being able to do something well and ___",
+      "clue": "___ici___",
+      "sentence": "A skilled worker is ____ and productive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "repetition",
+      "hint": "'Could' shows habitual past ability through ___",
+      "clue": "r____i__on",
+      "sentence": "Practice through ____ helps master skills.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 15,
+      "silver": 40,
+      "gold": 70,
+      "platinum": 100
+    },
+    "badges": [
+      {
+        "id": "modal-explorer",
+        "name": "Modal Verbs Explorer",
+        "condition": "Complete all lessons",
+        "icon": "🎓",
+        "points": 50
+      },
+      {
+        "id": "ability-master",
+        "name": "Ability Master",
+        "icon": "💪",
+        "condition": "Score 100% on 3 writing activities",
+        "points": 45
+      },
+      {
+        "id": "modal-game-champion",
+        "name": "Modal Game Champion",
+        "icon": "🎮",
+        "condition": "Complete all games with no mistakes",
+        "points": 48
+      },
+      {
+        "id": "vocabulary-pro",
+        "name": "Modal Vocabulary Pro",
+        "icon": "✏️",
+        "condition": "Spell all words correctly on first try",
+        "points": 42
+      },
+      {
+        "id": "quick-learner",
+        "name": "Quick Learner",
+        "icon": "⚡",
+        "condition": "Complete 5 activities in under 10 minutes each",
+        "points": 40
+      },
+      {
+        "id": "modal-perfectionist",
+        "name": "Modal Perfectionist",
+        "icon": "🏆",
+        "condition": "Score 100% on all activities",
+        "points": 120
+      },
+      {
+        "id": "permission-expert",
+        "name": "Permission & Request Expert",
+        "icon": "🤝",
+        "condition": "Master all permission and polite request forms",
+        "points": 38
+      },
+      {
+        "id": "impossibility-solver",
+        "name": "Impossibility Solver",
+        "icon": "🔍",
+        "condition": "Correctly distinguish 'couldn't' from 'might not' in 10 questions",
+        "points": 44
+      }
+    ]
+  }
+}
