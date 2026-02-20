@@ -87,9 +87,29 @@ const App = {
             });
     },
 
+    // ———————————————————— GET GROUP FOR MODULE ————————————————————
+    // ADD GROUPS HERE TO AUTOMATICALLY ORGANIZE MODULES IN THE UI. NEW MODULES DEFAULT TO "Other" GROUP.
+    getGroup: function (moduleName) {
+        // Define groups here. Add new groups or modify existing ones as needed.
+        // Format: "Group Name": ["module-id-1", "module-id-2", ...]
+        const groups = {
+            "Tenses": ['future-perfect', 'future-tenses', 'past-perfect', 'past-tenses', 'present-perfect', 'present-tenses'],
+            "Modals": ['can-could-be-able-to', 'must-have-to-have-got-to', 'shall-will-would-had-better', 'should-ought-to', 'may-might']
+        };
+        for (const [group, modules] of Object.entries(groups)) {
+            if (modules.includes(moduleName)) return group;
+        }
+        return 'Other'; // Default group for new modules
+    },
+
     // ———————————————————— LOAD ALL GRAMMAR MODULES ————————————————————
     loadGrammarModules: function () {
-        const moduleNames = ['can-could-be-able-to','must-have-to-have-got-to','shall-will-would-had-better','should-ought-to','may-might']; // Add new ones here
+        //ADD NEW MODULES TO THIS ARRAY TO HAVE THEM AUTOMATICALLY 
+        // LOADED AND APPEAR IN THE UI. 
+        // MAKE SURE TO ALSO CREATE A CORRESPONDING 
+        // CONFIG JSON FILE IN THE config/ FOLDER WITH 
+        // THE SAME NAME.
+        const moduleNames = ['can-could-be-able-to','must-have-to-have-got-to','shall-will-would-had-better','should-ought-to','may-might','future-perfect','future-tenses','past-perfect','past-tenses','present-perfect','present-tenses']; // Add new ones here
         const promises = moduleNames.map(name => {
             const configPath = `config/${name}.json`;
             return fetch(configPath)
@@ -102,7 +122,8 @@ const App = {
                     name: config.siteSettings.title.replace('English Adventures: ', ''),
                     configPath,
                     dataFile: config.dataFile,
-                    grammarChecker: config.grammarChecker
+                    grammarChecker: config.grammarChecker,
+                    group: this.getGroup(name)
                 }));
         });
         return Promise.all(promises);
@@ -118,25 +139,54 @@ const App = {
 
         container.innerHTML = '';
 
-        this.grammarModules.forEach((mod, i) => {
-            const btn = document.createElement('button');
-            btn.className = 'grammar-btn';
-            if (i === 0) btn.classList.add('active');
-            btn.textContent = mod.name;
-            btn.dataset.id = mod.id;
-
-            // Use onclick + capture phase = NEVER gets removed
-            btn.onclick = (e) => {
-                e.stopPropagation();
-                e.preventDefault();
-                console.log('Grammar button clicked:', mod.name); // ← YOU WILL SEE THIS NOW
-                this.switchGrammar(mod);
-            };
-
-            container.appendChild(btn);
+        // Group modules by their group
+        const grouped = {};
+        this.grammarModules.forEach(mod => {
+            if (!grouped[mod.group]) grouped[mod.group] = [];
+            grouped[mod.group].push(mod);
         });
 
-        console.log('Grammar buttons rendered with permanent listeners');
+        // Define group order
+        const groupOrder = ['Tenses', 'Modals', 'Other'];
+
+        // Render each group in order
+        groupOrder.forEach((groupName) => {
+            if (!grouped[groupName]) return; // Skip if no modules in this group
+
+            const groupDiv = document.createElement('div');
+            groupDiv.className = 'grammar-group';
+
+            const groupTitle = document.createElement('h4');
+            groupTitle.className = 'grammar-group-title';
+            groupTitle.textContent = groupName;
+            groupDiv.appendChild(groupTitle);
+
+            const buttonsDiv = document.createElement('div');
+            buttonsDiv.className = 'grammar-group-buttons';
+
+            grouped[groupName].forEach((mod, i) => {
+                const btn = document.createElement('button');
+                btn.className = 'grammar-btn';
+                // Set active if it's the first module overall
+                if (groupName === groupOrder[0] && i === 0) btn.classList.add('active');
+                btn.textContent = mod.name;
+                btn.dataset.id = mod.id;
+
+                btn.onclick = (e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    console.log('Grammar button clicked:', mod.name);
+                    this.switchGrammar(mod);
+                };
+
+                buttonsDiv.appendChild(btn);
+            });
+
+            groupDiv.appendChild(buttonsDiv);
+            container.appendChild(groupDiv);
+        });
+
+        console.log('Grammar buttons rendered with groups');
     },
     // ———————————————————— SWITCH GRAMMAR ————————————————————
     switchGrammar: function (moduleInfo) {
