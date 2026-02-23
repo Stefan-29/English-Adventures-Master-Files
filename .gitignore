@@ -51,11 +51,11 @@ TEST_IMAGE_SERVICE.js
 draft.txt
 
 # Legacy folders
-css/
-config/
-modules/
-assets/
-reproducibility/
+# css/
+# config/
+# modules/
+# assets/
+# reproducibility/
 
 # Git
 .git/

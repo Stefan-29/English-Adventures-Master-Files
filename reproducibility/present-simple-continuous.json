@@ -1,0 +1,1366 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Present Simple – Your Daily Superpower! 🎯",
+            "content": "<p>Every time you say “I wake up at 7,” “The sun rises in the east,” or “She hates spiders,” you’re using the <strong>Present Simple</strong>! 📚</p><p><strong>Present Simple</strong> = the tense we use for habits, facts, and things that are generally true.</p><p><strong>Formation</strong>: base verb (+ -s / -es for he/she/it). Think of it like a timetable – fixed and reliable:</p><ul><li>I/You/We/They <strong>play</strong></li><li>He/She/It <strong>plays</strong></li></ul><p><em>Fun fact: We add -es to verbs ending in -s, -sh, -ch, -x, -o (go → goes, watch → watches)!</em> 💡</p>",
+            "examples": [
+                "John <strong>plays</strong> tennis every Saturday. (habit)",
+                "Water <strong>boils</strong> at 100°C. (fact)"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_intro.mp3",
+            "functions": [
+                "Talking about routines and habits",
+                "Stating general truths and facts"
+            ],
+            "tips": "💡 <strong>Quick Rule:</strong> If it’s a habit or always true → Present Simple. If it’s happening RIGHT NOW → wait for Lesson 5!"
+        },
+        {
+            "id": "lesson-2",
+            "title": "Present Simple Questions & Negatives 🚀",
+            "content": "<p>Now let’s ask and say “no”! 🎮 We need <strong>do/does</strong> as helpers.</p><p><strong>Formation:</strong></p><ul><li>Question: <strong>Do/Does</strong> + subject + base verb?</li><li>Negative: Subject + <strong>don’t/doesn’t</strong> + base verb</li></ul><p><em>Example:</em> She likes coffee → <strong>Does</strong> she <strong>like</strong> coffee? → She <strong>doesn’t like</strong> tea.</p><p><em>Fun fact: Native speakers almost always use contractions: don’t / doesn’t!</em> 🌟</p>",
+            "examples": [
+                "Positive: He <strong>plays</strong> football.",
+                "Negative: He <strong>doesn’t play</strong> rugby.",
+                "Question: <strong>Does</strong> he <strong>play</strong> basketball?"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_2_questions.mp3",
+            "functions": [
+                "Asking about habits and facts",
+                "Denying or correcting information"
+            ],
+            "tips": "💡 <strong>Memory trick:</strong> He/she/it → the verb gets the -s, but the helper is <strong>does</strong>!"
+        },
+        {
+            "id": "lesson-3",
+            "title": "When Do We Actually Use Present Simple? 🌟",
+            "content": "<p>Time to see the 8 real-life jobs of Present Simple! ✨</p><p><strong>We use it for:</strong></p><ol><li>Habits & routines</li><li>Tastes (like, love, hate)</li><li>Facts & general truths</li><li>Instructions/directions</li><li>Fixed future arrangements (timetables)</li><li>Narration & storytelling (informal)</li><li>Quoting authors</li><li>Stative verbs (be, have, know, believe…)</li></ol><p><em>Fun fact: Sports commentators LOVE Present Simple: “Messi receives the ball, he runs, he shoots… GOAL!”</em> 🎨</p>",
+            "examples": [
+                "The train <strong>leaves</strong> at 8:30 tomorrow. (timetable)",
+                "First you <strong>turn</strong> left, then you <strong>walk</strong> 200m. (directions)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_uses.mp3",
+            "functions": [
+                "Covering multiple real-life situations",
+                "Understanding stative vs dynamic verbs"
+            ],
+            "tips": "💡 <strong>Decision point:</strong> Is it a fact, habit, or timetable? → Present Simple. Is it happening RIGHT NOW? → Present Continuous!"
+        },
+        {
+            "id": "lesson-4",
+            "title": "Present Simple vs Present Continuous – The Big Showdown ⚡",
+            "content": "<p>Here’s the #1 confusion for learners! 🤔</p><table style=\"border-collapse: collapse; margin: 16px auto; width: 100%; max-width: 600px; font-size: 0.95rem;\"><tr><th style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Present Simple</th><th style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Present Continuous</th></tr><tr><td style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Habits &amp; facts<br><em>I <strong>work</strong> in London.</em></td><td style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Actions happening NOW<br><em>I <strong>am working</strong> from home today.</em></td></tr><tr><td style=\"border: 1px solid #999; padding: 10px; text-align: center;\">States (like, know, have)<br><em>I <strong>like</strong> chocolate.</em></td><td style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Temporary situations<br><em>I <strong>am staying</strong> with friends this week.</em></td></tr></table><p><strong>The secret:</strong> Ask “Is it permanent/general or temporary/right now?”</p><p><strong>Common mistake:</strong> ❌ I am liking this song → ✅ I <strong>like</strong> this song</p>",
+            "examples": [
+                "Simple: She <strong>lives</strong> in Paris. → Continuous: She <strong>is living</strong> in Paris this year.",
+                "Wrong vs Right: ❌ He is having a car. → ✅ He <strong>has</strong> a car."
+            ],
+            "difficulty": 2,
+            "audio": "lesson_4_contrast.mp3",
+            "functions": [
+                "Choosing correctly between the two tenses",
+                "Avoiding the most common error"
+            ],
+            "tips": "💡 <strong>Pro tip:</strong> Stative verbs (love, know, want, need, believe…) → almost always Present Simple!"
+        },
+        {
+            "id": "lesson-5",
+            "title": "Present Continuous – Actions in Motion! 🎯",
+            "content": "<p>Ready to talk about what’s happening <strong>right now</strong>? 🚀 This is the <strong>Present Continuous</strong> (be + verb-ing).</p><p><strong>Formation:</strong> am / is / are + verb<strong>-ing</strong></p><p><strong>Use this when:</strong></p><ol><li>Something is happening at the moment of speaking</li><li>Something is happening “around now” (this week, this year…)</li><li>Temporary situations</li><li>Fixed future plans (with time)</li><li>Annoying repeated actions with “always” (He’s <strong>always complaining</strong>!)</li></ol><p><em>Fun fact: Spelling → run → running, make → making, die → dying!</em> ⚙️</p>",
+            "examples": [
+                "I <strong>am studying</strong> English now.",
+                "She <strong>is meeting</strong> friends tonight. (future plan)",
+                "He <strong>is always losing</strong> his keys! (annoyance)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_5_continuous.mp3",
+            "functions": [
+                "Describing actions in progress",
+                "Talking about temporary situations and plans"
+            ],
+            "tips": "💡 <strong>When to use:</strong> If you can add “right now” or “at the moment” and it makes sense → Continuous!"
+        },
+        {
+            "id": "lesson-6",
+            "title": "Questions & Negatives in Present Continuous ❓",
+            "content": "<p>Let’s flip it! 🎨</p><p><strong>Negative:</strong> am/is/are + <strong>not</strong> + verb-ing → I’m not working / He isn’t coming / They aren’t listening</p><p><strong>Question:</strong> Am/Is/Are + subject + verb-ing?</p><p><strong>Contractions:</strong> I’m, you’re, he’s, isn’t, aren’t</p><p><em>Fun fact: “I’m not” is the only negative without contraction!</em> 💬</p>",
+            "examples": [
+                "She <strong>isn’t coming</strong> to the party.",
+                "<strong>Are</strong> you <strong>studying</strong> now?",
+                "Why <strong>aren’t</strong> they <strong>answering</strong>?"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_6_questions.mp3",
+            "functions": [
+                "Asking about current activities",
+                "Making natural conversation"
+            ],
+            "tips": "💡 <strong>Remember:</strong> Question = invert be + subject. Negative = be + not."
+        },
+        {
+            "id": "lesson-7",
+            "title": "Stative vs Dynamic Verbs – The Hidden Rule 🕐",
+            "content": "<p>Some verbs HATE the continuous form! ⚠️ These are <strong>stative verbs</strong> (states, not actions).</p><p><strong>Stative:</strong> like, love, hate, want, need, know, believe, understand, have (possession), belong, seem, appear…</p><p>Correct: ✅ I <strong>have</strong> a car. / ❌ I’m having a car.</p><p>Mixed verbs (double personality): appear, have, feel, look, see, think, weigh… meaning decides the tense!</p><p><em>Fun fact: “I’m seeing my doctor” = visiting, but “I see what you mean” = understand!</em> 🌍</p>",
+            "examples": [
+                "She <strong>thinks</strong> it’s a good idea. (opinion) ≠ She <strong>is thinking</strong> about dinner. (process)",
+                "This soup <strong>tastes</strong> amazing. ≠ I <strong>am tasting</strong> the soup."
+            ],
+            "difficulty": 3,
+            "audio": "lesson_7_stative.mp3",
+            "functions": [
+                "Using verbs correctly in both tenses",
+                "Understanding mixed verbs"
+            ],
+            "tips": "💡 <strong>Never forget:</strong> If the verb describes a state (feeling, possession, thought) → Present Simple!"
+        },
+        {
+            "id": "lesson-8",
+            "title": "Master Level: Future Uses & Special Cases 🏆",
+            "content": "<p>True fluency time! 🌟</p><p><strong>Present Simple for future</strong> → timetables: The match <strong>starts</strong> at 8 pm.</p><p><strong>Present Continuous for future</strong> → personal plans: I <strong>am flying</strong> to Rome next week.</p><p><strong>Annoying habits</strong>: She <strong>is always borrowing</strong> my stuff!</p><p><strong>Narration</strong>: So he <strong>walks</strong> into the room and <strong>sees</strong>…</p><p><strong>Mastery checklist:</strong> ✅ Habits vs temporary ✅ Stative vs dynamic ✅ Timetable vs personal plan</p>",
+            "examples": [
+                "The plane <strong>takes off</strong> at 7:20. (timetable)",
+                "We <strong>are meeting</strong> Sarah at 7:20. (arrangement)",
+                "He <strong>is constantly interrupting</strong> me!"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_8_mastery.mp3",
+            "functions": [
+                "Using both tenses for future",
+                "Expressing irritation and storytelling"
+            ],
+            "tips": "💡 <strong>Master level:</strong> Timetable/fixed schedule → Simple. Personal decision/arrangement → Continuous!"
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 5–7 sentences about your daily routine. Use Present Simple at least 5 times.",
+            "hint": "Start with time expressions: Every morning..., At weekends..., After work.... For example: <em>I wake up at 7 o’clock.</em>",
+            "expectedKeywords": [
+                "every",
+                "usually",
+                "always",
+                "on mondays",
+                "at weekends"
+            ],
+            "sentenceStarters": [
+                "Every day ___ .",
+                "On weekends ___ because ___ ."
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "Write about what you like and dislike (food, music, sports…). Use at least 3 taste verbs (like, love, hate, enjoy, can’t stand).",
+            "hint": "Remember: taste verbs are stative → Present Simple! Example: <em>I love Italian food, but I can’t stand spicy curry.</em>",
+            "expectedKeywords": [
+                "like",
+                "love",
+                "hate",
+                "enjoy",
+                "prefer",
+                "dislike"
+            ],
+            "sentenceStarters": [
+                "I really love ___ .",
+                "I can’t stand ___ because ___ ."
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-3",
+            "question": "Write 5 general truths or facts you know (science, geography, animals…). Use Present Simple only.",
+            "hint": "Example: <em>The Earth revolves around the Sun.</em>",
+            "expectedKeywords": [
+                "the sun",
+                "water",
+                "birds",
+                "people",
+                "in winter"
+            ],
+            "sentenceStarters": [
+                "Water ___ at 100°C.",
+                "Most cats ___ ."
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-4",
+            "question": "Write directions from your home to the nearest shop/supermarket. Use Present Simple for instructions.",
+            "hint": "Example: <em>You go straight, then turn left at the traffic lights.</em>",
+            "expectedKeywords": [
+                "turn",
+                "go straight",
+                "walk",
+                "cross",
+                "at the corner"
+            ],
+            "sentenceStarters": [
+                "You go out ___ .",
+                "Then you turn ___ ."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-5",
+            "question": "Describe what is happening in your house RIGHT NOW (or imagine). Use Present Continuous at least 5 times.",
+            "hint": "Example: <em>My brother is playing video games and my mum is cooking dinner.</em>",
+            "expectedKeywords": [
+                "is",
+                "are",
+                "ing",
+                "at the moment",
+                "right now"
+            ],
+            "sentenceStarters": [
+                "Right now, ___ .",
+                "My family ___ ."
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-6",
+            "question": "Write about your plans for this weekend. Use Present Continuous for future at least 4 times.",
+            "hint": "Example: <em>On Saturday I’m meeting friends and we’re going to the cinema.</em>",
+            "expectedKeywords": [
+                "this weekend",
+                "on saturday",
+                "i'm",
+                "we're",
+                "going to"
+            ],
+            "sentenceStarters": [
+                "This Friday I’m ___ .",
+                "On Sunday we’re ___ ."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-7",
+            "question": "Write a short paragraph about a person who annoys you (real or imaginary). Use “always” + Present Continuous 3 times.",
+            "hint": "Example: <em>My brother is always leaving his clothes on the floor!</em>",
+            "expectedKeywords": [
+                "always",
+                "constantly",
+                "is",
+                "are",
+                "ing"
+            ],
+            "sentenceStarters": [
+                "My neighbour is always ___ .",
+                "He/She is constantly ___ ."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-8",
+            "question": "Write 6–8 sentences about your life this year (temporary situations). Use both Present Simple (habits) and Present Continuous (temporary).",
+            "hint": "Example: <em>I usually live with my parents, but this year I’m living in a student flat.</em>",
+            "expectedKeywords": [
+                "this year",
+                "this month",
+                "at the moment",
+                "usually",
+                "normally"
+            ],
+            "sentenceStarters": [
+                "Normally I ___ , but this year ___ .",
+                "These days I ___ ."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-9",
+            "question": "Write a short diary entry (6–10 sentences) using both tenses correctly. Include habits, current activities, and weekend plans.",
+            "hint": "Mix everything you learned! Example: <em>Today is Friday. I usually work until 5, but today I’m leaving early because I’m flying to Berlin tonight…</em>",
+            "expectedKeywords": [
+                "today",
+                "usually",
+                "this weekend",
+                "at the moment",
+                "always"
+            ],
+            "sentenceStarters": [
+                "Dear Diary, today ___ .",
+                "This week I ___ ."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-10",
+            "question": "Write a trekking or travel journal entry (like the example). Use Present Simple for facts and Present Continuous for current experience.",
+            "hint": "Example: <em>Nepal is a beautiful country… Right now I am walking through the mountains and my legs are killing me!</em>",
+            "expectedKeywords": [
+                "is",
+                "are",
+                "am",
+                "ing",
+                "right now",
+                "these days"
+            ],
+            "sentenceStarters": [
+                "Today is the ___ day of my trip.",
+                "The landscape ___ beautiful."
+            ],
+            "difficulty": 3
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "These actions happen every single day - what shows routine?",
+            "sentence": "Every day I ____ to work and ____ lunch at 1 pm.",
+            "options": [
+                "am having",
+                "go",
+                "goes",
+                "am going",
+                "having",
+                "have"
+            ],
+            "correctAnswer": [
+                "go",
+                "have"
+            ],
+            "hint": "Daily repeated actions",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Be quiet! Both actions are happening at this exact moment.",
+            "sentence": "Be quiet! The baby ____ and Mum ____ the dishes.",
+            "options": [
+                "does",
+                "sleeping",
+                "is sleeping",
+                "doing",
+                "sleeps",
+                "is doing"
+            ],
+            "correctAnswer": [
+                "is sleeping",
+                "is doing"
+            ],
+            "hint": "Right now, at this moment",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Permanent home vs temporary situation this month - how to contrast?",
+            "sentence": "I normally ____ in London, but this month I ____ in Berlin and ____ German.",
+            "options": [
+                "work",
+                "am living",
+                "live",
+                "studying",
+                "am studying",
+                "study",
+                "am working",
+                "working"
+            ],
+            "correctAnswer": [
+                "live",
+                "am working",
+                "am studying"
+            ],
+            "hint": "Normal situation vs temporary change",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Feelings about films - are these actions or states of mind?",
+            "sentence": "My brother ____ horror films but he ____ comedies.",
+            "options": [
+                "is hating",
+                "love",
+                "hates",
+                "is loving",
+                "loves",
+                "hate"
+            ],
+            "correctAnswer": [
+                "loves",
+                "hates"
+            ],
+            "hint": "Emotions are states, not actions",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "You're annoyed! These irritating behaviors keep happening repeatedly.",
+            "sentence": "My neighbour ____ his music too loud and ____ the door every five minutes!",
+            "options": [
+                "plays",
+                "bangs",
+                "is banging",
+                "always plays",
+                "playing",
+                "is always playing",
+                "banging"
+            ],
+            "correctAnswer": [
+                "is always playing",
+                "is banging"
+            ],
+            "hint": "Complaints about repeated annoying actions",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-6",
+            "type": "drag-drop",
+            "question": "The match schedule is fixed and official - not someone's personal plan.",
+            "sentence": "The match ____ at 8 pm and ____ at 10 pm.",
+            "options": [
+                "is finishing",
+                "finishes",
+                "start",
+                "is starting",
+                "finish",
+                "starts"
+            ],
+            "correctAnswer": [
+                "starts",
+                "finishes"
+            ],
+            "hint": "Official timetable, not personal arrangement",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-7",
+            "type": "drag-drop",
+            "question": "Personal plans arranged for this evening - what shows future arrangements?",
+            "sentence": "This evening I ____ my sister at the airport and we ____ pizza together.",
+            "options": [
+                "eat",
+                "meeting",
+                "are eating",
+                "meet",
+                "eating",
+                "am meeting"
+            ],
+            "correctAnswer": [
+                "am meeting",
+                "are eating"
+            ],
+            "hint": "Personal future plans you've arranged",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-8",
+            "type": "drag-drop",
+            "question": "Scientific facts that are always true - permanent truths about nature.",
+            "sentence": "The Earth ____ around the Sun and water ____ at 100 °C.",
+            "options": [
+                "is boiling",
+                "go",
+                "boils",
+                "goes",
+                "is going",
+                "boil"
+            ],
+            "correctAnswer": [
+                "goes",
+                "boils"
+            ],
+            "hint": "Permanent scientific facts",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-9",
+            "type": "drag-drop",
+            "question": "Look! You can see these actions happening right now before your eyes.",
+            "sentence": "Look! The children ____ football and ____ very excited.",
+            "options": [
+                "looking",
+                "play",
+                "are looking",
+                "playing",
+                "look",
+                "are playing"
+            ],
+            "correctAnswer": [
+                "are playing",
+                "are looking"
+            ],
+            "hint": "Visible actions happening at this moment",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-10",
+            "type": "drag-drop",
+            "question": "How the soup is and what it has - are these active processes or states?",
+            "sentence": "This soup ____ delicious and ____ too much salt.",
+            "options": [
+                "is containing",
+                "taste",
+                "contains",
+                "is tasting",
+                "tastes",
+                "contain"
+            ],
+            "correctAnswer": [
+                "tastes",
+                "contains"
+            ],
+            "hint": "Describing qualities and composition, not actions",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-11",
+            "type": "drag-drop",
+            "question": "Tonight's performance vs how she seems - action vs appearance.",
+            "sentence": "Tonight Lady Gaga ____ on stage and she ____ fantastic!",
+            "options": [
+                "appearing",
+                "is looking",
+                "appears",
+                "looks",
+                "looking",
+                "is appearing"
+            ],
+            "correctAnswer": [
+                "is appearing",
+                "looks"
+            ],
+            "hint": "Performing tonight vs permanent impression",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-12",
+            "type": "drag-drop",
+            "question": "Your opinion vs your current mental process - two meanings of 'think'.",
+            "sentence": "I ____ this restaurant is great, but right now I ____ about the price.",
+            "options": [
+                "thinks",
+                "am thinking",
+                "thinking",
+                "think"
+            ],
+            "correctAnswer": [
+                "think",
+                "am thinking"
+            ],
+            "hint": "Opinion = state, considering = process",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-13",
+            "type": "drag-drop",
+            "question": "Owning a house vs organizing an event - 'have' has two personalities!",
+            "sentence": "We ____ a big house, but this year we ____ a party for 50 people.",
+            "options": [
+                "having",
+                "are having",
+                "has",
+                "have"
+            ],
+            "correctAnswer": [
+                "have",
+                "are having"
+            ],
+            "hint": "Possession vs action of hosting",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-14",
+            "type": "drag-drop",
+            "question": "Natural scent vs deliberately sniffing - passive vs active meaning.",
+            "sentence": "These flowers ____ amazing and I ____ them carefully.",
+            "options": [
+                "smells",
+                "smell",
+                "smelling",
+                "are smelling",
+                "am smelling"
+            ],
+            "correctAnswer": [
+                "smell",
+                "am smelling"
+            ],
+            "hint": "Natural quality vs deliberate action",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-15",
+            "type": "drag-drop",
+            "question": "His daily job vs your specific appointment tomorrow.",
+            "sentence": "The dentist ____ patients all day, but tomorrow he ____ me at 11.",
+            "options": [
+                "seeing",
+                "is seeing",
+                "see",
+                "sees"
+            ],
+            "correctAnswer": [
+                "sees",
+                "is seeing"
+            ],
+            "hint": "General routine vs specific future meeting",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-16",
+            "type": "drag-drop",
+            "question": "Dramatic exaggeration! Your pain feels intense right now after hiking.",
+            "sentence": "My legs ____ me and my back ____ after the hike!",
+            "options": [
+                "hurting",
+                "kill",
+                "are hurting",
+                "killing",
+                "hurts",
+                "are killing"
+            ],
+            "correctAnswer": [
+                "are killing",
+                "are hurting"
+            ],
+            "hint": "Emphasizing current intense pain dramatically",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-17",
+            "type": "drag-drop",
+            "question": "Fixed train schedule vs what you're doing at this very moment.",
+            "sentence": "The train ____ at 9:15, but we ____ to the station right now.",
+            "options": [
+                "drive",
+                "is leaving",
+                "are driving",
+                "leaving",
+                "leaves",
+                "driving"
+            ],
+            "correctAnswer": [
+                "leaves",
+                "are driving"
+            ],
+            "hint": "Timetable vs current action in progress",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-18",
+            "type": "drag-drop",
+            "question": "General ability vs taking a course this year - skill vs temporary learning.",
+            "sentence": "She ____ four languages and ____ Japanese this year.",
+            "options": [
+                "learning",
+                "speaks",
+                "is speaking",
+                "is learning",
+                "speaking",
+                "learns"
+            ],
+            "correctAnswer": [
+                "speaks",
+                "is learning"
+            ],
+            "hint": "Permanent skill vs temporary course",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-19",
+            "type": "drag-drop",
+            "question": "Two activities you're doing simultaneously at this very moment.",
+            "sentence": "At the moment I ____ this exercise and ____ to music.",
+            "options": [
+                "listen",
+                "am doing",
+                "listening",
+                "doing",
+                "do",
+                "am listening"
+            ],
+            "correctAnswer": [
+                "am doing",
+                "am listening"
+            ],
+            "hint": "Both happening now simultaneously",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-20",
+            "type": "drag-drop",
+            "question": "Projects happening around this time period - not just this second.",
+            "sentence": "Justin ____ a travel book and ____ very hard these days.",
+            "options": [
+                "works",
+                "writing",
+                "is working",
+                "writes",
+                "working",
+                "is writing"
+            ],
+            "correctAnswer": [
+                "is writing",
+                "is working"
+            ],
+            "hint": "Ongoing projects around now, not permanent",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-21",
+            "type": "drag-drop",
+            "question": "Recipe instructions - general steps, not actions happening now.",
+            "sentence": "First you ____ the tomatoes, then you ____ them for 10 minutes.",
+            "options": [
+                "are cooking",
+                "cuts",
+                "cook",
+                "are cutting",
+                "cut",
+                "cooks"
+            ],
+            "correctAnswer": [
+                "cut",
+                "cook"
+            ],
+            "hint": "General instructions, not current cooking",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-22",
+            "type": "drag-drop",
+            "question": "Making a story vivid by narrating as if it's happening now!",
+            "sentence": "He ____ into the kitchen, ____ the fridge and ____ a huge spider!",
+            "options": [
+                "is walking",
+                "opens",
+                "is opening",
+                "walks",
+                "sees",
+                "is seeing"
+            ],
+            "correctAnswer": [
+                "walks",
+                "opens",
+                "sees"
+            ],
+            "hint": "Dramatic storytelling technique",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-23",
+            "type": "drag-drop",
+            "question": "A mental state vs an annoying repeated habit - mixed situation!",
+            "sentence": "I ____ where my phone is because I ____ it all the time!",
+            "options": [
+                "lose",
+                "knowing",
+                "don't know",
+                "am losing",
+                "losing",
+                "am not knowing"
+            ],
+            "correctAnswer": [
+                "don't know",
+                "am losing"
+            ],
+            "hint": "State of not knowing vs repeated annoying action",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-24",
+            "type": "drag-drop",
+            "question": "General production location and quality - permanent facts about the cards.",
+            "sentence": "These cards ____ in Japan and the quality ____ always excellent.",
+            "options": [
+                "printed",
+                "are printed",
+                "is",
+                "print",
+                "are normally printed",
+                "printing"
+            ],
+            "correctAnswer": [
+                "are normally printed",
+                "is"
+            ],
+            "hint": "General facts about production and quality",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-25",
+            "type": "drag-drop",
+            "question": "Geographic fact vs your emotional state right now - permanent vs temporary.",
+            "sentence": "Nepal ____ in Asia and right now I ____ very happy here.",
+            "options": [
+                "feel",
+                "is being",
+                "feeling",
+                "am feeling",
+                "being",
+                "is"
+            ],
+            "correctAnswer": [
+                "is",
+                "am feeling"
+            ],
+            "hint": "Permanent location vs temporary emotion",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-26",
+            "type": "drag-drop",
+            "question": "Character trait vs his usual walking habit - both describe Liam generally.",
+            "sentence": "Liam ____ quite impatient and always ____ faster than me.",
+            "options": [
+                "is walking",
+                "being",
+                "is",
+                "walking",
+                "is being",
+                "walks"
+            ],
+            "correctAnswer": [
+                "is",
+                "walks"
+            ],
+            "hint": "Permanent personality and habitual action",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-27",
+            "type": "drag-drop",
+            "question": "Your ability vs current comprehension problem - skill vs understanding now.",
+            "sentence": "I ____ some Spanish, but I ____ everything the guide says.",
+            "options": [
+                "am knowing",
+                "understanding",
+                "don't understand",
+                "knowing",
+                "know",
+                "am not understanding"
+            ],
+            "correctAnswer": [
+                "know",
+                "don't understand"
+            ],
+            "hint": "Both are mental states, not processes",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-28",
+            "type": "drag-drop",
+            "question": "Ongoing improvement happening over time - change in progress!",
+            "sentence": "My English ____ better and I ____ more confident every week.",
+            "options": [
+                "feel",
+                "gets",
+                "getting",
+                "is getting",
+                "feeling",
+                "am feeling"
+            ],
+            "correctAnswer": [
+                "is getting",
+                "am feeling"
+            ],
+            "hint": "Gradual changes happening around now",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-29",
+            "type": "drag-drop",
+            "question": "Established ability vs current effort at this moment.",
+            "sentence": "Tam ____ perfect English and ____ to learn some German phrases now.",
+            "options": [
+                "is trying",
+                "trying",
+                "is speaking",
+                "speaks",
+                "speaking",
+                "tries"
+            ],
+            "correctAnswer": [
+                "speaks",
+                "is trying"
+            ],
+            "hint": "Permanent skill vs current attempt",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-30",
+            "type": "drag-drop",
+            "question": "BOSS: Mental state vs active thinking process - classic stative mistake!",
+            "sentence": "I ____ the answer! Right now I ____ about it very hard.",
+            "options": [
+                "think",
+                "thinking",
+                "know",
+                "knowing",
+                "am knowing",
+                "am thinking"
+            ],
+            "correctAnswer": [
+                "know",
+                "am thinking"
+            ],
+            "hint": "Having knowledge vs mental process happening now",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "What grammar function does the Present Simple express in this context?",
+            "sentence": "The Earth orbits the Sun.",
+            "options": [
+                "Stating a general truth or scientific fact",
+                "Describing an action happening right now",
+                "Talking about a future plan",
+                "Expressing a temporary situation"
+            ],
+            "correctAnswer": "Stating a general truth or scientific fact",
+            "audio": "quiz_1_sentence.mp3",
+            "hint": "The sentence describes something always true. Use Present Simple for facts and universal truths.",
+            "difficulty": "easy",
+            "explanation": "Present Simple is used for general truths like scientific facts. The other options are incorrect: Present Continuous would be used for current actions, and future plans require different structures."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which form shows a habitual action?",
+            "sentence": "She ____ coffee every morning.",
+            "options": [
+                "drinks",
+                "is drinking",
+                "drank",
+                "has drunk"
+            ],
+            "correctAnswer": "drinks",
+            "audio": "quiz_2_sentence.mp3",
+            "hint": "When describing routines or repeated actions (every morning), use Present Simple. Look for time markers like 'every day' or 'always'.",
+            "difficulty": "easy",
+            "explanation": "'Drinks' correctly uses Present Simple for a daily habit. 'Is drinking' would mean she’s doing it right now, which doesn’t fit 'every morning'."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What verb form completes this time clause correctly?",
+            "sentence": "The bus ____ at 8:15 a.m., so I leave home at 7:45.",
+            "options": [
+                "leaves",
+                "is leaving",
+                "will leave",
+                "has left"
+            ],
+            "correctAnswer": "leaves",
+            "audio": "quiz_3_sentence.mp3",
+            "hint": "Timetables and fixed schedules (like buses or flights) use Present Simple, not continuous or future forms.",
+            "difficulty": "medium",
+            "explanation": "Time clauses with fixed public schedules require Present Simple. The rule: for official timetables, always use Present Simple—even when talking about the future."
+        },
+        {
+            "id": "quiz-4",
+            "question": "What aspect describes an action happening right now?",
+            "sentence": "Shh! The baby ____.",
+            "options": [
+                "is sleeping",
+                "sleeps",
+                "slept",
+                "has slept"
+            ],
+            "correctAnswer": "is sleeping",
+            "audio": "quiz_4_sentence.mp3",
+            "hint": "For actions in progress at the moment of speaking, use Present Continuous (am/is/are + -ing).",
+            "difficulty": "medium",
+            "explanation": "'Is sleeping' shows the baby is asleep right now. Present Simple ('sleeps') would describe a habit, not the current state."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which shows irritation about a repeated action?",
+            "sentence": "He ____ my pens without asking!",
+            "options": [
+                "is always taking",
+                "always takes",
+                "takes",
+                "has taken"
+            ],
+            "correctAnswer": "is always taking",
+            "audio": "quiz_5_sentence.mp3",
+            "hint": "When you’re annoyed by repeated actions, use Present Continuous with 'always'.",
+            "difficulty": "easy",
+            "explanation": "'Is always taking' expresses irritation. 'Always takes' is neutral and describes a habit without emotional tone."
+        },
+        {
+            "id": "quiz-6",
+            "question": "What's the best choice for a personal future arrangement?",
+            "sentence": "I ____ my grandparents this weekend.",
+            "options": [
+                "am visiting",
+                "visit",
+                "will visit",
+                "have visited"
+            ],
+            "correctAnswer": "am visiting",
+            "audio": "quiz_6_sentence.mp3",
+            "hint": "For personal plans already decided (with time reference), use Present Continuous.",
+            "difficulty": "easy",
+            "explanation": "'Am visiting' shows a fixed personal plan. 'Visit' would imply a routine, and 'will visit' suggests a spontaneous decision—not a planned event."
+        },
+        {
+            "id": "quiz-7",
+            "question": "Choose the correct tenses for this complex sentence:",
+            "sentence": "Water ____ at 100°C, but right now in the lab, it ____ because we ____ the pressure.",
+            "options": [
+                "boils / isn’t boiling / are changing",
+                "is boiling / boils / change",
+                "boiled / isn’t boiling / changed",
+                "has boiled / doesn’t boil / are changing"
+            ],
+            "correctAnswer": "boils / isn’t boiling / are changing",
+            "audio": "quiz_7_sentence.mp3",
+            "hint": "Use Present Simple for scientific facts, Present Continuous for current exceptions, and Present Continuous for ongoing actions causing the exception.",
+            "difficulty": "hard",
+            "explanation": "This requires understanding multiple rules: Present Simple for universal truth ('boils'), Present Continuous for current anomaly ('isn’t boiling'), and Present Continuous for the active cause ('are changing'). Pay attention to context shifts between general and specific."
+        },
+        {
+            "id": "quiz-8",
+            "question": "What aspect is used for a temporary current situation?",
+            "sentence": "I ____ in Jakarta this month while my apartment is being renovated.",
+            "options": [
+                "am staying",
+                "stay",
+                "stayed",
+                "have stayed"
+            ],
+            "correctAnswer": "am staying",
+            "audio": "quiz_8_sentence.mp3",
+            "hint": "Use Present Continuous (am/is/are + -ing) for temporary situations happening around now.",
+            "difficulty": "medium",
+            "explanation": "Present Continuous emphasizes the temporary nature of the stay. Present Simple would imply a permanent residence."
+        },
+        {
+            "id": "quiz-9",
+            "question": "Which structure correctly expresses a stative verb?",
+            "sentence": "I ____ this movie—it’s amazing!",
+            "options": [
+                "love",
+                "am loving",
+                "loved",
+                "have been loving"
+            ],
+            "correctAnswer": "love",
+            "audio": "quiz_9_sentence.mp3",
+            "hint": "'Love' is a stative verb expressing a feeling. Use Present Simple when stating opinions or emotions.",
+            "difficulty": "medium",
+            "explanation": "The key difference: stative verbs like 'love', 'hate', 'know' describe states, not actions, so they don’t usually take continuous forms. Here, 'love' correctly expresses a lasting opinion."
+        },
+        {
+            "id": "quiz-10",
+            "question": "What negative form is correct for Present Simple with 'he'?",
+            "sentence": "He ____ spicy food.",
+            "options": [
+                "doesn’t like",
+                "don’t like",
+                "isn’t liking",
+                "not likes"
+            ],
+            "correctAnswer": "doesn’t like",
+            "audio": "quiz_10_sentence.mp3",
+            "hint": "Negative Present Simple uses 'don’t/doesn’t + base verb'. Watch out for subject-verb agreement—'he' takes 'doesn’t'.",
+            "difficulty": "easy",
+            "explanation": "To form negatives in Present Simple, use 'doesn’t' with he/she/it + base verb. Common error: using 'don’t' with third person singular or adding -s to the main verb."
+        },
+        {
+            "id": "quiz-11",
+            "question": "Which question form is grammatically correct for Present Simple?",
+            "sentence": "____ she ____ to work by bike?",
+            "options": [
+                "Does / go",
+                "Do / goes",
+                "Is / going",
+                "Has / gone"
+            ],
+            "correctAnswer": "Does / go",
+            "audio": "quiz_11_sentence.mp3",
+            "hint": "Question word order: auxiliary (do/does) + subject + base verb.",
+            "difficulty": "medium",
+            "explanation": "Questions in Present Simple follow this pattern: 'Does + subject + base verb...'. The auxiliary 'does' comes before 'she', and the main verb stays in base form ('go', not 'goes')."
+        },
+        {
+            "id": "quiz-12",
+            "question": "Advanced: What's the most precise structure for a mixed verb used dynamically?",
+            "sentence": "Be quiet! I ____ about my answer.",
+            "options": [
+                "am thinking",
+                "think",
+                "thought",
+                "have thought"
+            ],
+            "correctAnswer": "am thinking",
+            "audio": "quiz_12_sentence.mp3",
+            "hint": "The subtle difference is meaning: 'think' (opinion) vs 'am thinking' (mental process). 'Be quiet!' indicates active concentration.",
+            "difficulty": "hard",
+            "explanation": "While 'I think' is correct for opinions, 'I am thinking' is more precise here because it describes an ongoing mental process. This shows the dynamic use of a normally stative verb."
+        },
+        {
+            "id": "quiz-13",
+            "question": "Identify the error in this sentence:",
+            "sentence": "She is having a dog.",
+            "options": [
+                "She has a dog.",
+                "She is owning a dog.",
+                "She have a dog.",
+                "She is has a dog."
+            ],
+            "correctAnswer": "She has a dog.",
+            "audio": "quiz_13_sentence.mp3",
+            "hint": "Look for stative verbs related to possession. Remember: 'have' for ownership → no continuous form!",
+            "difficulty": "medium",
+            "explanation": "The error is using continuous with a stative verb of possession. 'Have' meaning 'own' is stative, so it must be 'She has a dog.' Continuous 'is having' is only used for actions like 'having dinner'."
+        },
+        {
+            "id": "quiz-14",
+            "question": "Which structure best expresses a fixed future schedule?",
+            "sentence": "The concert ____ at 7 p.m. sharp—don’t be late!",
+            "options": [
+                "starts",
+                "is starting",
+                "will start",
+                "has started"
+            ],
+            "correctAnswer": "starts",
+            "audio": "quiz_14_sentence.mp3",
+            "hint": "Consider the context clue: 'at 7 p.m. sharp' suggests an official timetable. Present Simple emphasizes fixedness.",
+            "difficulty": "hard",
+            "explanation": "Both 'starts' and 'is starting' are grammatically possible, but 'starts' is best because it refers to a scheduled public event (like a concert, train, or class). Present Continuous would imply a personal arrangement."
+        },
+        {
+            "id": "quiz-15",
+            "question": "Complete the sequence with the correct structures:",
+            "sentence": "Every day, I ____ breakfast at 7. But today, I ____ lunch early because I ____ a meeting at noon.",
+            "options": [
+                "eat / am having / have",
+                "am eating / have / am having",
+                "eat / have / am having",
+                "have eaten / am having / have"
+            ],
+            "correctAnswer": "eat / am having / have",
+            "audio": "quiz_15_sentence.mp3",
+            "hint": "Use Present Simple for daily routines, Present Continuous for today’s special plan, and Present Simple for fixed future schedules (meetings on calendars).",
+            "difficulty": "hard",
+            "explanation": "This sequence requires: Present Simple for habit ('eat'), Present Continuous for a personal arrangement today ('am having'), and Present Simple for a scheduled event ('have a meeting'). Mastery involves switching tenses based on function."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "continuous",
+            "hint": "Another name for the -ing form (Present ___)",
+            "clue": "c__t_nu___",
+            "sentence": "We often call it the present ___ tense.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-2",
+            "word": "stative",
+            "hint": "Verbs like love, know, want (___ verbs)",
+            "clue": "_t_t__e",
+            "sentence": "Know and believe are ___ verbs.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-3",
+            "word": "habit",
+            "hint": "Present Simple is used for daily ___",
+            "clue": "h__i_",
+            "sentence": "Brushing teeth is a good ___.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-4",
+            "word": "temporary",
+            "hint": "Present Continuous shows ___ situations",
+            "clue": "__mp____y",
+            "sentence": "I’m staying here – it’s only ___.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-5",
+            "word": "routine",
+            "hint": "Morning ___ → Present Simple",
+            "clue": "___t_n_",
+            "sentence": "I follow the same ___ every day.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-6",
+            "word": "timetable",
+            "hint": "Trains and lessons follow a ___",
+            "clue": "_i__t____",
+            "sentence": "The bus ___ starts at 7 a.m.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-7",
+            "word": "arrangement",
+            "hint": "Personal future plans = fixed ___",
+            "clue": "ar_____m___",
+            "sentence": "I have an ___ with the doctor.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-8",
+            "word": "annoying",
+            "hint": "He is always so ___! (with Present Continuous)",
+            "clue": "_____i_g",
+            "sentence": "That noise is really ___.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-9",
+            "word": "permanent",
+            "hint": "Present Simple for ___ situations",
+            "clue": "_e__a____",
+            "sentence": "This change is ___, not temporary.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-10",
+            "word": "progressive",
+            "hint": "American name for Present Continuous",
+            "clue": "__o___s__v_",
+            "sentence": "Some textbooks use Present ___.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-11",
+            "word": "dynamic",
+            "hint": "Run, work, play = ___ verbs",
+            "clue": "dyn____",
+            "sentence": "Most action verbs are ___.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-12",
+            "word": "possession",
+            "hint": "Have, own, belong = verbs of ___",
+            "clue": "______s_on",
+            "sentence": "This phone is my ___.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-13",
+            "word": "currently",
+            "hint": "Common adverb with Present Continuous",
+            "clue": "c_r_e__l_",
+            "sentence": "I am ___ working on a project.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-14",
+            "word": "constantly",
+            "hint": "Synonym of ‘always’ when complaining",
+            "clue": "_o__t__l_",
+            "sentence": "She’s ___ interrupting me!",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-15",
+            "word": "gradually",
+            "hint": "My English is improving ___",
+            "clue": "__ad__l__",
+            "sentence": "Things are changing ___.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-16",
+            "word": "irritating",
+            "hint": "Present Continuous + always = ___ habits",
+            "clue": "ir__t__i_g",
+            "sentence": "That sound is so ___!",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-17",
+            "word": "schedule",
+            "hint": "Classes and flights have a fixed ___",
+            "clue": "__h__u_e",
+            "sentence": "What’s on your daily ___?",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-18",
+            "word": "frequency",
+            "hint": "Always, often, sometimes = adverbs of ___",
+            "clue": "__eq___c_",
+            "sentence": "How often? = question about ___.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-19",
+            "word": "exhausted",
+            "hint": "Feeling after a long day or trek",
+            "clue": "e___us__d",
+            "sentence": "I feel completely ___ after work.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-20",
+            "word": "generalization",
+            "hint": "‘Cats hate water’ is a ___",
+            "clue": "ge_e____z_____",
+            "sentence": "Stereotypes are often ___.",
+            "difficulty": "hard"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 12,
+            "silver": 30,
+            "gold": 50,
+            "platinum": 75
+        },
+        "badges": [
+            {
+                "id": "present-tense-explorer",
+                "name": "Present Tense Explorer",
+                "condition": "Complete all Present Simple & Continuous lessons",
+                "icon": "🎓",
+                "points": 40
+            },
+            {
+                "id": "writing-champion",
+                "name": "Present Tense Writing Star",
+                "icon": "✍️",
+                "condition": "Score 100% on 3 writing activities",
+                "points": 45
+            },
+            {
+                "id": "game-master",
+                "name": "Present Tense Game Master",
+                "icon": "🎮",
+                "condition": "Complete all games with no mistakes",
+                "points": 45
+            },
+            {
+                "id": "perfect-speller",
+                "name": "Grammar Vocabulary Pro",
+                "icon": "📝",
+                "condition": "Spell all words correctly on first try",
+                "points": 40
+            },
+            {
+                "id": "speed-demon",
+                "name": "Speed Champion",
+                "icon": "⚡",
+                "condition": "Complete 5 activities in under 10 minutes each",
+                "points": 35
+            },
+            {
+                "id": "perfectionist",
+                "name": "Present Tense Perfectionist",
+                "icon": "🏆",
+                "condition": "Score 100% on all activities in this module",
+                "points": 100
+            }
+        ]
+    }
+}

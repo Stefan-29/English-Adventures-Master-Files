@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Present Simple vs Present Continuous",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Present Simple & Present Continuous",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Present Simple & Continuous Lessons",
+        "instructions": "Master habits, facts, actions in progress, temporary situations, and future uses. Understand the key difference between states and actions."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using Present Simple for habits/facts and Present Continuous for actions now/temporary situations."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between Present Simple and Present Continuous in real contexts."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about present tenses. Choose the correct answer to practice quickly!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Present Tense Challenge",
+        "instructions": "Apply both tenses correctly in sentences. Master stative verbs, future uses, and annoying habits."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Present Simple Markers",
+        "words": ["every day", "usually", "always", "often", "never", "on Mondays", "once a week", "generally", "as a rule"]
+      },
+      {
+        "title": "Present Continuous Markers",
+        "words": ["now", "at the moment", "right now", "these days", "this week", "currently", "today", "at present"]
+      },
+      {
+        "title": "Stative Verbs",
+        "words": ["like", "love", "hate", "want", "need", "know", "believe", "understand", "have (possession)", "belong", "seem"]
+      },
+      {
+        "title": "Time Expressions",
+        "words": ["every morning", "at weekends", "this year", "tonight", "tomorrow", "next week", "always", "constantly"]
+      },
+      {
+        "title": "Common Verbs",
+        "words": ["go", "play", "work", "study", "live", "eat", "drink", "read", "write", "speak", "meet", "see", "think", "have"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["Every day I ...", "Right now I am ...", "This week I’m ...", "I usually ... but today ...", "When I wake up, I ...", "At the moment, my family ..."]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/present-simple-continuous.json",
+  "grammarChecker": "presentSimpleContinuous.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

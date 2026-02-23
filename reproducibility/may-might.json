@@ -1,0 +1,723 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "MAY — Indicating Possibility That Is Not Confirmed",
+      "content": "<p><strong>'May'</strong> serves as a modal verb to signal that something has a reasonable chance of occurring, though you cannot be definite about whether it will actually happen. When you use 'may', you're suggesting there's potential for an outcome without guaranteeing it will take place.</p><p><strong>Real-world Contexts:</strong></p><ul><li>Maria may attend the concert this weekend, though she hasn't decided for certain yet.</li><li>The store may be open today—I should check their hours before going.</li><li>Your package may arrive tomorrow or the next day based on the tracking status.</li></ul><p><strong>Why Use 'May' This Way:</strong> This usage is common when you're making educated guesses, sharing uncertain information, or talking about things that are possible but unconfirmed.</p>",
+      "examples": [
+        "Maria may attend the concert this weekend, though she hasn't decided for certain yet.",
+        "The store may be open today—I should check their hours before going.",
+        "Your package may arrive tomorrow or the next day based on the tracking status."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_may_intro.mp3",
+      "functions": [
+        "Suggesting uncertain possibilities",
+        "Expressing unconfirmed information",
+        "Indicating possible outcomes"
+      ],
+      "tips": "Use 'may' when something is plausible but not guaranteed to happen. It sits between 'definitely will' and 'definitely won't'."
+    },
+    {
+      "id": "lesson-2",
+      "title": "MAY — Seeking or Giving Permission in Respectful Ways",
+      "content": "<p><strong>'May'</strong> is widely used in formal or respectful contexts to ask if someone permits an action or to indicate that someone is allowed to do something. This usage is more courteous than using 'can' and appears frequently in educational, professional, and official settings.</p><p><strong>Real-world Contexts:</strong></p><ul><li>May I ask a question during the presentation?</li><li>The participants may use calculators during the exam.</li><li>Students may submit their projects either electronically or in print.</li><li>May I have permission to leave the table?</li></ul><p><strong>Why Use 'May' This Way:</strong> Using 'may' shows good manners, respect for authority or others' time, and follows conventions in formal environments like schools, hospitals, courtrooms, and workplaces.</p>",
+      "examples": [
+        "May I ask a question during the presentation?",
+        "The participants may use calculators during the exam.",
+        "Students may submit their projects either electronically or in print.",
+        "May I have permission to leave the table?"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_may_permission.mp3",
+      "functions": [
+        "Politely requesting permission",
+        "Formally granting allowance",
+        "Indicating authorized actions"
+      ],
+      "tips": "Use 'may I' when asking for permission in respectful settings, and 'you/they/we may' when stating what is officially permitted or allowed."
+    },
+    {
+      "id": "lesson-3",
+      "title": "MIGHT — Expressing Reduced Likelihood and Remote Possibilities",
+      "content": "<p><strong>'Might'</strong> is employed to suggest that something has a smaller or more remote chance of taking place. When you use 'might' instead of 'may', you're typically expressing greater doubt or lower confidence in the likelihood of something occurring. This modal frequently appears in conditional statements—sentences that describe what would happen if certain circumstances were true.</p><p><strong>Real-world Contexts:</strong></p><ul><li>The team might win the championship, though they face very tough opponents.</li><li>If you practice consistently, you might eventually master this skill.</li><li>We might see snow next winter, but it's hard to predict weather months ahead.</li><li>She might call us during the event, but I wouldn't count on it.</li></ul><p><strong>Why Use 'Might' This Way:</strong> Use 'might' when the outcome is genuinely uncertain, when odds are against something happening, or in 'if-then' sentences expressing conditional possibilities.</p>",
+      "examples": [
+        "The team might win the championship, though they face very tough opponents.",
+        "If you practice consistently, you might eventually master this skill.",
+        "We might see snow next winter, but it's hard to predict weather months ahead.",
+        "She might call us during the event, but I wouldn't count on it."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_might_intro.mp3",
+      "functions": [
+        "Expressing lower probability",
+        "Suggesting remote or remote outcomes",
+        "Appearing in conditional statements"
+      ],
+      "tips": "'Might' conveys increased doubt or lower odds compared to 'may'. Both are possible, but 'might' suggests I'm less confident this will happen."
+    },
+    {
+      "id": "lesson-4",
+      "title": "MIGHT — Discussing Past Possibilities and Offering Suggestions",
+      "content": "<p><strong>'Might have'</strong> is used to discuss actions or events from the past that were plausible but you're unsure whether they actually happened. Additionally, 'might' (without 'have') can introduce gentle suggestions or propose options for someone to think about.</p><p><strong>For Past Situations:</strong></p><ul><li>Thomas might have taken the bus to work; I'm not completely certain how he got there.</li><li>They might have forgotten to send the email, which would explain why we haven't heard from them.</li></ul><p><strong>For Gentle Suggestions:</strong></p><ul><li>You might try adding lemon juice to make the dish taste brighter.</li><li>She might want to bring comfortable shoes for the hiking trip.</li><li>If temperatures drop further, the game might be postponed to another date.</li></ul><p><strong>Why Use These Forms:</strong> 'Might have' reflects uncertainty about past events. Using 'might' for suggestions is non-pushy—it proposes an idea without demanding action.</p>",
+      "examples": [
+        "Thomas might have taken the bus to work; I'm not completely certain how he got there.",
+        "They might have forgotten to send the email, which would explain why we haven't heard from them.",
+        "You might try adding lemon juice to make the dish taste brighter.",
+        "She might want to bring comfortable shoes for the hiking trip.",
+        "If temperatures drop further, the game might be postponed to another date."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_might_past.mp3",
+      "functions": [
+        "Discussing past uncertainty",
+        "Offering flexible suggestions",
+        "Proposing possible outcomes"
+      ],
+      "tips": "Use 'might have' when you're unsure about what happened before. Use 'might' + verb to kindly suggest something without being bossy or demanding."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 5 sentences showing what someone is allowed to do in different settings (library, workplace, classroom, home, public spaces).",
+      "hint": "Use structures like 'Students may...' or 'Employees may...' to indicate official permissions or rules.",
+      "expectedKeywords": [
+        "may",
+        "allowed",
+        "permitted",
+        "authorized"
+      ],
+      "sentenceStarters": [
+        "Library visitors may...",
+        "Team members may..."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Create 5 realistic scenarios describing outcomes that could happen but are not guaranteed (travel plans, weather, events, relationships, projects).",
+      "hint": "Express realistic but uncertain possibilities using 'might'. Include at least one sentence showing doubt.",
+      "expectedKeywords": [
+        "might",
+        "might not",
+        "uncertain",
+        "doubt",
+        "unsure"
+      ],
+      "sentenceStarters": [
+        "The presentation might...",
+        "We might not..."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Write 5 sentences reflecting on past events where you're unsure what actually happened or why.",
+      "hint": "Use 'may have' or 'might have' to discuss alternate explanations for events you didn't witness or aren't certain about.",
+      "expectedKeywords": [
+        "may have",
+        "might have",
+        "wondering",
+        "possibly"
+      ],
+      "sentenceStarters": [
+        "She may have...",
+        "They might not have..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-4",
+      "question": "Create 5 'if-then' sentences exploring what could happen if specific conditions were true or circumstances changed.",
+      "hint": "Show conditional possibilities using 'If...then you/they/it may/might...' to explore hypothetical outcomes.",
+      "expectedKeywords": [
+        "if",
+        "may",
+        "might",
+        "then",
+        "condition"
+      ],
+      "sentenceStarters": [
+        "If you practice regularly, you might...",
+        "If the weather improves, the event may..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Write a brief dialogue between two people where one asks for permission and the other acknowledges a possible challenge or doubt.",
+      "hint": "Use 'May I...' in one line and respond with 'You may, but...' followed by a 'might' statement about potential difficulties.",
+      "expectedKeywords": [
+        "May I",
+        "You may",
+        "might",
+        "permission",
+        "concern"
+      ],
+      "sentenceStarters": [
+        "A: May I borrow...? B: Yes, but you might...",
+        "A: May I go...? B: You may, though you might..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write 5 polite requests for permission in different formal contexts (classroom, meetings, official processes, communities, services).",
+      "hint": "Use 'May I' to respectfully ask for permission. Vary your contexts to show versatility.",
+      "expectedKeywords": [
+        "May I",
+        "please",
+        "formal",
+        "request",
+        "permission"
+      ],
+      "sentenceStarters": [
+        "May I have permission to...",
+        "May I ask if..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Write advice or guidance for someone facing choices, using 'might' and 'might not' to suggest possibilities without being demanding.",
+      "hint": "Offer gentle recommendations showing different paths without being pushy. Use patterns like 'You might want to consider...' or 'You might discover that...'",
+      "expectedKeywords": [
+        "might",
+        "might want",
+        "might discover",
+        "suggestion",
+        "consider"
+      ],
+      "sentenceStarters": [
+        "You might try...",
+        "You might want to consider..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Write 5 sentences showing your understanding of 'may' vs 'might' by describing the same event with different levels of certainty.",
+      "hint": "For each scenario, write one sentence with 'may' (more confident) and then rephrase with 'might' (less confident) to show the difference.",
+      "expectedKeywords": [
+        "may",
+        "might",
+        "certainty",
+        "probability",
+        "contrast"
+      ],
+      "sentenceStarters": [
+        "They may arrive on time, but they might be delayed.",
+        "It may rain this week; however, it might stay dry."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-9",
+      "question": "Write about a past experience or historical event using 'may have' and 'might have' to discuss alternate explanations of what could have happened.",
+      "hint": "Explore multiple possible interpretations of past events where the full truth is unknown or debatable.",
+      "expectedKeywords": [
+        "may have",
+        "might have",
+        "could have",
+        "possibly",
+        "alternate"
+      ],
+      "sentenceStarters": [
+        "The decision may have been influenced by...",
+        "They might have chosen that path because..."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a comprehensive paragraph (80-120 words) combining permission, possibility, suggestions, and past uncertainty with 'may' and 'might' in all their forms.",
+      "hint": "Show mastery by including: a permission use, a probability use, a past uncertain use, and a suggestion—all in natural, flowing prose.",
+      "expectedKeywords": [
+        "may",
+        "might",
+        "may have",
+        "might have",
+        "possibility",
+        "permission",
+        "suggestion"
+      ],
+      "sentenceStarters": [
+        "You may..., but you might..., and you may have...",
+        "I might suggest that..., though you may..."
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Student to teacher in classroom - which is appropriately formal?",
+      "scenario": "A student needs to ask for permission to use the library computer lab during study hall.",
+      "sentence": "_____ I access the computer lab this period?",
+      "options": [
+        "May",
+        "Might",
+        "Can",
+        "Should"
+      ],
+      "correctAnswer": [
+        "May"
+      ],
+      "explanation": "In educational authority situations, 'may' shows proper respect and formality.",
+      "audio": "game_1_may_perm.mp3",
+      "hint": "When speaking to teachers or authority figures, 'may' is the polite choice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Expressing doubt about sports tournament outcomes",
+      "scenario": "A coach discusses the team's chances in an uncertain tournament format.",
+      "sentence": "With three strong teams competing, we _____ advance, but I'm not confident.",
+      "options": [
+        "may",
+        "might",
+        "must",
+        "will"
+      ],
+      "correctAnswer": [
+        "might"
+      ],
+      "explanation": "'Might' conveys genuine uncertainty better than 'may' in competitive contexts.",
+      "audio": "game_2_might_doubt.mp3",
+      "hint": "'Might' shows doubt; 'may' shows realistic possibility.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Discussing why a historical event might have occurred differently",
+      "scenario": "Historians debate what might have happened if a key decision had been made differently.",
+      "sentence": "The outcome of the war _____ changed if different diplomatic strategies had been used.",
+      "options": [
+        "may have",
+        "might have",
+        "has",
+        "could"
+      ],
+      "correctAnswer": [
+        "might have"
+      ],
+      "explanation": "'Might have' works well for discussing highly uncertain historical counterfactuals.",
+      "audio": "game_3_past_poss.mp3",
+      "hint": "For speculative past scenarios, 'might have' works perfectly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Manager giving workplace policy clarification",
+      "scenario": "A supervisor explains the updated flexible work arrangement policy to their team.",
+      "sentence": "Starting next month, you _____ work from home two days per week if your role allows it.",
+      "options": [
+        "may",
+        "might",
+        "must",
+        "should"
+      ],
+      "correctAnswer": [
+        "may"
+      ],
+      "explanation": "In policy statements, 'may' formally permits or allows specific activities.",
+      "audio": "game_4_grant_perm.mp3",
+      "hint": "'May' in official contexts means 'are permitted to' or 'are allowed to'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Discussing why a friend is late to meet you",
+      "scenario": "You're waiting for your friend who hasn't arrived yet, and you're thinking about reasons why.",
+      "sentence": "My friend _____ not have received my message, or their car _____ have broken down.",
+      "options": [
+        "might / might",
+        "must / could",
+        "may / may",
+        "could / should"
+      ],
+      "correctAnswer": [
+        "might / might"
+      ],
+      "explanation": "'Might not' is perfect for discussing uncertain or remote possibilities.",
+      "audio": "game_5_low_prob.mp3",
+      "hint": "'Might not' = possible explanation but you're unsure; 'could not' = impossible.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-6",
+      "type": "reorder",
+      "question": "Reorder to form a formal permission request in a library setting",
+      "scenario": "A student wants to ask the librarian about borrowing reference materials.",
+      "sentence": "borrow / reference / may / I / these / materials",
+      "options": [],
+      "correctAnswer": [
+        "May I borrow these reference materials?"
+      ],
+      "explanation": "Formal permission questions follow: May + I + verb + object.",
+      "audio": "game_6_reorder_may.mp3",
+      "hint": "Permission questions with 'may' start with May, then I, then the action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "roleplay",
+      "question": "Responding to formal permission request in a waiting room scenario",
+      "scenario": "Someone politely asks if they can sit in an empty seat at a busy appointment.",
+      "sentence": "May I sit here?",
+      "options": [
+        "Of course, please do make yourself comfortable",
+        "I'm not really sure about that",
+        "Maybe later when I leave"
+      ],
+      "correctAnswer": [
+        "Of course, please do make yourself comfortable"
+      ],
+      "explanation": "A polite 'may' request deserves a gracious permission grant.",
+      "audio": "game_7_roleplay_may.mp3",
+      "hint": "Respond to formal permission appropriately and courteously.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-8",
+      "type": "writing",
+      "question": "Predict uncertain weather outcomes for a community event",
+      "scenario": "The school is planning outdoor games, but weather is unpredictable.",
+      "sentence": "The morning weather _____ improve by afternoon, but we should have an indoor backup plan.",
+      "options": [],
+      "correctAnswer": [
+        "might"
+      ],
+      "explanation": "'Might' shows genuine weather uncertainty without confident prediction.",
+      "audio": "game_8_might_remote.mp3",
+      "hint": "For genuinely uncertain future outcomes, 'might' works best.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "writing",
+      "question": "Gently suggest study techniques to a struggling peer",
+      "scenario": "You want to help a friend improve their test grades without being forceful.",
+      "sentence": "You _____ find it helpful to study in groups, create flash cards, or try practice tests.",
+      "options": [],
+      "correctAnswer": [
+        "might"
+      ],
+      "explanation": "'Might' is gentle and suggests without demanding.",
+      "audio": "game_9_suggest_might.mp3",
+      "hint": "'Might' makes soft recommendations without pressure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "simulator",
+      "question": "Distinguish between uncertainty and impossibility regarding a student's whereabouts",
+      "scenario": "Two teachers discuss where absent student might be. Teacher A says 'She might be sick.' Teacher B says 'She could not be in the cafeteria—it's locked now.'",
+      "sentence": "Choose: A) 'might not have' means _____. B) 'could not have' means _____.",
+      "options": [
+        "A = uncertain past / B = impossible past",
+        "Both mean she was definitely somewhere else",
+        "A = definite / B = uncertain",
+        "Both mean she missed class"
+      ],
+      "correctAnswer": [
+        "A = uncertain past / B = impossible past"
+      ],
+      "explanation": "'Might not have' = uncertain past event; 'could not have' = impossible past event.",
+      "audio": "game_10_distinguish.mp3",
+      "hint": "'Might' suggests possibility; 'could' often suggests impossibility in negative contexts.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "When politely asking to do something, which is most appropriate in a formal setting?",
+      "sentence": "_____ I speak with the manager about this concern?",
+      "options": [
+        "Can",
+        "May",
+        "Might",
+        "Could"
+      ],
+      "correctAnswer": "May",
+      "audio": "quiz_1_may_perm.mp3",
+      "hint": "'May' shows respect and formality in official contexts.",
+      "difficulty": "easy",
+      "explanation": "'May I' is the polite, formal choice when respectfully asking permission from someone in authority."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly shows something that is possibly true but unconfirmed?",
+      "sentence": "The author _____ have intended a different ending, though I'm uncertain.",
+      "options": [
+        "may have",
+        "must have",
+        "will have",
+        "should have"
+      ],
+      "correctAnswer": "may have",
+      "audio": "quiz_2_may_have.mp3",
+      "hint": "'May have' works for past situations that are possibly but not definitely true.",
+      "difficulty": "medium",
+      "explanation": "'May have' indicates a past possibility without certainty about whether it actually occurred."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which expresses that something has lower odds of happening?",
+      "sentence": "Depending on the economy, stocks _____ gain value next year.",
+      "options": [
+        "will",
+        "may",
+        "might",
+        "must"
+      ],
+      "correctAnswer": "might",
+      "audio": "quiz_3_might_low_odds.mp3",
+      "hint": "'Might' suggests the outcome is uncertain and odds are against it.",
+      "difficulty": "medium",
+      "explanation": "'Might' conveys lower probability and genuine doubt about whether something will occur."
+    },
+    {
+      "id": "quiz-4",
+      "question": "In a workplace, what does this sentence mean?",
+      "sentence": "Remote employees may work from home on alternate Wednesdays.",
+      "options": [
+        "They are definitely going to work from home",
+        "They are allowed to work from home on those days",
+        "They might consider working from home",
+        "It's uncertain if they can work from home"
+      ],
+      "correctAnswer": "They are allowed to work from home on those days",
+      "audio": "quiz_4_work_policy.mp3",
+      "hint": "When 'may' is used in rules or policies, it indicates official permission.",
+      "difficulty": "easy",
+      "explanation": "In official contexts, 'may' states what is officially permitted or allowed."
+    },
+    {
+      "id": "quiz-5",
+      "question": "How would a teacher gently suggest an approach to a difficult student?",
+      "sentence": "You _____ find it helpful to break this assignment into smaller steps.",
+      "options": [
+        "will",
+        "must",
+        "might",
+        "may"
+      ],
+      "correctAnswer": "might",
+      "audio": "quiz_5_gentle_suggest.mp3",
+      "hint": "'Might' softly recommends without demanding action.",
+      "difficulty": "medium",
+      "explanation": "'Might' is gentle and non-directive, making it ideal for suggestions and recommendations."
+    },
+    {
+      "id": "quiz-6",
+      "question": "A travel agent is uncertain about available flights. What does this mean?",
+      "sentence": "Your flight _____ depart from Gate 45, but I'll confirm that for you.",
+      "options": [
+        "might",
+        "will",
+        "must",
+        "may"
+      ],
+      "correctAnswer": "may",
+      "audio": "quiz_6_uncertain_info.mp3",
+      "hint": "'May' expresses present-time uncertainty about a specific situation.",
+      "difficulty": "medium",
+      "explanation": "'May' indicates something is possibly true now but not yet confirmed."
+    },
+    {
+      "id": "quiz-7",
+      "question": "What does this past possibility sentence suggest?",
+      "sentence": "The delay _____ have prevented the accident from occurring.",
+      "options": [
+        "definitely prevented",
+        "possibly prevented but we don't know",
+        "certainly didn't prevent",
+        "will definitely prevent"
+      ],
+      "correctAnswer": "possibly prevented but we don't know",
+      "audio": "quiz_7_past_consequence.mp3",
+      "hint": "'May have' or 'might have' discusses past events we're unsure about.",
+      "difficulty": "medium",
+      "explanation": "'May have' shows a past possibility without certainty whether it actually influenced outcomes."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Which correctly distinguishes between certainty and doubt?",
+      "sentence": "Compare: A) She _____ have finished by now. B) She _____ have finished by now.",
+      "options": [
+        "Both mean she definitely finished",
+        "A (may) shows uncertainty; B (must) shows confidence",
+        "Both are identical in meaning",
+        "A is past; B is future"
+      ],
+      "correctAnswer": "A (may) shows uncertainty; B (must) shows confidence",
+      "audio": "quiz_8_certainty_doubt.mp3",
+      "hint": "'May have' = unsure; 'must have' = confidence about what happened.",
+      "difficulty": "hard",
+      "explanation": "'May have' expresses uncertainty, while 'must have' suggests confident deduction about past events."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which correctly uses a conditional with low certainty?",
+      "sentence": "If the new policy takes effect, productivity _____ increase, though results are unpredictable.",
+      "options": [
+        "will",
+        "might",
+        "must",
+        "should"
+      ],
+      "correctAnswer": "might",
+      "audio": "quiz_9_conditional_uncertain.mp3",
+      "hint": "Conditionals expressing genuine doubt use 'might' or 'may'.",
+      "difficulty": "medium",
+      "explanation": "'Might' in conditionals shows the outcome is uncertain and not guaranteed."
+    },
+    {
+      "id": "quiz-10",
+      "question": "In academic writing, what is the difference between these?",
+      "sentence": "A) The data _____ support our hypothesis. B) The data _____ support our hypothesis.",
+      "options": [
+        "Both mean the same thing",
+        "A (may) suggests possibility; B (might) shows doubt",
+        "A is formal; B is casual",
+        "They are used in different time periods"
+      ],
+      "correctAnswer": "A (may) suggests possibility; B (might) shows doubt",
+      "audio": "quiz_10_academic_diff.mp3",
+      "hint": "'May' is slightly more confident; 'might' expresses greater doubt.",
+      "difficulty": "hard",
+      "explanation": "In academic contexts, 'may' suggests reasonable possibility while 'might' signals greater uncertainty or remote likelihood."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "may",
+      "hint": "Modal verb used for permission or present-time possibility.",
+      "clue": "m__",
+      "sentence": "You _____ ask the librarian for help if you need it.",
+      "context": "Educational setting - asking for help",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "might",
+      "hint": "Modal verb expressing lower probability, doubt, or past possibility with 'have'.",
+      "clue": "m_ght",
+      "sentence": "The project _____ be delayed due to the weather forecast.",
+      "context": "Planning a group project with weather uncertainty",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "possibility",
+      "hint": "A noun meaning something that could happen; chance or potential.",
+      "clue": "p_ssib_l_ty",
+      "sentence": "There is a strong _____ that the school will extend lunch breaks.",
+      "context": "Student discussing school policy changes",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-4",
+      "word": "permission",
+      "hint": "A noun meaning official approval or allowance to do something.",
+      "clue": "perm_ss_on",
+      "sentence": "I need _____ from my parents before I can attend the field trip.",
+      "context": "Student needing parental approval",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "uncertain",
+      "hint": "An adjective meaning not sure or lacking confidence about something.",
+      "clue": "unc_rt__n",
+      "sentence": "The weather forecast is still _____ for the outdoor game tomorrow.",
+      "context": "Weather discussion for event planning",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "conditional",
+      "hint": "An adjective or noun related to 'if' statements and conditions.",
+      "clue": "cond_t_on_l",
+      "sentence": "This _____ sentence shows what happens if the requirement is met.",
+      "context": "Grammar lesson explaining conditionals",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-7",
+      "word": "suggestion",
+      "hint": "A noun meaning an idea or recommendation offered for consideration.",
+      "clue": "sugg_st_on",
+      "sentence": "Your _____ to try studying in groups was really helpful for my grades.",
+      "context": "Student thanking peer for study advice",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "probably",
+      "hint": "An adverb meaning likely or with a good chance of occurring.",
+      "clue": "pr_bab_y",
+      "sentence": "It will _____ rain this weekend based on the weather service forecast.",
+      "context": "Weather prediction discussion",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "doubt",
+      "hint": "A noun or verb meaning lack of certainty or feeling unsure about something.",
+      "clue": "d_ut",
+      "sentence": "I have no _____ that you'll succeed in your new career path.",
+      "context": "Encouraging a friend about their future",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-10",
+      "word": "allowance",
+      "hint": "A noun meaning permission or the act of officially permitting something.",
+      "clue": "all_w_nce",
+      "sentence": "The teacher gave _____ for students to submit assignments one day late due to the technical issue.",
+      "context": "Classroom policy exception",
+      "difficulty": "hard"
+    }
+],
+  "rewards": {
+    "stars": {
+      "bronze": 5,
+      "silver": 12,
+      "gold": 25,
+      "platinum": 50
+    },
+    "badges": [
+      {
+        "id": "maybe-novice",
+        "name": "Maybe Novice",
+        "condition": "Complete 2 lessons",
+        "icon": "🤔",
+        "points": 10
+      },
+      {
+        "id": "possibility-expert",
+        "name": "Possibility Expert",
+        "condition": "Score 85% in quizzes",
+        "icon": "📊",
+        "points": 40
+      },
+      {
+        "id": "permission-master",
+        "name": "Permission Master",
+        "condition": "Use 'may' and 'might' correctly 10 times",
+        "icon": "✅",
+        "points": 30
+      }
+    ]
+  }
+}

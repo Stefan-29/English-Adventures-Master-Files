@@ -1,0 +1,162 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Past Simple vs Past Continuous",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Simple Past & Past Continuous",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Past Tenses Lessons",
+        "instructions": "Master Simple Past for finished actions, stories, habits, and Past Continuous for actions in progress, interruptions, and background scenes."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write stories and descriptions using simple past, past continuous, used to, and when/while clauses."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between simple past and past continuous in real-life stories."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about past tenses. Choose the correct answer to practice quickly!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Past Tense Challenge",
+        "instructions": "Apply simple past, used to, and past continuous correctly in stories and time clauses."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Simple Past Regular",
+        "words": [
+          "-ed",
+          "played",
+          "watched",
+          "watched",
+          "lived",
+          "studied",
+          "walked",
+          "called",
+          "liked",
+          "stopped",
+          "visited",
+          "worked",
+          "rain",
+          "rained"
+        ]
+      },
+      {
+        "title": "Simple Past Irregular",
+        "words": [
+          "went",
+          "saw",
+          "ate",
+          "drank",
+          "bought",
+          "came",
+          "had",
+          "took",
+          "made",
+          "wrote",
+          "read",
+          "spoke",
+          "ran",
+          "won",
+          "lost",
+          "forgot"
+        ]
+      },
+      {
+        "title": "Used To",
+        "words": [
+          "used to",
+          "didn't use to",
+          "Did ... use to?",
+          "used to play",
+          "used to live",
+          "never used to"
+        ]
+      },
+      {
+        "title": "Past Continuous",
+        "words": [
+          "was",
+          "were",
+          "was + -ing",
+          "were + -ing",
+          "was eating",
+          "were playing",
+          "was studying",
+          "was sleeping",
+          "was watching",
+          "was raining"
+        ]
+      },
+      {
+        "title": "Time Expressions",
+        "words": [
+          "yesterday",
+          "last night",
+          "last week",
+          "ago",
+          "in 2020",
+          "when I was a child",
+          "last year",
+          "this morning",
+          "at 5 PM yesterday",
+          "while",
+          "when",
+          "as"
+        ]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": [
+          "Yesterday, I ...",
+          "Last weekend, my family ...",
+          "When I was 10, I used to ...",
+          "While I was ... , the phone ...",
+          "At 7 PM last night, I ...",
+          "In 2019, we ...",
+          "One day, when I was walking ..."
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/past-tenses.json",
+  "grammarChecker": "pastTenses.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

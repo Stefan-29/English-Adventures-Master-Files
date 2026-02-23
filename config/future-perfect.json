@@ -1,0 +1,83 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Future Perfect & Future Perfect Continuous",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Future Perfect & Future Perfect Continuous",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Future Perfect Lessons",
+        "instructions": "Master completed actions and durations before a point in the future. Understand the difference between completion (Future Perfect) and ongoing duration (Future Perfect Continuous)."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using will have done / be going to have done and will have been doing to talk about future achievements and durations."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between Future Perfect and Future Perfect Continuous in real-life contexts."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about future perfect tenses. Choose the correct answer to practice quickly!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Future Perfect Challenge",
+        "instructions": "Apply Future Perfect and Future Perfect Continuous correctly, especially in time clauses (present perfect, not future!)."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Future Perfect Forms",
+        "words": ["will have + pp", "be going to have + pp", "won't have", "will not have", "'ll have", "going to have"]
+      },
+      {
+        "title": "Future Perfect Continuous Forms",
+        "words": ["will have been + ing", "be going to have been + ing", "won't have been", "'ll have been"]
+      },
+      {
+        "title": "Time Markers",
+        "words": ["by the time", "by next year", "by then", "by Monday", "when you finish", "for six months", "since 2020"]
+      },
+      {
+        "title": "Common Verbs",
+        "words": ["finish", "complete", "study", "work", "live", "wait", "travel", "drive", "teach", "learn", "visit", "have", "be"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["By the time I turn 30, I will have ___", "When she arrives, we will have been ___", "By next summer, I ___", "In ten years, I will have been ___"]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/future-perfect.json",
+  "grammarChecker": "futurePerfect.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

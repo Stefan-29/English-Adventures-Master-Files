@@ -1,0 +1,190 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Present Perfect & Stative Verbs",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Present Perfect Simple & Continuous + Stative Verbs",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Present Perfect Lessons",
+        "instructions": "Master Present Perfect Simple & Continuous, ever/never, for/since, already/yet/just, Present Perfect vs Past Simple, and how to use (or avoid!) stative verbs."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write about your life experiences, recent activities, duration, and states using Present Perfect correctly — no Past Simple with 'today/this week' and no continuous with stative verbs!"
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play fun games to choose between Present Perfect Simple vs Continuous, ever/never, for/since, already/yet/just, and spot stative verb mistakes."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about present perfect tenses. Choose the correct answer to practice quickly!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Present Perfect Challenge",
+        "instructions": "Apply Present Perfect and stative verb rules perfectly in real-life sentences and stories."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Present Perfect: Have/Has",
+        "words": [
+          "have",
+          "has",
+          "I've",
+          "you've",
+          "he's",
+          "she's",
+          "we've",
+          "they've",
+          "haven't",
+          "hasn't"
+        ]
+      },
+      {
+        "title": "Present Perfect Continuous",
+        "words": [
+          "have been + -ing",
+          "has been + -ing",
+          "I've been studying",
+          "she's been working",
+          "we've been waiting",
+          "haven't been sleeping"
+        ]
+      },
+      {
+        "title": "Experience & Adverbs",
+        "words": [
+          "ever",
+          "never",
+          "already",
+          "yet",
+          "just",
+          "still",
+          "so far",
+          "recently",
+          "lately"
+        ]
+      },
+      {
+        "title": "Time Expressions: For / Since",
+        "words": [
+          "for",
+          "since",
+          "for 10 years",
+          "since 2015",
+          "since Monday",
+          "for ages",
+          "since I was a child",
+          "for two hours"
+        ]
+      },
+      {
+        "title": "Unfinished Time Periods",
+        "words": [
+          "today",
+          "this week",
+          "this month",
+          "this year",
+          "in my life",
+          "so far",
+          "lately",
+          "recently"
+        ]
+      },
+      {
+        "title": "Stative Verbs (No Continuous!)",
+        "words": [
+          "know",
+          "like",
+          "love",
+          "hate",
+          "want",
+          "need",
+          "believe",
+          "understand",
+          "remember",
+          "belong",
+          "own",
+          "have (=possess)",
+          "seem",
+          "prefer"
+        ]
+      },
+      {
+        "title": "Common Past Participles",
+        "words": [
+          "been",
+          "seen",
+          "done",
+          "gone",
+          "eaten",
+          "tried",
+          "met",
+          "written",
+          "read",
+          "watched",
+          "lived",
+          "worked",
+          "studied",
+          "known"
+        ]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": [
+          "I’ve never ___",
+          "Have you ever ___?",
+          "I’ve been living here ___",
+          "I’ve known him ___",
+          "This week I’ve already ___",
+          "I still haven’t ___",
+          "I’ve just ___",
+          "Today I’ve ___",
+          "I’ve always liked ___"
+        ]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/present-perfect.json",
+  "grammarChecker": "presentPerfect.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

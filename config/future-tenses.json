@@ -1,0 +1,149 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Future Simple vs Future Continuous",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Simple Future & Future Continuous",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Future Tenses Lessons",
+        "instructions": "Master Simple Future (will / be going to) and Future Continuous to talk about plans, predictions, offers, and actions in progress."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using 'will', 'be going to', and future continuous to express future plans, predictions, and ongoing actions."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between 'will', 'be going to', and future continuous in real-life contexts."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about future tenses. Choose the correct answer to practice quickly!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Future Tense Challenge",
+        "instructions": "Apply 'will', 'be going to', and future continuous correctly in sentences and time clauses."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Simple Future: Will",
+        "words": [
+          "will",
+          "I'll",
+          "you'll",
+          "he'll",
+          "she'll",
+          "we'll",
+          "they'll",
+          "won't"
+        ]
+      },
+      {
+        "title": "Simple Future: Be Going To",
+        "words": [
+          "am going to",
+          "is going to",
+          "are going to",
+          "I'm going to",
+          "he's going to",
+          "we're going to",
+          "not going to"
+        ]
+      },
+      {
+        "title": "Future Continuous",
+        "words": [
+          "will be",
+          "will be + -ing",
+          "am/is/are going to be + -ing",
+          "will be eating",
+          "will be studying",
+          "will be playing",
+          "will be sleeping"
+        ]
+      },
+      {
+        "title": "Time Expressions",
+        "words": [
+          "tomorrow",
+          "tonight",
+          "next week",
+          "at 6 PM",
+          "in two hours",
+          "this weekend",
+          "next year",
+          "soon",
+          "later"
+        ]
+      },
+      {
+        "title": "Common Verbs for Future",
+        "words": [
+          "eat",
+          "study",
+          "play",
+          "visit",
+          "call",
+          "help",
+          "watch",
+          "read",
+          "travel",
+          "work",
+          "rain",
+          "win",
+          "meet",
+          "make"
+        ]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": [
+          "Tomorrow, I will ...",
+          "Next week, I am going to ...",
+          "At 7 PM, I will be ...",
+          "When you arrive, ...",
+          "I promise I will ...",
+          "Look at the sky — it is going to ...",
+          "While you are sleeping, ..."
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/future-tenses.json",
+  "grammarChecker": "futureTenses.js",             
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

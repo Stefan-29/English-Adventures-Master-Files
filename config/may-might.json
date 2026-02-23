@@ -1,0 +1,87 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: May / Might",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "May / Might: Modals and Usage",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Modals Lessons",
+        "instructions": "Study 'may' and 'might' for expressing possibility, permission, conditionals, and suggestions."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Create sentences using 'may' and 'might' to express different degrees of possibility and permission."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play interactive activities that reinforce understanding of possibility and permission modals."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Answer short multiple-choice questions to check your mastery of 'may' and 'might' usage."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Possibility & Modal Challenge",
+        "instructions": "Practice spelling and application of 'may' and 'might' in practical scenarios."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "May Forms",
+        "words": ["may","may not","might"]
+      },
+      {
+        "title": "Might Forms",
+        "words": ["might","might not","could"]
+      },
+      {
+        "title": "Concepts",
+        "words": ["possibility","permission","conditional","probability","maybe"]
+      },
+      {
+        "title": "Functions & Keywords",
+        "words": ["uncertain","allow","forbid","request","suggest","perhaps"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["You may...","I might...","She may have...","They might...","May I..."]
+      },
+      {
+        "title": "Context Words",
+        "words": ["possibility","doubt","perhaps","maybe","uncertain","permission"]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/may-might.json",
+  "grammarChecker": "mayMight.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner","intermediate","advanced"]
+  }
+}

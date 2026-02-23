@@ -1,0 +1,154 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Past Perfect & Past Perfect Continuous",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Past Perfect Simple & Continuous + Used to / Would",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Past Perfect Lessons",
+        "instructions": "Master Past Perfect Simple & Continuous, telling stories in the correct order, duration before a past moment, used to/would for past habits, and when NOT to overuse Past Perfect!"
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Storytelling Practice",
+        "instructions": "Write dramatic past stories using Past Perfect correctly — the earlier action = Past Perfect, the later = Past Simple. No 'when' mix-ups, no missing 'had', and perfect used to/would!"
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Time Detective Games",
+        "instructions": "Play exciting games to choose Past Perfect vs Past Simple, spot missing 'had', fix used to/would mistakes, and catch wrong Past Perfect Continuous."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about past perfect tenses. Choose the correct answer to practice quickly!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Past Perfect Master Challenge",
+        "instructions": "Apply Past Perfect rules perfectly in real-life stories, regrets, and life-before moments."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Past Perfect: Had",
+        "words": [
+          "had",
+          "hadn't",
+          "I'd",
+          "you'd",
+          "he'd",
+          "she'd",
+          "we'd",
+          "they'd",
+          "Had I?",
+          "Had you?"
+        ]
+      },
+      {
+        "title": "Past Perfect Continuous",
+        "words": [
+          "had been + -ing",
+          "I'd been waiting",
+          "she'd been working",
+          "we'd been living",
+          "hadn't been sleeping"
+        ]
+      },
+      {
+        "title": "Time Markers",
+        "words": [
+          "before",
+          "after",
+          "by the time",
+          "already",
+          "never ... before",
+          "until then",
+          "earlier",
+          "previously"
+        ]
+      },
+      {
+        "title": "Used to & Would (Past Habits)",
+        "words": [
+          "used to",
+          "didn't use to",
+          "would",
+          "would always",
+          "would never",
+          "used to live",
+          "would go"
+        ]
+      },
+      {
+        "title": "Common Past Participles",
+        "words": [
+          "gone",
+          "seen",
+          "done",
+          "been",
+          "eaten",
+          "written",
+          "met",
+          "lived",
+          "worked",
+          "tried",
+          "lost",
+          "found",
+          "broken",
+          "forgotten"
+        ]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": [
+          "By the time I arrived ___",
+          "I had never ___ before",
+          "She had been crying because ___",
+          "When I got home, ___",
+          "I wish I had ___",
+          "If only I hadn’t ___",
+          "I used to ___ but now ___",
+          "When I was young, I would ___"
+        ]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/past-perfect.json",
+  "grammarChecker": "pastPerfect.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

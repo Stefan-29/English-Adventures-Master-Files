@@ -1,0 +1,1122 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Will: Your Future Superpower for Snap Decisions!",
+            "content": "<p>Hey future-teller! Imagine <strong>will</strong> as your instant superpower 🦸‍♂️ – it pops up when you predict, promise, or decide on the spot! Like grabbing an umbrella because clouds scream rain. ☂️</p><p><strong>Predictions</strong> = what you think <em>will</em> happen. <em>I think it will rain later.</em></p><p><strong>Spontaneous decisions/offers</strong> = made now! <em>I'll answer the phone!</em></p><p><strong>Promises/threats</strong> = serious stuff. <em>I will call you. / Stop or I'll tell!</em></p><p><em>Fun fact: 'Will' is like a magic wand – wave it for instant future action! ✨</em></p>",
+            "examples": [
+                "The sky is dark – <strong>it will rain</strong> soon (prediction).",
+                "Phone ringing? <strong>I'll get it</strong>! (spontaneous offer).",
+                "I promise <strong>I will help</strong> you study tomorrow.",
+                "<strong>We won't be late</strong> – I swear!"
+            ],
+            "difficulty": 1,
+            "audio": "future_will_superpower.mp3",
+            "functions": [
+                "Predicting weather or events without evidence",
+                "Offering help or deciding instantly",
+                "Making promises or polite threats"
+            ],
+            "tips": "No plan yet? → Use <strong>will</strong> for on-the-spot magic."
+        },
+        {
+            "id": "lesson-2",
+            "title": "Be Going To: Plans & Evidence Detective!",
+            "content": "<p>Detective mode on! 🔍 <strong>Be going to</strong> is your clue-hunter for plans already decided or evidence screaming 'it's happening!' Like dark clouds = rain incoming.</p><p><strong>Plans/intentions</strong> = decided before speaking. <em>I'm going to visit Bali next month.</em></p><p><strong>Predictions with evidence</strong> = see it now? Predict it! <em>Look at those clouds – it's going to rain!</em></p><p><em>Fun fact: 'Gonna' is slang shortcut in chats/songs – I'm gonna win! But write 'going to' in essays! 😎</em></p>",
+            "examples": [
+                "Tickets booked – <strong>we're going to fly</strong> to Japan (plan).",
+                "He's running to the bus – <strong>he's going to miss it</strong> (evidence).",
+                "<strong>She’s going to have</strong> a baby – look at her belly!",
+                "I’ve saved money – <strong>I’m going to buy</strong> a new phone."
+            ],
+            "difficulty": 2,
+            "audio": "be_going_to_detective.mp3",
+            "functions": [
+                "Talking about fixed vacation or study plans",
+                "Predicting based on what you see/hear now",
+                "Announcing personal decisions"
+            ],
+            "tips": "Decision made earlier or clear signs? → Grab <strong>be going to</strong>."
+        },
+        {
+            "id": "lesson-3",
+            "title": "Future Continuous: Movie Scene in Progress!",
+            "content": "<p>Action! 🎬 <strong>Will be + -ing</strong> paints a future movie where you're <em>in the middle</em> of doing something. Like freezing a frame at 3 PM tomorrow.</p><p><strong>Ongoing at a future time</strong> = continuous action. <em>At 5 PM, I will be eating dinner.</em></p><p>Can use <strong>be going to be + -ing</strong> too – same vibe!</p><p><em>Fun fact: It's like pausing a video game – catch the action mid-level! 🕹️</em></p>",
+            "examples": [
+                "Tomorrow at noon, <strong>I will be flying</strong> over the ocean.",
+                "This time next week, <strong>we will be celebrating</strong> your birthday.",
+                "<strong>You will be sleeping</strong> when I arrive at midnight.",
+                "At 8 AM, <strong>she will be teaching</strong> English online."
+            ],
+            "difficulty": 2,
+            "audio": "future_continuous_movie.mp3",
+            "functions": [
+                "Describing what you'll be doing at a specific future moment",
+                "Setting atmosphere with parallel actions",
+                "Interrupted future actions"
+            ],
+            "tips": "Focus on 'during' a time? → <strong>Will be + -ing</strong> for the scene."
+        },
+        {
+            "id": "lesson-4",
+            "title": "Time Clauses: Present for Future Magic!",
+            "content": "<p>Time travel rule! 🕰️ In clauses with <strong>when/before/after/as soon as/until</strong>, use <strong>present simple</strong> even for future. Main clause? Future tense!</p><p><strong>Rule</strong>: Time clause = present. <em>I will call when I arrive.</em> (Not will arrive)</p><p>Comma if time clause first: <em>As soon as she finishes, we'll leave.</em></p><p><em>Fun fact: It's like a calendar reminder – present triggers future action! 📅</em></p>",
+            "examples": [
+                "<strong>I'll cook dinner after I get</strong> home (present in clause).",
+                "<strong>Before we start</strong> the movie, she will arrive (comma rule).",
+                "<strong>We won't leave until you finish</strong> your homework.",
+                "<strong>As soon as the bell rings</strong>, students will run outside."
+            ],
+            "difficulty": 3,
+            "audio": "time_clauses_magic.mp3",
+            "functions": [
+                "Linking future events without repeating future tense",
+                "Building complex schedules or plans",
+                "Expressing conditions and sequences"
+            ],
+            "tips": "See when/after/etc.? → Switch to present simple in that part."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Will vs Be Going To: Prediction Showdown!",
+            "content": "<p>Battle time! ⚔️ Both predict the future, but <strong>will</strong> = general guess, <strong>be going to</strong> = evidence-based. No proof? Will. See signs? Be going to!</p><p><em>The team will win the championship.</em> (opinion) vs <em>They’re leading 5-0 – they’re going to win!</em> (evidence)</p><p><em>Fun fact: Indonesians often mix them – but in exams, evidence = be going to! 📝</em></p>",
+            "examples": [
+                "<strong>It will be hot</strong> tomorrow (weather forecast guess).",
+                "<strong>It’s going to be hot</strong> – the sun is burning! (feeling heat now).",
+                "<strong>I think she’ll pass</strong> (belief).",
+                "<strong>She studied all night – she’s going to pass</strong> (proof)."
+            ],
+            "difficulty": 3,
+            "audio": "will_vs_goingto_showdown.mp3",
+            "functions": [
+                "Choosing correct form in predictions",
+                "Understanding nuance in formal writing"
+            ],
+            "tips": "Ask: Do I have proof now? → Yes = be going to. No = will."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Future in the Past: Was/Were Going To",
+            "content": "<p>Time machine rewind! ⏪ <strong>Was/were going to</strong> = planned in past but maybe didn’t happen. Like <em>I was going to call you, but my phone died.</em></p><p>Use for broken plans, expectations, or past intentions.</p><p><em>Fun fact: Like a 'future' that got stuck in traffic! 🚗💨</em></p>",
+            "examples": [
+                "<strong>I was going to study</strong>, but I fell asleep.",
+                "<strong>They were going to travel</strong> to Bali, but the volcano erupted.",
+                "<strong>She was going to be</strong> a doctor, but chose teaching."
+            ],
+            "difficulty": 3,
+            "audio": "future_in_past.mp3",
+            "functions": [
+                "Narrating unfulfilled plans",
+                "Explaining changes in intention"
+            ],
+            "tips": "Past plan, maybe failed? → Was/were going to + verb."
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "You're at a café with friends. It starts clouding over. Write 4 sentences: 1 will prediction, 1 be going to evidence, 1 spontaneous offer, 1 promise.",
+            "hint": "Will: guess/offer. Be going to: signs. Promise: I will + verb.",
+            "expectedKeywords": [
+                "will",
+                "going to",
+                "rain",
+                "umbrella",
+                "call"
+            ],
+            "sentenceStarters": [
+                "I think ___ rain soon.",
+                "Look! It ___ rain!",
+                "I'll ___ you an umbrella.",
+                "I ___ text you later."
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "Plan your dream weekend in Jakarta. Use be going to (2 plans), future continuous (2 specific times), and 1 time clause.",
+            "hint": "Be going to = intention. Continuous = at X time. Clause = when/after + present.",
+            "expectedKeywords": [
+                "going to",
+                "will be",
+                "visiting",
+                "Monas",
+                "when"
+            ],
+            "sentenceStarters": [
+                "I'm going to ___ Ancol on Saturday.",
+                "At 7 PM, I ___ eating satay.",
+                "I'll go home ___ I finish."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Write a short message to your teacher explaining why you missed class. Use was/were going to + 2 excuses and 1 future promise.",
+            "hint": "Was going to = past plan. Promise = I will...",
+            "expectedKeywords": [
+                "was going to",
+                "will",
+                "sorry",
+                "homework"
+            ],
+            "sentenceStarters": [
+                "I was going to come, but ___",
+                "I ___ submit it tomorrow."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-4",
+            "question": "You're a weather reporter. Write a 5-sentence forecast for tomorrow using will (general), be going to (evidence), and future continuous (specific time).",
+            "hint": "Will = likely. Be going to = radar shows. Continuous = at 3 PM.",
+            "expectedKeywords": [
+                "will",
+                "going to",
+                "be raining",
+                "sunny"
+            ],
+            "sentenceStarters": [
+                "Tomorrow ___ be sunny in Jakarta.",
+                "Clouds are forming – it ___ rain in Bandung.",
+                "At noon, people ___ enjoying the beach."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-5",
+            "question": "Write a diary entry about next year. Use be going to (3 plans), will (2 predictions), and 1 time clause with after.",
+            "hint": "Plans = decided. Predictions = think. After + present.",
+            "expectedKeywords": [
+                "going to",
+                "will",
+                "graduate",
+                "travel",
+                "after"
+            ],
+            "sentenceStarters": [
+                "Next year, I'm going to ___ university.",
+                "I think I ___ get a job.",
+                "___ I save money, I'll travel."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-6",
+            "question": "Your friend is moving to Bali. Write a goodbye card with 2 promises (will), 1 future continuous scene, and 1 time clause with as soon as.",
+            "hint": "Promise = I will. Continuous = you will be + ing. As soon as + present.",
+            "expectedKeywords": [
+                "will",
+                "be living",
+                "visit",
+                "as soon as"
+            ],
+            "sentenceStarters": [
+                "I ___ visit you every year.",
+                "You ___ surfing every day!",
+                "___ I arrive, we'll go to the beach."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-7",
+            "question": "You're organizing a school event. Write 5 instructions using future continuous (ongoing tasks) and time clauses (sequence).",
+            "hint": "Continuous = will be + ing during event. When/before + present.",
+            "expectedKeywords": [
+                "will be",
+                "decorating",
+                "when",
+                "before"
+            ],
+            "sentenceStarters": [
+                "At 8 AM, we ___ setting up chairs.",
+                "___ the guests arrive, we'll finish.",
+                "Students ___ performing when you enter."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Write a short story beginning: 'Tomorrow was the big exam...'. Use will (nervous prediction), be going to (plan), future continuous (night before), and 1 time clause.",
+            "hint": "Nervous = will. Plan = going to. Night = will be studying. Clause = before I sleep.",
+            "expectedKeywords": [
+                "will",
+                "going to",
+                "be studying",
+                "before"
+            ],
+            "sentenceStarters": [
+                "I think I ___ fail.",
+                "I'm going to ___ all night.",
+                "At midnight, I ___ reviewing notes."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-9",
+            "question": "Your flight is delayed. Write a text to family with 2 be going to (new plans), 1 future continuous (during wait), and 1 time clause with until.",
+            "hint": "New plan = going to. During = will be + ing. Until + present.",
+            "expectedKeywords": [
+                "going to",
+                "be waiting",
+                "eat",
+                "until"
+            ],
+            "sentenceStarters": [
+                "I'm going to ___ dinner here.",
+                "I ___ reading until boarding.",
+                "Don't pick me up ___ 10 PM."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-10",
+            "question": "Imagine you're 10 years older. Write a letter to your younger self with 3 pieces of advice using will (prediction), be going to (plan), and was going to (past regret).",
+            "hint": "Advice = you will. Plan = you should be going to. Regret = I was going to.",
+            "expectedKeywords": [
+                "will",
+                "going to",
+                "was going to",
+                "study",
+                "travel"
+            ],
+            "sentenceStarters": [
+                "You ___ regret not studying harder.",
+                "You should be going to ___ English daily.",
+                "I was going to ___ but didn't."
+            ],
+            "difficulty": 3
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Deciding right now in response to hunger - what shows instant decision?",
+            "sentence": "A: I'm hungry. B: ____ make nasi goreng!",
+            "options": [
+                "I'm going to",
+                "I'll",
+                "I will",
+                "I go to",
+                "I'm making"
+            ],
+            "correctAnswer": [
+                "I'll"
+            ],
+            "audio": "hungry_offer.mp3",
+            "hint": "Spontaneous offer made now (Lesson 1: Will for instant decisions)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Predicting based on opinion, not current evidence - which form?",
+            "sentence": "The sky is clear – tomorrow ____ be sunny.",
+            "options": [
+                "is going to",
+                "will",
+                "is",
+                "going to",
+                "was"
+            ],
+            "correctAnswer": [
+                "will"
+            ],
+            "audio": "clear_sky.mp3",
+            "hint": "General prediction without proof (Lesson 1: Will for predictions)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "After 'when' in time clauses - which tense despite future meaning?",
+            "sentence": "I'll call you when I ____ home.",
+            "options": [
+                "will get",
+                "getting",
+                "get",
+                "got",
+                "am getting"
+            ],
+            "correctAnswer": [
+                "get"
+            ],
+            "audio": "call_when_home.mp3",
+            "hint": "Time clause uses present (Lesson 4: Present in when clauses)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Decision made earlier with evidence (tickets) - which construction?",
+            "sentence": "I've booked tickets – we ____ to Bali!",
+            "options": [
+                "will go",
+                "go",
+                "are going to go",
+                "went",
+                "are going"
+            ],
+            "correctAnswer": [
+                "are going to go"
+            ],
+            "audio": "bali_tickets.mp3",
+            "hint": "Plan made before now (Lesson 2: Be going to for plans)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "In progress at a specific future time - painting the scene.",
+            "sentence": "At 3 PM tomorrow, I ____ lunch with Rina.",
+            "options": [
+                "will eat",
+                "eat",
+                "will be eating",
+                "am eating",
+                "ate"
+            ],
+            "correctAnswer": [
+                "will be eating"
+            ],
+            "audio": "lunch_3pm.mp3",
+            "hint": "Ongoing at specific time (Lesson 3: Future Continuous for movie scene)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-6",
+            "type": "drag-drop",
+            "question": "Visible sign (yawning) predicts what's coming - which form?",
+            "sentence": "He's yawning – he ____ asleep soon.",
+            "options": [
+                "will fall",
+                "falls",
+                "is going to fall",
+                "fell",
+                "falling"
+            ],
+            "correctAnswer": [
+                "is going to fall"
+            ],
+            "audio": "yawning.mp3",
+            "hint": "Evidence you can see now (Lesson 2: Be going to with evidence)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-7",
+            "type": "drag-drop",
+            "question": "Making a threat - which form shows consequences?",
+            "sentence": "Do your homework or ____ no phone!",
+            "options": [
+                "you'll have",
+                "you have",
+                "you're having",
+                "you had",
+                "you're going to have"
+            ],
+            "correctAnswer": [
+                "you'll have"
+            ],
+            "audio": "homework_threat.mp3",
+            "hint": "Threat uses will (Lesson 1: Will for threats)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-8",
+            "type": "drag-drop",
+            "question": "Past intention that didn't happen - which shows unfulfilled plan?",
+            "sentence": "I ____ call you, but my battery died.",
+            "options": [
+                "will",
+                "am going to",
+                "was going to",
+                "went to",
+                "called"
+            ],
+            "correctAnswer": [
+                "was going to"
+            ],
+            "audio": "battery_died.mp3",
+            "hint": "Past plan interrupted (Lesson 6: Was going to for broken plans)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-9",
+            "type": "drag-drop",
+            "question": "Two actions happening simultaneously in the future - both ongoing.",
+            "sentence": "While I ____ homework, she ____ dinner.",
+            "options": [
+                "will do",
+                "will be cooking",
+                "will be doing",
+                "will cook",
+                "do",
+                "cook"
+            ],
+            "correctAnswer": [
+                "will be doing",
+                "will be cooking"
+            ],
+            "audio": "parallel_actions.mp3",
+            "hint": "Both in progress together (Lesson 3: Parallel future actions)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-10",
+            "type": "drag-drop",
+            "question": "Time clause starting the sentence - no future tense in that clause!",
+            "sentence": "____ the movie ends, we'll go home.",
+            "options": [
+                "When will",
+                "When",
+                "While",
+                "If",
+                "After will"
+            ],
+            "correctAnswer": [
+                "When"
+            ],
+            "audio": "movie_ends.mp3",
+            "hint": "Time word without will (Lesson 4: When clause = present)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-11",
+            "type": "drag-drop",
+            "question": "Action in progress when interrupted - showing the ongoing activity.",
+            "sentence": "I ____ TV when you arrive.",
+            "options": [
+                "will watch",
+                "watch",
+                "will be watching",
+                "watched",
+                "am watching"
+            ],
+            "correctAnswer": [
+                "will be watching"
+            ],
+            "audio": "tv_arrive.mp3",
+            "hint": "Longer action being done (Lesson 3: Interrupted future continuous)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-12",
+            "type": "drag-drop",
+            "question": "Describing party atmosphere - multiple activities happening.",
+            "sentence": "At the party, people ____ and ____ music.",
+            "options": [
+                "will dance",
+                "will be dancing",
+                "play",
+                "playing",
+                "dance"
+            ],
+            "correctAnswer": [
+                "will be dancing",
+                "playing"
+            ],
+            "audio": "party_atmosphere.mp3",
+            "hint": "Setting the scene (Lesson 3: Atmosphere with continuous)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-13",
+            "type": "drag-drop",
+            "question": "General hope or belief about distant future - no evidence now.",
+            "sentence": "Indonesia ____ win the World Cup one day.",
+            "options": [
+                "is going to",
+                "will",
+                "is",
+                "going to",
+                "won"
+            ],
+            "correctAnswer": [
+                "will"
+            ],
+            "audio": "world_cup.mp3",
+            "hint": "Opinion without proof (Lesson 5: Will for beliefs)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-14",
+            "type": "drag-drop",
+            "question": "In the middle of starting at that exact time - continuous action.",
+            "sentence": "At 6 PM, I ____ dinner.",
+            "options": [
+                "will start",
+                "start",
+                "will be starting",
+                "started",
+                "am starting"
+            ],
+            "correctAnswer": [
+                "will be starting"
+            ],
+            "audio": "6pm_dinner.mp3",
+            "hint": "In progress at time (Lesson 3: Specific time with continuous)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-15",
+            "type": "drag-drop",
+            "question": "Instant response to feeling hot - spontaneous decision.",
+            "sentence": "A: It's hot. B: ____ open the window.",
+            "options": [
+                "I'm going to",
+                "I'll",
+                "I",
+                "I open",
+                "I opened"
+            ],
+            "correctAnswer": [
+                "I'll"
+            ],
+            "audio": "hot_window.mp3",
+            "hint": "Decided this moment (Lesson 1: Will for instant offers)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-16",
+            "type": "drag-drop",
+            "question": "Main clause vs until clause - which gets which tense?",
+            "sentence": "We ____ until you ____ ready.",
+            "options": [
+                "are",
+                "will wait",
+                "will be",
+                "wait",
+                "waited"
+            ],
+            "correctAnswer": [
+                "will wait",
+                "are"
+            ],
+            "audio": "until_ready.mp3",
+            "hint": "Until clause uses present (Lesson 4: Time clauses)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-17",
+            "type": "drag-drop",
+            "question": "Temporary situation next year - emphasizing the ongoing period.",
+            "sentence": "Next year, I ____ in Singapore.",
+            "options": [
+                "will live",
+                "live",
+                "will be living",
+                "lived",
+                "am living"
+            ],
+            "correctAnswer": [
+                "will be living"
+            ],
+            "audio": "singapore_nextyear.mp3",
+            "hint": "Temporary stay (Lesson 3: Future continuous for temporary)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-18",
+            "type": "drag-drop",
+            "question": "Making a promise about the future - which form guarantees commitment?",
+            "sentence": "Don't worry – I ____ your secret.",
+            "options": [
+                "am going to keep",
+                "will keep",
+                "keep",
+                "kept",
+                "keeping"
+            ],
+            "correctAnswer": [
+                "will keep"
+            ],
+            "audio": "secret_promise.mp3",
+            "hint": "Promise (Lesson 1: Will for promises)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-19",
+            "type": "drag-drop",
+            "question": "Current evidence (crying) shows what's about to happen.",
+            "sentence": "The baby is crying – he ____ hungry.",
+            "options": [
+                "will be",
+                "is",
+                "is going to be",
+                "was",
+                "being"
+            ],
+            "correctAnswer": [
+                "is going to be"
+            ],
+            "audio": "baby_crying.mp3",
+            "hint": "Visible sign now (Lesson 2: Evidence-based prediction)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-20",
+            "type": "drag-drop",
+            "question": "Time clause with 'as soon as' - present tense in that part!",
+            "sentence": "____ I ____ money, I'll buy a ticket.",
+            "options": [
+                "As soon as",
+                "will have",
+                "have",
+                "had",
+                "having"
+            ],
+            "correctAnswer": [
+                "As soon as",
+                "have"
+            ],
+            "audio": "as_soon_as.mp3",
+            "hint": "As soon as clause (Lesson 4: Present in time clauses)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-21",
+            "type": "drag-drop",
+            "question": "Past intention stopped by circumstances - unfulfilled plan.",
+            "sentence": "I ____ travel last year, but COVID stopped me.",
+            "options": [
+                "will",
+                "am going to",
+                "was going to",
+                "went",
+                "traveled"
+            ],
+            "correctAnswer": [
+                "was going to"
+            ],
+            "audio": "covid_travel.mp3",
+            "hint": "Broken past plan (Lesson 6: Was going to for regrets)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-22",
+            "type": "drag-drop",
+            "question": "Spontaneous offer to help - decided at this moment.",
+            "sentence": "A: Heavy bag? B: ____ help you.",
+            "options": [
+                "I'm going to",
+                "I'll",
+                "I",
+                "I help",
+                "I helped"
+            ],
+            "correctAnswer": [
+                "I'll"
+            ],
+            "audio": "heavy_bag.mp3",
+            "hint": "Instant help offer (Lesson 1: Will for spontaneous offers)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-23",
+            "type": "drag-drop",
+            "question": "Festival scene with ongoing activities - setting the atmosphere.",
+            "sentence": "At the festival, children ____ games and adults ____ food.",
+            "options": [
+                "will play",
+                "will be playing",
+                "cook",
+                "will cook",
+                "cooking"
+            ],
+            "correctAnswer": [
+                "will be playing",
+                "cooking"
+            ],
+            "audio": "festival_scene.mp3",
+            "hint": "Scene description (Lesson 3: Atmosphere setting)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-24",
+            "type": "drag-drop",
+            "question": "Scientific prediction about distant future - general belief.",
+            "sentence": "Scientists say robots ____ our jobs in 50 years.",
+            "options": [
+                "are going to take",
+                "will take",
+                "take",
+                "took",
+                "taking"
+            ],
+            "correctAnswer": [
+                "will take"
+            ],
+            "audio": "robots_future.mp3",
+            "hint": "General future (Lesson 5: Will for predictions)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-25",
+            "type": "drag-drop",
+            "question": "In progress at midnight - celebrating during that time.",
+            "sentence": "At midnight, I ____ the New Year.",
+            "options": [
+                "will celebrate",
+                "celebrate",
+                "will be celebrating",
+                "celebrated",
+                "am celebrating"
+            ],
+            "correctAnswer": [
+                "will be celebrating"
+            ],
+            "audio": "new_year_midnight.mp3",
+            "hint": "Ongoing at specific time (Lesson 3: Future continuous)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-26",
+            "type": "drag-drop",
+            "question": "Before clause at the start - use present tense there!",
+            "sentence": "____ you ____, lock the door.",
+            "options": [
+                "Before",
+                "will leave",
+                "leave",
+                "left",
+                "leaving"
+            ],
+            "correctAnswer": [
+                "Before",
+                "leave"
+            ],
+            "audio": "lock_door.mp3",
+            "hint": "Before clause = present (Lesson 4: Time clause rule)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-27",
+            "type": "drag-drop",
+            "question": "His face shows clear evidence - prediction based on what you see.",
+            "sentence": "Look at his face – he ____ the exam!",
+            "options": [
+                "will fail",
+                "fails",
+                "is going to fail",
+                "failed",
+                "failing"
+            ],
+            "correctAnswer": [
+                "is going to fail"
+            ],
+            "audio": "exam_face.mp3",
+            "hint": "Evidence visible (Lesson 2: Be going to with proof)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-28",
+            "type": "drag-drop",
+            "question": "Action in progress when power cut happened - interrupted activity.",
+            "sentence": "I ____ when the power went out.",
+            "options": [
+                "will cook",
+                "cook",
+                "will be cooking",
+                "cooked",
+                "was cooking"
+            ],
+            "correctAnswer": [
+                "will be cooking"
+            ],
+            "audio": "power_out.mp3",
+            "hint": "Interrupted future (Lesson 3: Continuous for interruption)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-29",
+            "type": "drag-drop",
+            "question": "Threatening consequence if they don't comply.",
+            "sentence": "Be quiet or ____ to the principal!",
+            "options": [
+                "I take you",
+                "I'll take you",
+                "I'm taking you",
+                "I took you",
+                "I'm going to take you"
+            ],
+            "correctAnswer": [
+                "I'll take you"
+            ],
+            "audio": "principal_threat.mp3",
+            "hint": "Threat (Lesson 1: Will for threats)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-30",
+            "type": "drag-drop",
+            "question": "BOSS: 'The moment' time clause - present tense despite future meaning!",
+            "sentence": "____ you ____ the bell, run!",
+            "options": [
+                "The moment",
+                "will hear",
+                "hear",
+                "heard",
+                "hearing"
+            ],
+            "correctAnswer": [
+                "The moment",
+                "hear"
+            ],
+            "audio": "bell_run.mp3",
+            "hint": "The moment clause (Lesson 4: All time clauses use present)",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "What do you use 'will' for when making a spontaneous offer?",
+            "sentence": "A: I'm too tired to do the dishes. B: ____ do them for you!",
+            "options": [
+                "I'll",
+                "I'm going to",
+                "I'm going",
+                "I was going"
+            ],
+            "correctAnswer": "I'll",
+            "hint": "A spontaneous offer is made right now without planning - use 'will'",
+            "difficulty": "easy"
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which form shows a plan made before this moment?",
+            "sentence": "I've already decided and bought tickets – we ____ to Tokyo next month.",
+            "options": [
+                "are going to go",
+                "will go",
+                "go",
+                "are going"
+            ],
+            "correctAnswer": "are going to go",
+            "hint": "When you already decided and have evidence (tickets bought), use 'be going to'",
+            "difficulty": "medium"
+        },
+        {
+            "id": "quiz-3",
+            "question": "What verb form completes this time clause correctly?",
+            "sentence": "I will text you when I ____ the store.",
+            "options": [
+                "reach",
+                "will reach",
+                "am reaching",
+                "reaching"
+            ],
+            "correctAnswer": "reach",
+            "hint": "Time clauses (when, before, after, as soon as) use present simple, not future tense",
+            "difficulty": "medium"
+        },
+        {
+            "id": "quiz-4",
+            "question": "What is happening at a specific future time?",
+            "sentence": "At 10 PM tomorrow, I ____ my favorite show.",
+            "options": [
+                "will be watching",
+                "will watch",
+                "am watching",
+                "watch"
+            ],
+            "correctAnswer": "will be watching",
+            "hint": "For actions happening at a specific time in the future, use future continuous (will be + -ing)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which shows a prediction based on what you observe right now?",
+            "sentence": "Look at those dark clouds! It ____ rain very soon.",
+            "options": [
+                "is going to",
+                "will",
+                "going to",
+                "is going"
+            ],
+            "correctAnswer": "is going to",
+            "hint": "When you see evidence happening now (dark clouds), use 'be going to' for prediction",
+            "difficulty": "easy"
+        },
+        {
+            "id": "quiz-6",
+            "question": "What's the best choice for a general prediction about the future?",
+            "sentence": "I think she ____ become a great doctor someday.",
+            "options": [
+                "will",
+                "is going to",
+                "going to",
+                "am going"
+            ],
+            "correctAnswer": "will",
+            "hint": "For general predictions without specific evidence, use 'will'",
+            "difficulty": "easy"
+        },
+        {
+            "id": "quiz-7",
+            "question": "Choose the correct tense for this mixed sentence:",
+            "sentence": "We ____ arrive at 6 PM, so when you ____ home, we ____ already there.",
+            "options": [
+                "will / get / are",
+                "will / get / will be",
+                "are going to / reach / will be",
+                "will / will get / are"
+            ],
+            "correctAnswer": "will / get / will be",
+            "hint": "Use 'will' for the main clause, present in the time clause, and 'will be' to complete the sentence",
+            "difficulty": "hard"
+        },
+        {
+            "id": "quiz-8",
+            "question": "What's happening continuously at a future time?",
+            "sentence": "At noon tomorrow, we ____ in class.",
+            "options": [
+                "will be sitting",
+                "will sit",
+                "sit",
+                "are sitting"
+            ],
+            "correctAnswer": "will be sitting",
+            "hint": "Use future continuous (will be + -ing) for actions in progress at a specific future time",
+            "difficulty": "medium"
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "intention",
+            "hint": "Plan or purpose (be going to shows ___)",
+            "clue": "__te__io_",
+            "audio": "intention.mp3",
+            "sentence": "My ___ is to learn English.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-2",
+            "word": "prediction",
+            "hint": "Guess about future (will or be going to)",
+            "clue": "p_e___t___",
+            "audio": "prediction.mp3",
+            "sentence": "My ___ is rain tomorrow.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-3",
+            "word": "continuous",
+            "hint": "Ongoing (future ___ = will be + ing)",
+            "clue": "_o_t__uo__",
+            "audio": "continuous.mp3",
+            "sentence": "I will be ___ at 5 PM.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-4",
+            "word": "spontaneous",
+            "hint": "Instant decision (will for ___ offers)",
+            "clue": "s_o___n___s",
+            "audio": "spontaneous.mp3",
+            "sentence": "It was a ___ decision to help.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-5",
+            "word": "evidence",
+            "hint": "Proof (be going to needs ___)",
+            "clue": "__i_e_c_",
+            "audio": "evidence.mp3",
+            "sentence": "Dark clouds are ___ of rain.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-6",
+            "word": "promise",
+            "hint": "Will for ___ (I will help you)",
+            "clue": "p_o___e",
+            "audio": "promise.mp3",
+            "sentence": "I made a ___ to study daily.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-7",
+            "word": "interruption",
+            "hint": "Future continuous for ___ actions",
+            "clue": "i_te_r__t_o_",
+            "audio": "interruption.mp3",
+            "sentence": "The call was an ___.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-8",
+            "word": "atmosphere",
+            "hint": "Future continuous creates ___",
+            "clue": "a___s_h_r_",
+            "audio": "atmosphere.mp3",
+            "sentence": "The party had great ___.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-9",
+            "word": "clause",
+            "hint": "Time ___ uses present for future",
+            "clue": "c_a_s_",
+            "audio": "clause.mp3",
+            "sentence": "When is a time ___.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-10",
+            "word": "intention",
+            "hint": "Synonym for plan (be going to)",
+            "clue": "i_t__t_o_",
+            "audio": "intention2.mp3",
+            "sentence": "Her ___ was to surprise us.",
+            "difficulty": "easy"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 15,
+            "silver": 40,
+            "gold": 70,
+            "platinum": 100
+        },
+        "badges": [
+            {
+                "id": "future-master",
+                "name": "Future Master 🚀",
+                "condition": "Complete all 6 lessons with 90%+ accuracy",
+                "icon": "🚀",
+                "points": 50
+            },
+            {
+                "id": "prediction-pro",
+                "name": "Prediction Pro 🔮",
+                "condition": "Get 15/15 prediction games correct",
+                "icon": "🔮",
+                "points": 40
+            },
+            {
+                "id": "time-lord",
+                "name": "Time Lord ⏰",
+                "condition": "Master all time clause activities",
+                "icon": "⏰",
+                "points": 40
+            },
+            {
+                "id": "planner-extraordinaire",
+                "name": "Planner Extraordinaire 📅",
+                "condition": "Use be going to perfectly in 8 writing tasks",
+                "icon": "📅",
+                "points": 35
+            },
+            {
+                "id": "continuous-champ",
+                "name": "Continuous Champ 🎬",
+                "condition": "All future continuous games correct",
+                "icon": "🎬",
+                "points": 35
+            }
+        ]
+    }
+}

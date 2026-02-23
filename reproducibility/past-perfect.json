@@ -1,0 +1,1475 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Welcome to the Time Machine!",
+            "content": "<p>Past Perfect = the tense that goes <strong>BEFORE the Past Simple</strong>. It’s how native speakers tell stories in the correct order!</p><p>When the police arrived, the thief <strong>had escaped</strong>.<br>→ First: thief escaped → Then: police arrived</p><p>Form: <strong>had + past participle</strong> (had gone, had seen, had forgotten…)</p><p>Fun fact: Without Past Perfect, your story sounds like a robot wrote it!</p>",
+            "examples": [
+                "By the time I woke up, my family <strong>had eaten</strong> breakfast.",
+                "She was happy because she <strong>had passed</strong> the exam.",
+                "I <strong>had never seen</strong> the sea before 2015."
+            ],
+            "difficulty": 1,
+            "audio": "time_machine.mp3",
+            "tips": "Ask yourself: Which happened FIRST? → Past Perfect!"
+        },
+        {
+            "id": "lesson-2",
+            "title": "Past Perfect Simple vs Continuous",
+            "content": "<p><strong>Simple</strong> = completed result (how many? finished?)</p><p><em>I’d written three emails before the meeting.</em></p><p><strong>Continuous</strong> = long activity → you’re tired / room is messy</p><p><em>I’d been writing emails all morning — my eyes hurt!</em></p><p>Live / work / study / teach → both possible!</p>",
+            "examples": [
+                "He’d cooked dinner. (food ready)",
+                "He’d been cooking for hours. (kitchen destroyed!)",
+                "They’d lived in Paris for 10 years = They’d been living in Paris for 10 years."
+            ],
+            "difficulty": 2,
+            "audio": "simple_vs_cont.mp3"
+        },
+        {
+            "id": "lesson-3",
+            "title": "Magic Words that SCREAM Past Perfect",
+            "content": "<p>These words almost FORCE you to use Past Perfect:</p><ul><li><strong>by the time</strong></li><li><strong>already</strong> (in the past)</li><li><strong>never … before</strong></li><li><strong>until then</strong></li><li><strong>the first time … was</strong></li></ul><p>Unlike Present Perfect → you CAN use exact years!</p>",
+            "examples": [
+                "By the time we arrived, the party <strong>had finished</strong>.",
+                "She <strong>had already left</strong> when I called.",
+                "I <strong>had never eaten</strong> sushi before 2018."
+            ],
+            "difficulty": 2,
+            "audio": "magic_words.mp3"
+        },
+        {
+            "id": "lesson-4",
+            "title": "Before / After Rule (The Secret Native Speakers Use)",
+            "content": "<p>If you use <strong>before</strong> or <strong>after</strong>, Past Perfect is OPTIONAL!</p><p>Both correct:</p><p>→ After she <strong>had finished</strong> homework, she watched TV.<br>→ After she <strong>finished</strong> homework, she watched TV.</p><p>But Past Perfect sounds more professional and dramatic!",
+            "examples": [
+                "Before I met Lisa, I <strong>had never</strong> fallen in love. (dramatic!)",
+                "Before I met Lisa, I never fell in love. (simple, OK)"
+            ],
+            "difficulty": 3,
+            "audio": "before_after.mp3"
+        },
+        {
+            "id": "lesson-5",
+            "title": "Used to = Old Habits & States That Stopped",
+            "content": "<p><strong>Used to + verb</strong> = something regular in the past, but NOT now.</p><p>Works with ACTION verbs AND STATE verbs (be, have, like, live…)</p><p>Negative & question → DID!</p>",
+            "examples": [
+                "I <strong>used to</strong> smoke. (but I quit)",
+                "She <strong>used to</strong> be shy. (state → only used to!)",
+                "Did you <strong>use to</strong> live in Jakarta?"
+            ],
+            "difficulty": 2,
+            "audio": "used_to.mp3"
+        },
+        {
+            "id": "lesson-6",
+            "title": "Would = Repeated Actions (Storytelling Gold!)",
+            "content": "<p><strong>Would</strong> = repeated actions in the past (ONLY actions, NOT states!)</p><p>Often with time expressions: every summer, when I was young, on Sundays…</p><p>Shows nostalgia, annoyance, or extreme habits!</p>",
+            "examples": [
+                "Every weekend we <strong>would</strong> go fishing.",
+                "My brother <strong>would always</strong> steal my toys! (annoying!)",
+                "I <strong>would never</strong> eat vegetables as a child."
+            ],
+            "difficulty": 3,
+            "audio": "would.mp3"
+        },
+        {
+            "id": "lesson-7",
+            "title": "Used to vs Would — The Golden Rule",
+            "content": "<p>Used to → habits AND states<br>Would → only repeated ACTIONS (and needs time context)</p><p>Wrong: I would be shy. Correct: I used to be shy.</p>",
+            "examples": [
+                "I <strong>used to</strong> have long hair. (state)",
+                "When I was 10, I <strong>would</strong> ride my bike every day. (action)",
+                "Grandma <strong>would</strong> make cookies every Sunday."
+            ],
+            "difficulty": 3,
+            "audio": "used_vs_would.mp3"
+        },
+        {
+            "id": "lesson-8",
+            "title": "Past Perfect with Duration (Live, Work, Study, Own…)",
+            "content": "<p>Even with non-continuous verbs, we use Past Perfect for duration up to a past moment.</p><p>By 2020, he <strong>had been</strong> in London for 8 years.<br>We <strong>had had</strong> that car for 10 years before it broke.</p>",
+            "examples": [
+                "They <strong>had owned</strong> the house for 40 years.",
+                "She <strong>had been</strong> a teacher for 15 years when she retired."
+            ],
+            "difficulty": 3,
+            "audio": "duration.mp3"
+        },
+        {
+            "id": "lesson-9",
+            "title": "Common Mistakes (Indonesian Special!)",
+            "content": "<p>Wrong: When I arrived, the train left. (no order!)<br>Wrong: I had never see snow. (missing -n)<br>Wrong: I would be fat. (state!)</p><p>Fix them and sound like a native!</p>",
+            "examples": [
+                "Correct: When I arrived, the train <strong>had left</strong>.",
+                "Correct: I <strong>had never seen</strong> snow before."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "lesson-10",
+            "title": "Your Turn: Become a Master Storyteller!",
+            "content": "<p>Now write a dramatic story about a day everything went wrong… or your childhood… or life before a big change. Use everything: Past Perfect, Continuous, used to, would, already, never before!</p>",
+            "difficulty": 3,
+            "audio": "your_turn.mp3"
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "First-time experiences: Write 6 sentences using “I had never … before” + Past Perfect Simple.",
+            "hint": "I had never flown on a plane before 2019.",
+            "expectedKeywords": [
+                "had never",
+                "before"
+            ],
+            "sentenceStarters": [
+                "I had never ___ before",
+                "It was the first time I had ___",
+                "Until then, I had never ___"
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "By the time / Already drama: Write 6 sentences using “By the time …” or “already” in the past + Past Perfect.",
+            "hint": "By the time I arrived, the movie had already started.",
+            "expectedKeywords": [
+                "by the time",
+                "already",
+                "had"
+            ],
+            "sentenceStarters": [
+                "By the time I got home ___",
+                "When the teacher entered ___",
+                "I had already ___ when"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Regrets & wishes: Write 6 sentences beginning with “I wish I had …” or “If only I hadn’t …”.",
+            "hint": "I wish I had studied harder for the exam.",
+            "expectedKeywords": [
+                "wish i had",
+                "if only",
+                "hadn't"
+            ],
+            "sentenceStarters": [
+                "I wish I had ___",
+                "If only I hadn’t ___",
+                "I should have ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-4",
+            "question": "Childhood repeated actions: Write 8 sentences — 4 with “would” (repeated actions) and 4 with “used to”.",
+            "hint": "Every Sunday we would go fishing / I used to collect stickers.",
+            "expectedKeywords": [
+                "would",
+                "used to",
+                "every",
+                "always"
+            ],
+            "sentenceStarters": [
+                "When I was young, I would ___",
+                "Every weekend we would ___",
+                "I used to ___ but now",
+                "My brother used to ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-5",
+            "question": "Tired, dirty, crying… Write 6 sentences using Past Perfect Continuous to explain why someone looked that way.",
+            "hint": "He was exhausted because he’d been working all night.",
+            "expectedKeywords": [
+                "had been",
+                "because",
+                "since",
+                "all"
+            ],
+            "sentenceStarters": [
+                "She was crying because she’d been ___",
+                "His hands were dirty because he’d been ___",
+                "I was out of breath because I’d been ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Duration before a past moment: Write 6 sentences using live/work/study/teach/have/own + for/since + Past Perfect (Simple or Continuous).",
+            "hint": "She had worked there for 10 years when she got promoted.",
+            "expectedKeywords": [
+                "for",
+                "since",
+                "had",
+                "worked",
+                "lived",
+                "been"
+            ],
+            "sentenceStarters": [
+                "He had worked at the company ___ when",
+                "By 2020, I had been living ___",
+                "They had owned the car ___ before"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-7",
+            "question": "The worst day ever: Write a short paragraph (7–10 sentences) about a day everything went wrong. Use: 3 Past Perfect Simple, 2 Continuous, 1 already.",
+            "hint": "When I woke up, my phone had already died… I’d been studying all night…",
+            "expectedKeywords": [
+                "when",
+                "had",
+                "already",
+                "been",
+                "because"
+            ],
+            "sentenceStarters": [
+                "That day started badly because ___",
+                "By 9 a.m. I had already ___",
+                "I was late because I’d been ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Life before a big change: Write 8 sentences about your life BEFORE moving house / starting university / meeting your best friend, etc. Use Past Perfect + used to/would.",
+            "hint": "Before I moved to Jakarta, I had never taken a train… I used to ride a bicycle every day…",
+            "expectedKeywords": [
+                "before i",
+                "used to",
+                "would",
+                "had"
+            ],
+            "sentenceStarters": [
+                "Before I started university ___",
+                "In my old town, I would ___",
+                "I had lived there ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-9",
+            "question": "Mixed storytelling challenge: Write a short true story (8–10 sentences) about something that happened to you or your family. Use: 3 Past Perfect Simple, 2 Continuous, 1 used to, 1 would, 1 never…before, 1 already.",
+            "hint": "The best stories mix everything!",
+            "expectedKeywords": [
+                "had",
+                "been",
+                "used to",
+                "would",
+                "never",
+                "already"
+            ],
+            "sentenceStarters": [
+                "I will never forget the day ___",
+                "Before that moment, I had never ___",
+                "We would always ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-10",
+            "question": "Final boss: Diary entry from 5 years ago. Write a diary paragraph (10+ sentences) as if it’s 5 years ago, looking back at your life before that. Use everything you learned!",
+            "hint": "Dear Diary, 5 years ago today… I had just… I’d been dreaming… I used to think…",
+            "expectedKeywords": [
+                "had",
+                "been",
+                "used to",
+                "would",
+                "wish",
+                "never",
+                "already"
+            ],
+            "sentenceStarters": [
+                "Dear Diary, five years ago today ___",
+                "Looking back, I wish I had ___",
+                "Back then I would always ___"
+            ],
+            "difficulty": 3
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Two hours of cooking - focus on the duration and process, not just completion.",
+            "sentence": "When I arrived, she ____ ____ dinner for two hours.",
+            "options": [
+                "cooking",
+                "had",
+                "cooked",
+                "was",
+                "had been",
+                "has been"
+            ],
+            "correctAnswer": [
+                "had been",
+                "cooking"
+            ],
+            "hint": "Focus on duration and ongoing process, not completion",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "What's the source of exhaustion - a completed task or the long effort itself?",
+            "sentence": "I was exhausted because I ____ ____ all day.",
+            "options": [
+                "working",
+                "have",
+                "had",
+                "was",
+                "worked",
+                "had been"
+            ],
+            "correctAnswer": [
+                "had been",
+                "working"
+            ],
+            "hint": "Exhaustion shows in the result of prolonged activity",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Three reports - can you count them? Think about finished results.",
+            "sentence": "By 10 PM, they ____ ____ three reports.",
+            "options": [
+                "finished",
+                "have",
+                "had been",
+                "completing",
+                "had",
+                "completed"
+            ],
+            "correctAnswer": [
+                "had",
+                "finished"
+            ],
+            "hint": "Count the result (three reports) - completed or ongoing?",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Her dirty hands are visible proof. What explains this physical evidence?",
+            "sentence": "Her hands were dirty because she ____ ____ in the garden.",
+            "options": [
+                "has been",
+                "had",
+                "working",
+                "worked",
+                "had been",
+                "was"
+            ],
+            "correctAnswer": [
+                "had been",
+                "working"
+            ],
+            "hint": "Dirty hands = evidence of the activity itself",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Five years in Tokyo - stating a completed period of residence.",
+            "sentence": "He ____ ____ in Tokyo for 5 years when he got the promotion.",
+            "options": [
+                "living",
+                "had",
+                "was",
+                "lived",
+                "has",
+                "had been"
+            ],
+            "correctAnswer": [
+                "had",
+                "lived"
+            ],
+            "hint": "With 'live', stating completed periods uses one form more naturally",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-6",
+            "type": "drag-drop",
+            "question": "Their first time seeing snow - a completed experience or ongoing weather?",
+            "sentence": "The children were excited because it ____ ____ for the first time.",
+            "options": [
+                "snowing",
+                "was",
+                "had",
+                "has",
+                "snowed",
+                "had been"
+            ],
+            "correctAnswer": [
+                "had",
+                "snowed"
+            ],
+            "hint": "First time experiences are completed events",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-7",
+            "type": "drag-drop",
+            "question": "Your eyes hurt from hours of reading - what caused this physical strain?",
+            "sentence": "My eyes hurt because I ____ ____ ____ for hours.",
+            "options": [
+                "reading",
+                "was",
+                "had",
+                "have",
+                "been",
+                "read"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "reading"
+            ],
+            "hint": "Physical pain results from prolonged activity",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-8",
+            "type": "drag-drop",
+            "question": "Five emails before the meeting - emphasis on how many got done.",
+            "sentence": "She ____ ____ five emails before the meeting started.",
+            "options": [
+                "was",
+                "had",
+                "sending",
+                "sent",
+                "had been",
+                "has"
+            ],
+            "correctAnswer": [
+                "had",
+                "sent"
+            ],
+            "hint": "When you can count results, think about accomplishment",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-9",
+            "type": "drag-drop",
+            "question": "Kitchen destroyed! The mess tells a story about what happened during cooking.",
+            "sentence": "The kitchen was a mess because he ____ ____ ____ all morning.",
+            "options": [
+                "cooked",
+                "been",
+                "has",
+                "cooking",
+                "had",
+                "was"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "cooking"
+            ],
+            "hint": "Messy kitchen = evidence of the process, not just the result",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-10",
+            "type": "drag-drop",
+            "question": "Twelve years of study by graduation - stating the total time period.",
+            "sentence": "By graduation, I ____ ____ English for 12 years.",
+            "options": [
+                "studying",
+                "have",
+                "had been",
+                "studied",
+                "was",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "studied"
+            ],
+            "hint": "For stating completed time periods with study, one form is more common",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-11",
+            "type": "drag-drop",
+            "question": "They're late because of the searching itself, not because they found parking.",
+            "sentence": "They were late because they ____ ____ ____ for parking.",
+            "options": [
+                "looking",
+                "were",
+                "looked",
+                "had",
+                "have",
+                "been"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "looking"
+            ],
+            "hint": "The search process caused lateness",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-12",
+            "type": "drag-drop",
+            "question": "She's confident because preparation is done, ready for action.",
+            "sentence": "She felt confident because she ____ ____ well.",
+            "options": [
+                "preparing",
+                "was",
+                "had",
+                "has",
+                "prepared",
+                "had been"
+            ],
+            "correctAnswer": [
+                "had",
+                "prepared"
+            ],
+            "hint": "Confidence comes from finished preparation being ready",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-13",
+            "type": "drag-drop",
+            "question": "He's sweating - clear physical proof of recent exertion.",
+            "sentence": "He was sweating because he ____ ____ ____.",
+            "options": [
+                "run",
+                "had",
+                "was",
+                "running",
+                "been",
+                "has"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "running"
+            ],
+            "hint": "Sweating is visible evidence of recent physical activity",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-14",
+            "type": "drag-drop",
+            "question": "The whole project by midnight - everything accomplished and finished.",
+            "sentence": "By midnight, we ____ ____ the whole project.",
+            "options": [
+                "completing",
+                "completed",
+                "had been",
+                "have",
+                "had",
+                "finished"
+            ],
+            "correctAnswer": [
+                "had",
+                "completed"
+            ],
+            "hint": "Focus on the accomplished result",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-15",
+            "type": "drag-drop",
+            "question": "Frustration from an hour of unsuccessful attempts - the struggle continues.",
+            "sentence": "I was frustrated because I ____ ____ ____ to fix it for an hour.",
+            "options": [
+                "trying",
+                "was",
+                "had",
+                "have",
+                "tried",
+                "been"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "trying"
+            ],
+            "hint": "Frustration comes from the ongoing unsuccessful effort",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-16",
+            "type": "drag-drop",
+            "question": "Players exhausted from playing without rest - the non-stop effort shows.",
+            "sentence": "The players were tired because they ____ ____ ____ without a break.",
+            "options": [
+                "playing",
+                "were",
+                "played",
+                "been",
+                "have",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "playing"
+            ],
+            "hint": "Tiredness from sustained exertion without stopping",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-17",
+            "type": "drag-drop",
+            "question": "Reading it three times led to understanding - count the repetitions.",
+            "sentence": "She understood it because she ____ ____ the explanation three times.",
+            "options": [
+                "was",
+                "reading",
+                "read",
+                "had been",
+                "has",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "read"
+            ],
+            "hint": "Three times = specific number of completed readings",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-18",
+            "type": "drag-drop",
+            "question": "Aching fingers tell the story - hours of piano practice left their mark.",
+            "sentence": "My fingers ached because I ____ ____ ____ the piano for hours.",
+            "options": [
+                "played",
+                "been",
+                "have",
+                "playing",
+                "had",
+                "was"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "playing"
+            ],
+            "hint": "Physical ache is evidence of sustained practice",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-19",
+            "type": "drag-drop",
+            "question": "Homework done before she called - task accomplished and complete.",
+            "sentence": "By the time she called, I ____ ____ my homework.",
+            "options": [
+                "finishing",
+                "had been",
+                "finished",
+                "was",
+                "have",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "finished"
+            ],
+            "hint": "Homework is complete, task accomplished",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-20",
+            "type": "drag-drop",
+            "question": "Wet road in the morning - what does this tell you about the night's weather?",
+            "sentence": "The road was wet because it ____ ____ ____ all night.",
+            "options": [
+                "rained",
+                "raining",
+                "has",
+                "been",
+                "had",
+                "was"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "raining"
+            ],
+            "hint": "Wet road = visible evidence of weather activity overnight",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-21",
+            "type": "drag-drop",
+            "question": "Twenty years in one house before selling - stating the duration of residence.",
+            "sentence": "We ____ ____ in that house for 20 years when we sold it.",
+            "options": [
+                "living",
+                "were",
+                "had",
+                "have",
+                "lived",
+                "had been"
+            ],
+            "correctAnswer": [
+                "had",
+                "lived"
+            ],
+            "hint": "Stating how long you resided somewhere before a past moment",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-22",
+            "type": "drag-drop",
+            "question": "His confused look shows the mental effort - he's still trying to understand.",
+            "sentence": "He looked confused because he ____ ____ ____ to understand.",
+            "options": [
+                "tried",
+                "been",
+                "have",
+                "trying",
+                "was",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "trying"
+            ],
+            "hint": "Confusion visible from the ongoing mental struggle",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-23",
+            "type": "drag-drop",
+            "question": "By 2020, four children in the family - stating a situation that existed.",
+            "sentence": "By 2020, they ____ ____ four children.",
+            "options": [
+                "having",
+                "had",
+                "have",
+                "had been",
+                "were",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "had"
+            ],
+            "hint": "Having children as possession, not an activity - think about states",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-24",
+            "type": "drag-drop",
+            "question": "Feeling sick from the amount eaten - too much food consumed.",
+            "sentence": "I felt sick because I ____ ____ too much.",
+            "options": [
+                "eating",
+                "have",
+                "had been",
+                "eaten",
+                "was",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "eaten"
+            ],
+            "hint": "The amount eaten caused sickness, not the eating process",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-25",
+            "type": "drag-drop",
+            "question": "Angry because of being ignored all day - the neglect went on and on.",
+            "sentence": "She was angry because he ____ ____ ____ her calls all day.",
+            "options": [
+                "ignored",
+                "ignoring",
+                "been",
+                "was",
+                "has",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "ignoring"
+            ],
+            "hint": "The ongoing neglect throughout the day caused anger",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-26",
+            "type": "drag-drop",
+            "question": "Two movies watched - count them, both finished before going home.",
+            "sentence": "They ____ ____ two movies before they went home.",
+            "options": [
+                "were",
+                "watched",
+                "watching",
+                "had",
+                "have",
+                "had been"
+            ],
+            "correctAnswer": [
+                "had",
+                "watched"
+            ],
+            "hint": "Number of movies completed",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-27",
+            "type": "drag-drop",
+            "question": "Hoarse voice from singing all evening - his voice shows the strain.",
+            "sentence": "His voice was hoarse because he ____ ____ ____ all evening.",
+            "options": [
+                "sung",
+                "has",
+                "singing",
+                "been",
+                "was",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "singing"
+            ],
+            "hint": "Hoarse voice = physical consequence of prolonged singing",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-28",
+            "type": "drag-drop",
+            "question": "Relief because the answer was found - success achieved, problem solved.",
+            "sentence": "We were relieved because we ____ ____ the answer.",
+            "options": [
+                "finding",
+                "was",
+                "found",
+                "had been",
+                "have",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "found"
+            ],
+            "hint": "Relief from achieving success, not from the search",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-29",
+            "type": "drag-drop",
+            "question": "Tall grass from weeks of neglect - nobody maintained it over time.",
+            "sentence": "The grass was tall because nobody ____ ____ ____ it for weeks.",
+            "options": [
+                "cut",
+                "was",
+                "been",
+                "has",
+                "cutting",
+                "had"
+            ],
+            "correctAnswer": [
+                "had",
+                "been",
+                "cutting"
+            ],
+            "hint": "Think about the absence of an action over a period",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-30",
+            "type": "drag-drop",
+            "question": "BOSS: Years of studying but never traveled - duration of learning vs. life experience.",
+            "sentence": "I ____ ____ ____ English for years, but I ____ never ____ abroad.",
+            "options": [
+                "had been",
+                "studying",
+                "studied",
+                "had",
+                "been",
+                "have"
+            ],
+            "correctAnswer": [
+                "had been",
+                "studying",
+                "had",
+                "been"
+            ],
+            "hint": "First: emphasis on duration of study. Second: life experience up to that point",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "What tense shows which action happened first in the past?",
+            "sentence": "When the police arrived, the thief ____.",
+            "options": [
+                "had escaped",
+                "escaped",
+                "was escaping",
+                "has escaped"
+            ],
+            "correctAnswer": "had escaped",
+            "audio": "quiz_1_sentence.mp3",
+            "hint": "Ask yourself: Which happened FIRST? The thief left before the police came. Use Past Perfect (had + past participle).",
+            "difficulty": "easy",
+            "explanation": "Past Perfect shows the action that happened first. The thief escaped BEFORE the police arrived, so use 'had escaped'."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which form emphasizes the completed result?",
+            "sentence": "By the time I woke up, my family ____ breakfast.",
+            "options": [
+                "had eaten",
+                "had been eating",
+                "ate",
+                "was eating"
+            ],
+            "correctAnswer": "had eaten",
+            "audio": "quiz_2_sentence.mp3",
+            "hint": "'By the time' signals Past Perfect. Use Simple form when focusing on completion (breakfast finished), not duration.",
+            "difficulty": "easy",
+            "explanation": "Past Perfect Simple emphasizes completed actions before another past moment. The breakfast was finished before you woke up."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What shows a long activity that caused a visible result?",
+            "sentence": "I ____ emails all morning — my eyes hurt!",
+            "options": [
+                "had been writing",
+                "had written",
+                "wrote",
+                "was writing"
+            ],
+            "correctAnswer": "had been writing",
+            "audio": "quiz_3_sentence.mp3",
+            "hint": "The result (eyes hurt) came from a long continuous activity. Use Past Perfect Continuous (had been + -ing).",
+            "difficulty": "easy",
+            "explanation": "Past Perfect Continuous shows a long activity in the past that caused a result. Writing for hours caused the eye pain."
+        },
+        {
+            "id": "quiz-4",
+            "question": "Which structure correctly uses the signal word 'already'?",
+            "sentence": "She ____ when I called.",
+            "options": [
+                "had already left",
+                "already left",
+                "has already left",
+                "was already leaving"
+            ],
+            "correctAnswer": "had already left",
+            "audio": "quiz_4_sentence.mp3",
+            "hint": "'Already' in the past context is a magic word that screams Past Perfect. She left BEFORE you called.",
+            "difficulty": "easy",
+            "explanation": "'Already' in past stories signals Past Perfect. She completed leaving before the phone call happened."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which shows an experience that never happened before a specific past time?",
+            "sentence": "I ____ sushi before 2018.",
+            "options": [
+                "had never eaten",
+                "never ate",
+                "have never eaten",
+                "was never eating"
+            ],
+            "correctAnswer": "had never eaten",
+            "audio": "quiz_5_sentence.mp3",
+            "hint": "'Never...before [year]' is a Past Perfect signal. You CAN use exact years with Past Perfect, unlike Present Perfect!",
+            "difficulty": "medium",
+            "explanation": "'Never...before + specific year' requires Past Perfect. This shows no experience up until that past moment (2018)."
+        },
+        {
+            "id": "quiz-6",
+            "question": "What's correct when using 'after' in past context?",
+            "sentence": "After she ____ homework, she watched TV.",
+            "options": [
+                "had finished / finished (both correct)",
+                "had finished (only this)",
+                "finished (only this)",
+                "was finishing"
+            ],
+            "correctAnswer": "had finished / finished (both correct)",
+            "audio": "quiz_6_sentence.mp3",
+            "hint": "With 'before' or 'after', Past Perfect is OPTIONAL! Both forms work, but Past Perfect sounds more professional.",
+            "difficulty": "medium",
+            "explanation": "The secret: 'after' and 'before' make the time order clear, so Past Perfect is optional. Both 'had finished' and 'finished' are correct!"
+        },
+        {
+            "id": "quiz-7",
+            "question": "Choose the correct structures for this story sequence:",
+            "sentence": "When I ____ at the station, I realized I ____ my wallet at home, and the train ____.",
+            "options": [
+                "arrived / had left / had already left",
+                "had arrived / left / already left",
+                "arrived / left / had already left",
+                "had arrived / had left / left"
+            ],
+            "correctAnswer": "arrived / had left / had already left",
+            "audio": "quiz_7_sentence.mp3",
+            "hint": "Main action = Past Simple (arrived). Things that happened BEFORE = Past Perfect (had left wallet, train had left).",
+            "difficulty": "hard",
+            "explanation": "Story order: Use Past Simple for the main moment (arrived), Past Perfect for what happened before it (had left wallet, train had already left)."
+        },
+        {
+            "id": "quiz-8",
+            "question": "What emphasizes the duration with a long activity?",
+            "sentence": "He ____ for hours — the kitchen was destroyed!",
+            "options": [
+                "had been cooking",
+                "had cooked",
+                "cooked",
+                "was cooking"
+            ],
+            "correctAnswer": "had been cooking",
+            "audio": "quiz_8_sentence.mp3",
+            "hint": "Focus on the long activity that caused the mess. Use Past Perfect Continuous with 'for hours'.",
+            "difficulty": "medium",
+            "explanation": "Past Perfect Continuous emphasizes duration and the visible result. Cooking for hours caused the messy kitchen."
+        },
+        {
+            "id": "quiz-9",
+            "question": "Which structure correctly expresses old habits that stopped?",
+            "sentence": "I ____ smoke, but I quit 5 years ago.",
+            "options": [
+                "used to",
+                "would",
+                "was",
+                "had"
+            ],
+            "correctAnswer": "used to",
+            "audio": "quiz_9_sentence.mp3",
+            "hint": "'Used to' shows past habits or states that stopped. It works with BOTH actions AND states.",
+            "difficulty": "easy",
+            "explanation": "'Used to' expresses past habits that no longer happen. It clearly contrasts past and present: you smoked before, but not now."
+        },
+        {
+            "id": "quiz-10",
+            "question": "What form shows repeated actions with nostalgia?",
+            "sentence": "Every weekend we ____ go fishing.",
+            "options": [
+                "would",
+                "used to",
+                "had",
+                "were"
+            ],
+            "correctAnswer": "would",
+            "audio": "quiz_10_sentence.mp3",
+            "hint": "'Would' + time expression (every weekend) shows repeated past actions with emotion/nostalgia. Only works with ACTION verbs!",
+            "difficulty": "easy",
+            "explanation": "'Would' expresses repeated past actions, often with nostalgia. 'Every weekend' provides the time context needed for 'would'."
+        },
+        {
+            "id": "quiz-11",
+            "question": "Which question form is grammatically correct for past habits?",
+            "sentence": "____ live in Jakarta?",
+            "options": [
+                "Did you use to",
+                "Did you used to",
+                "Would you",
+                "Had you used to"
+            ],
+            "correctAnswer": "Did you use to",
+            "audio": "quiz_11_sentence.mp3",
+            "hint": "Questions with 'used to' follow: DID + subject + USE TO (no 'd' because 'did' already shows past).",
+            "difficulty": "medium",
+            "explanation": "In questions, 'used to' becomes 'use to' (without 'd') because 'did' already carries the past tense: 'Did you use to'."
+        },
+        {
+            "id": "quiz-12",
+            "question": "Advanced: What's the correct form for a past state (not action)?",
+            "sentence": "She ____ be shy, but now she's very confident.",
+            "options": [
+                "used to",
+                "would",
+                "had",
+                "was used to"
+            ],
+            "correctAnswer": "used to",
+            "audio": "quiz_12_sentence.mp3",
+            "hint": "The golden rule: 'would' ONLY works with ACTIONS. For states (be, have, like), you MUST use 'used to'.",
+            "difficulty": "hard",
+            "explanation": "'Be shy' is a STATE, not an action. 'Would' cannot be used with states—only 'used to' works here. Wrong: 'would be'."
+        },
+        {
+            "id": "quiz-13",
+            "question": "Identify the error in this sentence:",
+            "sentence": "When I arrived, the train ____.",
+            "options": [
+                "had left (correct - shows train left first)",
+                "left (no time order shown)",
+                "has left (wrong tense)",
+                "was leaving (unclear sequence)"
+            ],
+            "correctAnswer": "had left (correct - shows train left first)",
+            "audio": "quiz_13_sentence.mp3",
+            "hint": "Without Past Perfect, there's no clear time order. The train left BEFORE you arrived—use 'had left'.",
+            "difficulty": "medium",
+            "explanation": "Common mistake: using only Past Simple for two past actions. Use Past Perfect (had left) to show which happened first."
+        },
+        {
+            "id": "quiz-14",
+            "question": "Which form best shows both forms are possible for certain verbs?",
+            "sentence": "They ____ in Paris for 10 years before moving.",
+            "options": [
+                "had lived / had been living (both correct)",
+                "had lived (only this)",
+                "had been living (only this)",
+                "lived"
+            ],
+            "correctAnswer": "had lived / had been living (both correct)",
+            "audio": "quiz_14_sentence.mp3",
+            "hint": "Live, work, study, teach → BOTH Simple and Continuous work with Past Perfect for duration!",
+            "difficulty": "hard",
+            "explanation": "With verbs like live, work, study, teach, both Past Perfect Simple and Continuous are correct for duration. Meaning is almost identical."
+        },
+        {
+            "id": "quiz-15",
+            "question": "Complete the sequence with correct past forms:",
+            "sentence": "She was happy because she ____ the exam, and she ____ for it for months.",
+            "options": [
+                "had passed / had been studying",
+                "passed / studied",
+                "has passed / has been studying",
+                "had passed / studied"
+            ],
+            "correctAnswer": "had passed / had been studying",
+            "audio": "quiz_15_sentence.mp3",
+            "hint": "Both actions happened before 'was happy'. Use Past Perfect for completion (passed) and Past Perfect Continuous for duration (studying for months).",
+            "difficulty": "hard",
+            "explanation": "The reason (passing and studying) happened before the happiness. Use Past Perfect for the result and Past Perfect Continuous for the duration."
+        },
+        {
+            "id": "quiz-16",
+            "question": "What negative form correctly shows something didn't happen before?",
+            "sentence": "I ____ snow before I moved to Canada.",
+            "options": [
+                "had never seen",
+                "never saw",
+                "have never seen",
+                "didn't see"
+            ],
+            "correctAnswer": "had never seen",
+            "audio": "quiz_16_sentence.mp3",
+            "hint": "'Never...before [past moment]' signals Past Perfect negative. The experience didn't happen until that point.",
+            "difficulty": "easy",
+            "explanation": "Past Perfect negative (had never + past participle) shows an experience that didn't happen before a specific past moment."
+        },
+        {
+            "id": "quiz-17",
+            "question": "Which shows the correct use with a time expression?",
+            "sentence": "When I was young, I ____ ride my bike every day.",
+            "options": [
+                "would",
+                "used to",
+                "had",
+                "would / used to (both correct)"
+            ],
+            "correctAnswer": "would / used to (both correct)",
+            "audio": "quiz_17_sentence.mp3",
+            "hint": "'Ride' is an action verb + time context (when I was young). Both 'would' and 'used to' work for repeated past actions!",
+            "difficulty": "medium",
+            "explanation": "For repeated ACTIONS with time context, both 'would' and 'used to' are correct. 'Would' adds nostalgia; 'used to' is more neutral."
+        },
+        {
+            "id": "quiz-18",
+            "question": "What's the correct Past Perfect form with duration?",
+            "sentence": "By 2020, he ____ in London for 8 years.",
+            "options": [
+                "had been",
+                "was",
+                "has been",
+                "had"
+            ],
+            "correctAnswer": "had been",
+            "audio": "quiz_18_sentence.mp3",
+            "hint": "'By 2020' (past deadline) + 'for 8 years' (duration) = Past Perfect. Use 'had been' even though 'be' is not typically continuous.",
+            "difficulty": "medium",
+            "explanation": "Even with non-continuous verbs like 'be', use Past Perfect for duration up to a past moment. 'By 2020' signals Past Perfect."
+        },
+        {
+            "id": "quiz-19",
+            "question": "Which correctly shows annoyance about a repeated past action?",
+            "sentence": "My brother ____ steal my toys!",
+            "options": [
+                "would always",
+                "used to always",
+                "had always stolen",
+                "was always stealing"
+            ],
+            "correctAnswer": "would always",
+            "audio": "quiz_19_sentence.mp3",
+            "hint": "'Would' shows repeated actions with strong emotion (annoyance, nostalgia). 'Always' emphasizes the repetition.",
+            "difficulty": "easy",
+            "explanation": "'Would always' expresses repeated past actions with emotion—perfect for showing annoyance about a sibling's behavior!"
+        },
+        {
+            "id": "quiz-20",
+            "question": "What structure shows ownership duration up to a past point?",
+            "sentence": "We ____ that car for 10 years before it broke.",
+            "options": [
+                "had had",
+                "had",
+                "have had",
+                "had been having"
+            ],
+            "correctAnswer": "had had",
+            "audio": "quiz_20_sentence.mp3",
+            "hint": "'For 10 years' + ownership ending in the past = Past Perfect. Use 'had had' (auxiliary + past participle of 'have').",
+            "difficulty": "medium",
+            "explanation": "Past Perfect with duration uses 'had + past participle'. For 'have', this becomes 'had had'—showing 10 years of ownership before the car broke."
+        },
+        {
+            "id": "quiz-21",
+            "question": "Which shows the first time experiencing something in the past?",
+            "sentence": "It was the first time I ____ the sea.",
+            "options": [
+                "had seen",
+                "saw",
+                "have seen",
+                "was seeing"
+            ],
+            "correctAnswer": "had seen",
+            "audio": "quiz_21_sentence.mp3",
+            "hint": "'The first time...was' is a magic phrase that forces Past Perfect. It shows no previous experience before that moment.",
+            "difficulty": "medium",
+            "explanation": "'The first time' signals Past Perfect because it refers to all time before that moment. You hadn't seen it before then."
+        },
+        {
+            "id": "quiz-22",
+            "question": "What form avoids the common Indonesian error?",
+            "sentence": "I ____ never ____ snow before 2015.",
+            "options": [
+                "had / seen",
+                "have / saw",
+                "had / see",
+                "have / seen"
+            ],
+            "correctAnswer": "had / seen",
+            "audio": "quiz_22_sentence.mp3",
+            "hint": "Common mistake: 'had never see' (missing -n). Correct: 'had never SEEN' (past participle ends in -n).",
+            "difficulty": "easy",
+            "explanation": "The error 'had never see' is common. Always use past participle after 'had': had seen, had done, had written (not see, do, write)."
+        },
+        {
+            "id": "quiz-23",
+            "question": "Which correctly uses 'until then' as a signal word?",
+            "sentence": "I didn't know about computers ____ I started university.",
+            "options": [
+                "until then / before that",
+                "until",
+                "before",
+                "when"
+            ],
+            "correctAnswer": "until then / before that",
+            "audio": "quiz_23_sentence.mp3",
+            "hint": "'Until then' and similar phrases signal Past Perfect context. They show a state continuing up to a past moment.",
+            "difficulty": "medium",
+            "explanation": "'Until then' signals a boundary in the past, often used with Past Perfect to show when something changed or started."
+        },
+        {
+            "id": "quiz-24",
+            "question": "Advanced: What's the most dramatic and professional form?",
+            "sentence": "Before I met Lisa, I ____ fallen in love.",
+            "options": [
+                "had never",
+                "never",
+                "have never",
+                "didn't"
+            ],
+            "correctAnswer": "had never",
+            "audio": "quiz_24_sentence.mp3",
+            "hint": "With 'before', Past Perfect is optional BUT sounds more professional and dramatic. Use 'had never' for impact!",
+            "difficulty": "hard",
+            "explanation": "While 'never fell' is acceptable, 'had never fallen' sounds more professional, dramatic, and native-like—perfect for storytelling!"
+        },
+        {
+            "id": "quiz-25",
+            "question": "Complete with the correct contrast between continuous and simple:",
+            "sentence": "He ____ three emails (result), but he ____ all morning (tired).",
+            "options": [
+                "had written / had been writing",
+                "had been writing / had written",
+                "wrote / was writing",
+                "had written / was writing"
+            ],
+            "correctAnswer": "had written / had been writing",
+            "audio": "quiz_25_sentence.mp3",
+            "hint": "Simple = completed/countable result (3 emails). Continuous = long activity causing tiredness. Both use Past Perfect.",
+            "difficulty": "hard",
+            "explanation": "Past Perfect Simple shows completed results (had written 3 emails). Past Perfect Continuous shows long duration causing a state (had been writing → tired)."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "already",
+            "hint": "Completed earlier than expected (in the past)",
+            "clue": "a__e_d_",
+            "sentence": "By the time I arrived, the train had ___ left.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-2",
+            "word": "never",
+            "hint": "Not at any time before that past moment",
+            "clue": "n_v_r",
+            "sentence": "I had ___ seen snow before I moved to Japan.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-3",
+            "word": "before",
+            "hint": "Time word that often goes with Past Perfect",
+            "clue": "b_f_r_",
+            "sentence": "I had finished my homework ___ the movie started.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-4",
+            "word": "hadn't",
+            "hint": "Short form of 'had not'",
+            "clue": "h_d_’_",
+            "sentence": "She ___ finished her project when the teacher collected it.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-5",
+            "word": "by the time",
+            "hint": "The strongest signal for Past Perfect",
+            "clue": "b_ t_e t_m_",
+            "sentence": "___ we got to the cinema, the film had started.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-6",
+            "word": "used to",
+            "hint": "Past habits and states that stopped",
+            "clue": "u_e_ t_",
+            "sentence": "I ___ live in a small village when I was a child.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-7",
+            "word": "would",
+            "hint": "Repeated actions in the past (storytelling gold)",
+            "clue": "w_u_d",
+            "sentence": "Every weekend we ___ go to the beach.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-8",
+            "word": "had been",
+            "hint": "Start of Past Perfect Continuous",
+            "clue": "h_d b_e_",
+            "sentence": "She was tired because she ___ studying all morning.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-9",
+            "word": "regret",
+            "hint": "Feeling sorry about something in the past (I wish I had…)",
+            "clue": "r_g_e_",
+            "sentence": "My biggest ___ is that I didn’t study harder.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-10",
+            "word": "childhood",
+            "hint": "The time when you 'used to' and 'would' do many things",
+            "clue": "c_i_d_o_d",
+            "sentence": "In my ___, I would play outside until dark.",
+            "difficulty": "hard"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 15,
+            "silver": 40,
+            "gold": 70,
+            "platinum": 100
+        },
+        "badges": [
+            {
+                "id": "time-lord",
+                "name": "Time Lord ⏳",
+                "condition": "Complete all 10 lessons with 90%+ accuracy",
+                "icon": "⏳",
+                "points": 50,
+                "message": "You now control the timeline of every story!"
+            },
+            {
+                "id": "past-perfect-ninja",
+                "name": "Past Perfect Ninja 🥷",
+                "condition": "Never miss a Past Perfect in any game or writing (had + past participle)",
+                "icon": "🥷",
+                "points": 45,
+                "message": "Your 'had' is faster than light!"
+            },
+            {
+                "id": "continuous-detective",
+                "name": "Continuous Detective 🕵️",
+                "condition": "Perfectly use Past Perfect Continuous in all 'tired/dirty/crying' explanations",
+                "icon": "🕵️",
+                "points": 45,
+                "message": "You can explain ANY messy situation now!"
+            },
+            {
+                "id": "already-alarm",
+                "name": "Already Alarm 🚨",
+                "condition": "Use 'already', 'by the time', and 'never…before' correctly every time",
+                "icon": "🚨",
+                "points": 42,
+                "message": "Your timing is ALWAYS perfect!"
+            },
+            {
+                "id": "nostalgia-king",
+                "name": "Nostalgia King/Queen 👑",
+                "condition": "Master 'used to' vs 'would' in all writing and games (no state verbs with would!)",
+                "icon": "👑",
+                "points": 48,
+                "message": "Your childhood stories sound 100% native!"
+            },
+            {
+                "id": "had-had-hero",
+                "name": "Had-Had Hero 🦸",
+                "condition": "Correctly use 'had had', 'had been living', 'had owned' in duration sentences",
+                "icon": "🦸",
+                "points": 40,
+                "message": "Double 'had' no longer scares you!"
+            },
+            {
+                "id": "regret-master",
+                "name": "Regret Master 😔",
+                "condition": "Write perfect 'I wish I had…' and 'If only I hadn’t…' sentences",
+                "icon": "😔",
+                "points": 42,
+                "message": "Your regrets now sound beautifully dramatic!"
+            },
+            {
+                "id": "storytelling-god",
+                "name": "Storytelling God 📖✨",
+                "condition": "Earn Platinum stars + complete writing-9 & writing-10 with full marks",
+                "icon": "📖",
+                "points": 100,
+                "message": "Your stories make native speakers cry and laugh!"
+            },
+            {
+                "id": "past-perfect-legend",
+                "name": "Past Perfect Legend 🏆",
+                "condition": "Collect ALL other badges + 100% on every activity",
+                "icon": "🏆",
+                "points": 150,
+                "message": "You are officially UNSTOPPABLE in the past!"
+            }
+        ]
+    }
+}

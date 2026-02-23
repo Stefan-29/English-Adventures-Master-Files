@@ -1,0 +1,1505 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Simple Past: Your Time Machine for Finished Stories! 🚀",
+      "content": "<p>Jump into the time machine! 🕰️ Simple Past is perfect for finished actions with a clear start and end. Regular verbs just add <strong>-ed</strong> (play → played). Irregular verbs are rebels (go → went, see → saw). Use it for stories, yesterday, last week, or ago.</p><p><strong>One finished action</strong>: <em>I visited Bali last year.</em></p><p><strong>Series of actions</strong>: <em>I woke up, ate breakfast, and went to school.</em></p><p><strong>Duration (for/for)</strong>: <em>I lived in Jakarta for five years.</em></p><p><em>Fun fact: Simple past is like taking photos – each photo is a finished moment! 📸</em></p>",
+      "examples": [
+        "Yesterday I <strong>played</strong> football.",
+        "She <strong>bought</strong> a new phone last week.",
+        "We <strong>went</strong> to the beach and <strong>swam</strong>.",
+        "He <strong>studied</strong> English for two hours."
+      ],
+      "difficulty": 1,
+      "audio": "past_simple_finished.mp3",
+      "functions": [
+        "Telling stories",
+        "Talking about finished actions with time",
+        "Duration in past with for"
+      ],
+      "tips": "See yesterday/last/ago? → Simple Past!"
+    },
+    {
+      "id": "lesson-2",
+      "title": "Irregular Verbs: The Rebels You Must Know! 😈",
+      "content": "<p>Regular verbs are easy (-ed), but irregular verbs are the cool rebels! 😎 You just have to memorize them, but after a few stories they stick forever.</p><p>Top rebels: go-went, see-saw, eat-ate, buy-bought, come-came, have-had, take-took, make-made, write-wrote, read-read, drink-drank, run-ran, win-won.</p><p><em>Fun fact: Irregular verbs are old English warriors – they refused to follow the -ed rule! ⚔️</em></p>",
+      "examples": [
+        "I <strong>saw</strong> a monkey in Bali.",
+        "She <strong>bought</strong> satay last night.",
+        "We <strong>went</strong> to Ancol and <strong>ate</strong> ice cream.",
+        "He <strong>drank</strong> coconut water."
+      ],
+      "difficulty": 1,
+      "audio": "irregular_verbs_rebels.mp3",
+      "functions": [
+        "Using common irregular verbs correctly",
+        "Avoiding regular -ed on irregulars"
+      ],
+      "tips": "Irregular verb? Check your phone or word bank!"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Used To: Your Childhood Superpower! 👶",
+      "content": "<p>Used to = things that were true in the past but not now. Perfect for childhood memories! <em>I used to play football every day (but not now).</em></p><p>Negative: <em>didn't use to like vegetables.</em> Question: <em>Did you use to have long hair?</em></p><p>Also for past habits: <em>He always/never used to study.</em></p><p><em>Fun fact: Indonesians often say “I use to live Jakarta” – wrong! Must be <strong>used to</strong>! 😱</em></p>",
+      "examples": [
+        "I <strong>used to</strong> live in village (but now in city).",
+        "She <strong>didn't use to</strong> eat spicy food.",
+        "We <strong>used to</strong> play hide and seek every afternoon.",
+        "People <strong>used to</strong> write letters, not WhatsApp."
+      ],
+      "difficulty": 2,
+      "audio": "used_to_childhood.mp3",
+      "functions": [
+        "Talking about changed habits",
+        "Childhood memories",
+        "Past states (used to be shy)"
+      ],
+      "tips": "Not true now? → Used to!"
+    },
+    {
+      "id": "lesson-4",
+      "title": "Past Continuous: Snapshot of What Was Happening! 📸",
+      "content": "<p>Past Continuous paints a picture of longer actions in the past. <em>I was eating when you called.</em> Use for background scenes or specific time (At 8 PM yesterday, I was watching YouTube).</p><p>Also great for atmosphere: <em>The sun was shining, birds were singing…</em></p><p><em>Fun fact: Like pausing a movie – you see exactly what was happening! ⏸️</em></p>",
+      "examples": [
+        "At 7 PM last night, I <strong>was cooking</strong>.",
+        "They <strong>were playing</strong> while it <strong>was raining</strong>.",
+        "She <strong>was studying</strong> all morning.",
+        "We <strong>were sleeping</strong> when the earthquake started."
+      ],
+      "difficulty": 2,
+      "audio": "past_continuous_snapshot.mp3",
+      "functions": [
+        "Background actions",
+        "Specific time in past",
+        "Atmosphere"
+      ],
+      "tips": "See at + time or while? → Past Continuous"
+    },
+    {
+      "id": "lesson-5",
+      "title": "Interrupted Past: Surprise! 😲",
+      "content": "<p>Long action (past continuous) + short action (simple past) = classic interruption! <em>I was taking a shower when the phone rang.</em></p><p>Formula: While/When I was …ing, something happened.</p><p><em>Fun fact: This is the most popular pattern in English stories – use it and sound like a native! 📚</em></p>",
+      "examples": [
+        "I <strong>was watching</strong> TV when she <strong>arrived</strong>.",
+        "The students <strong>were talking</strong> when the teacher <strong>entered</strong>.",
+        "He <strong>was driving</strong> when it <strong>started</strong> to rain.",
+        "We <strong>were eating</strong> dinner when the power <strong>went</strong> out."
+      ],
+      "difficulty": 3,
+      "audio": "interrupted_past.mp3",
+      "functions": [
+        "Interrupted actions",
+        "Story telling surprise"
+      ],
+      "tips": "Long + short = continuous + simple"
+    },
+    {
+      "id": "lesson-6",
+      "title": "When vs While: Past Time Magic! ✨",
+      "content": "<p>When = short action or sequence (both simple past OK). <em>When the bell rang, we ran.</em></p><p>While = longer action (past continuous). <em>While I was reading, he was sleeping.</em></p><p>Can use when with continuous too: <em>When I was living in Jakarta…</em></p><p><em>Fun fact: While = during that time – perfect for parallel actions!</em></p>",
+      "examples": [
+        "When I <strong>arrived</strong>, they <strong>were eating</strong>.",
+        "While she <strong>was cooking</strong>, he <strong>played</strong> games.",
+        "When the movie <strong>ended</strong>, we <strong>went</strong> home.",
+        "While we <strong>were waiting</strong>, it <strong>rained</strong>."
+      ],
+      "difficulty": 3,
+      "audio": "when_vs_while.mp3",
+      "functions": [
+        "Correct when/while use",
+        "Parallel actions",
+        "Avoiding Indonesian errors"
+      ],
+      "tips": "Long action → while + continuous. Short → when + simple"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "What did you actually do last night? Write 4 sentences using Past Simple with specific time words.",
+      "hint": "Use yesterday, last night, at 8 PM, after dinner…",
+      "expectedKeywords": [
+        "last night",
+        "yesterday",
+        "watched",
+        "played",
+        "ate",
+        "went",
+        "studied",
+        "called"
+      ],
+      "sentenceStarters": [
+        "Last night at 7 PM I ___",
+        "After dinner I ___",
+        "Before bed I ___"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Tell about your best day ever. Use at least 6 Past Simple verbs — include 3 irregular ones (went, saw, ate, took, met, etc.).",
+      "hint": "One day I went… I saw… I ate…",
+      "expectedKeywords": [
+        "went",
+        "saw",
+        "ate",
+        "took",
+        "met",
+        "bought",
+        "best",
+        "day",
+        "ever"
+      ],
+      "sentenceStarters": [
+        "My best day was when I ___",
+        "First we ___",
+        "Then I ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "I was doing something when suddenly… Write 4 sentences: use Past Continuous for the longer action + Past Simple for the sudden interruption.",
+      "hint": "I was sleeping when the phone rang / While I was cooking, I dropped the pan",
+      "expectedKeywords": [
+        "was",
+        "were",
+        "when",
+        "while",
+        "suddenly",
+        "rang",
+        "fell",
+        "broke",
+        "shouted",
+        "dropped"
+      ],
+      "sentenceStarters": [
+        "I was sleeping when ___",
+        "While I was having a shower ___",
+        "My friend was talking when suddenly ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-4",
+      "question": "When you were 6–8 years old… Write 5 sentences using <strong>used to</strong> at least 3 times to talk about repeated past habits.",
+      "hint": "I used to play outside every day / I didn’t use to like vegetables",
+      "expectedKeywords": [
+        "used to",
+        "didn't use to",
+        "play",
+        "ride",
+        "believe",
+        "afraid",
+        "collect",
+        "cry"
+      ],
+      "sentenceStarters": [
+        "When I was little, I used to ___",
+        "I didn’t use to ___",
+        "I used to be afraid of ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Yesterday at exactly 6 PM, two things were happening at the same time. Describe them using <strong>while</strong> + Past Continuous twice.",
+      "hint": "While I was cooking, my brother was playing games",
+      "expectedKeywords": [
+        "while",
+        "was",
+        "were",
+        "cooking",
+        "watching",
+        "playing",
+        "raining",
+        "talking"
+      ],
+      "sentenceStarters": [
+        "At 6 PM yesterday, while I was ___",
+        "My mum was ___ while my dad was ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write a short apology message to a friend for being late yesterday. Use Past Continuous (what you were doing) + Past Simple (what happened).",
+      "hint": "Sorry! I was getting ready when…",
+      "expectedKeywords": [
+        "sorry",
+        "late",
+        "was",
+        "getting ready",
+        "traffic",
+        "overslept",
+        "phone died"
+      ],
+      "sentenceStarters": [
+        "Hi! Sorry I was late yesterday.",
+        "I was ___ when suddenly ___",
+        "That’s why I ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Describe a photo from your childhood. Use Past Continuous to set the scene + Past Simple for what happened.",
+      "hint": "In the photo, everyone was smiling and I was holding a toy… Then my brother pushed me!",
+      "expectedKeywords": [
+        "photo",
+        "everyone was",
+        "smiling",
+        "holding",
+        "wearing",
+        "then",
+        "jumped",
+        "cried"
+      ],
+      "sentenceStarters": [
+        "In this old photo, I was ___",
+        "My family was ___ and I was ___",
+        "Suddenly ___"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-8",
+      "question": "A day you will never forget. Write 6 sentences mixing Past Simple (sequence) + at least 2 Past Continuous (background).",
+      "hint": "I was walking in the park when I met my favorite singer!",
+      "expectedKeywords": [
+        "never forget",
+        "was walking",
+        "met",
+        "raining",
+        "celebrating",
+        "graduated",
+        "shouting"
+      ],
+      "sentenceStarters": [
+        "It was a normal day. I was ___ when ___",
+        "While the rain was falling ___",
+        "Then suddenly I ___"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Write about something you repeatedly did as a child but don’t do now. Use <strong>used to</strong> 3 times + contrast with present.",
+      "hint": "I used to collect stickers, but now I collect memories",
+      "expectedKeywords": [
+        "used to",
+        "now",
+        "collect",
+        "believe",
+        "play",
+        "ride",
+        "watch",
+        "scared"
+      ],
+      "sentenceStarters": [
+        "When I was younger I used to ___",
+        "I used to ___ every weekend, but now ___",
+        "I didn’t use to ___ but now I do"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Your scariest/funniest moment. Write a short story (6–7 sentences) using: 2 Past Continuous, 3 Past Simple, 1 <strong>used to</strong>, and 1 <strong>while</strong>.",
+      "hint": "I used to be terrified of dogs. One day while I was walking home…",
+      "expectedKeywords": [
+        "used to",
+        "while",
+        "was",
+        "scared",
+        "funny",
+        "laughed",
+        "ran",
+        "shouted",
+        "happened"
+      ],
+      "sentenceStarters": [
+        "I’ll never forget the day ___",
+        "I used to ___",
+        "While I was ___",
+        "Suddenly ___"
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Yesterday signals a finished action - what form shows completion?",
+      "sentence": "Yesterday, I ____ football with my friends.",
+      "options": [
+        "play",
+        "playing",
+        "played",
+        "am playing",
+        "plays"
+      ],
+      "correctAnswer": [
+        "played"
+      ],
+      "audio": "football_yesterday.mp3",
+      "hint": "Finished action in the past (Lesson 1: Simple Past for finished stories)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "This verb doesn't follow the -ed rule - it's a rebel!",
+      "sentence": "Last week, she ____ a new dress for the party.",
+      "options": [
+        "buyed",
+        "buys",
+        "buying",
+        "bought",
+        "buy"
+      ],
+      "correctAnswer": [
+        "bought"
+      ],
+      "audio": "bought_dress.mp3",
+      "hint": "Buy is irregular (Lesson 2: Irregular verbs are rebels)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Describing a past state that's no longer true - which shows this?",
+      "sentence": "When I was a child, I ____ in a small village.",
+      "options": [
+        "lived",
+        "used to live",
+        "living",
+        "was living",
+        "live"
+      ],
+      "correctAnswer": [
+        "used to live"
+      ],
+      "audio": "childhood_village.mp3",
+      "hint": "Past state no longer true (Lesson 3: Used to for changed situations)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Long action in progress when interrupted - which shows the ongoing activity?",
+      "sentence": "While I ____ dinner, the phone rang.",
+      "options": [
+        "cooked",
+        "cook",
+        "was cooking",
+        "cooking",
+        "am cooking"
+      ],
+      "correctAnswer": [
+        "was cooking"
+      ],
+      "audio": "cooking_phone.mp3",
+      "hint": "Background action in progress (Lesson 4: Past Continuous paints a picture)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Walking is the longer action - which time word introduces ongoing activities?",
+      "sentence": "____ I was walking to school, I saw an accident.",
+      "options": [
+        "When",
+        "While",
+        "During",
+        "After",
+        "Before"
+      ],
+      "correctAnswer": [
+        "While"
+      ],
+      "audio": "walking_school.mp3",
+      "hint": "This word pairs with continuous actions (Lesson 6: While = longer action)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "TV watching was happening when suddenly interrupted - what shows this?",
+      "sentence": "They ____ TV when the earthquake happened.",
+      "options": [
+        "watch",
+        "watched",
+        "were watching",
+        "watching",
+        "are watching"
+      ],
+      "correctAnswer": [
+        "were watching"
+      ],
+      "audio": "tv_earthquake.mp3",
+      "hint": "Action in progress before interruption (Lesson 5: Interrupted Past)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "At a specific moment in the past - snapshot of what was happening.",
+      "sentence": "At 8 PM yesterday, I ____ my homework.",
+      "options": [
+        "did",
+        "do",
+        "was doing",
+        "doing",
+        "am doing"
+      ],
+      "correctAnswer": [
+        "was doing"
+      ],
+      "audio": "homework_8pm.mp3",
+      "hint": "Specific time in past (Lesson 4: At + time → Past Continuous)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Three completed actions in sequence - morning routine finished, one after another.",
+      "sentence": "I ____ up, ____ breakfast, and ____ to school.",
+      "options": [
+        "was waking",
+        "went",
+        "woke",
+        "was going",
+        "ate",
+        "was eating"
+      ],
+      "correctAnswer": [
+        "woke",
+        "ate",
+        "went"
+      ],
+      "audio": "morning_routine.mp3",
+      "hint": "Series of finished actions (Lesson 1: Simple Past for sequences)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Two people doing different things at the same time - both actions ongoing.",
+      "sentence": "While I ____, my brother ____.",
+      "options": [
+        "was cooking",
+        "studied",
+        "cooked",
+        "was studying",
+        "studying",
+        "cooking"
+      ],
+      "correctAnswer": [
+        "was studying",
+        "was cooking"
+      ],
+      "audio": "parallel_actions.mp3",
+      "hint": "Parallel actions (Lesson 6: While for simultaneous activities)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Completed period with 'for' - finished duration in the past.",
+      "sentence": "I ____ in Jakarta for five years.",
+      "options": [
+        "was living",
+        "living",
+        "lived",
+        "live",
+        "am living"
+      ],
+      "correctAnswer": [
+        "lived"
+      ],
+      "audio": "jakarta_years.mp3",
+      "hint": "Duration in past with for (Lesson 1: Simple Past for finished periods)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Emphasizing annoying repeated past behavior - what shows irritation?",
+      "sentence": "She ____ late for class.",
+      "options": [
+        "always came",
+        "came",
+        "was always coming",
+        "coming",
+        "comes"
+      ],
+      "correctAnswer": [
+        "was always coming"
+      ],
+      "audio": "always_late.mp3",
+      "hint": "Annoying habit (Lesson 4: Past Continuous with always for irritation)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Setting the scene with background atmosphere - paint the picture!",
+      "sentence": "The sun ____ and birds ____.",
+      "options": [
+        "shone",
+        "were singing",
+        "was shining",
+        "sang",
+        "singing",
+        "shining"
+      ],
+      "correctAnswer": [
+        "was shining",
+        "were singing"
+      ],
+      "audio": "sun_birds.mp3",
+      "hint": "Background scene (Lesson 4: Past Continuous for atmosphere)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Making Simple Past negative - helper verb plus base form.",
+      "sentence": "I ____ to the party last night.",
+      "options": [
+        "didn't went",
+        "not go",
+        "didn't go",
+        "don't go",
+        "wasn't go"
+      ],
+      "correctAnswer": [
+        "didn't go"
+      ],
+      "hint": "Negative: didn't + base verb (Lesson 1: Simple Past negatives)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Forming a question about yesterday - helper plus base form.",
+      "sentence": "____ you ____ the movie yesterday?",
+      "options": [
+        "watched",
+        "Did",
+        "Do",
+        "watch",
+        "watching"
+      ],
+      "correctAnswer": [
+        "Did",
+        "watch"
+      ],
+      "audio": "watch_movie.mp3",
+      "hint": "Question: Did + subject + base (Lesson 1: Simple Past questions)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Making 'used to' negative - tricky form without the -d!",
+      "sentence": "I ____ like vegetables when I was young.",
+      "options": [
+        "didn't used to",
+        "wasn't used to",
+        "didn't use to",
+        "don't used to",
+        "not used to"
+      ],
+      "correctAnswer": [
+        "didn't use to"
+      ],
+      "audio": "no_vegetables.mp3",
+      "hint": "Negative used to loses -d (Lesson 3: didn't use to)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-16",
+      "type": "drag-drop",
+      "question": "Which time expression signals finished past actions?",
+      "sentence": "____, I visited my grandmother.",
+      "options": [
+        "Tomorrow",
+        "Now",
+        "Yesterday",
+        "Next week",
+        "Soon"
+      ],
+      "correctAnswer": [
+        "Yesterday"
+      ],
+      "audio": "visit_grandma.mp3",
+      "hint": "Past time marker (Lesson 1: yesterday/last/ago → Simple Past)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-17",
+      "type": "drag-drop",
+      "question": "Three common irregular rebels - no -ed for these!",
+      "sentence": "go - ____, see - ____, eat - ____",
+      "options": [
+        "goed",
+        "saw",
+        "seen",
+        "went",
+        "eated",
+        "ate"
+      ],
+      "correctAnswer": [
+        "went",
+        "saw",
+        "ate"
+      ],
+      "audio": "irregular_trio.mp3",
+      "hint": "Memorized irregular forms (Lesson 2: Top irregular verbs)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-18",
+      "type": "drag-drop",
+      "question": "Background continuous action interrupted by sudden short action.",
+      "sentence": "____ I was sleeping, my phone ____.",
+      "options": [
+        "When",
+        "was ringing",
+        "While",
+        "ringing",
+        "rang"
+      ],
+      "correctAnswer": [
+        "While",
+        "rang"
+      ],
+      "audio": "sleeping_phone.mp3",
+      "hint": "While + continuous, then simple (Lesson 5 & 6: Interrupted pattern)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-19",
+      "type": "drag-drop",
+      "question": "General fact about the 1990s - finished time period.",
+      "sentence": "People ____ without smartphones in the 1990s.",
+      "options": [
+        "were living",
+        "are living",
+        "lived",
+        "living",
+        "live"
+      ],
+      "correctAnswer": [
+        "lived"
+      ],
+      "audio": "1990s_phones.mp3",
+      "hint": "Past generalization (Lesson 1: Simple Past for finished facts)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-20",
+      "type": "drag-drop",
+      "question": "'Know' describes a state, not an action - which form?",
+      "sentence": "When you called, I ____ your number.",
+      "options": [
+        "was knowing",
+        "knowing",
+        "knew",
+        "know",
+        "am knowing"
+      ],
+      "correctAnswer": [
+        "knew"
+      ],
+      "audio": "knew_number.mp3",
+      "hint": "Stative verbs = Simple Past only (Lesson implied: no continuous for states)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-21",
+      "type": "drag-drop",
+      "question": "Childhood habit that's no longer true - which construction?",
+      "sentence": "I ____ play hide and seek every day.",
+      "options": [
+        "use to",
+        "using to",
+        "used to",
+        "was used to",
+        "am used to"
+      ],
+      "correctAnswer": [
+        "used to"
+      ],
+      "audio": "hide_seek.mp3",
+      "hint": "Past habit now stopped (Lesson 3: Used to for childhood memories)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-22",
+      "type": "drag-drop",
+      "question": "Two quick completed actions happening in sequence - cause and effect.",
+      "sentence": "When the bell ____, we ____ outside.",
+      "options": [
+        "was ringing",
+        "ran",
+        "were running",
+        "rang",
+        "running",
+        "ringing"
+      ],
+      "correctAnswer": [
+        "rang",
+        "ran"
+      ],
+      "audio": "bell_rang.mp3",
+      "hint": "Both finished actions (Lesson 6: When for sequences)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-23",
+      "type": "drag-drop",
+      "question": "'All morning' shows extended duration - ongoing throughout the period.",
+      "sentence": "She ____ for her exam all morning.",
+      "options": [
+        "studied",
+        "studying",
+        "studies",
+        "was studying",
+        "is studying"
+      ],
+      "correctAnswer": [
+        "was studying"
+      ],
+      "audio": "study_morning.mp3",
+      "hint": "Continuous duration (Lesson 4: Past Continuous for extended time)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-24",
+      "type": "drag-drop",
+      "question": "Regular verb with correct -ed spelling.",
+      "sentence": "Yesterday, I ____ for the bus.",
+      "options": [
+        "waitd",
+        "waitted",
+        "waiting",
+        "waited",
+        "wait"
+      ],
+      "correctAnswer": [
+        "waited"
+      ],
+      "audio": "wait_bus.mp3",
+      "hint": "Regular verb + ed (Lesson 1: Regular verbs just add -ed)",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-25",
+      "type": "drag-drop",
+      "question": "Three irregular verbs with i-a-u vowel pattern!",
+      "sentence": "sing - ____, swim - ____, begin - ____",
+      "options": [
+        "swum",
+        "sang",
+        "begun",
+        "swam",
+        "sung",
+        "began"
+      ],
+      "correctAnswer": [
+        "sang",
+        "swam",
+        "began"
+      ],
+      "audio": "irregular_group.mp3",
+      "hint": "i-a-u pattern (Lesson 2: Irregular verb groups)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-26",
+      "type": "drag-drop",
+      "question": "Creating atmosphere - moon shining throughout the scene.",
+      "sentence": "The moon ____ brightly when we arrived.",
+      "options": [
+        "shone",
+        "shining",
+        "was shining",
+        "shines",
+        "is shining"
+      ],
+      "correctAnswer": [
+        "was shining"
+      ],
+      "audio": "moon_night.mp3",
+      "hint": "Background atmosphere (Lesson 4: Setting the scene)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-27",
+      "type": "drag-drop",
+      "question": "Two past habits that are no longer true - childhood activities stopped.",
+      "sentence": "I ____ climb trees and ____ read comic books.",
+      "options": [
+        "used to",
+        "used to",
+        "was climbing",
+        "was reading",
+        "climbed"
+      ],
+      "correctAnswer": [
+        "used to",
+        "used to"
+      ],
+      "hint": "Both changed habits (Lesson 3: Used to for multiple past habits)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-28",
+      "type": "drag-drop",
+      "question": "Three more irregular rebels to memorize!",
+      "sentence": "write - ____, drive - ____, ride - ____",
+      "options": [
+        "drove",
+        "writed",
+        "rided",
+        "wrote",
+        "drived",
+        "rode"
+      ],
+      "correctAnswer": [
+        "wrote",
+        "drove",
+        "rode"
+      ],
+      "audio": "irregular_group2.mp3",
+      "hint": "All irregular (Lesson 2: Memorize common irregulars)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-29",
+      "type": "drag-drop",
+      "question": "Three simultaneous ongoing actions - everyone busy at once!",
+      "sentence": "Dad ____ TV, Mum ____ and I ____ my homework.",
+      "options": [
+        "cooked",
+        "was watching",
+        "did",
+        "was doing",
+        "watched",
+        "was cooking"
+      ],
+      "correctAnswer": [
+        "was watching",
+        "was cooking",
+        "was doing"
+      ],
+      "audio": "family_evening.mp3",
+      "hint": "All parallel actions (Lesson 6: Multiple simultaneous activities)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-30",
+      "type": "drag-drop",
+      "question": "BOSS: Complex story combining while, continuous, simple, and until!",
+      "sentence": "____ it ____ raining, we ____ inside ____ the rain stopped.",
+      "options": [
+        "was",
+        "stayed",
+        "When",
+        "While",
+        "until",
+        "stopped"
+      ],
+      "correctAnswer": [
+        "While",
+        "was",
+        "stayed",
+        "until"
+      ],
+      "hint": "Full storytelling pattern (Lessons 4, 5, 6: Complete narrative structure)",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What tense describes a finished action in the past?",
+      "sentence": "Yesterday I ____ football.",
+      "options": [
+        "played",
+        "was playing",
+        "have played",
+        "play"
+      ],
+      "correctAnswer": "played",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "'Yesterday' signals a finished time. Use Simple Past for completed actions with clear time markers.",
+      "difficulty": "easy",
+      "explanation": "Simple Past is used for finished actions. 'Yesterday' is a past time marker requiring 'played', not continuous or present forms."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which irregular verb form is correct?",
+      "sentence": "She ____ a new phone last week.",
+      "options": [
+        "bought",
+        "buyed",
+        "was buying",
+        "buys"
+      ],
+      "correctAnswer": "bought",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "'Buy' is an irregular verb rebel! It becomes 'bought', not 'buyed'. 'Last week' needs Simple Past.",
+      "difficulty": "easy",
+      "explanation": "'Buy' is irregular: buy-bought-bought. Never add -ed to irregular verbs! 'Last week' confirms Simple Past is needed."
+    },
+    {
+      "id": "quiz-3",
+      "question": "What shows a habit that is no longer true?",
+      "sentence": "I ____ live in a village, but now I live in the city.",
+      "options": [
+        "used to",
+        "use to",
+        "am used to",
+        "was"
+      ],
+      "correctAnswer": "used to",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "'Used to' shows past habits or states that changed. It contrasts past and present (then vs now).",
+      "difficulty": "easy",
+      "explanation": "'Used to' expresses past situations that are no longer true. The contrast with 'now I live' makes this clear."
+    },
+    {
+      "id": "quiz-4",
+      "question": "What tense paints a picture of a longer action in progress?",
+      "sentence": "At 7 PM last night, I ____ dinner.",
+      "options": [
+        "was cooking",
+        "cooked",
+        "have cooked",
+        "cook"
+      ],
+      "correctAnswer": "was cooking",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "'At + specific time' shows an action in progress at that moment. Use Past Continuous (was/were + -ing).",
+      "difficulty": "easy",
+      "explanation": "Past Continuous describes actions in progress at a specific past time. 'At 7 PM' signals an ongoing action."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which shows a series of completed actions in order?",
+      "sentence": "I ____ up, ____ breakfast, and ____ to school.",
+      "options": [
+        "woke / ate / went",
+        "was waking / was eating / was going",
+        "have woken / have eaten / have gone",
+        "wake / eat / go"
+      ],
+      "correctAnswer": "woke / ate / went",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Series of finished actions = all Simple Past. Like photos: one action, then another, then another! 📸",
+      "difficulty": "medium",
+      "explanation": "Use Simple Past for sequences of completed actions. Each action finished before the next one started: woke → ate → went."
+    },
+    {
+      "id": "quiz-6",
+      "question": "What form correctly shows an interrupted action?",
+      "sentence": "I ____ TV when she ____.",
+      "options": [
+        "was watching / arrived",
+        "watched / was arriving",
+        "was watching / was arriving",
+        "watched / arrived"
+      ],
+      "correctAnswer": "was watching / arrived",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Interrupted action pattern: Long action (past continuous) + short interruption (simple past). Long + short!",
+      "difficulty": "medium",
+      "explanation": "Classic interruption: The longer background action uses Past Continuous (was watching), the short interrupting action uses Simple Past (arrived)."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct irregular verbs for this sentence:",
+      "sentence": "We ____ to the beach and ____ in the ocean.",
+      "options": [
+        "went / swam",
+        "goed / swam",
+        "went / swimmed",
+        "goed / swimmed"
+      ],
+      "correctAnswer": "went / swam",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Both are irregular rebels! Go → went (not goed), Swim → swam (not swimmed). Never add -ed to irregulars!",
+      "difficulty": "easy",
+      "explanation": "'Go' and 'swim' are irregular: go-went, swim-swam. Irregular verbs don't follow the -ed rule—they're rebels! ⚔️"
+    },
+    {
+      "id": "quiz-8",
+      "question": "What shows duration in the past with a finished period?",
+      "sentence": "I ____ in Jakarta for five years.",
+      "options": [
+        "lived",
+        "have lived",
+        "was living",
+        "am living"
+      ],
+      "correctAnswer": "lived",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "Simple Past can show duration that's finished. No connection to now, so use Simple Past, not Present Perfect.",
+      "difficulty": "medium",
+      "explanation": "Simple Past with 'for' shows a finished period. If you no longer live there, use Simple Past 'lived'."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which correctly uses 'while' with a longer action?",
+      "sentence": "While she ____, he played games.",
+      "options": [
+        "was cooking",
+        "cooked",
+        "has cooked",
+        "cooks"
+      ],
+      "correctAnswer": "was cooking",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "'While' = during that time, so use Past Continuous for the longer background action. While + continuous!",
+      "difficulty": "easy",
+      "explanation": "'While' introduces a longer action in progress. Use Past Continuous (was cooking) to show the background activity."
+    },
+    {
+      "id": "quiz-10",
+      "question": "What negative form is correct for 'used to'?",
+      "sentence": "She ____ eat spicy food when she was young.",
+      "options": [
+        "didn't use to",
+        "didn't used to",
+        "wasn't used to",
+        "not used to"
+      ],
+      "correctAnswer": "didn't use to",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Negative 'used to' = didn't use to (no 'd' on 'use' because 'did' shows past). Common Indonesian error!",
+      "difficulty": "medium",
+      "explanation": "With 'did/didn't', use the base form 'use to' (without 'd'). Wrong: 'didn't used to'. Correct: 'didn't use to'."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Which question form is grammatically correct for past habits?",
+      "sentence": "____ have long hair?",
+      "options": [
+        "Did you use to",
+        "Did you used to",
+        "Were you used to",
+        "Do you used to"
+      ],
+      "correctAnswer": "Did you use to",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "Questions: Did + subject + use to (base form, no 'd'). 'Did' already shows past tense!",
+      "difficulty": "medium",
+      "explanation": "In questions with 'used to', drop the 'd': 'Did you use to'. The past tense is already in 'Did'."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Advanced: What creates atmosphere with parallel actions?",
+      "sentence": "The sun ____, birds ____, and children ____ in the park.",
+      "options": [
+        "was shining / were singing / were playing",
+        "shone / sang / played",
+        "has shone / have sung / have played",
+        "shines / sing / play"
+      ],
+      "correctAnswer": "was shining / were singing / were playing",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "Multiple actions happening at the same time in the past = all Past Continuous. Creates beautiful atmosphere! 🎨",
+      "difficulty": "hard",
+      "explanation": "Past Continuous for parallel actions creates atmosphere. All three actions were happening simultaneously, painting a vivid scene."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Identify the correct form for this story sequence:",
+      "sentence": "When the earthquake ____, we ____.",
+      "options": [
+        "started / were sleeping",
+        "was starting / slept",
+        "started / slept",
+        "was starting / were sleeping"
+      ],
+      "correctAnswer": "started / were sleeping",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "'When' + short action (simple) interrupts the longer background action (continuous). Short interrupts long!",
+      "difficulty": "medium",
+      "explanation": "The earthquake (short, sudden) uses Simple Past. Sleeping (longer, background) uses Past Continuous. Classic interruption pattern!"
+    },
+    {
+      "id": "quiz-14",
+      "question": "Which form shows the correct irregular verb?",
+      "sentence": "He ____ coconut water at the market yesterday.",
+      "options": [
+        "drank",
+        "drinked",
+        "was drinking",
+        "drunk"
+      ],
+      "correctAnswer": "drank",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Drink is irregular: drink-drank-drunk. Use 'drank' for Simple Past. Never 'drinked'!",
+      "difficulty": "easy",
+      "explanation": "'Drink' is irregular: drink-drank-drunk. Simple Past form is 'drank'. 'Yesterday' confirms we need Simple Past."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Complete the sequence showing parallel background actions:",
+      "sentence": "While we ____, it ____, and the wind ____.",
+      "options": [
+        "were waiting / was raining / was blowing",
+        "waited / rained / blew",
+        "were waiting / rained / blew",
+        "waited / was raining / was blowing"
+      ],
+      "correctAnswer": "were waiting / was raining / was blowing",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "'While' signals all actions happening at the same time. Use Past Continuous for all parallel actions!",
+      "difficulty": "hard",
+      "explanation": "Multiple actions happening simultaneously after 'while' all use Past Continuous. This creates a vivid scene of what was happening."
+    },
+    {
+      "id": "quiz-16",
+      "question": "What form correctly shows a childhood memory that changed?",
+      "sentence": "I ____ play hide and seek every afternoon, but now I don't.",
+      "options": [
+        "used to",
+        "use to",
+        "was",
+        "am used to"
+      ],
+      "correctAnswer": "used to",
+      "audio": "quiz_16_sentence.mp3",
+      "hint": "'Used to' is perfect for childhood memories and habits that stopped. Shows clear past vs present contrast!",
+      "difficulty": "easy",
+      "explanation": "'Used to' expresses past habits that no longer exist. Perfect for childhood memories: you did it then, but not now."
+    },
+    {
+      "id": "quiz-17",
+      "question": "Which shows the correct use of 'when' with two simple past actions?",
+      "sentence": "When the bell ____, we ____ outside.",
+      "options": [
+        "rang / ran",
+        "was ringing / were running",
+        "rang / were running",
+        "was ringing / ran"
+      ],
+      "correctAnswer": "rang / ran",
+      "audio": "quiz_17_sentence.mp3",
+      "hint": "'When' can connect two short, quick actions in sequence. Both Simple Past: action 1 → then action 2!",
+      "difficulty": "medium",
+      "explanation": "When both actions are short and sequential (not interrupted), both use Simple Past. The bell rang, then we ran—sequence!"
+    },
+    {
+      "id": "quiz-18",
+      "question": "What shows background action at a specific past time?",
+      "sentence": "At 8 PM yesterday, I ____ YouTube.",
+      "options": [
+        "was watching",
+        "watched",
+        "have watched",
+        "watch"
+      ],
+      "correctAnswer": "was watching",
+      "audio": "quiz_18_sentence.mp3",
+      "hint": "'At + time' = action in progress at that moment. Like pausing a movie! ⏸️ Use Past Continuous.",
+      "difficulty": "easy",
+      "explanation": "Specific time in the past (at 8 PM) with an ongoing action requires Past Continuous. Shows what was happening at that exact moment."
+    },
+    {
+      "id": "quiz-19",
+      "question": "Which correctly shows cause and effect with interruption?",
+      "sentence": "He ____ when it ____ to rain.",
+      "options": [
+        "was driving / started",
+        "drove / was starting",
+        "was driving / was starting",
+        "drove / started"
+      ],
+      "correctAnswer": "was driving / started",
+      "audio": "quiz_19_sentence.mp3",
+      "hint": "Longer action in progress (continuous) + sudden event (simple). This is the most popular English story pattern! 📚",
+      "difficulty": "easy",
+      "explanation": "Classic interruption: Driving (longer, continuous) was interrupted when rain started (shorter, simple). The native speaker pattern!"
+    },
+    {
+      "id": "quiz-20",
+      "question": "What structure shows past habits with frequency words?",
+      "sentence": "He ____ study late at night.",
+      "options": [
+        "always used to / never used to",
+        "always use to / never use to",
+        "was always / was never",
+        "has always / has never"
+      ],
+      "correctAnswer": "always used to / never used to",
+      "audio": "quiz_20_sentence.mp3",
+      "hint": "'Used to' works perfectly with always/often/never for past habits. Shows repeated behavior that stopped!",
+      "difficulty": "medium",
+      "explanation": "'Used to' combines with frequency adverbs (always, never, often) to emphasize past habits that changed. Both parts need 'used to'."
+    },
+    {
+      "id": "quiz-21",
+      "question": "Which avoids the common Indonesian error with 'used to'?",
+      "sentence": "People ____ write letters, not WhatsApp.",
+      "options": [
+        "used to",
+        "use to",
+        "are used to",
+        "were use to"
+      ],
+      "correctAnswer": "used to",
+      "audio": "quiz_21_sentence.mp3",
+      "hint": "Common Indonesian mistake: 'use to' without 'd'. Always write 'used to' in positive sentences! Must have 'd'! 😱",
+      "difficulty": "easy",
+      "explanation": "In positive statements, always use 'used to' (WITH the 'd'). Only drop it in negatives/questions with 'did'."
+    },
+    {
+      "id": "quiz-22",
+      "question": "What shows two actions happening at the same time?",
+      "sentence": "They ____ while it ____.",
+      "options": [
+        "were playing / was raining",
+        "played / rained",
+        "were playing / rained",
+        "played / was raining"
+      ],
+      "correctAnswer": "were playing / was raining",
+      "audio": "quiz_22_sentence.mp3",
+      "hint": "'While' = during that time. Both actions happening together = both Past Continuous! Parallel actions! ⏸️⏸️",
+      "difficulty": "medium",
+      "explanation": "Two simultaneous actions after 'while' both use Past Continuous. Playing and raining happened at the same time."
+    },
+    {
+      "id": "quiz-23",
+      "question": "Which correctly uses multiple irregular verbs in sequence?",
+      "sentence": "I ____ a monkey, ____ a photo, and ____ some fruit.",
+      "options": [
+        "saw / took / bought",
+        "seed / taked / buyed",
+        "saw / taked / bought",
+        "seed / took / buyed"
+      ],
+      "correctAnswer": "saw / took / bought",
+      "audio": "quiz_23_sentence.mp3",
+      "hint": "All three are irregular rebels: see→saw, take→took, buy→bought. NEVER add -ed to irregulars! ⚔️",
+      "difficulty": "medium",
+      "explanation": "Three irregular verbs in sequence: see-saw, take-took, buy-bought. Memorize these rebels—they never follow -ed!"
+    },
+    {
+      "id": "quiz-24",
+      "question": "Advanced: What creates the most dramatic storytelling effect?",
+      "sentence": "The students ____ when the teacher ____ the room.",
+      "options": [
+        "were talking / entered",
+        "talked / entered",
+        "were talking / was entering",
+        "talked / was entering"
+      ],
+      "correctAnswer": "were talking / entered",
+      "audio": "quiz_24_sentence.mp3",
+      "hint": "Surprise interruption = most dramatic! Background scene (continuous) + sudden entrance (simple). Sound like a native! 📚",
+      "difficulty": "hard",
+      "explanation": "The most native-sounding pattern: background action (were talking) + sudden surprise (entered). This creates maximum dramatic impact!"
+    },
+    {
+      "id": "quiz-25",
+      "question": "Complete with the perfect atmosphere and interruption mix:",
+      "sentence": "We ____ dinner, the candles ____, and music ____ when the power ____ out.",
+      "options": [
+        "were eating / were burning / was playing / went",
+        "ate / burned / played / went",
+        "were eating / were burning / was playing / was going",
+        "ate / burned / played / was going"
+      ],
+      "correctAnswer": "were eating / were burning / was playing / went",
+      "audio": "quiz_25_sentence.mp3",
+      "hint": "Multiple parallel atmospheres (all continuous) + one sudden interruption (simple). Past Continuous × 3 + Simple Past!",
+      "difficulty": "hard",
+      "explanation": "Three parallel background actions all use Past Continuous to create atmosphere. The sudden power outage (went) uses Simple Past for dramatic interruption!"
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "yesterday",
+      "hint": "The day before today (simple past time)",
+      "clue": "y_st__da_",
+      "audio": "yesterday.mp3",
+      "sentence": "I played football ___.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "finished",
+      "hint": "Completed action (simple past use)",
+      "clue": "f_n_s__d",
+      "audio": "finished.mp3",
+      "sentence": "I ___ my homework an hour ago.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "irregular",
+      "hint": "Not following -ed rule (go-went)",
+      "clue": "i__e__l_r",
+      "audio": "irregular.mp3",
+      "sentence": "'Go' is an ___ verb.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-4",
+      "word": "continuous",
+      "hint": "Ongoing action (was/were + ing)",
+      "clue": "c_n_i__o_s",
+      "audio": "continuous.mp3",
+      "sentence": "Past ___ for longer actions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "interrupted",
+      "hint": "Stopped by something (past continuous use)",
+      "clue": "i_t_r__pt_d",
+      "audio": "interrupted.mp3",
+      "sentence": "I was cooking when the phone ___ me.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-6",
+      "word": "childhood",
+      "hint": "Time when you were a child (used to)",
+      "clue": "c_i_d_o_d",
+      "audio": "childhood.mp3",
+      "sentence": "In my ___, I used to play outside.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "memory",
+      "hint": "Something you remember from past",
+      "clue": "m_m__y",
+      "audio": "memory.mp3",
+      "sentence": "My favorite ___ is from childhood.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-8",
+      "word": "duration",
+      "hint": "How long something lasted (for 2 years)",
+      "clue": "d__a_i_n",
+      "audio": "duration.mp3",
+      "sentence": "The ___ of my stay was three months.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-9",
+      "word": "habit",
+      "hint": "Something you do regularly (used to)",
+      "clue": "h_b_t",
+      "audio": "habit.mp3",
+      "sentence": "Smoking is a bad ___.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-10",
+      "word": "atmosphere",
+      "hint": "Feeling or mood (past continuous for scenes)",
+      "clue": "a_m_s_h_r_",
+      "audio": "atmosphere.mp3",
+      "sentence": "The party had a happy ___.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-11",
+      "word": "sequence",
+      "hint": "Order of events (simple past for series)",
+      "clue": "s_q_e_c_",
+      "audio": "sequence.mp3",
+      "sentence": "The ___ of actions was clear.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-12",
+      "word": "witnessed",
+      "hint": "Saw something happen (past event)",
+      "clue": "w_tn_s_e_",
+      "audio": "witnessed.mp3",
+      "sentence": "I ___ the accident yesterday.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 15,
+      "silver": 40,
+      "gold": 70,
+      "platinum": 100
+    },
+    "badges": [
+      {
+        "id": "storytelling-legend",
+        "name": "Storytelling Legend 📖",
+        "condition": "Complete all 6 lessons with 90%+ accuracy",
+        "icon": "📖",
+        "points": 50,
+        "message": "You can now tell perfect past stories like a native!"
+      },
+      {
+        "id": "interruption-master",
+        "name": "Interruption Master ⚡",
+        "condition": "Get 18/20+ drag-drop games correct (especially interruptions with when/while)",
+        "icon": "⚡",
+        "points": 45,
+        "message": "Nobody interrupts your grammar anymore!"
+      },
+      {
+        "id": "childhood-hero",
+        "name": "Childhood Hero 👶",
+        "condition": "Use 'used to' perfectly in all writing tasks + spelling",
+        "icon": "👶",
+        "points": 40,
+        "message": "Your childhood memories now sound 100% natural!"
+      },
+      {
+        "id": "time-machine-pilot",
+        "name": "Time Machine Pilot ⏳",
+        "condition": "Master Past Continuous vs Simple Past in games and writing",
+        "icon": "⏳",
+        "points": 50,
+        "message": "You travel between background and finished actions perfectly!"
+      },
+      {
+        "id": "irregular-rebel",
+        "name": "Irregular Rebel 😈",
+        "condition": "Never make a mistake with irregular verbs (went, saw, ate, bought, etc.)",
+        "icon": "😈",
+        "points": 35,
+        "message": "You’ve tamed all the rebel verbs!"
+      },
+      {
+        "id": "when-while-wizard",
+        "name": "When/While Wizard ✨",
+        "condition": "Use 'when' and 'while' correctly in every writing and game activity",
+        "icon": "✨",
+        "points": 40,
+        "message": "Your timing is now magically perfect!"
+      },
+      {
+        "id": "past-ninja",
+        "name": "Past Tense Ninja 🥷",
+        "condition": "Earn Platinum stars + all other badges",
+        "icon": "🥷",
+        "points": 100,
+        "message": "You have officially mastered the entire past tense world!"
+      }
+    ]
+  }
+}

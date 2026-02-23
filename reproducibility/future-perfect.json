@@ -1,0 +1,1247 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Future Perfect – Actions Finished Before a Future Point!",
+            "content": "<p>Imagine looking back from the future at something already done. That’s Future Perfect! When you say “By 2030, I will have visited 50 countries,” you’re using it!</p><p><strong>Future Perfect</strong> = will have / be going to have + past participle</p><p>Think of it like a time machine: you jump to a future moment and look back at completed actions.</p><ul><li>By next June → I <strong>will have finished</strong> my degree</li><li>When you arrive → we <strong>will have eaten</strong></li></ul><p>Fun fact: 'will' and 'be going to' forms mean almost the same here!</p>",
+            "examples": [
+                "By the time he gets home, she <strong>will have cleaned</strong> the house.",
+                "I <strong>will have learned</strong> 1000 words by December."
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_intro.mp3",
+            "functions": [
+                "Talking about achievements before a future time",
+                "Setting deadlines"
+            ],
+            "tips": "Quick Rule: Use by / by the time + present simple in the time clause!"
+        },
+        {
+            "id": "lesson-2",
+            "title": "Future Perfect Continuous – How Long Something Will Have Been Happening",
+            "content": "<p>Now we add duration! Future Perfect Continuous shows how long an action will have been in progress up to a future point.</p><p><strong>Formation:</strong> will have been / be going to have been + verb-ing</p><p>When to use:</p><ol><li>Duration up to a future moment → By July, I <strong>will have been living</strong> here for 10 years</li><li>Cause of a future state → He’ll be tired because he <strong>will have been working</strong> all night</li></ol><p>Fun fact: English speakers often prefer Future Continuous without duration — but with for/since, we need Perfect Continuous!</p>",
+            "examples": [
+                "By Friday, we <strong>will have been driving</strong> for 12 hours.",
+                "She <strong>is going to have been studying</strong> English for 5 years when she graduates."
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_continuous.mp3",
+            "functions": [
+                "Emphasizing duration",
+                "Explaining future states (tired, experienced)"
+            ],
+            "tips": "Memory trick: If you can add 'for 3 years' or 'since 2020' → Future Perfect Continuous!"
+        },
+        {
+            "id": "lesson-3",
+            "title": "Future Perfect vs Future Perfect Continuous – The Big Difference!",
+            "content": "<p>Here’s the key distinction!</p><table style=\"border-collapse: collapse; margin: 16px auto; width: 100%; max-width: 600px; font-size: 0.95rem;\"><tr><th style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Future Perfect</th><th style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Future Perfect Continuous</th></tr><tr><td style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Focus on completion<br><em>I will have finished the report.</em></td><td style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Focus on duration<br><em>I will have been working on the report for 6 hours.</em></td></tr><tr><td style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Result matters</td><td style=\"border: 1px solid #999; padding: 10px; text-align: center;\">Process and time spent matters</td></tr></table><p><strong>Common mistake:</strong> Using continuous with stative verbs → Ned will have had his license (not been having!)</p>",
+            "examples": [
+                "He will be tired because he will have been jogging. (duration) ≠ He will have run 10 km. (completion)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_contrast.mp3",
+            "functions": [
+                "Choosing the right emphasis",
+                "Avoiding stative verb errors"
+            ],
+            "tips": "Pro tip: No duration word (for/since) → usually just Future Continuous, not Perfect Continuous!"
+        },
+        {
+            "id": "lesson-4",
+            "title": "The Golden Rule: NO Future in Time Clauses!",
+            "content": "<p>Biggest mistake ever! In time clauses (when, by the time, before, after…), NEVER use will/won’t!</p><p>Wrong: When I will finish → Correct: When I finish / have finished</p><p>With Future Perfect, use Present Perfect in the time clause:</p><ul><li>By the time you <strong>arrive</strong>, I <strong>will have cooked</strong> dinner</li><li>As soon as she <strong>has saved</strong> enough, she’ll buy a car</li></ul><p>Fun fact: This rule applies to ALL future tenses!</p>",
+            "examples": [
+                "I’ll call you when I <strong>have arrived</strong>.",
+                "She won’t leave until she <strong>has seen</strong> the doctor."
+            ],
+            "difficulty": 3,
+            "audio": "lesson_4_time_clauses.mp3",
+            "functions": [
+                "Correct time clause usage",
+                "Avoiding the #1 error"
+            ],
+            "tips": "Never forget: Time clause = present tenses only!"
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 6–8 sentences about your life goals. Use Future Perfect at least 4 times with 'by the time / by + date'.",
+            "hint": "Example: By the time I’m 40, I will have visited 30 countries.",
+            "expectedKeywords": [
+                "by the time",
+                "by next",
+                "will have",
+                "by 20"
+            ],
+            "sentenceStarters": [
+                "By 2030, I ___ .",
+                "By the time I retire, ___ ."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-2",
+            "question": "Write about a very busy week in the future. Use Future Perfect Continuous at least 3 times to show duration.",
+            "hint": "Example: By Friday, I will have been working non-stop for two weeks!",
+            "expectedKeywords": [
+                "will have been",
+                "for",
+                "since",
+                "by friday"
+            ],
+            "sentenceStarters": [
+                "Next month, I will have been ___ .",
+                "By the end of the term, ___ ."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Write a short paragraph predicting someone's future state and explain why (cause-effect). Use both tenses.",
+            "hint": "Example: She’ll be fluent because she will have been studying for years.",
+            "expectedKeywords": [
+                "will be",
+                "because",
+                "will have been",
+                "will have"
+            ],
+            "sentenceStarters": [
+                "He will be exhausted because ___ .",
+                "By then, she ___ ."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-4",
+            "question": "Imagine it’s the year 2040. Write 6–8 sentences about what you will have achieved in your career and personal life. Use Future Perfect at least 5 times.",
+            "hint": "Start with: By 2040, I will have… / By the time I’m 50, I will have…",
+            "expectedKeywords": [
+                "by 20",
+                "by the time",
+                "will have",
+                "achieved",
+                "built",
+                "published",
+                "visited"
+            ],
+            "sentenceStarters": [
+                "By 2040, I will have ___ .",
+                "By the time I reach 50, I will have ___ ."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-5",
+            "question": "Describe a very long, intense project (real or imaginary) you will finish soon. Use Future Perfect Continuous at least 4 times to show duration and effort.",
+            "hint": "Example: By the time I submit it, I will have been researching for 18 months straight!",
+            "expectedKeywords": [
+                "will have been",
+                "for",
+                "since",
+                "non-stop",
+                "day and night"
+            ],
+            "sentenceStarters": [
+                "By the deadline, I will have been ___ .",
+                "When I finally finish, I will have been ___ for ___ ."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Write about someone you know (or invent a person) who will be extremely tired/experienced/fluent in the future. Use both Future Perfect and Future Perfect Continuous + 'because' at least twice.",
+            "hint": "Example: He’ll be exhausted because he will have been training 8 hours a day, and he’ll be in perfect shape because he will have followed the program for a whole year.",
+            "expectedKeywords": [
+                "because",
+                "will have been",
+                "will have",
+                "exhausted",
+                "fluent",
+                "expert"
+            ],
+            "sentenceStarters": [
+                "She will be completely fluent because ___ .",
+                "He will be totally exhausted because ___ ."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-7",
+            "question": "Write a short letter to your future self (to be opened in 10 years). Use Future Perfect at least 4 times and Future Perfect Continuous at least 2 times.",
+            "hint": "Dear Future Me… By then, I hope I will have… and I will have been…",
+            "expectedKeywords": [
+                "dear future",
+                "by then",
+                "will have",
+                "will have been",
+                "hope"
+            ],
+            "sentenceStarters": [
+                "Dear Future Me, by 2035 I will have ___ .",
+                "I will have been living/working/studying ___ for ___ years."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Predict your family’s or friends’ achievements in the next 5–15 years. Use Future Perfect at least 5 times with different subjects (my brother, my parents, my best friend…)",
+            "hint": "Example: My sister will have graduated from medical school by 2028.",
+            "expectedKeywords": [
+                "my ",
+                "will have",
+                "graduated",
+                "moved",
+                "started",
+                "had",
+                "by 20"
+            ],
+            "sentenceStarters": [
+                "My brother will have ___ by the time he’s 30.",
+                "By 2030, my parents will have ___ ."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-9",
+            "question": "Write about a world-changing invention or event that will happen soon. Use Future Perfect Continuous to show long preparation (scientists, researchers…) and Future Perfect for the final result.",
+            "hint": "Example: By the time the mission launches, scientists will have been developing the technology for over 20 years and finally will have created sustainable fusion energy.",
+            "expectedKeywords": [
+                "will have been",
+                "for over",
+                "since",
+                "finally",
+                "will have",
+                "created",
+                "achieved"
+            ],
+            "sentenceStarters": [
+                "By the time the new technology ___ , researchers will have been ___ .",
+                "Finally, humanity will have ___ after decades of effort."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-10",
+            "question": "Free writing: Describe your life ‘by this time next decade’. Mix both tenses naturally, include time clauses with present tenses, and avoid any future forms in time clauses.",
+            "hint": "Challenge: No 'will' in when/by the time/before clauses! Use present or present perfect only.",
+            "expectedKeywords": [
+                "by this time next",
+                "when I",
+                "by the time",
+                "will have been",
+                "will have"
+            ],
+            "sentenceStarters": [
+                "By this time in 2035, ___ .",
+                "When I look back, I will have ___ ."
+            ],
+            "difficulty": 3
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Achievement completed before a future deadline – what form?",
+            "sentence": "By the end of this month, I ____ all my exams.",
+            "options": [
+                "will finish",
+                "will have finished",
+                "will be finishing",
+                "am going to finish",
+                "will have been finishing"
+            ],
+            "correctAnswer": [
+                "will have finished"
+            ],
+            "audio": "exams_end_month.mp3",
+            "hint": "Focus on completion before a future point (Lesson 1: Future Perfect for achievements)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Emphasizing how long something will have been going on – duration!",
+            "sentence": "By next summer, we ____ in Bali for two full years.",
+            "options": [
+                "will live",
+                "will have lived",
+                "will have been living",
+                "are going to live",
+                "will be living"
+            ],
+            "correctAnswer": [
+                "will have been living"
+            ],
+            "audio": "bali_two_years.mp3",
+            "hint": "Use 'for' + time → duration up to future point (Lesson 2: Future Perfect Continuous)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Time clause rule – no future tense here!",
+            "sentence": "I'll relax as soon as I ____ this project.",
+            "options": [
+                "will finish",
+                "finish",
+                "have finished",
+                "will have finished",
+                "am finishing"
+            ],
+            "correctAnswer": [
+                "have finished"
+            ],
+            "audio": "relax_project.mp3",
+            "hint": "Time clause uses present perfect for completion (Lesson 4: No future in time clauses)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Result matters: total completed before future moment.",
+            "sentence": "By 2030, scientists ____ a cure for many diseases.",
+            "options": [
+                "will discover",
+                "will have discovered",
+                "will have been discovering",
+                "are going to discover",
+                "will be discovering"
+            ],
+            "correctAnswer": [
+                "will have discovered"
+            ],
+            "audio": "cure_2030.mp3",
+            "hint": "Focus on the result/achievement (Lesson 1: Future Perfect)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Cause of future tiredness – long ongoing activity.",
+            "sentence": "She'll be exhausted because she ____ all day without a break.",
+            "options": [
+                "will work",
+                "will have worked",
+                "will have been working",
+                "will be working",
+                "is going to work"
+            ],
+            "correctAnswer": [
+                "will have been working"
+            ],
+            "audio": "exhausted_work.mp3",
+            "hint": "Explaining a future state with duration (Lesson 2: Future Perfect Continuous)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-6",
+            "type": "drag-drop",
+            "question": "Stative verb – cannot use continuous form!",
+            "sentence": "By next year, they ____ each other for 15 years.",
+            "options": [
+                "will know",
+                "will have known",
+                "will have been knowing",
+                "are going to know",
+                "will be knowing"
+            ],
+            "correctAnswer": [
+                "will have known"
+            ],
+            "audio": "know_15_years.mp3",
+            "hint": "Stative verbs take simple perfect, not continuous (Lesson 3: Avoid stative errors)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-7",
+            "type": "drag-drop",
+            "question": "By the time clause – present simple in the clause!",
+            "sentence": "By the time the guests ____, we ____ everything ready.",
+            "options": [
+                "will arrive,will have",
+                "arrive,will have",
+                "arrive,will have got",
+                "will arrive,will have got"
+            ],
+            "correctAnswer": [
+                "arrive,will have"
+            ],
+            "audio": "guests_ready.mp3",
+            "hint": "Time clause uses present, main clause future perfect (Lesson 4: Golden rule)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-8",
+            "type": "drag-drop",
+            "question": "Completion vs duration – choose the right emphasis.",
+            "sentence": "By Friday, the team ____ the report (completion) and ____ on it for weeks (duration).",
+            "options": [
+                "will finish,will work",
+                "will have finished,will have been working",
+                "will have been finishing,will have worked",
+                "will finish,will have worked"
+            ],
+            "correctAnswer": [
+                "will have finished,will have been working"
+            ],
+            "audio": "report_friday.mp3",
+            "hint": "Result + process (Lesson 3: Future Perfect vs Continuous)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-9",
+            "type": "drag-drop",
+            "question": "Long drive – emphasizing time spent.",
+            "sentence": "By the time we reach Jakarta, we ____ for more than 10 hours.",
+            "options": [
+                "will drive",
+                "will have driven",
+                "will have been driving",
+                "are going to drive"
+            ],
+            "correctAnswer": [
+                "will have been driving"
+            ],
+            "audio": "drive_jakarta.mp3",
+            "hint": "Focus on duration of ongoing action (Lesson 2: Future Perfect Continuous)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-10",
+            "type": "drag-drop",
+            "question": "Deadline achievement – total completed.",
+            "sentence": "By the end of today, I ____ 500 emails.",
+            "options": [
+                "will answer",
+                "will have answered",
+                "will have been answering",
+                "am going to answer"
+            ],
+            "correctAnswer": [
+                "will have answered"
+            ],
+            "audio": "500_emails.mp3",
+            "hint": "Countable result before future point (Lesson 1: Future Perfect)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-11",
+            "type": "drag-drop",
+            "question": "Time clause with 'when' – present perfect for completion.",
+            "sentence": "I'll celebrate when I ____ the race.",
+            "options": [
+                "will finish",
+                "finish",
+                "have finished",
+                "will have finished"
+            ],
+            "correctAnswer": [
+                "have finished"
+            ],
+            "audio": "celebrate_race.mp3",
+            "hint": "Time clause uses present perfect (Lesson 4: No future forms)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-12",
+            "type": "drag-drop",
+            "question": "Stative verb duration – simple form only.",
+            "sentence": "By 2035, my company ____ 20 years old.",
+            "options": [
+                "will be",
+                "will have been",
+                "will have being",
+                "is going to be"
+            ],
+            "correctAnswer": [
+                "will have been"
+            ],
+            "audio": "company_20.mp3",
+            "hint": "Be is stative → simple perfect",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-13",
+            "type": "drag-drop",
+            "question": "Ongoing effort explaining future experience.",
+            "sentence": "He'll be an expert because he ____ English for 10 years by then.",
+            "options": [
+                "will study",
+                "will have studied",
+                "will have been studying",
+                "will be studying"
+            ],
+            "correctAnswer": [
+                "will have been studying"
+            ],
+            "audio": "english_expert.mp3",
+            "hint": "Duration leads to future state (Lesson 2: Cause of future state)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-14",
+            "type": "drag-drop",
+            "question": "By the time – present simple + future perfect continuous.",
+            "sentence": "By the time the concert ____, fans ____ outside for hours.",
+            "options": [
+                "starts,will queue",
+                "starts,will have been queuing",
+                "will start,will have been queuing",
+                "will start,will queue"
+            ],
+            "correctAnswer": [
+                "starts,will have been queuing"
+            ],
+            "audio": "concert_queue.mp3",
+            "hint": "Time clause present + duration (Lessons 2 & 4)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-15",
+            "type": "drag-drop",
+            "question": "Lifetime goal completed before a future age.",
+            "sentence": "By the time I'm 40, I ____ every province in Indonesia.",
+            "options": [
+                "will visit",
+                "will have visited",
+                "will have been visiting",
+                "am going to visit"
+            ],
+            "correctAnswer": [
+                "will have visited"
+            ],
+            "audio": "indonesia_40.mp3",
+            "hint": "Achievement by future point (Lesson 1: Future Perfect)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-16",
+            "type": "drag-drop",
+            "question": "After clause – present perfect in time clause.",
+            "sentence": "We can eat after everyone ____ their hands.",
+            "options": [
+                "washes",
+                "has washed",
+                "will have washed",
+                "will wash"
+            ],
+            "correctAnswer": [
+                "has washed"
+            ],
+            "audio": "eat_hands.mp3",
+            "hint": "Completion in time clause → present perfect (Lesson 4)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-17",
+            "type": "drag-drop",
+            "question": "Duration of temporary job – continuous needed.",
+            "sentence": "By December, I ____ at this café for six months.",
+            "options": [
+                "will work",
+                "will have worked",
+                "will have been working",
+                "am going to work"
+            ],
+            "correctAnswer": [
+                "will have been working"
+            ],
+            "audio": "cafe_six_months.mp3",
+            "hint": "Temporary ongoing → duration (Lesson 2: Future Perfect Continuous)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-18",
+            "type": "drag-drop",
+            "question": "Two actions: one completed, one duration.",
+            "sentence": "By next week, the builders ____ the walls and ____ on the house for a month.",
+            "options": [
+                "will paint,will work",
+                "will have painted,will have been working",
+                "will have been painting,will have worked",
+                "will paint,will have worked"
+            ],
+            "correctAnswer": [
+                "will have painted,will have been working"
+            ],
+            "audio": "builders_week.mp3",
+            "hint": "Completion + process (Lesson 3: Contrast)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-19",
+            "type": "drag-drop",
+            "question": "Before clause – present simple in time clause.",
+            "sentence": "____ you leave, make sure you ____ the report.",
+            "options": [
+                "Before,will finish",
+                "Before,have finished",
+                "Before will,have finished",
+                "Before will,finish"
+            ],
+            "correctAnswer": [
+                "Before,have finished"
+            ],
+            "audio": "leave_report.mp3",
+            "hint": "Time clause at start uses present (Lesson 4)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-20",
+            "type": "drag-drop",
+            "question": "Long-term relationship duration – stative but acceptable continuous sometimes, here simple.",
+            "sentence": "By our anniversary, we ____ married for 25 years.",
+            "options": [
+                "will be",
+                "will have been",
+                "will have been being",
+                "are going to be"
+            ],
+            "correctAnswer": [
+                "will have been"
+            ],
+            "audio": "anniversary_25.mp3",
+            "hint": "Duration of state (Lesson 2 & 3)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-21",
+            "type": "drag-drop",
+            "question": "Result focus: total books written.",
+            "sentence": "By age 50, the author ____ ten novels.",
+            "options": [
+                "will write",
+                "will have written",
+                "will have been writing",
+                "is going to write"
+            ],
+            "correctAnswer": [
+                "will have written"
+            ],
+            "audio": "author_novels.mp3",
+            "hint": "Countable achievements (Lesson 1: Future Perfect)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-22",
+            "type": "drag-drop",
+            "question": "Until clause – present perfect for completion.",
+            "sentence": "I won't stop until I ____ enough money.",
+            "options": [
+                "will save",
+                "save",
+                "have saved",
+                "will have saved"
+            ],
+            "correctAnswer": [
+                "have saved"
+            ],
+            "audio": "until_money.mp3",
+            "hint": "Time clause rule (Lesson 4)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-23",
+            "type": "drag-drop",
+            "question": "Intense duration explaining future soreness.",
+            "sentence": "My legs will hurt because I ____ mountains all weekend.",
+            "options": [
+                "will climb",
+                "will have climbed",
+                "will have been climbing",
+                "will be climbing"
+            ],
+            "correctAnswer": [
+                "will have been climbing"
+            ],
+            "audio": "mountains_sore.mp3",
+            "hint": "Cause of future state with effort (Lesson 2)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-24",
+            "type": "drag-drop",
+            "question": "By the time + present simple + future perfect.",
+            "sentence": "By the time school ____ tomorrow, the kids ____ homework all evening.",
+            "options": [
+                "starts,will do",
+                "starts,will have been doing",
+                "will start,will have been doing",
+                "will start,will do"
+            ],
+            "correctAnswer": [
+                "starts,will have been doing"
+            ],
+            "audio": "school_homework.mp3",
+            "hint": "Time clause + long duration (Lessons 2 & 4)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-25",
+            "type": "drag-drop",
+            "question": "Personal milestone – completed travels.",
+            "sentence": "By retirement, I ____ to over 100 countries.",
+            "options": [
+                "will travel",
+                "will have travelled",
+                "will have been travelling",
+                "am going to travel"
+            ],
+            "correctAnswer": [
+                "will have travelled"
+            ],
+            "audio": "retirement_countries.mp3",
+            "hint": "Lifetime achievement (Lesson 1)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-26",
+            "type": "drag-drop",
+            "question": "As soon as clause – present simple.",
+            "sentence": "____ the rain ____, we'll go outside.",
+            "options": [
+                "As soon as,will stop",
+                "As soon as,stops",
+                "As soon will as,stops",
+                "As soon as,will have stopped"
+            ],
+            "correctAnswer": [
+                "As soon as,stops"
+            ],
+            "audio": "rain_outside.mp3",
+            "hint": "Time clause at beginning (Lesson 4)",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-27",
+            "type": "drag-drop",
+            "question": "Stative possession – simple perfect.",
+            "sentence": "By then, she ____ her new car for three months.",
+            "options": [
+                "will have",
+                "will have had",
+                "will have been having",
+                "will be having"
+            ],
+            "correctAnswer": [
+                "will have had"
+            ],
+            "audio": "car_three_months.mp3",
+            "hint": "Have = stative (Lesson 3)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-28",
+            "type": "drag-drop",
+            "question": "Marathon effort – duration matters.",
+            "sentence": "By the finish line, the runners ____ for over four hours.",
+            "options": [
+                "will run",
+                "will have run",
+                "will have been running",
+                "are going to run"
+            ],
+            "correctAnswer": [
+                "will have been running"
+            ],
+            "audio": "marathon_finish.mp3",
+            "hint": "Ongoing effort (Lesson 2: Future Perfect Continuous)",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-29",
+            "type": "drag-drop",
+            "question": "When clause – present perfect for prior completion.",
+            "sentence": "Call me when you ____ reading the book.",
+            "options": [
+                "finish",
+                "have finished",
+                "will finish",
+                "will have finished"
+            ],
+            "correctAnswer": [
+                "have finished"
+            ],
+            "audio": "call_book.mp3",
+            "hint": "Completion before future action (Lesson 4)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-30",
+            "type": "drag-drop",
+            "question": "Grand achievement + long dedication.",
+            "sentence": "By the opening ceremony, the team ____ the stadium and ____ on it for five years.",
+            "options": [
+                "will complete,will work",
+                "will have completed,will have been working",
+                "will have been completing,will have worked",
+                "will complete,will have worked"
+            ],
+            "correctAnswer": [
+                "will have completed,will have been working"
+            ],
+            "audio": "stadium_opening.mp3",
+            "hint": "Completion + duration (Lesson 3: Both forms)",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "What structure describes an action completed before a future point?",
+            "sentence": "By next June, I ____ my degree.",
+            "options": [
+                "will have finished",
+                "will be finishing",
+                "will finish",
+                "am going to finish"
+            ],
+            "correctAnswer": "will have finished",
+            "audio": "quiz_1_sentence.mp3",
+            "hint": "'By next June' indicates a deadline. Use Future Perfect (will have + past participle) for completion before a future time.",
+            "difficulty": "easy",
+            "explanation": "Future Perfect is used for actions that will be completed before a specific future time. 'By next June' signals a deadline, requiring 'will have finished'."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which form shows duration up to a future moment?",
+            "sentence": "By July, I ____ here for 10 years.",
+            "options": [
+                "will have been living",
+                "will have lived",
+                "will be living",
+                "am living"
+            ],
+            "correctAnswer": "will have been living",
+            "audio": "quiz_2_sentence.mp3",
+            "hint": "'For 10 years' shows duration. When emphasizing how long something will have been happening, use Future Perfect Continuous (will have been + -ing).",
+            "difficulty": "easy",
+            "explanation": "Future Perfect Continuous emphasizes duration up to a future point. 'For 10 years' indicates time spent, so we use 'will have been living'."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What verb form completes this time clause correctly?",
+            "sentence": "By the time you ____, I will have cooked dinner.",
+            "options": [
+                "arrive",
+                "will arrive",
+                "will have arrived",
+                "are arriving"
+            ],
+            "correctAnswer": "arrive",
+            "audio": "quiz_3_sentence.mp3",
+            "hint": "Time clauses (by the time, when, before, after) use present tenses, NEVER 'will'. Use present simple here.",
+            "difficulty": "medium",
+            "explanation": "The golden rule: NEVER use 'will' in time clauses! After 'by the time', use present simple or present perfect, not future tenses."
+        },
+        {
+            "id": "quiz-4",
+            "question": "What emphasizes the result of completion rather than duration?",
+            "sentence": "By Friday, we ____ 500 kilometers.",
+            "options": [
+                "will have driven",
+                "will have been driving",
+                "will be driving",
+                "are going to drive"
+            ],
+            "correctAnswer": "will have driven",
+            "audio": "quiz_4_sentence.mp3",
+            "hint": "No duration word like 'for' is present, and the focus is on the completed distance (result). Use Future Perfect for completion.",
+            "difficulty": "medium",
+            "explanation": "Future Perfect focuses on completion and results. '500 kilometers' is an achievement/result, not a duration, so use 'will have driven'."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which shows the cause of a future state?",
+            "sentence": "He'll be tired because he ____ all night.",
+            "options": [
+                "will have been working",
+                "will have worked",
+                "will work",
+                "is working"
+            ],
+            "correctAnswer": "will have been working",
+            "audio": "quiz_5_sentence.mp3",
+            "hint": "To explain a future state (tired), show the duration of the activity causing it. Use Future Perfect Continuous.",
+            "difficulty": "easy",
+            "explanation": "Future Perfect Continuous explains the cause of a future state. Working continuously all night causes tiredness, so 'will have been working' shows the duration."
+        },
+        {
+            "id": "quiz-6",
+            "question": "What's the correct form when talking about achievements?",
+            "sentence": "By 2030, I ____ 50 countries.",
+            "options": [
+                "will have visited",
+                "will have been visiting",
+                "will be visiting",
+                "am going to visit"
+            ],
+            "correctAnswer": "will have visited",
+            "audio": "quiz_6_sentence.mp3",
+            "hint": "Counting achievements (50 countries) focuses on completion, not duration. Use Future Perfect without continuous.",
+            "difficulty": "easy",
+            "explanation": "'50 countries' is a countable achievement/result. Future Perfect (will have visited) is used for completed actions before a future time."
+        },
+        {
+            "id": "quiz-7",
+            "question": "Choose the correct tenses for this complex sentence:",
+            "sentence": "When she ____ enough money, she ____ a car, and she ____ for it for 5 years by then.",
+            "options": [
+                "has saved / will buy / will have been saving",
+                "will have saved / will buy / will have been saving",
+                "has saved / buys / will have saved",
+                "saves / will buy / is going to be saving"
+            ],
+            "correctAnswer": "has saved / will buy / will have been saving",
+            "audio": "quiz_7_sentence.mp3",
+            "hint": "Use present perfect in the time clause ('when'), future simple for the main action, and Future Perfect Continuous for the duration ('for 5 years').",
+            "difficulty": "hard",
+            "explanation": "Time clauses require present perfect (has saved), the main clause uses future simple (will buy), and 'for 5 years' indicates duration requiring Future Perfect Continuous (will have been saving)."
+        },
+        {
+            "id": "quiz-8",
+            "question": "What's the correct form emphasizing duration with a time marker?",
+            "sentence": "By Friday, we ____ for 12 hours.",
+            "options": [
+                "will have been driving",
+                "will have driven",
+                "will be driving",
+                "are driving"
+            ],
+            "correctAnswer": "will have been driving",
+            "audio": "quiz_8_sentence.mp3",
+            "hint": "'For 12 hours' shows duration. Use Future Perfect Continuous (will have been + -ing) when emphasizing how long.",
+            "difficulty": "medium",
+            "explanation": "Future Perfect Continuous emphasizes duration. 'For 12 hours' indicates time spent, so 'will have been driving' shows the ongoing process."
+        },
+        {
+            "id": "quiz-9",
+            "question": "Which structure correctly expresses completion with 'be going to'?",
+            "sentence": "She ____ English for 5 years when she graduates.",
+            "options": [
+                "is going to have been studying",
+                "is going to have studied",
+                "will be studying",
+                "is going to study"
+            ],
+            "correctAnswer": "is going to have been studying",
+            "audio": "quiz_9_sentence.mp3",
+            "hint": "'For 5 years' indicates duration. Both 'will' and 'be going to' work with Future Perfect Continuous. The continuous form emphasizes the duration.",
+            "difficulty": "medium",
+            "explanation": "Future Perfect Continuous can use 'be going to have been + -ing'. With 'for 5 years', the continuous form emphasizes duration up to graduation."
+        },
+        {
+            "id": "quiz-10",
+            "question": "What form avoids the stative verb error?",
+            "sentence": "By next year, he ____ his license for a decade.",
+            "options": [
+                "will have had",
+                "will have been having",
+                "will be having",
+                "is going to be having"
+            ],
+            "correctAnswer": "will have had",
+            "audio": "quiz_10_sentence.mp3",
+            "hint": "'Have' is a stative verb—NEVER use continuous forms with stative verbs. Use Future Perfect only.",
+            "difficulty": "easy",
+            "explanation": "Stative verbs (have, know, be) cannot take continuous forms. Despite 'for a decade' showing duration, use Future Perfect 'will have had', NOT continuous."
+        },
+        {
+            "id": "quiz-11",
+            "question": "Which question form is grammatically correct?",
+            "sentence": "____ by the time the semester ends?",
+            "options": [
+                "Will you have finished your project",
+                "Will you have been finishing your project",
+                "Are you going to finish your project",
+                "Will you finish your project"
+            ],
+            "correctAnswer": "Will you have finished your project",
+            "audio": "quiz_11_sentence.mp3",
+            "hint": "'By the time' signals a deadline. Use Future Perfect (will have + past participle) for completion before that point.",
+            "difficulty": "medium",
+            "explanation": "Questions with Future Perfect follow: Will + subject + have + past participle. 'By the time' indicates completion before a future point."
+        },
+        {
+            "id": "quiz-12",
+            "question": "Advanced: What's the most precise structure for this context?",
+            "sentence": "He will be experienced in teaching because he ____ for 20 years by then.",
+            "options": [
+                "will have been teaching",
+                "will have taught",
+                "will be teaching",
+                "is going to teach"
+            ],
+            "correctAnswer": "will have been teaching",
+            "audio": "quiz_12_sentence.mp3",
+            "hint": "'For 20 years' + explaining a future state (experienced). Future Perfect Continuous shows the duration causing the result.",
+            "difficulty": "hard",
+            "explanation": "While 'will have taught' is grammatically possible, 'will have been teaching' is more precise because it emphasizes the 20-year duration that causes his experience."
+        },
+        {
+            "id": "quiz-13",
+            "question": "Identify the error in this sentence:",
+            "sentence": "I'll call you when I will have ____ home.",
+            "options": [
+                "arrived (remove 'will have')",
+                "will have arrived",
+                "have arrived",
+                "am arriving"
+            ],
+            "correctAnswer": "arrived (remove 'will have')",
+            "audio": "quiz_13_sentence.mp3",
+            "hint": "NEVER use 'will' in time clauses! After 'when', use present perfect 'have arrived', not future perfect.",
+            "difficulty": "medium",
+            "explanation": "The error is using 'will' in a time clause. Correct forms: 'when I arrive' or 'when I have arrived'—never 'will have arrived'."
+        },
+        {
+            "id": "quiz-14",
+            "question": "Which form best emphasizes the result rather than the process?",
+            "sentence": "By the end of the year, the company ____ 500 employees.",
+            "options": [
+                "will have hired",
+                "will have been hiring",
+                "will be hiring",
+                "is going to hire"
+            ],
+            "correctAnswer": "will have hired",
+            "audio": "quiz_14_sentence.mp3",
+            "hint": "The focus is on the countable result (500 employees hired), not the hiring process. Use Future Perfect for completion.",
+            "difficulty": "hard",
+            "explanation": "Both are grammatically possible, but 'will have hired' is best because it emphasizes the completed result (500 hires) rather than the ongoing process."
+        },
+        {
+            "id": "quiz-15",
+            "question": "Complete the sequence with correct structures:",
+            "sentence": "After she ____ her exam, she ____ the results, and by then she ____ for months.",
+            "options": [
+                "has finished / will receive / will have been studying",
+                "will have finished / will receive / will have been studying",
+                "finishes / receives / will have studied",
+                "has finished / receives / will have been studying"
+            ],
+            "correctAnswer": "has finished / will receive / will have been studying",
+            "audio": "quiz_15_sentence.mp3",
+            "hint": "Time clause after 'after' uses present perfect, main action uses future simple, and 'for months' needs Future Perfect Continuous.",
+            "difficulty": "hard",
+            "explanation": "This requires: Present Perfect (has finished) in the time clause, Future Simple (will receive) for the main action, and Future Perfect Continuous (will have been studying) for duration."
+        },
+        {
+            "id": "quiz-16",
+            "question": "What negative form correctly shows something won't be completed?",
+            "sentence": "By midnight, I ____ the report because it's too long.",
+            "options": [
+                "won't have finished",
+                "am not going to finish",
+                "won't be finishing",
+                "haven't finished"
+            ],
+            "correctAnswer": "won't have finished",
+            "audio": "quiz_16_sentence.mp3",
+            "hint": "Negative Future Perfect uses 'won't have + past participle'. 'By midnight' signals a deadline for completion.",
+            "difficulty": "easy",
+            "explanation": "To form Future Perfect negative, use 'won't have + past participle'. This shows non-completion before a future deadline."
+        },
+        {
+            "id": "quiz-17",
+            "question": "Which shows both forms mean almost the same in Future Perfect?",
+            "sentence": "By 2025, we ____ this project.",
+            "options": [
+                "will have completed / are going to have completed (both correct)",
+                "will have completed (only this)",
+                "are going to have completed (only this)",
+                "will be completing"
+            ],
+            "correctAnswer": "will have completed / are going to have completed (both correct)",
+            "audio": "quiz_17_sentence.mp3",
+            "hint": "In Future Perfect, 'will have' and 'be going to have' are interchangeable with almost identical meanings.",
+            "difficulty": "medium",
+            "explanation": "Unlike other future tenses, Future Perfect allows both 'will have' and 'be going to have' with virtually the same meaning for completed actions."
+        },
+        {
+            "id": "quiz-18",
+            "question": "What's the correct form in a conditional time clause?",
+            "sentence": "She won't leave until she ____ the doctor.",
+            "options": [
+                "has seen",
+                "will have seen",
+                "sees",
+                "is going to see"
+            ],
+            "correctAnswer": "has seen",
+            "audio": "quiz_18_sentence.mp3",
+            "hint": "After 'until' (a time conjunction), use present perfect to show completion, never future tenses.",
+            "difficulty": "medium",
+            "explanation": "Time conjunctions like 'until' require present tenses. Present Perfect (has seen) shows the completed action, not 'will have seen'."
+        },
+        {
+            "id": "quiz-19",
+            "question": "Which correctly shows the duration causing a future result?",
+            "sentence": "They'll be exhausted because they ____ for 8 hours straight.",
+            "options": [
+                "will have been working",
+                "will have worked",
+                "will work",
+                "are working"
+            ],
+            "correctAnswer": "will have been working",
+            "audio": "quiz_19_sentence.mp3",
+            "hint": "To explain why they'll be exhausted (future state), show the continuous duration. Use Future Perfect Continuous.",
+            "difficulty": "easy",
+            "explanation": "Future Perfect Continuous explains the cause of a future state. The 8-hour continuous work causes exhaustion, so use 'will have been working'."
+        },
+        {
+            "id": "quiz-20",
+            "question": "What structure emphasizes achievement by a specific deadline?",
+            "sentence": "By December, I ____ 1000 vocabulary words.",
+            "options": [
+                "will have learned",
+                "will have been learning",
+                "will be learning",
+                "am going to learn"
+            ],
+            "correctAnswer": "will have learned",
+            "audio": "quiz_20_sentence.mp3",
+            "hint": "'By December' is a deadline. Counting achievements (1000 words) focuses on completion, not duration. Use Future Perfect.",
+            "difficulty": "easy",
+            "explanation": "Future Perfect emphasizes completion and countable results. '1000 words' is an achievement before the deadline 'by December', requiring 'will have learned'."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "perfect",
+            "hint": "Future ___ = completed before future point",
+            "clue": "p__f___",
+            "sentence": "We use Future ___ for finished actions.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-2",
+            "word": "continuous",
+            "hint": "Future Perfect ___ = duration emphasis",
+            "clue": "____i_u___",
+            "sentence": "For duration, we use Future Perfect ___.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-3",
+            "word": "duration",
+            "hint": "Future Perfect Continuous focuses on ___",
+            "clue": "du______",
+            "sentence": "How long = question about ___.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-4",
+            "word": "completion",
+            "hint": "Future Perfect emphasizes ___",
+            "clue": "__mp______",
+            "sentence": "The project ___ will be finished by Friday.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-5",
+            "word": "reference",
+            "hint": "By the time = future ___ point",
+            "clue": "___en__",
+            "sentence": "We need a future ___ point.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-6",
+            "word": "interruption",
+            "hint": "Future Continuous often shows ___",
+            "clue": "_________io_",
+            "sentence": "The phone call was an ___.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-7",
+            "word": "achievement",
+            "hint": "Future Perfect for future ___",
+            "clue": "a_h___e____",
+            "sentence": "Graduating will be a big ___.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-8",
+            "word": "exhausted",
+            "hint": "You’ll feel ___ after long duration",
+            "clue": "_x______d",
+            "sentence": "I’ll be completely ___ after the exam period.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-9",
+            "word": "prediction",
+            "hint": "Future Perfect Continuous can show ___ about future state",
+            "clue": "p_e___t___",
+            "sentence": "His ___ is that he’ll be fluent by 2030.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-10",
+            "word": "deadline",
+            "hint": "Future Perfect is perfect for ___ and targets",
+            "clue": "d_a___n_",
+            "sentence": "The report ___ is next Friday – I’ll have finished it by then.",
+            "difficulty": "medium"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 15,
+            "silver": 40,
+            "gold": 70,
+            "platinum": 100
+        },
+        "badges": [
+            {
+                "id": "future-explorer",
+                "name": "Future Perfect Explorer",
+                "condition": "Complete all lessons",
+                "icon": "🎓",
+                "points": 50
+            },
+            {
+                "id": "writing-champion",
+                "name": "Future Master Writer",
+                "icon": "✍️",
+                "condition": "Score 100% on 3 writing activities",
+                "points": 45
+            },
+            {
+                "id": "game-master",
+                "name": "Future Perfect Game Master",
+                "icon": "🎮",
+                "condition": "Complete all games with no mistakes",
+                "points": 48
+            },
+            {
+                "id": "perfect-speller",
+                "name": "Grammar Vocabulary Pro",
+                "icon": "✏️",
+                "condition": "Spell all words correctly on first try",
+                "points": 42
+            },
+            {
+                "id": "speed-demon",
+                "name": "Speed Champion",
+                "icon": "⚡",
+                "condition": "Complete 5 activities in under 10 minutes each",
+                "points": 40
+            },
+            {
+                "id": "perfectionist",
+                "name": "Future Perfect Perfectionist",
+                "icon": "🏆",
+                "condition": "Score 100% on all activities",
+                "points": 120
+            }
+        ]
+    }
+}

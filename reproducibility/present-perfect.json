@@ -1,0 +1,1274 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Present Perfect = Your Life Movie Trailer!",
+            "content": "<p>Imagine your life as a movie trailer! <strong>Present Perfect</strong> shows clips from the past that still matter NOW. <em>I’ve been to Japan</em> → experience! <em>I’ve lost my keys</em> → still lost!</p><p>Form: <strong>have/has + past participle</strong></p><p><em>Fun fact: It’s the tense of adventurers, travelers, and people who say “I’ve done that!”</em></p>",
+            "examples": [
+                "I <strong>have seen</strong> that movie 5 times!",
+                "She <strong>has lived</strong> in London since 2018.",
+                "We <strong>have never tried</strong> durian."
+            ],
+            "difficulty": 1,
+            "audio": "pp_trailer.mp3",
+            "functions": [
+                "Talking about life experiences",
+                "Actions with present result",
+                "Unfinished time periods"
+            ],
+            "tips": "If it affects NOW → Present Perfect!"
+        },
+        {
+            "id": "lesson-2",
+            "title": "Simple vs Continuous: Result vs Journey!",
+            "content": "<p><strong>Simple</strong> = the result (how many?) → <em>I’ve written 3 emails.</em></p><p><strong>Continuous</strong> = the journey (how long?) → <em>I’ve been writing emails all morning.</em></p><p>Live/work/study/teach → both OK!</p><p><em>Fun fact: Continuous = you’re tired from the action. Simple = proud of the result!</em></p>",
+            "examples": [
+                "I’ve read 5 books this month. (result)",
+                "I’ve been reading all day. (tired eyes!)",
+                "She’s worked here for 10 years = She’s been working here for 10 years."
+            ],
+            "difficulty": 2,
+            "audio": "simple_vs_continuous.mp3",
+            "functions": [
+                "Focus on completion vs duration",
+                "Emphasize effort"
+            ],
+            "tips": "Ask: How many? → Simple. How long? → Continuous."
+        },
+        {
+            "id": "lesson-3",
+            "title": "Ever & Never: Your Adventure Passport!",
+            "content": "<p>Stamp your passport! <strong>Ever</strong> = in your whole life (questions). <strong>Never</strong> = not even once.</p><p>Position: between have/has and verb.</p><p><em>Fun fact: People who say “I’ve never…” sound mysterious and cool!</em></p>",
+            "examples": [
+                "Have you <strong>ever</strong> eaten insects?",
+                "I’ve <strong>never</strong> been late to school.",
+                "Has she <strong>ever</strong> won a prize?"
+            ],
+            "difficulty": 1,
+            "audio": "ever_never.mp3",
+            "functions": [
+                "Talking about life experiences",
+                "Making conversations interesting"
+            ],
+            "tips": "Ever in questions, never in negatives."
+        },
+        {
+            "id": "lesson-4",
+            "title": "For & Since: Time Machine Anchors!",
+            "content": "<p><strong>For</strong> = duration (for 2 hours, for 10 years). <strong>Since</strong> = starting point (since 2015, since Monday).</p><p>Use with Present Perfect to show something started in past and continues now.</p><p><em>Fun fact: “Since I was 5” = you’re still alive and kicking!</em></p>",
+            "examples": [
+                "I’ve known him <strong>for</strong> ages.",
+                "She’s lived here <strong>since</strong> 2010.",
+                "We’ve been friends <strong>since</strong> kindergarten."
+            ],
+            "difficulty": 2,
+            "audio": "for_since.mp3",
+            "functions": [
+                "Showing duration from past to now"
+            ],
+            "tips": "For = length. Since = when it started."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Already, Yet, Just, Still: Drama Queens!",
+            "content": "<p><strong>Already</strong> = sooner than expected (+). <strong>Yet</strong> = until now (questions/negatives). <strong>Just</strong> = seconds ago. <strong>Still</strong> = continues now (often continuous).</p><p><em>Fun fact: “Still” with continuous = someone is annoyed!</em></p>",
+            "examples": [
+                "I’ve <strong>already</strong> finished! (surprise!)",
+                "Have you finished <strong>yet</strong>?",
+                "I’ve <strong>just</strong> seen him!",
+                "I’m <strong>still</strong> waiting…"
+            ],
+            "difficulty": 2,
+            "audio": "adverbs_drama.mp3",
+            "functions": [
+                "Expressing timing and expectations"
+            ],
+            "tips": "Yet → end of sentence. Already → mid-sentence."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Present Perfect vs Past Simple: Time Detective!",
+            "content": "<p>Present Perfect → time period NOT finished (today, this week, in my life). Past Simple → finished time (yesterday, last year, in 2019).</p><p>If you can answer “When?”, use Past Simple!</p><p><em>Fun fact: Indonesians often use Past Simple for today → but in exams, NO!</em></p>",
+            "examples": [
+                "I’ve seen Avatar 3 times <strong>this month</strong>. (month not over)",
+                "I saw Avatar <strong>in 2009</strong>. (specific time)"
+            ],
+            "difficulty": 3,
+            "audio": "vs_past_simple.mp3",
+            "functions": [
+                "Correct tense choice in speaking/writing"
+            ],
+            "tips": "Today/this week → Present Perfect. Yesterday → Past Simple."
+        },
+        {
+            "id": "lesson-7",
+            "title": "Stative Verbs: No -ing Allowed!",
+            "content": "<p>Stative verbs = states, not actions → NO continuous! Know, like, love, want, need, believe, understand, have (=own), belong, seem, etc.</p><p>Wrong: I’ve been knowing him for 10 years. Correct: I’ve known him for 10 years.</p><p>Exception: have (action) → having dinner = OK!</p>",
+            "examples": [
+                "I’ve <strong>liked</strong> chocolate since I was 5.",
+                "This phone <strong>belongs</strong> to me.",
+                "She’s <strong>having</strong> a party (action = OK!)"
+            ],
+            "difficulty": 3,
+            "audio": "stative_verbs.mp3",
+            "functions": [
+                "Avoiding common Indonesian errors"
+            ],
+            "tips": "If it’s a feeling or possession → no -ing!"
+        },
+        {
+            "id": "lesson-8",
+            "title": "Your Turn: Life Story Time!",
+            "content": "<p>Now write about YOUR life using everything: experiences, how long, stative verbs, already/yet, and NO Past Simple for today/this week!</p><p><em>Pro tip: The best stories start with “Have you ever…?”</em></p>",
+            "difficulty": 3,
+            "audio": "your_turn.mp3"
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Life experiences: Write 4 sentences using <strong>ever</strong> (question) and <strong>never</strong> with Present Perfect Simple.",
+            "hint": "Have you ever…? / I’ve never…",
+            "expectedKeywords": [
+                "ever",
+                "never",
+                "been",
+                "tried",
+                "seen",
+                "eaten",
+                "met"
+            ],
+            "sentenceStarters": [
+                "Have you ever ___?",
+                "I’ve never ___",
+                "My best friend has never ___"
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "How long have you…? Write 5 sentences using <strong>for</strong> or <strong>since</strong> + Present Perfect (mix Simple & Continuous).",
+            "hint": "For = period → for 5 years / Since = point → since 2020",
+            "expectedKeywords": [
+                "for",
+                "since",
+                "years",
+                "Monday",
+                "2018",
+                "morning"
+            ],
+            "sentenceStarters": [
+                "I’ve known my teacher ___",
+                "I’ve been waiting ___",
+                "My phone has worked ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "This week so far: Write 6 sentences using <strong>already</strong>, <strong>yet</strong>, <strong>just</strong>, and <strong>still</strong> + Present Perfect.",
+            "hint": "This week = unfinished time → Present Perfect only!",
+            "expectedKeywords": [
+                "already",
+                "yet",
+                "just",
+                "still",
+                "this week",
+                "so far"
+            ],
+            "sentenceStarters": [
+                "I’ve already ___",
+                "I haven’t ___ yet",
+                "I’ve just ___",
+                "I’m still ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-4",
+            "question": "Today vs yesterday: Write 3 sentences with <strong>today</strong> (Present Perfect) + 3 with <strong>yesterday</strong> (Past Simple).",
+            "hint": "Today → I’ve eaten / Yesterday → I ate",
+            "expectedKeywords": [
+                "today",
+                "yesterday",
+                "have",
+                "has",
+                "ate",
+                "went",
+                "saw"
+            ],
+            "sentenceStarters": [
+                "Today I’ve ___",
+                "Yesterday I ___",
+                "This morning I’ve already ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-5",
+            "question": "Your personality & things you own: Write 6 sentences using stative verbs in Present Perfect Simple (NO continuous!).",
+            "hint": "Wrong: I’ve been knowing… Correct: I’ve known / I’ve always liked",
+            "expectedKeywords": [
+                "known",
+                "liked",
+                "loved",
+                "wanted",
+                "had",
+                "belonged",
+                "owned"
+            ],
+            "sentenceStarters": [
+                "I’ve always ___",
+                "I’ve never really ___",
+                "This watch has ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Good news & bad news this month: Write 5 sentences using <strong>just</strong>, <strong>already</strong>, and <strong>still haven’t</strong>.",
+            "hint": "I’ve just passed my test! / I still haven’t found my keys.",
+            "expectedKeywords": [
+                "just",
+                "already",
+                "still haven’t",
+                "passed",
+                "found",
+                "finished"
+            ],
+            "sentenceStarters": [
+                "Great news — I’ve just ___",
+                "I’ve already ___",
+                "Bad news — I still haven’t ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-7",
+            "question": "How long + recent effort: Write 5 sentences — 3 with <strong>for/since</strong> + 2 with <strong>lately/recently</strong> + Present Perfect Continuous.",
+            "hint": "I’ve been studying English for 3 years / Lately I’ve been feeling tired",
+            "expectedKeywords": [
+                "for",
+                "since",
+                "lately",
+                "recently",
+                "been studying",
+                "been working"
+            ],
+            "sentenceStarters": [
+                "I’ve been living here ___",
+                "Lately I’ve been ___",
+                "Recently I’ve been feeling ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Write a short message to a friend you haven’t seen for ages. Use Present Perfect to talk about changes + <strong>since</strong> we last met.",
+            "hint": "Since we last met, I’ve moved house three times!",
+            "expectedKeywords": [
+                "since",
+                "moved",
+                "changed",
+                "got",
+                "started",
+                "haven’t seen"
+            ],
+            "sentenceStarters": [
+                "Hey! Long time no see!",
+                "Since we last met, I’ve ___",
+                "I’ve changed a lot — I’ve ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-9",
+            "question": "Your biggest achievements so far: Write 6 sentences using Present Perfect Simple + <strong>ever</strong> or <strong>never</strong> + one <strong>just</strong>.",
+            "hint": "I’ve never failed an exam / I’ve just won a competition!",
+            "expectedKeywords": [
+                "ever",
+                "never",
+                "just",
+                "won",
+                "passed",
+                "visited",
+                "achieved"
+            ],
+            "sentenceStarters": [
+                "One thing I’ve never ___",
+                "The best is — I’ve just ___",
+                "I’ve already ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-10",
+            "question": "Mixed challenge: Write a diary entry (6–8 sentences) using: 2 for/since, 1 already/yet, 1 just, 1 Present Perfect Continuous, 1 stative verb correctly.",
+            "hint": "Today has been crazy! I’ve been running all day… but I still haven’t finished…",
+            "expectedKeywords": [
+                "for",
+                "since",
+                "already",
+                "yet",
+                "just",
+                "been",
+                "known",
+                "wanted"
+            ],
+            "sentenceStarters": [
+                "Dear Diary, today has been ___",
+                "I’ve been ___ all morning",
+                "I’ve known ___ for years",
+                "Good news — I’ve just ___"
+            ],
+            "difficulty": 3
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Asking about life experience - what fits naturally in questions?",
+            "sentence": "Have you ____ been to Bali?",
+            "options": [
+                "already",
+                "ever",
+                "yet",
+                "never",
+                "still",
+                "just"
+            ],
+            "correctAnswer": [
+                "ever"
+            ],
+            "hint": "Question about experience in your whole life",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Something completed very recently - which shows this timing?",
+            "sentence": "I ____ just ____ my breakfast.",
+            "options": [
+                "finish",
+                "have",
+                "has",
+                "finished"
+            ],
+            "correctAnswer": [
+                "have",
+                "finished"
+            ],
+            "hint": "Just = seconds ago, recent completion",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "2018 is a specific starting point, not a duration.",
+            "sentence": "She ____ lived in Jakarta ____ 2018.",
+            "options": [
+                "for",
+                "has",
+                "since",
+                "have",
+                "from",
+                "in"
+            ],
+            "correctAnswer": [
+                "has",
+                "since"
+            ],
+            "hint": "When it started vs. how long",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "In questions about tasks not done - which word fits at the end?",
+            "sentence": "Have you finished your homework ____?",
+            "options": [
+                "yet",
+                "already",
+                "still",
+                "just",
+                "ever",
+                "never"
+            ],
+            "correctAnswer": [
+                "yet"
+            ],
+            "hint": "Questions and negatives about completion",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Owning something for two years - is this an action or a state?",
+            "sentence": "I ____ this bag for two years.",
+            "options": [
+                "have been having",
+                "have had",
+                "had",
+                "have been owning",
+                "am having",
+                "have"
+            ],
+            "correctAnswer": [
+                "have had"
+            ],
+            "hint": "Possession is a state, not an action",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-6",
+            "type": "drag-drop",
+            "question": "Over an hour of waiting - emphasizing the duration of temporary activity.",
+            "sentence": "They ____ ____ waiting for over an hour.",
+            "options": [
+                "has",
+                "have",
+                "be",
+                "been"
+            ],
+            "correctAnswer": [
+                "have",
+                "been"
+            ],
+            "hint": "How long they've been doing it, not completion",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-7",
+            "type": "drag-drop",
+            "question": "Found it moments ago - emphasizing how recent this discovery is.",
+            "sentence": "I ____ ____ my phone – it was in my pocket!",
+            "options": [
+                "find",
+                "have",
+                "found",
+                "has"
+            ],
+            "correctAnswer": [
+                "have",
+                "found"
+            ],
+            "hint": "Very recent discovery, just now",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-8",
+            "type": "drag-drop",
+            "question": "The project remains unfinished - which word shows continuation?",
+            "sentence": "He ____ ____ finished his project.",
+            "options": [
+                "still",
+                "hasn't",
+                "has",
+                "stilln't"
+            ],
+            "correctAnswer": [
+                "still",
+                "hasn't"
+            ],
+            "hint": "Showing something continues to not be done",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-9",
+            "type": "drag-drop",
+            "question": "Unfinished day versus finished day - how does this affect the grammar?",
+            "sentence": "____ I've eaten sushi, but ____ I ate pizza.",
+            "options": [
+                "Yesterday",
+                "Today",
+                "Last week",
+                "This morning",
+                "Tomorrow",
+                "This week"
+            ],
+            "correctAnswer": [
+                "Today",
+                "Yesterday"
+            ],
+            "hint": "Day still happening vs. day that's over",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-10",
+            "type": "drag-drop",
+            "question": "A recent period with repeated feelings - which time word fits?",
+            "sentence": "____ I've been feeling very tired.",
+            "options": [
+                "Yesterday",
+                "Lately",
+                "Last week",
+                "Tomorrow",
+                "Recently",
+                "In 2020"
+            ],
+            "correctAnswer": [
+                "Lately"
+            ],
+            "hint": "Recent ongoing period, not a specific finished day",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-11",
+            "type": "drag-drop",
+            "question": "Knowing someone from past until now - is knowing an action or state?",
+            "sentence": "How long ____ you ____ Maria?",
+            "options": [
+                "know",
+                "known",
+                "have",
+                "known"
+            ],
+            "correctAnswer": [
+                "have",
+                "known"
+            ],
+            "hint": "Know = state in your mind, not an action",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-12",
+            "type": "drag-drop",
+            "question": "Room looks great now - the cleaning is done and visible.",
+            "sentence": "She ____ ____ her room – it looks great!",
+            "options": [
+                "cleaned",
+                "clean",
+                "has"
+            ],
+            "correctAnswer": [
+                "has",
+                "cleaned"
+            ],
+            "hint": "Action completed with present result visible",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-13",
+            "type": "drag-drop",
+            "question": "Not once in your entire life - where does this word go?",
+            "sentence": "I ____ ____ Japanese food.",
+            "options": [
+                "ate never",
+                "have",
+                "never eaten",
+                "eaten never",
+                "has",
+                "never ate",
+                "eaten"
+            ],
+            "correctAnswer": [
+                "have",
+                "never eaten"
+            ],
+            "hint": "Life experience that didn't happen",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-14",
+            "type": "drag-drop",
+            "question": "Ten years is a period of time, not a starting point.",
+            "sentence": "We've been friends ____ ten years.",
+            "options": [
+                "since",
+                "for",
+                "from",
+                "in",
+                "during",
+                "at"
+            ],
+            "correctAnswer": [
+                "for"
+            ],
+            "hint": "How long, not when it started",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-15",
+            "type": "drag-drop",
+            "question": "This sentence has a grammar error! But which time word is correct?",
+            "sentence": "Wrong: I've been knowing him ____ 2015.",
+            "options": [
+                "for",
+                "since",
+                "from",
+                "in",
+                "at",
+                "during"
+            ],
+            "correctAnswer": [
+                "since"
+            ],
+            "hint": "2015 = starting point, but the verb form is wrong",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-16",
+            "type": "drag-drop",
+            "question": "This week isn't over yet - how does this affect the choice?",
+            "sentence": "This week I ____ three movies.",
+            "options": [
+                "watched",
+                "have watch",
+                "have watched"
+            ],
+            "correctAnswer": [
+                "have watched"
+            ],
+            "hint": "Time period still in progress",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-17",
+            "type": "drag-drop",
+            "question": "Homework not done up to now - which word goes at the sentence end?",
+            "sentence": "I haven't done my homework ____.",
+            "options": [
+                "already",
+                "yet",
+                "still",
+                "ever",
+                "just",
+                "never"
+            ],
+            "correctAnswer": [
+                "yet"
+            ],
+            "hint": "Negative sentence about something not completed",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-18",
+            "type": "drag-drop",
+            "question": "She's in Paris right now - which word means 'went and is still there'?",
+            "sentence": "She ____ to Paris (she's there now).",
+            "options": [
+                "has been",
+                "have been",
+                "have gone",
+                "has gone"
+            ],
+            "correctAnswer": [
+                "has gone"
+            ],
+            "hint": "One means 'still there', one means 'visited and returned'",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-19",
+            "type": "drag-drop",
+            "question": "Visited twice and came back - which word is for completed trips?",
+            "sentence": "They ____ to Paris twice (they came back).",
+            "options": [
+                "has been",
+                "have gone",
+                "has gone",
+                "have been"
+            ],
+            "correctAnswer": [
+                "have been"
+            ],
+            "hint": "Experience of going and returning",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-20",
+            "type": "drag-drop",
+            "question": "Last year marks when you stopped seeing him.",
+            "sentence": "I haven't seen him ____ last year.",
+            "options": [
+                "for",
+                "since",
+                "from",
+                "in",
+                "at",
+                "during"
+            ],
+            "correctAnswer": [
+                "since"
+            ],
+            "hint": "Specific point when something started/stopped",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-21",
+            "type": "drag-drop",
+            "question": "Studying at this school over time - emphasizing ongoing duration.",
+            "sentence": "How long ____ you ____ ____ in this school?",
+            "options": [
+                "studied",
+                "studying",
+                "been",
+                "has",
+                "have"
+            ],
+            "correctAnswer": [
+                "have",
+                "been",
+                "studying"
+            ],
+            "hint": "Duration of temporary activity, not just completion",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-22",
+            "type": "drag-drop",
+            "question": "Asking about all of someone's life experiences with sharks.",
+            "sentence": "____ you ever ____ a shark?",
+            "options": [
+                "seeing",
+                "Have",
+                "saw",
+                "seen"
+            ],
+            "correctAnswer": [
+                "Have",
+                "seen"
+            ],
+            "hint": "Life experience question",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-23",
+            "type": "drag-drop",
+            "question": "Rain stopped moments ago - emphasizing how recent this is!",
+            "sentence": "Look! It ____ ____ ____ raining.",
+            "options": [
+                "stop",
+                "stopped",
+                "recently",
+                "has",
+                "stops",
+                "stopping",
+                "have",
+                "just"
+            ],
+            "correctAnswer": [
+                "has",
+                "just",
+                "stopped"
+            ],
+            "hint": "Very recent completion you can see now",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-24",
+            "type": "drag-drop",
+            "question": "Tired from working all day - the duration caused the tiredness.",
+            "sentence": "I'm tired because I ____ ____ ____ all day.",
+            "options": [
+                "worked",
+                "working",
+                "been",
+                "has",
+                "have"
+            ],
+            "correctAnswer": [
+                "have",
+                "been",
+                "working"
+            ],
+            "hint": "Temporary activity over time causing present tiredness",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-25",
+            "type": "drag-drop",
+            "question": "Liking chocolate forever - is this an action you do or a feeling?",
+            "sentence": "I ____ always ____ chocolate.",
+            "options": [
+                "been",
+                "have",
+                "liked",
+                "liking",
+                "has"
+            ],
+            "correctAnswer": [
+                "have",
+                "liked"
+            ],
+            "hint": "Emotions and preferences are states",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-26",
+            "type": "drag-drop",
+            "question": "Three emails this morning - the morning isn't finished yet.",
+            "sentence": "I ____ three emails this morning.",
+            "options": [
+                "wrote",
+                "written",
+                "has written",
+                "have written"
+            ],
+            "correctAnswer": [
+                "have written"
+            ],
+            "hint": "Still the same morning, day not over",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-27",
+            "type": "drag-drop",
+            "question": "When you were five is a specific moment in time.",
+            "sentence": "I've known him ____ I was five.",
+            "options": [
+                "for",
+                "since",
+                "when",
+                "from",
+                "at",
+                "during"
+            ],
+            "correctAnswer": [
+                "since"
+            ],
+            "hint": "Age = specific starting point",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-28",
+            "type": "drag-drop",
+            "question": "Refusing dinner because eating happened sooner than expected.",
+            "sentence": "A: Do you want dinner? B: No, I ____ ____ eaten.",
+            "options": [
+                "already have",
+                "have already",
+                "have yet",
+                "yet have",
+                "have just",
+                "just have"
+            ],
+            "correctAnswer": [
+                "have already"
+            ],
+            "hint": "Position between auxiliary and past participle",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-29",
+            "type": "drag-drop",
+            "question": "The best movie in all your life experiences - emphasizing the superlative.",
+            "sentence": "This is the best movie I ____ ____ ____!",
+            "options": [
+                "saw",
+                "seen",
+                "ve",
+                "ever",
+                "never",
+                "have",
+                "has",
+                "seeing"
+            ],
+            "correctAnswer": [
+                "have",
+                "ever",
+                "seen"
+            ],
+            "hint": "Superlative + life experience",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-30",
+            "type": "drag-drop",
+            "question": "BOSS: Twenty minutes of searching - duration of temporary activity!",
+            "sentence": "Sorry I'm late! I ____ ____ looking for my keys ____ twenty minutes!",
+            "options": [
+                "since",
+                "as long as",
+                "has been",
+                "for",
+                "have been"
+            ],
+            "correctAnswer": [
+                "have been",
+                "for"
+            ],
+            "hint": "Duration of temporary action + time period length",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "What grammar function does the Present Perfect express in this context?",
+            "sentence": "I’ve been to Japan.",
+            "options": [
+                "Talking about a life experience",
+                "Describing a finished past event with a specific time",
+                "Predicting a future trip",
+                "Giving directions to Japan"
+            ],
+            "correctAnswer": "Talking about a life experience",
+            "audio": "quiz_1_sentence.mp3",
+            "hint": "The phrase 'been to Japan' with no time marker indicates a life experience. Use Present Perfect for experiences in your life so far.",
+            "difficulty": "easy",
+            "explanation": "Present Perfect is used for life experiences without specifying when they happened. The other options are incorrect: Past Simple would be used with a specific time, and the sentence isn’t about prediction or directions."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which form shows an action that has a present result?",
+            "sentence": "I can’t find my phone! I ____ it.",
+            "options": [
+                "have lost",
+                "lost",
+                "was losing",
+                "lose"
+            ],
+            "correctAnswer": "have lost",
+            "audio": "quiz_2_sentence.mp3",
+            "hint": "When the result (still missing) matters now, use Present Perfect. Look for present consequences like frustration or current inability.",
+            "difficulty": "easy",
+            "explanation": "'Have lost' shows the action happened in the past but the phone is still missing now. 'Lost' (Past Simple) would imply a finished story with no current relevance."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What verb form completes this time clause correctly?",
+            "sentence": "She’s lived in Jakarta since she ____ university.",
+            "options": [
+                "finished",
+                "has finished",
+                "was finishing",
+                "had finished"
+            ],
+            "correctAnswer": "finished",
+            "audio": "quiz_3_sentence.mp3",
+            "hint": "Time clauses with 'since' use Past Simple, not Present Perfect, even when the main clause is Present Perfect.",
+            "difficulty": "medium",
+            "explanation": "After 'since', we use Past Simple to mark the starting point of a period that continues to the present. The rule: after 'since', always use Past Simple for completed events."
+        },
+        {
+            "id": "quiz-4",
+            "question": "What aspect describes an ongoing activity at a specific past time?",
+            "sentence": "At 8 p.m. last night, I ____ dinner.",
+            "options": [
+                "was having",
+                "had",
+                "have had",
+                "am having"
+            ],
+            "correctAnswer": "was having",
+            "audio": "quiz_4_sentence.mp3",
+            "hint": "For actions in progress at a specific past time, use Past Continuous (was/were + -ing).",
+            "difficulty": "medium",
+            "explanation": "'At 8 p.m. last night' indicates a specific moment in the past when the action was ongoing. Past Continuous shows duration in progress at that time."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which shows a prediction based on current evidence?",
+            "sentence": "Look at those dark clouds! It ____ rain soon.",
+            "options": [
+                "is going to",
+                "will",
+                "rains",
+                "has rained"
+            ],
+            "correctAnswer": "is going to",
+            "audio": "quiz_5_sentence.mp3",
+            "hint": "When you see evidence happening now (dark clouds), use 'be going to' for predictions.",
+            "difficulty": "easy",
+            "explanation": "'Is going to' is used for predictions based on present evidence. 'Will' is for spontaneous decisions or general predictions without visible signs."
+        },
+        {
+            "id": "quiz-6",
+            "question": "What's the best choice for expressing a spontaneous decision?",
+            "sentence": "The phone is ringing! I ____ it.",
+            "options": [
+                "’ll answer",
+                "’m going to answer",
+                "answer",
+                "have answered"
+            ],
+            "correctAnswer": "’ll answer",
+            "audio": "quiz_6_sentence.mp3",
+            "hint": "For instant decisions made at the moment of speaking, use 'will'.",
+            "difficulty": "easy",
+            "explanation": "'I’ll answer' shows a decision made right now. 'Be going to' would imply prior intention, which doesn’t fit a sudden ring."
+        },
+        {
+            "id": "quiz-7",
+            "question": "Choose the correct tenses for this complex sentence:",
+            "sentence": "I ____ three reports today, so when I ____ home, I ____ relax.",
+            "options": [
+                "have written / get / will",
+                "wrote / get / will",
+                "have written / will get / relax",
+                "wrote / got / relaxed"
+            ],
+            "correctAnswer": "have written / get / will",
+            "audio": "quiz_7_sentence.mp3",
+            "hint": "Use Present Perfect for unfinished time (today), Present Simple in time clauses (when I get), and 'will' for future result.",
+            "difficulty": "hard",
+            "explanation": "This requires understanding multiple rules: Present Perfect for 'today' (not finished), Present Simple after 'when' for future time clauses, and 'will' for the intended future result. Pay attention to time reference and clause structure."
+        },
+        {
+            "id": "quiz-8",
+            "question": "What aspect is used for actions in progress at a specific future time?",
+            "sentence": "At 9 p.m. tomorrow, we ____ watch the concert live.",
+            "options": [
+                "will be watching",
+                "watch",
+                "are watching",
+                "have watched"
+            ],
+            "correctAnswer": "will be watching",
+            "audio": "quiz_8_sentence.mp3",
+            "hint": "Use Future Continuous (will be + -ing) for actions in progress at a specific future time.",
+            "difficulty": "medium",
+            "explanation": "Future Continuous emphasizes the ongoing nature of the action at 9 p.m. tomorrow. It shows the action will be in progress, not just scheduled."
+        },
+        {
+            "id": "quiz-9",
+            "question": "Which structure correctly expresses a life experience with 'ever'?",
+            "sentence": "____ you ever ____ skydiving?",
+            "options": [
+                "Have / tried",
+                "Did / try",
+                "Are / trying",
+                "Will / try"
+            ],
+            "correctAnswer": "Have / tried",
+            "audio": "quiz_9_sentence.mp3",
+            "hint": "'Ever' in questions about life experiences requires Present Perfect. Use 'have/has + past participle'.",
+            "difficulty": "medium",
+            "explanation": "The key difference: Present Perfect is for experiences in your whole life; Past Simple is for specific past times. Here, 'ever' signals a life-time question, so 'Have you ever tried' is correct."
+        },
+        {
+            "id": "quiz-10",
+            "question": "What negative form is correct for Present Perfect?",
+            "sentence": "She ____ to Bali yet.",
+            "options": [
+                "hasn’t been",
+                "didn’t go",
+                "hasn’t went",
+                "not has been"
+            ],
+            "correctAnswer": "hasn’t been",
+            "audio": "quiz_10_sentence.mp3",
+            "hint": "Negative Present Perfect uses 'has/have + not + past participle'. Watch out for using the wrong verb form (e.g., 'went' instead of 'been').",
+            "difficulty": "easy",
+            "explanation": "To form negatives in Present Perfect, use 'has/have + not + past participle'. Common error: using the base form or simple past instead of the past participle ('been', not 'went')."
+        },
+        {
+            "id": "quiz-11",
+            "question": "Which question form is grammatically correct for Present Perfect?",
+            "sentence": "____ finished your homework yet?",
+            "options": [
+                "Have you",
+                "You have",
+                "Did you",
+                "Have you been"
+            ],
+            "correctAnswer": "Have you",
+            "audio": "quiz_11_sentence.mp3",
+            "hint": "Question word order: auxiliary (have/has) + subject + past participle + complement.",
+            "difficulty": "medium",
+            "explanation": "Questions in Present Perfect follow this pattern: 'Have/Has + subject + past participle...'. The auxiliary 'have' comes before the subject 'you'."
+        },
+        {
+            "id": "quiz-12",
+            "question": "Advanced: What's the most precise structure for emphasizing effort over result?",
+            "sentence": "My eyes hurt—I ____ emails all morning.",
+            "options": [
+                "’ve been writing",
+                "’ve written",
+                "wrote",
+                "was writing"
+            ],
+            "correctAnswer": "’ve been writing",
+            "audio": "quiz_12_sentence.mp3",
+            "hint": "The subtle difference is focus: continuous emphasizes duration and effort; simple emphasizes quantity. 'Eyes hurt' indicates tiredness from ongoing action.",
+            "difficulty": "hard",
+            "explanation": "While 'I’ve written emails' is grammatically possible, 'I’ve been writing emails' is more precise here because it explains the cause of tired eyes—ongoing effort. This shows the Present Perfect Continuous for emphasis on process."
+        },
+        {
+            "id": "quiz-13",
+            "question": "Identify the error in this sentence:",
+            "sentence": "I’ve been knowing her since 2015.",
+            "options": [
+                "I’ve known her since 2015.",
+                "I’ve been knowing her from 2015.",
+                "I knew her since 2015.",
+                "I’m knowing her since 2015."
+            ],
+            "correctAnswer": "I’ve known her since 2015.",
+            "audio": "quiz_13_sentence.mp3",
+            "hint": "Look for stative verbs. Remember: 'know' is a state, not an action—no continuous form!",
+            "difficulty": "medium",
+            "explanation": "The error is using continuous with a stative verb. 'Know' describes a state, so it cannot be used in continuous tenses. The correct form is 'I’ve known her since 2015' because it shows a relationship continuing from past to present."
+        },
+        {
+            "id": "quiz-14",
+            "question": "Which structure best expresses a recent completed action with 'just'?",
+            "sentence": "He ____ arrived—he’s still catching his breath!",
+            "options": [
+                "’s just",
+                "just",
+                "has just been",
+                "was just"
+            ],
+            "correctAnswer": "’s just",
+            "audio": "quiz_14_sentence.mp3",
+            "hint": "Consider the context clue: 'still catching breath' shows very recent action. Present Perfect with 'just' emphasizes immediacy.",
+            "difficulty": "hard",
+            "explanation": "Both 'just arrived' (Past Simple) and '’s just arrived' are grammatically possible, but '’s just arrived' (Present Perfect) is best because it connects the recent past action to the present state (breathlessness)."
+        },
+        {
+            "id": "quiz-15",
+            "question": "Complete the sequence with the correct structures:",
+            "sentence": "First, I ____ my keys. Then, when I ____ them, I ____ calm again.",
+            "options": [
+                "lost / found / felt",
+                "have lost / found / feel",
+                "lost / have found / felt",
+                "have lost / have found / have felt"
+            ],
+            "correctAnswer": "lost / found / felt",
+            "audio": "quiz_15_sentence.mp3",
+            "hint": "Use Past Simple for the first action, Past Simple in the time clause, and Past Simple for the result—all are completed past events.",
+            "difficulty": "hard",
+            "explanation": "This sequence requires: Past Simple for 'lost' (completed past action), Past Simple after 'when' (time clause for completed past), and Past Simple for 'felt' (result in the past). No connection to the present is implied."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "already",
+            "hint": "Completed before now (positive sentence)",
+            "clue": "a_r_a_y",
+            "sentence": "I have ___ eaten lunch.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-2",
+            "word": "yet",
+            "hint": "Up to now (questions & negatives)",
+            "clue": "_e_",
+            "sentence": "Have you finished ___?",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-3",
+            "word": "since",
+            "hint": "Starting point in time",
+            "clue": "s_n_e",
+            "sentence": "I’ve lived here ___ 2020.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-4",
+            "word": "for",
+            "hint": "Duration / length of time",
+            "clue": "_o_",
+            "sentence": "We’ve been friends ___ ten years.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-5",
+            "word": "never",
+            "hint": "Not at any time in my life",
+            "clue": "n_v_r",
+            "sentence": "I have ___ seen snow.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-6",
+            "word": "ever",
+            "hint": "At any time (questions)",
+            "clue": "_v_r",
+            "sentence": "Have you ___ been abroad?",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-7",
+            "word": "just",
+            "hint": "A very short time ago",
+            "clue": "_u_t",
+            "sentence": "I’ve ___ finished my homework!",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-8",
+            "word": "lately",
+            "hint": "Recently / in the last few days",
+            "clue": "_a_e_y",
+            "sentence": "I’ve been very busy ___",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-9",
+            "word": "recently",
+            "hint": "Not long ago",
+            "clue": "r_c_n_l_",
+            "sentence": "She has travelled a lot ___",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-10",
+            "word": "experience",
+            "hint": "Something you have lived through",
+            "clue": "e_p_r_e_c_",
+            "sentence": "Have you ever had a scary ___?",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-11",
+            "word": "achievement",
+            "hint": "Something great you have done",
+            "clue": "a_h_e_e_e_t",
+            "sentence": "Winning the competition was my biggest ___",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-12",
+            "word": "stative",
+            "hint": "Verbs of state (like, know, want – no continuous)",
+            "clue": "s_a_i_e",
+            "sentence": "Love and know are ___ verbs.",
+            "difficulty": "hard"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 12,
+            "silver": 35,
+            "gold": 60,
+            "platinum": 85
+        },
+        "badges": [
+            {
+                "id": "life-explorer",
+                "name": "Life Explorer",
+                "condition": "Use ever/never in 10 sentences",
+                "icon": "🌍",
+                "points": 40
+            },
+            {
+                "id": "time-master",
+                "name": "For & Since Master",
+                "condition": "Perfect for/since usage",
+                "icon": "⏳",
+                "points": 40
+            },
+            {
+                "id": "stative-ninja",
+                "name": "Stative Ninja",
+                "condition": "No stative in continuous",
+                "icon": "🥷",
+                "points": 45
+            },
+            {
+                "id": "present-perfect-pro",
+                "name": "Present Perfect Pro",
+                "condition": "90%+ on all activities",
+                "icon": "🏆",
+                "points": 100
+            }
+        ]
+    }
+}
