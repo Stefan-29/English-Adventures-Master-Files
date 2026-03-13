@@ -1405,23 +1405,57 @@ header::after {
   font-weight: 600;
 }
 
-.grammar-group {
+.grammar-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   margin-bottom: 20px;
+  padding: 15px;
+  background: var(--background-lighter);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
 }
 
-.grammar-group-title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--black-color);
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+.grammar-filter-btn {
+  padding: 8px 16px;
+  background-color: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
-.grammar-group-buttons {
+.grammar-filter-btn:hover {
+  background-color: var(--background-lighter);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.15);
+}
+
+.grammar-filter-btn.active {
+  background: linear-gradient(135deg, var(--primary-color) 0%, rgba(139, 92, 246, 0.8) 100%);
+  border-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.grammar-filter-btn.active:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.4);
+}
+
+.grammar-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  min-height: 60px; /* Prevent layout shift */
 }
 
 .grammar-btn {

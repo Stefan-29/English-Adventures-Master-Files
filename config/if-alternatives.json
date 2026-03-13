@@ -1,0 +1,77 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: If Alternatives",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "If Alternatives",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "If Alternatives Lessons",
+        "instructions": "Learn alternative ways to express conditional meaning using unless, as long as, provided that, and other conditional connectors."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Conditional Alternatives Writing",
+        "instructions": "Write sentences using different conditional alternatives to express conditions, exceptions, and requirements."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "If Alternatives Games",
+        "instructions": "Play games to practice transforming if-clauses into alternative conditional structures."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "If Alternatives Quiz",
+        "instructions": "Test your knowledge of conditional alternatives and their correct usage in different contexts."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Conditional Challenge",
+        "instructions": "Apply conditional alternatives correctly in complex sentences and real-life situations."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Basic Alternatives",
+        "words": ["unless", "as long as", "provided that", "providing that", "on condition that", "supposing that"]
+      },
+      {
+        "title": "Time-based Alternatives",
+        "words": ["when", "whenever", "every time", "next time", "the moment", "immediately"]
+      },
+      {
+        "title": "Exception Alternatives",
+        "words": ["except", "apart from", "but for", "otherwise", "or else", "if not"]
+      },
+      {
+        "title": "Advanced Connectors",
+        "words": ["in case", "in the event that", "given that", "seeing that", "considering that", "whereas"]
+      },
+      {
+        "title": "Common Patterns",
+        "words": ["if not = unless", "if...not = unless", "as long as = provided that", "on condition that = if"]
+      }
+    ]
+  },
+
+  "dataFile": "reproducibility/if-alternatives.json",
+  "grammarChecker": "ifAlternativesGrammarChecker.js",
+
+  "gameSettings": {
+    "timeLimit": 45,
+    "pointsPerCorrect": 15,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

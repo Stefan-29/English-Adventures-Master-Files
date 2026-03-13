@@ -1,0 +1,463 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Wish – Expressing Present Regrets! 😔",
+            "content": "<p><strong>Wish</strong> expresses regrets about things we cannot change in the present or annoyances we want to stop.</p><p><strong>Structures:</strong></p><ul><li>States/situations: wish + past simple (especially 'were' for all subjects)</li><li>Annoying actions/behaviour: wish + would + infinitive</li></ul><p><em>Key: Use 'were' (subjunctive) instead of 'was' — even for I/he/she/it!</em> 💡</p>",
+            "examples": [
+                "I don't speak French. → I wish I spoke French. / I wish I were better at languages.",
+                "He smokes too much. → I wish he would quit smoking."
+            ],
+            "difficulty": 2,
+            "audio": "wish_intro.mp3",
+            "functions": [
+                "Expressing regrets about present situations",
+                "Complaining politely about other people's behaviour",
+                "Expressing desires for change in the present"
+            ],
+            "tips": "💡 <strong>Present Wish Rule:</strong> wish + past simple (states) or wish + would (annoying/repeated actions). Never use 'will'!"
+        },
+        {
+            "id": "lesson-2",
+            "title": "Wish for Past Regrets! ⏰",
+            "content": "<p>For things we regret in the <strong>past</strong>, use <strong>wish + past perfect</strong> (or could have for lost ability/opportunity).</p><p><strong>Structure:</strong> wish + had + past participle</p><ul><li>I didn't save money. → I wish I had saved more money.</li><li>She lost her phone. → She wishes she hadn't lost it.</li></ul><p><em>Alternative: wish + could have + past participle (lost opportunity)</em> 🔄</p>",
+            "examples": [
+                "I missed the concert. → I wish I had gone to the concert.",
+                "We arrived late. → I wish we hadn't been late."
+            ],
+            "difficulty": 3,
+            "audio": "wish_past_intro.mp3",
+            "functions": [
+                "Expressing regrets about past actions/decisions",
+                "Imagining different past outcomes",
+                "Reflecting on missed opportunities"
+            ],
+            "tips": "💡 <strong>Past Wish Rule:</strong> wish + past perfect. Use 'hadn't' for negative regrets. No change possible — pure regret!"
+        },
+        {
+            "id": "lesson-3",
+            "title": "If Only – Stronger, More Emotional Wishes! 💪",
+            "content": "<p><strong>If only</strong> = wish but with much stronger emotion, frustration, or longing. It often appears with exclamation marks!</p><p><strong>Structure:</strong> Same grammar as wish</p><ul><li>Present: If only + past simple / were / would</li><li>Past: If only + past perfect</li></ul><p><em>Use when feelings are intense!</em> 😢</p>",
+            "examples": [
+                "If only I were taller!",
+                "If only I had known about the party earlier!"
+            ],
+            "difficulty": 2,
+            "audio": "if_only_intro.mp3",
+            "functions": [
+                "Expressing deep regrets or strong desires",
+                "Showing frustration, disappointment or longing",
+                "Adding emotional emphasis"
+            ],
+            "tips": "💡 <strong>If Only Rule:</strong> Same tenses as wish, but more dramatic/emotional. Frequently used with !"
+        },
+        {
+            "id": "lesson-4",
+            "title": "Wish / If Only with Could & Would – Abilities & Change! 🔮",
+            "content": "<p>Special uses:</p><ul><li><strong>Wish / If only + could</strong> = regret about present/future ability</li><li><strong>Wish / If only + would</strong> = wish for change in behaviour/situation (often annoying)</li></ul><p><em>Could = ability/opportunity; Would = change we want in others or things</em> ✨</p>",
+            "examples": [
+                "I can't swim. → I wish I could swim. / If only I could swim!",
+                "The bus is always late. → I wish it would come on time."
+            ],
+            "difficulty": 3,
+            "audio": "wish_could_would.mp3",
+            "functions": [
+                "Expressing regrets about lack of ability",
+                "Wishing for change in annoying situations",
+                "Combining with modal verbs for nuance"
+            ],
+            "tips": "💡 <strong>Could vs Would:</strong> Could = I want the ability. Would = I want someone/something to behave differently."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Wish vs If Only vs Hope – Important Differences! ⚖️",
+            "content": "<p><strong>Wish / If only</strong> = unreal / imaginary / regrets (subjunctive tenses)</p><p><strong>Hope</strong> = real future possibilities (normal tenses)</p><ul><li>I hope it doesn't rain tomorrow. (possible)</li><li>I wish it wouldn't rain tomorrow. (I don't like rain — complaining)</li></ul><p><em>Never use wish/if only for real future!</em> ❌</p>",
+            "examples": [
+                "Hope: I hope you feel better soon. (real possibility)",
+                "Wish: I wish you felt better. (you don't feel well now)",
+                "If only: If only this headache would go away!"
+            ],
+            "difficulty": 3,
+            "audio": "wish_vs_hope.mp3",
+            "functions": [
+                "Distinguishing real vs unreal wishes",
+                "Choosing correct expression for future",
+                "Avoiding common tense errors"
+            ],
+            "tips": "💡 <strong>Key Rule:</strong> Wish/If only → unreal (past tenses). Hope → real future (will / present)."
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 6 sentences expressing present regrets or annoyances using 'wish' (include at least 2 with 'would' and 2 with 'were').",
+            "hint": "Example: I wish people would be more polite on public transport.",
+            "expectedKeywords": ["wish", "were", "would", "had", "could"],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-2",
+            "question": "Write 6 sentences about things you regret doing or not doing in the past using 'wish + past perfect'.",
+            "hint": "Example: I wish I had learned to play the guitar when I was younger.",
+            "expectedKeywords": ["wish", "had", "hadn't", "past perfect", "regret"],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-3",
+            "question": "Rewrite the 6 sentences from activity 1 using 'if only' to make them more emotional.",
+            "hint": "Example: If only people would be more polite on public transport!",
+            "expectedKeywords": ["if only", "were", "would", "had", "could"],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-4",
+            "question": "Write 5 sentences wishing for abilities or skills you don't have using 'wish / if only + could'.",
+            "hint": "Example: If only I could speak five languages fluently!",
+            "expectedKeywords": ["could", "wish", "if only", "ability"],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-5",
+            "question": "Write 6 sentences complaining about annoying habits/situations using 'wish / if only + would'.",
+            "hint": "Example: I wish my roommate would stop leaving dishes in the sink.",
+            "expectedKeywords": ["would", "wish", "if only", "annoying", "behaviour"],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short paragraph (7–9 sentences) about your biggest past regret using a mix of wish + past perfect, if only, and reflection.",
+            "hint": "Use emotional tone with 'if only' at least twice.",
+            "expectedKeywords": ["wish", "if only", "had", "hadn't", "regret"],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-7",
+            "question": "Write 5 sentences comparing 'wish' (neutral) and 'if only' (strong) versions of the same regret.",
+            "hint": "Example: I wish I had visited Japan. / If only I had visited Japan!",
+            "expectedKeywords": ["wish", "if only", "comparison"],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-8",
+            "question": "Write 6 sentences using 'hope' for real future hopes and 'wish' for complaints about the same topics.",
+            "hint": "Example: I hope it doesn't rain tomorrow. / I wish it wouldn't rain every weekend.",
+            "expectedKeywords": ["hope", "wish", "would", "future", "real vs unreal"],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-9",
+            "question": "Create a short dialogue (8–12 lines) between two friends expressing regrets and wishes using wish, if only, and hope.",
+            "hint": "One friend regrets the past, the other hopes for the future.",
+            "expectedKeywords": ["wish", "if only", "hope", "were", "had", "would"],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-10",
+            "question": "Write a reflective paragraph (8–10 sentences) about your life using at least 4 different wish/if only structures + 1 hope sentence.",
+            "hint": "Mix present regrets, past regrets, ability wishes, and future hopes.",
+            "expectedKeywords": ["wish", "if only", "hope", "were", "had", "could", "would"],
+            "difficulty": 4
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Present state regret:",
+            "sentence": "I wish I ____ taller.",
+            "options": ["am", "were", "was", "would be"],
+            "correctAnswer": ["were"],
+            "hint": "Subjunctive 'were' for all subjects in wishes.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Annoying behaviour wish:",
+            "sentence": "I wish she ____ talking so loudly.",
+            "options": ["stops", "stopped", "would stop", "will stop"],
+            "correctAnswer": ["would stop"],
+            "hint": "Wish + would for things we want to change in others.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Past regret:",
+            "sentence": "I wish I ____ that stupid comment.",
+            "options": ["didn't say", "hadn't said", "wouldn't say", "don't say"],
+            "correctAnswer": ["hadn't said"],
+            "hint": "Past regrets → wish + past perfect.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Strong emotional wish:",
+            "sentence": "____ I could turn back time!",
+            "options": ["Wish", "If only", "Hope", "If"],
+            "correctAnswer": ["If only"],
+            "hint": "'If only' is more emotional/dramatic.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Ability regret:",
+            "sentence": "If only I ____ speak Japanese fluently.",
+            "options": ["can", "could", "had", "would"],
+            "correctAnswer": ["could"],
+            "hint": "Wish/If only + could = regret about present ability.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-6",
+            "type": "drag-drop",
+            "question": "Common error – avoid 'will':",
+            "sentence": "I wish it ____ stop raining tomorrow.",
+            "options": ["will", "would", "stops", "stopped"],
+            "correctAnswer": ["would"],
+            "hint": "Never use 'will' after wish — use 'would' for complaints.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-7",
+            "type": "drag-drop",
+            "question": "Subjunctive error:",
+            "sentence": "She wishes she ____ rich.",
+            "options": ["was", "were", "is", "be"],
+            "correctAnswer": ["were"],
+            "hint": "Always 'were' — never 'was' — in wishes.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-8",
+            "type": "drag-drop",
+            "question": "Wish vs Hope:",
+            "sentence": "I ____ the weather is nice tomorrow. (real hope)",
+            "options": ["wish", "hope", "if only", "would hope"],
+            "correctAnswer": ["hope"],
+            "hint": "Use 'hope' for real future possibilities.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-9",
+            "type": "drag-drop",
+            "question": "Past opportunity lost:",
+            "sentence": "I wish I ____ accepted that job offer.",
+            "options": ["accept", "accepted", "had accepted", "would accept"],
+            "correctAnswer": ["had accepted"],
+            "hint": "Past perfect for past regrets.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-10",
+            "type": "drag-drop",
+            "question": "Strong complaint about weather:",
+            "sentence": "____ this rain would stop!",
+            "options": ["Wish", "If only", "Hope", "I wish if only"],
+            "correctAnswer": ["If only"],
+            "hint": "'If only + would' = very strong emotional wish for change.",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Which is correct for present regret?",
+            "sentence": "I wish I ____ more money.",
+            "options": ["have", "had", "have had", "would have"],
+            "correctAnswer": "had",
+            "hint": "Present regrets use past simple after wish.",
+            "difficulty": "easy",
+            "explanation": "Wish + past simple for present unreal situations/states."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Correct subjunctive form:",
+            "sentence": "He wishes he ____ you yesterday.",
+            "options": ["saw", "had seen", "would see", "was seeing"],
+            "correctAnswer": "had seen",
+            "hint": "Past regrets → past perfect.",
+            "difficulty": "medium",
+            "explanation": "Wish + had + past participle for past regrets."
+        },
+        {
+            "id": "quiz-3",
+            "question": "'If only' is best used when:",
+            "sentence": "You want to express very strong emotion.",
+            "options": ["neutral regret", "strong emotion", "real future hope", "polite request"],
+            "correctAnswer": "strong emotion",
+            "hint": "'If only' is more emotional than 'wish'.",
+            "difficulty": "easy",
+            "explanation": "'If only' adds dramatic/emotional intensity."
+        },
+        {
+            "id": "quiz-4",
+            "question": "Which shows annoyance with someone's behaviour?",
+            "sentence": "I wish you ____ talking during the movie!",
+            "options": ["stop", "stopped", "would stop", "will stop"],
+            "correctAnswer": "would stop",
+            "hint": "Wish + would for annoying actions.",
+            "difficulty": "medium",
+            "explanation": "Wish + would + infinitive = wish for change in behaviour."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Correct form for ability regret:",
+            "sentence": "I wish I ____ play the piano.",
+            "options": ["can", "could", "had", "would"],
+            "correctAnswer": "could",
+            "hint": "Wish + could = regret about present ability.",
+            "difficulty": "medium",
+            "explanation": "Could expresses lost or missing ability in wishes."
+        },
+        {
+            "id": "quiz-6",
+            "question": "Which is NOT possible with 'wish'?",
+            "sentence": "I wish tomorrow ____ sunny.",
+            "options": ["is", "was", "would be", "were"],
+            "correctAnswer": "is",
+            "hint": "Don't use present tense for future with wish.",
+            "difficulty": "hard",
+            "explanation": "Wish does not express real future — use 'hope' instead."
+        },
+        {
+            "id": "quiz-7",
+            "question": "Common error – avoid:",
+            "sentence": "Which is wrong?",
+            "options": ["I wish I were rich.", "I wish I was rich.", "If only I had known!", "I wish it would stop raining."],
+            "correctAnswer": "I wish I was rich.",
+            "hint": "Never use 'was' — always 'were' in wishes.",
+            "difficulty": "medium",
+            "explanation": "Subjunctive mood requires 'were' for all subjects."
+        },
+        {
+            "id": "quiz-8",
+            "question": "Wish vs Hope – which for real future?",
+            "sentence": "I ____ you pass your exam tomorrow.",
+            "options": ["wish", "hope", "if only", "would hope"],
+            "correctAnswer": "hope",
+            "hint": "Hope = real possibility; wish = unreal regret.",
+            "difficulty": "medium",
+            "explanation": "Use 'hope' + present/future for real future events."
+        },
+        {
+            "id": "quiz-9",
+            "question": "Strongest emotional expression:",
+            "sentence": "____ this pain would go away!",
+            "options": ["Wish", "If only", "Hope", "I wish if only"],
+            "correctAnswer": "If only",
+            "hint": "'If only' shows strongest emotion.",
+            "difficulty": "easy",
+            "explanation": "'If only' is more intense and dramatic."
+        },
+        {
+            "id": "quiz-10",
+            "question": "Correct past regret:",
+            "sentence": "She wishes she ____ to university.",
+            "options": ["had gone", "went", "would go", "goes"],
+            "correctAnswer": "had gone",
+            "hint": "Past perfect after wish for past regrets.",
+            "difficulty": "medium",
+            "explanation": "Wish + had + past participle = unreal past."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "regret",
+            "hint": "Feeling sorry about something",
+            "clue": "r_g__t",
+            "sentence": "Wish expresses ____ about the past or present.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-2",
+            "word": "hypothetical",
+            "hint": "Imagined or supposed, not real",
+            "clue": "_yp_t__t_c_l",
+            "sentence": "Wish structures are ____.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-3",
+            "word": "subjunctive",
+            "hint": "Verb mood for wishes and hypotheticals",
+            "clue": "s_bj_nc__v_",
+            "sentence": "The ____ mood uses 'were' after wish.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-4",
+            "word": "emotional",
+            "hint": "Related to strong feelings",
+            "clue": "_m_t__n_l",
+            "sentence": "'If only' is more ____ than 'wish'.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-5",
+            "word": "frustration",
+            "hint": "Feeling of annoyance when things go wrong",
+            "clue": "f__s_r__t__n",
+            "sentence": "'If only' often expresses ____.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-6",
+            "word": "ability",
+            "hint": "Skill or power to do something",
+            "clue": "_b_l_ty",
+            "sentence": "Wish + could expresses regret about ____.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-7",
+            "word": "unreal",
+            "hint": "Not real or imaginary",
+            "clue": "_nr__l",
+            "sentence": "Wish / If only describe ____ situations.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-8",
+            "word": "opportunity",
+            "hint": "A chance to do something",
+            "clue": "_pp_rt_n_ty",
+            "sentence": "I wish I hadn't missed that ____.",
+            "difficulty": "medium"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 15,
+            "silver": 40,
+            "gold": 70,
+            "platinum": 100
+        },
+        "badges": [
+            {
+                "id": "wish-master",
+                "name": "Wish Master",
+                "condition": "Complete all wish and if only lessons",
+                "icon": "💫",
+                "points": 50
+            },
+            {
+                "id": "regret-expert",
+                "name": "Regret Expert",
+                "icon": "😔",
+                "condition": "Score 100% on 3 writing activities",
+                "points": 75
+            },
+            {
+                "id": "emotional-writer",
+                "name": "Emotional Writer",
+                "icon": "💭",
+                "condition": "Master if only expressions",
+                "points": 100
+            }
+        ]
+    }
+}

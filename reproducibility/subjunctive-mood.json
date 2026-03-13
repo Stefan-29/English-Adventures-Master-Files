@@ -1,0 +1,462 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Present Subjunctive – Using 'Were' for Everyone! 👑",
+            "content": "<p>The subjunctive mood helps us talk about things that are not real or possible right now — like dreams, wishes, or imaginary situations. One easy rule to remember: in many of these cases, we use <strong>'were'</strong> instead of 'was' — even when talking about 'I', 'he', 'she', or 'it'!</p><p><strong>Why 'were' for everyone?</strong> It shows the situation is not true or just imagined (hypothetical). We often see it after 'if', 'wish', or in polite/formal sentences.</p><ul><li>If I <strong>were</strong> rich, I would buy a big house. (I'm not rich — it's just a dream!)</li><li>I wish I <strong>were</strong> on the beach right now. (I'm not there.)</li><li>If she <strong>were</strong> here, she would know what to do.</li></ul><p><em>Common mistake:</em> Many people say 'If I was rich…' in casual talk — that's okay informally, but in writing or exams, use 'were' to sound correct and formal.</em> 🎭</p>",
+            "examples": [
+                "If he were taller, he could play basketball better.",
+                "I wish the weather were warmer today."
+            ],
+            "difficulty": 2,
+            "audio": "present_subjunctive_intro.mp3",
+            "functions": [
+                "Talking about imaginary or impossible situations now",
+                "Making wishes about the present",
+                "Sounding polite or formal in hypotheticals"
+            ],
+            "tips": "💡 <strong>Simple Rule:</strong> In wishes or 'if' sentences about things that aren't true, use 'were' for I/he/she/it (not 'was'). It's like a special 'imaginary' form of 'to be'!"
+        },
+        {
+            "id": "lesson-2",
+            "title": "Mandative Subjunctive – For Suggestions, Demands & Rules! 📜",
+            "content": "<p>Sometimes we want to say what someone <strong>must</strong> or <strong>should</strong> do — like giving strong advice, making a formal suggestion, or stating a rule. In these cases, English uses a simple verb form (the base verb) after words like 'suggest', 'insist', 'demand', 'require', or 'recommend'.</p><p><strong>How it works:</strong> After 'that', drop any -s/-es ending — use the plain verb (base form) for everyone.</p><ul><li>I suggest that you <strong>study</strong> more. (NOT studies)</li><li>The teacher insists that everyone <strong>be</strong> quiet. (NOT is)</li><li>The rules require that students <strong>arrive</strong> on time.</li></ul><p><em>Why this way?</em> It sounds more formal and direct — common in official letters, school rules, or polite but firm requests. In casual speech, people often add 'should' instead (e.g., 'I suggest that you should study').</p>",
+            "examples": [
+                "The doctor recommends that she <strong>rest</strong> for a few days.",
+                "We demand that the company <strong>pay</strong> the workers fairly."
+            ],
+            "difficulty": 3,
+            "audio": "mandative_subjunctive_intro.mp3",
+            "functions": [
+                "Giving strong suggestions or advice formally",
+                "Stating demands or requirements",
+                "Talking about rules and laws"
+            ],
+            "tips": "💡 <strong>Easy Rule:</strong> After suggest/insist/demand/require + that → use the plain verb (no -s!). Think: 'base form for everyone' — like a command in disguise."
+        },
+        {
+            "id": "lesson-3",
+            "title": "As If / As Though – For 'Pretend' or Unreal Comparisons! 🎭",
+            "content": "<p>We use 'as if' or 'as though' when we describe how someone/something looks, acts, or seems — but it's not really true. It's like saying 'pretending to be' or 'acting like' in an exaggerated or imaginary way.</p><p><strong>Key idea:</strong> Because it's not real, we often use the 'were' form (past subjunctive) after it.</p><ul><li>He talks as if he <strong>were</strong> an expert. (He's not really an expert — he just acts like one!)</li><li>She spends money as though she <strong>were</strong> a millionaire. (She's not rich.)</li><li>It looks as if it <strong>were</strong> going to rain. (It might, but we're imagining the feeling.)</li></ul><p><em>'As if' is more common; 'as though' feels a bit more formal. In casual talk, some people use normal past tense ('was'), but 'were' is correct in writing/exams.</em></p>",
+            "examples": [
+                "You look as if you <strong>had seen</strong> a ghost! (You look shocked — but no ghost!)",
+                "He behaves as though nothing <strong>were</strong> wrong."
+            ],
+            "difficulty": 3,
+            "audio": "as_if_subjunctive_intro.mp3",
+            "functions": [
+                "Describing how things seem (but aren't really)",
+                "Showing surprise, irony, or exaggeration",
+                "Comparing real appearance to imaginary reality"
+            ],
+            "tips": "💡 <strong>Quick Rule:</strong> as if / as though + 'were' (or past perfect for past imaginary) = it's not really true. Use it when something looks/acts fake or exaggerated."
+        },
+        {
+            "id": "lesson-4",
+            "title": "Past & Future Subjunctive – 'Were To' and 'Had Been'! ⏰",
+            "content": "<p>These forms help talk about very unlikely or imaginary situations — especially looking back from the past or imagining a future that's hard to believe.</p><p><strong>'Were to' + verb:</strong> For imagining a surprising or unlikely future event (often formal).</p><ul><li>If she <strong>were to</strong> call me now, I would be shocked. (It's very unlikely she calls.)</li></ul><p><strong>'Had been' + -ing:</strong> For imagining a continuous unreal situation in the past.</p><ul><li>If I <strong>had been</strong> paying attention, I wouldn't have missed the bus. (I wasn't paying attention — regret!)</li></ul><p><em>These are more formal than regular conditionals — great for writing essays or stories.</em></p>",
+            "examples": [
+                "If he <strong>were to</strong> apologize, I might forgive him. (Unlikely, but possible in imagination)",
+                "If we <strong>had been</strong> living closer, we would have visited more often."
+            ],
+            "difficulty": 4,
+            "audio": "past_subjunctive_intro.mp3",
+            "functions": [
+                "Imagining unlikely future events from past view",
+                "Regretting unreal past ongoing situations",
+                "Formal or literary hypothetical talk"
+            ],
+            "tips": "💡 <strong>Simple Tip:</strong> 'Were to' = 'what if something unlikely happened?' 'Had been -ing' = 'if I had been doing something continuously back then…'"
+        },
+        {
+            "id": "lesson-5",
+            "title": "Formulaic Subjunctive – Useful Fixed Phrases! 🔒",
+            "content": "<p>English has some ready-made, old-fashioned phrases that always use the subjunctive form. These are fixed — you learn them as whole expressions. They sound formal, polite, or literary, and appear in writing, speeches, or polite talk.</p><p><strong>Common ones to remember:</strong></p><ul><li><strong>Be that as it may</strong>… (Even though that's true… / Anyway…)</li><li><strong>Come what may</strong>… (No matter what happens…)</li><li><strong>Suffice it to say</strong>… (It's enough to say… / In short…)</li><li><strong>Far be it from me</strong>… (I would never… / I'm not trying to…)</li><li><strong>God bless you</strong> / <strong>Long live the king</strong>! (Classic wishes)</li></ul><p><em>These don't change — just use them exactly as they are!</em></p>",
+            "examples": [
+                "Be that as it may, we still need to try our best.",
+                "Come what may, I'll stand by you."
+            ],
+            "difficulty": 4,
+            "audio": "formulaic_subjunctive.mp3",
+            "functions": [
+                "Sounding formal, polite, or dramatic",
+                "Making concessions or accepting facts",
+                "Using traditional English expressions"
+            ],
+            "tips": "💡 <strong>Easy Tip:</strong> These are like set phrases — memorize a few and use them to make your English sound more advanced and elegant!"
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 6 sentences using 'were' in hypothetical or wish situations (for I/he/she/it).",
+            "hint": "Example: If I were you, I would apologize right away.",
+            "expectedKeywords": ["were", "if", "wish", "hypothetical", "present"],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-2",
+            "question": "Write 6 sentences using mandative subjunctive after suggest/insist/demand/require/recommend (use base verb).",
+            "hint": "Example: My parents insist that I be home by 10 PM.",
+            "expectedKeywords": ["suggest", "insist", "demand", "require", "base verb"],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-3",
+            "question": "Write 6 sentences with 'as if' or 'as though' + 'were' to show unreal or exaggerated situations.",
+            "hint": "Example: She dresses as if she were going to a royal ball every day.",
+            "expectedKeywords": ["as if", "as though", "were", "unreal", "comparison"],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-4",
+            "question": "Write 5 sentences using 'were to' for unlikely future scenarios.",
+            "hint": "Example: If the team were to win the championship, everyone would celebrate.",
+            "expectedKeywords": ["were to", "unlikely", "future", "hypothetical"],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-5",
+            "question": "Write 5 sentences using 'had been + -ing' for unreal past continuous situations.",
+            "hint": "Example: If I had been working harder, I would have passed the exam.",
+            "expectedKeywords": ["had been", "past continuous", "regret", "unreal"],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short formal paragraph (7-9 sentences) mixing present subjunctive ('were'), mandative, and 'as if' structures.",
+            "hint": "Example scenario: Discussing school rules or a meeting.",
+            "expectedKeywords": ["were", "be", "as if", "insist", "suggest"],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-7",
+            "question": "Write 5 sentences using formulaic expressions like 'be that as it may', 'come what may', 'suffice it to say'.",
+            "hint": "Example: Suffice it to say that we tried our best.",
+            "expectedKeywords": ["be that as it may", "come what may", "suffice it to say"],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-8",
+            "question": "Write 6 sentences comparing correct subjunctive ('were'/'be') with common mistakes ('was'/'is') and explain why the subjunctive is better.",
+            "hint": "Example: Wrong: If I was president… Correct: If I were president… (because it's imaginary)",
+            "expectedKeywords": ["were", "be", "subjunctive", "mistake"],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-9",
+            "question": "Create a short dialogue (8-12 lines) between a teacher and student using mandative subjunctive, 'as if', and 'were'.",
+            "hint": "Teacher giving advice or rules, student imagining something.",
+            "expectedKeywords": ["suggest", "insist", "as if", "were"],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-10",
+            "question": "Write a reflective paragraph (8-10 sentences) about a personal 'what if' scenario using at least 4 different subjunctive forms.",
+            "hint": "Mix 'were', 'be', 'as though', 'were to', or formulaic phrases.",
+            "expectedKeywords": ["were", "be", "as though", "were to", "subjunctive"],
+            "difficulty": 4
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Present subjunctive 'to be':",
+            "sentence": "I wish I ____ you right now.",
+            "options": ["was", "were", "am", "be"],
+            "correctAnswer": ["were"],
+            "hint": "Use 'were' for imaginary wishes — for everyone!",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Mandative subjunctive base form:",
+            "sentence": "The rules require that everyone ____ quiet.",
+            "options": ["is", "be", "was", "were"],
+            "correctAnswer": ["be"],
+            "hint": "After require + that → plain base verb (no -s!).",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Unreal comparison:",
+            "sentence": "He spends money as if he ____ a millionaire.",
+            "options": ["is", "was", "were", "be"],
+            "correctAnswer": ["were"],
+            "hint": "As if + 'were' = it's not really true.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Formulaic expression:",
+            "sentence": "____ may, I'll keep trying.",
+            "options": ["Be that as it", "Come what", "As if", "Were to"],
+            "correctAnswer": ["Come what"],
+            "hint": "Fixed phrase: Come what may = no matter what.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Unlikely future:",
+            "sentence": "If the weather ____ improve tomorrow, we'll go hiking.",
+            "options": ["to", "were to", "had been", "be"],
+            "correctAnswer": ["were to"],
+            "hint": "'Were to' = imagining something very unlikely.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-6",
+            "type": "drag-drop",
+            "question": "Past continuous unreal:",
+            "sentence": "If you ____ paying attention, you would have seen it.",
+            "options": ["had been", "were to", "be", "were"],
+            "correctAnswer": ["had been"],
+            "hint": "'Had been + -ing' = unreal past action that continued.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-7",
+            "type": "drag-drop",
+            "question": "Mandative after suggest:",
+            "sentence": "I suggest that she ____ the offer.",
+            "options": ["takes", "take", "took", "be take"],
+            "correctAnswer": ["take"],
+            "hint": "Suggest + that → base verb (take, not takes).",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-8",
+            "type": "drag-drop",
+            "question": "Formulaic concession:",
+            "sentence": "____ as it may, we have to move forward.",
+            "options": ["Be that", "Come what", "Were to", "As though"],
+            "correctAnswer": ["Be that"],
+            "hint": "Be that as it may = even though that's true…",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-9",
+            "type": "drag-drop",
+            "question": "As though unreal past:",
+            "sentence": "He looked as though he ____ a ghost.",
+            "options": ["had seen", "saw", "were to see", "be seeing"],
+            "correctAnswer": ["had seen"],
+            "hint": "For past unreal → past perfect after as though.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "game-10",
+            "type": "drag-drop",
+            "question": "Formal suggestion:",
+            "sentence": "It is important that we ____ the deadline.",
+            "options": ["meet", "meets", "met", "meeting"],
+            "correctAnswer": ["meet"],
+            "hint": "Important that + base verb in subjunctive.",
+            "difficulty": "medium"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Why do we use 'were' instead of 'was' in wishes?",
+            "sentence": "I wish I ____ rich.",
+            "options": ["Because it's real", "Because it's imaginary", "Because it's past", "Because it's plural"],
+            "correctAnswer": "Because it's imaginary",
+            "hint": "'Were' shows the situation is not true — it's a dream!",
+            "difficulty": "easy",
+            "explanation": "In subjunctive mood for wishes or hypotheticals, we use 'were' for all subjects to show it's not real."
+        },
+        {
+            "id": "quiz-2",
+            "question": "What verb form comes after 'insist that'?",
+            "sentence": "She insists that he ____ quiet.",
+            "options": ["is", "be", "was", "were"],
+            "correctAnswer": "be",
+            "hint": "Mandative subjunctive uses the plain base verb.",
+            "difficulty": "easy",
+            "explanation": "After insist/suggest/demand + that, use base form (be, go, study) — no -s ending."
+        },
+        {
+            "id": "quiz-3",
+            "question": "Which shows an unreal comparison?",
+            "sentence": "He acts ____ he owned the company.",
+            "options": ["as long as", "as if", "even though", "because"],
+            "correctAnswer": "as if",
+            "hint": "As if / as though + 'were' = pretending or not really true.",
+            "difficulty": "medium",
+            "explanation": "As if / as though introduce imaginary comparisons — use subjunctive 'were'."
+        },
+        {
+            "id": "quiz-4",
+            "question": "'Were to' is used for:",
+            "sentence": "If she ____ call, what would you say?",
+            "options": ["real future", "unlikely future", "past fact", "present habit"],
+            "correctAnswer": "unlikely future",
+            "hint": "'Were to' imagines something surprising or very unlikely.",
+            "difficulty": "medium",
+            "explanation": "'Were to + verb' expresses hypothetical/unlikely future events — often formal."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which is a fixed formulaic subjunctive phrase?",
+            "sentence": "____ what may, we'll keep going.",
+            "options": ["Be that as it", "Come what", "As though", "Were to"],
+            "correctAnswer": "Come what",
+            "hint": "Come what may = no matter what happens.",
+            "difficulty": "hard",
+            "explanation": "Formulaic subjunctive includes fixed phrases like 'come what may', 'be that as it may'."
+        },
+        {
+            "id": "quiz-6",
+            "question": "Common error – correct form:",
+            "sentence": "If I ____ president, I would change the laws.",
+            "options": ["was", "were", "am", "be"],
+            "correctAnswer": "were",
+            "hint": "Use 'were' — even for 'I' — because it's imaginary.",
+            "difficulty": "easy",
+            "explanation": "Subjunctive uses 'were' for all subjects in unreal present conditions."
+        },
+        {
+            "id": "quiz-7",
+            "question": "Mandative after 'recommend':",
+            "sentence": "The doctor recommends that she ____ more water.",
+            "options": ["drinks", "drink", "drank", "drinking"],
+            "correctAnswer": "drink",
+            "hint": "Base form after recommend — no -s.",
+            "difficulty": "medium",
+            "explanation": "Mandative subjunctive drops -s for third person singular."
+        },
+        {
+            "id": "quiz-8",
+            "question": "As though for past unreal:",
+            "sentence": "She looked as though she ____ crying all night.",
+            "options": ["had been", "was", "were to", "be"],
+            "correctAnswer": "had been",
+            "hint": "Past unreal continuous → had been + -ing.",
+            "difficulty": "hard",
+            "explanation": "For unreal past situations after as though, use past perfect continuous."
+        },
+        {
+            "id": "quiz-9",
+            "question": "Formulaic phrase meaning 'anyway':",
+            "sentence": "____ as it may, the decision is final.",
+            "options": ["Come what", "Be that", "Suffice it", "Far be it"],
+            "correctAnswer": "Be that",
+            "hint": "Be that as it may = even though that's true…",
+            "difficulty": "medium",
+            "explanation": "Fixed expression for polite concession or acceptance."
+        },
+        {
+            "id": "quiz-10",
+            "question": "Which needs subjunctive base form?",
+            "sentence": "It is essential that everyone ____ the rules.",
+            "options": ["follows", "follow", "followed", "following"],
+            "correctAnswer": "follow",
+            "hint": "Essential that + base verb (follow, not follows).",
+            "difficulty": "medium",
+            "explanation": "Mandative subjunctive after adjectives like essential/important uses plain base form."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "subjunctive",
+            "hint": "Special verb mood for unreal situations",
+            "clue": "s_bj_nc__v_",
+            "sentence": "The ____ mood uses 'were' for wishes.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-2",
+            "word": "hypothetical",
+            "hint": "Imagined or not real",
+            "clue": "_yp_t__t_c_l",
+            "sentence": "Subjunctive is for ____ situations.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-3",
+            "word": "mandative",
+            "hint": "Related to demands or suggestions",
+            "clue": "m_nd_t__v_",
+            "sentence": "____ subjunctive uses base verbs.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-4",
+            "word": "formulaic",
+            "hint": "Fixed expressions",
+            "clue": "f_rm_l__c",
+            "sentence": "____ subjunctive includes phrases like 'come what may'.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-5",
+            "word": "were",
+            "hint": "Subjunctive form of 'to be'",
+            "clue": "w_r_",
+            "sentence": "I wish I ____ taller.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-6",
+            "word": "base",
+            "hint": "Plain verb form in mandative",
+            "clue": "b_s_",
+            "sentence": "Use the ____ form after 'insist that'.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-7",
+            "word": "unreal",
+            "hint": "Not actually true",
+            "clue": "_nr__l",
+            "sentence": "As if shows ____ comparisons.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-8",
+            "word": "concession",
+            "hint": "Accepting something reluctantly",
+            "clue": "c_nc_ss__n",
+            "sentence": "'Be that as it may' is a ____ phrase.",
+            "difficulty": "hard"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 15,
+            "silver": 40,
+            "gold": 70,
+            "platinum": 100
+        },
+        "badges": [
+            {
+                "id": "were-warrior",
+                "name": "Were Warrior",
+                "condition": "Master 'were' in subjunctive",
+                "icon": "⚔️",
+                "points": 50
+            },
+            {
+                "id": "mandative-master",
+                "name": "Mandative Master",
+                "condition": "Score 100% on mandative activities",
+                "icon": "📜",
+                "points": 75
+            },
+            {
+                "id": "formulaic-pro",
+                "name": "Formulaic Pro",
+                "condition": "Use all formulaic expressions correctly",
+                "icon": "🔒",
+                "points": 100
+            }
+        ]
+    }
+}

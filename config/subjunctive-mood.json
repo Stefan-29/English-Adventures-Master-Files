@@ -1,0 +1,77 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Subjunctive Mood",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Subjunctive Mood",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Subjunctive Lessons",
+        "instructions": "Master the subjunctive mood for expressing wishes, demands, suggestions, and hypothetical situations using were, base verbs, and special structures."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Subjunctive Writing",
+        "instructions": "Write sentences using different subjunctive structures to express various degrees of unreality, formality, and hypothetical situations."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Subjunctive Games",
+        "instructions": "Play games to practice identifying and forming subjunctive structures in different contexts."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Subjunctive Quiz",
+        "instructions": "Test your knowledge of subjunctive forms, usage, and the differences between subjunctive and indicative moods."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Subjunctive Challenge",
+        "instructions": "Apply subjunctive structures correctly in formal writing, suggestions, and complex hypothetical situations."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Present Subjunctive",
+        "words": ["were", "be", "base verbs", "wishes", "hypothetical", "unreal", "formal"]
+      },
+      {
+        "title": "Past Subjunctive",
+        "words": ["were", "had been", "were to", "past perfect", "unreal past", "regrets", "counterfactual"]
+      },
+      {
+        "title": "Mandative Subjunctive",
+        "words": ["insist", "demand", "require", "recommend", "suggest", "propose", "essential", "important"]
+      },
+      {
+        "title": "Formulaic Subjunctive",
+        "words": ["as if", "as though", "if only", "wish", "suppose", "imagine", "pretend"]
+      },
+      {
+        "title": "Common Mistakes",
+        "words": ["was/were", "subjunctive/indicative", "base verbs", "that clauses", "formal situations"]
+      }
+    ]
+  },
+
+  "dataFile": "reproducibility/subjunctive-mood.json",
+  "grammarChecker": "subjunctiveMoodGrammarChecker.js",
+
+  "gameSettings": {
+    "timeLimit": 45,
+    "pointsPerCorrect": 15,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

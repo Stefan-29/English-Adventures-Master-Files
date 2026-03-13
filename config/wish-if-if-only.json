@@ -1,0 +1,77 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Wish, If & If Only",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Wish, If & If Only",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Wish & If Only Lessons",
+        "instructions": "Master expressing regrets, desires, and hypotheticals using wish, if, and if only. Learn the differences between present and past unreal situations."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Wish Writing Practice",
+        "instructions": "Write sentences expressing regrets about the present and past using wish, if, and if only structures."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Wish Games",
+        "instructions": "Play games to practice forming wish sentences and understanding the difference between wish and if only."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Wish Quiz",
+        "instructions": "Test your knowledge with questions about wish, if, and if only usage."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Wish Challenge",
+        "instructions": "Apply wish structures correctly in complex sentences and mixed tenses."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Wish Structures",
+        "words": ["wish", "if only", "I wish", "I wished", "were", "had", "could", "would"]
+      },
+      {
+        "title": "Present Regrets",
+        "words": ["wish + past simple", "were instead of was", "could + infinitive", "would + infinitive"]
+      },
+      {
+        "title": "Past Regrets",
+        "words": ["wish + past perfect", "had + past participle", "could have", "would have"]
+      },
+      {
+        "title": "Future Wishes",
+        "words": ["wish + would", "if only + would", "hope", "want", "desire"]
+      },
+      {
+        "title": "If Only Alternatives",
+        "words": ["I wish", "if only", "oh that", "would that", "emphasis", "stronger"]
+      }
+    ]
+  },
+
+  "dataFile": "reproducibility/wish-if-if-only.json",
+  "grammarChecker": "wishIfIfOnlyGrammarChecker.js",
+
+  "gameSettings": {
+    "timeLimit": 40,
+    "pointsPerCorrect": 12,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

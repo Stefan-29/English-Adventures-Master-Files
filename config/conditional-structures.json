@@ -1,0 +1,77 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Conditional Structures",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Conditional Structures",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Conditional Lessons",
+        "instructions": "Master zero, first, second, and third conditionals. Learn how to express real and unreal situations in different time frames."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Conditional Writing",
+        "instructions": "Write sentences using different conditional structures to express hypothetical situations, regrets, and advice."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Conditional Games",
+        "instructions": "Play games to practice forming and using conditional sentences in real contexts."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Conditional Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about conditional structures."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Conditional Challenge",
+        "instructions": "Apply conditional structures correctly in complex sentences and mixed conditionals."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Zero Conditional",
+        "words": ["if", "when", "unless", "as long as", "provided that", "present simple", "facts", "general truths"]
+      },
+      {
+        "title": "First Conditional",
+        "words": ["if", "when", "unless", "will", "going to", "future", "possible", "likely"]
+      },
+      {
+        "title": "Second Conditional",
+        "words": ["if", "were", "would", "could", "might", "hypothetical", "unreal", "imaginary"]
+      },
+      {
+        "title": "Third Conditional",
+        "words": ["if", "had", "would have", "could have", "past perfect", "regrets", "past unreal"]
+      },
+      {
+        "title": "Mixed Conditionals",
+        "words": ["would have", "had been", "would be", "past + present", "present + past"]
+      }
+    ]
+  },
+
+  "dataFile": "reproducibility/conditional-structures.json",
+  "grammarChecker": "conditionalStructures.js",
+
+  "gameSettings": {
+    "timeLimit": 45,
+    "pointsPerCorrect": 15,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

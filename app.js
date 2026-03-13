@@ -9,6 +9,7 @@ const App = {
     state: {
         activeModule: 'writing-module',
         activeGrammarModule: null,  // Track which grammar module is active
+        currentGrammarFilter: 'All', // Track current filter
         overallProgress: 0,
         completedActivities: {},   // Now: { 'past-tenses': {...}, 'future-perfect': {...}, ... }
         moduleStars: {},            // Now: { 'past-tenses': 5, 'future-perfect': 3, ... }
@@ -58,15 +59,28 @@ const App = {
 
         this.loadGrammarModules()
             .then(modules => {
-                console.log('Grammar modules loaded:', modules);
+                console.log('Grammar modules loaded:', modules.length, 'modules');
                 this.grammarModules = modules;
 
-                // Set first grammar as active
-                const defaultModule = modules[0];
+                // Determine which grammar module to load first (restore last-used if available)
+                const savedGrammarModuleId = localStorage.getItem('englishAdventuresCurrentGrammarModule');
+                let defaultModule = modules[0];
+                if (savedGrammarModuleId) {
+                    const savedModule = modules.find(m => m.id === savedGrammarModuleId);
+                    if (savedModule) {
+                        defaultModule = savedModule;
+                        console.log('📌 Restoring last-used grammar module:', savedModule.id);
+                    } else {
+                        console.warn('Saved grammar module not found in current module list:', savedGrammarModuleId);
+                    }
+                }
                 if (!defaultModule) throw new Error('No grammar modules found');
                 
                 // Set the current grammar module ID
                 this.currentGrammarModuleId = defaultModule.id;
+
+                // Render grammar selector now that modules are loaded
+                this.renderGrammarSelector();
 
                 return this.loadConfigAndData(defaultModule);
             })
@@ -78,7 +92,7 @@ const App = {
                 this.createStickyCheckAllButton();
                 this.initSoundControl();
                 this.updateUI();
-                this.renderGrammarSelector();
+                // renderGrammarSelector is now called earlier
 
             })
             .catch(err => {
@@ -94,7 +108,8 @@ const App = {
         // Format: "Group Name": ["module-id-1", "module-id-2", ...]
         const groups = {
             "Tenses": ['future-perfect', 'future-tenses', 'past-perfect', 'past-tenses', 'present-perfect', 'present-tenses'],
-            "Modals": ['can-could-be-able-to', 'must-have-to-have-got-to', 'shall-will-would-had-better', 'should-ought-to', 'may-might']
+            "Modals": ['can-could-be-able-to', 'must-have-to-have-got-to', 'shall-will-would-had-better', 'should-ought-to', 'may-might'],
+            "Advanced Grammar": ['conditional-structures', 'wish-if-if-only', 'if-alternatives', 'subjunctive-mood']
         };
         for (const [group, modules] of Object.entries(groups)) {
             if (modules.includes(moduleName)) return group;
@@ -109,7 +124,7 @@ const App = {
         // MAKE SURE TO ALSO CREATE A CORRESPONDING 
         // CONFIG JSON FILE IN THE config/ FOLDER WITH 
         // THE SAME NAME.
-        const moduleNames = ['can-could-be-able-to','must-have-to-have-got-to','shall-will-would-had-better','should-ought-to','may-might','future-perfect','future-tenses','past-perfect','past-tenses','present-perfect','present-tenses']; // Add new ones here
+        const moduleNames = ['can-could-be-able-to','must-have-to-have-got-to','shall-will-would-had-better','should-ought-to','may-might','future-perfect','future-tenses','past-perfect','past-tenses','present-perfect','present-tenses','conditional-structures','wish-if-if-only','if-alternatives','subjunctive-mood']; // Add new ones here
         const promises = moduleNames.map(name => {
             const configPath = `config/${name}.json`;
             return fetch(configPath)
@@ -129,15 +144,19 @@ const App = {
         return Promise.all(promises);
     },
 
-    // ———————————————————— RENDER GRAMMAR BUTTONS ————————————————————
+    // ———————————————————— RENDER GRAMMAR SELECTOR ————————————————————
     renderGrammarSelector: function () {
-        const container = document.getElementById('grammar-buttons');
-        if (!container) {
-            console.error('grammar-buttons container not found!');
+        const filtersContainer = document.getElementById('grammar-filters');
+        const buttonsContainer = document.getElementById('grammar-buttons');
+
+        if (!filtersContainer || !buttonsContainer) {
+            console.error('Grammar selector containers not found!');
             return;
         }
 
-        container.innerHTML = '';
+        // Clear existing content
+        filtersContainer.innerHTML = '';
+        buttonsContainer.innerHTML = '';
 
         // Group modules by their group
         const grouped = {};
@@ -146,54 +165,73 @@ const App = {
             grouped[mod.group].push(mod);
         });
 
-        // Define group order
-        const groupOrder = ['Tenses', 'Modals', 'Other'];
+        // Create filter buttons
+        const filterButtons = ['All', ...Object.keys(grouped)];
+        filterButtons.forEach((filter, index) => {
+            const filterBtn = document.createElement('button');
+            filterBtn.className = 'grammar-filter-btn';
+            if (filter === this.state.currentGrammarFilter) filterBtn.classList.add('active');
+            filterBtn.textContent = filter;
+            filterBtn.dataset.filter = filter;
 
-        // Render each group in order
-        groupOrder.forEach((groupName) => {
-            if (!grouped[groupName]) return; // Skip if no modules in this group
+            filterBtn.onclick = (e) => {
+                e.stopPropagation();
+                e.preventDefault();
+                this.setGrammarFilter(filter);
+            };
 
-            const groupDiv = document.createElement('div');
-            groupDiv.className = 'grammar-group';
-
-            const groupTitle = document.createElement('h4');
-            groupTitle.className = 'grammar-group-title';
-            groupTitle.textContent = groupName;
-            groupDiv.appendChild(groupTitle);
-
-            const buttonsDiv = document.createElement('div');
-            buttonsDiv.className = 'grammar-group-buttons';
-
-            grouped[groupName].forEach((mod, i) => {
-                const btn = document.createElement('button');
-                btn.className = 'grammar-btn';
-                // Set active if it's the first module overall
-                if (groupName === groupOrder[0] && i === 0) btn.classList.add('active');
-                btn.textContent = mod.name;
-                btn.dataset.id = mod.id;
-
-                btn.onclick = (e) => {
-                    e.stopPropagation();
-                    e.preventDefault();
-                    console.log('Grammar button clicked:', mod.name);
-                    this.switchGrammar(mod);
-                };
-
-                buttonsDiv.appendChild(btn);
-            });
-
-            groupDiv.appendChild(buttonsDiv);
-            container.appendChild(groupDiv);
+            filtersContainer.appendChild(filterBtn);
         });
 
-        console.log('Grammar buttons rendered with groups');
+        // Render modules based on current filter
+        const modulesToShow = this.state.currentGrammarFilter === 'All'
+            ? this.grammarModules
+            : grouped[this.state.currentGrammarFilter] || [];
+
+        modulesToShow.forEach((mod, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'grammar-btn';
+            // Set active if this module is currently selected
+            if (mod.id === this.currentGrammarModuleId) btn.classList.add('active');
+            btn.textContent = mod.name;
+            btn.dataset.id = mod.id;
+
+            btn.onclick = (e) => {
+                e.stopPropagation();
+                e.preventDefault();
+                console.log('Grammar button clicked:', mod.name);
+                this.switchGrammar(mod);
+            };
+
+            buttonsContainer.appendChild(btn);
+        });
+
+        console.log('Grammar selector rendered with filters');
+    },
+
+    // ———————————————————— SET GRAMMAR FILTER ————————————————————
+    setGrammarFilter: function (filter) {
+        console.log('Setting grammar filter to:', filter);
+        this.state.currentGrammarFilter = filter;
+        localStorage.setItem('englishAdventuresGrammarFilter', filter);
+
+        // Update active filter button
+        document.querySelectorAll('.grammar-filter-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        document.querySelector(`.grammar-filter-btn[data-filter="${filter}"]`)?.classList.add('active');
+
+        // Re-render the grammar selector to show filtered modules
+        this.renderGrammarSelector();
     },
     // ———————————————————— SWITCH GRAMMAR ————————————————————
     switchGrammar: function (moduleInfo) {
         console.log('switchGrammar called for:', moduleInfo.name); // ← CRITICAL DEBUG LINE
 
-        // Store the new grammar module ID
+        // Store the new grammar module ID (persist across refreshes)
         this.currentGrammarModuleId = moduleInfo.id;
+        this.state.activeGrammarModule = moduleInfo.id;
+        localStorage.setItem('englishAdventuresCurrentGrammarModule', moduleInfo.id);
 
         // Update active state
         document.querySelectorAll('.grammar-btn').forEach(b => b.classList.remove('active'));
@@ -221,6 +259,7 @@ const App = {
                 this.recalculateModuleStars();
                 this.updateUI();
                 this.initSoundControl();
+                this.renderGrammarSelector(); // Re-render to update active states
             })
             .catch(err => {
                 console.error('Switch failed:', err);
@@ -1087,6 +1126,7 @@ const App = {
         btn.classList.add('active');
 
         this.state.activeModule = moduleId;
+        localStorage.setItem('englishAdventuresActiveModule', moduleId);
         
         // Show check-all button only for non-lesson modules
         const checkAllButton = document.getElementById('check-all-button');
@@ -1357,7 +1397,34 @@ const App = {
                         reduceMotion: parsedState.reduceMotion === true,
                     };
                     console.log('State loaded successfully:', this.state.overallProgress);
+
+                    // Restore the last active module (lesson/write/play) if saved
+                    const savedActiveModule = localStorage.getItem('englishAdventuresActiveModule');
+                    if (savedActiveModule) {
+                        this.state.activeModule = savedActiveModule;
+                        console.log('📌 Restored active module from localStorage:', savedActiveModule);
+                    }
+
                     this.switchModule(this.state.activeModule || 'writing-module');
+
+                    // Restore the last selected grammar filter (All / Advanced Grammar / etc.)
+                    const savedGrammarFilter = localStorage.getItem('englishAdventuresGrammarFilter') || parsedState.currentGrammarFilter;
+                    if (savedGrammarFilter) {
+                        this.state.currentGrammarFilter = savedGrammarFilter;
+                        console.log('📌 Restored grammar filter from localStorage:', savedGrammarFilter);
+                        this.setGrammarFilter(savedGrammarFilter);
+                    }
+
+                    // Restore the last selected grammar module if saved
+                    const savedGrammarModule = parsedState.activeGrammarModule || localStorage.getItem('englishAdventuresCurrentGrammarModule');
+                    if (savedGrammarModule && savedGrammarModule !== this.currentGrammarModuleId) {
+                        const moduleInfo = this.grammarModules.find(m => m.id === savedGrammarModule);
+                        if (moduleInfo) {
+                            console.log('📌 Restoring saved grammar module:', savedGrammarModule);
+                            this.switchGrammar(moduleInfo);
+                        }
+                    }
+
                     this.calculateProgress();
                     this.refreshModules();
                     RewardSystem.checkAllBadgeConditions();
@@ -1388,7 +1455,26 @@ const App = {
         this.state.autoShowHints = true;
         this.state.highContrast = false;
         this.state.reduceMotion = false;
-        this.switchModule('writing-module');
+
+        // If the user has an active module saved, restore it even if the full state wasn't saved
+        const savedActiveModule = localStorage.getItem('englishAdventuresActiveModule');
+        if (savedActiveModule) {
+            this.state.activeModule = savedActiveModule;
+            console.log('📌 Restoring active module from localStorage (fallback path):', savedActiveModule);
+        }
+
+        this.switchModule(this.state.activeModule || 'writing-module');
+
+        // Restore saved grammar module if present (fallback path)
+        const savedGrammarModule = localStorage.getItem('englishAdventuresCurrentGrammarModule');
+        if (savedGrammarModule && savedGrammarModule !== this.currentGrammarModuleId) {
+            const moduleInfo = this.grammarModules.find(m => m.id === savedGrammarModule);
+            if (moduleInfo) {
+                console.log('📌 Restoring saved grammar module (fallback path):', savedGrammarModule);
+                this.switchGrammar(moduleInfo);
+            }
+        }
+
         this.saveState();
         this.refreshModules();
         RewardSystem.checkAllBadgeConditions();
