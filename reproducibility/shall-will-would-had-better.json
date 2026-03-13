@@ -285,7 +285,7 @@
       "id": "game-4",
       "type": "drag-drop",
       "question": "Classify: 'You had better study for the test.'",
-      "sentence": "You had better study for the test.",
+      "sentence": "You had better study for the test. _____",
       "options": [
         "suggestion",
         "promise",
@@ -303,7 +303,7 @@
       "id": "game-5",
       "type": "drag-drop",
       "question": "Error spotter: Identify the incorrect modal use and correct it.",
-      "sentence": "She would go to the meeting tomorrow.",
+      "sentence": "She would go to the meeting tomorrow. _____",
       "options": [
         "Change to 'will'",
         "Change to 'shall'",
@@ -319,63 +319,91 @@
     },
     {
       "id": "game-6",
-      "type": "reorder",
-      "question": "Reorder to make a correct sentence with 'had better'.",
-      "sentence": "you / better / had / call / them",
-      "options": [],
+      "type": "drag-drop",
+      "question": "Complete the warning with 'had better'",
+      "sentence": "You _____ call them.",
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
       "correctAnswer": [
-        "You had better call them."
+        "had better"
       ],
       "audio": "game_6_reorder.mp3",
       "hint": "Remember the fixed phrase 'had better'.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "game-7",
-      "type": "roleplay",
-      "question": "Respond to an offer: 'Shall I carry that for you?'",
-      "sentence": "Shall I carry that for you?",
+      "type": "drag-drop",
+      "question": "Respond to a polite offer",
+      "sentence": "Would you like some tea? _____ (positive response) / _____ (negative response)",
       "options": [
         "Yes, please",
         "No, thanks",
         "Maybe later"
       ],
       "correctAnswer": [
-        "Yes, please"
+        "Yes, please",
+        "No, thanks"
       ],
       "audio": "game_7_roleplay.mp3",
       "hint": "Accept or refuse offers politely.",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": "game-8",
-      "type": "writing",
-      "question": "Prediction challenge: write a short prediction using 'will'.",
+      "type": "drag-drop",
+      "question": "Predict future events using 'will'",
       "sentence": "I think the weather _____ improve tomorrow.",
-      "options": [],
-      "correctAnswer": [],
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": [
+        "will"
+      ],
       "audio": "game_8_prediction.mp3",
       "hint": "Use 'will' to predict future events.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "game-9",
-      "type": "writing",
-      "question": "Write past habitual actions using 'would'.",
-      "sentence": "When I was young, I _____ spend summers at my grandmother's.",
-      "options": [],
-      "correctAnswer": [],
+      "type": "drag-drop",
+      "question": "Describe past and present habits using appropriate modals",
+      "sentence": "When I was young, I _____ spend summers at my grandmother's, but now I _____ visit less often.",
+      "options": [
+        "would",
+        "will",
+        "shall",
+        "had better"
+      ],
+      "correctAnswer": [
+        "would",
+        "will"
+      ],
       "audio": "game_9_habit.mp3",
-      "hint": "'Would' describes repeated past actions.",
-      "difficulty": "easy"
+      "hint": "Use 'would' for past habitual actions and 'will' for future intentions.",
+      "difficulty": "hard"
     },
     {
       "id": "game-10",
-      "type": "simulator",
-      "question": "Warning simulator: craft 'had better' warnings for given scenarios.",
+      "type": "drag-drop",
+      "question": "Give urgent advice using 'had better'",
       "sentence": "You _____ check the brakes before driving.",
-      "options": [],
-      "correctAnswer": [],
+      "options": [
+        "shall",
+        "will",
+        "would",
+        "had better"
+      ],
+      "correctAnswer": [
+        "had better"
+      ],
       "audio": "game_10_simulator.mp3",
       "hint": "Use 'had better' to give urgent, practical advice.",
       "difficulty": "hard"

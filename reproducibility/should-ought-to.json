@@ -333,22 +333,27 @@
     },
     {
       "id": "game-6",
-      "type": "reorder",
-      "question": "Reorder to make a correct sentence with 'should'.",
-      "sentence": "early / you / should / leave / really",
-      "options": [],
+      "type": "drag-drop",
+      "question": "Complete the sentence with the correct modal for advice",
+      "sentence": "You _____ really leave early.",
+      "options": [
+        "should",
+        "ought to",
+        "should have",
+        "would"
+      ],
       "correctAnswer": [
-        "You should really leave early."
+        "should"
       ],
       "audio": "game_6_reorder_should.mp3",
       "hint": "Remember: subject + should + verb form.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "game-7",
-      "type": "roleplay",
-      "question": "Respond appropriately to: 'You should try the pizza here.'",
-      "sentence": "You should try the pizza here.",
+      "type": "drag-drop",
+      "question": "Choose the appropriate response to friendly advice",
+      "sentence": "_____",
       "options": [
         "That sounds like a good idea",
         "I disagree completely",
@@ -359,39 +364,59 @@
       ],
       "audio": "game_7_roleplay_should.mp3",
       "hint": "Accept friendly recommendations gracefully.",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
       "id": "game-8",
-      "type": "writing",
-      "question": "Expectation challenge: write a sentence using 'should' to express a likely outcome.",
+      "type": "drag-drop",
+      "question": "Express a likely outcome using 'should'",
       "sentence": "If the recipe is correct, the cake _____ come out perfectly.",
-      "options": [],
-      "correctAnswer": [],
+      "options": [
+        "should",
+        "ought to",
+        "could",
+        "will"
+      ],
+      "correctAnswer": [
+        "should"
+      ],
       "audio": "game_8_expectation.mp3",
       "hint": "Use 'should' to express what logically should happen.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "game-9",
-      "type": "writing",
-      "question": "Write a piece of advice using 'ought to' for personal growth.",
+      "type": "drag-drop",
+      "question": "Give advice for personal growth using 'ought to'",
       "sentence": "Everyone _____ take time for self-reflection.",
-      "options": [],
-      "correctAnswer": [],
+      "options": [
+        "should",
+        "ought to",
+        "could",
+        "will"
+      ],
+      "correctAnswer": [
+        "ought to"
+      ],
       "audio": "game_9_ought_personal.mp3",
       "hint": "'Ought to' suggests what is appropriate or good.",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "game-10",
-      "type": "simulator",
-      "question": "Advice simulator: frame recommendations using 'should' and 'ought to' for various situations.",
-      "sentence": "In this difficult time, you _____ reach out to trusted people.",
-      "options": [],
-      "correctAnswer": [],
+      "type": "drag-drop",
+      "question": "Frame recommendations for a difficult situation with multiple modals",
+      "sentence": "In this difficult time, you _____ reach out to trusted people, and you _____ consider professional help.",
+      "options": [
+        "should",
+        "ought to"
+      ],
+      "correctAnswer": [
+        "should",
+        "ought to"
+      ],
       "audio": "game_10_advice_sim.mp3",
-      "hint": "Choose 'should' for practical advice and 'ought to' for what is right.",
+      "hint": "Use 'should' for practical advice and 'ought to' for moral appropriateness.",
       "difficulty": "hard"
     }
   ],

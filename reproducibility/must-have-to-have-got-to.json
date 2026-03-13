@@ -411,7 +411,7 @@
       ],
       "audio": "game_6_deduction.mp3",
       "hint": "Based on evidence (worked 12 hours), logical deduction. Use 'must' for certainty (Lesson 5)",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
       "id": "game-7",
@@ -430,7 +430,7 @@
       ],
       "audio": "game_7_past_obligation.mp3",
       "hint": "Past obligation requires 'had to' (Lesson 2 - 'must' has no past form)",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "game-8",
@@ -449,25 +449,25 @@
       ],
       "audio": "game_8_future_obligation.mp3",
       "hint": "Future obligation uses 'will have to' (Lesson 2 - 'must' has no future form)",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "game-9",
       "type": "drag-drop",
-      "question": "Past deduction: Which correctly shows logical conclusion?",
-      "sentence": "Nobody answered the door. They ____ be home.",
+      "question": "Make negative deductions and express possibilities",
+      "sentence": "Nobody answered the door. They _____ be home, or they _____ be available.",
       "options": [
         "must not",
-        "have not",
-        "don't have to",
-        "mustn't be",
-        "must not be"
+        "might not",
+        "can't",
+        "don't have to"
       ],
       "correctAnswer": [
-        "must not be"
+        "must not",
+        "might not"
       ],
       "audio": "game_9_past_deduction.mp3",
-      "hint": "Negative deduction: 'must not be'. Different from 'mustn't' (prohibition) (Lesson 5)",
+      "hint": "Use 'must not' for negative deduction and 'might not' for possibility.",
       "difficulty": "hard"
     },
     {
@@ -591,7 +591,7 @@
     {
       "id": "quiz-7",
       "question": "What does 'must' show when used for deduction?",
-      "sentence": "It's 3 PM and he hasn't eaten. He ____ be hungry.",
+      "sentence": "It's 3 PM and he hasn't eaten. He ____ hungry.",
       "options": [
         "must be",
         "have to be",
@@ -607,7 +607,7 @@
     {
       "id": "quiz-8",
       "question": "How do you express past deduction?",
-      "sentence": "Nobody answered. They ____ be home when I called.",
+      "sentence": "Nobody answered. They ____ at home when I called.",
       "options": [
         "must not",
         "don't have to",
@@ -690,7 +690,7 @@
       "id": "spelling-5",
       "word": "prohibition",
       "hint": "The act of forbidding; what is not allowed.",
-      "clue": "p__ibi___n",
+      "clue": "p__hibi___n",
       "sentence": "The ____ on smoking applies to all employees.",
       "difficulty": "hard"
     },
@@ -722,7 +722,7 @@
       "id": "spelling-9",
       "word": "certainty",
       "hint": "The state of being absolutely sure.",
-      "clue": "ce____i__",
+      "clue": "ce___i___",
       "sentence": "With ____, I can say this rule is important.",
       "difficulty": "hard"
     },

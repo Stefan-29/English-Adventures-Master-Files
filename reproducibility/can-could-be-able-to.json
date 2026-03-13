@@ -366,7 +366,7 @@
       ],
       "audio": "polite_permission.mp3",
       "hint": "'Could' is more polite than 'Can' for requests (Lesson 2)",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "game-5",
@@ -385,7 +385,7 @@
       ],
       "audio": "possibility.mp3",
       "hint": "'Could' expresses possibility or speculation (Lesson 2)",
-      "difficulty": "easy"
+      "difficulty": "medium"
     },
     {
       "id": "game-6",
@@ -447,27 +447,27 @@
     {
       "id": "game-9",
       "type": "drag-drop",
-      "question": "Which expresses future ability?",
-      "sentence": "After this training, I ____ perform the task professionally.",
+      "question": "Distinguish future and past ability forms",
+      "sentence": "After this training, I _____ perform the task professionally, but before I _____ not do it.",
       "options": [
-        "can",
-        "could",
         "will be able to",
-        "was able to",
-        "able to"
+        "could",
+        "can",
+        "was able to"
       ],
       "correctAnswer": [
-        "will be able to"
+        "will be able to",
+        "could"
       ],
       "audio": "future_ability.mp3",
-      "hint": "For future ability, use 'will be able to' (Lesson 3 & 4)",
-      "difficulty": "easy"
+      "hint": "Use 'will be able to' for future ability and 'could' for past inability.",
+      "difficulty": "hard"
     },
     {
       "id": "game-10",
       "type": "drag-drop",
       "question": "Select ALL correct forms to complete the sentence (multiple achievement levels):",
-      "sentence": "She ____ solve mathematical problems since she was a child.",
+      "sentence": "She ____ / ____ solve mathematical problems since she was a child.",
       "options": [
         "can",
         "could",
@@ -584,7 +584,7 @@
     {
       "id": "quiz-7",
       "question": "Which form shows present permission?",
-      "sentence": "I ____ borrow your pen? (asking permission)",
+      "sentence": " ____ I borrow your pen? (asking permission)",
       "options": [
         "can",
         "could",
