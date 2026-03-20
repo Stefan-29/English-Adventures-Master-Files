@@ -101,6 +101,20 @@ markActivityCompleted: function(activityId, category) {
         this.checkTimeTravelerBadge();
     },
 
+    // Safe normalization of badge condition text
+    getBadgeCondition: function (badge) {
+        if (!badge || typeof badge.condition === 'undefined' || badge.condition === null) {
+            return '';
+        }
+
+        try {
+            return String(badge.condition).toLowerCase();
+        } catch (e) {
+            console.warn('Invalid badge condition, skipping:', e, badge);
+            return '';
+        }
+    },
+
     // Helper function to check if category is completed
     isCategoryCompleted: function (category, requiredCount) {
         // Get the list of activity IDs for the category
@@ -131,7 +145,7 @@ markActivityCompleted: function(activityId, category) {
         
         // Check for any writing-related badges (those mentioning writing in condition)
         this.rewards.badges
-            .filter(badge => badge.moduleId === moduleId && badge.condition.toLowerCase().includes('writing'))
+            .filter(badge => badge.moduleId === moduleId && this.getBadgeCondition(badge).includes('writing'))
             .forEach(badge => {
                 const alreadyAwarded = App.state.rewards.badges.some(b => b.id === badge.id);
                 if (!alreadyAwarded && writingCompleted / writingActivities > 0.5) {
@@ -149,7 +163,7 @@ markActivityCompleted: function(activityId, category) {
         const gameCompleted = this.getCompletedCount('game', moduleId);
         
         this.rewards.badges
-            .filter(badge => badge.moduleId === moduleId && badge.condition.toLowerCase().includes('game'))
+            .filter(badge => badge.moduleId === moduleId && this.getBadgeCondition(badge).includes('game'))
             .forEach(badge => {
                 const alreadyAwarded = App.state.rewards.badges.some(b => b.id === badge.id);
                 if (!alreadyAwarded && gameCompleted / gameActivities > 0.5) {
@@ -167,7 +181,7 @@ markActivityCompleted: function(activityId, category) {
         const spellingCompleted = this.getCompletedCount('spelling', moduleId);
         
         this.rewards.badges
-            .filter(badge => badge.moduleId === moduleId && (badge.condition.toLowerCase().includes('spelling') || badge.condition.toLowerCase().includes('spell')))
+            .filter(badge => badge.moduleId === moduleId && (this.getBadgeCondition(badge).includes('spelling') || this.getBadgeCondition(badge).includes('spell')))
             .forEach(badge => {
                 const alreadyAwarded = App.state.rewards.badges.some(b => b.id === badge.id);
                 if (!alreadyAwarded && spellingCompleted / spellingActivities > 0.5) {
@@ -185,7 +199,7 @@ markActivityCompleted: function(activityId, category) {
         const lessonCompleted = this.getCompletedCount('lesson', moduleId);
         
         this.rewards.badges
-            .filter(badge => badge.moduleId === moduleId && (badge.condition.toLowerCase().includes('lesson') || badge.condition.toLowerCase().includes('learn')))
+            .filter(badge => badge.moduleId === moduleId && (this.getBadgeCondition(badge).includes('lesson') || this.getBadgeCondition(badge).includes('learn')))
             .forEach(badge => {
                 const alreadyAwarded = App.state.rewards.badges.some(b => b.id === badge.id);
                 if (!alreadyAwarded && lessonCompleted / lessonActivities > 0.5) {
@@ -227,7 +241,7 @@ markActivityCompleted: function(activityId, category) {
 
         // Award completion badges (those for mastering the entire module)
         this.rewards.badges
-            .filter(badge => badge.moduleId === moduleId && (badge.condition.toLowerCase().includes('complete') || badge.condition.toLowerCase().includes('master') || badge.condition.toLowerCase().includes('platinum')))
+            .filter(badge => badge.moduleId === moduleId && (this.getBadgeCondition(badge).includes('complete') || this.getBadgeCondition(badge).includes('master') || this.getBadgeCondition(badge).includes('platinum')))
             .forEach(badge => {
                 const alreadyAwarded = App.state.rewards.badges.some(b => b.id === badge.id);
                 if (!alreadyAwarded && completionPercentage > 0.8) {

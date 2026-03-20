@@ -2,40 +2,115 @@
   "lessonActivities": [
     {
       "id": "lesson-1",
-      "title": "10.3 Bare Infinitive",
-      "content": "<p>Bare infinitive (no 'to') usually follows verbs of perception and causative verbs: make, let, have, see, hear, feel.</p>",
-      "examples": ["She made him apologize.", "I heard them sing."],
+      "title": "10.3 Bare Infinitive: Perception Verbs",
+      "content": "<p>Perception verbs such as see, hear, feel, watch, notice take bare infinitive with action verbs that follow (I saw him leave, I heard her sing).</p>",
+      "examples": ["I saw him run.", "She heard the baby cry."],
       "difficulty": 2,
-      "audio": "lc3_bare.mp3",
-      "functions": ["Understand bare infinitive usage","Apply in sentence patterns"],
-      "tips": "If action is directly perceived or forced: use bare infinitive."
+      "audio": "bare_inf_1.mp3",
+      "functions": ["Recognize perception verbs","Construct bare infinitive clauses"],
+      "tips": "For direct perception use bare infinitive; for indirect use gerund (I saw him running)."
     },
     {
       "id": "lesson-2",
-      "title": "Bare Infinitive vs To-Infinitive",
-      "content": "<p>Compare: 'I made him leave' (bare) vs 'I asked him to leave' (to-infinitive). 'Help' can use both: 'help me clean' / 'help me to clean'.</p>",
-      "examples": ["Let me go.", "She helped me carry the bag."],
+      "title": "10.3 Bare Infinitive: Causative Verbs",
+      "content": "<p>Use make, let, have in causative structures with bare infinitive (She made him apologize, He let me go, I had him check the engine).</p>",
+      "examples": ["They made her finish the job.", "I let him borrow my book."],
+      "difficulty": 2,
+      "audio": "bare_inf_2.mp3",
+      "functions": ["Use causative verbs","Compare with to-infinitive"],
+      "tips": "Make means force; let means permit; have means arrange."
+    },
+    {
+      "id": "lesson-3",
+      "title": "10.3 Bare Infinitive vs To-Infinitive",
+      "content": "<p>Some verbs can be followed by either bare or to-infinitive with changed meaning: help, start, begin, continue. Learn when each is correct.</p>",
+      "examples": ["She helped me (to) carry the box.", "He started to run / He started running."],
       "difficulty": 3,
-      "audio": "lc3_bare_vs_to.mp3",
-      "functions": ["Distinguish bare and to-infinitive","Use both forms safely"],
-      "tips": "With common causatives, the bare form is the default when action is caused."
+      "audio": "bare_inf_3.mp3",
+      "functions": ["Distinguish both forms","Choose correct literal meaning"],
+      "tips": "Help can use both; other verbs vary by context and emphasis."
+    },
+    {
+      "id": "lesson-4",
+      "title": "10.3 Bare Infinitive with Modals and Let/Make",
+      "content": "<p>After modals and causatives we also use bare infinitive: can make/might let/may have etc. Eg: She can make them work, they might let him go.</p>",
+      "examples": ["You must make her listen.", "He may let the dogs out."],
+      "difficulty": 3,
+      "audio": "bare_inf_4.mp3",
+      "functions": ["Apply in advanced constructs","Use in complicated sentences"],
+      "tips": "Linking modals and causatives keeps form compact and direct."
+    },
+    {
+      "id": "lesson-5",
+      "title": "10.3 Bare Infinitive in Conversation",
+      "content": "<p>In spoken English, bare infinitive after certain verbs is very common. This lesson offers conversation patterns for all ages.</p>",
+      "examples": ["Let me help you.", "She made me laugh."],
+      "difficulty": 3,
+      "audio": "bare_inf_5.mp3",
+      "functions": ["Use in spoken contexts","Practice everyday structure"],
+      "tips": "Remember bare infinitive is usual for direct verbs of influence/perception."
     }
   ],
   "writingActivities": [
-    {"id":"writing-1","question":"Write 4 sentences with bare infinitive after make/let/have.","hint":"Example: I made him do it.","expectedKeywords":["make","let","have","see","hear"],"sentenceStarters":["I let my friend ___ .","They made me ___ ."],"difficulty":2},
-    {"id":"writing-2","question":"Write 3 sentences with to-infinitive after ask/want/need/plan.","hint":"Compare to the bare infinitive form.","expectedKeywords":["ask to","want to","need to","plan to"],"sentenceStarters":["I asked her to ___ .","We need to ___ ."],"difficulty":2}
+    {"id":"writing-1","question":"Write 2 sentences using see/hear + bare infinitive.","hint":"I saw him leave.","expectedKeywords":["see","hear","leave","sing"],"sentenceStarters":["I saw ...","I heard ..."],"difficulty":2},
+    {"id":"writing-2","question":"Write 2 sentences using make/let + bare infinitive.","hint":"She made him ...", "expectedKeywords":["make","let","do","go"],"sentenceStarters":["She made ...","He let ..."],"difficulty":2},
+    {"id":"writing-3","question":"Write 2 sentences using have + bare infinitive (causative).","hint":"I had her clean.","expectedKeywords":["have","make","let"],"sentenceStarters":["I had ...","We had ..."],"difficulty":2},
+    {"id":"writing-4","question":"Write 2 sentences with help + bare/to-infinitive statements.","hint":"Help may or may not use to.","expectedKeywords":["help","to"],"sentenceStarters":["He helped me ...","I helped her ..."],"difficulty":3},
+    {"id":"writing-5","question":"Write 2 sentences describing what you heard and saw using bare infinitive.","hint":"I heard the dog bark.","expectedKeywords":["heard","saw","bark","run"],"sentenceStarters":["I heard ...","I saw ..."],"difficulty":3},
+    {"id":"writing-6","question":"Write 2 sentences using start/begin + bare infinitive and explain nuance.","hint":"Started running vs started to run.","expectedKeywords":["started","began","running","to run"],"sentenceStarters":["I started ...","She began ..."],"difficulty":3},
+    {"id":"writing-7","question":"Write 2 sentences with 'watch' + bare infinitive.","hint":"I watch them cook.","expectedKeywords":["watch","cook","play"],"sentenceStarters":["I watch ...","They watch ..."],"difficulty":3},
+    {"id":"writing-8","question":"Write 2 sentences using 'feel' + bare infinitive.","hint":"I feel the wind blow.","expectedKeywords":["feel","wind","blow","tremble"],"sentenceStarters":["I feel ...","She feels ..."],"difficulty":3},
+    {"id":"writing-9","question":"Write 2 sentences with 'let' in positive/negative forms.","hint":"Don’t let him ...", "expectedKeywords":["let","not let","go","enter"],"sentenceStarters":["Don’t let ...","Let ..."],"difficulty":4},
+    {"id":"writing-10","question":"Write a short paragraph describing a day using 8+ bare infinitive structures.","hint":"Use at least see/hear/make/let/have.","expectedKeywords":["see","hear","make","let","have"],"sentenceStarters":["This morning I saw ..."],"difficulty":4}
   ],
   "gameActivities": [
-    {"id":"game-1","type":"drag-drop","question":"Choose bare or to-infinitive.","sentence":"She made him ___ quiet.","options":["be","to be","being","been"],"correctAnswer":["be"],"audio":"g1.mp3","hint":"Make + bare infinitive.","difficulty":"easy"},
-    {"id":"game-2","type":"drag-drop","question":"Choose bare or to-infinitive.","sentence":"I heard her ___ the song.","options":["sing","to sing","sang","singing"],"correctAnswer":["sing"],"audio":"g2.mp3","hint":"Hear + bare infinitive.","difficulty":"easy"}
+    {"id":"game-1","type":"drag-drop","question":"Choose bare or to-infinitive","sentence":"I saw him ___ the cake.","options":["eat","to eat","eating","eaten"],"correctAnswer":["eat"],"audio":"bare_game1.mp3","hint":"See + bare infinitive.","difficulty":"easy"},
+    {"id":"game-2","type":"drag-drop","question":"Choose bare or to-infinitive","sentence":"She made me ___ my room.","options":["clean","to clean","cleaning","cleaned"],"correctAnswer":["clean"],"audio":"bare_game2.mp3","hint":"Make + bare infinitive.","difficulty":"easy"},
+    {"id":"game-3","type":"drag-drop","question":"Choose bare or to-infinitive","sentence":"He let me ___ the book.","options":["borrow","to borrow","borrowing","borrowed"],"correctAnswer":["borrow"],"audio":"bare_game3.mp3","hint":"Let + bare infinitive.","difficulty":"easy"},
+    {"id":"game-4","type":"drag-drop","question":"Choose bare or to-infinitive","sentence":"I heard them ___ in the yard.","options":["sing","to sing","singing","sang"],"correctAnswer":["sing"],"audio":"bare_game4.mp3","hint":"Hear + bare infinitive.","difficulty":"easy"},
+    {"id":"game-5","type":"drag-drop","question":"Choose bare or to-infinitive","sentence":"We had him ___ the test.","options":["take","to take","taking","took"],"correctAnswer":["take"],"audio":"bare_game5.mp3","hint":"Have + bare infinitive.","difficulty":"medium"},
+    {"id":"game-6","type":"drag-drop","question":"Choose bare or to-infinitive","sentence":"Can you help me ___ the table?","options":["clear","to clear","clearing","cleared"],"correctAnswer":["clear"],"audio":"bare_game6.mp3","hint":"Help can use bare and to.","difficulty":"medium"},
+    {"id":"game-7","type":"drag-drop","question":"Choose bare or to-infinitive","sentence":"They made him ___ the song.","options":["sing","to sing","singing","sang"],"correctAnswer":["sing"],"audio":"bare_game7.mp3","hint":"Make + bare infinitive.","difficulty":"medium"},
+    {"id":"game-8","type":"drag-drop","question":"Choose bare or to-infinitive","sentence":"We watched her ___ the boat.","options":["steer","to steer","steering","steered"],"correctAnswer":["steer"],"audio":"bare_game8.mp3","hint":"Watch + bare infinitive.","difficulty":"medium"},
+    {"id":"game-9","type":"drag-drop","question":"Choose bare or to-infinitive","sentence":"I feel the wind ___ now.","options":["blow","to blow","blowing","blew"],"correctAnswer":["blow"],"audio":"bare_game9.mp3","hint":"Feel + bare infinitive.","difficulty":"hard"},
+    {"id":"game-10","type":"drag-drop","question":"Choose bare or to-infinitive","sentence":"They let him ___ early.","options":["leave","to leave","leaving","left"],"correctAnswer":["leave"],"audio":"bare_game10.mp3","hint":"Let + bare infinitive.","difficulty":"hard"}
   ],
   "quizActivities": [
-    {"id":"quiz-1","question":"Which is correct?","sentence":"He let me ___ in the park.","options":["run","to run","running","ran"],"correctAnswer":"run","audio":"q1.mp3","hint":"Let + bare infinitive.","difficulty":"easy","explanation":"Let uses bare infinitive."},
-    {"id":"quiz-2","question":"Which is correct?","sentence":"I asked him ___ the letter.","options":["write","to write","writing","wrote"],"correctAnswer":"to write","audio":"q2.mp3","hint":"Ask uses to-infinitive.","difficulty":"easy","explanation":"Ask requires to-infinitive."}
+    {"id":"quiz-1","question":"Correct form?","sentence":"I saw her ___ the window.","options":["clean","cleaning","to clean","cleaned"],"correctAnswer":"clean","audio":"bare_quiz1.mp3","hint":"See + bare infinitive.","difficulty":"easy","explanation":"See + verb without to."},
+    {"id":"quiz-2","question":"Correct form?","sentence":"He made them ___ the meal.","options":["prepare","preparing","to prepare","prepared"],"correctAnswer":"prepare","audio":"bare_quiz2.mp3","hint":"Make + bare infinitive.","difficulty":"easy","explanation":"Make uses bare infinitive."},
+    {"id":"quiz-3","question":"Correct form?","sentence":"She let me ___ the dog.","options":["walk","to walk","walking","walked"],"correctAnswer":"walk","audio":"bare_quiz3.mp3","hint":"Let + bare infinitive.","difficulty":"easy","explanation":"Let is followed by bare infinitive."},
+    {"id":"quiz-4","question":"Correct form?","sentence":"I heard someone ___ outside.","options":["cry","to cry","crying","cried"],"correctAnswer":"cry","audio":"bare_quiz4.mp3","hint":"Hear + bare infinitive.","difficulty":"easy","explanation":"Hear + bare infinitive for complete action."},
+    {"id":"quiz-5","question":"Correct form?","sentence":"We had him ___ the document.","options":["sign","to sign","signing","signed"],"correctAnswer":"sign","audio":"bare_quiz5.mp3","hint":"Have + bare infinitive.","difficulty":"medium","explanation":"Have in causative uses bare infinitive."},
+    {"id":"quiz-6","question":"Correct form?","sentence":"Can you help me ___ the room?","options":["clean","to clean","cleaning","cleaned"],"correctAnswer":"clean","audio":"bare_quiz6.mp3","hint":"Help can behave with or without to.","difficulty":"medium","explanation":"Help + bare infinitive is common."},
+    {"id":"quiz-7","question":"Correct form?","sentence":"She watched him ___ the puzzle.","options":["solve","to solve","solving","solved"],"correctAnswer":"solve","audio":"bare_quiz7.mp3","hint":"Watch + bare infinitive.","difficulty":"medium","explanation":"Watch takes bare infinitive in perception form."},
+    {"id":"quiz-8","question":"Correct form?","sentence":"I feel the car ___ to stop.","options":["start","starting","to start","started"],"correctAnswer":"start","audio":"bare_quiz8.mp3","hint":"Feel + bare infinitive.","difficulty":"hard","explanation":"Feel uses bare infinitive for direct perception."},
+    {"id":"quiz-9","question":"Correct form?","sentence":"He doesn’t let them ___ late.","options":["stay","staying","to stay","stayed"],"correctAnswer":"stay","audio":"bare_quiz9.mp3","hint":"Let + bare infinitive.","difficulty":"hard","explanation":"Let uses bare infinitive."},
+    {"id":"quiz-10","question":"Correct form?","sentence":"They made her ___ the truth.","options":["tell","to tell","telling","told"],"correctAnswer":"tell","audio":"bare_quiz10.mp3","hint":"Make + bare infinitive.","difficulty":"hard","explanation":"Make uses bare infinitive."}
   ],
   "spellingActivities": [
-    {"id":"spelling-1","word":"make","hint":"Causative verb","clue":"They made me ___ the room.","sentence":"They made me clean the room.","difficulty":"medium"},
-    {"id":"spelling-2","word":"hear","hint":"Perception verb","clue":"I heard her ___ the song.","sentence":"I heard her sing the song.","difficulty":"medium"}
+    {"id":"spelling-1","word":"make","hint":"Causative verb","clue":"She made him ___ the bed.","sentence":"She made him make the bed.","difficulty":"easy"},
+    {"id":"spelling-2","word":"let","hint":"Permission verb","clue":"Let us ___ together.","sentence":"Let us go together.","difficulty":"easy"},
+    {"id":"spelling-3","word":"have","hint":"Causative verb","clue":"I had them ___ the cake.","sentence":"I had them bake the cake.","difficulty":"easy"},
+    {"id":"spelling-4","word":"see","hint":"Perception verb","clue":"I saw him ___ the door.","sentence":"I saw him open the door.","difficulty":"easy"},
+    {"id":"spelling-5","word":"hear","hint":"Perception verb","clue":"I heard her ___ a song.","sentence":"I heard her sing a song.","difficulty":"easy"},
+    {"id":"spelling-6","word":"watch","hint":"Perception verb","clue":"They watched the sun ___ .","sentence":"They watched the sun set.","difficulty":"medium"},
+    {"id":"spelling-7","word":"feel","hint":"Perception verb","clue":"I feel the ground ___ .","sentence":"I feel the ground shake.","difficulty":"medium"},
+    {"id":"spelling-8","word":"help","hint":"Semi-causative verb","clue":"Can you help me ___ ?","sentence":"Can you help me move?", "difficulty":"medium"},
+    {"id":"spelling-9","word":"start","hint":"Verb that can use both forms","clue":"He started ___ early.","sentence":"He started to run early.","difficulty":"hard"},
+    {"id":"spelling-10","word":"continue","hint":"Verb that can use both forms","clue":"She continued ___ after breakfast.","sentence":"She continued reading after breakfast.","difficulty":"hard"}
   ],
-  "rewards":{"stars":[{"id":"star-1","name":"Bare Starter","description":"Complete bare infinitive lessons.","icon":"⭐","requirement":"2 activities","unlocked":false}],"badges":[{"id":"badge-1","name":"Bare Expert","description":"Perfect quiz score for bare infinitive.","icon":"🏅","requirement":"100% quiz","unlocked":false}]}
+  "rewards": {
+    "stars": [
+      {"id":"star-1","name":"Bare Beginner","description":"Complete the first 3 activities.","icon":"⭐","requirement":"3 tasks","unlocked":false},
+      {"id":"star-2","name":"Causative Crafter","description":"Complete 5 writing + 5 game tasks.","icon":"⭐⭐","requirement":"10 tasks","unlocked":false},
+      {"id":"star-3","name":"Perception Pro","description":"Complete quiz with 80% correct.","icon":"⭐⭐⭐","requirement":"80% quiz accuracy","unlocked":false},
+      {"id":"star-4","name":"Modal Master","description":"Complete all module tasks.","icon":"⭐⭐⭐⭐","requirement":"All tasks done","unlocked":false},
+      {"id":"star-5","name":"Bare Infinitive Champion","description":"Score high on every section.","icon":"⭐⭐⭐⭐⭐","requirement":"100% completion","unlocked":false}
+    ],
+    "badges": [
+      {"id":"badge-1","name":"Look, Listen, Learn","description":"Master perception verbs with bare infinitive.","icon":"🏆","requirement":"Full perception quiz","unlocked":false},
+      {"id":"badge-2","name":"Cause and Effect","description":"Master causative forms.","icon":"🎖️","requirement":"Full causative quiz","unlocked":false},
+      {"id":"badge-3","name":"Talkative Teacher","description":"Use verb forms clearly in writing.","icon":"🎓","requirement":"All writing tasks reviewed","unlocked":false}
+    ]
+  }
 }

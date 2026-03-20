@@ -2,61 +2,130 @@
   "lessonActivities": [
     {
       "id": "lesson-1",
-      "title": "10.1 Gerund vs Infinitive",
-      "content": "<p>Gerund = verb+ing, infinitive = to+verb. Some verbs require one, some the other, and some allow both with meaning changes.</p><p>Use gerund with: enjoy, avoid, imagine, suggest, mind. Use infinitive with: want, hope, intend, plan, need.</p>",
+      "title": "10.1 Gerund vs Infinitive: Core Concepts",
+      "content": "<p>Gerunds (verb+ing) and infinitives (to+verb) are used in different syntactic positions and with different verbs. Some verbs only take gerund, some only infinitive, and some can take both with minor or major meaning changes.</p>",
       "examples": [
-        "I enjoy reading. (gerund)",
-        "She wants to start a new job. (infinitive)"
+        "I enjoy reading books. (gerund)",
+        "I want to read the book. (infinitive)"
       ],
       "difficulty": 1,
-      "audio": "lesson_gerund_vs_infinitive.mp3",
-      "functions": ["Understand basic rules", "Recognize form patterns"],
-      "tips": "Remember: after preferences use gerund; after desires/plans use infinitive."
+      "audio": "lesson_1_gerund_vs_infinitive.mp3",
+      "functions": ["Identify gerund vs infinitive", "Learn basic rules"],
+      "tips": "Gerund often follows preference/emotion verbs; infinitive often follows intention/desire verbs."
     },
     {
       "id": "lesson-2",
-      "title": "Gerund and Infinitive Examples",
-      "content": "<p>Common verbs: like, love, hate, start, continue, stop, remember, forget, try, need.</p><p>Meaning-check: 'stop smoking' vs 'stop to smoke' is different.</p>",
+      "title": "10.1 Common Gerund Verbs",
+      "content": "<p>Verbs that take gerund include enjoy, avoid, finish, suggest, keep, mind, stop, admit, deny, miss. These verbs describe activities or mental states where the verb is treated as a noun-like action.</p>",
       "examples": [
-        "I like swimming.",
-        "I want to swim."
+        "She avoids waiting in line.",
+        "He suggested taking an earlier train."
       ],
       "difficulty": 2,
-      "audio": "lesson_gerund_vs_infinitive2.mp3",
-      "functions": ["Compare forms", "Disambiguate meaning"],
-      "tips": "Meaning often decides form: gerund describes activity, infinitive points at action intent."
+      "audio": "lesson_2_gerund_verbs.mp3",
+      "functions": ["Practice gerund verbs", "Use gerunds in sentences"],
+      "tips": "Many gerund verbs are linked to experiences, preferences, or disliked actions."
+    },
+    {
+      "id": "lesson-3",
+      "title": "10.1 Common Infinitive Verbs",
+      "content": "<p>Verbs that take infinitive include want, hope, plan, decide, intend, need, promise, offer, refuse, learn. Often these verbs refer to goals, intentions, or scheduled actions.</p>",
+      "examples": [
+        "They plan to start lessons next month.",
+        "I need to finish my homework."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_infinitive_verbs.mp3",
+      "functions": ["Practice infinitive verbs", "Use infinitives in context"],
+      "tips": "Infinitives frequently express future-focused actions or desires."
+    },
+    {
+      "id": "lesson-4",
+      "title": "10.1 Gerund vs Infinitive: Meaning Shift Verbs",
+      "content": "<p>Some verbs take both forms with meaning difference: remember, forget, stop, try, begin, continue. This lesson explains how meaning changes with gerund vs infinitive.</p>",
+      "examples": [
+        "I remembered locking the door. (past memory)",
+        "I remembered to lock the door. (future reminder)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_4_meaning_shift.mp3",
+      "functions": ["Understand nuanced meaning", "Choose correct form"],
+      "tips": "When in doubt, check if the action is completed (gerund) or intended/scheduled (infinitive)."
+    },
+    {
+      "id": "lesson-5",
+      "title": "10.1 Gerunds and Infinitives in Real-Life English",
+      "content": "<p>Explore advanced patterns: expressions + gerund (no use, no point in, can’t help, be good at), to-infinitive used for purpose (to improve, to learn), and mixed cases in formal writing.</p>",
+      "examples": [
+        "It’s no use arguing with him.",
+        "She studied hard to pass the exam."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_5_real_life.mp3",
+      "functions": ["Use gerund/infinitive naturally", "Apply in conversations"],
+      "tips": "Use gerund after expressions and prepositions, infinitive for purposes and goals."
     }
   ],
   "writingActivities": [
-    {
-      "id": "writing-1",
-      "question": "Write 4 sentences that use gerund correctly.",
-      "hint": "Use verbs like enjoy, avoid, admit, suggest.",
-      "expectedKeywords": ["enjoy", "avoid", "imagine", "suggest"],
-      "sentenceStarters": ["I enjoy ___ .", "I avoid ___ ."],
-      "difficulty": 1
-    },
-    {
-      "id": "writing-2",
-      "question": "Write 4 sentences that use infinitive correctly.",
-      "hint": "Use verbs like want, plan, decide, need.",
-      "expectedKeywords": ["want to", "plan to", "decide to", "need to"],
-      "sentenceStarters": ["I want to ___ .", "I plan to ___ ."],
-      "difficulty": 1
-    }
+    {"id":"writing-1","question":"Write 2 sentences using 'enjoy' with gerund.","hint":"e.g. I enjoy ...ing.","expectedKeywords":["enjoy","ing"],"sentenceStarters":["I enjoy ...","My favorite thing is ...ing"],"difficulty":1},
+    {"id":"writing-2","question":"Write 2 sentences using 'plan' with infinitive.","hint":"e.g. I plan to ... .","expectedKeywords":["plan to","to"],"sentenceStarters":["I plan to ...","Next week I plan to ..."],"difficulty":1},
+    {"id":"writing-3","question":"Write 2 sentences using 'avoid' + gerund.","hint":"e.g. I avoid ...ing.","expectedKeywords":["avoid","ing"],"sentenceStarters":["I avoid ...","I try not to ..."],"difficulty":1},
+    {"id":"writing-4","question":"Write 2 sentences using 'need' + infinitive.","hint":"e.g. I need to ... .","expectedKeywords":["need to","to"],"sentenceStarters":["I need to ...","This week I need to ..."],"difficulty":1},
+    {"id":"writing-5","question":"Write 2 sentences with 'stop' (one gerund, one infinitive) and explain difference.","hint":"stop smoking vs stop to smoke.","expectedKeywords":["stop","ing","to"],"sentenceStarters":["I stopped ...","I stopped to ..."],"difficulty":2},
+    {"id":"writing-6","question":"Write 2 sentences with 'remember' (one gerund, one infinitive) and explain difference.","hint":"remember doing vs remember to do.","expectedKeywords":["remember","ing","to"],"sentenceStarters":["I remembered ...","I remembered to ..."],"difficulty":2},
+    {"id":"writing-7","question":"Write 2 sentences with expressions: no use / no point in + gerund.","hint":"It’s no use ...ing.","expectedKeywords":["no use","no point in","ing"],"sentenceStarters":["It’s no use ...","There’s no point in ..."],"difficulty":2},
+    {"id":"writing-8","question":"Write 2 sentences with 'afraid' (afraid of + gerund, afraid to + infinitive).","hint":"Distinguish both meanings.","expectedKeywords":["afraid of","afraid to","ing"],"sentenceStarters":["I’m afraid of ...","I’m afraid to ..."],"difficulty":2},
+    {"id":"writing-9","question":"Write 2 sentences with 'keep' + gerund and 'want' + infinitive.","hint":"keep liking, want to do.","expectedKeywords":["keep","want to","ing"],"sentenceStarters":["I keep ...ing","I want to ..."],"difficulty":2},
+    {"id":"writing-10","question":"Write short paragraph (6-8 lines) mixing both gerund and infinitive with at least 5 occurrences.","hint":"Use a story about your week.","expectedKeywords":["to","ing","plan","enjoy","need"],"sentenceStarters":["This week I ...","I decided to ..."],"difficulty":3}
   ],
   "gameActivities": [
-    {"id":"game-1","type":"drag-drop","question":"Choose correct form:","sentence":"I plan ___ a new course.","options":["taking","to take","take","taken"],"correctAnswer":["to take"],"audio":"game1.mp3","hint":"Plan + infinitive.","difficulty":"easy"},
-    {"id":"game-2","type":"drag-drop","question":"Choose correct form:","sentence":"She avoids ___ early.","options":["to wake","wake","waking","woken"],"correctAnswer":["waking"],"audio":"game2.mp3","hint":"Avoid + gerund.","difficulty":"easy"}
+    {"id":"game-1","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"He hopes ___ soon.","options":["to arrive","arriving","arrive","arrived"],"correctAnswer":["to arrive"],"audio":"game1.mp3","hint":"Hope + infinitive.","difficulty":"easy"},
+    {"id":"game-2","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"She enjoys ___ in the park.","options":["run","running","to run","ran"],"correctAnswer":["running"],"audio":"game2.mp3","hint":"Enjoy + gerund.","difficulty":"easy"},
+    {"id":"game-3","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"They decided ___ early.","options":["to leave","leaving","leave","left"],"correctAnswer":["to leave"],"audio":"game3.mp3","hint":"Decide + infinitive.","difficulty":"easy"},
+    {"id":"game-4","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"I’m thinking about ___ abroad.","options":["to move","moving","move","moved"],"correctAnswer":["moving"],"audio":"game4.mp3","hint":"Think about + gerund.","difficulty":"medium"},
+    {"id":"game-5","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"She forgot ___ the cake in the oven.","options":["to take","taking","take","took"],"correctAnswer":["to take"],"audio":"game5.mp3","hint":"Forgot to = failed to do.","difficulty":"medium"},
+    {"id":"game-6","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"I remembered ___ him last week.","options":["calling","to call","call","called"],"correctAnswer":["calling"],"audio":"game6.mp3","hint":"Remember + gerund = memory.","difficulty":"medium"},
+    {"id":"game-7","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"It’s no use ___ him now.","options":["calling","to call","call","called"],"correctAnswer":["calling"],"audio":"game7.mp3","hint":"No use + gerund.","difficulty":"medium"},
+    {"id":"game-8","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"He stopped ___ coffee to stay healthy.","options":["drinking","to drink","drink","drank"],"correctAnswer":["drinking"],"audio":"game8.mp3","hint":"Stopped + gerund = quitting.","difficulty":"medium"},
+    {"id":"game-9","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"She needs ___ her work done by 5 pm.","options":["to have","having","have","had"],"correctAnswer":["to have"],"audio":"game9.mp3","hint":"Need + infinitive.","difficulty":"hard"},
+    {"id":"game-10","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"He kept ___ the same mistake.","options":["making","to make","make","made"],"correctAnswer":["making"],"audio":"game10.mp3","hint":"Keep + gerund.","difficulty":"hard"}
   ],
   "quizActivities": [
-    {"id":"quiz-1","question":"Gerund or infinitive?","sentence":"They promise ___ on time.","options":["arriving","to arrive","arrive","arrived"],"correctAnswer":"to arrive","audio":"quiz1.mp3","hint":"Promise + infinitive.","difficulty":"easy","explanation":"Promise uses infinitive."},
-    {"id":"quiz-2","question":"Gerund or infinitive?","sentence":"I enjoy ___ coffee in the morning.","options":["drink","drinking","to drink","drunk"],"correctAnswer":"drinking","audio":"quiz2.mp3","hint":"Enjoy + gerund.","difficulty":"easy","explanation":"Enjoy requires gerund."}
+    {"id":"quiz-1","question":"Select correct phrase:","sentence":"I can’t afford ___ a new car.","options":["buying","to buy","buy","bought"],"correctAnswer":"to buy","audio":"quiz1.mp3","hint":"Afford + infinitive.","difficulty":"easy","explanation":"Afford is followed by infinitive."},
+    {"id":"quiz-2","question":"Select correct phrase:","sentence":"He suggested ___ earlier.","options":["leave","to leave","leaving","left"],"correctAnswer":"leaving","audio":"quiz2.mp3","hint":"Suggest + gerund.","difficulty":"easy","explanation":"Suggest is followed by gerund."},
+    {"id":"quiz-3","question":"Select correct phrase:","sentence":"She plans ___ a party.","options":["organizing","to organize","organize","organized"],"correctAnswer":"to organize","audio":"quiz3.mp3","hint":"Plan + infinitive.","difficulty":"easy","explanation":"Plan is followed by infinitive."},
+    {"id":"quiz-4","question":"Select correct phrase:","sentence":"Would you mind ___ me?","options":["help","to help","helping","helped"],"correctAnswer":"helping","audio":"quiz4.mp3","hint":"Would you mind + gerund.","difficulty":"medium","explanation":"Mind is followed by gerund."},
+    {"id":"quiz-5","question":"Select correct phrase:","sentence":"I started ___ fluent in 2020.","options":["learning","to learn","learn","learned"],"correctAnswer":"learning","audio":"quiz5.mp3","hint":"Start can be either; here gerund works.","difficulty":"medium","explanation":"Both are possible, gerund chosen."},
+    {"id":"quiz-6","question":"Select correct phrase:","sentence":"She allowed me ___ early.","options":["leave","to leave","leaving","left"],"correctAnswer":"to leave","audio":"quiz6.mp3","hint":"Allow needs infinitive.","difficulty":"medium","explanation":"Allow is followed by infinitive."},
+    {"id":"quiz-7","question":"Select correct phrase:","sentence":"They stopped ___ at the red light.","options":["wait","to wait","waiting","waited"],"correctAnswer":"to wait","audio":"quiz7.mp3","hint":"Stop + infinitive for purpose.","difficulty":"hard","explanation":"Stop to wait means pause in order to wait."},
+    {"id":"quiz-8","question":"Select correct phrase:","sentence":"I regret ___ you that news.","options":["tell","to tell","telling","told"],"correctAnswer":"to tell","audio":"quiz8.mp3","hint":"Regret followed by infinitive for bad news.","difficulty":"hard","explanation":"Regret to tells news; regret -ing expresses past sorrow."},
+    {"id":"quiz-9","question":"Select correct phrase:","sentence":"He was forced ___ the job done.","options":["doing","do","to do","did"],"correctAnswer":"to do","audio":"quiz9.mp3","hint":"Forced is followed by infinitive.","difficulty":"hard","explanation":"Forced takes to-infinitive."},
+    {"id":"quiz-10","question":"Select correct phrase:","sentence":"I can’t stand ___ in traffic.","options":["to drive","driving","drive","driven"],"correctAnswer":"driving","audio":"quiz10.mp3","hint":"Can’t stand + gerund.","difficulty":"hard","explanation":"Can’t stand uses gerund."}
   ],
   "spellingActivities": [
-    {"id":"spelling-1","word":"enjoy","hint":"verb + gerund","clue":"I enjoy ___ books.","sentence":"I enjoy reading books.","difficulty":"easy"},
-    {"id":"spelling-2","word":"decide","hint":"verb + infinitive","clue":"She decided ___ early.","sentence":"She decided to leave early.","difficulty":"easy"},
-    {"id":"spelling-3","word":"remember","hint":"can take both forms with meaning difference","clue":"I remembered ___ the letter.","sentence":"I remembered to post the letter.","difficulty":"hard"}
+    {"id":"spelling-1","word":"enjoy","hint":"Use with gerund","clue":"I enjoy ___ early.","sentence":"I enjoy waking up early.","difficulty":"easy"},
+    {"id":"spelling-2","word":"plan","hint":"Use with infinitive","clue":"I plan ___ tonight.","sentence":"I plan to study tonight.","difficulty":"easy"},
+    {"id":"spelling-3","word":"avoid","hint":"Use with gerund","clue":"She avoids ___ mistakes.","sentence":"She avoids making mistakes.","difficulty":"easy"},
+    {"id":"spelling-4","word":"need","hint":"Use with infinitive","clue":"We need ___ the rules.","sentence":"We need to learn the rules.","difficulty":"easy"},
+    {"id":"spelling-5","word":"stop","hint":"Gerund vs infinitive difference","clue":"He stopped ___ water.","sentence":"He stopped drinking water (or to drink water).","difficulty":"medium"},
+    {"id":"spelling-6","word":"remember","hint":"Gerund vs infinitive difference","clue":"I remembered ___ the cake.","sentence":"I remembered to buy the cake.","difficulty":"medium"},
+    {"id":"spelling-7","word":"no use","hint":"Expression + gerund","clue":"It’s no use ___ here.","sentence":"It’s no use arguing here.","difficulty":"medium"},
+    {"id":"spelling-8","word":"no point in","hint":"Expression + gerund","clue":"There’s no point in ___ now.","sentence":"There’s no point in complaining now.","difficulty":"medium"},
+    {"id":"spelling-9","word":"afraid of","hint":"Preposition phrase + gerund","clue":"He’s afraid of ___ alone.","sentence":"He’s afraid of walking alone.","difficulty":"hard"},
+    {"id":"spelling-10","word":"afraid to","hint":"To-infinitive with afraid","clue":"She’s afraid to ___ on stage.","sentence":"She’s afraid to sing on stage.","difficulty":"hard"}
   ],
-  "rewards":{"stars":[{"id":"star-1","name":"Gerund Novice","description":"Complete introductory gerund practice.","icon":"⭐","requirement":"Complete 2 activities","unlocked":false},{"id":"star-2","name":"Infinitive Novice","description":"Complete infinitive practice.","icon":"⭐⭐","requirement":"Complete 2 activities","unlocked":false}],"badges":[{"id":"badge-1","name":"Gerund Specialist","description":"Get all gerund quiz answers correct.","icon":"🏆","requirement":"3 correct","unlocked":false}]}
+  "rewards": {
+    "stars": [
+      {"id":"star-1","name":"Gerund Starter","description":"Master 3 gerund lessons and activities.","icon":"⭐","requirement":"Complete 15 tasks","unlocked":false},
+      {"id":"star-2","name":"Infinitive Starter","description":"Master 3 infinitive lessons and activities.","icon":"⭐⭐","requirement":"Complete 15 tasks","unlocked":false},
+      {"id":"star-3","name":"Meaning Master","description":"Finish meaning shift exercises.","icon":"⭐⭐⭐","requirement":"Complete all 10 quizzes","unlocked":false},
+      {"id":"star-4","name":"Gerund-Infinitive Expert","description":"Complete all activities in this module.","icon":"⭐⭐⭐⭐","requirement":"Complete all tasks","unlocked":false},
+      {"id":"star-5","name":"Grammar Champion","description":"Score 90%+ in every activity category.","icon":"⭐⭐⭐⭐⭐","requirement":"High accuracy completion","unlocked":false}
+    ],
+    "badges": [
+      {"id":"badge-1","name":"Gerund Guru","description":"Own gerund usage.","icon":"🏆","requirement":"All gerund quizzes correct","unlocked":false},
+      {"id":"badge-2","name":"Infinitive Ace","description":"Own infinitive usage.","icon":"🎖️","requirement":"All infinitive quizzes correct","unlocked":false},
+      {"id":"badge-3","name":"Balanced Speaker","description":"Use both forms accurately in writing.","icon":"🎓","requirement":"All writing tasks verified","unlocked":false}
+    ]
+  }
 }
