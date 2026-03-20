@@ -1,0 +1,21 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Bare Infinitive",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Bare Infinitive Usage",
+    "modules": [
+      {"id":"lesson-module","name":"Learn","title":"Bare Infinitive Lessons","instructions":"Learn how bare infinitive works with verbs of perception, permission, and causative verbs."},
+      {"id":"writing-module","name":"Write","title":"Writing Practice","instructions":"Practice writing with bare infinitive structures."},
+      {"id":"game-module","name":"Play","title":"Grammar Games","instructions":"Practice choosing bare infinitive forms in context."},
+      {"id":"quiz-module","name":"Quiz","title":"Quick Quiz","instructions":"Test understanding of bare infinitive vs to-infinitive."},
+      {"id":"spelling-module","name":"Apply","title":"Apply Grammar","instructions":"Build confidence with frequent bare-infinitive verbs."}
+    ]
+  },
+  "wordBank": {"categories":[{"title":"Bare Infinitive Verbs","words":["let","make","help","see","hear","watch","feel","have","need","get"]},{"title":"Gerund vs Infinitive Compare","words":["remember","forget","stop","try","start","continue"]},{"title":"Infinitive for Future","words":["plan to","hope to","decide to","want to","need to","promise to"]}]},
+  "audio":{"backgroundMusic":"assets/sounds/background-music.mp3","soundEffects":{"correctSound":"assets/sounds/correct.mp3","wrongSound":"assets/sounds/wrong.mp3","victorySound":"assets/sounds/victory.mp3","gameStartSound":"assets/sounds/game-start.mp3","hintSound":"assets/sounds/hint.mp3"}},
+  "dataFile":"reproducibility/bare-infinitive.json",
+  "grammarChecker":"gerundInfinitiveChecker.js",
+  "gameSettings":{"timeLimit":45,"pointsPerCorrect":12,"bonusMultiplier":1.5,"difficultyLevels":["beginner","intermediate","advanced"]}
+}

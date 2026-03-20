@@ -1,0 +1,62 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "10.1 Gerund vs Infinitive",
+      "content": "<p>Gerund = verb+ing, infinitive = to+verb. Some verbs require one, some the other, and some allow both with meaning changes.</p><p>Use gerund with: enjoy, avoid, imagine, suggest, mind. Use infinitive with: want, hope, intend, plan, need.</p>",
+      "examples": [
+        "I enjoy reading. (gerund)",
+        "She wants to start a new job. (infinitive)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_gerund_vs_infinitive.mp3",
+      "functions": ["Understand basic rules", "Recognize form patterns"],
+      "tips": "Remember: after preferences use gerund; after desires/plans use infinitive."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Gerund and Infinitive Examples",
+      "content": "<p>Common verbs: like, love, hate, start, continue, stop, remember, forget, try, need.</p><p>Meaning-check: 'stop smoking' vs 'stop to smoke' is different.</p>",
+      "examples": [
+        "I like swimming.",
+        "I want to swim."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_gerund_vs_infinitive2.mp3",
+      "functions": ["Compare forms", "Disambiguate meaning"],
+      "tips": "Meaning often decides form: gerund describes activity, infinitive points at action intent."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 4 sentences that use gerund correctly.",
+      "hint": "Use verbs like enjoy, avoid, admit, suggest.",
+      "expectedKeywords": ["enjoy", "avoid", "imagine", "suggest"],
+      "sentenceStarters": ["I enjoy ___ .", "I avoid ___ ."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write 4 sentences that use infinitive correctly.",
+      "hint": "Use verbs like want, plan, decide, need.",
+      "expectedKeywords": ["want to", "plan to", "decide to", "need to"],
+      "sentenceStarters": ["I want to ___ .", "I plan to ___ ."],
+      "difficulty": 1
+    }
+  ],
+  "gameActivities": [
+    {"id":"game-1","type":"drag-drop","question":"Choose correct form:","sentence":"I plan ___ a new course.","options":["taking","to take","take","taken"],"correctAnswer":["to take"],"audio":"game1.mp3","hint":"Plan + infinitive.","difficulty":"easy"},
+    {"id":"game-2","type":"drag-drop","question":"Choose correct form:","sentence":"She avoids ___ early.","options":["to wake","wake","waking","woken"],"correctAnswer":["waking"],"audio":"game2.mp3","hint":"Avoid + gerund.","difficulty":"easy"}
+  ],
+  "quizActivities": [
+    {"id":"quiz-1","question":"Gerund or infinitive?","sentence":"They promise ___ on time.","options":["arriving","to arrive","arrive","arrived"],"correctAnswer":"to arrive","audio":"quiz1.mp3","hint":"Promise + infinitive.","difficulty":"easy","explanation":"Promise uses infinitive."},
+    {"id":"quiz-2","question":"Gerund or infinitive?","sentence":"I enjoy ___ coffee in the morning.","options":["drink","drinking","to drink","drunk"],"correctAnswer":"drinking","audio":"quiz2.mp3","hint":"Enjoy + gerund.","difficulty":"easy","explanation":"Enjoy requires gerund."}
+  ],
+  "spellingActivities": [
+    {"id":"spelling-1","word":"enjoy","hint":"verb + gerund","clue":"I enjoy ___ books.","sentence":"I enjoy reading books.","difficulty":"easy"},
+    {"id":"spelling-2","word":"decide","hint":"verb + infinitive","clue":"She decided ___ early.","sentence":"She decided to leave early.","difficulty":"easy"},
+    {"id":"spelling-3","word":"remember","hint":"can take both forms with meaning difference","clue":"I remembered ___ the letter.","sentence":"I remembered to post the letter.","difficulty":"hard"}
+  ],
+  "rewards":{"stars":[{"id":"star-1","name":"Gerund Novice","description":"Complete introductory gerund practice.","icon":"⭐","requirement":"Complete 2 activities","unlocked":false},{"id":"star-2","name":"Infinitive Novice","description":"Complete infinitive practice.","icon":"⭐⭐","requirement":"Complete 2 activities","unlocked":false}],"badges":[{"id":"badge-1","name":"Gerund Specialist","description":"Get all gerund quiz answers correct.","icon":"🏆","requirement":"3 correct","unlocked":false}]}
+}

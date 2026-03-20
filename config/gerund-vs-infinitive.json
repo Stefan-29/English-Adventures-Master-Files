@@ -1,0 +1,21 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Gerund vs Infinitive",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Gerund vs Infinitive",
+    "modules": [
+      {"id":"lesson-module","name":"Learn","title":"Gerund vs Infinitive Lessons","instructions":"Learn key differences, rules and usage for gerund (-ing) and infinitive (to + verb)."},
+      {"id":"writing-module","name":"Write","title":"Writing Practice","instructions":"Practice using gerunds and infinitives in guided composition."},
+      {"id":"game-module","name":"Play","title":"Grammar Games","instructions":"Practice selection through interactive games."},
+      {"id":"quiz-module","name":"Quiz","title":"Quick Quiz","instructions":"Test your knowledge with multiple choice questions."},
+      {"id":"spelling-module","name":"Apply","title":"Apply Grammar","instructions":"Use phrases and expressions correctly in sentence context."}
+    ]
+  },
+  "wordBank": {"categories":[{"title":"Gerund Core","words":["enjoy","avoid","imagine","suggest","mind"]},{"title":"Infinitive Core","words":["want","plan","hope","decide","need"]},{"title":"Mixed Verbs","words":["like","love","hate","start","continue"]}]},
+  "audio":{"backgroundMusic":"assets/sounds/background-music.mp3","soundEffects":{"correctSound":"assets/sounds/correct.mp3","wrongSound":"assets/sounds/wrong.mp3","victorySound":"assets/sounds/victory.mp3","gameStartSound":"assets/sounds/game-start.mp3","hintSound":"assets/sounds/hint.mp3"}},
+  "dataFile":"reproducibility/gerund-vs-infinitive.json",
+  "grammarChecker":"gerundInfinitiveChecker.js",
+  "gameSettings":{"timeLimit":45,"pointsPerCorrect":12,"bonusMultiplier":1.5,"difficultyLevels":["beginner","intermediate","advanced"]}
+}

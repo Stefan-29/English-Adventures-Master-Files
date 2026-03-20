@@ -1,0 +1,21 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Gerund/Infinitive After Certain Verbs",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "After Certain Verbs",
+    "modules": [
+      {"id":"lesson-module","name":"Learn","title":"Gerund/Infinitive After Certain Verbs","instructions":"Learn which verbs require gerund and which require infinitive."},
+      {"id":"writing-module","name":"Write","title":"Writing Practice","instructions":"Practice verb patterns with gerund and infinitive."},
+      {"id":"game-module","name":"Play","title":"Grammar Games","instructions":"Reinforce patterns with interactive activity."},
+      {"id":"quiz-module","name":"Quiz","title":"Quick Quiz","instructions":"Check pattern recognition with MCQs."},
+      {"id":"spelling-module","name":"Apply","title":"Apply Grammar","instructions":"Practice with high-frequency verbs and mixture exercises."}
+    ]
+  },
+  "wordBank": {"categories":[{"title":"Gerund Verbs","words":["admit","avoid","finish","mention","suggest","delay","deny","keep","miss","postpone"]},{"title":"Infinitive Verbs","words":["afford","agree","arrange","choose","decide","hope","learn","manage","offer","promise"]},{"title":"Both Forms","words":["like","love","hate","start","continue","remember","forget","try"]}]},
+  "audio":{"backgroundMusic":"assets/sounds/background-music.mp3","soundEffects":{"correctSound":"assets/sounds/correct.mp3","wrongSound":"assets/sounds/wrong.mp3","victorySound":"assets/sounds/victory.mp3","gameStartSound":"assets/sounds/game-start.mp3","hintSound":"assets/sounds/hint.mp3"}},
+  "dataFile":"reproducibility/after-certain-verbs.json",
+  "grammarChecker":"gerundInfinitiveChecker.js",
+  "gameSettings":{"timeLimit":45,"pointsPerCorrect":12,"bonusMultiplier":1.5,"difficultyLevels":["beginner","intermediate","advanced"]}
+}

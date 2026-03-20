@@ -109,7 +109,7 @@ const App = {
         const groups = {
             "Tenses": ['future-perfect', 'future-tenses', 'past-perfect', 'past-tenses', 'present-perfect', 'present-tenses'],
             "Modals": ['can-could-be-able-to', 'must-have-to-have-got-to', 'shall-will-would-had-better', 'should-ought-to', 'may-might'],
-            "Advanced Grammar": ['conditional-structures', 'wish-if-if-only', 'if-alternatives', 'subjunctive-mood']
+            "Advanced Grammar": ['conditional-structures', 'wish-if-if-only', 'if-alternatives', 'subjunctive-mood', 'gerund-vs-infinitive', 'after-certain-verbs', 'bare-infinitive']
         };
         for (const [group, modules] of Object.entries(groups)) {
             if (modules.includes(moduleName)) return group;
@@ -124,7 +124,7 @@ const App = {
         // MAKE SURE TO ALSO CREATE A CORRESPONDING 
         // CONFIG JSON FILE IN THE config/ FOLDER WITH 
         // THE SAME NAME.
-        const moduleNames = ['can-could-be-able-to','must-have-to-have-got-to','shall-will-would-had-better','should-ought-to','may-might','future-perfect','future-tenses','past-perfect','past-tenses','present-perfect','present-tenses','conditional-structures','wish-if-if-only','if-alternatives','subjunctive-mood']; // Add new ones here
+        const moduleNames = ['can-could-be-able-to','must-have-to-have-got-to','shall-will-would-had-better','should-ought-to','may-might','future-perfect','future-tenses','past-perfect','past-tenses','present-perfect','present-tenses','conditional-structures','wish-if-if-only','if-alternatives','subjunctive-mood','gerund-vs-infinitive','after-certain-verbs','bare-infinitive']; // Add new ones here
         const promises = moduleNames.map(name => {
             const configPath = `config/${name}.json`;
             return fetch(configPath)

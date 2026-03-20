@@ -1,0 +1,41 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "10.2 After Certain Verbs (Gerund)",
+      "content": "<p>Use gerund after verbs such as admit, avoid, consider, delay, deny, finish, give up, imagine, involve, keep, mention, miss, postpone, suggest.</p>",
+      "examples": ["He admitted taking the money.", "She suggested meeting at 5."],
+      "difficulty": 2,
+      "audio": "lc2_gerund.mp3",
+      "functions": ["Identify gerund verbs", "Use gerund patterns"],
+      "tips": "Common gerund verbs express feelings, habits, or mental actions."
+    },
+    {
+      "id": "lesson-2",
+      "title": "10.2 After Certain Verbs (Infinitive)",
+      "content": "<p>Use infinitive after verbs such as afford, agree, arrange, ask, choose, need, fail, help, learn, manage, offer, refuse, seem, wait.</p>",
+      "examples": ["He agreed to help.", "They promised to arrive early."],
+      "difficulty": 2,
+      "audio": "lc2_infinitive.mp3",
+      "functions": ["Identify infinitive verbs", "Apply infinitive patterns"],
+      "tips": "Infinitive verbs often express intentions, plans, or decisions."
+    }
+  ],
+  "writingActivities": [
+    {"id":"writing-1","question":"Write 4 sentences using verbs from the gerund list.","hint":"Include at least 2 different verbs.","expectedKeywords":["admit","avoid","suggest","consider"],"sentenceStarters":["I avoid ___ .","He admitted ___ ."],"difficulty":2},
+    {"id":"writing-2","question":"Write 4 sentences using verbs from the infinitive list.","hint":"Include at least 2 different verbs.","expectedKeywords":["agree to","plan to","offer to","manage to"],"sentenceStarters":["I plan to ___ .","She decided to ___ ."],"difficulty":2}
+  ],
+  "gameActivities": [
+    {"id":"game-1","type":"drag-drop","question":"Gerund or infinitive?","sentence":"John promised ___ help.","options":["to","helping","help","to helping"],"correctAnswer":["to help"],"audio":"act1.mp3","hint":"Promise + infinitive.","difficulty":"easy"},
+    {"id":"game-2","type":"drag-drop","question":"Gerund or infinitive?","sentence":"They postponed ___ the news.","options":["telling","to tell","tell","told"],"correctAnswer":["telling"],"audio":"act2.mp3","hint":"Postpone + gerund.","difficulty":"easy"}
+  ],
+  "quizActivities": [
+    {"id":"quiz-1","question":"Which verb type uses gerund?","sentence":"I can’t imagine ___ without you.","options":["living","to live","live","lived"],"correctAnswer":"living","audio":"q1.mp3","hint":"Imagine + gerund.","difficulty":"easy","explanation":""},
+    {"id":"quiz-2","question":"Which verb type uses infinitive?","sentence":"She agreed ___ later.","options":["meet","meeting","to meet","met"],"correctAnswer":"to meet","audio":"q2.mp3","hint":"Agree + infinitive.","difficulty":"easy","explanation":""}
+  ],
+  "spellingActivities": [
+    {"id":"spelling-1","word":"consider","hint":"Use with gerund","clue":"Consider ___ again.","sentence":"Consider trying another method.","difficulty":"medium"},
+    {"id":"spelling-2","word":"arrange","hint":"Use with infinitive","clue":"Arrange ___ tomorrow.","sentence":"Arrange to meet him tomorrow.","difficulty":"medium"}
+  ],
+  "rewards":{"stars":[{"id":"star-1","name":"List Learner","description":"Complete after-certain-verbs lessons.","icon":"⭐","requirement":"3 tasks","unlocked":false}],"badges":[{"id":"badge-1","name":"Pattern Pro","description":"Master both gerund and infinitive lists.","icon":"🏅","requirement":"Quiz 100%","unlocked":false}]}
+}

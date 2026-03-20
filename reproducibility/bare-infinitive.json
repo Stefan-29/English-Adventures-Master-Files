@@ -1,0 +1,41 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "10.3 Bare Infinitive",
+      "content": "<p>Bare infinitive (no 'to') usually follows verbs of perception and causative verbs: make, let, have, see, hear, feel.</p>",
+      "examples": ["She made him apologize.", "I heard them sing."],
+      "difficulty": 2,
+      "audio": "lc3_bare.mp3",
+      "functions": ["Understand bare infinitive usage","Apply in sentence patterns"],
+      "tips": "If action is directly perceived or forced: use bare infinitive."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Bare Infinitive vs To-Infinitive",
+      "content": "<p>Compare: 'I made him leave' (bare) vs 'I asked him to leave' (to-infinitive). 'Help' can use both: 'help me clean' / 'help me to clean'.</p>",
+      "examples": ["Let me go.", "She helped me carry the bag."],
+      "difficulty": 3,
+      "audio": "lc3_bare_vs_to.mp3",
+      "functions": ["Distinguish bare and to-infinitive","Use both forms safely"],
+      "tips": "With common causatives, the bare form is the default when action is caused."
+    }
+  ],
+  "writingActivities": [
+    {"id":"writing-1","question":"Write 4 sentences with bare infinitive after make/let/have.","hint":"Example: I made him do it.","expectedKeywords":["make","let","have","see","hear"],"sentenceStarters":["I let my friend ___ .","They made me ___ ."],"difficulty":2},
+    {"id":"writing-2","question":"Write 3 sentences with to-infinitive after ask/want/need/plan.","hint":"Compare to the bare infinitive form.","expectedKeywords":["ask to","want to","need to","plan to"],"sentenceStarters":["I asked her to ___ .","We need to ___ ."],"difficulty":2}
+  ],
+  "gameActivities": [
+    {"id":"game-1","type":"drag-drop","question":"Choose bare or to-infinitive.","sentence":"She made him ___ quiet.","options":["be","to be","being","been"],"correctAnswer":["be"],"audio":"g1.mp3","hint":"Make + bare infinitive.","difficulty":"easy"},
+    {"id":"game-2","type":"drag-drop","question":"Choose bare or to-infinitive.","sentence":"I heard her ___ the song.","options":["sing","to sing","sang","singing"],"correctAnswer":["sing"],"audio":"g2.mp3","hint":"Hear + bare infinitive.","difficulty":"easy"}
+  ],
+  "quizActivities": [
+    {"id":"quiz-1","question":"Which is correct?","sentence":"He let me ___ in the park.","options":["run","to run","running","ran"],"correctAnswer":"run","audio":"q1.mp3","hint":"Let + bare infinitive.","difficulty":"easy","explanation":"Let uses bare infinitive."},
+    {"id":"quiz-2","question":"Which is correct?","sentence":"I asked him ___ the letter.","options":["write","to write","writing","wrote"],"correctAnswer":"to write","audio":"q2.mp3","hint":"Ask uses to-infinitive.","difficulty":"easy","explanation":"Ask requires to-infinitive."}
+  ],
+  "spellingActivities": [
+    {"id":"spelling-1","word":"make","hint":"Causative verb","clue":"They made me ___ the room.","sentence":"They made me clean the room.","difficulty":"medium"},
+    {"id":"spelling-2","word":"hear","hint":"Perception verb","clue":"I heard her ___ the song.","sentence":"I heard her sing the song.","difficulty":"medium"}
+  ],
+  "rewards":{"stars":[{"id":"star-1","name":"Bare Starter","description":"Complete bare infinitive lessons.","icon":"⭐","requirement":"2 activities","unlocked":false}],"badges":[{"id":"badge-1","name":"Bare Expert","description":"Perfect quiz score for bare infinitive.","icon":"🏅","requirement":"100% quiz","unlocked":false}]}
+}
