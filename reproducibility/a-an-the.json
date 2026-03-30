@@ -1,0 +1,1296 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "A vs. An - The Fundamental Sound Rule 🎯",
+            "content": "<p>Welcome to the world of English articles! This lesson focuses on the most basic rule that 90% of native speakers use instinctively. 📚</p><p><strong>The Core Rule:</strong> A is used before words that start with <em>consonant sounds</em>, AN is used before words that start with <em>vowel sounds</em>.</p><p><strong>Key Sounds:</strong></p><ul><li><strong>Consonant sounds:</strong> /b/, /k/, /d/, /f/, /g/, /h/, /j/, /k/, /l/, /m/, /n/, /p/, /q/, /r/, /s/, /t/, /v/, /w/, /x/, /y/, /z/</li><li><strong>Vowel sounds:</strong> /æ/ (a), /ɛ/ (e), /ɪ/ (i), /ɒ/ (o), /ʌ/ (u)</li></ul><p><strong>Critical Point:</strong> It's the <em>sound</em> that matters, not the spelling! This is why pronunciation practice is essential for mastering articles.</p><p><strong>Common Mistakes:</strong> Many learners focus on letters instead of sounds, leading to errors like 'an book' or 'a elephant'.</p>",
+            "examples": [
+                "He is <strong>a</strong> teacher. (/t/ consonant sound)",
+                "She didn't get <strong>an</strong> invitation. (/ɪ/ vowel sound)",
+                "I saw <strong>a</strong> bear at the zoo. (/b/ consonant sound)",
+                "I saw <strong>an</strong> eagle at the zoo. (/i/ vowel sound)",
+                "That's <strong>a</strong> useful tool. (/j/ consonant sound 'yoo')",
+                "It's <strong>an</strong> honor to meet you. (/ɒ/ vowel sound 'on')"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_fundamentals.mp3",
+            "tips": "💡 <strong>Sound Test:</strong> Cover your eyes and have someone say the word. Which article feels right? Practice with minimal pairs: hat vs. at, big vs. igloo."
+        },
+        {
+            "id": "lesson-2",
+            "title": "Adjective Interference - The First Sound Principle 🚀",
+            "content": "<p>Now we add complexity! When adjectives appear before nouns, the article choice becomes more challenging. The rule remains the same, but now you must identify the <em>first sound of the adjective</em>, not the noun. 📈</p><p><strong>The Adjective Rule:</strong> Look at the initial sound of the <em>first adjective</em> in the noun phrase. This determines A vs. AN.</p><p><strong>Adjective + Noun Structure:</strong></p><ul><li>Article + Adjective + Noun = Article agrees with adjective's first sound</li><li>Article + Adverb + Adjective + Noun = Article agrees with adverb's first sound</li></ul><p><strong>Advanced Consideration:</strong> Multiple adjectives follow the same rule - only the first word's sound matters.</p><p><strong>Practice Strategy:</strong> Temporarily ignore the noun and focus only on the first descriptive word.</p>",
+            "examples": [
+                "He is <strong>an</strong> excellent teacher. (excellent starts with /ɛ/)",
+                "She bought <strong>a</strong> beautiful dress. (beautiful starts with /b/)",
+                "It's <strong>an</strong> interesting book. (interesting starts with /ɪ/)",
+                "He has <strong>a</strong> red car. (red starts with /r/)",
+                "That's <strong>an</strong> unusual situation. (unusual starts with /ʌ/)",
+                "She wore <strong>a</strong> yellow dress. (yellow starts with /j/)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_adjectives.mp3",
+            "tips": "💡 <strong>Adjective Focus:</strong> When you see adjectives, mentally 'erase' the noun. Say just the first descriptive word and choose the article that sounds right."
+        },
+        {
+            "id": "lesson-3",
+            "title": "Pronunciation Exceptions - When Spelling Lies 🎭",
+            "content": "<p>The sound rule has exceptions! Some words are spelled with vowels but pronounced with consonant sounds, and vice versa. This is where many learners struggle. 🔍</p><p><strong>Consonant Sound, Vowel Spelling:</strong></p><ul><li><strong>U words:</strong> university (/juː/), unique (/juː/), Europe (/juː/), umbrella (/ʌ/)</li><li><strong>O words:</strong> one (/w/), once (/w/), onion (/ʌ/)</li><li><strong>A words:</strong> abroad (ə/), abroad starts with schwa sound</li></ul><p><strong>Vowel Sound, Consonant Spelling:</strong></p><ul><li><strong>H words:</strong> hour (/aʊ/), honor (/ɒ/), heir (/ɛ/)</li><li><strong>M/U words:</strong> mute (/mjuː/ starts with consonant)</li></ul><p><strong>Accent Variations:</strong> Words like 'herb' (/h/ in American English, silent H in British) and 'hospital' create confusion.</p>",
+            "examples": [
+                "She studies at <strong>a</strong> university. (sounds like 'yu-ni-ver-si-ty')",
+                "He has <strong>a</strong> European accent. (sounds like 'yu-ro-pee-an')",
+                "I have <strong>an</strong> hour for lunch. (sounds like 'ow-er')",
+                "That's <strong>a</strong> one-way street. (sounds like 'wun')",
+                "He received <strong>an</strong> honest answer. (sounds like 'on-est')",
+                "She has <strong>a</strong> unique talent. (sounds like 'yu-neek')"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_exceptions.mp3",
+            "tips": "💡 <strong>Pronunciation Dictionary:</strong> Keep a list of tricky words. Record yourself saying them and note the first sound. Focus on these 20 'problem words' first."
+        },
+        {
+            "id": "lesson-4",
+            "title": "Uncountable Nouns & Indefinite Usage 🌊",
+            "content": "<p>Articles have restrictions! A and AN cannot be used with certain types of nouns. Understanding these limitations is crucial for advanced accuracy. 🚫</p><p><strong>Uncountable Nouns:</strong> Abstract concepts, materials, and substances that cannot be counted individually.</p><ul><li><strong>Abstract:</strong> advice, information, knowledge, love, happiness</li><li><strong>Materials:</strong> water, air, rice, sugar, salt, bread</li><li><strong>Activities:</strong> homework, work, travel, shopping</li></ul><p><strong>Plural Nouns:</strong> A/AN means 'one' - incompatible with plural forms.</p><p><strong>Indefinite Usage:</strong> A/AN signals 'not specific' - used for new information, general statements, and existence questions.</p><p><strong>Advanced Pattern:</strong> A/AN + singular countable noun = indefinite, general reference.</p>",
+            "examples": [
+                "She gives good <strong>advice</strong>. (not 'a good advice' - uncountable)",
+                "I need <strong>a</strong> phone. (any phone, not specific)",
+                "Tom is <strong>a</strong> teacher. (introducing new information)",
+                "Is there <strong>a</strong> dictionary? (asking about existence)",
+                "He wants <strong>a</strong> bicycle. (general, not a particular one)",
+                "I saw <strong>bears</strong>. (not 'a bears' - plural)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_4_uncountable.mp3",
+            "tips": "💡 <strong>Test for Countability:</strong> Can you say 'one [noun]', 'two [noun]s'? If not, it's uncountable. Never use A/AN with these words."
+        },
+        {
+            "id": "lesson-5",
+            "title": "THE - Definite Article Mastery 🎯",
+            "content": "<p>THE is the most complex article! It signals specificity and shared knowledge. Master this and your English becomes dramatically more precise. 🎯</p><p><strong>Core Function:</strong> THE indicates the listener already knows or can identify which specific thing you're referring to.</p><p><strong>Key Uses:</strong></p><ul><li><strong>Previously mentioned:</strong> 'I have a cat. The cat is black.'</li><li><strong>Unique items:</strong> 'the sun, the moon, the internet'</li><li><strong>Identifying phrases:</strong> 'the book on the table'</li><li><strong>Superlatives:</strong> 'the best, the biggest'</li><li><strong>Ordinals:</strong> 'the first, the second'</li></ul><p><strong>Advanced Concept:</strong> THE creates 'definite' reference, while A/AN creates 'indefinite' reference.</p><p><strong>Context Dependency:</strong> THE's meaning changes based on shared knowledge between speaker and listener.</p>",
+            "examples": [
+                "I have a cat. <strong>The</strong> cat is black. (specific cat now)",
+                "Can you pass <strong>the</strong> book on the table? (identifying phrase)",
+                "This is <strong>the</strong> best movie ever. (superlative)",
+                "We're on <strong>the</strong> fifth floor. (ordinal/ranking)",
+                "I love <strong>the</strong> internet. (unique/global item)",
+                "Open <strong>the</strong> window. (known in context)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_5_definite.mp3",
+            "tips": "💡 <strong>THE Test:</strong> Ask yourself: 'Can the listener identify WHICH specific one?' If yes, use THE. If it's general or new information, use A/AN."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Special Categories & Zero Article Rules 🌍",
+            "content": "<p>English has specific rules for different categories of nouns. Some always use THE, others never use articles. These patterns require memorization. 🗺️</p><p><strong>Always THE:</strong></p><ul><li><strong>Geographic features:</strong> the Atlantic, the Himalayas, the Sahara</li><li><strong>Countries (some):</strong> the Netherlands, the Philippines, the USA</li><li><strong>Inventions:</strong> the telephone, the computer, the wheel</li><li><strong>Unique items:</strong> the sun, the moon, the sky</li></ul><p><strong>Never articles:</strong></p><ul><li><strong>Most countries:</strong> Italy, Japan, Brazil</li><li><strong>Cities/continents:</strong> London, Europe, Asia</li><li><strong>Illnesses:</strong> cancer, AIDS, diabetes</li><li><strong>General plurals:</strong> Dogs are friendly.</li></ul><p><strong>Advanced Distinction:</strong> THE + category noun = general reference to the type/class.</p>",
+            "examples": [
+                "We sailed across <strong>the</strong> Atlantic Ocean. (geographic)",
+                "I love <strong>Italy</strong>. (no article for most countries)",
+                "He lives in <strong>the</strong> Netherlands. (special country)",
+                "The invention of <strong>the</strong> telephone changed everything. (invention)",
+                "Dr. Smith treats <strong>cancer</strong>. (illness, no article)",
+                "I play <strong>the</strong> piano. (musical instrument category)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_6_categories.mp3",
+            "tips": "💡 <strong>Category Lists:</strong> Create flashcards for each category. Group by 'always THE', 'never articles', and 'sometimes'. Review daily until automatic."
+        },
+        {
+            "id": "lesson-7",
+            "title": "Time Expressions & Advanced Patterns ⏰",
+            "content": "<p>Time expressions have complex article rules! Some require THE, others forbid articles. This is where advanced speakers demonstrate mastery. ⌚</p><p><strong>THE with time periods:</strong></p><ul><li><strong>Parts of day:</strong> the morning, the afternoon, the evening</li><li><strong>Seasons:</strong> the summer, the winter (but not always)</li><li><strong>Time phrases:</strong> the day before yesterday, the week after next</li></ul><p><strong>No articles with time:</strong></p><ul><li><strong>Specific times:</strong> at night, at noon, at midnight</li><li><strong>Frequency:</strong> every day, last week, next month</li><li><strong>General time:</strong> all day, all night</li></ul><p><strong>Advanced Patterns:</strong></p><ul><li>A/AN as 'per': a day, an hour, a week</li><li>THE with comparatives: the bigger, the better</li><li>THE with groups: the elderly, the French</li></ul>",
+            "examples": [
+                "We'll meet in <strong>the</strong> afternoon. (part of day)",
+                "Did you sleep well <strong>last night</strong>? (no article)",
+                "She works <strong>every day</strong>. (frequency, no article)",
+                "Apples cost $1 <strong>a</strong> pound. (per = A)",
+                "He runs 10 miles <strong>an</strong> hour. (per = AN)",
+                "<strong>The</strong> elderly need care. (group reference)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_7_time.mp3",
+            "tips": "💡 <strong>Time Pattern Recognition:</strong> Group time expressions by article usage. Notice that 'in the [period]' vs 'at [time]' creates different patterns. Practice with a calendar."
+        }
+    ],
+
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 6 sentences using A before consonant sounds. Include at least 2 with adjectives.",
+            "hint": "He is a teacher. I saw a beautiful car.",
+            "expectedKeywords": [
+                "a",
+                "teacher",
+                "car",
+                "bear",
+                "dog",
+                "book"
+            ],
+            "sentenceStarters": [
+                "He is a ___",
+                "She has a ___",
+                "I saw a ___",
+                "There is a ___"
+            ],
+            "difficulty": 1,
+            "minSentences": 6,
+            "targetStructures": [
+                "A + consonant sound",
+                "A + adjective + noun"
+            ]
+        },
+        {
+            "id": "writing-2",
+            "question": "Write 6 sentences using AN before vowel sounds. Include at least 2 with adjectives.",
+            "hint": "She got an invitation. I saw an excellent movie.",
+            "expectedKeywords": [
+                "an",
+                "invitation",
+                "eagle",
+                "actor",
+                "apple",
+                "umbrella"
+            ],
+            "sentenceStarters": [
+                "He is an ___",
+                "She has an ___",
+                "I saw an ___",
+                "There is an ___"
+            ],
+            "difficulty": 1,
+            "minSentences": 6,
+            "targetStructures": [
+                "AN + vowel sound",
+                "AN + adjective + noun"
+            ]
+        },
+        {
+            "id": "writing-3",
+            "question": "Write a short paragraph (8-10 sentences) introducing new people/things using A/AN, then refer back with THE.",
+            "hint": "I have a cat. The cat is black. I saw an eagle. The eagle was beautiful.",
+            "expectedKeywords": [
+                "a",
+                "an",
+                "the",
+                "is",
+                "has",
+                "saw"
+            ],
+            "sentenceStarters": [
+                "I have a ___",
+                "The ___ is ___",
+                "She has an ___",
+                "The ___ was ___"
+            ],
+            "difficulty": 2,
+            "minSentences": 8,
+            "targetStructures": [
+                "A/AN for introduction",
+                "THE for specific reference"
+            ]
+        },
+        {
+            "id": "writing-4",
+            "question": "Write 6 sentences about generalizations. Use no article with plural/uncountable nouns, and THE with specific categories.",
+            "hint": "Vegetables are healthy. The piano is difficult to learn.",
+            "expectedKeywords": [
+                "are",
+                "is",
+                "the",
+                "healthy",
+                "difficult",
+                "important"
+            ],
+            "sentenceStarters": [
+                "___ are good for you.",
+                "The ___ is ___",
+                "___ is important.",
+                "The ___ needs ___"
+            ],
+            "difficulty": 2,
+            "minSentences": 6,
+            "targetStructures": [
+                "Zero article generalizations",
+                "THE with categories"
+            ]
+        },
+        {
+            "id": "writing-5",
+            "question": "Write 6 sentences using time expressions correctly - some with THE, some without.",
+            "hint": "We'll meet in the afternoon. Did you sleep well last night?",
+            "expectedKeywords": [
+                "the",
+                "morning",
+                "afternoon",
+                "evening",
+                "night",
+                "day",
+                "last",
+                "yesterday"
+            ],
+            "sentenceStarters": [
+                "We'll meet in ___",
+                "I work during ___",
+                "Did you sleep well ___?",
+                "She called at ___"
+            ],
+            "difficulty": 2,
+            "minSentences": 6,
+            "targetStructures": [
+                "THE + time expressions",
+                "Zero article + time expressions"
+            ]
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short story (10+ sentences) about a day in your life, correctly using all article types.",
+            "hint": "I woke up in the morning. I ate an apple. I saw a dog in the park. The dog was friendly.",
+            "expectedKeywords": [
+                "a",
+                "an",
+                "the",
+                "morning",
+                "afternoon",
+                "saw",
+                "went",
+                "ate"
+            ],
+            "sentenceStarters": [
+                "I woke up in ___",
+                "I ate ___ apple.",
+                "I saw ___ dog.",
+                "The dog was ___"
+            ],
+            "difficulty": 3,
+            "minSentences": 10,
+            "targetStructures": [
+                "A/AN for indefinite",
+                "THE for definite",
+                "Zero article appropriately"
+            ]
+        }
+    ],
+
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "What article goes before a word starting with a consonant sound?",
+            "sentence": "He is ____ teacher.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "a"
+            ],
+            "hint": "Teacher starts with 't' sound - consonant!",
+            "difficulty": "easy",
+            "explanation": "A is used before words beginning with consonant sounds like 'teacher'."
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "What article goes before a word starting with a vowel sound?",
+            "sentence": "She got ____ invitation.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "an"
+            ],
+            "hint": "Invitation starts with 'i' sound - vowel!",
+            "difficulty": "easy",
+            "explanation": "AN is used before words beginning with vowel sounds like 'invitation'."
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "What happens with adjectives - look at the first sound!",
+            "sentence": "He is ____ excellent teacher.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "an"
+            ],
+            "hint": "Look at 'excellent' - it starts with 'e' (vowel sound)!",
+            "difficulty": "medium",
+            "explanation": "With adjectives, the article agrees with the FIRST sound of the adjective, not the noun."
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Pronunciation matters more than spelling!",
+            "sentence": "She has ____ euro.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "a"
+            ],
+            "hint": "Euro sounds like 'yu-ro' - starts with 'y' (consonant)!",
+            "difficulty": "medium",
+            "explanation": "It's the SOUND that matters! Euro sounds like it starts with a consonant 'y'."
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Another pronunciation puzzle!",
+            "sentence": "I only have ____ hour.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "an"
+            ],
+            "hint": "Hour sounds like 'au-er' - starts with vowel 'au'!",
+            "difficulty": "medium",
+            "explanation": "Hour is pronounced 'au-er', so it starts with a vowel sound and needs AN."
+        },
+        {
+            "id": "game-6",
+            "type": "drag-drop",
+            "question": "Plurals don't use A or AN!",
+            "sentence": "I saw ____ bears in Yellowstone.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "no article"
+            ],
+            "hint": "Bears is plural - no A or AN!",
+            "difficulty": "easy",
+            "explanation": "A and AN mean 'one' and cannot be used with plural nouns."
+        },
+        {
+            "id": "game-7",
+            "type": "drag-drop",
+            "question": "Uncountable nouns don't take A or AN!",
+            "sentence": "She gives ____ good advice.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "no article"
+            ],
+            "hint": "Advice is uncountable - no A or AN!",
+            "difficulty": "easy",
+            "explanation": "Uncountable nouns like advice, information, air don't use A or AN."
+        },
+        {
+            "id": "game-8",
+            "type": "drag-drop",
+            "question": "THE makes things specific and known!",
+            "sentence": "I have a cat. ____ cat is black.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "Now we know which cat - it's specific!",
+            "difficulty": "easy",
+            "explanation": "THE is definite - use it when the listener knows which specific thing you mean."
+        },
+        {
+            "id": "game-9",
+            "type": "drag-drop",
+            "question": "THE with identifying phrases!",
+            "sentence": "Can you give me ____ book on the table?",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "'On the table' tells us which book!",
+            "difficulty": "medium",
+            "explanation": "THE is used with identifying phrases that tell the listener which specific thing you mean."
+        },
+        {
+            "id": "game-10",
+            "type": "drag-drop",
+            "question": "A/AN can mean 'per'!",
+            "sentence": "Apples cost $1.30 ____ pound.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "a"
+            ],
+            "hint": "This means 'per pound'!",
+            "difficulty": "medium",
+            "explanation": "A and AN can be used like 'per' in expressions of price, speed, etc."
+        },
+        {
+            "id": "game-11",
+            "type": "drag-drop",
+            "question": "THE with rankings!",
+            "sentence": "This is ____ fifth day of our conference.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "Fifth shows ranking/order!",
+            "difficulty": "easy",
+            "explanation": "THE is used with ordinal numbers (first, second, third, etc.) showing ranking or order."
+        },
+        {
+            "id": "game-12",
+            "type": "drag-drop",
+            "question": "THE with superlatives!",
+            "sentence": "That is ____ most expensive hotel.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "Most expensive = superlative!",
+            "difficulty": "easy",
+            "explanation": "THE is used with superlatives (best, biggest, most expensive, etc.)."
+        },
+        {
+            "id": "game-13",
+            "type": "drag-drop",
+            "question": "Generalizations with plurals - no article!",
+            "sentence": "____ Vegetables are good for you.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "no article"
+            ],
+            "hint": "General idea about all vegetables!",
+            "difficulty": "easy",
+            "explanation": "No article is used when making general statements about plural countable nouns."
+        },
+        {
+            "id": "game-14",
+            "type": "drag-drop",
+            "question": "Generalizations with uncountables - no article!",
+            "sentence": "____ Water is important for life.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "no article"
+            ],
+            "hint": "General idea about water in general!",
+            "difficulty": "easy",
+            "explanation": "No article is used when making general statements about uncountable nouns."
+        },
+        {
+            "id": "game-15",
+            "type": "drag-drop",
+            "question": "THE with certain categories!",
+            "sentence": "I play ____ piano.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "Piano is a musical instrument!",
+            "difficulty": "medium",
+            "explanation": "THE is used with musical instruments, inventions, currencies, etc., when speaking in general."
+        },
+        {
+            "id": "game-16",
+            "type": "drag-drop",
+            "question": "Most illnesses don't use articles!",
+            "sentence": "Dr. Smith treats ____ cancer.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "no article"
+            ],
+            "hint": "Cancer is an illness!",
+            "difficulty": "easy",
+            "explanation": "Most illnesses and diseases don't use articles."
+        },
+        {
+            "id": "game-17",
+            "type": "drag-drop",
+            "question": "Directions after verbs - no article!",
+            "sentence": "We need to walk ____ south.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "no article"
+            ],
+            "hint": "South follows the verb 'walk'!",
+            "difficulty": "medium",
+            "explanation": "No article is used with directions (north, south, east, west) when they follow verbs."
+        },
+        {
+            "id": "game-18",
+            "type": "drag-drop",
+            "question": "THE with family names!",
+            "sentence": "____ Robinsons are on vacation.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "Referring to the whole family!",
+            "difficulty": "easy",
+            "explanation": "THE is used with plural family names to refer to the family as a group."
+        },
+        {
+            "id": "game-19",
+            "type": "drag-drop",
+            "question": "THE with groups of people!",
+            "sentence": "____ elderly need our help.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "Elderly refers to a group!",
+            "difficulty": "easy",
+            "explanation": "THE is used with adjectives referring to groups of people (the elderly, the rich, the French)."
+        },
+        {
+            "id": "game-20",
+            "type": "drag-drop",
+            "question": "Most countries don't use THE!",
+            "sentence": "I love ____ Italy.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "no article"
+            ],
+            "hint": "Italy is a country!",
+            "difficulty": "easy",
+            "explanation": "Most country names don't use articles, except for special cases like 'the United States'."
+        },
+        {
+            "id": "game-21",
+            "type": "drag-drop",
+            "question": "Some countries DO use THE!",
+            "sentence": "He lives in ____ Netherlands.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "The Netherlands is a special case!",
+            "difficulty": "medium",
+            "explanation": "Some countries like the Netherlands, the Philippines, the Bahamas use THE."
+        },
+        {
+            "id": "game-22",
+            "type": "drag-drop",
+            "question": "Oceans, seas, rivers use THE!",
+            "sentence": "We sailed across ____ Atlantic Ocean.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "Atlantic Ocean is a body of water!",
+            "difficulty": "easy",
+            "explanation": "THE is used with oceans, seas, rivers, and other geographic features."
+        },
+        {
+            "id": "game-23",
+            "type": "drag-drop",
+            "question": "Some time expressions use THE!",
+            "sentence": "We'll meet in ____ afternoon.",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "Afternoon is a time period!",
+            "difficulty": "easy",
+            "explanation": "THE is used with time expressions like in the morning, in the afternoon, in the evening."
+        },
+        {
+            "id": "game-24",
+            "type": "drag-drop",
+            "question": "Some time expressions don't use articles!",
+            "sentence": "Did you sleep well ____ last night?",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "no article"
+            ],
+            "hint": "Last night is a specific time!",
+            "difficulty": "easy",
+            "explanation": "No article is used with time expressions like last night, yesterday, at noon, all day."
+        },
+        {
+            "id": "game-25",
+            "type": "drag-drop",
+            "question": "THE with superlatives in context!",
+            "sentence": "This is ____ best article tutorial ever!",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "correctAnswer": [
+                "the"
+            ],
+            "hint": "Best = superlative!",
+            "difficulty": "easy",
+            "explanation": "THE is always used with superlatives (the best, the biggest, the most interesting)."
+        }
+    ],
+
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Choose the correct article for this consonant sound word:",
+            "sentence": "___ teacher",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "A",
+            "audio": "quiz_1_basics.mp3",
+            "hint": "Teacher starts with 't' - a consonant sound!",
+            "difficulty": "easy",
+            "explanation": "A is used before words beginning with consonant sounds. Teacher starts with 't'."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Choose the correct article for this vowel sound word:",
+            "sentence": "___ invitation",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "An",
+            "audio": "quiz_2_basics.mp3",
+            "hint": "Invitation starts with 'i' - a vowel sound!",
+            "difficulty": "easy",
+            "explanation": "AN is used before words beginning with vowel sounds. Invitation starts with 'i'."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What happens with adjectives - which sound matters?",
+            "sentence": "___ excellent teacher",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "An",
+            "audio": "quiz_3_adjectives.mp3",
+            "hint": "Look at the adjective 'excellent' - it starts with 'e'!",
+            "difficulty": "medium",
+            "explanation": "The article agrees with the FIRST sound of the adjective, not the noun. 'Excellent' starts with vowel 'e'."
+        },
+        {
+            "id": "quiz-4",
+            "question": "Which sentence is grammatically correct?",
+            "sentence": "___",
+            "options": [
+                "I saw a bears.",
+                "I saw bears.",
+                "I saw an bears.",
+                "I saw the bears."
+            ],
+            "correctAnswer": "I saw bears.",
+            "audio": "quiz_4_plurals.mp3",
+            "hint": "Bears is plural - what rule applies?",
+            "difficulty": "easy",
+            "explanation": "A and AN mean 'one' and cannot be used with plural nouns. Use no article for general plurals."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Pronunciation over spelling - what article for 'euro'?",
+            "sentence": "___ euro",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "A",
+            "audio": "quiz_5_pronunciation.mp3",
+            "hint": "How do you pronounce 'euro'? 'Yu-ro' - starts with 'y'!",
+            "difficulty": "medium",
+            "explanation": "It's the SOUND that matters! Euro sounds like 'yu-ro', starting with consonant 'y', so use A."
+        },
+        {
+            "id": "quiz-6",
+            "question": "Another pronunciation puzzle - what about 'hour'?",
+            "sentence": "___ hour",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "An",
+            "audio": "quiz_6_pronunciation.mp3",
+            "hint": "How do you pronounce 'hour'? 'Au-er' - starts with vowel!",
+            "difficulty": "medium",
+            "explanation": "Hour is pronounced 'au-er', starting with vowel sound 'au', so use AN."
+        },
+        {
+            "id": "quiz-7",
+            "question": "Uncountable nouns - which article rule applies?",
+            "sentence": "She gives ___ good advice.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "No article",
+            "audio": "quiz_7_uncountable.mp3",
+            "hint": "Advice is uncountable - what rule applies?",
+            "difficulty": "easy",
+            "explanation": "Uncountable nouns like advice, information, air don't use A or AN."
+        },
+        {
+            "id": "quiz-8",
+            "question": "THE for specific reference - what changed?",
+            "sentence": "I have a cat. ___ cat is black.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_8_definite.mp3",
+            "hint": "Now we know which specific cat!",
+            "difficulty": "easy",
+            "explanation": "THE is definite - use it when referring to something specific that's already been mentioned."
+        },
+        {
+            "id": "quiz-9",
+            "question": "THE with identifying information:",
+            "sentence": "Can you give me ___ book on the table?",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_9_identifying.mp3",
+            "hint": "'On the table' identifies which book!",
+            "difficulty": "medium",
+            "explanation": "THE is used with identifying clauses and phrases that tell the listener which specific thing you mean."
+        },
+        {
+            "id": "quiz-10",
+            "question": "A/AN meaning 'per' - which fits?",
+            "sentence": "Apples cost $1.30 ___ pound.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "A",
+            "audio": "quiz_10_per.mp3",
+            "hint": "This means 'per pound'!",
+            "difficulty": "medium",
+            "explanation": "A and AN can be used like 'per' in expressions of price, speed, etc."
+        },
+        {
+            "id": "quiz-11",
+            "question": "THE with rankings - which ordinal number?",
+            "sentence": "This is ___ fifth day of our conference.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_11_ranking.mp3",
+            "hint": "Fifth shows position/ranking!",
+            "difficulty": "easy",
+            "explanation": "THE is used with ordinal numbers (first, second, third, fifth, etc.) showing ranking or order."
+        },
+        {
+            "id": "quiz-12",
+            "question": "THE with superlatives - which degree?",
+            "sentence": "That is ___ most expensive hotel.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_12_superlative.mp3",
+            "hint": "Most expensive = highest degree!",
+            "difficulty": "easy",
+            "explanation": "THE is used with superlatives (best, biggest, most expensive, etc.)."
+        },
+        {
+            "id": "quiz-13",
+            "question": "Generalizations with plurals:",
+            "sentence": "___ Vegetables are good for you.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "No article",
+            "audio": "quiz_13_generalization.mp3",
+            "hint": "General idea about all vegetables!",
+            "difficulty": "easy",
+            "explanation": "No article is used when making general statements about plural countable nouns."
+        },
+        {
+            "id": "quiz-14",
+            "question": "Generalizations with uncountables:",
+            "sentence": "___ Water is important for life.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "No article",
+            "audio": "quiz_14_generalization.mp3",
+            "hint": "General idea about water!",
+            "difficulty": "easy",
+            "explanation": "No article is used when making general statements about uncountable nouns."
+        },
+        {
+            "id": "quiz-15",
+            "question": "THE with musical instruments:",
+            "sentence": "I play ___ piano.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_15_categories.mp3",
+            "hint": "Piano is a musical instrument!",
+            "difficulty": "medium",
+            "explanation": "THE is used with musical instruments, inventions, currencies, etc., when speaking in general terms."
+        },
+        {
+            "id": "quiz-16",
+            "question": "Most illnesses don't use articles:",
+            "sentence": "Dr. Smith treats ___ cancer.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "No article",
+            "audio": "quiz_16_illnesses.mp3",
+            "hint": "Cancer is a disease!",
+            "difficulty": "easy",
+            "explanation": "Most illnesses and diseases don't use articles."
+        },
+        {
+            "id": "quiz-17",
+            "question": "Directions after verbs:",
+            "sentence": "We need to walk ___ south.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "No article",
+            "audio": "quiz_17_directions.mp3",
+            "hint": "South follows the verb 'walk'!",
+            "difficulty": "medium",
+            "explanation": "No article is used with directions (north, south, east, west) when they follow verbs."
+        },
+        {
+            "id": "quiz-18",
+            "question": "THE with family names:",
+            "sentence": "___ Robinsons are on vacation.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_18_family.mp3",
+            "hint": "Referring to the whole family!",
+            "difficulty": "easy",
+            "explanation": "THE is used with plural family names to refer to the family as a group."
+        },
+        {
+            "id": "quiz-19",
+            "question": "THE with groups of people:",
+            "sentence": "___ elderly need our help.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_19_groups.mp3",
+            "hint": "Elderly refers to a group of people!",
+            "difficulty": "easy",
+            "explanation": "THE is used with adjectives referring to groups of people (the elderly, the rich, the French)."
+        },
+        {
+            "id": "quiz-20",
+            "question": "Most countries don't use THE:",
+            "sentence": "I love ___ Italy.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "No article",
+            "audio": "quiz_20_countries.mp3",
+            "hint": "Italy is a country name!",
+            "difficulty": "easy",
+            "explanation": "Most country names don't use articles, except for special cases like 'the United States'."
+        },
+        {
+            "id": "quiz-21",
+            "question": "Some countries DO use THE:",
+            "sentence": "He lives in ___ Netherlands.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_21_special_countries.mp3",
+            "hint": "The Netherlands is a special case!",
+            "difficulty": "medium",
+            "explanation": "Some countries like the Netherlands, the Philippines, the Bahamas use THE."
+        },
+        {
+            "id": "quiz-22",
+            "question": "Geographic features use THE:",
+            "sentence": "We sailed across ___ Atlantic Ocean.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_22_geography.mp3",
+            "hint": "Atlantic Ocean is a body of water!",
+            "difficulty": "easy",
+            "explanation": "THE is used with oceans, seas, rivers, and other geographic features."
+        },
+        {
+            "id": "quiz-23",
+            "question": "Some time expressions use THE:",
+            "sentence": "We'll meet in ___ afternoon.",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_23_time.mp3",
+            "hint": "Afternoon is a time period!",
+            "difficulty": "easy",
+            "explanation": "THE is used with time expressions like in the morning, in the afternoon, in the evening."
+        },
+        {
+            "id": "quiz-24",
+            "question": "Some time expressions don't use articles:",
+            "sentence": "Did you sleep well ___ last night?",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "No article",
+            "audio": "quiz_24_time.mp3",
+            "hint": "Last night is a specific time!",
+            "difficulty": "easy",
+            "explanation": "No article is used with time expressions like last night, yesterday, at noon, all day."
+        },
+        {
+            "id": "quiz-25",
+            "question": "THE with superlatives - final challenge:",
+            "sentence": "This is ___ best article tutorial ever!",
+            "options": [
+                "A",
+                "An",
+                "The",
+                "No article"
+            ],
+            "correctAnswer": "The",
+            "audio": "quiz_25_final.mp3",
+            "hint": "Best = highest degree!",
+            "difficulty": "easy",
+            "explanation": "THE is always used with superlatives (the best, the biggest, the most interesting)."
+        }
+    ],
+
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "consonant",
+            "hint": "Sounds that use A (b, c, d, f, g, etc.)",
+            "clue": "c_n_o_a_t",
+            "sentence": "Teacher starts with a ___ sound.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-2",
+            "word": "vowel",
+            "hint": "Sounds that use AN (a, e, i, o, u)",
+            "clue": "v_w_l",
+            "sentence": "Apple starts with a ___ sound.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-3",
+            "word": "definite",
+            "hint": "What THE means - specific and known",
+            "clue": "d_f_n_t_",
+            "sentence": "THE is a ___ article.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-4",
+            "word": "indefinite",
+            "hint": "What A/AN means - not specific",
+            "clue": "i_d_f_n_t_",
+            "sentence": "A and AN are ___ articles.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-5",
+            "word": "pronunciation",
+            "hint": "How a word sounds, not how it's spelled",
+            "clue": "p_o_u_c_a_i_n",
+            "sentence": "It's the ___ that matters for articles.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-6",
+            "word": "uncountable",
+            "hint": "Nouns that don't use A/AN (water, advice, information)",
+            "clue": "u_c_u_t_b_e",
+            "sentence": "Air is an ___ noun.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-7",
+            "word": "generalization",
+            "hint": "Talking about things in general, no article needed",
+            "clue": "g_n_r_l_z_t_o_",
+            "sentence": "Vegetables are healthy is a ___ about food.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-8",
+            "word": "superlative",
+            "hint": "Highest degree - uses THE (best, biggest, most)",
+            "clue": "s_p_r_a_i_e",
+            "sentence": "The best is a ___ adjective.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-9",
+            "word": "geographic",
+            "hint": "Related to places on Earth - often uses THE",
+            "clue": "g_o_r_p_i_",
+            "sentence": "Oceans and mountains are ___ features.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-10",
+            "word": "Netherlands",
+            "hint": "One of the few countries that uses THE",
+            "clue": "N_t_e_l_n_s",
+            "sentence": "The ___ is in Europe.",
+            "difficulty": "hard"
+        }
+    ],
+
+    "rewards": {
+        "stars": {
+            "bronze": 15,
+            "silver": 40,
+            "gold": 70,
+            "platinum": 100
+        },
+        "badges": [
+            {
+                "id": "article-master",
+                "name": "Article Master 📚",
+                "condition": "Complete all 7 lessons with 90%+ accuracy",
+                "icon": "📚",
+                "points": 50,
+                "message": "You now speak with perfect article precision!"
+            },
+            {
+                "id": "sound-detective",
+                "name": "Sound Detective 🔊",
+                "condition": "Never miss A vs AN in any quiz or game (focus on pronunciation)",
+                "icon": "🔊",
+                "points": 45,
+                "message": "Your ears can detect the tiniest sound differences!"
+            },
+            {
+                "id": "definite-expert",
+                "name": "Definite Expert 🎯",
+                "condition": "Perfectly use THE for specific reference in all writing activities",
+                "icon": "🎯",
+                "points": 45,
+                "message": "You make everything crystal clear to your listeners!"
+            },
+            {
+                "id": "zero-article-hero",
+                "name": "Zero Article Hero 🚫",
+                "condition": "Correctly avoid articles with plurals, uncountables, and generalizations",
+                "icon": "🚫",
+                "points": 42,
+                "message": "You know when NOT to use articles - that's advanced!"
+            },
+            {
+                "id": "time-traveler",
+                "name": "Time Traveler ⏰",
+                "condition": "Master THE vs no article in all time expressions",
+                "icon": "⏰",
+                "points": 48,
+                "message": "You can talk about time like a native speaker!"
+            },
+            {
+                "id": "geography-guru",
+                "name": "Geography Guru 🌍",
+                "condition": "Correctly use THE with geographic features and countries",
+                "icon": "🌍",
+                "points": 40,
+                "message": "You could be a world-class tour guide!"
+            },
+            {
+                "id": "superlative-star",
+                "name": "Superlative Star ⭐",
+                "condition": "Always use THE with superlatives and rankings",
+                "icon": "⭐",
+                "points": 42,
+                "message": "Everything you describe sounds absolutely amazing!"
+            },
+            {
+                "id": "article-storyteller",
+                "name": "Article Storyteller 📖✨",
+                "condition": "Earn Platinum stars + complete writing-6 with full marks",
+                "icon": "📖✨",
+                "points": 100,
+                "message": "Your writing flows perfectly with natural article usage!"
+            },
+            {
+                "id": "ultimate-article-champion",
+                "name": "Ultimate Article Champion 🏆",
+                "condition": "Collect ALL other badges + 100% on every activity",
+                "icon": "🏆",
+                "points": 150,
+                "message": "You are the undisputed master of English articles!"
+            }
+        ]
+    }
+}

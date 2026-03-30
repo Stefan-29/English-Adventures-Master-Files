@@ -1,0 +1,693 @@
+{
+    "_template_instructions": {
+        "purpose": "This template provides a comprehensive structure for creating grammar learning modules. Each section builds progressively in difficulty and includes multiple activity types for reinforcement.",
+        "difficulty_scale": "1=Basic (introduction), 2=Intermediate (application), 3=Advanced (mastery)",
+        "content_guidelines": "Use clear, concise language. Include real-world examples. Provide scaffolding from simple to complex.",
+        "assessment_strategy": "Mix recognition (quizzes/games) with production (writing) activities. Include immediate feedback and explanations."
+    },
+
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Introduction to [Grammar Topic] - Foundation Building 🎯",
+            "content": "<p><strong>Learning Objective:</strong> By the end of this lesson, you will understand the basic rules of [grammar topic] and be able to identify them in simple sentences.</p><p><strong>Key Concept:</strong> [Clear, concise explanation of the main rule or concept. Use simple language and avoid jargon.]</p><p><strong>Why This Matters:</strong> [Explain the real-world importance and frequency of use in everyday English.]</p><p><strong>Common Challenges:</strong> [Address typical learner difficulties and misconceptions.]</p><p><strong>Step-by-Step Approach:</strong></p><ol><li>Step 1: [Basic recognition]</li><li>Step 2: [Simple application]</li><li>Step 3: [Practice with examples]</li></ol>",
+            "examples": [
+                "Basic example: [Simple sentence showing correct usage]",
+                "Pattern example: [Show the structure clearly]",
+                "Context example: [Real-world usage in a short dialogue]",
+                "Common error: [Show incorrect usage] → [Corrected version]",
+                "Advanced hint: [Preview more complex usage]"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_introduction.mp3",
+            "tips": "💡 <strong>Memory Aid:</strong> [Mnemonic device or visual association]. <strong>Practice Tip:</strong> [Specific strategy for mastering this concept]. <strong>Common Mistake:</strong> [What to avoid].",
+            "estimated_time": "10-15 minutes",
+            "prerequisites": "None - this is the foundation lesson"
+        },
+        {
+            "id": "lesson-2",
+            "title": "Building Complexity - [Specific Challenge] 🚀",
+            "content": "<p><strong>Building on Lesson 1:</strong> Now we'll add [specific element that increases complexity] to create more natural and accurate usage.</p><p><strong>New Challenge:</strong> [Explain what makes this more difficult - adjectives, adverbs, exceptions, etc.]</p><p><strong>Strategic Approach:</strong> [Teach a systematic method for handling the increased complexity]</p><p><strong>Pattern Recognition:</strong> Look for [key indicators or signals] that tell you which form to use.</p><p><strong>Exception Alert:</strong> [Highlight any irregular patterns or special cases]</p>",
+            "examples": [
+                "Simple case: [Review from lesson 1]",
+                "Complex case: [New challenge with solution]",
+                "Comparison: [Show difference between simple and complex usage]",
+                "Real context: [Natural dialogue or text showing usage]",
+                "Practice pair: [Incorrect] → [Correct with explanation]"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_complexity.mp3",
+            "tips": "💡 <strong>Decision Tree:</strong> [Step-by-step decision process]. <strong>Sound Check:</strong> [If pronunciation matters]. <strong>Word Order:</strong> [If sequence affects usage].",
+            "estimated_time": "15-20 minutes",
+            "prerequisites": "Complete lesson 1"
+        },
+        {
+            "id": "lesson-3",
+            "title": "Mastery Level - Advanced Applications & Nuances 🎓",
+            "content": "<p><strong>Advanced Mastery:</strong> At this level, you'll handle [complex situations, exceptions, or sophisticated usage] with confidence.</p><p><strong>Native Speaker Patterns:</strong> [Explain how fluent speakers naturally use this grammar]</p><p><strong>Context-Dependent Rules:</strong> [Show how meaning and situation affect choices]</p><p><strong>Style Variations:</strong> [Formal vs informal, written vs spoken differences]</p><p><strong>Mastery Checklist:</strong></p><ul><li>✅ [Skill 1]</li><li>✅ [Skill 2]</li><li>✅ [Skill 3]</li></ul>",
+            "examples": [
+                "Literary example: [From books, articles, or formal writing]",
+                "Conversational example: [Natural spoken English]",
+                "Academic example: [Formal or technical usage]",
+                "Cultural context: [Usage that varies by region or context]",
+                "Expert level: [Sophisticated or idiomatic usage]"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_3_mastery.mp3",
+            "tips": "💡 <strong>Expert Strategy:</strong> [Advanced learning techniques]. <strong>Self-Correction:</strong> [How to identify and fix your own errors]. <strong>Extension:</strong> [How to apply this to other grammar areas].",
+            "estimated_time": "20-25 minutes",
+            "prerequisites": "Complete lessons 1-2"
+        }
+    ],
+
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "type": "controlled_practice",
+            "question": "Write 8 sentences using basic [grammar topic] patterns. Focus on accuracy and clear examples.",
+            "hint": "Start with simple subjects and common verbs. Use vocabulary you know well. Check each sentence for correct [grammar element].",
+            "expectedKeywords": [
+                "basic_keywords",
+                "common_verbs",
+                "simple_subjects"
+            ],
+            "sentenceStarters": [
+                "I ___ every day.",
+                "She ___ at school.",
+                "We ___ together.",
+                "They ___ now."
+            ],
+            "difficulty": 1,
+            "minSentences": 8,
+            "maxSentences": 12,
+            "targetStructures": [
+                "Basic affirmative statements",
+                "Simple present tense",
+                "Common subject-verb agreement"
+            ],
+            "scoring_criteria": [
+                "Correct [grammar element] usage",
+                "Appropriate vocabulary level",
+                "Clear sentence structure"
+            ],
+            "common_errors_to_watch": [
+                "error_pattern_1",
+                "error_pattern_2"
+            ]
+        },
+        {
+            "id": "writing-2",
+            "type": "guided_construction",
+            "question": "Write 6 sentences combining [grammar topic] with [additional element like adjectives/adverbs]. Include both positive and negative examples.",
+            "hint": "Add descriptive words before your main subject. Try both 'yes' and 'no' sentences. Use the sentence starters as models.",
+            "expectedKeywords": [
+                "adjectives",
+                "adverbs",
+                "negative_words",
+                "descriptive_terms"
+            ],
+            "sentenceStarters": [
+                "The ___ person ___ quickly.",
+                "My ___ friend never ___.",
+                "These ___ students ___ well.",
+                "That ___ teacher ___ now."
+            ],
+            "difficulty": 2,
+            "minSentences": 6,
+            "maxSentences": 10,
+            "targetStructures": [
+                "[Grammar] + adjectives",
+                "[Grammar] + adverbs",
+                "Negative [grammar] forms",
+                "Complex noun phrases"
+            ],
+            "scoring_criteria": [
+                "Correct word order",
+                "Appropriate adjective/adverb placement",
+                "Varied vocabulary usage"
+            ]
+        },
+        {
+            "id": "writing-3",
+            "type": "error_correction",
+            "question": "Find and correct the [grammar topic] errors in these 5 sentences. Write the corrected versions.",
+            "hint": "Read each sentence carefully. Look for [specific grammar element] problems. Make only the necessary changes.",
+            "errorSentences": [
+                "Original: She don't like apples. → Corrected: [Your answer]",
+                "Original: They goes to school. → Corrected: [Your answer]",
+                "Original: I am like pizza. → Corrected: [Your answer]",
+                "Original: He work here. → Corrected: [Your answer]",
+                "Original: We are play games. → Corrected: [Your answer]"
+            ],
+            "difficulty": 2,
+            "minCorrections": 5,
+            "targetStructures": [
+                "Subject-verb agreement",
+                "Correct verb forms",
+                "Proper [grammar] usage"
+            ]
+        },
+        {
+            "id": "writing-4",
+            "type": "personal_application",
+            "question": "Write a short paragraph (8-12 sentences) about your daily routine using [grammar topic] throughout. Make it personal and detailed.",
+            "hint": "Describe what you do each day. Use sequence words like 'first,' 'then,' 'after that.' Include your feelings and preferences.",
+            "expectedKeywords": [
+                "time_words",
+                "sequence_words",
+                "personal_pronouns",
+                "routine_verbs"
+            ],
+            "paragraphPrompts": [
+                "Start with waking up",
+                "Describe morning activities",
+                "Include meals and transportation",
+                "End with evening routine"
+            ],
+            "difficulty": 2,
+            "minSentences": 8,
+            "maxSentences": 12,
+            "targetStructures": [
+                "Consistent [grammar] usage",
+                "Time expressions",
+                "Logical sequence",
+                "Personal description"
+            ]
+        },
+        {
+            "id": "writing-5",
+            "type": "creative_story",
+            "question": "Write a creative story (12-15 sentences) about [themed scenario] using advanced [grammar topic] patterns. Include dialogue and descriptions.",
+            "hint": "Create an interesting character and situation. Use [grammar] to show actions, feelings, and descriptions. Include both narration and spoken words.",
+            "storyElements": {
+                "setting": "Modern city/office/school",
+                "characters": "2-3 main characters",
+                "conflict": "Simple problem to solve",
+                "resolution": "Happy ending with lesson learned"
+            },
+            "difficulty": 3,
+            "minSentences": 12,
+            "maxSentences": 15,
+            "targetStructures": [
+                "Complex [grammar] forms",
+                "Descriptive language",
+                "Dialogue integration",
+                "Storytelling techniques"
+            ]
+        },
+        {
+            "id": "writing-6",
+            "type": "peer_review_preparation",
+            "question": "Write an explanation of [grammar topic] rules as if teaching a friend. Use examples and clear language (10-15 sentences).",
+            "hint": "Imagine explaining this to someone who doesn't know English well. Use simple words and lots of examples. Include common mistakes to avoid.",
+            "teachingFocus": [
+                "Clear rule explanation",
+                "Multiple examples",
+                "Common error patterns",
+                "Practice suggestions"
+            ],
+            "difficulty": 3,
+            "minSentences": 10,
+            "maxSentences": 15,
+            "targetStructures": [
+                "Explanatory writing",
+                "Rule articulation",
+                "Example creation",
+                "Teaching methodology"
+            ]
+        }
+    ],
+
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "category": "basic_recognition",
+            "question": "Choose the correct [grammar element] for this simple sentence:",
+            "sentence": "She ____ to school every day.",
+            "options": [
+                "go",
+                "goes",
+                "going",
+                "gone"
+            ],
+            "correctAnswer": [
+                "goes"
+            ],
+            "hint": "Think about the subject 'She' - what verb form matches?",
+            "difficulty": "easy",
+            "explanation": "With third person singular subjects (he, she, it), we add -s to the base verb form.",
+            "learning_point": "Subject-verb agreement basics",
+            "common_mistake": "Using base form instead of -s form"
+        },
+        {
+            "id": "game-2",
+            "type": "sentence_builder",
+            "category": "word_order",
+            "question": "Arrange the words to make a correct sentence:",
+            "wordBank": [
+                "The",
+                "students",
+                "hard",
+                "study",
+                "every",
+                "day"
+            ],
+            "correctOrder": [
+                "The",
+                "students",
+                "study",
+                "hard",
+                "every",
+                "day"
+            ],
+            "hint": "Subject comes first, then verb, then objects and modifiers.",
+            "difficulty": "easy",
+            "explanation": "English word order is Subject + Verb + Object + Time/Place modifiers.",
+            "learning_point": "Basic sentence structure"
+        },
+        {
+            "id": "game-3",
+            "type": "matching_pairs",
+            "category": "form_function",
+            "question": "Match each [grammar form] with its correct use:",
+            "pairs": {
+                "left": [
+                    "Present Simple",
+                    "Present Continuous",
+                    "Past Simple",
+                    "Present Perfect"
+                ],
+                "right": [
+                    "Completed actions with present results",
+                    "Actions happening right now",
+                    "Finished actions at specific past times",
+                    "Habits and general truths"
+                ]
+            },
+            "correctMatches": {
+                "Present Simple": "Habits and general truths",
+                "Present Continuous": "Actions happening right now",
+                "Past Simple": "Finished actions at specific past times",
+                "Present Perfect": "Completed actions with present results"
+            },
+            "hint": "Think about when and how each tense is used in real life.",
+            "difficulty": "medium",
+            "explanation": "Each verb tense has specific meanings and uses in English communication."
+        },
+        {
+            "id": "game-4",
+            "type": "error_hunt",
+            "category": "proofreading",
+            "question": "Find and fix the [grammar] errors in this paragraph:",
+            "textWithErrors": "My friend John live in New York. He work at a big company and drive to work every day. Right now he watching TV and eat dinner. Yesterday he buy a new car.",
+            "errorsToFind": [
+                {"word": "live", "correct": "lives", "type": "subject-verb agreement"},
+                {"word": "work", "correct": "works", "type": "subject-verb agreement"},
+                {"word": "drive", "correct": "drives", "type": "subject-verb agreement"},
+                {"word": "watching", "correct": "is watching", "type": "missing auxiliary"},
+                {"word": "eat", "correct": "is eating", "type": "missing auxiliary"},
+                {"word": "buy", "correct": "bought", "type": "wrong past tense"}
+            ],
+            "hint": "Check each verb carefully - subject, tense, and form.",
+            "difficulty": "medium",
+            "explanation": "Proofreading requires attention to verb forms, subject agreement, and tense consistency."
+        },
+        {
+            "id": "game-5",
+            "type": "context_clues",
+            "category": "meaning_from_context",
+            "question": "Choose the [grammar form] that best fits the context:",
+            "context": "I usually ____ breakfast at 7 AM, but today I ____ it at 8 because I ____ late.",
+            "options": [
+                "eat / ate / woke",
+                "ate / eat / wake",
+                "eat / eat / wake",
+                "ate / ate / woke"
+            ],
+            "correctAnswer": [
+                "eat / ate / woke"
+            ],
+            "hint": "Look at the time words: 'usually' suggests habit, 'today' suggests past, 'because' explains the reason.",
+            "difficulty": "hard",
+            "explanation": "Context clues like time expressions help determine which verb tense to use."
+        },
+        {
+            "id": "game-6",
+            "type": "transformation",
+            "category": "form_changing",
+            "question": "Change this sentence from [form A] to [form B]:",
+            "originalSentence": "She reads books every day.",
+            "transformation": "negative_form",
+            "options": [
+                "She don't read books every day.",
+                "She doesn't reads books every day.",
+                "She doesn't read books every day.",
+                "She not read books every day."
+            ],
+            "correctAnswer": [
+                "She doesn't read books every day."
+            ],
+            "hint": "For negative present simple, add 'doesn't' before the base verb.",
+            "difficulty": "medium",
+            "explanation": "To make present simple negative, use 'does not' + base verb (or 'doesn't')."
+        }
+    ],
+
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "type": "multiple_choice",
+            "category": "basic_rules",
+            "question": "What is the correct [grammar form] for this sentence?",
+            "sentence": "My parents ____ in a small town.",
+            "options": [
+                "live",
+                "lives",
+                "living",
+                "lived"
+            ],
+            "correctAnswer": "live",
+            "audio": "quiz_1_basic.mp3",
+            "hint": "'Parents' is plural, so the verb stays in base form.",
+            "difficulty": "easy",
+            "explanation": "With plural subjects, present simple verbs use the base form without -s.",
+            "learning_objective": "Subject-verb agreement with plural nouns"
+        },
+        {
+            "id": "quiz-2",
+            "type": "true_false",
+            "category": "rule_application",
+            "question": "Decide if these statements about [grammar topic] are true or false:",
+            "statements": [
+                {
+                    "statement": "We add -s to verbs when the subject is 'I'.",
+                    "correct": false,
+                    "explanation": "'I' is first person singular and uses base form verbs."
+                },
+                {
+                    "statement": "Present simple is used for habits and routines.",
+                    "correct": true,
+                    "explanation": "Yes, present simple expresses repeated actions and general truths."
+                },
+                {
+                    "statement": "All verbs in present simple end with -s.",
+                    "correct": false,
+                    "explanation": "Only third person singular subjects (he/she/it) take -s."
+                }
+            ],
+            "difficulty": "easy",
+            "learning_objective": "Understanding basic [grammar] rules and exceptions"
+        },
+        {
+            "id": "quiz-3",
+            "type": "fill_in_blank",
+            "category": "form_recognition",
+            "question": "Complete the sentence with the correct [grammar element]:",
+            "sentence": "They ____ English at university.",
+            "options": [
+                "study",
+                "studies",
+                "studying",
+                "studied"
+            ],
+            "correctAnswer": "study",
+            "audio": "quiz_3_fill_blank.mp3",
+            "hint": "'They' is plural, so no -s on the verb.",
+            "difficulty": "easy",
+            "explanation": "Plural subjects (we, you, they) use base form verbs in present simple.",
+            "learning_objective": "Recognizing correct verb forms with plural subjects"
+        },
+        {
+            "id": "quiz-4",
+            "type": "error_identification",
+            "category": "mistake_correction",
+            "question": "Which sentence contains a [grammar] error?",
+            "sentences": [
+                "I play tennis every week.",
+                "She plays tennis every week.",
+                "They plays tennis every week.",
+                "We play tennis every week."
+            ],
+            "correctAnswer": "They plays tennis every week.",
+            "error_type": "subject-verb agreement",
+            "audio": "quiz_4_error.mp3",
+            "hint": "Check the verb form for each subject.",
+            "difficulty": "medium",
+            "explanation": "'They' is plural and should use 'play', not 'plays'.",
+            "learning_objective": "Identifying subject-verb agreement errors"
+        },
+        {
+            "id": "quiz-5",
+            "type": "sentence_completion",
+            "category": "context_usage",
+            "question": "Choose the best [grammar form] to complete this conversation:",
+            "context": "A: What do you do on weekends? B: I usually ____ tennis with friends.",
+            "options": [
+                "play",
+                "plays",
+                "playing",
+                "played"
+            ],
+            "correctAnswer": "play",
+            "audio": "quiz_5_context.mp3",
+            "hint": "This describes a regular weekend activity.",
+            "difficulty": "medium",
+            "explanation": "Present simple 'play' is used for habits and regular activities.",
+            "learning_objective": "Using [grammar] appropriately in context"
+        },
+        {
+            "id": "quiz-6",
+            "type": "rule_explanation",
+            "category": "meta_knowledge",
+            "question": "Why do we use [specific form] in this situation?",
+            "example": "She drives to work every day.",
+            "options": [
+                "Because 'drives' shows present time",
+                "Because 'she' is singular third person",
+                "Because 'every day' is a time expression",
+                "Because 'drive' is an irregular verb"
+            ],
+            "correctAnswer": "Because 'she' is singular third person",
+            "audio": "quiz_6_explanation.mp3",
+            "hint": "Think about the subject, not the time or verb type.",
+            "difficulty": "hard",
+            "explanation": "Third person singular subjects require -s ending on present simple verbs.",
+            "learning_objective": "Understanding the 'why' behind [grammar] rules"
+        }
+    ],
+
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "category": "basic_vocabulary",
+            "word": "grammar",
+            "phonetic": "/ˈɡræm.ər/",
+            "hint": "The rules and structure of language",
+            "clue": "g_a_m_a_",
+            "sentence": "Learning English ___ helps you speak correctly.",
+            "difficulty": "easy",
+            "word_family": ["grammatical", "grammatically"],
+            "common_misspellings": ["grammer", "gramar"]
+        },
+        {
+            "id": "spelling-2",
+            "category": "grammar_terms",
+            "word": "subject",
+            "phonetic": "/ˈsʌb.dʒɪkt/",
+            "hint": "The 'doer' of the action in a sentence",
+            "clue": "s_b_e_t",
+            "sentence": "In 'She sings', the ___ is 'she'.",
+            "difficulty": "easy",
+            "word_family": ["subjective", "subjectivity"],
+            "common_misspellings": ["subjuct", "subjekt"]
+        },
+        {
+            "id": "spelling-3",
+            "category": "verb_forms",
+            "word": "present",
+            "phonetic": "/ˈprez.ənt/",
+            "hint": "The tense used for current time or habits",
+            "clue": "p_e_e_t",
+            "sentence": "___ simple is used for routines.",
+            "difficulty": "easy",
+            "word_family": ["presentation", "presently"],
+            "common_misspellings": ["presant", "presente"]
+        },
+        {
+            "id": "spelling-4",
+            "category": "grammar_terms",
+            "word": "agreement",
+            "phonetic": "/əˈɡriː.mənt/",
+            "hint": "When subject and verb match in number",
+            "clue": "a_e_m_n_",
+            "sentence": "Subject-verb ___ is very important.",
+            "difficulty": "medium",
+            "word_family": ["agree", "agreeable"],
+            "common_misspellings": ["aggreement", "agreemant"]
+        },
+        {
+            "id": "spelling-5",
+            "category": "advanced_terms",
+            "word": "conjugation",
+            "phonetic": "/ˌkɒn.dʒʊˈɡeɪ.ʃən/",
+            "hint": "Changing verb forms to match subjects",
+            "clue": "c_n_u_a_i_n",
+            "sentence": "Verb ___ changes 'be' to 'am/are/is'.",
+            "difficulty": "hard",
+            "word_family": ["conjugate", "conjugal"],
+            "common_misspellings": ["conjegation", "conjugation"]
+        },
+        {
+            "id": "spelling-6",
+            "category": "grammar_terms",
+            "word": "auxiliary",
+            "phonetic": "/ɔːɡˈzɪl.i.ə.ri/",
+            "hint": "Helper verbs like 'do', 'be', 'have'",
+            "clue": "a_x_l_a_y",
+            "sentence": "___ verbs help form questions and negatives.",
+            "difficulty": "hard",
+            "word_family": ["auxiliar", "auxiliaries"],
+            "common_misspellings": ["auxillary", "auxilary"]
+        },
+        {
+            "id": "spelling-7",
+            "category": "tense_names",
+            "word": "continuous",
+            "phonetic": "/kənˈtɪn.ju.əs/",
+            "hint": "Progressive tense showing ongoing action",
+            "clue": "c_n_i_o_s",
+            "sentence": "Present ___ uses 'be + -ing'.",
+            "difficulty": "medium",
+            "word_family": ["continue", "continuity"],
+            "common_misspellings": ["continous", "contiuous"]
+        },
+        {
+            "id": "spelling-8",
+            "category": "grammar_terms",
+            "word": "morphology",
+            "phonetic": "/mɔːrˈfɒl.ə.dʒi/",
+            "hint": "The study of word structure and forms",
+            "clue": "m_r_h_l_g_",
+            "sentence": "___ studies how words change form.",
+            "difficulty": "hard",
+            "word_family": ["morpheme", "morphological"],
+            "common_misspellings": ["morfolagy", "morfology"]
+        }
+    ],
+
+    "rewards": {
+        "stars": {
+            "bronze": 20,
+            "silver": 50,
+            "gold": 85,
+            "platinum": 120
+        },
+        "badges": [
+            {
+                "id": "grammar-explorer",
+                "name": "Grammar Explorer 🧭",
+                "condition": "Complete the first lesson with 90%+ accuracy",
+                "icon": "🧭",
+                "points": 25,
+                "message": "You've begun your journey into English grammar mastery!",
+                "unlock_requirement": "Complete lesson-1",
+                "skill_focused": "Basic recognition and understanding"
+            },
+            {
+                "id": "pattern-detective",
+                "name": "Pattern Detective 🔍",
+                "condition": "Score 100% on 3 basic recognition games",
+                "icon": "🔍",
+                "points": 30,
+                "message": "You have an eagle eye for grammatical patterns!",
+                "unlock_requirement": "Complete 3 game activities with perfect scores",
+                "skill_focused": "Pattern recognition and rule application"
+            },
+            {
+                "id": "sentence-architect",
+                "name": "Sentence Architect 🏗️",
+                "condition": "Complete all writing activities with detailed, accurate responses",
+                "icon": "🏗️",
+                "points": 40,
+                "message": "You build sentences with precision and creativity!",
+                "unlock_requirement": "Complete all writing activities",
+                "skill_focused": "Written production and accuracy"
+            },
+            {
+                "id": "error-terminator",
+                "name": "Error Terminator 🎯",
+                "condition": "Correctly identify and fix 10 different error types",
+                "icon": "🎯",
+                "points": 35,
+                "message": "You have a sixth sense for finding grammatical mistakes!",
+                "unlock_requirement": "Complete error correction activities",
+                "skill_focused": "Error identification and correction"
+            },
+            {
+                "id": "context-master",
+                "name": "Context Master 🎭",
+                "condition": "Score 100% on all context-based quizzes and games",
+                "icon": "🎭",
+                "points": 45,
+                "message": "You understand grammar in real-life situations!",
+                "unlock_requirement": "Perfect scores on context activities",
+                "skill_focused": "Contextual grammar usage"
+            },
+            {
+                "id": "teaching-mentor",
+                "name": "Teaching Mentor 👨‍🏫",
+                "condition": "Write clear explanations of grammar rules for others to learn",
+                "icon": "👨‍🏫",
+                "points": 50,
+                "message": "You can teach grammar concepts to others!",
+                "unlock_requirement": "Complete peer teaching writing activity",
+                "skill_focused": "Knowledge articulation and teaching"
+            },
+            {
+                "id": "grammar-champion",
+                "name": "Grammar Champion 🏆",
+                "condition": "Earn all other badges and achieve Platinum star level",
+                "icon": "🏆",
+                "points": 100,
+                "message": "You are a master of English grammar structure!",
+                "unlock_requirement": "All badges + Platinum stars",
+                "skill_focused": "Complete grammar mastery"
+            },
+            {
+                "id": "consistency-keeper",
+                "name": "Consistency Keeper 📏",
+                "condition": "Maintain perfect grammar accuracy across 5+ complex activities",
+                "icon": "📏",
+                "points": 55,
+                "message": "Your grammar usage is consistently excellent!",
+                "unlock_requirement": "Multiple perfect scores on advanced activities",
+                "skill_focused": "Consistent application"
+            },
+            {
+                "id": "creative-grammarian",
+                "name": "Creative Grammarian 🎨",
+                "condition": "Create original sentences and stories using advanced grammar patterns",
+                "icon": "🎨",
+                "points": 60,
+                "message": "You use grammar creatively in your writing!",
+                "unlock_requirement": "Complete creative writing activities",
+                "skill_focused": "Creative application and fluency"
+            }
+        ],
+        "achievement_levels": {
+            "novice": "0-25 points",
+            "beginner": "26-50 points",
+            "intermediate": "51-85 points",
+            "advanced": "86-120 points",
+            "expert": "121+ points"
+        },
+        "progress_tracking": {
+            "lessons_completed": 0,
+            "activities_mastered": 0,
+            "current_streak": 0,
+            "total_points": 0,
+            "accuracy_rate": 0
+        }
+    }
+}

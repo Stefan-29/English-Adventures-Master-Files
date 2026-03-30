@@ -1,0 +1,96 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: A vs. An - Articles",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "A vs. An - Articles",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Articles Lessons",
+        "instructions": "Master the use of indefinite articles A and AN, definite article THE, and when to use no article. Learn the rules for choosing between A and AN based on sound."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using A, AN, and THE correctly. Practice with consonant and vowel sounds, and special cases."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing the correct article in various contexts, including tricky words and exceptions."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about articles. Choose the correct article to practice quickly!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Articles Challenge",
+        "instructions": "Apply articles correctly in sentences. Master pronunciation-based rules, special cases, and zero article usage."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Words Starting with Consonant Sounds",
+        "words": ["teacher", "car", "bear", "excellent", "European", "university", "euro", "one"]
+      },
+      {
+        "title": "Words Starting with Vowel Sounds",
+        "words": ["actor", "invitation", "eagle", "hour", "honest", "heir", "MBA", "MD"]
+      },
+      {
+        "title": "Definite Article Examples",
+        "words": ["the teacher", "the car", "the bear", "the excellent teacher", "the eagle"]
+      },
+      {
+        "title": "Special Cases",
+        "words": ["herb", "hospital", "information", "air", "advice", "salt", "fun"]
+      },
+      {
+        "title": "Time Expressions with THE",
+        "words": ["the morning", "the afternoon", "the evening", "the night", "the day"]
+      },
+      {
+        "title": "Time Expressions without Article",
+        "words": ["at night", "at noon", "at midnight", "all day", "all night", "last night", "yesterday"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["He is a/an ...", "She has a/an ...", "I saw a/an ...", "The ... is ...", "There is a/an ..."]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/a-an-the.json",
+  "grammarChecker": "aAnThe.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}
