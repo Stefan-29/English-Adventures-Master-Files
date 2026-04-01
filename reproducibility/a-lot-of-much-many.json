@@ -1,0 +1,657 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "A Lot Of, Much & Many Basics – Quantity Words! 🎯",
+            "content": "<p>Welcome to the world of quantity words! <strong>A lot of</strong>, <strong>much</strong>, and <strong>many</strong> help us express amounts and quantities in English. 📚</p><p><strong>Core Concept:</strong> These words show how much or how many of something exists.</p><p><strong>Key Points:</strong></p><ul><li><strong>A lot of:</strong> Used with both countable and uncountable nouns in all sentence types</li><li><strong>Much:</strong> Used with uncountable nouns, mainly in negative and questions</li><li><strong>Many:</strong> Used with countable nouns, mainly in negative and questions</li></ul><p><strong>Important Note:</strong> Much and many are formal; a lot of is more conversational.</p><p><strong>Common Mistakes:</strong> Using much/many in affirmative sentences (except in special cases).</p>",
+            "examples": [
+                "We learned <strong>a lot of</strong> new English words.",
+                "We didn't learn <strong>a lot of</strong> grammar rules.",
+                "Did you learn <strong>a lot of</strong> English expressions?",
+                "I don't know <strong>much</strong> English yet.",
+                "Do you get <strong>much</strong> homework?",
+                "I don't know <strong>many</strong> words yet.",
+                "Do you get <strong>many</strong> exercises?"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_basics.mp3",
+            "functions": [
+                "Expressing large quantities",
+                "Comparing amounts",
+                "Asking about quantities"
+            ],
+            "tips": "💡 <strong>Quick Rule:</strong> Countable nouns (books, cars) → many. Uncountable nouns (water, time) → much. Both → a lot of."
+        },
+        {
+            "id": "lesson-2",
+            "title": "A Lot Of vs Lots Of – Informal vs Formal 🚀",
+            "content": "<p>Let's explore the subtle differences between <strong>a lot of</strong> and <strong>lots of</strong>, plus when to use <strong>much</strong> and <strong>many</strong> in affirmative sentences. 📈</p><p><strong>Advanced Application:</strong> Understanding formality levels and special contexts.</p><p><strong>Key Differences:</strong></p><ul><li><strong>A lot of vs Lots of:</strong> Same meaning, lots of is slightly more informal</li><li><strong>Much/Many in Affirmatives:</strong> Used at sentence start, after so/as/too, or in formal writing</li></ul><p><strong>Context Matters:</strong> Formal writing uses much/many more freely than conversation.</p><p><strong>Practice Strategy:</strong> Notice these words in newspapers vs casual conversation.</p>",
+            "examples": [
+                "The new owner made <strong>a lot of</strong> money on stocks.",
+                "Charlie's got <strong>lots of</strong> money and he's generous.",
+                "<strong>Much</strong> of what was said was confusing.",
+                "<strong>Many</strong> people believe all they hear.",
+                "There was <strong>so much</strong> noise I couldn't hear.",
+                "You can eat <strong>as many</strong> cherries as you like.",
+                "There is <strong>much</strong> to be learned from elders."
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_application.mp3",
+            "functions": [
+                "Expressing formality levels",
+                "Using in special grammatical positions",
+                "Writing vs speaking differences"
+            ],
+            "tips": "💡 <strong>Formality Check:</strong> In formal writing, much/many are acceptable in affirmatives. In speech, stick to a lot of."
+        },
+        {
+            "id": "lesson-3",
+            "title": "Much Of & Many Of – With Determiners 🔍",
+            "content": "<p>Master the special cases where <strong>much</strong> and <strong>many</strong> combine with <strong>of</strong> before articles, possessives, and pronouns. 🎭</p><p><strong>Special Cases:</strong></p><ul><li><strong>With articles:</strong> much of the time, many of the books</li><li><strong>With possessives:</strong> much of his life, many of my friends</li><li><strong>With pronouns:</strong> many of them, much of it</li></ul><p><strong>Regional Variations:</strong> American English sometimes uses a lot of instead of much/many of.</p><p><strong>Advanced Tip:</strong> Always use 'of' when these words follow determiners.</p>",
+            "examples": [
+                "<strong>Much of</strong> his life was devoted to causes.",
+                "Not <strong>many of</strong> the witnesses could describe him.",
+                "<strong>Much of</strong> the information was useful.",
+                "<strong>Many of</strong> her ideas were innovative.",
+                "<strong>Much of</strong> what they said was true.",
+                "<strong>Many of</strong> us enjoyed the party."
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_exceptions.mp3",
+            "functions": [
+                "Expressing portions of wholes",
+                "Referring to specific groups",
+                "Formal written expression"
+            ],
+            "tips": "💡 <strong>Determiner Rule:</strong> If you see a/an, the, this, my, his, etc. before the noun, add 'of' after much/many."
+        },
+        {
+            "id": "lesson-4",
+            "title": "Too Much vs Much Too – Excess & Degree 🎯",
+            "content": "<p>Learn the crucial difference between <strong>too much</strong> (excess quantity) and <strong>much too</strong> (excess degree). ⚖️</p><p><strong>Key Distinction:</strong></p><ul><li><strong>Too much:</strong> Too great in quantity/amount</li><li><strong>Much too:</strong> Excessively (with adjectives/adverbs)</li></ul><p><strong>Common Confusion:</strong> Word order completely changes the meaning.</p><p><strong>Practice Strategy:</strong> Replace with synonyms: too much = excessive amount, much too = far too.</p>",
+            "examples": [
+                "I put <strong>too much</strong> salt in the food.",
+                "It's raining <strong>too much</strong> to go out.",
+                "The food was <strong>much too</strong> salty.",
+                "It's raining <strong>much too</strong> heavily.",
+                "Joe eats junk food <strong>much too</strong> often.",
+                "Alex had <strong>much too much</strong> to drink!"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_4_comparison.mp3",
+            "functions": [
+                "Expressing excess quantities",
+                "Expressing excessive degree",
+                "Showing criticism or complaint"
+            ],
+            "tips": "💡 <strong>Word Order Trick:</strong> Too + much = quantity problem. Much + too = degree problem."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Much vs A Lot Of – Usage Comparison 📊",
+            "content": "<p>Compare <strong>much</strong> vs <strong>a lot of</strong> in different contexts and sentence types. 📊</p><p><strong>Usage Patterns:</strong></p><ul><li><strong>Much:</strong> Formal, negative/questions, some affirmatives</li><li><strong>A lot of:</strong> Informal, all sentence types, both noun types</li></ul><p><strong>Context Matters:</strong> Academic writing favors much/many; casual speech uses a lot of.</p><p><strong>Practice Strategy:</strong> Rewrite sentences using both forms to feel the difference.</p>",
+            "examples": [
+                "She spends <strong>much</strong> time on homework.",
+                "She spends <strong>a lot of</strong> time on homework.",
+                "She doesn't spend <strong>much</strong>/<strong>a lot of</strong> time on homework.",
+                "Sam watches <strong>many</strong> documentaries.",
+                "Sam watches <strong>a lot of</strong> documentaries.",
+                "Sam doesn't watch <strong>many</strong>/<strong>a lot of</strong> documentaries."
+            ],
+            "difficulty": 3,
+            "audio": "lesson_5_comparison.mp3",
+            "functions": [
+                "Comparing formality levels",
+                "Understanding register differences",
+                "Adapting language to context"
+            ],
+            "tips": "💡 <strong>Context Test:</strong> Would you say this in a job interview? If not, use a lot of instead of much/many."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Mastering Quantity Words – Real World Usage 🏆",
+            "content": "<p>Put it all together! Learn to choose the right quantity word in any situation. 🏆</p><p><strong>Decision Framework:</strong></p><ul><li><strong>Countable nouns:</strong> Many (formal) or a lot of (informal)</li><li><strong>Uncountable nouns:</strong> Much (formal) or a lot of (informal)</li><li><strong>Special cases:</strong> Much/many + of with determiners</li></ul><p><strong>Advanced Tip:</strong> Native speakers often use a lot of in speech, even when much/many would be grammatically correct.</p>",
+            "examples": [
+                "<strong>Much</strong> effort went into the preparation.",
+                "<strong>Many</strong> people drive too fast.",
+                "It doesn't require <strong>much</strong>/<strong>a lot of</strong> preparation.",
+                "We don't meet <strong>many</strong>/<strong>a lot of</strong> people.",
+                "Does it require <strong>much</strong>/<strong>a lot of</strong> preparation?",
+                "Do you meet <strong>many</strong>/<strong>a lot of</strong> people?"
+            ],
+            "difficulty": 4,
+            "audio": "lesson_6_mastery.mp3",
+            "functions": [
+                "Expressing quantities naturally",
+                "Adapting to different contexts",
+                "Sounding like a native speaker"
+            ],
+            "tips": "💡 <strong>Native Speaker Tip:</strong> In everyday conversation, a lot of works for almost everything. Save much/many for formal writing."
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 5 sentences using 'a lot of' with both countable and uncountable nouns.",
+            "hint": "Include things like time, money, people, food, etc.",
+            "expectedKeywords": [
+                "a lot of",
+                "time",
+                "money",
+                "people",
+                "food",
+                "books",
+                "work"
+            ],
+            "sentenceStarters": [
+                "I spend ___",
+                "She has ___",
+                "We need ___",
+                "They bought ___"
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "Write negative sentences using 'much' and 'many' correctly.",
+            "hint": "Remember: much with uncountable, many with countable nouns.",
+            "expectedKeywords": [
+                "much",
+                "many",
+                "doesn't",
+                "don't",
+                "isn't",
+                "aren't",
+                "time",
+                "money",
+                "people",
+                "books"
+            ],
+            "sentenceStarters": [
+                "I don't have ___",
+                "She doesn't spend ___",
+                "We don't need ___",
+                "They aren't ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Write questions using 'much' and 'many' in the correct positions.",
+            "hint": "Much/many go before the main verb in questions.",
+            "expectedKeywords": [
+                "much",
+                "many",
+                "do",
+                "does",
+                "is",
+                "are",
+                "time",
+                "money",
+                "people",
+                "books",
+                "homework"
+            ],
+            "sentenceStarters": [
+                "Do you have ___?",
+                "Does she spend ___?",
+                "Are there ___?",
+                "Is there ___?"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-4",
+            "question": "Write sentences using 'much of' and 'many of' with determiners.",
+            "hint": "Use words like the, my, his, her, our, their before the nouns.",
+            "expectedKeywords": [
+                "much of",
+                "many of",
+                "the",
+                "my",
+                "his",
+                "her",
+                "our",
+                "their",
+                "time",
+                "money",
+                "people",
+                "books",
+                "ideas"
+            ],
+            "sentenceStarters": [
+                "Much of ___ is spent on ___",
+                "Many of ___ are interested in ___",
+                "Much of ___ belongs to ___",
+                "Many of ___ work for ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-5",
+            "question": "Write sentences comparing 'too much' (excess quantity) vs 'much too' (excess degree).",
+            "hint": "Too much + noun = quantity problem. Much too + adjective = degree problem.",
+            "expectedKeywords": [
+                "too much",
+                "much too",
+                "salt",
+                "expensive",
+                "fast",
+                "loud",
+                "spicy",
+                "difficult",
+                "heavy"
+            ],
+            "sentenceStarters": [
+                "There is ___ salt in the food",
+                "The music is ___ loud",
+                "He drives ___ fast",
+                "The exam was ___ difficult"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short paragraph (6-8 sentences) about your daily routine using various quantity words.",
+            "hint": "Mix a lot of, much, many, too much, much too, etc. naturally.",
+            "expectedKeywords": [
+                "a lot of",
+                "much",
+                "many",
+                "too much",
+                "much too",
+                "time",
+                "work",
+                "food",
+                "people",
+                "homework",
+                "exercise"
+            ],
+            "sentenceStarters": [
+                "I spend ___ time ___",
+                "There isn't ___ homework",
+                "I don't meet ___ people",
+                "The food is ___ spicy",
+                "There are ___ cars on the road"
+            ],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-7",
+            "question": "Correct the mistakes in these sentences about quantity words.",
+            "hint": "Focus on much/many vs a lot of, and word order with too much/much too.",
+            "expectedKeywords": [
+                "much",
+                "many",
+                "a lot of",
+                "too much",
+                "much too",
+                "time",
+                "money",
+                "people",
+                "books",
+                "food"
+            ],
+            "sentenceStarters": [
+                "I have many time for hobbies",
+                "She spends much money on clothes",
+                "There are much people at the party",
+                "The soup is too much salty"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Write formal vs informal versions of the same ideas using different quantity words.",
+            "hint": "Formal: much/many. Informal: a lot of.",
+            "expectedKeywords": [
+                "much",
+                "many",
+                "a lot of",
+                "time",
+                "money",
+                "people",
+                "research",
+                "experience",
+                "information"
+            ],
+            "sentenceStarters": [
+                "The research required ___ time",
+                "We interviewed ___ people",
+                "She has ___ experience",
+                "The report contains ___ information"
+            ],
+            "difficulty": 3
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Match the quantity word to the correct noun type.",
+            "sentence": "I drink ____ water every day. (uncountable noun)",
+            "options": [
+                "much",
+                "many",
+                "a lot of",
+                "lots of"
+            ],
+            "correctAnswer": [
+                "much",
+                "a lot of"
+            ],
+            "hint": "Both much and a lot of work with uncountable nouns like water.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Choose the correct quantity word for countable nouns.",
+            "sentence": "She has ____ friends in the city. (plural countable)",
+            "options": [
+                "much",
+                "many",
+                "a lot of",
+                "lots of"
+            ],
+            "correctAnswer": [
+                "many",
+                "a lot of"
+            ],
+            "hint": "Many and a lot of both work with countable nouns in plural form.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Which quantity words work in negative sentences?",
+            "sentence": "I don't have ____ free time this week.",
+            "options": [
+                "much",
+                "many",
+                "a lot of",
+                "lots of"
+            ],
+            "correctAnswer": [
+                "much",
+                "many",
+                "a lot of"
+            ],
+            "hint": "All three can be used in negative sentences, depending on the noun.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Select words that need 'of' with determiners.",
+            "sentence": "____ of the information was useful.",
+            "options": [
+                "much",
+                "many",
+                "a lot",
+                "lots"
+            ],
+            "correctAnswer": [
+                "much",
+                "many"
+            ],
+            "hint": "Much and many need 'of' when followed by determiners like 'the'.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Choose the correct form for excess quantity vs excess degree.",
+            "sentence": "The coffee is ____ sweet. (excess degree)",
+            "options": [
+                "too much",
+                "much too",
+                "many too",
+                "too many"
+            ],
+            "correctAnswer": [
+                "much too"
+            ],
+            "hint": "Much too + adjective = excessively. Too much + noun = excess amount.",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Which quantity word is used with uncountable nouns?",
+            "sentence": "I don't have ____ time to finish the project.",
+            "options": [
+                "many",
+                "much",
+                "a lot of",
+                "lots of"
+            ],
+            "correctAnswer": "much",
+            "audio": "quiz_1_basics.mp3",
+            "hint": "Much is used with uncountable nouns like time, water, money.",
+            "difficulty": "easy",
+            "explanation": "Much is the correct choice for uncountable nouns in negative sentences. Many is for countable nouns."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which word means the same as 'a lot of' but is more informal?",
+            "sentence": "Charlie has ____ money saved for his trip.",
+            "options": [
+                "much",
+                "many",
+                "lots of",
+                "several"
+            ],
+            "correctAnswer": "lots of",
+            "audio": "quiz_2_application.mp3",
+            "hint": "Lots of is the informal version of a lot of.",
+            "difficulty": "easy",
+            "explanation": "Lots of and a lot of have the same meaning but lots of is slightly more informal and conversational."
+        },
+        {
+            "id": "quiz-3",
+            "question": "When do we use 'of' with much and many?",
+            "sentence": "____ of the students passed the exam.",
+            "options": [
+                "Much",
+                "Many",
+                "A lot",
+                "Lots"
+            ],
+            "correctAnswer": "Many",
+            "audio": "quiz_3_exceptions.mp3",
+            "hint": "Many needs 'of' when followed by determiners like 'the'.",
+            "difficulty": "medium",
+            "explanation": "Many of is used before determiners (the, my, his, etc.). Much of follows the same rule."
+        },
+        {
+            "id": "quiz-4",
+            "question": "What's the difference between 'too much' and 'much too'?",
+            "sentence": "The music is ____ loud for me to concentrate.",
+            "options": [
+                "too much (quantity)",
+                "much too (degree)",
+                "Both mean the same",
+                "Neither is correct"
+            ],
+            "correctAnswer": "much too (degree)",
+            "audio": "quiz_4_comparison.mp3",
+            "hint": "Much too + adjective means excessively. Too much + noun means excess amount.",
+            "difficulty": "medium",
+            "explanation": "Much too describes excessive degree (how loud), while too much describes excessive quantity."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which sentence uses quantity words correctly?",
+            "sentence": "Select the most natural sentence:",
+            "options": [
+                "I have much books about grammar.",
+                "I have many books about grammar.",
+                "I have a lot of books about grammar.",
+                "Both B and C are correct"
+            ],
+            "correctAnswer": "Both B and C are correct",
+            "audio": "quiz_5_master.mp3",
+            "hint": "Many and a lot of both work with countable nouns like books.",
+            "difficulty": "hard",
+            "explanation": "Many is formal, a lot of is informal - both are grammatically correct with countable nouns."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "quantity",
+            "hint": "Amount or number of something",
+            "clue": "q_a_t_t_",
+            "sentence": "We need to check the ____ of books in stock.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-2",
+            "word": "amount",
+            "hint": "Total quantity of something uncountable",
+            "clue": "_m_u_t",
+            "sentence": "The ____ of money spent was surprising.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-3",
+            "word": "countable",
+            "hint": "Can be counted individually",
+            "clue": "c_u_t_b_e",
+            "sentence": "Books are ____ nouns.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-4",
+            "word": "uncountable",
+            "hint": "Cannot be counted individually",
+            "clue": "_n_o_n_a_l_",
+            "sentence": "Water is an ____ noun.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-5",
+            "word": "excessive",
+            "hint": "Too much, more than needed",
+            "clue": "_x_e_s_v_",
+            "sentence": "The ____ noise kept me awake.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-6",
+            "word": "determine",
+            "hint": "To decide or establish",
+            "clue": "d_t_r_i_e",
+            "sentence": "The article will ____ the noun.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-7",
+            "word": "formal",
+            "hint": "Official or serious style",
+            "clue": "_o_m_l",
+            "sentence": "Much is more ____ than a lot of.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-8",
+            "word": "informal",
+            "hint": "Casual or relaxed style",
+            "clue": "_n_o_m_l",
+            "sentence": "Lots of is more ____ than many.",
+            "difficulty": "easy"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 12,
+            "silver": 35,
+            "gold": 60,
+            "platinum": 85
+        },
+        "badges": [
+            {
+                "id": "quantity-starter",
+                "name": "Quantity Words Starter 🌟",
+                "condition": "Complete lesson-1 with 80% or higher",
+                "icon": "🌟",
+                "points": 25,
+                "message": "Great start! You're learning about quantity words."
+            },
+            {
+                "id": "much-many-master",
+                "name": "Much & Many Master 🔍",
+                "condition": "Score 100% on 3 basic activities",
+                "icon": "🔍",
+                "points": 35,
+                "message": "You understand the difference between much and many!"
+            },
+            {
+                "id": "quantity-expert",
+                "name": "Quantity Expert 🎯",
+                "condition": "Complete writing-2 and game-2 with full marks",
+                "icon": "🎯",
+                "points": 45,
+                "message": "You can use quantity words perfectly in context!"
+            },
+            {
+                "id": "determiner-handler",
+                "name": "Determiner Handler 🎭",
+                "condition": "Master all 'of' construction activities",
+                "icon": "🎭",
+                "points": 50,
+                "message": "You handle much/many + of like a pro!"
+            },
+            {
+                "id": "excess-champion",
+                "name": "Excess Champion ⚖️",
+                "condition": "Perfect scores on comparison quizzes and activities",
+                "icon": "⚖️",
+                "points": 55,
+                "message": "You know exactly when to use too much vs much too!"
+            },
+            {
+                "id": "writing-quantifier",
+                "name": "Writing Quantifier ✍️",
+                "condition": "Complete all writing activities with high scores",
+                "icon": "✍️",
+                "points": 60,
+                "message": "Your writing flows naturally with perfect quantity words!"
+            },
+            {
+                "id": "speed-counter",
+                "name": "Speed Counter ⏱️",
+                "condition": "Complete 5 activities in under 5 minutes each",
+                "icon": "⏱️",
+                "points": 40,
+                "message": "You're incredibly fast and accurate with quantities!"
+            },
+            {
+                "id": "perfection-counter",
+                "name": "Perfection Counter 💎",
+                "condition": "Score 100% on all activities in one category",
+                "icon": "💎",
+                "points": 75,
+                "message": "You demand perfection with quantity words!"
+            },
+            {
+                "id": "quantity-storyteller",
+                "name": "Quantity Storyteller 📖✨",
+                "condition": "Earn Gold stars + complete writing-6 with full marks",
+                "icon": "📖✨",
+                "points": 100,
+                "message": "Your writing tells stories with flawless quantity usage!"
+            },
+            {
+                "id": "ultimate-quantifier",
+                "name": "Ultimate Quantifier 🏆",
+                "condition": "Collect ALL other badges + 100% on every activity",
+                "icon": "🏆",
+                "points": 200,
+                "message": "You are the undisputed master of quantity words!"
+            }
+        ]
+    }
+}

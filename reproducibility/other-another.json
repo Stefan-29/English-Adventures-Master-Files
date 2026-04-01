@@ -1,0 +1,645 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Other & Another Basics – Additional & Alternative! 🎯",
+            "content": "<p>Welcome to the world of <strong>other</strong> and <strong>another</strong>! These determiners help us talk about additional items and alternatives. 📚</p><p><strong>Core Concept:</strong> Other expresses 'different' or 'additional', another expresses 'one more' or 'alternative'.</p><p><strong>Key Points:</strong></p><ul><li><strong>Other:</strong> 'Different' or 'the rest' (adjective or pronoun)</li><li><strong>Another:</strong> 'One more' or 'different' (adjective)</li><li><strong>Usage:</strong> Other with plural/singular, another with singular</li></ul><p><strong>Important Note:</strong> Another = an + other (one more of the same type).</p><p><strong>Common Mistakes:</strong> Using another with plural nouns or other incorrectly.</p>",
+            "examples": [
+                "There's some water in this bottle. The <strong>other</strong> bottle is empty. (different bottle)",
+                "I can't find my <strong>other</strong> shoe. (the remaining shoe)",
+                "Please give me <strong>another</strong> slice of cake. (one more slice)",
+                "This place isn't great. Is there <strong>another</strong> place we could go? (alternative place)",
+                "Some children learn quickly but <strong>other</strong> children need more time. (different children)",
+                "Only half arrived. Where are the <strong>others</strong>? (the rest)"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_basics.mp3",
+            "functions": [
+                "Expressing alternatives",
+                "Referring to additional items",
+                "Indicating differences"
+            ],
+            "tips": "💡 <strong>Quick Rule:</strong> Other = different/additional. Another = one more/alternative."
+        },
+        {
+            "id": "lesson-2",
+            "title": "Other as Adjective – Different & Additional 🚀",
+            "content": "<p>Master <strong>other</strong> as an adjective meaning 'different' or 'additional'. 📈</p><p><strong>Other as Adjective:</strong></p><ul><li><strong>With plural nouns:</strong> Other books, other people</li><li><strong>With singular nouns:</strong> The other book, my other car</li><li><strong>With 'one/ones':</strong> The other one, other ones</li></ul><p><strong>Context Matters:</strong> Use 'the other' when there are just two items.</p><p><strong>Practice Strategy:</strong> Think of pairs or groups where you need to distinguish items.</p>",
+            "examples": [
+                "These shoes don't match. The <strong>other</strong> ones look better. (different shoes)",
+                "Some students passed but <strong>other</strong> students failed. (different students)",
+                "Have you got any <strong>other</strong> questions? (additional questions)",
+                "I live in this city. My <strong>other</strong> sister lives abroad. (different sister)",
+                "This pen doesn't work. Can I have <strong>another</strong> one? (different pen)",
+                "Some people like tea, <strong>other</strong> people prefer coffee. (different people)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_application.mp3",
+            "functions": [
+                "Distinguishing between items",
+                "Expressing alternatives",
+                "Referring to additional options"
+            ],
+            "tips": "💡 <strong>Article Rule:</strong> The other = when there are just two. Other = when there are more than two."
+        },
+        {
+            "id": "lesson-3",
+            "title": "Other as Pronoun – The Rest & Others 🔍",
+            "content": "<p>Learn <strong>other</strong> as a pronoun meaning 'the rest' or 'different ones'. 🎭</p><p><strong>Other as Pronoun:</strong></p><ul><li><strong>Singular:</strong> The other (one remaining item)</li><li><strong>Plural:</strong> Others/the others (remaining items)</li><li><strong>With 'the':</strong> The others (specific remaining group)</li></ul><p><strong>Regional Variations:</strong> Americans often use 'the other' more than British speakers.</p><p><strong>Advanced Tip:</strong> 'Others' (no 'the') is more general than 'the others'.</p>",
+            "examples": [
+                "Two cookies left. You have one and I'll have <strong>the other</strong>. (the remaining one)",
+                "80% arrived on time. <strong>The others</strong> were late. (the remaining students)",
+                "Only half the guests arrived. Where are <strong>the others</strong>? (the rest of the group)",
+                "Some people work hard, <strong>others</strong> are lazy. (different people in general)",
+                "This book is good. What about <strong>the other</strong>? (the remaining book)",
+                "Some like jazz, <strong>others</strong> prefer rock. (different people)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_exceptions.mp3",
+            "functions": [
+                "Referring to remaining items",
+                "Indicating unspecified others",
+                "Creating contrasts"
+            ],
+            "tips": "💡 <strong>Pronoun Rule:</strong> The other(s) = specific remaining. Others = general different ones."
+        },
+        {
+            "id": "lesson-4",
+            "title": "Another – One More & Alternative ⚖️",
+            "content": "<p>Master <strong>another</strong> for expressing 'one more' or 'different/alternative'. ⚖️</p><p><strong>Another Meanings:</strong></p><ul><li><strong>One more:</strong> Additional of the same type</li><li><strong>Alternative:</strong> Different option or choice</li><li><strong>With numbers:</strong> Another two weeks, another few days</li></ul><p><strong>Emotional Impact:</strong> Another can sound impatient or seeking alternatives.</p><p><Practice Strategy:</strong> Use when you want more of something or a different option.</p>",
+            "examples": [
+                "There are six for dinner but only 5 plates. We need <strong>another</strong> plate. (one more)",
+                "This cake is delicious. Could I have <strong>another</strong> slice? (additional slice)",
+                "This place isn't great. Is there <strong>another</strong> restaurant nearby? (alternative)",
+                "I'm not happy with this product. Next time I'll buy <strong>another</strong> brand. (different brand)",
+                "The investigation will take <strong>another</strong> two weeks. (additional time)",
+                "She gave me <strong>another</strong> chance. (additional opportunity)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_4_comparison.mp3",
+            "functions": [
+                "Requesting additional items",
+                "Seeking alternatives",
+                "Expressing dissatisfaction with current choice"
+            ],
+            "tips": "💡 <strong>Alternative Tone:</strong> Another can sound like you're not satisfied with the current option."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Other vs Another – Critical Differences 📊",
+            "content": "<p>Learn the crucial distinctions between <strong>other</strong> and <strong>another</strong>. 📊</p><p><strong>Key Differences:</strong></p><ul><li><strong>Form:</strong> Other (base), Another (an + other)</li><li><strong>Number:</strong> Other (singular/plural), Another (singular only)</li><li><strong>Meaning:</strong> Other (different), Another (additional/alternative)</li><li><strong>Usage:</strong> Other (adjective/pronoun), Another (adjective)</li></ul><p><strong>Context Matters:</strong> Another implies 'one more of the same type'.</p><p><Practice Strategy:</strong> Replace and see if the meaning changes.</p>",
+            "examples": [
+                "I need <strong>another</strong> cup of coffee. (one more cup)",
+                "I need <strong>the other</strong> cup of coffee. (the remaining cup)",
+                "She has <strong>other</strong> plans. (different plans)",
+                "She has <strong>another</strong> plan. (additional plan)",
+                "Some books are good, <strong>other</strong> books are bad. (different books)",
+                "This book is good. Let me try <strong>another</strong> one. (different book of same type)",
+                "<strong>Other</strong> people might disagree. (different people)",
+                "Let's ask <strong>another</strong> person. (one more person)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_5_comparison.mp3",
+            "functions": [
+                "Choosing the right determiner",
+                "Understanding subtle meaning differences",
+                "Using appropriate forms"
+            ],
+            "tips": "💡 <strong>Meaning Test:</strong> Other = different. Another = one more/alternative."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Mastering Other & Another – Natural Usage 🏆",
+            "content": "<p>Put it all together! Use <strong>other</strong> and <strong>another</strong> naturally in communication. 🏆</p><p><strong>Communication Strategies:</strong></p><ul><li><strong>Polite requests:</strong> Could I have another...?</li><li><strong>Alternatives:</strong> Is there another...?</li><li><strong>Contrasts:</strong> Some... other...</li><li><strong>Remaining items:</strong> The other(s)</li></ul><p><strong>Advanced Tip:</strong> Another can sound more polite than 'one more' in requests.</p>",
+            "examples": [
+                "This isn't working. Let's try <strong>another</strong> approach. (alternative method)",
+                "Some students arrived early, <strong>others</strong> were late. (different students)",
+                "I've read this book. Have you got <strong>any other</strong> recommendations? (additional books)",
+                "One candidate was excellent, <strong>the other</strong> was average. (the remaining candidate)",
+                "Would you like <strong>another</strong> cup of tea? (polite offer of more)",
+                "This color doesn't suit me. Do you have <strong>any other</strong> options? (alternative choices)"
+            ],
+            "difficulty": 4,
+            "audio": "lesson_6_mastery.mp3",
+            "functions": [
+                "Making polite requests",
+                "Offering alternatives",
+                "Creating smooth conversations"
+            ],
+            "tips": "💡 <strong>Native Choice:</strong> Another sounds more polite than 'one more' when requesting."
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 5 sentences using 'other' as an adjective with different nouns.",
+            "hint": "Use other with plural nouns (other books) and the other with singular (the other book).",
+            "expectedKeywords": [
+                "other",
+                "the other",
+                "books",
+                "people",
+                "cars",
+                "ideas",
+                "places",
+                "questions"
+            ],
+            "sentenceStarters": [
+                "Some books are interesting, other ___",
+                "This pen doesn't work. The other ___",
+                "Some people like coffee, other ___",
+                "I have this jacket. The other ___"
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "Write 5 sentences using 'other' as a pronoun (the others/others).",
+            "hint": "Use the others for specific remaining items, others for general different ones.",
+            "expectedKeywords": [
+                "the others",
+                "others",
+                "students",
+                "people",
+                "books",
+                "cars",
+                "arrived",
+                "came",
+                "were",
+                "are"
+            ],
+            "sentenceStarters": [
+                "Two students passed. The others ___",
+                "Some people work hard, others ___",
+                "Half the guests arrived. Where are the others ___",
+                "This book is good. What about the others ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Write sentences using 'another' for 'one more' of the same type.",
+            "hint": "Use another with singular countable nouns to mean 'additional'.",
+            "expectedKeywords": [
+                "another",
+                "cup",
+                "book",
+                "slice",
+                "chance",
+                "day",
+                "week",
+                "minute"
+            ],
+            "sentenceStarters": [
+                "This coffee is good. Can I have another ___",
+                "I didn't understand. Can you give me another ___",
+                "The cake is delicious. May I have another ___",
+                "The movie was great. Let's watch another ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-4",
+            "question": "Write sentences using 'another' for alternatives or different options.",
+            "hint": "Use another when you want a different choice or alternative.",
+            "expectedKeywords": [
+                "another",
+                "place",
+                "restaurant",
+                "way",
+                "idea",
+                "solution",
+                "approach",
+                "method"
+            ],
+            "sentenceStarters": [
+                "This restaurant is full. Let's try another ___",
+                "This approach didn't work. We need another ___",
+                "I'm not happy with this. Is there another ___",
+                "This color doesn't suit. Do you have another ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-5",
+            "question": "Write sentences contrasting 'other' vs 'another' in similar contexts.",
+            "hint": "Show how they create different meanings: other = different, another = additional/alternative.",
+            "expectedKeywords": [
+                "other",
+                "another",
+                "book",
+                "car",
+                "idea",
+                "place",
+                "restaurant",
+                "solution"
+            ],
+            "sentenceStarters": [
+                "This book is boring. Let's read another ___",
+                "This book is boring. Let's read the other ___",
+                "This restaurant is expensive. Let's find another ___",
+                "This restaurant is expensive. The other ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short dialogue (8-10 exchanges) using other/another naturally.",
+            "hint": "Include offers, requests for alternatives, references to remaining items, etc.",
+            "expectedKeywords": [
+                "another",
+                "other",
+                "the other",
+                "others",
+                "would",
+                "like",
+                "have",
+                "try",
+                "find",
+                "cup",
+                "book",
+                "restaurant"
+            ],
+            "sentenceStarters": [
+                "Would you like another ___?",
+                "This one is good. What about the other ___?",
+                "Some people prefer ___, others like ___",
+                "Let's try another ___"
+            ],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-7",
+            "question": "Correct the mistakes in these sentences about other/another usage.",
+            "hint": "Fix wrong word choice, plural with another, missing articles, etc.",
+            "expectedKeywords": [
+                "other",
+                "another",
+                "the other",
+                "others",
+                "book",
+                "books",
+                "cup",
+                "restaurant"
+            ],
+            "sentenceStarters": [
+                "I need another books for my research",
+                "This pen doesn't work. Can I have other one",
+                "Some students passed, the other were absent",
+                "Let's go to another restaurants"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Write polite requests and offers using other/another.",
+            "hint": "Use another for polite requests for more, other for alternatives.",
+            "expectedKeywords": [
+                "another",
+                "other",
+                "would",
+                "like",
+                "can",
+                "have",
+                "could",
+                "may",
+                "cup",
+                "slice",
+                "book",
+                "option"
+            ],
+            "sentenceStarters": [
+                "Would you like another ___?",
+                "Can I have another ___?",
+                "Do you have any other ___?",
+                "May I try another ___?"
+            ],
+            "difficulty": 3
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Choose the correct word for 'one more'.",
+            "sentence": "This coffee is good. Can I have ____ cup?",
+            "options": [
+                "other",
+                "another",
+                "the other",
+                "others"
+            ],
+            "correctAnswer": [
+                "another"
+            ],
+            "hint": "Another means 'one more' or 'additional'.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Select the correct pronoun for remaining items.",
+            "sentence": "Three books on the table. I read one. Where are ____?",
+            "options": [
+                "other",
+                "another",
+                "the others",
+                "others"
+            ],
+            "correctAnswer": [
+                "the others"
+            ],
+            "hint": "The others refers to the specific remaining books.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Which word means 'different' or 'alternative'?",
+            "sentence": "This restaurant is closed. Let's find ____ one.",
+            "options": [
+                "other",
+                "another",
+                "the other",
+                "others"
+            ],
+            "correctAnswer": [
+                "another"
+            ],
+            "hint": "Another can mean 'a different one' or 'alternative'.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Choose the correct adjective for plural nouns.",
+            "sentence": "Some children learn quickly, ____ children need more time.",
+            "options": [
+                "other",
+                "another",
+                "the other",
+                "others"
+            ],
+            "correctAnswer": [
+                "other"
+            ],
+            "hint": "Other is used as an adjective with plural nouns.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Select the word that cannot be used with plural nouns.",
+            "sentence": "I need ____ week to finish the project.",
+            "options": [
+                "other",
+                "another",
+                "the other",
+                "others"
+            ],
+            "correctAnswer": [
+                "another"
+            ],
+            "hint": "Another is only used with singular nouns.",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Which word means 'one more of the same type'?",
+            "sentence": "The cake is delicious. Can I have ____ slice?",
+            "options": [
+                "other",
+                "another",
+                "the other",
+                "others"
+            ],
+            "correctAnswer": "another",
+            "audio": "quiz_1_basics.mp3",
+            "hint": "Another means 'one more' or 'additional'.",
+            "difficulty": "easy",
+            "explanation": "Another = an + other, meaning 'one more of the same type'."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which word can be used as both adjective and pronoun?",
+            "sentence": "Some books are good, ____ are bad.",
+            "options": [
+                "other",
+                "another",
+                "the other",
+                "others"
+            ],
+            "correctAnswer": "other",
+            "audio": "quiz_2_application.mp3",
+            "hint": "Other can be used as an adjective (other books) or pronoun (the others).",
+            "difficulty": "easy",
+            "explanation": "Other functions as both adjective and pronoun. Another is only an adjective."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What's the difference between 'other' and 'another'?",
+            "sentence": "I need ____ book for my research.",
+            "options": [
+                "Other = different, another = one more",
+                "Other = one more, another = different",
+                "They mean the same",
+                "Other is plural, another is singular"
+            ],
+            "correctAnswer": "Other = different, another = one more",
+            "audio": "quiz_3_exceptions.mp3",
+            "hint": "Other means different, another means one more or alternative.",
+            "difficulty": "medium",
+            "explanation": "Other expresses difference, another expresses addition or alternative."
+        },
+        {
+            "id": "quiz-4",
+            "question": "Which sentence uses the words correctly?",
+            "sentence": "Select the correct sentence:",
+            "options": [
+                "I need another informations about the course.",
+                "I need other information about the course.",
+                "I need the other informations about the course.",
+                "I need others informations about the course."
+            ],
+            "correctAnswer": "I need other information about the course.",
+            "audio": "quiz_4_comparison.mp3",
+            "hint": "Other is used with uncountable nouns like information.",
+            "difficulty": "medium",
+            "explanation": "Other is correct with uncountable nouns. Another cannot be used with uncountable nouns."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which is the most polite way to ask for more?",
+            "sentence": "____ cup of coffee, please.",
+            "options": [
+                "I want other",
+                "I want another",
+                "Can I have other",
+                "Can I have another"
+            ],
+            "correctAnswer": "Can I have another",
+            "audio": "quiz_5_master.mp3",
+            "hint": "Can I have another is polite and uses the correct word.",
+            "difficulty": "hard",
+            "explanation": "Can I have another is polite and grammatically correct for requesting one more."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "additional",
+            "hint": "Extra or more",
+            "clue": "_d__t_o_a_",
+            "sentence": "Another means ____ or alternative.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-2",
+            "word": "alternative",
+            "hint": "Different choice or option",
+            "clue": "_l_e_n_t_v_",
+            "sentence": "Another can mean an ____.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-3",
+            "word": "remaining",
+            "hint": "Left over or still there",
+            "clue": "r_m_i_i_g",
+            "sentence": "The others refers to ____ items.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-4",
+            "word": "distinguish",
+            "hint": "Tell the difference between",
+            "clue": "d_s_i_g_i_h",
+            "sentence": "We must ____ between other and another.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-5",
+            "word": "contrast",
+            "hint": "Comparison showing differences",
+            "clue": "c_n_r_s_",
+            "sentence": "Other creates a ____ with another.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-6",
+            "word": "determiner",
+            "hint": "Word before noun",
+            "clue": "d_t_r_i_e_",
+            "sentence": "Other and another are ____.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-7",
+            "word": "pronoun",
+            "hint": "Word replacing noun",
+            "clue": "p_o_o_n",
+            "sentence": "Other can function as a ____.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-8",
+            "word": "adjective",
+            "hint": "Word describing noun",
+            "clue": "_d_e_t_v_",
+            "sentence": "Another is always an ____.",
+            "difficulty": "easy"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 12,
+            "silver": 35,
+            "gold": 60,
+            "platinum": 85
+        },
+        "badges": [
+            {
+                "id": "alternative-starter",
+                "name": "Alternative Starter 🌟",
+                "condition": "Complete lesson-1 with 80% or higher",
+                "icon": "🌟",
+                "points": 25,
+                "message": "Great start! You're learning about other and another."
+            },
+            {
+                "id": "difference-master",
+                "name": "Difference Master 🔍",
+                "condition": "Score 100% on 3 basic activities",
+                "icon": "🔍",
+                "points": 35,
+                "message": "You understand the difference between other and another!"
+            },
+            {
+                "id": "pronoun-expert",
+                "name": "Pronoun Expert 🎯",
+                "condition": "Complete writing-2 and game-2 with full marks",
+                "icon": "🎯",
+                "points": 45,
+                "message": "You master other as pronoun (the others/others)!"
+            },
+            {
+                "id": "addition-handler",
+                "name": "Addition Handler 🎭",
+                "condition": "Master all another activities",
+                "icon": "🎭",
+                "points": 50,
+                "message": "You handle 'one more' and alternatives perfectly!"
+            },
+            {
+                "id": "contrast-champion",
+                "name": "Contrast Champion ⚖️",
+                "condition": "Perfect scores on comparison quizzes and activities",
+                "icon": "⚖️",
+                "points": 55,
+                "message": "You know exactly when to use other vs another!"
+            },
+            {
+                "id": "polite-writer",
+                "name": "Polite Writer ✍️",
+                "condition": "Complete all writing activities with high scores",
+                "icon": "✍️",
+                "points": 60,
+                "message": "Your writing makes polite requests with perfect other/another usage!"
+            },
+            {
+                "id": "speed-alternative",
+                "name": "Speed Alternative ⏱️",
+                "condition": "Complete 5 activities in under 5 minutes each",
+                "icon": "⏱️",
+                "points": 40,
+                "message": "You're incredibly fast with alternatives!"
+            },
+            {
+                "id": "perfection-alternative",
+                "name": "Perfection Alternative 💎",
+                "condition": "Score 100% on all activities in one category",
+                "icon": "💎",
+                "points": 75,
+                "message": "You demand perfection with other and another!"
+            },
+            {
+                "id": "alternative-storyteller",
+                "name": "Alternative Storyteller 📖✨",
+                "condition": "Earn Gold stars + complete writing-6 with full marks",
+                "icon": "📖✨",
+                "points": 100,
+                "message": "Your stories masterfully express alternatives and additions!"
+            },
+            {
+                "id": "ultimate-alternative-master",
+                "name": "Ultimate Alternative Master 🏆",
+                "condition": "Collect ALL other badges + 100% on every activity",
+                "icon": "🏆",
+                "points": 200,
+                "message": "You are the undisputed master of other and another!"
+            }
+        ]
+    }
+}

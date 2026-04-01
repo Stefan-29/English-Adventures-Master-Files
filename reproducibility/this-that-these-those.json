@@ -1,0 +1,657 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "This/That & These/Those – Proximity & Distance! 🎯",
+            "content": "<p>Welcome to demonstrative determiners! <strong>This/that</strong> and <strong>these/those</strong> show proximity and distance. 📍</p><p><strong>Core Concept:</strong> Demonstratives indicate how close or far something is from the speaker.</p><p><strong>Basic Rules:</strong></p><ul><li><strong>This/these:</strong> Near the speaker (singular/plural)</li><li><strong>That/those:</strong> Far from the speaker (singular/plural)</li><li><strong>Physical distance:</strong> This room vs that room</li><li><strong>Time distance:</strong> This week vs that week</li></ul><p><strong>Important Note:</strong> Demonstratives can change meaning based on context!</p><p><strong>Common Mistakes:</strong> Mixing singular/plural forms or using wrong proximity.</p>",
+            "examples": [
+                "<strong>This</strong> book is interesting. (book near speaker)",
+                "<strong>That</strong> book looks good too. (book far from speaker)",
+                "<strong>These</strong> shoes are comfortable. (shoes near speaker)",
+                "<strong>Those</strong> shoes are expensive. (shoes far from speaker)",
+                "<strong>This</strong> is my house. (current location)",
+                "<strong>That</strong> was my old school. (past/distant)",
+                "<strong>These</strong> are my friends. (people near speaker)",
+                "<strong>Those</strong> are the mountains. (distant objects)"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_basics.mp3",
+            "functions": [
+                "Indicating physical proximity",
+                "Showing temporal distance",
+                "Pointing out specific items"
+            ],
+            "tips": "💡 <strong>Quick Rule:</strong> This/these = near me. That/those = far from me."
+        },
+        {
+            "id": "lesson-2",
+            "title": "This & That – Singular Demonstratives 📍",
+            "content": "<p>Master <strong>this</strong> and <strong>that</strong> with singular nouns. 📍</p><p><strong>This (near):</strong></p><ul><li>Objects close to speaker</li><li>Current situations</li><li>Present time references</li><li>Introducing new information</li></ul><p><strong>That (far):</strong></p><ul><li>Objects away from speaker</li><li>Past situations</li><li>Distant time references</li><li>Previously mentioned items</li></ul><p><strong>Context Matters:</strong> Distance can be physical, temporal, or emotional.</p>",
+            "examples": [
+                "<strong>This</strong> computer is new. (near speaker)",
+                "<strong>That</strong> computer is old. (far from speaker)",
+                "<strong>This</strong> is my favorite song. (current preference)",
+                "<strong>That</strong> was a great movie. (past experience)",
+                "<strong>This</strong> problem needs solving. (current issue)",
+                "<strong>That</strong> problem was solved last week. (past issue)",
+                "<strong>This</strong> is John. (introducing nearby person)",
+                "<strong>That</strong> is Mary over there. (pointing to distant person)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_application.mp3",
+            "functions": [
+                "Pointing to specific singular items",
+                "Indicating time relationships",
+                "Introducing or referring to people/things"
+            ],
+            "tips": "💡 <strong>Time Rule:</strong> This = present/now. That = past/then."
+        },
+        {
+            "id": "lesson-3",
+            "title": "These & Those – Plural Demonstratives 👥",
+            "content": "<p>Learn <strong>these</strong> and <strong>those</strong> with plural nouns. 👥</p><p><strong>These (near plural):</strong></p><ul><li>Multiple items close to speaker</li><li>Current group/situation</li><li>Present time plural references</li><li>Introducing new plural information</li></ul><p><strong>Those (far plural):</strong></p><ul><li>Multiple items away from speaker</li><li>Past/distant plural situations</li><li>Previously mentioned plural items</li><li>Distant groups</li></ul><p><strong>Advanced Tip:</strong> These/those can show emotional distance too.</p>",
+            "examples": [
+                "<strong>These</strong> books are interesting. (books near speaker)",
+                "<strong>Those</strong> books look expensive. (books far from speaker)",
+                "<strong>These</strong> are my children. (nearby family)",
+                "<strong>Those</strong> are the neighbors. (distant people)",
+                "<strong>These</strong> problems need attention. (current issues)",
+                "<strong>Those</strong> problems were solved. (past issues)",
+                "<strong>These</strong> shoes fit perfectly. (trying on nearby shoes)",
+                "<strong>Those</strong> shoes are too big. (pointing to distant shoes)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_exceptions.mp3",
+            "functions": [
+                "Referring to plural groups",
+                "Indicating multiple items",
+                "Showing group relationships"
+            ],
+            "tips": "💡 <strong>Plural Rule:</strong> These = these ones here. Those = those ones there."
+        },
+        {
+            "id": "lesson-4",
+            "title": "Demonstratives as Pronouns – Standing Alone 🔍",
+            "content": "<p>Use demonstratives as pronouns without nouns. 🔍</p><p><strong>As Pronouns:</strong></p><ul><li><strong>This/these:</strong> Replace nearby nouns</li><li><strong>That/those:</strong> Replace distant nouns</li><li><strong>With 'one':</strong> This one, that one</li><li><strong>With 'ones':</strong> These ones, those ones</li></ul><p><strong>Context Required:</strong> The noun must be clear from context.</p><p><strong>Regional Note:</strong> Americans often add 'one' after demonstratives.</p>",
+            "examples": [
+                "Which book? <strong>This</strong> one. (nearby book)",
+                "Which shoes? <strong>Those</strong> ones. (distant shoes)",
+                "I like <strong>this</strong>. (whatever is near)",
+                "I prefer <strong>that</strong>. (whatever is far)",
+                "<strong>These</strong> are better. (nearby items)",
+                "<strong>Those</strong> are cheaper. (distant items)",
+                "Give me <strong>this</strong>. (specific nearby item)",
+                "Not <strong>that</strong>! (specific distant item)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_4_comparison.mp3",
+            "functions": [
+                "Replacing nouns when clear from context",
+                "Making choices between options",
+                "Pointing without naming"
+            ],
+            "tips": "💡 <strong>Pronoun Rule:</strong> This/these replace nearby nouns. That/those replace distant nouns."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Time & Context with Demonstratives ⏰",
+            "content": "<p>Learn how demonstratives work with time and context. ⏰</p><p><strong>Temporal Usage:</strong></p><ul><li><strong>This:</strong> Present, current, immediate</li><li><strong>That:</strong> Past, recent, just mentioned</li><li><strong>These:</strong> Current period/group</li><li><strong>Those:</strong> Past period/group</li></ul><p><strong>Context Changes:</strong> What 'near' means depends on situation.</p><p><strong>Emotional Distance:</strong> Can show psychological closeness/farness.</p>",
+            "examples": [
+                "<strong>This</strong> morning was beautiful. (today)",
+                "<strong>That</strong> morning was rainy. (past)",
+                "<strong>These</strong> days are busy. (current period)",
+                "<strong>Those</strong> days were easier. (past period)",
+                "<strong>This</strong> is important. (current matter)",
+                "<strong>That</strong> was surprising. (past event)",
+                "<strong>These</strong> problems are urgent. (current issues)",
+                "<strong>Those</strong> problems can wait. (less urgent issues)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_5_comparison.mp3",
+            "functions": [
+                "Expressing time relationships",
+                "Showing importance levels",
+                "Indicating psychological distance"
+            ],
+            "tips": "💡 <strong>Time Rule:</strong> This/these = now/current. That/those = then/past."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Mastering Demonstratives – Natural Communication 🏆",
+            "content": "<p>Put it all together! Use demonstratives naturally in conversation. 🏆</p><p><strong>Communication Strategies:</strong></p><ul><li><strong>Pointing:</strong> This is..., That is...</li><li><strong>Choices:</strong> This one or that one?</li><li><strong>Time:</strong> This week vs that week</li><li><strong>Groups:</strong> These people vs those people</li></ul><p><strong>Advanced Tip:</strong> Demonstratives help create vivid, specific descriptions.</p>",
+            "examples": [
+                "<strong>This</strong> is the best restaurant in town. (nearby/current)",
+                "<strong>That</strong> was an amazing concert. (past event)",
+                "<strong>These</strong> are my favorite shoes. (current preferences)",
+                "<strong>Those</strong> were the good old days. (past period)",
+                "I want <strong>this</strong> one, not <strong>that</strong> one. (specific choice)",
+                "<strong>These</strong> problems need solving now. (urgent current issues)",
+                "<strong>That</strong> reminds me of my childhood. (distant memory)",
+                "<strong>This</strong> is exactly what I need. (perfect current match)"
+            ],
+            "difficulty": 4,
+            "audio": "lesson_6_mastery.mp3",
+            "functions": [
+                "Creating specific references",
+                "Making clear distinctions",
+                "Building engaging descriptions"
+            ],
+            "tips": "💡 <strong>Native Choice:</strong> Use demonstratives to make your speech more specific and vivid."
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 5 sentences using 'this' and 'that' with singular nouns.",
+            "hint": "Use this for nearby items, that for distant ones.",
+            "expectedKeywords": [
+                "this",
+                "that",
+                "book",
+                "car",
+                "house",
+                "computer",
+                "phone",
+                "restaurant"
+            ],
+            "sentenceStarters": [
+                "This ___ is interesting.",
+                "That ___ looks expensive.",
+                "This ___ is my favorite.",
+                "That ___ was amazing."
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "Write 5 sentences using 'these' and 'those' with plural nouns.",
+            "hint": "Use these for nearby groups, those for distant groups.",
+            "expectedKeywords": [
+                "these",
+                "those",
+                "books",
+                "cars",
+                "houses",
+                "computers",
+                "phones",
+                "restaurants"
+            ],
+            "sentenceStarters": [
+                "These ___ are comfortable.",
+                "Those ___ look beautiful.",
+                "These ___ are my friends.",
+                "Those ___ were expensive."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Write sentences using demonstratives as pronouns (this/that/these/those alone).",
+            "hint": "Use them when the noun is clear from context, often with 'one' or 'ones'.",
+            "expectedKeywords": [
+                "this",
+                "that",
+                "these",
+                "those",
+                "one",
+                "ones",
+                "want",
+                "like",
+                "prefer",
+                "choose"
+            ],
+            "sentenceStarters": [
+                "I want this ___",
+                "I prefer that ___",
+                "These ___ are better.",
+                "Those ___ are cheaper."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-4",
+            "question": "Write sentences showing time differences with demonstratives.",
+            "hint": "Use this/these for present/current, that/those for past.",
+            "expectedKeywords": [
+                "this",
+                "that",
+                "these",
+                "those",
+                "week",
+                "month",
+                "year",
+                "morning",
+                "day",
+                "days"
+            ],
+            "sentenceStarters": [
+                "This ___ is busy.",
+                "That ___ was difficult.",
+                "These ___ are important.",
+                "Those ___ were easier."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-5",
+            "question": "Write sentences contrasting near vs far with demonstratives.",
+            "hint": "Show the same type of thing in different locations using different demonstratives.",
+            "expectedKeywords": [
+                "this",
+                "that",
+                "these",
+                "those",
+                "book",
+                "restaurant",
+                "car",
+                "shoes",
+                "here",
+                "there"
+            ],
+            "sentenceStarters": [
+                "This book is good but that ___",
+                "These shoes fit but those ___",
+                "This restaurant is near but that ___",
+                "These cars are new but those ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short dialogue (8-10 exchanges) using demonstratives naturally.",
+            "hint": "Include pointing, choices, time references, and group distinctions.",
+            "expectedKeywords": [
+                "this",
+                "that",
+                "these",
+                "those",
+                "one",
+                "here",
+                "there",
+                "want",
+                "like",
+                "choose"
+            ],
+            "sentenceStarters": [
+                "Do you like this ___?",
+                "What about that ___?",
+                "These ___ are better.",
+                "I prefer those ___"
+            ],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-7",
+            "question": "Correct demonstrative mistakes in these sentences.",
+            "hint": "Fix wrong proximity, singular/plural mismatches, or incorrect time usage.",
+            "expectedKeywords": [
+                "this",
+                "that",
+                "these",
+                "those",
+                "book",
+                "books",
+                "car",
+                "cars",
+                "week",
+                "weeks"
+            ],
+            "sentenceStarters": [
+                "That books are interesting.",
+                "These car is expensive.",
+                "This weeks were difficult.",
+                "Those day was sunny."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Write descriptive paragraphs using demonstratives for vivid language.",
+            "hint": "Use demonstratives to create specific, engaging descriptions of scenes or situations.",
+            "expectedKeywords": [
+                "this",
+                "that",
+                "these",
+                "those",
+                "beautiful",
+                "amazing",
+                "wonderful",
+                "terrible",
+                "here",
+                "there"
+            ],
+            "sentenceStarters": [
+                "This ___ is absolutely beautiful.",
+                "That ___ looks amazing from here.",
+                "These ___ make me feel wonderful.",
+                "Those ___ were terrible experiences."
+            ],
+            "difficulty": 4
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Choose the correct demonstrative for a nearby singular item.",
+            "sentence": "____ pen is blue.",
+            "options": [
+                "this",
+                "that",
+                "these",
+                "those"
+            ],
+            "correctAnswer": [
+                "this"
+            ],
+            "hint": "This is used for singular items near the speaker.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Select the correct demonstrative for distant plural items.",
+            "sentence": "____ mountains are beautiful.",
+            "options": [
+                "this",
+                "that",
+                "these",
+                "those"
+            ],
+            "correctAnswer": [
+                "those"
+            ],
+            "hint": "Those is used for plural items far from the speaker.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Which demonstrative shows present time?",
+            "sentence": "____ morning was sunny.",
+            "options": [
+                "this",
+                "that",
+                "these",
+                "those"
+            ],
+            "correctAnswer": [
+                "this"
+            ],
+            "hint": "This refers to present or current time.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Choose the correct pronoun form for nearby items.",
+            "sentence": "I want ____ (nearby books).",
+            "options": [
+                "this",
+                "that",
+                "these",
+                "those"
+            ],
+            "correctAnswer": [
+                "these"
+            ],
+            "hint": "These is the plural pronoun for nearby items.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Which demonstrative cannot be used alone as a pronoun?",
+            "sentence": "Give me ____ (distant singular item).",
+            "options": [
+                "this",
+                "that",
+                "these",
+                "those"
+            ],
+            "correctAnswer": [
+                "that"
+            ],
+            "hint": "All demonstratives can be used as pronouns, but context matters.",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Which demonstrative is used for singular items near the speaker?",
+            "sentence": "____ book is interesting.",
+            "options": [
+                "this",
+                "that",
+                "these",
+                "those"
+            ],
+            "correctAnswer": "this",
+            "audio": "quiz_1_basics.mp3",
+            "hint": "This is for singular, nearby items.",
+            "difficulty": "easy",
+            "explanation": "This is used for singular nouns that are near the speaker."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which demonstrative shows plural items far from the speaker?",
+            "sentence": "____ shoes are expensive.",
+            "options": [
+                "this",
+                "that",
+                "these",
+                "those"
+            ],
+            "correctAnswer": "those",
+            "audio": "quiz_2_application.mp3",
+            "hint": "Those is for plural, distant items.",
+            "difficulty": "easy",
+            "explanation": "Those is used for plural nouns that are far from the speaker."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What's the difference between 'this' and 'that'?",
+            "sentence": "____ = near, ____ = far",
+            "options": [
+                "this/that",
+                "that/this",
+                "these/those",
+                "those/these"
+            ],
+            "correctAnswer": "this/that",
+            "audio": "quiz_3_exceptions.mp3",
+            "hint": "This is near, that is far.",
+            "difficulty": "medium",
+            "explanation": "This indicates proximity, that indicates distance."
+        },
+        {
+            "id": "quiz-4",
+            "question": "Which sentence uses demonstratives correctly?",
+            "sentence": "Select the correct sentence:",
+            "options": [
+                "This books are interesting.",
+                "That book is interesting.",
+                "These book is interesting.",
+                "Those books is interesting."
+            ],
+            "correctAnswer": "That book is interesting.",
+            "audio": "quiz_4_comparison.mp3",
+            "hint": "Check singular/plural agreement.",
+            "difficulty": "medium",
+            "explanation": "That book is correct - singular noun with singular demonstrative."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which demonstrative can show emotional distance?",
+            "sentence": "____ idea seems ridiculous.",
+            "options": [
+                "this",
+                "that",
+                "these",
+                "those"
+            ],
+            "correctAnswer": "that",
+            "audio": "quiz_5_master.mp3",
+            "hint": "That can show psychological or emotional distance.",
+            "difficulty": "hard",
+            "explanation": "That can indicate emotional distance or rejection of an idea."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "demonstrative",
+            "hint": "Word that shows or points to something",
+            "clue": "d_m_n_t_a__v_",
+            "sentence": "This, that, these, those are ____ determiners.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-2",
+            "word": "proximity",
+            "hint": "Nearness or closeness",
+            "clue": "p_o_i_i_y",
+            "sentence": "This shows ____ to the speaker.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-3",
+            "word": "distance",
+            "hint": "Farness or remoteness",
+            "clue": "d_s_a_c_",
+            "sentence": "That shows ____ from the speaker.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-4",
+            "word": "singular",
+            "hint": "One item or thing",
+            "clue": "s_n_u_a_",
+            "sentence": "This and that are ____ demonstratives.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-5",
+            "word": "plural",
+            "hint": "More than one item",
+            "clue": "p_u_a_",
+            "sentence": "These and those are ____ demonstratives.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-6",
+            "word": "temporal",
+            "hint": "Related to time",
+            "clue": "t_m_o_a_",
+            "sentence": "Demonstratives can show ____ distance.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-7",
+            "word": "context",
+            "hint": "Situation or circumstances",
+            "clue": "c_n_e_t",
+            "sentence": "Demonstratives depend on ____.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-8",
+            "word": "psychological",
+            "hint": "Related to the mind or emotions",
+            "clue": "p_y_h_l_g__a_",
+            "sentence": "Demonstratives can show ____ distance.",
+            "difficulty": "hard"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 12,
+            "silver": 35,
+            "gold": 60,
+            "platinum": 85
+        },
+        "badges": [
+            {
+                "id": "proximity-starter",
+                "name": "Proximity Starter 🌟",
+                "condition": "Complete lesson-1 with 80% or higher",
+                "icon": "🌟",
+                "points": 25,
+                "message": "Great start! You're learning demonstratives."
+            },
+            {
+                "id": "distance-master",
+                "name": "Distance Master 📍",
+                "condition": "Score 100% on 3 basic activities",
+                "icon": "📍",
+                "points": 35,
+                "message": "You understand near vs far with demonstratives!"
+            },
+            {
+                "id": "singular-expert",
+                "name": "Singular Expert 🎯",
+                "condition": "Complete writing-1 and game-1 with full marks",
+                "icon": "🎯",
+                "points": 45,
+                "message": "You master this/that perfectly!"
+            },
+            {
+                "id": "plural-handler",
+                "name": "Plural Handler 👥",
+                "condition": "Master all these/those activities",
+                "icon": "👥",
+                "points": 50,
+                "message": "You handle plural demonstratives flawlessly!"
+            },
+            {
+                "id": "pronoun-champion",
+                "name": "Pronoun Champion 🔍",
+                "condition": "Perfect scores on pronoun quizzes and activities",
+                "icon": "🔍",
+                "points": 55,
+                "message": "You know when to use demonstratives as pronouns!"
+            },
+            {
+                "id": "time-traveler",
+                "name": "Time Traveler ⏰",
+                "condition": "Complete all time-related writing activities with high scores",
+                "icon": "⏰",
+                "points": 60,
+                "message": "Your demonstratives travel through time perfectly!"
+            },
+            {
+                "id": "contrast-creator",
+                "name": "Contrast Creator ⚖️",
+                "condition": "Complete writing-5 with full marks",
+                "icon": "⚖️",
+                "points": 40,
+                "message": "You create beautiful contrasts with demonstratives!"
+            },
+            {
+                "id": "dialogue-master",
+                "name": "Dialogue Master 💬",
+                "condition": "Score 100% on writing-6 dialogue activity",
+                "icon": "💬",
+                "points": 75,
+                "message": "Your conversations use demonstratives naturally!"
+            },
+            {
+                "id": "vivid-describer",
+                "name": "Vivid Describer 📖✨",
+                "condition": "Earn Gold stars + complete writing-8 with full marks",
+                "icon": "📖✨",
+                "points": 100,
+                "message": "Your descriptions come alive with perfect demonstrative usage!"
+            },
+            {
+                "id": "ultimate-demonstrative-master",
+                "name": "Ultimate Demonstrative Master 🏆",
+                "condition": "Collect ALL demonstrative badges + 100% on every activity",
+                "icon": "🏆",
+                "points": 200,
+                "message": "You are the supreme master of this, that, these, and those!"
+            }
+        ]
+    }
+}

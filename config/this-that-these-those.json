@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: This - That - These - Those",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "This - That - These - Those",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Demonstrative Determiners Lessons",
+        "instructions": "Master the use of THIS, THAT, THESE, and THOSE for indicating proximity and distance. Learn singular vs plural forms."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using THIS, THAT, THESE, and THOSE correctly. Practice with proximity and distance."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing the correct demonstrative based on distance and number."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about demonstratives. Choose the correct word!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Demonstratives Challenge",
+        "instructions": "Apply THIS, THAT, THESE, and THOSE correctly in sentences. Master proximity and distance concepts."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "This/These (Near Singular/Plural)",
+        "words": ["book", "books", "computer", "computers", "chair", "chairs", "phone", "phones"]
+      },
+      {
+        "title": "That/Those (Far Singular/Plural)",
+        "words": ["house", "houses", "car", "cars", "building", "buildings", "mountain", "mountains"]
+      },
+      {
+        "title": "Time Expressions (Near)",
+        "words": ["this morning", "this afternoon", "this evening", "this week", "this month", "this year"]
+      },
+      {
+        "title": "Time Expressions (Far)",
+        "words": ["that morning", "that afternoon", "that evening", "that week", "that month", "that year"]
+      },
+      {
+        "title": "As Pronouns",
+        "words": ["this one", "that one", "these ones", "those ones", "this", "that", "these", "those"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["This ___ is ...", "That ___ is ...", "These ___ are ...", "Those ___ are ...", "I want this ___"]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/this-that-these-those.json",
+  "grammarChecker": "thisThatTheseThose.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

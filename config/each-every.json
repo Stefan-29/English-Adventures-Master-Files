@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Each - Every",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Each - Every",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Individuality Determiners Lessons",
+        "instructions": "Master the use of EACH and EVERY for expressing individuality vs completeness. Learn the subtle differences between these determiners."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using EACH and EVERY correctly. Practice with different contexts and emphasis."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between EACH and EVERY based on context and meaning."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about determiners. Choose the correct word!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Determiners Challenge",
+        "instructions": "Apply EACH and EVERY correctly in sentences. Master individual vs complete emphasis."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Each (Individual Focus)",
+        "words": ["student", "person", "child", "member", "participant", "player", "candidate", "applicant"]
+      },
+      {
+        "title": "Every (Complete Focus)",
+        "words": ["day", "week", "month", "year", "time", "morning", "evening", "night"]
+      },
+      {
+        "title": "Each + Number/Amount",
+        "words": ["each one", "each day", "each week", "each month", "each year", "each time", "each person"]
+      },
+      {
+        "title": "Every + Frequency",
+        "words": ["every day", "every week", "every month", "every year", "every time", "every morning", "every evening"]
+      },
+      {
+        "title": "Emphatic Expressions",
+        "words": ["each and every", "every single", "each individual", "every one", "each person", "every member"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["Each ___ has ...", "Every ___ needs ...", "Each one ___", "Every time ___", "Each student ___"]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/each-every.json",
+  "grammarChecker": "eachEvery.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

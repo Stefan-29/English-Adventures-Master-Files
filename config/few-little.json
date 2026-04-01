@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Few - Little",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Few - Little",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Scarcity Words Lessons",
+        "instructions": "Master the use of FEW and LITTLE for expressing small quantities. Learn the differences and comparative forms."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using FEW and LITTLE correctly. Practice with comparatives and different contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between FEW and LITTLE based on countable vs uncountable nouns."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about scarcity words. Choose the correct quantifier!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Scarcity Challenge",
+        "instructions": "Apply FEW and LITTLE correctly in sentences. Master comparatives and context usage."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Countable Nouns (Few)",
+        "words": ["books", "friends", "people", "questions", "ideas", "chances", "options", "choices"]
+      },
+      {
+        "title": "Uncountable Nouns (Little)",
+        "words": ["time", "money", "water", "food", "hope", "patience", "luck", "experience"]
+      },
+      {
+        "title": "Comparative Forms",
+        "words": ["fewer", "less", "fewest", "least", "the fewest", "the least", "very few", "very little"]
+      },
+      {
+        "title": "Negative Contexts",
+        "words": ["too few", "too little", "so few", "so little", "very few", "very little", "hardly any"]
+      },
+      {
+        "title": "Attitude Expressions",
+        "words": ["only a few", "just a few", "only a little", "just a little", "barely enough", "scarcely any"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["There are few ...", "There is little ...", "I have few ...", "She has little ...", "We need fewer ..."]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/few-little.json",
+  "grammarChecker": "fewLittle.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

@@ -1,0 +1,669 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Countable vs Uncountable Nouns – Quantity Matters! 🎯",
+            "content": "<p>Welcome to countable and uncountable nouns! Learn which nouns can be counted and which cannot. 🔢</p><p><strong>Core Concept:</strong> Countable nouns have plural forms and can be counted. Uncountable nouns cannot be counted individually.</p><p><strong>Key Differences:</strong></p><ul><li><strong>Countable:</strong> Books, cars, ideas (can count: one book, two books)</li><li><strong>Uncountable:</strong> Water, rice, information (cannot count individually)</li><li><strong>Articles:</strong> Countable use a/an, uncountable don't</li><li><strong>Quantifiers:</strong> Different words for each type</li></ul><p><strong>Important Note:</strong> Some nouns can be both depending on meaning!</p><p><strong>Common Mistakes:</strong> Using wrong articles or quantifiers with nouns.</p>",
+            "examples": [
+                "<strong>Countable:</strong> I have three <strong>books</strong>. (can count individually)",
+                "<strong>Uncountable:</strong> I need some <strong>water</strong>. (cannot count drops)",
+                "<strong>Countable:</strong> She bought two <strong>cars</strong>. (individual vehicles)",
+                "<strong>Uncountable:</strong> I drink <strong>coffee</strong> every morning. (beverage as mass)",
+                "<strong>Countable:</strong> He has many <strong>ideas</strong>. (individual thoughts)",
+                "<strong>Uncountable:</strong> We need more <strong>information</strong>. (knowledge as mass)"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_basics.mp3",
+            "functions": [
+                "Understanding noun categorization",
+                "Using correct articles and quantifiers",
+                "Expressing quantities appropriately"
+            ],
+            "tips": "💡 <strong>Quick Rule:</strong> Countable = can count (books). Uncountable = cannot count individually (water)."
+        },
+        {
+            "id": "lesson-2",
+            "title": "Countable Nouns – Individual Items 📚",
+            "content": "<p>Master <strong>countable nouns</strong> that can be counted individually. 📚</p><p><strong>Countable Characteristics:</strong></p><ul><li><strong>Plural forms:</strong> Book → books, car → cars</li><strong>Articles:</strong> A/an (singular), the (specific), zero article (plural)</li><li><strong>Quantifiers:</strong> Many, few, several, a few, a lot of</li><li><strong>Numbers:</strong> One book, two books, three books</li></ul><p><strong>Grammar Rule:</strong> Always check if noun has plural form.</p><p><strong>Practice Strategy:</strong> Ask 'How many?' to identify countable nouns.</p>",
+            "examples": [
+                "I have <strong>a book</strong>. (singular + a)",
+                "She owns <strong>three cars</strong>. (plural + number)",
+                "There are <strong>many students</strong> in the class. (plural + many)",
+                "He has <strong>few friends</strong>. (plural + few)",
+                "We need <strong>some chairs</strong>. (plural + some)",
+                "There is <strong>a computer</strong> on the desk. (singular + a)",
+                "They bought <strong>two houses</strong>. (plural + number)",
+                "I see <strong>several birds</strong> in the sky. (plural + several)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_application.mp3",
+            "functions": [
+                "Using singular and plural forms",
+                "Applying correct articles",
+                "Choosing appropriate quantifiers"
+            ],
+            "tips": "💡 <strong>Countable Test:</strong> Can you say 'one ___' or 'two ___s'? Yes = countable."
+        },
+        {
+            "id": "lesson-3",
+            "title": "Uncountable Nouns – Mass Quantities 🌊",
+            "content": "<p>Learn <strong>uncountable nouns</strong> that cannot be counted individually. 🌊</p><p><strong>Uncountable Characteristics:</strong></p><ul><li><strong>No plural:</strong> Water (not waters), rice (not rices)</li><li><strong>No a/an:</strong> Use zero article or 'some'/'any'</li><li><strong>Quantifiers:</strong> Much, little, a little, a lot of, some</li><li><strong>Measurement:</strong> A glass of water, a cup of coffee</li></ul><p><strong>Context Matters:</strong> Cannot use numbers directly with uncountable nouns.</p><p><strong>Advanced Tip:</strong> Use containers or measurements to quantify.</p>",
+            "examples": [
+                "I need <strong>some water</strong>. (no article)",
+                "She has <strong>much experience</strong>. (uncountable + much)",
+                "There is <strong>little time</strong> left. (uncountable + little)",
+                "He drinks <strong>coffee</strong> every day. (no article)",
+                "We have <strong>a lot of homework</strong>. (uncountable + a lot of)",
+                "She gave me <strong>good advice</strong>. (uncountable)",
+                "There is <strong>too much noise</strong>. (uncountable + much)",
+                "I have <strong>some information</strong> for you. (uncountable + some)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_exceptions.mp3",
+            "functions": [
+                "Using mass noun quantification",
+                "Applying zero articles appropriately",
+                "Choosing uncountable quantifiers"
+            ],
+            "tips": "💡 <strong>Uncountable Test:</strong> Cannot say 'one ___' or 'two ___s'. Use measurements instead."
+        },
+        {
+            "id": "lesson-4",
+            "title": "Dual Meaning Nouns – Context Changes Everything 🔄",
+            "content": "<p>Master nouns that can be <strong>both countable and uncountable</strong> depending on context. 🔄</p><p><strong>Dual Meaning Nouns:</strong></p><ul><li><strong>Countable:</strong> A chicken (animal), chickens (food)</li><li><strong>Uncountable:</strong> Chicken (meat), paper (material)</li><li><strong>Context:</strong> Meaning determines countability</li><li><strong>Examples:</strong> Light, time, hair, paper, chicken</li></ul><p><strong>Context Test:</strong> What does the noun refer to? Object or substance?</p><p><Practice Strategy:</strong> Change meaning and see if countability changes.</p>",
+            "examples": [
+                "<strong>Countable:</strong> I bought <strong>a paper</strong>. (newspaper)",
+                "<strong>Uncountable:</strong> The box is made of <strong>paper</strong>. (material)",
+                "<strong>Countable:</strong> She has <strong>long hair</strong>. (individual strands)",
+                "<strong>Uncountable:</strong> I need to cut my <strong>hair</strong>. (mass of hair)",
+                "<strong>Countable:</strong> There are <strong>two lights</strong> in the room. (light bulbs)",
+                "<strong>Uncountable:</strong> We need more <strong>light</strong>. (illumination)",
+                "<strong>Countable:</strong> He ordered <strong>a chicken</strong>. (whole bird)",
+                "<strong>Uncountable:</strong> I ate <strong>chicken</strong> for dinner. (meat)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_4_comparison.mp3",
+            "functions": [
+                "Understanding contextual countability",
+                "Recognizing dual-meaning nouns",
+                "Applying correct usage by meaning"
+            ],
+            "tips": "💡 <strong>Context Rule:</strong> Same word, different meaning = different countability."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Quantifiers & Articles – Matching Nouns Correctly ⚖️",
+            "content": "<p>Learn to match <strong>quantifiers and articles</strong> with the correct noun type. ⚖️</p><p><strong>Countable Quantifiers:</strong></p><ul><li><strong>Many/few:</strong> Many books, few cars</li><li><strong>A few/several:</strong> A few ideas, several questions</li><li><strong>A lot of:</strong> A lot of problems</li></ul><p><strong>Uncountable Quantifiers:</strong></p><ul><li><strong>Much/little:</strong> Much water, little time</li><li><strong>A little:</strong> A little sugar, a little advice</li><li><strong>A lot of:</strong> A lot of money</li></ul><p><strong>Article Rules:</strong> Countable = a/an/the, Uncountable = zero article.</p>",
+            "examples": [
+                "<strong>Countable:</strong> <strong>Many</strong> people attended. (plural)",
+                "<strong>Uncountable:</strong> <strong>Much</strong> time was wasted. (mass)",
+                "<strong>Countable:</strong> <strong>A few</strong> students passed. (small number)",
+                "<strong>Uncountable:</strong> <strong>A little</strong> patience is needed. (small amount)",
+                "<strong>Countable:</strong> <strong>Several</strong> books were missing. (some)",
+                "<strong>Uncountable:</strong> <strong>Little</strong> information was given. (small amount)",
+                "<strong>Countable:</strong> I have <strong>a car</strong>. (a + singular)",
+                "<strong>Uncountable:</strong> I need <strong>some advice</strong>. (zero article + some)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_5_comparison.mp3",
+            "functions": [
+                "Selecting appropriate quantifiers",
+                "Using correct articles",
+                "Matching quantity expressions to noun types"
+            ],
+            "tips": "💡 <strong>Quantifier Rule:</strong> Many/few = countable. Much/little = uncountable."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Mastering Countable/Uncountable – Natural Usage 🏆",
+            "content": "<p>Put it all together! Use countable and uncountable nouns naturally. 🏆</p><p><strong>Communication Strategies:</strong></p><ul><li><strong>Quantities:</strong> How many (countable) vs how much (uncountable)</li><li><strong>Articles:</strong> A/an (countable singular), zero (uncountable)</li><li><strong>Measurements:</strong> A cup of, a piece of, a glass of</li><li><strong>Context:</strong> Meaning determines countability</li></ul><p><strong>Advanced Tip:</strong> Native speakers often use countable forms in specific contexts.</p>",
+            "examples": [
+                "How <strong>many</strong> books do you have? (countable)",
+                "How <strong>much</strong> money do you need? (uncountable)",
+                "I'd like <strong>a coffee</strong>, please. (countable - cup of coffee)",
+                "I don't drink <strong>coffee</strong>. (uncountable - the beverage)",
+                "She has <strong>beautiful hair</strong>. (uncountable - mass)",
+                "There are <strong>three hairs</strong> on my shirt. (countable - strands)",
+                "We need <strong>some information</strong>. (uncountable)",
+                "He gave me <strong>two pieces of advice</strong>. (countable - made countable)",
+                "There is <strong>too much traffic</strong>. (uncountable)",
+                "There are <strong>too many cars</strong>. (countable)"
+            ],
+            "difficulty": 4,
+            "audio": "lesson_6_mastery.mp3",
+            "functions": [
+                "Expressing quantities naturally",
+                "Using appropriate articles and quantifiers",
+                "Handling dual-meaning nouns"
+            ],
+            "tips": "💡 <strong>Native Choice:</strong> Use 'how many' for countable, 'how much' for uncountable."
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 5 sentences using countable nouns with correct articles and quantifiers.",
+            "hint": "Use a/an for singular, numbers/many/few for plural countable nouns.",
+            "expectedKeywords": [
+                "a",
+                "an",
+                "many",
+                "few",
+                "several",
+                "books",
+                "cars",
+                "students",
+                "ideas",
+                "chairs"
+            ],
+            "sentenceStarters": [
+                "I have ___ books on my shelf.",
+                "She bought ___ car yesterday.",
+                "There are ___ students in the class.",
+                "He has ___ good ideas.",
+                "We need ___ chairs for the meeting."
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "Write 5 sentences using uncountable nouns with correct quantifiers.",
+            "hint": "Use much/little/a little/a lot of with uncountable nouns, no a/an.",
+            "expectedKeywords": [
+                "much",
+                "little",
+                "a little",
+                "a lot of",
+                "some",
+                "water",
+                "time",
+                "money",
+                "information",
+                "coffee"
+            ],
+            "sentenceStarters": [
+                "I need ___ water to drink.",
+                "There is ___ time left.",
+                "She has ___ money saved.",
+                "We need ___ information.",
+                "He drinks ___ coffee."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Write sentences showing dual-meaning nouns in both countable and uncountable contexts.",
+            "hint": "Use the same word with different meanings: one countable, one uncountable.",
+            "expectedKeywords": [
+                "paper",
+                "hair",
+                "light",
+                "chicken",
+                "time",
+                "a",
+                "some",
+                "many",
+                "much"
+            ],
+            "sentenceStarters": [
+                "I bought ___ paper at the store. (newspaper)",
+                "The box is made of ___ paper. (material)",
+                "She has long ___ hair. (strands)",
+                "I need to wash my ___ hair. (mass)"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-4",
+            "question": "Correct mistakes with countable/uncountable nouns and quantifiers.",
+            "hint": "Fix wrong articles (a/an with uncountable), wrong quantifiers (much with countable), etc.",
+            "expectedKeywords": [
+                "many",
+                "much",
+                "few",
+                "little",
+                "a",
+                "an",
+                "some",
+                "books",
+                "water",
+                "cars",
+                "time",
+                "information"
+            ],
+            "sentenceStarters": [
+                "I have much books.",
+                "She needs a water.",
+                "There are little students here.",
+                "He has many time.",
+                "We need some informations."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-5",
+            "question": "Write questions using 'how many' vs 'how much' correctly.",
+            "hint": "Use how many for countable nouns, how much for uncountable nouns.",
+            "expectedKeywords": [
+                "how many",
+                "how much",
+                "books",
+                "water",
+                "cars",
+                "time",
+                "students",
+                "money",
+                "apples",
+                "rice"
+            ],
+            "sentenceStarters": [
+                "___ books do you have?",
+                "___ water is in the bottle?",
+                "___ cars are in the parking lot?",
+                "___ time do we have left?",
+                "___ students are coming?"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short dialogue (8-10 exchanges) using countable/uncountable nouns naturally.",
+            "hint": "Include shopping, food, quantities, and dual-meaning nouns.",
+            "expectedKeywords": [
+                "many",
+                "much",
+                "some",
+                "a",
+                "books",
+                "water",
+                "time",
+                "money",
+                "coffee",
+                "chicken"
+            ],
+            "sentenceStarters": [
+                "How ___ books do you need?",
+                "I need ___ water.",
+                "There is ___ time left.",
+                "Can I have ___ coffee?",
+                "How ___ money do you have?"
+            ],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-7",
+            "question": "Write sentences using measurements to quantify uncountable nouns.",
+            "hint": "Use a cup of, a piece of, a glass of, a slice of, etc. for uncountable nouns.",
+            "expectedKeywords": [
+                "cup",
+                "glass",
+                "piece",
+                "slice",
+                "bowl",
+                "coffee",
+                "water",
+                "bread",
+                "cake",
+                "rice",
+                "chicken"
+            ],
+            "sentenceStarters": [
+                "I'd like ___ cup of coffee.",
+                "Can I have ___ glass of water?",
+                "She ate ___ piece of cake.",
+                "He wants ___ bowl of rice.",
+                "They ordered ___ chicken."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Write formal vs informal descriptions using countable/uncountable nouns.",
+            "hint": "Use more precise quantifiers for formal writing, simpler ones for informal.",
+            "expectedKeywords": [
+                "many",
+                "much",
+                "a lot of",
+                "several",
+                "a great deal of",
+                "books",
+                "information",
+                "time",
+                "money",
+                "experience"
+            ],
+            "sentenceStarters": [
+                "There are ___ books in the library. (formal)",
+                "There are ___ books here. (informal)",
+                "She has ___ experience. (formal)",
+                "She has ___ experience. (informal)"
+            ],
+            "difficulty": 4
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Choose the correct quantifier for countable nouns.",
+            "sentence": "There are ____ books on the shelf.",
+            "options": [
+                "much",
+                "many",
+                "little",
+                "a little"
+            ],
+            "correctAnswer": [
+                "many"
+            ],
+            "hint": "Many is used with plural countable nouns.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Select the correct quantifier for uncountable nouns.",
+            "sentence": "There is ____ water in the bottle.",
+            "options": [
+                "many",
+                "few",
+                "much",
+                "several"
+            ],
+            "correctAnswer": [
+                "much"
+            ],
+            "hint": "Much is used with uncountable nouns.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Which article can be used with countable singular nouns?",
+            "sentence": "I have ____ apple.",
+            "options": [
+                "some",
+                "a",
+                "much",
+                "many"
+            ],
+            "correctAnswer": [
+                "a"
+            ],
+            "hint": "A/an is used with singular countable nouns.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Choose the correct question word for uncountable nouns.",
+            "sentence": "____ money do you have?",
+            "options": [
+                "How many",
+                "How much",
+                "How few",
+                "How little"
+            ],
+            "correctAnswer": [
+                "How much"
+            ],
+            "hint": "How much is used to ask about quantities of uncountable nouns.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Which noun can be both countable and uncountable?",
+            "sentence": "I bought ____ paper. (newspaper)",
+            "options": [
+                "book",
+                "water",
+                "paper",
+                "car"
+            ],
+            "correctAnswer": [
+                "paper"
+            ],
+            "hint": "Paper can mean the material (uncountable) or a newspaper (countable).",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Which type of noun can be counted individually?",
+            "sentence": "____ nouns have plural forms.",
+            "options": [
+                "Countable",
+                "Uncountable",
+                "Both",
+                "Neither"
+            ],
+            "correctAnswer": "Countable",
+            "audio": "quiz_1_basics.mp3",
+            "hint": "Countable nouns can be counted: one book, two books.",
+            "difficulty": "easy",
+            "explanation": "Countable nouns can be counted individually and have plural forms."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which quantifier is used with uncountable nouns?",
+            "sentence": "There is ____ time left.",
+            "options": [
+                "many",
+                "few",
+                "much",
+                "several"
+            ],
+            "correctAnswer": "much",
+            "audio": "quiz_2_application.mp3",
+            "hint": "Much is used with uncountable nouns like time, water, money.",
+            "difficulty": "easy",
+            "explanation": "Much is the correct quantifier for uncountable nouns."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What's the difference between countable and uncountable nouns?",
+            "sentence": "Select the best explanation:",
+            "options": [
+                "Countable can be plural, uncountable cannot",
+                "Countable use a/an, uncountable don't",
+                "Both A and B",
+                "Countable are concrete, uncountable are abstract"
+            ],
+            "correctAnswer": "Both A and B",
+            "audio": "quiz_3_exceptions.mp3",
+            "hint": "Countable nouns have plurals and use a/an, uncountable nouns don't.",
+            "difficulty": "medium",
+            "explanation": "Countable nouns have plural forms and use articles a/an, while uncountable nouns don't."
+        },
+        {
+            "id": "quiz-4",
+            "question": "Which sentence uses countable/uncountable correctly?",
+            "sentence": "Select the correct sentence:",
+            "options": [
+                "I have much books.",
+                "She needs a water.",
+                "There are many informations.",
+                "He has little money."
+            ],
+            "correctAnswer": "He has little money.",
+            "audio": "quiz_4_comparison.mp3",
+            "hint": "Little money is correct - little + uncountable noun.",
+            "difficulty": "medium",
+            "explanation": "Little is used with uncountable nouns like money."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which noun can be both countable and uncountable?",
+            "sentence": "____ can mean both the material and individual items.",
+            "options": [
+                "Book",
+                "Water",
+                "Paper",
+                "Car"
+            ],
+            "correctAnswer": "Paper",
+            "audio": "quiz_5_master.mp3",
+            "hint": "Paper can be the material (uncountable) or newspapers (countable).",
+            "difficulty": "hard",
+            "explanation": "Paper is a dual-meaning noun: material (uncountable) or documents (countable)."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "countable",
+            "hint": "Can be counted individually",
+            "clue": "c_u_t_b_e",
+            "sentence": "Books are ____ nouns.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-2",
+            "word": "uncountable",
+            "hint": "Cannot be counted individually",
+            "clue": "u_c_u_t_b_e",
+            "sentence": "Water is an ____ noun.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-3",
+            "word": "quantifier",
+            "hint": "Word that shows quantity",
+            "clue": "q_a_t_f_e_",
+            "sentence": "Many and much are ____.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-4",
+            "word": "measurement",
+            "hint": "Way to quantify uncountable nouns",
+            "clue": "m_a_u_e_e_t",
+            "sentence": "A cup of coffee is a ____.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-5",
+            "word": "context",
+            "hint": "Situation that determines meaning",
+            "clue": "c_n_e_t",
+            "sentence": "____ changes countability of some nouns.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-6",
+            "word": "plural",
+            "hint": "More than one form",
+            "clue": "p_u_a_",
+            "sentence": "Countable nouns have ____ forms.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-7",
+            "word": "article",
+            "hint": "A, an, the words",
+            "clue": "_r_i_l_",
+            "sentence": "A and an are ____ for countable nouns.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-8",
+            "word": "quantity",
+            "hint": "Amount or number",
+            "clue": "q_a_t_t_",
+            "sentence": "Countable vs uncountable affects ____ expressions.",
+            "difficulty": "easy"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 12,
+            "silver": 35,
+            "gold": 60,
+            "platinum": 85
+        },
+        "badges": [
+            {
+                "id": "quantity-starter",
+                "name": "Quantity Starter 🌟",
+                "condition": "Complete lesson-1 with 80% or higher",
+                "icon": "🌟",
+                "points": 25,
+                "message": "Great start! You're learning countable vs uncountable nouns."
+            },
+            {
+                "id": "countable-master",
+                "name": "Countable Master 📚",
+                "condition": "Score 100% on 3 basic activities",
+                "icon": "📚",
+                "points": 35,
+                "message": "You master countable nouns perfectly!"
+            },
+            {
+                "id": "uncountable-expert",
+                "name": "Uncountable Expert 🌊",
+                "condition": "Complete writing-2 and game-2 with full marks",
+                "icon": "🌊",
+                "points": 45,
+                "message": "You handle uncountable nouns flawlessly!"
+            },
+            {
+                "id": "dual-meaning-specialist",
+                "name": "Dual-Meaning Specialist 🔄",
+                "condition": "Master all dual-meaning activities",
+                "icon": "🔄",
+                "points": 50,
+                "message": "You understand context-dependent countability!"
+            },
+            {
+                "id": "quantifier-champion",
+                "name": "Quantifier Champion ⚖️",
+                "condition": "Perfect scores on comparison quizzes and activities",
+                "icon": "⚖️",
+                "points": 55,
+                "message": "You choose perfect quantifiers for every noun type!"
+            },
+            {
+                "id": "article-accuracy-writer",
+                "name": "Article Accuracy Writer ✍️",
+                "condition": "Complete all writing activities with high scores",
+                "icon": "✍️",
+                "points": 60,
+                "message": "Your articles and quantifiers are always accurate!"
+            },
+            {
+                "id": "measurement-magician",
+                "name": "Measurement Magician 🧙‍♂️",
+                "condition": "Score 100% on writing-7 measurement activity",
+                "icon": "🧙‍♂️",
+                "points": 40,
+                "message": "You magically quantify uncountable nouns!"
+            },
+            {
+                "id": "dialogue-quantifier",
+                "name": "Dialogue Quantifier 💬",
+                "condition": "Complete writing-6 with full marks",
+                "icon": "💬",
+                "points": 75,
+                "message": "Your conversations use quantities naturally!"
+            },
+            {
+                "id": "noun-classification-artist",
+                "name": "Noun Classification Artist 📖✨",
+                "condition": "Earn Gold stars + complete writing-3 with full marks",
+                "icon": "📖✨",
+                "points": 100,
+                "message": "Your noun classifications are works of art!"
+            },
+            {
+                "id": "ultimate-countability-master",
+                "name": "Ultimate Countability Master 🏆",
+                "condition": "Collect ALL countability badges + 100% on every activity",
+                "icon": "🏆",
+                "points": 200,
+                "message": "You are the supreme master of countable and uncountable nouns!"
+            }
+        ]
+    }
+}

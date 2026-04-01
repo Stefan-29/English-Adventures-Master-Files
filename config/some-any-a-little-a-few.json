@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Some - Any - A Little - A Few",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Some - Any - A Little - A Few",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Quantity Words Lessons",
+        "instructions": "Master the use of SOME, ANY, A LITTLE, and A FEW for expressing quantities. Learn positive vs negative contexts and countable vs uncountable nouns."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using SOME, ANY, A LITTLE, and A FEW correctly. Practice with positive and negative contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing the correct quantity word based on context and noun type."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about quantity words. Choose the correct quantifier!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Quantity Challenge",
+        "instructions": "Apply quantity words correctly in sentences. Master positive vs negative contexts and noun types."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Countable Nouns (A Few)",
+        "words": ["books", "friends", "questions", "ideas", "minutes", "days", "people", "things"]
+      },
+      {
+        "title": "Uncountable Nouns (A Little)",
+        "words": ["water", "time", "money", "help", "advice", "information", "patience", "luck"]
+      },
+      {
+        "title": "Some (Positive/Affirmative)",
+        "words": ["some books", "some water", "some friends", "some time", "some money", "some help"]
+      },
+      {
+        "title": "Any (Negative/Questions)",
+        "words": ["any books", "any water", "any friends", "any time", "any money", "any help"]
+      },
+      {
+        "title": "Negative Expressions",
+        "words": ["not any", "no", "none", "not a few", "not much", "hardly any", "barely any"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["I have some ...", "Do you have any ...?", "There is a little ...", "There are a few ...", "I need some ..."]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/some-any-a-little-a-few.json",
+  "grammarChecker": "someAnyALittleAFew.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

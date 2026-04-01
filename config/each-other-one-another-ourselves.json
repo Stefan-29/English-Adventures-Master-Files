@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Each Other - One Another - Ourselves",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Each Other - One Another - Ourselves",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Pronouns Lessons",
+        "instructions": "Master the use of EACH OTHER, ONE ANOTHER (reciprocal) and OURSELVES (reflexive). Learn when to use each pronoun type."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using EACH OTHER, ONE ANOTHER, and OURSELVES correctly. Practice with reciprocal and reflexive contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing the correct pronoun based on number of people and type of relationship."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about pronouns. Choose the correct reciprocal or reflexive pronoun!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Pronouns Challenge",
+        "instructions": "Apply EACH OTHER, ONE ANOTHER, and OURSELVES correctly in sentences. Master reciprocal and reflexive usage."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Each Other (2 People)",
+        "words": ["each other", "love each other", "help each other", "know each other", "fight each other"]
+      },
+      {
+        "title": "One Another (3+ People)",
+        "words": ["one another", "respect one another", "support one another", "trust one another", "help one another"]
+      },
+      {
+        "title": "Ourselves (Reflexive)",
+        "words": ["ourselves", "help ourselves", "protect ourselves", "teach ourselves", "enjoy ourselves"]
+      },
+      {
+        "title": "Reciprocal Actions",
+        "words": ["talk to each other", "work with one another", "play with each other", "learn from one another"]
+      },
+      {
+        "title": "Reflexive Actions",
+        "words": ["look after ourselves", "take care of ourselves", "prepare ourselves", "motivate ourselves"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["They help ___", "We prepared ___", "The team supports ___", "My parents love ___", "We taught ___"]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/each-other-one-another-ourselves.json",
+  "grammarChecker": "eachOtherOneAnotherOurselves.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Other - Another",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Other - Another",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Alternative Determiners Lessons",
+        "instructions": "Master the use of OTHER and ANOTHER for expressing alternatives and additional items. Learn the differences between these determiners."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using OTHER and ANOTHER correctly. Practice with different contexts and meanings."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between OTHER and ANOTHER based on context and meaning."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about determiners. Choose the correct word!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Determiners Challenge",
+        "instructions": "Apply OTHER and ANOTHER correctly in sentences. Master alternative and additional meanings."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Other (Different/Additional)",
+        "words": ["people", "things", "ideas", "places", "options", "choices", "ways", "reasons"]
+      },
+      {
+        "title": "Another (One More/Alternative)",
+        "words": ["chance", "try", "cup", "book", "question", "idea", "way", "reason"]
+      },
+      {
+        "title": "Other as Pronoun",
+        "words": ["the other", "the others", "others", "some others", "other ones", "the other one"]
+      },
+      {
+        "title": "Another + Singular Nouns",
+        "words": ["another day", "another week", "another month", "another year", "another person", "another place"]
+      },
+      {
+        "title": "Alternative Expressions",
+        "words": ["another option", "another choice", "another way", "another method", "another approach", "another solution"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["The other ___", "Another ___", "Other ___", "I need another ___", "Some other ___"]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/other-another.json",
+  "grammarChecker": "otherAnother.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

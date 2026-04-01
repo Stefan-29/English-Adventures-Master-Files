@@ -1,0 +1,649 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Each & Every Basics – Individual vs Complete! 🎯",
+            "content": "<p>Welcome to the precise world of <strong>each</strong> and <strong>every</strong>! These determiners help us talk about individuals versus complete groups. 📚</p><p><strong>Core Concept:</strong> Each emphasizes individuality ('one by one'), every emphasizes completeness ('all members').</p><p><strong>Key Points:</strong></p><ul><li><strong>Each:</strong> Focuses on individual members one at a time</li><li><strong>Every:</strong> Refers to all members of a complete group</li><li><strong>Both:</strong> Used with singular nouns and require singular verbs</li></ul><p><strong>Important Note:</strong> Each can be used with just two items, but every needs three or more.</p><p><strong>Common Mistakes:</strong> Using every when you mean each, or vice versa.</p>",
+            "examples": [
+                "<strong>Each</strong> employee received an invitation. (one by one)",
+                "<strong>Every</strong> pupil must wear a uniform. (all pupils)",
+                "He carried a book in <strong>each</strong> hand. (just two hands)",
+                "<strong>Every</strong> book borrowed must be returned. (all books)",
+                "<strong>Each</strong> refugee received food and water. (individual focus)",
+                "There is a train <strong>every</strong> 15 minutes. (regular complete schedule)"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_basics.mp3",
+            "functions": [
+                "Emphasizing individuality",
+                "Referring to complete groups",
+                "Expressing regularity"
+            ],
+            "tips": "💡 <strong>Quick Test:</strong> Each = one by one. Every = all together."
+        },
+        {
+            "id": "lesson-2",
+            "title": "Each in Detail – Individual Focus 🚀",
+            "content": "<p>Master the specific uses of <strong>each</strong> for emphasizing individual treatment. 📈</p><p><strong>Each Characteristics:</strong></p><ul><li><strong>Two or more items:</strong> Can be used with just two</li><strong>Followed by 'of':</strong> Each of the students, each of us</li><li><strong>Pronoun form:</strong> Each can stand alone as a pronoun</li><li><strong>Distribution:</strong> Emphasizes separate treatment</li></ul><p><strong>Context Matters:</strong> Use each when you want to stress individual consideration.</p><p><strong>Practice Strategy:</strong> Think of dividing things among individuals.</p>",
+            "examples": [
+                "A letter was sent to <strong>each of</strong> the firemen. (individual letters)",
+                "The prize money was divided among the team members. <strong>Each</strong> received 10,000€. (individual amounts)",
+                "<strong>Each</strong> of us has a computer. (every individual person)",
+                "Both girls work. <strong>Each</strong> earns a good salary. (separate salaries)",
+                "A meal was served to <strong>each of</strong> the passengers. (individual service)",
+                "He shook hands with <strong>each of</strong> his supporters. (individual handshakes)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_application.mp3",
+            "functions": [
+                "Expressing individual treatment",
+                "Showing distribution",
+                "Emphasizing separate actions"
+            ],
+            "tips": "💡 <strong>Individual Focus:</strong> Each = treating people/things separately."
+        },
+        {
+            "id": "lesson-3",
+            "title": "Every in Detail – Complete Group Focus 🔍",
+            "content": "<p>Learn the specific uses of <strong>every</strong> for referring to complete groups. 🎭</p><p><strong>Every Characteristics:</strong></p><ul><li><strong>Three or more:</strong> Needs a complete group</li><li><strong>Regularity:</strong> Used for frequency (every day, every hour)</li><li><strong>Abstract nouns:</strong> Every reason, every possibility</li><li><strong>With adverbs:</strong> Almost/practically every, nearly every</li></ul><p><strong>Regional Variations:</strong> Some dialects use every with smaller numbers informally.</p><p><strong>Advanced Tip:</strong> Every implies no exceptions in the group.</p>",
+            "examples": [
+                "<strong>Every</strong> employee received a free copy. (complete group)",
+                "The church bells ring <strong>every</strong> hour. (regular complete cycle)",
+                "They have <strong>every</strong> reason to be satisfied. (all reasons)",
+                "A news bulletin is published <strong>every</strong> morning. (complete regular schedule)",
+                "We have <strong>every</strong> confidence in you. (complete confidence)",
+                "<strong>Nearly every</strong> student passed the test. (almost all students)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_exceptions.mp3",
+            "functions": [
+                "Expressing completeness",
+                "Showing regularity",
+                "Indicating no exceptions"
+            ],
+            "tips": "💡 <strong>Complete Focus:</strong> Every = the whole group without exception."
+        },
+        {
+            "id": "lesson-4",
+            "title": "Each vs Every – Critical Differences ⚖️",
+            "content": "<p>Master the crucial distinctions between <strong>each</strong> and <strong>every</strong> in context. ⚖️</p><p><strong>Key Differences:</strong></p><ul><li><strong>Quantity:</strong> Each (2+), Every (3+)</li><li><strong>Emphasis:</strong> Each (individual), Every (group)</li><li><strong>Following words:</strong> Each + of, Every + noun directly</li><li><strong>Implication:</strong> Each (separate), Every (inclusive)</li></ul><p><strong>Emotional Impact:</strong> Each sounds more precise, every more general.</p><p><Practice Strategy:</strong> Replace one with the other and see if meaning changes.</p>",
+            "examples": [
+                "<strong>Each</strong> child got a present. (individual presents)",
+                "<strong>Every</strong> child got a present. (all children included)",
+                "<strong>Each of</strong> the players was interviewed. (separate interviews)",
+                "<strong>Every</strong> player was interviewed. (complete team coverage)",
+                "She visited <strong>each</strong> city separately. (one by one)",
+                "The train stops at <strong>every</strong> station. (all stations on route)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_4_comparison.mp3",
+            "functions": [
+                "Choosing precise meaning",
+                "Understanding emphasis differences",
+                "Using appropriate formality"
+            ],
+            "tips": "💡 <strong>Meaning Test:</strong> Each = individual treatment. Every = group inclusion."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Each/Every + One – Special Constructions 📊",
+            "content": "<p>Learn the special constructions with <strong>each one</strong> and <strong>every one</strong>. 📊</p><p><strong>Special Forms:</strong></p><ul><li><strong>Each one:</strong> Each + one (emphasizes individuality)</li><li><strong>Every one:</strong> Every + one (refers to all individuals)</li><li><strong>With pronouns:</strong> Each/every one of us/them</li></ul><p><strong>Context Matters:</strong> Each one is more emphatic than each alone.</p><p><Practice Strategy:</strong> Use these forms for emphasis in formal writing.</p>",
+            "examples": [
+                "I would like to thank <strong>each one</strong> of you. (every individual)",
+                "The boss explained to <strong>every one</strong> of the employees. (all employees)",
+                "<strong>Each one</strong> of her ideas is worth considering. (individual ideas)",
+                "<strong>Every one</strong> of the copies must be registered. (all copies)",
+                "I have seven grandchildren. <strong>Each one</strong> is dear to me. (individual affection)",
+                "<strong>Every one</strong> of us has a responsibility. (all have responsibility)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_5_comparison.mp3",
+            "functions": [
+                "Adding emphasis",
+                "Referring to specific individuals",
+                "Formal expression"
+            ],
+            "tips": "💡 <strong>Emphasis Rule:</strong> Each one = stronger individual focus than each."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Mastering Each & Every – Natural Usage 🏆",
+            "content": "<p>Put it all together! Use <strong>each</strong> and <strong>every</strong> naturally in real communication. 🏆</p><p><strong>Communication Strategies:</strong></p><ul><li><strong>Individual treatment:</strong> Use each/each one</li><strong>Complete coverage:</strong> Use every/every one</li><li><strong>Regular events:</strong> Use every + time expression</li><li><strong>Emphasis:</strong> Each and every together for stress</li></ul><p><strong>Advanced Tip:</strong> 'Each and every' is used for emphasis but means the same as 'every'.</p>",
+            "examples": [
+                "The manager explained to <strong>each and every</strong> one of you. (emphasized completeness)",
+                "<strong>Each</strong> participant received a certificate. (individual certificates)",
+                "The alarm rings <strong>every</strong> five minutes. (regular complete cycle)",
+                "I interviewed <strong>each one</strong> of the candidates personally. (individual interviews)",
+                "<strong>Every</strong> citizen has the right to vote. (complete group right)",
+                "She checked <strong>each</strong> item on the list. (one by one checking)"
+            ],
+            "difficulty": 4,
+            "audio": "lesson_6_mastery.mp3",
+            "functions": [
+                "Communicating with precision",
+                "Using appropriate emphasis",
+                "Sounding natural in context"
+            ],
+            "tips": "💡 <strong>Native Choice:</strong> Every is more common in speech; each sounds more formal."
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 5 sentences using 'each' to emphasize individual treatment.",
+            "hint": "Use each with of, or as a pronoun, focus on separate/individual actions.",
+            "expectedKeywords": [
+                "each",
+                "each of",
+                "student",
+                "employee",
+                "child",
+                "participant",
+                "received",
+                "got",
+                "has",
+                "was given"
+            ],
+            "sentenceStarters": [
+                "Each student ___",
+                "Each of the employees ___",
+                "Each child ___",
+                "Each participant ___"
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "Write 5 sentences using 'every' to refer to complete groups.",
+            "hint": "Use every with complete groups of 3+, or for regularity/frequency.",
+            "expectedKeywords": [
+                "every",
+                "student",
+                "employee",
+                "day",
+                "week",
+                "hour",
+                "morning",
+                "must",
+                "has to",
+                "needs to"
+            ],
+            "sentenceStarters": [
+                "Every student ___",
+                "Every employee ___",
+                "Every day ___",
+                "Every week ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Write sentences contrasting 'each' vs 'every' in similar situations.",
+            "hint": "Show how they create different emphases in similar contexts.",
+            "expectedKeywords": [
+                "each",
+                "every",
+                "student",
+                "employee",
+                "child",
+                "participant",
+                "received",
+                "must",
+                "has",
+                "got"
+            ],
+            "sentenceStarters": [
+                "Each student received ___",
+                "Every student received ___",
+                "Each employee has ___",
+                "Every employee has ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-4",
+            "question": "Write sentences using 'each one' and 'every one' correctly.",
+            "hint": "Each one emphasizes individuality, every one refers to all individuals.",
+            "expectedKeywords": [
+                "each one",
+                "every one",
+                "of us",
+                "of them",
+                "of the",
+                "students",
+                "employees",
+                "children",
+                "participants"
+            ],
+            "sentenceStarters": [
+                "Each one of the students ___",
+                "Every one of the employees ___",
+                "Each one of us ___",
+                "Every one of them ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-5",
+            "question": "Write sentences using 'every' with time expressions.",
+            "hint": "Use every with words like day, week, hour, morning, etc.",
+            "expectedKeywords": [
+                "every",
+                "day",
+                "week",
+                "month",
+                "year",
+                "hour",
+                "minute",
+                "morning",
+                "evening",
+                "rings",
+                "happens",
+                "occurs"
+            ],
+            "sentenceStarters": [
+                "Every day ___",
+                "Every week ___",
+                "Every hour ___",
+                "Every morning ___"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short procedure (8-10 sentences) using 'each' and 'every' naturally.",
+            "hint": "Describe a process where some steps are individual (each) and some are for everyone (every).",
+            "expectedKeywords": [
+                "each",
+                "every",
+                "step",
+                "participant",
+                "student",
+                "must",
+                "has to",
+                "needs to",
+                "follow",
+                "complete"
+            ],
+            "sentenceStarters": [
+                "Each participant must ___",
+                "Every student has to ___",
+                "Each step requires ___",
+                "Every person needs ___"
+            ],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-7",
+            "question": "Correct the mistakes in these sentences about each/every usage.",
+            "hint": "Fix wrong word choice, missing 'of', or inappropriate contexts.",
+            "expectedKeywords": [
+                "each",
+                "every",
+                "each of",
+                "each one",
+                "every one",
+                "student",
+                "employee",
+                "day",
+                "week"
+            ],
+            "sentenceStarters": [
+                "Every the students passed the test",
+                "Each day I go to work",
+                "Each one student received a prize",
+                "Every of the employees was late"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Write formal vs informal alternatives using each/every.",
+            "hint": "Formal: each/every. Informal: all, each one, every single one.",
+            "expectedKeywords": [
+                "each",
+                "every",
+                "each of",
+                "every one",
+                "all",
+                "each one",
+                "student",
+                "employee",
+                "day",
+                "person"
+            ],
+            "sentenceStarters": [
+                "Each student received ___",
+                "Every employee must ___",
+                "Each day brings ___",
+                "Every person has ___"
+            ],
+            "difficulty": 3
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Choose the correct determiner for individual focus.",
+            "sentence": "____ employee received a bonus. (emphasizing separate bonuses)",
+            "options": [
+                "Each",
+                "Every",
+                "Each of",
+                "Every of"
+            ],
+            "correctAnswer": [
+                "Each"
+            ],
+            "hint": "Each emphasizes individual treatment of each person.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Select the correct word for complete group reference.",
+            "sentence": "____ student must submit homework. (all students without exception)",
+            "options": [
+                "Each",
+                "Every",
+                "Each of the",
+                "Every of the"
+            ],
+            "correctAnswer": [
+                "Every"
+            ],
+            "hint": "Every refers to the complete group of all students.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Which construction requires 'of'?",
+            "sentence": "____ the candidates were interviewed. (all individual candidates)",
+            "options": [
+                "Each of",
+                "Every of",
+                "Each",
+                "Every"
+            ],
+            "correctAnswer": [
+                "Each of"
+            ],
+            "hint": "Each of is used before determiners and pronouns.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Choose the correct word for expressing regularity.",
+            "sentence": "The bus arrives ____ 30 minutes. (regular complete schedule)",
+            "options": [
+                "each",
+                "every",
+                "each of",
+                "every of"
+            ],
+            "correctAnswer": [
+                "every"
+            ],
+            "hint": "Every is used for regular, repeated complete cycles.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Select the more emphatic form.",
+            "sentence": "____ one of you is important. (emphasizing every individual)",
+            "options": [
+                "Each",
+                "Every",
+                "Each and every",
+                "Every and each"
+            ],
+            "correctAnswer": [
+                "Each and every"
+            ],
+            "hint": "Each and every is used for emphasis and means the same as every.",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Which word can be used with just two items?",
+            "sentence": "He has a tattoo on ____ arm.",
+            "options": [
+                "each",
+                "every",
+                "both",
+                "all"
+            ],
+            "correctAnswer": "each",
+            "audio": "quiz_1_basics.mp3",
+            "hint": "Each can be used with two items, but every needs three or more.",
+            "difficulty": "easy",
+            "explanation": "Each can refer to just two arms. Every implies a larger complete set."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which word is used for regularity and frequency?",
+            "sentence": "She exercises ____ day.",
+            "options": [
+                "each",
+                "every",
+                "both",
+                "neither"
+            ],
+            "correctAnswer": "every",
+            "audio": "quiz_2_application.mp3",
+            "hint": "Every is used for regular, repeated complete cycles.",
+            "difficulty": "easy",
+            "explanation": "Every expresses regularity (every single day). Each would mean separate days."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What's the difference between 'each' and 'every'?",
+            "sentence": "____ child in the class has a book.",
+            "options": [
+                "Each = individual focus, every = complete group",
+                "Each = complete group, every = individual focus",
+                "They mean the same thing",
+                "Each is plural, every is singular"
+            ],
+            "correctAnswer": "Each = individual focus, every = complete group",
+            "audio": "quiz_3_exceptions.mp3",
+            "hint": "Each emphasizes one-by-one treatment, every refers to all members together.",
+            "difficulty": "medium",
+            "explanation": "Each focuses on individual members, every refers to the complete group without exceptions."
+        },
+        {
+            "id": "quiz-4",
+            "question": "Which construction is correct?",
+            "sentence": "The teacher spoke to ____ of the students.",
+            "options": [
+                "each",
+                "every",
+                "each of the",
+                "every of the"
+            ],
+            "correctAnswer": "each of the",
+            "audio": "quiz_4_comparison.mp3",
+            "hint": "Each of is used before determiners like 'the'.",
+            "difficulty": "medium",
+            "explanation": "Each of the is the correct construction before determiners and pronouns."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which sentence uses the words correctly?",
+            "sentence": "Select the most appropriate sentence:",
+            "options": [
+                "Each student in my class is very talented.",
+                "Every student in my class is very talented.",
+                "Both sentences are equally correct",
+                "Neither sentence is correct"
+            ],
+            "correctAnswer": "Both sentences are equally correct",
+            "audio": "quiz_5_master.mp3",
+            "hint": "Both can be correct depending on whether you emphasize individuals or the complete group.",
+            "difficulty": "hard",
+            "explanation": "Both are grammatically correct. Each emphasizes individual talent, every emphasizes the complete group's talent."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "individual",
+            "hint": "Single person or thing",
+            "clue": "_n__v_d_a_",
+            "sentence": "Each emphasizes the ____ treatment.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-2",
+            "word": "complete",
+            "hint": "Whole or entire",
+            "clue": "c_m_l_t_",
+            "sentence": "Every refers to a ____ group.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-3",
+            "word": "regularity",
+            "hint": "Happening at fixed intervals",
+            "clue": "r_g_l_r_t_",
+            "sentence": "Every expresses ____ in time.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-4",
+            "word": "emphasis",
+            "hint": "Special importance or attention",
+            "clue": "_m_h_s_s",
+            "sentence": "Each adds ____ to individuality.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-5",
+            "word": "frequency",
+            "hint": "How often something happens",
+            "clue": "f_e_u_n_y",
+            "sentence": "Every is used for ____ expressions.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-6",
+            "word": "determiner",
+            "hint": "Word that comes before a noun",
+            "clue": "d_t_r_i_e_",
+            "sentence": "Each and every are ____.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-7",
+            "word": "distribution",
+            "hint": "Act of giving out to different people",
+            "clue": "d_s_r_b_t_o_",
+            "sentence": "Each refers to ____ of items.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-8",
+            "word": "inclusive",
+            "hint": "Including everything",
+            "clue": "_n_l_s_v_",
+            "sentence": "Every is more ____ than each.",
+            "difficulty": "medium"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 12,
+            "silver": 35,
+            "gold": 60,
+            "platinum": 85
+        },
+        "badges": [
+            {
+                "id": "determiner-starter",
+                "name": "Determiner Starter 🌟",
+                "condition": "Complete lesson-1 with 80% or higher",
+                "icon": "🌟",
+                "points": 25,
+                "message": "Great start! You're learning about each and every."
+            },
+            {
+                "id": "individual-master",
+                "name": "Individual Master 🔍",
+                "condition": "Score 100% on 3 basic activities",
+                "icon": "🔍",
+                "points": 35,
+                "message": "You understand the power of each!"
+            },
+            {
+                "id": "completeness-expert",
+                "name": "Completeness Expert 🎯",
+                "condition": "Complete writing-2 and game-2 with full marks",
+                "icon": "🎯",
+                "points": 45,
+                "message": "You master the inclusivity of every!"
+            },
+            {
+                "id": "distinction-handler",
+                "name": "Distinction Handler 🎭",
+                "condition": "Master all each vs every activities",
+                "icon": "🎭",
+                "points": 50,
+                "message": "You handle the critical each/every distinction perfectly!"
+            },
+            {
+                "id": "construction-champion",
+                "name": "Construction Champion ⚖️",
+                "condition": "Perfect scores on comparison quizzes and activities",
+                "icon": "⚖️",
+                "points": 55,
+                "message": "You know all the each/every + one constructions!"
+            },
+            {
+                "id": "precision-writer",
+                "name": "Precision Writer ✍️",
+                "condition": "Complete all writing activities with high scores",
+                "icon": "✍️",
+                "points": 60,
+                "message": "Your writing uses each and every with perfect precision!"
+            },
+            {
+                "id": "speed-determiner",
+                "name": "Speed Determiner ⏱️",
+                "condition": "Complete 5 activities in under 5 minutes each",
+                "icon": "⏱️",
+                "points": 40,
+                "message": "You're incredibly fast with determiners!"
+            },
+            {
+                "id": "perfection-determiner",
+                "name": "Perfection Determiner 💎",
+                "condition": "Score 100% on all activities in one category",
+                "icon": "💎",
+                "points": 75,
+                "message": "You demand perfection with each and every!"
+            },
+            {
+                "id": "determiner-storyteller",
+                "name": "Determiner Storyteller 📖✨",
+                "condition": "Earn Gold stars + complete writing-6 with full marks",
+                "icon": "📖✨",
+                "points": 100,
+                "message": "Your stories masterfully distinguish individual vs complete!"
+            },
+            {
+                "id": "ultimate-determiner-master",
+                "name": "Ultimate Determiner Master 🏆",
+                "condition": "Collect ALL other badges + 100% on every activity",
+                "icon": "🏆",
+                "points": 200,
+                "message": "You are the undisputed master of each and every!"
+            }
+        ]
+    }
+}

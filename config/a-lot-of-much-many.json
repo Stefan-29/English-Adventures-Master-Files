@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: A Lot Of - Much - Many",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "A Lot Of - Much - Many",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Quantity Words Lessons",
+        "instructions": "Master the use of A LOT OF, MUCH, and MANY for expressing large quantities. Learn the differences between countable and uncountable nouns."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using A LOT OF, MUCH, and MANY correctly. Practice with different contexts and noun types."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing the correct quantity word based on countable vs uncountable nouns."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about quantity words. Choose the correct quantifier!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Quantity Challenge",
+        "instructions": "Apply quantity words correctly in sentences. Master the rules for countable and uncountable nouns."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Countable Nouns (Many)",
+        "words": ["books", "cars", "people", "students", "questions", "ideas", "friends", "problems"]
+      },
+      {
+        "title": "Uncountable Nouns (Much)",
+        "words": ["water", "time", "money", "information", "advice", "homework", "traffic", "noise"]
+      },
+      {
+        "title": "A Lot Of (Both Types)",
+        "words": ["work", "things", "food", "experience", "practice", "help", "support", "changes"]
+      },
+      {
+        "title": "Large Quantity Expressions",
+        "words": ["a lot of books", "much time", "many people", "a lot of water", "much money", "many ideas"]
+      },
+      {
+        "title": "Negative Contexts",
+        "words": ["not much", "not many", "not a lot of", "very little", "very few", "hardly any"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["There are many ...", "There is much ...", "I have a lot of ...", "She needs much ...", "They have many ..."]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/a-lot-of-much-many.json",
+  "grammarChecker": "aLotOfMuchMany.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

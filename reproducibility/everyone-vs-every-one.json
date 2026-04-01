@@ -1,0 +1,650 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Everyone vs Every One – Group vs Individual! 🎯",
+            "content": "<p>Welcome to the distinction between <strong>everyone</strong> and <strong>every one</strong>! These look similar but mean different things. 👥</p><p><strong>Core Concept:</strong> Everyone is one word (group), every one is two words (individuals).</p><p><strong>Key Differences:</strong></p><ul><li><strong>Everyone:</strong> All people as a group (pronoun)</li><li><strong>Every one:</strong> Each individual person/item (determiner + noun)</li><li><strong>Spelling:</strong> Everyone (one word), Every one (two words)</li><li><strong>Meaning:</strong> Everyone = everybody, Every one = each person/thing</li></ul><p><strong>Important Note:</strong> Every one needs a noun after 'one'.</p><p><strong>Common Mistakes:</strong> Writing them as one word or confusing meanings.</p>",
+            "examples": [
+                "<strong>Everyone</strong> enjoyed the party. (all people as a group)",
+                "<strong>Every one</strong> of the students passed. (each individual student)",
+                "<strong>Everyone</strong> is welcome here. (all people collectively)",
+                "<strong>Every one</strong> of these books is valuable. (each individual book)",
+                "<strong>Everyone</strong> needs to participate. (the whole group)",
+                "<strong>Every one</strong> of them deserves a prize. (each person individually)"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_basics.mp3",
+            "functions": [
+                "Referring to all people as a group",
+                "Emphasizing individual items",
+                "Making collective vs individual distinctions"
+            ],
+            "tips": "💡 <strong>Quick Rule:</strong> Everyone = all people together. Every one = each person/item separately."
+        },
+        {
+            "id": "lesson-2",
+            "title": "Everyone – The Collective Pronoun 👥",
+            "content": "<p>Master <strong>everyone</strong> as a singular pronoun meaning 'all people'. 👥</p><p><strong>Everyone Characteristics:</strong></p><ul><li><strong>Pronoun:</strong> Replaces all people collectively</li><li><strong>Singular:</strong> Takes singular verbs (is, has, does)</li><li><strong>Inclusive:</strong> Means everybody, all people</li><li><strong>Indefinite:</strong> No specific people mentioned</li></ul><p><strong>Grammar Rule:</strong> Everyone is always singular - 'Everyone is happy' not 'are happy'.</p><p><strong>Practice Strategy:</strong> Think of everyone as meaning 'every person in the group'.</p>",
+            "examples": [
+                "<strong>Everyone</strong> is excited about the trip. (singular verb)",
+                "<strong>Everyone</strong> has their own opinion. (singular possessive)",
+                "<strong>Everyone</strong> needs to bring something. (the whole group)",
+                "<strong>Everyone</strong> should participate. (all people collectively)",
+                "<strong>Everyone</strong> loves chocolate. (general statement)",
+                "<strong>Everyone</strong> deserves respect. (universal truth)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_application.mp3",
+            "functions": [
+                "Making general statements about people",
+                "Referring to all people in a situation",
+                "Creating inclusive language"
+            ],
+            "tips": "💡 <strong>Verb Rule:</strong> Everyone takes singular verbs: Everyone IS, not ARE."
+        },
+        {
+            "id": "lesson-3",
+            "title": "Every One – The Determiner Phrase 🔍",
+            "content": "<p>Learn <strong>every one</strong> as a determiner emphasizing individuals. 🔍</p><p><strong>Every One Structure:</strong></p><ul><li><strong>Determiner:</strong> Every (each) + one (person/item)</li><li><strong>Needs noun:</strong> Must have a noun after 'one'</li><li><strong>Emphasizes:</strong> Each individual separately</li><li><strong>Countable:</strong> Used with countable nouns</li></ul><p><strong>Context Matters:</strong> Use when you want to stress individuality.</p><p><strong>Advanced Tip:</strong> Every one is more emphatic than 'each' or 'every'.</p>",
+            "examples": [
+                "<strong>Every one</strong> of the children got a gift. (each child individually)",
+                "<strong>Every one</strong> of these apples is ripe. (each apple separately)",
+                "<strong>Every one</strong> of my friends helped. (each friend individually)",
+                "<strong>Every one</strong> of the questions was difficult. (each question separately)",
+                "<strong>Every one</strong> of them deserves recognition. (each person individually)",
+                "<strong>Every one</strong> of these books is important. (each book separately)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_exceptions.mp3",
+            "functions": [
+                "Emphasizing individual treatment",
+                "Referring to each item in a group",
+                "Making specific distinctions"
+            ],
+            "tips": "💡 <strong>Noun Rule:</strong> Every one ALWAYS needs a noun after 'one'."
+        },
+        {
+            "id": "lesson-4",
+            "title": "Everyone vs Every One – Critical Comparisons ⚖️",
+            "content": "<p>Master the crucial differences between <strong>everyone</strong> and <strong>every one</strong>. ⚖️</p><p><strong>Side-by-Side Comparison:</strong></p><ul><li><strong>Everyone:</strong> One word, pronoun, singular, no noun needed</li><li><strong>Every one:</strong> Two words, determiner + noun, can be plural, needs noun</li><li><strong>Meaning:</strong> Everyone = all together, Every one = each separately</li><li><strong>Usage:</strong> Everyone = general, Every one = specific/emphatic</li></ul><p><strong>Context Test:</strong> Can you replace with 'all people'? (everyone) or 'each one'? (every one)</p><p><Practice Strategy:</strong> Read sentences aloud and see which sounds right.</p>",
+            "examples": [
+                "<strong>Everyone</strong> enjoyed the movie. (all people collectively)",
+                "<strong>Every one</strong> of the viewers enjoyed the movie. (each viewer individually)",
+                "<strong>Everyone</strong> should try this. (general recommendation)",
+                "<strong>Every one</strong> of these recipes is delicious. (each recipe specifically)",
+                "<strong>Everyone</strong> has potential. (general statement)",
+                "<strong>Every one</strong> of my students has potential. (each student specifically)",
+                "<strong>Everyone</strong> loves ice cream. (universal truth)",
+                "<strong>Every one</strong> of these flavors is unique. (each flavor individually)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_4_comparison.mp3",
+            "functions": [
+                "Choosing the right form for meaning",
+                "Understanding subtle differences",
+                "Using appropriate emphasis"
+            ],
+            "tips": "💡 <strong>Meaning Test:</strong> Everyone = all as one group. Every one = each as individuals."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Common Mistakes & Exceptions 📝",
+            "content": "<p>Avoid common errors with <strong>everyone</strong> and <strong>every one</strong>. 📝</p><p><strong>Common Mistakes:</strong></p><ul><li><strong>Wrong spelling:</strong> Writing 'every one' as 'everyone'</li><li><strong>Missing noun:</strong> Using 'every one' without a noun</li><li><strong>Wrong verb:</strong> Using plural verbs with 'everyone'</li><li><strong>Wrong meaning:</strong> Using them interchangeably</li></ul><p><strong>Exceptions:</strong> Some contexts allow flexibility, but rules usually apply.</p><p><strong>Advanced Tip:</strong> In formal writing, 'every one' is preferred for emphasis.</p>",
+            "examples": [
+                "❌ <strong>Everyone</strong> are happy. → ✅ <strong>Everyone</strong> is happy.",
+                "❌ <strong>Every one</strong> is happy. → ✅ <strong>Every one</strong> of them is happy.",
+                "❌ <strong>Everyone</strong> of the students passed. → ✅ <strong>Every one</strong> of the students passed.",
+                "❌ <strong>Every one</strong> deserves respect. → ✅ <strong>Everyone</strong> deserves respect.",
+                "❌ <strong>Everyone</strong> book is valuable. → ✅ <strong>Every one</strong> of the books is valuable.",
+                "❌ <strong>Every one</strong> need help. → ✅ <strong>Everyone</strong> needs help."
+            ],
+            "difficulty": 3,
+            "audio": "lesson_5_comparison.mp3",
+            "functions": [
+                "Identifying and correcting errors",
+                "Understanding when to use each form",
+                "Applying grammar rules correctly"
+            ],
+            "tips": "💡 <strong>Error Check:</strong> Everyone = pronoun (no noun). Every one = needs noun."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Mastering Everyone/Every One – Natural Usage 🏆",
+            "content": "<p>Put it all together! Use <strong>everyone</strong> and <strong>every one</strong> naturally. 🏆</p><p><strong>Communication Strategies:</strong></p><ul><li><strong>General statements:</strong> Everyone loves...</li><li><strong>Specific emphasis:</strong> Every one of the...</li><li><strong>Inclusive language:</strong> Everyone is welcome</li><li><strong>Individual recognition:</strong> Every one deserves...</li></ul><p><strong>Advanced Tip:</strong> Every one adds emphasis and formality to writing.</p>",
+            "examples": [
+                "<strong>Everyone</strong> should have a chance to speak. (general inclusion)",
+                "<strong>Every one</strong> of the participants received a certificate. (individual recognition)",
+                "<strong>Everyone</strong> enjoyed the presentation. (collective opinion)",
+                "<strong>Every one</strong> of these paintings is unique. (individual appreciation)",
+                "<strong>Everyone</strong> needs to follow the rules. (general requirement)",
+                "<strong>Every one</strong> of my colleagues contributed. (specific acknowledgment)",
+                "<strong>Everyone</strong> deserves respect. (universal principle)",
+                "<strong>Every one</strong> of the solutions works. (individual effectiveness)"
+            ],
+            "difficulty": 4,
+            "audio": "lesson_6_mastery.mp3",
+            "functions": [
+                "Creating inclusive communication",
+                "Adding emphasis to statements",
+                "Using appropriate formality levels"
+            ],
+            "tips": "💡 <strong>Native Choice:</strong> Everyone for casual conversation, every one for formal emphasis."
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 5 sentences using 'everyone' as a pronoun.",
+            "hint": "Use everyone to refer to all people collectively, with singular verbs.",
+            "expectedKeywords": [
+                "everyone",
+                "is",
+                "has",
+                "needs",
+                "should",
+                "loves",
+                "enjoys",
+                "deserves"
+            ],
+            "sentenceStarters": [
+                "Everyone ___ the party.",
+                "Everyone ___ to participate.",
+                "Everyone ___ respect.",
+                "Everyone ___ a chance."
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "Write 5 sentences using 'every one' with different nouns.",
+            "hint": "Use every one + noun to emphasize each individual item or person.",
+            "expectedKeywords": [
+                "every one",
+                "students",
+                "books",
+                "children",
+                "questions",
+                "friends",
+                "apples",
+                "deserves",
+                "passed",
+                "is",
+                "has"
+            ],
+            "sentenceStarters": [
+                "Every one of the ___ passed.",
+                "Every one of these ___ is special.",
+                "Every one of my ___ helped.",
+                "Every one of the ___ deserves recognition."
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Write sentences contrasting 'everyone' vs 'every one' in similar contexts.",
+            "hint": "Show how they create different meanings: everyone = collective, every one = individual.",
+            "expectedKeywords": [
+                "everyone",
+                "every one",
+                "students",
+                "books",
+                "children",
+                "participants",
+                "enjoyed",
+                "passed",
+                "deserves",
+                "is"
+            ],
+            "sentenceStarters": [
+                "Everyone enjoyed the movie.",
+                "Every one of the ___ enjoyed the movie.",
+                "Everyone deserves respect.",
+                "Every one of the ___ deserves respect."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-4",
+            "question": "Correct the mistakes in these sentences about everyone/every one.",
+            "hint": "Fix spelling (one word vs two), add missing nouns, correct verbs, etc.",
+            "expectedKeywords": [
+                "everyone",
+                "every one",
+                "is",
+                "has",
+                "students",
+                "books",
+                "children",
+                "participants"
+            ],
+            "sentenceStarters": [
+                "Every one are happy.",
+                "Everyone of the students passed.",
+                "Every one deserves respect.",
+                "Everyone book is valuable."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-5",
+            "question": "Write formal vs informal versions using everyone/every one.",
+            "hint": "Use everyone for casual, every one for formal/emphatic situations.",
+            "expectedKeywords": [
+                "everyone",
+                "every one",
+                "participants",
+                "students",
+                "employees",
+                "members",
+                "received",
+                "deserves",
+                "contributed",
+                "achieved"
+            ],
+            "sentenceStarters": [
+                "Everyone received a prize. (casual)",
+                "Every one of the ___ received a prize. (formal)",
+                "Everyone contributed. (casual)",
+                "Every one of the ___ contributed. (formal)"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short dialogue (8-10 exchanges) using everyone/every one naturally.",
+            "hint": "Include general statements with everyone and specific emphasis with every one.",
+            "expectedKeywords": [
+                "everyone",
+                "every one",
+                "students",
+                "participants",
+                "team",
+                "members",
+                "deserves",
+                "contributed",
+                "enjoyed",
+                "passed"
+            ],
+            "sentenceStarters": [
+                "Everyone enjoyed the event.",
+                "Every one of the ___ contributed.",
+                "Everyone deserves recognition.",
+                "Every one of the ___ deserves recognition."
+            ],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-7",
+            "question": "Write sentences explaining the difference between everyone and every one.",
+            "hint": "Create clear explanations showing when to use each form.",
+            "expectedKeywords": [
+                "everyone",
+                "every one",
+                "means",
+                "refers",
+                "collective",
+                "individual",
+                "group",
+                "each",
+                "pronoun",
+                "determiner"
+            ],
+            "sentenceStarters": [
+                "Everyone ___ all people as a group.",
+                "Every one ___ each person individually.",
+                "Everyone is a ___ that means everybody.",
+                "Every one is a ___ phrase meaning each one."
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Write inclusive and exclusive statements using everyone/every one.",
+            "hint": "Use everyone for inclusive general statements, every one for specific individual emphasis.",
+            "expectedKeywords": [
+                "everyone",
+                "every one",
+                "welcome",
+                "included",
+                "deserves",
+                "opportunity",
+                "participants",
+                "members",
+                "students",
+                "citizens"
+            ],
+            "sentenceStarters": [
+                "Everyone is ___ to join.",
+                "Every one of the ___ deserves consideration.",
+                "Everyone should have ___",
+                "Every one of the ___ received ___"
+            ],
+            "difficulty": 4
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Choose the correct form for 'all people collectively'.",
+            "sentence": "____ enjoyed the party.",
+            "options": [
+                "everyone",
+                "every one",
+                "everybody",
+                "all people"
+            ],
+            "correctAnswer": [
+                "everyone"
+            ],
+            "hint": "Everyone refers to all people as a group.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Select the correct form for 'each individual'.",
+            "sentence": "____ of the students passed.",
+            "options": [
+                "everyone",
+                "every one",
+                "everybody",
+                "all"
+            ],
+            "correctAnswer": [
+                "every one"
+            ],
+            "hint": "Every one emphasizes each individual separately.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Which takes singular verbs?",
+            "sentence": "____ ____ happy with the results.",
+            "options": [
+                "everyone is",
+                "every one is",
+                "everyone are",
+                "every one are"
+            ],
+            "correctAnswer": [
+                "everyone is"
+            ],
+            "hint": "Everyone is singular and takes singular verbs.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Which needs a noun after it?",
+            "sentence": "____ of the books is valuable.",
+            "options": [
+                "everyone",
+                "every one",
+                "everybody",
+                "all"
+            ],
+            "correctAnswer": [
+                "every one"
+            ],
+            "hint": "Every one requires a noun after 'one'.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Which is more formal/emphatic?",
+            "sentence": "____ of the participants received awards.",
+            "options": [
+                "everyone",
+                "every one",
+                "everybody",
+                "all"
+            ],
+            "correctAnswer": [
+                "every one"
+            ],
+            "hint": "Every one is more formal and emphatic than everyone.",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Which word means 'all people collectively'?",
+            "sentence": "____ enjoyed the concert.",
+            "options": [
+                "everyone",
+                "every one",
+                "everybody",
+                "all people"
+            ],
+            "correctAnswer": "everyone",
+            "audio": "quiz_1_basics.mp3",
+            "hint": "Everyone refers to all people as one group.",
+            "difficulty": "easy",
+            "explanation": "Everyone is a pronoun meaning all people collectively."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which phrase emphasizes 'each individual'?",
+            "sentence": "____ of the students deserves praise.",
+            "options": [
+                "everyone",
+                "every one",
+                "everybody",
+                "all"
+            ],
+            "correctAnswer": "every one",
+            "audio": "quiz_2_application.mp3",
+            "hint": "Every one emphasizes each person or thing individually.",
+            "difficulty": "easy",
+            "explanation": "Every one means each one individually and needs a noun."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What's the main difference between everyone and every one?",
+            "sentence": "Select the best explanation:",
+            "options": [
+                "Everyone = group, every one = individuals",
+                "Everyone = individuals, every one = group",
+                "They mean the same thing",
+                "Everyone is plural, every one is singular"
+            ],
+            "correctAnswer": "Everyone = group, every one = individuals",
+            "audio": "quiz_3_exceptions.mp3",
+            "hint": "Everyone refers to all as a group, every one to each separately.",
+            "difficulty": "medium",
+            "explanation": "Everyone treats people as a collective group, every one emphasizes individuals."
+        },
+        {
+            "id": "quiz-4",
+            "question": "Which sentence is grammatically correct?",
+            "sentence": "Select the correct sentence:",
+            "options": [
+                "Everyone are happy.",
+                "Every one are happy.",
+                "Everyone is happy.",
+                "Every one is happy."
+            ],
+            "correctAnswer": "Everyone is happy.",
+            "audio": "quiz_4_comparison.mp3",
+            "hint": "Everyone takes singular verbs.",
+            "difficulty": "medium",
+            "explanation": "Everyone is singular and takes singular verbs like 'is'."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which is more appropriate in formal writing?",
+            "sentence": "____ of the participants contributed significantly.",
+            "options": [
+                "everyone",
+                "every one",
+                "everybody",
+                "all"
+            ],
+            "correctAnswer": "every one",
+            "audio": "quiz_5_master.mp3",
+            "hint": "Every one is more formal and emphatic.",
+            "difficulty": "hard",
+            "explanation": "Every one is preferred in formal writing for its emphasis on individuals."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "collective",
+            "hint": "All together as a group",
+            "clue": "c_l_e_t_v_",
+            "sentence": "Everyone refers to people in a ____ way.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-2",
+            "word": "individual",
+            "hint": "Single person or thing",
+            "clue": "i_d_v_d_a_",
+            "sentence": "Every one emphasizes each ____.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-3",
+            "word": "pronoun",
+            "hint": "Word replacing a noun",
+            "clue": "p_o_o_n",
+            "sentence": "Everyone is a ____.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-4",
+            "word": "determiner",
+            "hint": "Word before a noun",
+            "clue": "d_t_r_i_e_",
+            "sentence": "Every in 'every one' is a ____.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-5",
+            "word": "emphasis",
+            "hint": "Special importance or stress",
+            "clue": "e_p_a_i_",
+            "sentence": "Every one adds ____ to individuals.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-6",
+            "word": "inclusive",
+            "hint": "Including everyone or everything",
+            "clue": "i_c_u_i_e",
+            "sentence": "Everyone is ____ language.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-7",
+            "word": "recognition",
+            "hint": "Acknowledgment or appreciation",
+            "clue": "r_c_g_i_i_n",
+            "sentence": "Every one deserves ____.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-8",
+            "word": "distinction",
+            "hint": "Difference or separation",
+            "clue": "d_s_i_c_i_n",
+            "sentence": "The ____ between everyone and every one is important.",
+            "difficulty": "hard"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 12,
+            "silver": 35,
+            "gold": 60,
+            "platinum": 85
+        },
+        "badges": [
+            {
+                "id": "group-individual-starter",
+                "name": "Group vs Individual Starter 🌟",
+                "condition": "Complete lesson-1 with 80% or higher",
+                "icon": "🌟",
+                "points": 25,
+                "message": "Great start! You're learning everyone vs every one."
+            },
+            {
+                "id": "collective-master",
+                "name": "Collective Master 👥",
+                "condition": "Score 100% on 3 basic activities",
+                "icon": "👥",
+                "points": 35,
+                "message": "You understand everyone as a collective pronoun!"
+            },
+            {
+                "id": "individual-emphasizer",
+                "name": "Individual Emphasizer 🎯",
+                "condition": "Complete writing-2 and game-2 with full marks",
+                "icon": "🎯",
+                "points": 45,
+                "message": "You master every one for individual emphasis!"
+            },
+            {
+                "id": "comparison-expert",
+                "name": "Comparison Expert ⚖️",
+                "condition": "Master all comparison activities",
+                "icon": "⚖️",
+                "points": 50,
+                "message": "You know exactly when to use everyone vs every one!"
+            },
+            {
+                "id": "error-corrector",
+                "name": "Error Corrector 📝",
+                "condition": "Perfect scores on correction quizzes and activities",
+                "icon": "📝",
+                "points": 55,
+                "message": "You spot and fix everyone/every one mistakes perfectly!"
+            },
+            {
+                "id": "formality-writer",
+                "name": "Formality Writer ✍️",
+                "condition": "Complete all writing activities with high scores",
+                "icon": "✍️",
+                "points": 60,
+                "message": "Your writing uses appropriate formality with everyone/every one!"
+            },
+            {
+                "id": "dialogue-balancer",
+                "name": "Dialogue Balancer 💬",
+                "condition": "Score 100% on writing-6 dialogue activity",
+                "icon": "💬",
+                "points": 40,
+                "message": "You balance collective and individual references perfectly!"
+            },
+            {
+                "id": "inclusion-champion",
+                "name": "Inclusion Champion 🌈",
+                "condition": "Complete writing-8 with full marks",
+                "icon": "🌈",
+                "points": 75,
+                "message": "You create inclusive language with perfect everyone/every one usage!"
+            },
+            {
+                "id": "explanation-artist",
+                "name": "Explanation Artist 📖✨",
+                "condition": "Earn Gold stars + complete writing-7 with full marks",
+                "icon": "📖✨",
+                "points": 100,
+                "message": "Your explanations of everyone vs every one are masterful!"
+            },
+            {
+                "id": "ultimate-group-individual-master",
+                "name": "Ultimate Group-Individual Master 🏆",
+                "condition": "Collect ALL group-individual badges + 100% on every activity",
+                "icon": "🏆",
+                "points": 200,
+                "message": "You are the supreme master of everyone and every one!"
+            }
+        ]
+    }
+}

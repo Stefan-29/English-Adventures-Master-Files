@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Everyone vs Every One",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Everyone vs Every One",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Pronouns & Determiners Lessons",
+        "instructions": "Master the difference between EVERYONE (collective pronoun) and EVERY ONE (determiner phrase). Learn when to use each form."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using EVERYONE and EVERY ONE correctly. Practice with collective vs individual meanings."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between EVERYONE and EVERY ONE based on meaning and context."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about pronouns vs determiners. Choose the correct form!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Pronouns Challenge",
+        "instructions": "Apply EVERYONE and EVERY ONE correctly in sentences. Master collective vs individual distinctions."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Everyone (Collective)",
+        "words": ["everyone", "everybody", "all people", "the group", "the class", "the team", "the family"]
+      },
+      {
+        "title": "Every One (Individual)",
+        "words": ["every one", "each one", "every person", "each person", "every student", "each student"]
+      },
+      {
+        "title": "With Singular Verbs",
+        "words": ["everyone is", "everyone has", "everyone needs", "everyone deserves", "everyone wants"]
+      },
+      {
+        "title": "With Nouns",
+        "words": ["every one of us", "every one of them", "every one of the students", "every one of the books"]
+      },
+      {
+        "title": "Emphatic Expressions",
+        "words": ["every single one", "each and every one", "every last one", "each individual one"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["Everyone ___", "Every one of ___", "Everyone needs ___", "Every one deserves ___", "Everyone should ___"]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/everyone-vs-every-one.json",
+  "grammarChecker": "everyoneVsEveryOne.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

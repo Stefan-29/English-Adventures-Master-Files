@@ -1,0 +1,653 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Few & Little Basics – Expressing Small Amounts! 🎯",
+            "content": "<p>Welcome to the world of scarcity words! <strong>Few</strong> and <strong>little</strong> help us express small quantities and amounts. 📚</p><p><strong>Core Concept:</strong> These words indicate 'not many' or 'not much' with different noun types.</p><p><strong>Key Points:</strong></p><ul><li><strong>Few:</strong> 'Not many' with countable nouns (people, books, cars)</li><li><strong>Little:</strong> 'Not much' with uncountable nouns (time, money, water)</li><li><strong>A few/little:</strong> Positive meaning (some but not many/much)</li><li><strong>Few/little:</strong> Negative meaning (almost none)</li></ul><p><strong>Important Note:</strong> The article 'a' completely changes the meaning from negative to positive.</p><p><strong>Common Mistakes:</strong> Confusing few/little with a few/a little, or using them with wrong noun types.</p>",
+            "examples": [
+                "<strong>Few</strong> biscuits were left on the plate. (almost none)",
+                "<strong>A few</strong> biscuits were left on the plate. (some but not many)",
+                "<strong>Little</strong> attention was paid to safety. (almost none)",
+                "<strong>A little</strong> attention was paid to safety. (some but not much)",
+                "<strong>Few</strong> people attended the concert. (almost none)",
+                "<strong>Little</strong> is known about the cause. (almost nothing)"
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_basics.mp3",
+            "functions": [
+                "Expressing scarcity",
+                "Showing disappointment",
+                "Indicating limitation"
+            ],
+            "tips": "💡 <strong>Article Test:</strong> Few = negative (almost none). A few = positive (some)."
+        },
+        {
+            "id": "lesson-2",
+            "title": "Comparative Forms – Fewer & Less 🚀",
+            "content": "<p>Learn the comparative forms <strong>fewer</strong> and <strong>less</strong> for comparing quantities. 📈</p><p><strong>Comparative Rules:</strong></p><ul><li><strong>Fewer:</strong> 'Not as many as' with countable nouns</li><li><strong>Less:</strong> 'Not as much as' with uncountable nouns</li><li><strong>Than:</strong> Always used with comparatives</li></ul><p><strong>Context Matters:</strong> Used when comparing two things or groups.</p><p><strong>Practice Strategy:</strong> Compare real situations like 'fewer cars than yesterday'.</p>",
+            "examples": [
+                "There are <strong>fewer</strong> customers today <strong>than</strong> yesterday.",
+                "She has <strong>less</strong> money now <strong>than</strong> before.",
+                "<strong>Fewer</strong> people voted <strong>than</strong> expected.",
+                "We spent <strong>less</strong> time on homework <strong>than</strong> usual.",
+                "There were <strong>fewer</strong> accidents this year <strong>than</strong> last year.",
+                "Alex earns <strong>less</strong> money <strong>than</strong> Julia."
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_application.mp3",
+            "functions": [
+                "Making comparisons",
+                "Showing change over time",
+                "Expressing differences"
+            ],
+            "tips": "💡 <strong>Countability Rule:</strong> Countable nouns (people, books) = fewer. Uncountable (time, money) = less."
+        },
+        {
+            "id": "lesson-3",
+            "title": "Superlative Forms – Fewest & Least 🔍",
+            "content": "<p>Master the superlative forms <strong>fewest</strong> and <strong>least</strong> for expressing the smallest amount. 🎭</p><p><strong>Superlative Rules:</strong></p><ul><li><strong>Fewest:</strong> 'The smallest number' with countable nouns</li><li><strong>Least:</strong> 'The smallest amount' with uncountable nouns</li><li><strong>The:</strong> Always used with superlatives</li></ul><p><strong>Regional Variations:</strong> In some contexts, 'least' can be used informally instead of 'fewest'.</p><p><strong>Advanced Tip:</strong> Superlatives compare three or more things.</p>",
+            "examples": [
+                "Maria made the <strong>fewest</strong> mistakes in the test.",
+                "The youngest pupils got the <strong>least</strong> homework.",
+                "Jack's article received the <strong>fewest</strong> reviews.",
+                "The poorest people spend the <strong>least</strong> money.",
+                "In December we received the <strong>fewest</strong> enquiries ever.",
+                "Julie chose the <strong>least</strong> expensive item."
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_exceptions.mp3",
+            "functions": [
+                "Expressing minimum amounts",
+                "Ranking or ordering",
+                "Showing extremes"
+            ],
+            "tips": "💡 <strong>Superlative Signal:</strong> The + fewest/least = comparing more than two things."
+        },
+        {
+            "id": "lesson-4",
+            "title": "A Few vs Few – The Critical Difference ⚖️",
+            "content": "<p>Master the crucial distinction between <strong>a few</strong> (positive) and <strong>few</strong> (negative). ⚖️</p><p><strong>Meaning Contrast:</strong></p><ul><li><strong>A few:</strong> Some, a small number (positive)</li><li><strong>Few:</strong> Almost none, hardly any (negative)</li><li><strong>Same for little:</strong> A little = some, little = almost none</li></ul><p><strong>Emotional Impact:</strong> A few/little sound optimistic; few/little sound pessimistic.</p><p><strong>Practice Strategy:</strong> Rewrite sentences with and without 'a' to feel the attitude change.</p>",
+            "examples": [
+                "There are <strong>a few</strong> melons in the shop. (some available - positive)",
+                "There are <strong>few</strong> melons in the shop. (almost none - negative)",
+                "She has <strong>a little</strong> experience. (some experience - positive)",
+                "She has <strong>little</strong> experience. (almost no experience - negative)",
+                "<strong>A few</strong> guidebooks are available. (some books - good)",
+                "<strong>Few</strong> students showed interest. (almost none - disappointing)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_4_comparison.mp3",
+            "functions": [
+                "Expressing positive attitudes",
+                "Showing disappointment",
+                "Creating different tones"
+            ],
+            "tips": "💡 <strong>Attitude Check:</strong> A few/little = hopeful. Few/little = disappointed."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Complete Usage Guide – All Forms Together 📊",
+            "content": "<p>Learn the complete system of few/little and their comparative/superlative forms. 📊</p><p><strong>Complete Paradigm:</strong></p><ul><li><strong>Base:</strong> few/little (negative), a few/a little (positive)</li><li><strong>Comparative:</strong> fewer/less (not as many/much)</li><li><strong>Superlative:</strong> fewest/least (smallest number/amount)</li></ul><p><strong>Context Matters:</strong> Formal writing uses these more than casual speech.</p><p><strong>Practice Strategy:</strong> Create comparison sentences using all three forms.</p>",
+            "examples": [
+                "<strong>Little</strong> attention was paid. (negative base)",
+                "<strong>A little</strong> attention was paid. (positive base)",
+                "She has <strong>less</strong> energy than before. (comparative)",
+                "He did the <strong>least</strong> work of all. (superlative)",
+                "<strong>Few</strong> people understand this. (negative base)",
+                "<strong>A few</strong> people understand this. (positive base)",
+                "There are <strong>fewer</strong> options now. (comparative)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_5_comparison.mp3",
+            "functions": [
+                "Using complete grammatical paradigms",
+                "Adapting formality levels",
+                "Expressing precise meanings"
+            ],
+            "tips": "💡 <strong>Form Chain:</strong> few → fewer → fewest; little → less → least."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Mastering Scarcity Words – Natural Usage 🏆",
+            "content": "<p>Put it all together! Use few/little words naturally in real communication. 🏆</p><p><strong>Communication Strategies:</strong></p><ul><li><strong>Positive situations:</strong> Use a few/a little</li><li><strong>Negative situations:</strong> Use few/little</li><li><strong>Comparisons:</strong> Use fewer/less</li><li><strong>Extremes:</strong> Use fewest/least</li></ul><p><strong>Advanced Tip:</strong> Native speakers often avoid few/little in speech, preferring 'not many' or 'not much'.</p>",
+            "examples": [
+                "There are <strong>a few</strong> things I need to tell you. (positive)",
+                "There is <strong>little</strong> time left to finish. (negative/urgent)",
+                "She has <strong>fewer</strong> friends than before. (comparative)",
+                "This car is the <strong>least</strong> expensive. (superlative)",
+                "<strong>Few</strong> people can afford this luxury. (negative)",
+                "He showed <strong>a little</strong> interest in the project. (positive)"
+            ],
+            "difficulty": 4,
+            "audio": "lesson_6_mastery.mp3",
+            "functions": [
+                "Communicating attitudes clearly",
+                "Using appropriate formality",
+                "Sounding natural in context"
+            ],
+            "tips": "💡 <strong>Native Choice:</strong> In casual speech, use 'not many/much' instead of few/little."
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 5 sentences using 'few' and 'little' with negative meanings.",
+            "hint": "Few with countable nouns, little with uncountable nouns, both negative.",
+            "expectedKeywords": [
+                "few",
+                "little",
+                "people",
+                "time",
+                "money",
+                "books",
+                "friends",
+                "hope",
+                "interest"
+            ],
+            "sentenceStarters": [
+                "There are ___ people",
+                "She has ___ time",
+                "He showed ___ interest",
+                "There is ___ hope"
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "Write 5 sentences using 'a few' and 'a little' with positive meanings.",
+            "hint": "A few with countable nouns, a little with uncountable nouns, both positive.",
+            "expectedKeywords": [
+                "a few",
+                "a little",
+                "people",
+                "time",
+                "money",
+                "books",
+                "friends",
+                "ideas",
+                "experience"
+            ],
+            "sentenceStarters": [
+                "There are ___ people",
+                "She has ___ time",
+                "He has ___ ideas",
+                "There is ___ hope"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Write comparative sentences using 'fewer' and 'less'.",
+            "hint": "Fewer with countable nouns, less with uncountable nouns, always use 'than'.",
+            "expectedKeywords": [
+                "fewer",
+                "less",
+                "than",
+                "people",
+                "time",
+                "money",
+                "books",
+                "friends",
+                "problems",
+                "energy"
+            ],
+            "sentenceStarters": [
+                "There are ___ people here ___ yesterday",
+                "She has ___ time ___ before",
+                "He has ___ money ___ last year",
+                "We have ___ problems ___ before"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-4",
+            "question": "Write superlative sentences using 'fewest' and 'least'.",
+            "hint": "Fewest with countable nouns, least with uncountable nouns, use 'the'.",
+            "expectedKeywords": [
+                "fewest",
+                "least",
+                "the",
+                "people",
+                "time",
+                "money",
+                "books",
+                "mistakes",
+                "homework",
+                "expensive"
+            ],
+            "sentenceStarters": [
+                "She made ___ mistakes",
+                "He did ___ work",
+                "This is ___ expensive",
+                "They have ___ time"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-5",
+            "question": "Write sentences contrasting few/little with a few/a little.",
+            "hint": "Show how the article 'a' changes meaning from negative to positive.",
+            "expectedKeywords": [
+                "few",
+                "little",
+                "a few",
+                "a little",
+                "people",
+                "time",
+                "money",
+                "books",
+                "friends",
+                "hope"
+            ],
+            "sentenceStarters": [
+                "There are ___ people at the party",
+                "She has ___ time for hobbies",
+                "He has ___ money saved",
+                "There is ___ hope left"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short story (8-10 sentences) using all forms of few/little naturally.",
+            "hint": "Include base forms, comparatives, and superlatives in a coherent story.",
+            "expectedKeywords": [
+                "few",
+                "little",
+                "a few",
+                "a little",
+                "fewer",
+                "less",
+                "fewest",
+                "least",
+                "people",
+                "time",
+                "money",
+                "friends",
+                "problems"
+            ],
+            "sentenceStarters": [
+                "There were ___ people at the meeting",
+                "She had ___ time to prepare",
+                "He had ___ friends to help",
+                "There was ___ hope of success"
+            ],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-7",
+            "question": "Correct the mistakes in these sentences about few/little usage.",
+            "hint": "Fix wrong noun types, missing articles, or wrong comparative/superlative forms.",
+            "expectedKeywords": [
+                "few",
+                "little",
+                "a few",
+                "a little",
+                "fewer",
+                "less",
+                "fewest",
+                "least",
+                "people",
+                "time",
+                "money",
+                "books"
+            ],
+            "sentenceStarters": [
+                "There are little people here",
+                "She has few time today",
+                "He has lesser money than before",
+                "This is the fewer expensive option"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Write formal vs informal alternatives for the same ideas.",
+            "hint": "Formal: few/little/fewer/less. Informal: not many/much, fewer/less.",
+            "expectedKeywords": [
+                "few",
+                "little",
+                "fewer",
+                "less",
+                "not many",
+                "not much",
+                "people",
+                "time",
+                "money",
+                "problems"
+            ],
+            "sentenceStarters": [
+                "There are ___ people interested",
+                "She has ___ time available",
+                "He has ___ money than before",
+                "This option has ___ problems"
+            ],
+            "difficulty": 3
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Match the word to the correct noun type.",
+            "sentence": "There are ____ biscuits left. (countable, negative)",
+            "options": [
+                "few",
+                "little",
+                "a few",
+                "a little"
+            ],
+            "correctAnswer": [
+                "few"
+            ],
+            "hint": "Few is used with countable nouns like biscuits.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Choose the comparative form for countable nouns.",
+            "sentence": "There are ____ students this year ____ last year.",
+            "options": [
+                "fewer than",
+                "less than",
+                "fewest than",
+                "least than"
+            ],
+            "correctAnswer": [
+                "fewer than"
+            ],
+            "hint": "Fewer is the comparative of few, used with countable nouns.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Select the superlative form for uncountable nouns.",
+            "sentence": "This project requires ____ effort of all.",
+            "options": [
+                "the fewest",
+                "the least",
+                "the fewer",
+                "the less"
+            ],
+            "correctAnswer": [
+                "the least"
+            ],
+            "hint": "Least is the superlative of little, used with uncountable nouns.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Which words have a positive meaning?",
+            "sentence": "She has ____ experience with this. (some experience)",
+            "options": [
+                "little",
+                "a little",
+                "few",
+                "a few"
+            ],
+            "correctAnswer": [
+                "a little"
+            ],
+            "hint": "A little and a few have positive meanings (some). Little and few are negative.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Choose the correct form for formal writing.",
+            "sentence": "____ attention was paid to the details. (almost none)",
+            "options": [
+                "Few",
+                "Little",
+                "A few",
+                "A little"
+            ],
+            "correctAnswer": [
+                "Little"
+            ],
+            "hint": "Little is more formal and appropriate for written English.",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Which word means 'almost none' with countable nouns?",
+            "sentence": "There are ____ people at the meeting today.",
+            "options": [
+                "few",
+                "a few",
+                "little",
+                "a little"
+            ],
+            "correctAnswer": "few",
+            "audio": "quiz_1_basics.mp3",
+            "hint": "Few means 'not many' or 'almost none' with countable nouns.",
+            "difficulty": "easy",
+            "explanation": "Few has a negative meaning. A few would mean 'some but not many'."
+        },
+        {
+            "id": "quiz-2",
+            "question": "What's the comparative form of 'little'?",
+            "sentence": "She has ____ energy ____ she used to.",
+            "options": [
+                "fewer than",
+                "less than",
+                "fewest than",
+                "least than"
+            ],
+            "correctAnswer": "less than",
+            "audio": "quiz_2_application.mp3",
+            "hint": "Less is the comparative form of little, used with uncountable nouns.",
+            "difficulty": "easy",
+            "explanation": "Less + than is used to compare uncountable nouns. Fewer + than is for countable nouns."
+        },
+        {
+            "id": "quiz-3",
+            "question": "Which sentence uses the superlative correctly?",
+            "sentence": "Select the correct sentence:",
+            "options": [
+                "She made the less mistakes of all.",
+                "She made the fewer mistakes of all.",
+                "She made the fewest mistakes of all.",
+                "She made the least mistakes of all."
+            ],
+            "correctAnswer": "She made the fewest mistakes of all.",
+            "audio": "quiz_3_exceptions.mp3",
+            "hint": "Fewest is the superlative of few, used with countable nouns like mistakes.",
+            "difficulty": "medium",
+            "explanation": "Fewest is correct for countable nouns. Least would be used for uncountable nouns."
+        },
+        {
+            "id": "quiz-4",
+            "question": "What's the difference between 'few' and 'a few'?",
+            "sentence": "There are ____ books on the shelf.",
+            "options": [
+                "Few = positive, a few = negative",
+                "Few = negative, a few = positive",
+                "Both mean the same",
+                "Neither can be used here"
+            ],
+            "correctAnswer": "Few = negative, a few = positive",
+            "audio": "quiz_4_comparison.mp3",
+            "hint": "Few means almost none (negative), a few means some (positive).",
+            "difficulty": "medium",
+            "explanation": "The article 'a' changes the meaning from negative (few) to positive (a few)."
+        },
+        {
+            "id": "quiz-5",
+            "question": "Which is the most formal way to say 'not many'?",
+            "sentence": "____ people attended the conference.",
+            "options": [
+                "Not many",
+                "Few",
+                "A few",
+                "Little"
+            ],
+            "correctAnswer": "Few",
+            "audio": "quiz_5_master.mp3",
+            "hint": "Few is more formal than 'not many' in written English.",
+            "difficulty": "hard",
+            "explanation": "Few is the most formal option. 'Not many' is more conversational."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "scarcity",
+            "hint": "State of being in short supply",
+            "clue": "s_a_c_t_",
+            "sentence": "The ____ of resources caused problems.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-2",
+            "word": "comparative",
+            "hint": "Form used for comparing two things",
+            "clue": "c_m_a_at_v_",
+            "sentence": "Fewer is the ____ form of few.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-3",
+            "word": "superlative",
+            "hint": "Form showing the highest degree",
+            "clue": "s_p_r_at_v_",
+            "sentence": "Fewest is the ____ form of few.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-4",
+            "word": "countable",
+            "hint": "Can be counted individually",
+            "clue": "c_u_t_b_e",
+            "sentence": "Few is used with ____ nouns.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-5",
+            "word": "uncountable",
+            "hint": "Cannot be counted individually",
+            "clue": "_n_o_n_a_l_",
+            "sentence": "Little is used with ____ nouns.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-6",
+            "word": "negative",
+            "hint": "Expressing scarcity or lack",
+            "clue": "n_g_t_v_",
+            "sentence": "Few has a ____ meaning.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-7",
+            "word": "positive",
+            "hint": "Expressing some availability",
+            "clue": "p_s_t_v_",
+            "sentence": "A few has a ____ meaning.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-8",
+            "word": "quantity",
+            "hint": "Amount or number",
+            "clue": "q_a_t_t_",
+            "sentence": "These words express ____ in English.",
+            "difficulty": "easy"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 12,
+            "silver": 35,
+            "gold": 60,
+            "platinum": 85
+        },
+        "badges": [
+            {
+                "id": "scarcity-starter",
+                "name": "Scarcity Words Starter 🌟",
+                "condition": "Complete lesson-1 with 80% or higher",
+                "icon": "🌟",
+                "points": 25,
+                "message": "Great start! You're learning about few and little."
+            },
+            {
+                "id": "comparative-master",
+                "name": "Comparative Master 🔍",
+                "condition": "Score 100% on 3 basic activities",
+                "icon": "🔍",
+                "points": 35,
+                "message": "You understand fewer vs less!"
+            },
+            {
+                "id": "superlative-expert",
+                "name": "Superlative Expert 🎯",
+                "condition": "Complete writing-4 and game-3 with full marks",
+                "icon": "🎯",
+                "points": 45,
+                "message": "You master fewest vs least!"
+            },
+            {
+                "id": "article-handler",
+                "name": "Article Handler 🎭",
+                "condition": "Master all a few vs few activities",
+                "icon": "🎭",
+                "points": 50,
+                "message": "You handle the critical a few/few distinction perfectly!"
+            },
+            {
+                "id": "form-chain-champion",
+                "name": "Form Chain Champion ⚖️",
+                "condition": "Perfect scores on comparison quizzes and activities",
+                "icon": "⚖️",
+                "points": 55,
+                "message": "You know the complete few→fewer→fewest chain!"
+            },
+            {
+                "id": "scarcity-writer",
+                "name": "Scarcity Writer ✍️",
+                "condition": "Complete all writing activities with high scores",
+                "icon": "✍️",
+                "points": 60,
+                "message": "Your writing expresses scarcity with perfect precision!"
+            },
+            {
+                "id": "speed-scarcity",
+                "name": "Speed Scarcity ⏱️",
+                "condition": "Complete 5 activities in under 5 minutes each",
+                "icon": "⏱️",
+                "points": 40,
+                "message": "You're incredibly fast with scarcity expressions!"
+            },
+            {
+                "id": "perfection-scarcity",
+                "name": "Perfection Scarcity 💎",
+                "condition": "Score 100% on all activities in one category",
+                "icon": "💎",
+                "points": 75,
+                "message": "You demand perfection with few/little usage!"
+            },
+            {
+                "id": "scarcity-storyteller",
+                "name": "Scarcity Storyteller 📖✨",
+                "condition": "Earn Gold stars + complete writing-6 with full marks",
+                "icon": "📖✨",
+                "points": 100,
+                "message": "Your stories masterfully express scarcity and abundance!"
+            },
+            {
+                "id": "ultimate-scarcity-master",
+                "name": "Ultimate Scarcity Master 🏆",
+                "condition": "Collect ALL other badges + 100% on every activity",
+                "icon": "🏆",
+                "points": 200,
+                "message": "You are the undisputed master of scarcity words!"
+            }
+        ]
+    }
+}

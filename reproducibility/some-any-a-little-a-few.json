@@ -1,0 +1,657 @@
+{
+    "lessonActivities": [
+        {
+            "id": "lesson-1",
+            "title": "Some, Any, A Little & A Few Basics – Expressing Quantity! 🎯",
+            "content": "<p>Welcome to the essential quantity words! <strong>Some</strong>, <strong>any</strong>, <strong>a little</strong>, and <strong>a few</strong> help us talk about quantities in different situations. 📚</p><p><strong>Core Concept:</strong> These words express 'some quantity' but with different rules for positive vs negative contexts.</p><p><strong>Key Points:</strong></p><ul><li><strong>Some:</strong> Affirmative sentences and offers/questions</li><li><strong>Any:</strong> Negative sentences and questions</li><li><strong>A little:</strong> Small amount of uncountable nouns</li><li><strong>A few:</strong> Small number of countable nouns</li></ul><p><strong>Important Note:</strong> Some and any are often interchangeable in questions, but some is friendlier.</p><p><strong>Common Mistakes:</strong> Using any in affirmative sentences or some in true negatives.</p>",
+            "examples": [
+                "I brought you <strong>some</strong> magazines to read.",
+                "Would you like <strong>some</strong> milk in your coffee?",
+                "There aren't <strong>any</strong> trees in the garden.",
+                "Is there <strong>any</strong> hope of finding survivors?",
+                "I'd like <strong>a little</strong> cream on my strawberries.",
+                "There are <strong>a few</strong> interesting articles in today's newspaper."
+            ],
+            "difficulty": 1,
+            "audio": "lesson_1_basics.mp3",
+            "functions": [
+                "Expressing indefinite quantities",
+                "Making offers and requests",
+                "Asking about availability"
+            ],
+            "tips": "💡 <strong>Quick Rule:</strong> Affirmative = some. Negative/Question = any. Small amount = a little/a few."
+        },
+        {
+            "id": "lesson-2",
+            "title": "Some vs Any – Context Matters! 🚀",
+            "content": "<p>Master the crucial difference between <strong>some</strong> and <strong>any</strong> based on sentence type and context. 📈</p><p><strong>Usage Rules:</strong></p><ul><li><strong>Some:</strong> Affirmative sentences, offers, requests</li><li><strong>Any:</strong> Negative sentences, questions, conditionals</li><li><strong>Both in questions:</strong> Any = neutral, some = expecting positive answer</li></ul><p><strong>Context Matters:</strong> Some sounds more positive and friendly than any.</p><p><strong>Practice Strategy:</strong> Notice how some vs any changes the tone of questions.</p>",
+            "examples": [
+                "I have <strong>some</strong> friends in London. (affirmative)",
+                "I don't have <strong>any</strong> friends in London. (negative)",
+                "Do you have <strong>any</strong> friends in London? (neutral question)",
+                "Would you like <strong>some</strong> tea? (friendly offer)",
+                "Can I have <strong>some</strong> water? (polite request)",
+                "There isn't <strong>any</strong> milk left. (negative)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_2_application.mp3",
+            "functions": [
+                "Creating different tones in questions",
+                "Making polite offers and requests",
+                "Expressing positive vs neutral attitudes"
+            ],
+            "tips": "💡 <strong>Tone Test:</strong> Some = friendly/expecting yes. Any = neutral/expecting no."
+        },
+        {
+            "id": "lesson-3",
+            "title": "A Little vs A Few – Small Quantities 🔍",
+            "content": "<p>Learn the precise difference between <strong>a little</strong> and <strong>a few</strong> for expressing small amounts. 🎭</p><p><strong>Key Distinction:</strong></p><ul><li><strong>A little:</strong> Small amount of uncountable nouns (water, time, money)</li><li><strong>A few:</strong> Small number of countable nouns (books, people, minutes)</li></ul><p><strong>Positive Meaning:</strong> Both imply 'some but not many/much'.</p><p><strong>Advanced Tip:</strong> Little/few (without 'a') mean 'almost none' and are more negative.</p>",
+            "examples": [
+                "I have <strong>a little</strong> money saved. (positive - some money)",
+                "I have <strong>little</strong> money saved. (negative - almost no money)",
+                "There are <strong>a few</strong> people here. (positive - some people)",
+                "There are <strong>few</strong> people here. (negative - almost no people)",
+                "She speaks <strong>a little</strong> French. (positive - some ability)",
+                "He has <strong>a few</strong> good ideas. (positive - some ideas)"
+            ],
+            "difficulty": 2,
+            "audio": "lesson_3_exceptions.mp3",
+            "functions": [
+                "Expressing small positive amounts",
+                "Contrasting with negative meanings",
+                "Being politely optimistic"
+            ],
+            "tips": "💡 <strong>Countability Test:</strong> Can you count it? (books = a few, water = a little)"
+        },
+        {
+            "id": "lesson-4",
+            "title": "Little vs Few – Negative Quantities ⚖️",
+            "content": "<p>Master the negative meanings of <strong>little</strong> and <strong>few</strong> without the article 'a'. ⚖️</p><p><strong>Negative Meanings:</strong></p><ul><li><strong>Little:</strong> Not much, almost none (uncountable)</li><li><strong>Few:</strong> Not many, almost none (countable)</li></ul><p><strong>Emotional Impact:</strong> These words sound disappointed or critical.</p><p><strong>Practice Strategy:</strong> Compare sentences with and without 'a' to feel the difference.</p>",
+            "examples": [
+                "<strong>Little</strong> attention was paid to safety. (almost no attention)",
+                "<strong>Few</strong> students understood the lesson. (almost no students)",
+                "There is <strong>little</strong> hope of success. (almost no hope)",
+                "<strong>Few</strong> people can afford this. (almost no people)",
+                "He showed <strong>little</strong> interest in the project. (almost no interest)",
+                "<strong>Few</strong> witnesses came forward. (almost no witnesses)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_4_comparison.mp3",
+            "functions": [
+                "Expressing scarcity or disappointment",
+                "Sounding formal or critical",
+                "Emphasizing lack"
+            ],
+            "tips": "💡 <strong>Emotion Check:</strong> Little/few sound negative. Use a little/a few for positive meanings."
+        },
+        {
+            "id": "lesson-5",
+            "title": "Sentence Type Patterns – Complete Guide 📊",
+            "content": "<p>Learn the complete patterns for using these quantity words in different sentence types. 📊</p><p><strong>Affirmative Sentences:</strong></p><ul><li>Some + countable/uncountable nouns</li><li>A little + uncountable nouns</li><li>A few + countable nouns</li></ul><p><strong>Negative Sentences:</strong></p><ul><li>Any + countable/uncountable nouns</li><li>Little + uncountable nouns</li><li>Few + countable nouns</li></ul><p><strong>Questions:</strong></p><ul><li>Any (neutral) or some (expecting yes)</li><li>Little/few (rare in questions)</li></ul>",
+            "examples": [
+                "There are <strong>some</strong> apples in the bowl. (affirmative)",
+                "There aren't <strong>any</strong> apples in the bowl. (negative)",
+                "Are there <strong>any</strong> apples in the bowl? (question)",
+                "There is <strong>a little</strong> cheese left. (affirmative)",
+                "There isn't <strong>much</strong> cheese left. (negative)",
+                "Is there <strong>any</strong> cheese left? (question)"
+            ],
+            "difficulty": 3,
+            "audio": "lesson_5_comparison.mp3",
+            "functions": [
+                "Following grammatical patterns",
+                "Choosing words by sentence type",
+                "Understanding question intonation"
+            ],
+            "tips": "💡 <strong>Pattern Reminder:</strong> Affirmative = some/a little/a few. Negative = any/little/few. Questions = any/some."
+        },
+        {
+            "id": "lesson-6",
+            "title": "Mastering Quantity Words – Real Communication 🏆",
+            "content": "<p>Put it all together! Use these words naturally in real conversations and writing. 🏆</p><p><strong>Communication Tips:</strong></p><ul><li><strong>Offers:</strong> Would you like some...?</li><li><strong>Requests:</strong> Can I have some...?</li><li><strong>Polite questions:</strong> Do you have any...?</li><li><strong>Positive attitude:</strong> A little/a few instead of little/few</li></ul><p><strong>Advanced Tip:</strong> Native speakers use some in questions when expecting a positive answer.</p>",
+            "examples": [
+                "Can I have <strong>some</strong> more coffee? (polite request)",
+                "Would you like <strong>some</strong> help? (friendly offer)",
+                "Do you have <strong>any</strong> questions? (neutral question)",
+                "There are <strong>a few</strong> things I need to tell you. (positive)",
+                "I have <strong>a little</strong> experience with this. (modest but positive)",
+                "There's <strong>little</strong> time left. (urgent/negative)"
+            ],
+            "difficulty": 4,
+            "audio": "lesson_6_mastery.mp3",
+            "functions": [
+                "Communicating politely",
+                "Expressing positive attitudes",
+                "Adapting to social contexts"
+            ],
+            "tips": "💡 <strong>Native Speaker Secret:</strong> Some in questions = expecting 'yes'. Any in questions = neutral."
+        }
+    ],
+    "writingActivities": [
+        {
+            "id": "writing-1",
+            "question": "Write 5 affirmative sentences using 'some' with different nouns.",
+            "hint": "Include both countable and uncountable nouns like books, water, friends, etc.",
+            "expectedKeywords": [
+                "some",
+                "books",
+                "water",
+                "friends",
+                "time",
+                "money",
+                "ideas",
+                "food"
+            ],
+            "sentenceStarters": [
+                "I have ___",
+                "She brought ___",
+                "We need ___",
+                "They bought ___"
+            ],
+            "difficulty": 1
+        },
+        {
+            "id": "writing-2",
+            "question": "Write 5 negative sentences using 'any' correctly.",
+            "hint": "Use any with countable and uncountable nouns in negative sentences.",
+            "expectedKeywords": [
+                "any",
+                "doesn't",
+                "don't",
+                "isn't",
+                "aren't",
+                "books",
+                "water",
+                "friends",
+                "time",
+                "problems"
+            ],
+            "sentenceStarters": [
+                "I don't have ___",
+                "She doesn't want ___",
+                "We haven't got ___",
+                "They aren't ___"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-3",
+            "question": "Write questions using both 'some' and 'any' to show the difference in tone.",
+            "hint": "Some = expecting positive answer, any = neutral.",
+            "expectedKeywords": [
+                "some",
+                "any",
+                "do",
+                "does",
+                "is",
+                "are",
+                "have",
+                "books",
+                "water",
+                "friends",
+                "time",
+                "help"
+            ],
+            "sentenceStarters": [
+                "Do you have ___?",
+                "Would you like ___?",
+                "Can I have ___?",
+                "Is there ___?"
+            ],
+            "difficulty": 2
+        },
+        {
+            "id": "writing-4",
+            "question": "Write sentences using 'a little' and 'a few' with positive meanings.",
+            "hint": "A little = uncountable nouns, a few = countable nouns, both positive.",
+            "expectedKeywords": [
+                "a little",
+                "a few",
+                "time",
+                "money",
+                "friends",
+                "books",
+                "experience",
+                "questions",
+                "hope"
+            ],
+            "sentenceStarters": [
+                "I have ___ time",
+                "She has ___ friends",
+                "We need ___ money",
+                "They have ___ experience"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-5",
+            "question": "Write sentences using 'little' and 'few' with negative meanings.",
+            "hint": "Little = uncountable (almost none), few = countable (almost none).",
+            "expectedKeywords": [
+                "little",
+                "few",
+                "time",
+                "money",
+                "friends",
+                "books",
+                "hope",
+                "interest",
+                "people"
+            ],
+            "sentenceStarters": [
+                "There is ___ time left",
+                "She has ___ friends",
+                "He showed ___ interest",
+                "There are ___ people here"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-6",
+            "question": "Write a short dialogue (8-10 exchanges) using various quantity words naturally.",
+            "hint": "Include offers, requests, questions, and both positive/negative quantities.",
+            "expectedKeywords": [
+                "some",
+                "any",
+                "a little",
+                "a few",
+                "little",
+                "few",
+                "would",
+                "like",
+                "have",
+                "time",
+                "coffee",
+                "friends",
+                "help"
+            ],
+            "sentenceStarters": [
+                "Would you like ___?",
+                "Do you have ___?",
+                "I have ___ time",
+                "There are ___ people",
+                "Can I have ___?"
+            ],
+            "difficulty": 4
+        },
+        {
+            "id": "writing-7",
+            "question": "Correct the mistakes in these sentences about quantity words.",
+            "hint": "Focus on some/any in wrong contexts, and little/few with/without 'a'.",
+            "expectedKeywords": [
+                "some",
+                "any",
+                "a little",
+                "a few",
+                "little",
+                "few",
+                "time",
+                "money",
+                "friends",
+                "books",
+                "water"
+            ],
+            "sentenceStarters": [
+                "I don't have some time today",
+                "Do you want any coffee?",
+                "She has little friends",
+                "There is a few water left"
+            ],
+            "difficulty": 3
+        },
+        {
+            "id": "writing-8",
+            "question": "Write polite offers and requests using appropriate quantity words.",
+            "hint": "Offers use 'some', requests can use 'some' or 'any', be polite.",
+            "expectedKeywords": [
+                "some",
+                "any",
+                "would",
+                "like",
+                "can",
+                "have",
+                "coffee",
+                "help",
+                "time",
+                "water",
+                "advice"
+            ],
+            "sentenceStarters": [
+                "Would you like ___?",
+                "Can I have ___?",
+                "Do you need ___?",
+                "May I offer you ___?"
+            ],
+            "difficulty": 3
+        }
+    ],
+    "gameActivities": [
+        {
+            "id": "game-1",
+            "type": "drag-drop",
+            "question": "Choose the correct word for affirmative sentences.",
+            "sentence": "I have ____ friends in the city.",
+            "options": [
+                "some",
+                "any",
+                "a little",
+                "a few"
+            ],
+            "correctAnswer": [
+                "some"
+            ],
+            "hint": "Some is used in affirmative sentences with countable nouns.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-2",
+            "type": "drag-drop",
+            "question": "Select the correct word for negative sentences.",
+            "sentence": "I don't have ____ free time today.",
+            "options": [
+                "some",
+                "any",
+                "a little",
+                "a few"
+            ],
+            "correctAnswer": [
+                "any"
+            ],
+            "hint": "Any is used in negative sentences.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "game-3",
+            "type": "drag-drop",
+            "question": "Which words can be used with uncountable nouns?",
+            "sentence": "She has ____ experience with computers.",
+            "options": [
+                "some",
+                "any",
+                "a little",
+                "little"
+            ],
+            "correctAnswer": [
+                "some",
+                "any",
+                "a little",
+                "little"
+            ],
+            "hint": "All these words can be used with uncountable nouns like experience.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-4",
+            "type": "drag-drop",
+            "question": "Choose words that give a positive meaning.",
+            "sentence": "There are ____ people at the party. (some but not many)",
+            "options": [
+                "some",
+                "any",
+                "a few",
+                "few"
+            ],
+            "correctAnswer": [
+                "some",
+                "a few"
+            ],
+            "hint": "Some and a few have positive meanings. Any and few are more negative.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "game-5",
+            "type": "drag-drop",
+            "question": "Select the correct word for polite offers.",
+            "sentence": "____ more tea?",
+            "options": [
+                "Do you want some",
+                "Do you want any",
+                "Would you like some",
+                "Would you like any"
+            ],
+            "correctAnswer": [
+                "Would you like some"
+            ],
+            "hint": "Some is friendlier and more appropriate for offers.",
+            "difficulty": "hard"
+        }
+    ],
+    "quizActivities": [
+        {
+            "id": "quiz-1",
+            "question": "Which word is used in affirmative sentences?",
+            "sentence": "I have ____ questions about the lesson.",
+            "options": [
+                "some",
+                "any",
+                "a little",
+                "little"
+            ],
+            "correctAnswer": "some",
+            "audio": "quiz_1_basics.mp3",
+            "hint": "Some is used in positive statements.",
+            "difficulty": "easy",
+            "explanation": "Some is the correct choice for affirmative sentences. Any is used in negatives and questions."
+        },
+        {
+            "id": "quiz-2",
+            "question": "Which word means 'almost none' with countable nouns?",
+            "sentence": "There are ____ students in the classroom today.",
+            "options": [
+                "some",
+                "any",
+                "a few",
+                "few"
+            ],
+            "correctAnswer": "few",
+            "audio": "quiz_2_application.mp3",
+            "hint": "Few (without 'a') means almost none.",
+            "difficulty": "easy",
+            "explanation": "Few means 'not many' or 'almost none'. A few means 'some but not many'."
+        },
+        {
+            "id": "quiz-3",
+            "question": "What's the difference between 'a little' and 'little'?",
+            "sentence": "She has ____ experience with this software.",
+            "options": [
+                "A little = positive, little = negative",
+                "Both mean the same thing",
+                "A little = negative, little = positive",
+                "Neither can be used here"
+            ],
+            "correctAnswer": "A little = positive, little = negative",
+            "audio": "quiz_3_exceptions.mp3",
+            "hint": "A little means some (positive), little means almost none (negative).",
+            "difficulty": "medium",
+            "explanation": "A little has a positive meaning (some), while little has a negative meaning (almost none)."
+        },
+        {
+            "id": "quiz-4",
+            "question": "Which sentence uses quantity words correctly?",
+            "sentence": "Select the most natural sentence:",
+            "options": [
+                "I don't have some time for hobbies.",
+                "I don't have any time for hobbies.",
+                "I don't have a little time for hobbies.",
+                "I don't have little time for hobbies."
+            ],
+            "correctAnswer": "I don't have any time for hobbies.",
+            "audio": "quiz_4_comparison.mp3",
+            "hint": "Any is used in negative sentences.",
+            "difficulty": "medium",
+            "explanation": "Any is the correct choice in negative sentences. Some cannot be used in true negatives."
+        },
+        {
+            "id": "quiz-5",
+            "question": "When should you use 'some' in questions?",
+            "sentence": "____ tea? (expecting the person to want tea)",
+            "options": [
+                "Do you want some",
+                "Do you want any",
+                "Would you like some",
+                "Would you like any"
+            ],
+            "correctAnswer": "Would you like some",
+            "audio": "quiz_5_master.mp3",
+            "hint": "Some in questions suggests you expect a positive answer.",
+            "difficulty": "hard",
+            "explanation": "Some in questions is friendlier and suggests you expect 'yes'. Any is more neutral."
+        }
+    ],
+    "spellingActivities": [
+        {
+            "id": "spelling-1",
+            "word": "quantity",
+            "hint": "Amount or number",
+            "clue": "q_a_t_t_",
+            "sentence": "We need to check the ____ of items in stock.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-2",
+            "word": "affirmative",
+            "hint": "Positive statement",
+            "clue": "_f_i_m_t_v_",
+            "sentence": "An ____ sentence states something positive.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-3",
+            "word": "negative",
+            "hint": "Statement with 'not'",
+            "clue": "n_g_t_v_",
+            "sentence": "A ____ sentence contains 'not' or 'never'.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-4",
+            "word": "countable",
+            "hint": "Can be counted",
+            "clue": "c_u_t_b_e",
+            "sentence": "Books are ____ nouns.",
+            "difficulty": "medium"
+        },
+        {
+            "id": "spelling-5",
+            "word": "uncountable",
+            "hint": "Cannot be counted individually",
+            "clue": "_n_o_n_a_l_",
+            "sentence": "Water is an ____ noun.",
+            "difficulty": "hard"
+        },
+        {
+            "id": "spelling-6",
+            "word": "polite",
+            "hint": "Showing good manners",
+            "clue": "p_l_t_",
+            "sentence": "Using 'some' in offers is very ____.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-7",
+            "word": "positive",
+            "hint": "Good or favorable",
+            "clue": "p_s_t_v_",
+            "sentence": "A little has a ____ meaning.",
+            "difficulty": "easy"
+        },
+        {
+            "id": "spelling-8",
+            "word": "neutral",
+            "hint": "Not positive or negative",
+            "clue": "n_u_r_l",
+            "sentence": "Any in questions is more ____.",
+            "difficulty": "easy"
+        }
+    ],
+    "rewards": {
+        "stars": {
+            "bronze": 12,
+            "silver": 35,
+            "gold": 60,
+            "platinum": 85
+        },
+        "badges": [
+            {
+                "id": "quantity-words-starter",
+                "name": "Quantity Words Starter 🌟",
+                "condition": "Complete lesson-1 with 80% or higher",
+                "icon": "🌟",
+                "points": 25,
+                "message": "Great start! You're learning about some, any, a little, and a few."
+            },
+            {
+                "id": "some-any-master",
+                "name": "Some vs Any Master 🔍",
+                "condition": "Score 100% on 3 basic activities",
+                "icon": "🔍",
+                "points": 35,
+                "message": "You understand when to use some vs any!"
+            },
+            {
+                "id": "little-few-expert",
+                "name": "Little & Few Expert 🎯",
+                "condition": "Complete writing-4 and game-3 with full marks",
+                "icon": "🎯",
+                "points": 45,
+                "message": "You master the difference between little/few with and without 'a'!"
+            },
+            {
+                "id": "polite-communicator",
+                "name": "Polite Communicator 🎭",
+                "condition": "Master all offer and request activities",
+                "icon": "🎭",
+                "points": 50,
+                "message": "You communicate politely with perfect quantity words!"
+            },
+            {
+                "id": "sentence-type-champion",
+                "name": "Sentence Type Champion ⚖️",
+                "condition": "Perfect scores on comparison quizzes and activities",
+                "icon": "⚖️",
+                "points": 55,
+                "message": "You know exactly which words to use in each sentence type!"
+            },
+            {
+                "id": "dialogue-writer",
+                "name": "Dialogue Writer ✍️",
+                "condition": "Complete all writing activities with high scores",
+                "icon": "✍️",
+                "points": 60,
+                "message": "Your dialogues flow naturally with perfect quantity usage!"
+            },
+            {
+                "id": "speed-quantifier",
+                "name": "Speed Quantifier ⏱️",
+                "condition": "Complete 5 activities in under 5 minutes each",
+                "icon": "⏱️",
+                "points": 40,
+                "message": "You're incredibly fast with quantity words!"
+            },
+            {
+                "id": "perfection-quantifier",
+                "name": "Perfection Quantifier 💎",
+                "condition": "Score 100% on all activities in one category",
+                "icon": "💎",
+                "points": 75,
+                "message": "You demand perfection with quantity expressions!"
+            },
+            {
+                "id": "quantity-conversationalist",
+                "name": "Quantity Conversationalist 📖✨",
+                "condition": "Earn Gold stars + complete writing-6 with full marks",
+                "icon": "📖✨",
+                "points": 100,
+                "message": "Your conversations sparkle with flawless quantity usage!"
+            },
+            {
+                "id": "ultimate-quantity-master",
+                "name": "Ultimate Quantity Master 🏆",
+                "condition": "Collect ALL other badges + 100% on every activity",
+                "icon": "🏆",
+                "points": 200,
+                "message": "You are the undisputed master of quantity words!"
+            }
+        ]
+    }
+}

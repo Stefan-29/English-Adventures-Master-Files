@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Countable vs Uncountable Nouns",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Countable vs Uncountable Nouns",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Noun Classification Lessons",
+        "instructions": "Master the difference between countable and uncountable nouns. Learn correct articles, quantifiers, and usage patterns."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using countable and uncountable nouns correctly. Practice with articles and quantifiers."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice classifying nouns and choosing correct articles and quantifiers."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about noun classification. Choose the correct usage!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Nouns Challenge",
+        "instructions": "Apply countable and uncountable noun rules correctly in sentences. Master articles, quantifiers, and measurements."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Countable Nouns",
+        "words": ["book", "books", "car", "cars", "student", "students", "idea", "ideas", "question", "questions"]
+      },
+      {
+        "title": "Uncountable Nouns",
+        "words": ["water", "time", "money", "information", "advice", "homework", "traffic", "noise", "weather"]
+      },
+      {
+        "title": "Dual-Meaning Nouns",
+        "words": ["paper", "hair", "light", "chicken", "time", "business", "art", "beauty", "power"]
+      },
+      {
+        "title": "Quantifiers (Countable)",
+        "words": ["many", "few", "a few", "several", "a lot of", "some", "any", "no", "every"]
+      },
+      {
+        "title": "Quantifiers (Uncountable)",
+        "words": ["much", "little", "a little", "a lot of", "some", "any", "no", "enough", "plenty of"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["There are many ___", "There is much ___", "I have a lot of ___", "How many ___?", "How much ___?"]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/countable-vs-uncountable-nouns.json",
+  "grammarChecker": "countableVsUncountableNouns.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}
