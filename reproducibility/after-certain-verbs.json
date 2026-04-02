@@ -2,7 +2,7 @@
   "lessonActivities": [
     {
       "id": "lesson-1",
-      "title": "10.2 After Certain Verbs: Gerund List",
+      "title": "After Certain Verbs: Gerund List",
       "content": "<p>Use gerund (verb+ing) after verbs such as admit, avoid, consider, delay, deny, enjoy, finish, give up, imagine, involve, keep, mention, miss, postpone, suggest.</p>",
       "examples": ["He admitted taking the keys.", "She mentions going to the gym."],
       "difficulty": 2,
@@ -12,7 +12,7 @@
     },
     {
       "id": "lesson-2",
-      "title": "10.2 After Certain Verbs: Infinitive List",
+      "title": "After Certain Verbs: Infinitive List",
       "content": "<p>Use infinitive (to+verb) after verbs such as afford, agree, arrange, ask, choose, decide, expect, fail, hope, intend, learn, manage, need, offer, plan, promise, refuse, seem, want.</p>",
       "examples": ["They agreed to meet.", "He refused to leave."],
       "difficulty": 2,
@@ -22,7 +22,7 @@
     },
     {
       "id": "lesson-3",
-      "title": "10.2 Mixed Verbs (both forms)",
+      "title": "Mixed Verbs (both forms)",
       "content": "<p>Some verbs can take both gerund and infinitive with similar or changed meaning: like, love, hate, prefer, start, begin, continue. Learn how usage shifts context.</p>",
       "examples": ["I like swimming. / I like to swim.", "She started reading. / She started to read."],
       "difficulty": 3,
@@ -32,7 +32,7 @@
     },
     {
       "id": "lesson-4",
-      "title": "10.2 Phrases and Prepositions",
+      "title": "Phrases and Prepositions",
       "content": "<p>Know that some structures use gerund after prepositions: after, before, instead of, without, in addition to, on, at. Also expressions: it's no use, it's worth, can't help, there's no point in.</p>",
       "examples": ["After doing homework, he played.", "It's no use complaining."],
       "difficulty": 3,
@@ -42,7 +42,7 @@
     },
     {
       "id": "lesson-5",
-      "title": "10.2 Practice in Context",
+      "title": "Practice in Context",
       "content": "<p>Combine both patterns in story-based sentences with gerund and infinitive choices. Focus on meaning accuracy and natural tone.</p>",
       "examples": ["I plan to start running...", "He admitted cheating on the test."],
       "difficulty": 3,
@@ -64,16 +64,16 @@
     {"id":"writing-10","question":"Write 1 short paragraph about future trips, using 6+ infinitive structures.","hint":"Use 'plan to', 'want to', 'need to'.","expectedKeywords":["plan to","want to","need to"],"sentenceStarters":["Next month ..."],"difficulty":4}
   ],
   "gameActivities": [
-    {"id":"game-1","type":"drag-drop","question":"Choose verb form","sentence":"I enjoy ___ late at night.","options":["to study","study","studying","studied"],"correctAnswer":["studying"],"audio":"after_game1.mp3","hint":"Enjoy + gerund.","difficulty":"easy"},
-    {"id":"game-2","type":"drag-drop","question":"Choose verb form","sentence":"She agreed ___ the terms.","options":["signing","to sign","sign","signed"],"correctAnswer":["to sign"],"audio":"after_game2.mp3","hint":"Agree + infinitive.","difficulty":"easy"},
-    {"id":"game-3","type":"drag-drop","question":"Choose verb form","sentence":"They postponed ___ the report.","options":["to submit","submitting","submit","submitted"],"correctAnswer":["submitting"],"audio":"after_game3.mp3","hint":"Postpone + gerund.","difficulty":"easy"},
-    {"id":"game-4","type":"drag-drop","question":"Choose verb form","sentence":"He decided ___ jogging instead of walking.","options":["go","to go","going","gone"],"correctAnswer":["to go"],"audio":"after_game4.mp3","hint":"Decide + infinitive.","difficulty":"easy"},
-    {"id":"game-5","type":"drag-drop","question":"Choose verb form","sentence":"I can't imagine ___ without my phone.","options":["to live","living","live","lived"],"correctAnswer":["living"],"audio":"after_game5.mp3","hint":"Imagine + gerund.","difficulty":"medium"},
-    {"id":"game-6","type":"drag-drop","question":"Choose verb form","sentence":"She warned me ___ carefully.","options":["to drive","driving","drive","drove"],"correctAnswer":["to drive"],"audio":"after_game6.mp3","hint":"Warn + infinitive.","difficulty":"medium"},
-    {"id":"game-7","type":"drag-drop","question":"Choose verb form","sentence":"They hate ___ early.","options":["to wake","waking","wake","woke"],"correctAnswer":["waking"],"audio":"after_game7.mp3","hint":"Hate + gerund or infinitive both ok; choose gerund.","difficulty":"medium"},
-    {"id":"game-8","type":"drag-drop","question":"Choose verb form","sentence":"I hope ___ sooner.","options":["arriving","to arrive","arrive","arrived"],"correctAnswer":["to arrive"],"audio":"after_game8.mp3","hint":"Hope + infinitive.","difficulty":"medium"},
-    {"id":"game-9","type":"drag-drop","question":"Choose verb form","sentence":"It’s no use ___ now.","options":["to worry","worrying","worry","worried"],"correctAnswer":["worrying"],"audio":"after_game9.mp3","hint":"No use + gerund.","difficulty":"hard"},
-    {"id":"game-10","type":"drag-drop","question":"Choose verb form","sentence":"We want ___ better at English.","options":["to become","becoming","become","became"],"correctAnswer":["to become"],"audio":"after_game10.mp3","hint":"Want + infinitive.","difficulty":"hard"}
+    {"id":"game-1","type":"drag-drop","question":"Choose verb form","sentence":"I enjoy ____ late at night.","options":["to study","study","studying","studied"],"correctAnswer":["studying"],"audio":"after_game1.mp3","hint":"Enjoy + gerund.","difficulty":"easy"},
+    {"id":"game-2","type":"drag-drop","question":"Choose verb form","sentence":"She agreed ____ the terms.","options":["signing","to sign","sign","signed"],"correctAnswer":["to sign"],"audio":"after_game2.mp3","hint":"Agree + infinitive.","difficulty":"easy"},
+    {"id":"game-3","type":"drag-drop","question":"Choose verb form","sentence":"They postponed ____ the report.","options":["to submit","submitting","submit","submitted"],"correctAnswer":["submitting"],"audio":"after_game3.mp3","hint":"Postpone + gerund.","difficulty":"easy"},
+    {"id":"game-4","type":"drag-drop","question":"Choose verb form","sentence":"He decided ____ jogging instead of walking.","options":["go","to go","going","gone"],"correctAnswer":["to go"],"audio":"after_game4.mp3","hint":"Decide + infinitive.","difficulty":"easy"},
+    {"id":"game-5","type":"drag-drop","question":"Choose verb form","sentence":"I can't imagine ____ without my phone.","options":["to live","living","live","lived"],"correctAnswer":["living"],"audio":"after_game5.mp3","hint":"Imagine + gerund.","difficulty":"medium"},
+    {"id":"game-6","type":"drag-drop","question":"Choose verb form","sentence":"She warned me ____ carefully.","options":["to drive","driving","drive","drove"],"correctAnswer":["to drive"],"audio":"after_game6.mp3","hint":"Warn + infinitive.","difficulty":"medium"},
+    {"id":"game-7","type":"drag-drop","question":"Choose verb form","sentence":"They hate ____ early.","options":["to wake","waking","wake","woke"],"correctAnswer":["waking"],"audio":"after_game7.mp3","hint":"Hate + gerund or infinitive both ok; choose gerund.","difficulty":"medium"},
+    {"id":"game-8","type":"drag-drop","question":"Choose verb form","sentence":"I hope ____ sooner.","options":["arriving","to arrive","arrive","arrived"],"correctAnswer":["to arrive"],"audio":"after_game8.mp3","hint":"Hope + infinitive.","difficulty":"medium"},
+    {"id":"game-9","type":"drag-drop","question":"Choose verb form","sentence":"It’s no use ____ now.","options":["to worry","worrying","worry","worried"],"correctAnswer":["worrying"],"audio":"after_game9.mp3","hint":"No use + gerund.","difficulty":"hard"},
+    {"id":"game-10","type":"drag-drop","question":"Choose verb form","sentence":"We want ____ better at English.","options":["to become","becoming","become","became"],"correctAnswer":["to become"],"audio":"after_game10.mp3","hint":"Want + infinitive.","difficulty":"hard"}
   ],
   "quizActivities": [
     {"id":"quiz-1","question":"Pick correct form","sentence":"She suggested ___ early.","options":["leave","to leave","leaving","left"],"correctAnswer":"leaving","audio":"after_quiz1.mp3","hint":"Suggest + gerund.","difficulty":"easy","explanation":"Suggest requires gerund."},
@@ -88,17 +88,87 @@
     {"id":"quiz-10","question":"Pick correct form","sentence":"They refused ___ in the rain.","options":["walk","walking","to walk","walked"],"correctAnswer":"to walk","audio":"after_quiz10.mp3","hint":"Refuse + infinitive.","difficulty":"hard","explanation":"Refuse requires infinitive."}
   ],
   "spellingActivities": [
-    {"id":"spelling-1","word":"avoid","hint":"gerund verb","clue":"He avoids ___ sugar.","sentence":"He avoids eating sugar.","difficulty":"easy"},
-    {"id":"spelling-2","word":"decide","hint":"infinitive verb","clue":"She decided ___ earlier.","sentence":"She decided to leave earlier.","difficulty":"easy"},
-    {"id":"spelling-3","word":"suggest","hint":"gerund verb","clue":"He suggested ___ later.","sentence":"He suggested meeting later.","difficulty":"easy"},
-    {"id":"spelling-4","word":"agree","hint":"infinitive verb","clue":"They agreed ___ together.","sentence":"They agreed to work together.","difficulty":"easy"},
-    {"id":"spelling-5","word":"imagine","hint":"gerund verb","clue":"Imagine ___ on the moon.","sentence":"Imagine living on the moon.","difficulty":"medium"},
-    {"id":"spelling-6","word":"plan","hint":"infinitive verb","clue":"I plan ___ tomorrow.","sentence":"I plan to study tomorrow.","difficulty":"medium"},
-    {"id":"spelling-7","word":"postpone","hint":"gerund verb","clue":"They postponed ___ the project.","sentence":"They postponed starting the project.","difficulty":"medium"},
-    {"id":"spelling-8","word":"need","hint":"infinitive verb","clue":"You need ___ this right now.","sentence":"You need to finish this right now.","difficulty":"medium"},
-    {"id":"spelling-9","word":"no use","hint":"phrase + gerund","clue":"It’s no use ___ him.","sentence":"It’s no use calling him.","difficulty":"hard"},
-    {"id":"spelling-10","word":"instead of","hint":"prepositional phrase + gerund","clue":"Instead of ___, I chose not to.","sentence":"Instead of complaining, I decided to do it.","difficulty":"hard"}
-  ],
+    {
+        "id": "spelling-1",
+        "word": "avoid",
+        "hint": "Gerund verb after certain verbs",
+        "clue": "a___d",
+        "sentence": "He _____ eating sugar.",
+        "difficulty": "easy"
+    },
+    {
+        "id": "spelling-2",
+        "word": "decide",
+        "hint": "Infinitive verb after certain verbs",
+        "clue": "d___e",
+        "sentence": "She _____ to leave earlier.",
+        "difficulty": "easy"
+    },
+    {
+        "id": "spelling-3",
+        "word": "suggest",
+        "hint": "Gerund verb after certain verbs",
+        "clue": "s___t",
+        "sentence": "He _____ meeting later.",
+        "difficulty": "easy"
+    },
+    {
+        "id": "spelling-4",
+        "word": "agree",
+        "hint": "Infinitive verb after certain verbs",
+        "clue": "a___e",
+        "sentence": "They _____ to work together.",
+        "difficulty": "easy"
+    },
+    {
+        "id": "spelling-5",
+        "word": "imagine",
+        "hint": "Gerund verb after certain verbs",
+        "clue": "i___e",
+        "sentence": "_____ living on the moon.",
+        "difficulty": "medium"
+    },
+    {
+        "id": "spelling-6",
+        "word": "plan",
+        "hint": "Infinitive verb after certain verbs",
+        "clue": "p___",
+        "sentence": "I _____ to study tomorrow.",
+        "difficulty": "medium"
+    },
+    {
+        "id": "spelling-7",
+        "word": "postpone",
+        "hint": "Gerund verb after certain verbs",
+        "clue": "p___e",
+        "sentence": "They _____ starting the project.",
+        "difficulty": "medium"
+    },
+    {
+        "id": "spelling-8",
+        "word": "need",
+        "hint": "Infinitive verb after certain verbs",
+        "clue": "n___",
+        "sentence": "You _____ to finish this right now.",
+        "difficulty": "medium"
+    },
+    {
+        "id": "spelling-9",
+        "word": "no use",
+        "hint": "Expression with gerund",
+        "clue": "n_ u__",
+        "sentence": "It’s _____ calling him.",
+        "difficulty": "hard"
+    },
+    {
+        "id": "spelling-10",
+        "word": "instead of",
+        "hint": "Preposition + gerund",
+        "clue": "i___d o_",
+        "sentence": "_____ complaining, I decided to do it.",
+        "difficulty": "hard"
+    }
+],
   "rewards": {
     "stars": [
       {"id":"star-1","name":"After-Verbs Starter","description":"Complete first two lessons and four activities.","icon":"⭐","requirement":"Complete 4 tasks","unlocked":false},
