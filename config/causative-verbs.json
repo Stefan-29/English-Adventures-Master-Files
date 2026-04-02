@@ -1,0 +1,40 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Causative Verbs",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Causative Verbs – Make, Get, Have, Help, Let",
+    "modules": [
+      {"id": "lesson-module", "name": "Learn", "title": "Causative Verbs Lessons", "instructions": "Study how causative verbs create actions through another person or thing."},
+      {"id": "writing-module", "name": "Write", "title": "Writing Practice", "instructions": "Practice forming causative relationships with make, have, get, help, and let."},
+      {"id": "game-module", "name": "Play", "title": "Grammar Games", "instructions": "Choose correct causative structures and complete sentence puzzles."},
+      {"id": "quiz-module", "name": "Quiz", "title": "Quick Quiz", "instructions": "Test your understanding with causative verb questions."},
+      {"id": "spelling-module", "name": "Apply", "title": "Apply Grammar", "instructions": "Build confidence with key causative vocabulary and forms."}
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {"title": "Causative Verbs", "words": ["make", "get", "have", "help", "let", "allow", "permit", "force", "require", "persuade"]},
+      {"title": "Causative Structures", "words": ["base form", "to + verb", "past participle", "agent", "permission", "request"]}
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/causative-verbs.json",
+  "grammarChecker": "causativeVerbs.js",
+  "gameSettings": {
+    "timeLimit": 45,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 1.5,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

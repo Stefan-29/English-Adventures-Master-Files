@@ -1,0 +1,40 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Passive Voice",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Passive Voice in English",
+    "modules": [
+      {"id": "lesson-module", "name": "Learn", "title": "Passive Voice Lessons", "instructions": "Master how the passive voice shifts focus from the doer to the action or receiver."},
+      {"id": "writing-module", "name": "Write", "title": "Writing Practice", "instructions": "Practice rewriting active sentences into passive forms."},
+      {"id": "game-module", "name": "Play", "title": "Grammar Games", "instructions": "Reinforce passive form patterns with interactive exercises."},
+      {"id": "quiz-module", "name": "Quiz", "title": "Quick Quiz", "instructions": "Test your passive voice knowledge with multiple choice questions."},
+      {"id": "spelling-module", "name": "Apply", "title": "Apply Grammar", "instructions": "Practice key passive voice vocabulary and structures."}
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {"title": "Passive Structure", "words": ["be", "been", "past participle", "by", "agent", "subject"]},
+      {"title": "Passive Signals", "words": ["is", "are", "was", "were", "has been", "will be"]}
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/passive-voice.json",
+  "grammarChecker": "passiveVoice.js",
+  "gameSettings": {
+    "timeLimit": 45,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 1.5,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

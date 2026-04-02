@@ -1,0 +1,288 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Passive Voice Basics – Your First Step! 🎯",
+      "content": "<p>Welcome to the <strong>Passive Voice</strong>! This lesson explains how to shift the focus from the doer to the action or object. 📚</p><p><strong>Core Concept:</strong> A passive sentence puts the object of an active sentence first.</p><p><strong>Key Points:</strong></p><ul><li><strong>Form:</strong> BE + past participle</li><li><strong>Use:</strong> when the agent is unknown, unimportant, or less important than the action</li><li><strong>Only transitive verbs:</strong> verbs that take an object can be passive</li></ul><p><strong>Important Note:</strong> In passive voice, the subject receives the action.</p><p><strong>Common Mistakes:</strong> Trying to make intransitive verbs passive.</p>",
+      "examples": [
+        "English is spoken here.",
+        "The ball was caught by Tom.",
+        "The letter was delivered at 9 a.m.",
+        "Food is cooked every day.",
+        "The project has been completed.",
+        "The story will be told tomorrow."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_basics.mp3",
+      "functions": ["Understand the passive", "Spot passive forms", "Use be + past participle"],
+      "tips": "💡 <strong>Practice Tip:</strong> Find the object in the active sentence and make it the subject in the passive."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Forming Passive Verbs in Tenses 🚀",
+      "content": "<p>The passive voice uses the correct tense of 'be' plus the past participle of the main verb. ✅</p><p><strong>Examples by tense:</strong></p><ul><li>Present Simple: is/are + past participle</li><li>Past Simple: was/were + past participle</li><li>Present Perfect: has/have been + past participle</li><li>Future: will be + past participle</li></ul><p>Only transitive verbs can form the passive.</p>",
+      "examples": [
+        "Food is cooked in the kitchen.",
+        "The book was written last year.",
+        "The kitchen has been painted.",
+        "The work will be completed tomorrow.",
+        "The letter was delivered by the postman.",
+        "The test was done carefully."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_application.mp3",
+      "functions": ["Match tense forms", "Use different be verbs", "Practice past participles"],
+      "tips": "💡 <strong>Memory Aid:</strong> Use the same tense of be as the active sentence, then add the past participle."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Passive Voice with Unknown or Unimportant Agents 💡",
+      "content": "<p>Use the passive when who did the action is unknown, unimportant, or obvious. 🎯</p><p><strong>Use cases:</strong> news reports, instructions, scientific writing, general statements.</p><p><strong>Examples:</strong> The road is being repaired. My bike has been stolen.</p>",
+      "examples": [
+        "The letter was delivered at 9 a.m.",
+        "The road is being repaired.",
+        "My bike has been stolen.",
+        "The brochure will be finished next month.",
+        "The chemical is placed in a test tube.",
+        "The research data was collected carefully."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_exceptions.mp3",
+      "functions": ["Recognize unknown agents", "Write neutral statements", "Use passive for instructions"],
+      "tips": "💡 <strong>Note:</strong> If you don't say who did the action, leave out 'by' and use the passive alone."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Passive with 'Get' and Special Cases 🛠️",
+      "content": "<p>The passive can also use 'get' in informal situations: someone gets hurt, the cat got run over. 🐾</p><p><strong>Structure:</strong> get + past participle</p><p><strong>Note:</strong> This is more conversational than the normal passive.</p>",
+      "examples": [
+        "Be careful. Someone might get hurt.",
+        "The cat got run over by a car.",
+        "The window got broken during the storm.",
+        "Our car got washed yesterday.",
+        "I got invited to the party.",
+        "The food got forgotten in the oven."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_4_advanced.mp3",
+      "functions": ["Use get passive", "Compare get and be", "Understand informal passives"],
+      "tips": "💡 <strong>Practice Tip:</strong> Use 'get' for passive meaning in casual spoken English."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Passive in Clauses and Longer Sentences 🔍",
+      "content": "<p>Passive voice is also possible in subordinate clauses and with gerunds or infinitives. 📘</p><p>Examples: I thought that John had been kissed. She would like to be promoted.</p><p>Use passive when the action is more important than the agent.</p>",
+      "examples": [
+        "I thought that John had been kissed by Mary.",
+        "He knew that the church had been built in 1915.",
+        "The child loves being cuddled.",
+        "She would like to be promoted.",
+        "The letter appears to be written carefully.",
+        "The report needs to be finished by Friday."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_5_comparison.mp3",
+      "functions": ["Use passive clauses", "Recognize passive gerunds", "Write formal statements"],
+      "tips": "💡 <strong>Remember:</strong> Passive clauses work same as normal passive forms, but inside a larger sentence."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Why Use the Passive? – Focus and Style 🏆",
+      "content": "<p>Learn the main reasons to use the passive voice. It changes the focus and improves style. 🎯</p><p><strong>Use when:</strong></p><ul><li>You want the action first</li><li>The agent is unknown or unimportant</li><li>You write facts, science, reports, or instructions</li><li>The subject is long or complex</li></ul><p><strong>Examples:</strong> The Mona Lisa was painted by Leonardo da Vinci. Three books are used regularly in class.</p>",
+      "examples": [
+        "The Mona Lisa was painted by Leonardo da Vinci.",
+        "The brochure will be finished next month.",
+        "Three books are used regularly in class.",
+        "I was surprised by how well the students did.",
+        "The data was entered into the computer.",
+        "The cake will be made by the chef."
+      ],
+      "difficulty": 4,
+      "audio": "lesson_6_mastery.mp3",
+      "functions": ["Choose passive for style", "Use passive in reports", "Improve sentence focus"],
+      "tips": "💡 <strong>Master Strategy:</strong> Use passive to make writing sound more objective or to emphasize the result."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Rewrite this active sentence in the passive: 'The chef cooks food every day.'",
+      "hint": "Use Present Simple passive.",
+      "expectedKeywords": ["is cooked", "every day", "food", "cooked", "by"],
+      "sentenceStarters": ["Food is...", "Every day..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Rewrite this active sentence in the passive: 'The plumber will repair the leak.'",
+      "hint": "Use Future Simple passive.",
+      "expectedKeywords": ["will be repaired", "the leak", "by the plumber"],
+      "sentenceStarters": ["The leak will...", "It will..."] ,
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a sentence using passive voice when the agent is unimportant.",
+      "hint": "Leave out 'by' if the agent is not needed.",
+      "expectedKeywords": ["was stolen", "is repaired", "has been", "by", "unknown"],
+      "sentenceStarters": ["The book was...", "The message has..."] ,
+      "difficulty": 2
+    },
+    {
+      "id": "writing-4",
+      "question": "Use 'get' in a passive sentence to describe an accident.",
+      "hint": "Use get + past participle.",
+      "expectedKeywords": ["got hurt", "got broken", "was got", "run over"],
+      "sentenceStarters": ["He got...", "The car got..."] ,
+      "difficulty": 3
+    },
+    {
+      "id": "writing-5",
+      "question": "Write two sentences: one passive with 'by' and one passive without 'by'.",
+      "hint": "Use the agent in one sentence and omit it in the other.",
+      "expectedKeywords": ["by", "was", "were", "by the", "has been"],
+      "sentenceStarters": ["The letter was...", "The cake was..."] ,
+      "difficulty": 3
+    },
+    {
+      "id": "writing-6",
+      "question": "Describe a scientific process using passive verbs.",
+      "hint": "Start with the object or the action. Use 'is', 'are', or 'has been'.",
+      "expectedKeywords": ["is placed", "are measured", "has been recorded", "by scientists", "entered"],
+      "sentenceStarters": ["The sample is...", "The data are..."] ,
+      "difficulty": 4
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Select the correct passive sentence.",
+      "sentence": "The cookies ____ by the children.",
+      "options": ["were eaten", "ate", "were eating", "has eaten", "is eaten", "was eat"],
+      "correctAnswer": ["were eaten"],
+      "hint": "Past Simple passive uses were + past participle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Choose the right passive structure.",
+      "sentence": "The letter ____ at 9 a.m.",
+      "options": ["was delivered", "delivered", "is delivering", "has delivered", "were delivered", "be delivered"],
+      "correctAnswer": ["was delivered"],
+      "hint": "Use Past Simple when the time is specific.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct passive form.",
+      "sentence": "The kitchen ____ before the sale.",
+      "options": ["had been painted", "was painted", "is painted", "will have painted", "painted", "has painted"],
+      "correctAnswer": ["had been painted"],
+      "hint": "Use Past Perfect passive for completed action before another past action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Complete the passive sentence.",
+      "sentence": "The manager ____ the report ____ by Friday.",
+      "options": ["wants / to be finished", "wanted / finished", "will have / finished", "has / been finished", "wants / be finished", "wanted / be finished"],
+      "correctAnswer": ["wants / to be finished"],
+      "hint": "Use 'want' plus passive infinitive for requests.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Choose the passive when the agent is obvious.",
+      "sentence": "The road ____ repaired.",
+      "options": ["is being", "was being", "has been", "will be", "is", "are"],
+      "correctAnswer": ["is being"],
+      "hint": "Use the present continuous passive for actions happening now.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Which active sentence becomes passive as 'The ball was caught by Tom'?",
+      "sentence": "",
+      "options": ["Tom caught the ball.", "The ball caught Tom.", "Tom was caught by the ball.", "The ball caught Tom."],
+      "correctAnswer": "Tom caught the ball.",
+      "audio": "quiz_1_basics.mp3",
+      "hint": "Switch the object and subject.",
+      "difficulty": "easy",
+      "explanation": "The active subject Tom becomes the agent 'by Tom', and the object ball becomes the subject."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Choose the correct passive form for 'They have painted the kitchen.'",
+      "sentence": "",
+      "options": ["The kitchen has been painted.", "The kitchen have been painted.", "The kitchen was painted.", "The kitchen is painted."],
+      "correctAnswer": "The kitchen has been painted.",
+      "audio": "quiz_2_application.mp3",
+      "hint": "Use Present Perfect passive.",
+      "difficulty": "easy",
+      "explanation": "Present Perfect passive uses has/have been + past participle."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which sentence is not passive?",
+      "sentence": "",
+      "options": ["The report was written by her.", "She wrote the report.", "The report is being reviewed.", "The report has been finished."],
+      "correctAnswer": "She wrote the report.",
+      "audio": "quiz_3_exceptions.mp3",
+      "hint": "Passive sentences have a form of be plus past participle.",
+      "difficulty": "medium",
+      "explanation": "Only the active sentence does not use be + past participle."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which passive sentence uses 'get'?",
+      "sentence": "",
+      "options": ["He got hurt.", "He was hurt.", "He has been hurt.", "He will be hurt."],
+      "correctAnswer": "He got hurt.",
+      "audio": "quiz_4_comparison.mp3",
+      "hint": "Only one sentence uses get + past participle.",
+      "difficulty": "medium",
+      "explanation": "Get + past participle is an informal passive form."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which sentence correctly omits the agent?",
+      "sentence": "",
+      "options": ["My bike has been stolen.", "My bike has been stolen by someone.", "Someone has stolen my bike.", "My bike has been stolen by me."],
+      "correctAnswer": "My bike has been stolen.",
+      "audio": "quiz_5_master.mp3",
+      "hint": "Omit 'by' when the agent is unknown or unimportant.",
+      "difficulty": "hard",
+      "explanation": "The passive form is used without mentioning who did the action."
+    }
+  ],
+  "spellingActivities": [
+    {"id": "spelling-1", "word": "passive", "hint": "Opposite of active voice", "clue": "p_a_s_v_", "sentence": "The ____ voice focuses on the receiver of the action.", "difficulty": "easy"},
+    {"id": "spelling-2", "word": "agent", "hint": "Often introduced by the word 'by'", "clue": "a_e_t", "sentence": "The action was done by the ____.", "difficulty": "easy"},
+    {"id": "spelling-3", "word": "participle", "hint": "Used with be in passive forms", "clue": "p_rt_c_pl_", "sentence": "Use the past ____ after be.", "difficulty": "easy"},
+    {"id": "spelling-4", "word": "unknown", "hint": "Agent is not known", "clue": "u_k_o_n", "sentence": "The thief is ____.", "difficulty": "easy"},
+    {"id": "spelling-5", "word": "repair", "hint": "Past participle is repaired", "clue": "r_pa_r", "sentence": "The road is being ____.", "difficulty": "easy"},
+    {"id": "spelling-6", "word": "recorded", "hint": "Past participle of record", "clue": "r_co_d_d", "sentence": "The data was ____ carefully.", "difficulty": "medium"},
+    {"id": "spelling-7", "word": "delivered", "hint": "Past participle of deliver", "clue": "d_l_v_r_d", "sentence": "The letter was ____ at 9 a.m.", "difficulty": "medium"},
+    {"id": "spelling-8", "word": "repaired", "hint": "Past participle of repair", "clue": "r_pa_r_d", "sentence": "My car has been ____.", "difficulty": "medium"}
+  ],
+  "rewards": {
+    "stars": {"bronze": 12, "silver": 35, "gold": 60, "platinum": 85},
+    "badges": [
+      {"id": "passive-starter", "name": "Passive Starter 🌟", "condition": "Complete lesson-1 with 80% or higher", "icon": "🌟", "points": 25, "message": "Great start! You understand the passive voice basics."},
+      {"id": "tense-transformer", "name": "Tense Transformer 🔄", "condition": "Use passive forms in 3 different tenses", "icon": "🔄", "points": 35, "message": "You can transform active sentences into passive forms easily."},
+      {"id": "agent-detective", "name": "Agent Detective 🕵️", "condition": "Recognize when to include or omit agents", "icon": "🕵️", "points": 45, "message": "You know when the agent is important and when it is not."},
+      {"id": "get-passive-pro", "name": "Get Passive Pro 🤝", "condition": "Score 100% on get passive items", "icon": "🤝", "points": 50, "message": "You can use get + past participle naturally."},
+      {"id": "science-writer", "name": "Science Writer 🧪", "condition": "Write a scientific passive sentence correctly", "icon": "🧪", "points": 55, "message": "You can use passive voice for facts and reports."},
+      {"id": "style-specialist", "name": "Style Specialist ✨", "condition": "Use passive voice for style in 3 sentences", "icon": "✨", "points": 60, "message": "Your writing has a polished, formal style."},
+      {"id": "passive-wizard", "name": "Passive Wizard 🪄", "condition": "Complete all writing activities with high scores", "icon": "🪄", "points": 75, "message": "You are confident with passive constructions."},
+      {"id": "ultimate-passive-master", "name": "Ultimate Passive Master 🏆", "condition": "Collect ALL other badges + 100% on every activity", "icon": "🏆", "points": 200, "message": "You are a passive voice expert!"}
+    ]
+  }
+}

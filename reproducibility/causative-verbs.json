@@ -1,0 +1,288 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Causative Verbs Basics – Your First Step! 🎯",
+      "content": "<p>Welcome to <strong>Causative Verbs</strong>! This lesson introduces the verbs that cause another action to happen. 📚</p><p><strong>Core Concept:</strong> Causative verbs make someone or something do an action instead of doing it yourself.</p><p><strong>Key Points:</strong></p><ul><li><strong>Make:</strong> force or compel someone to do something</li><li><strong>Get:</strong> arrange for someone to do something</li><li><strong>Have:</strong> ask or request someone to do something</li><li><strong>Help:</strong> support someone in doing something</li><li><strong>Let:</strong> permit someone to do something</li></ul><p><strong>Important Note:</strong> Causative constructions often change the verb form after the person or thing.</p><p><strong>Common Mistakes:</strong> Using the wrong infinitive structure after the causative verb.</p>",
+      "examples": [
+        "She made her children do their homework.",
+        "He got the technician to fix the printer.",
+        "I had my assistant call the client.",
+        "The trainer helped the athlete win the race.",
+        "Her parents let her stay up late.",
+        "The manager allowed the team to leave early."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_basics.mp3",
+      "functions": ["Understand form","Compare verb patterns","Spot the cause and result"],
+      "tips": "💡 <strong>Practice Tip:</strong> Focus on which causative verb changes the structure after the person or thing."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Make + Person + Verb – Force and Compulsion 🚀",
+      "content": "<p>Now let's focus on <strong>make</strong>. This verb forces or compels someone to do something. 📈</p><p><strong>Structure:</strong> MAKE + PERSON + VERB (base form)</p><p><strong>When to use it:</strong> For strong influence, orders, rules, or commands.</p><p><strong>Examples:</strong> She made her children clean the room. The coach made the team run extra laps.</p>",
+      "examples": [
+        "She made her children do their homework before bed.",
+        "His grandmother made her grandson send a postcard.",
+        "Their parents made the boys clean the house.",
+        "The teacher made him rewrite the essay.",
+        "The coach made the players practice again.",
+        "The boss made everyone attend the meeting."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_application.mp3",
+      "functions": ["Recognize make","Form active commands","Use base verbs after make"],
+      "tips": "💡 <strong>Memory Aid:</strong> After 'make', the next verb stays in its base form, not 'to'."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Get + Person + To + Verb – Arrange and Persuade 💡",
+      "content": "<p><strong>Get</strong> means arranging for someone to do something, often by persuading them. 🎯</p><p><strong>Structure:</strong> GET + PERSON + TO + VERB</p><p><strong>Use it when:</strong> you convince, ask, or organize someone to complete a task.</p><p><strong>Examples:</strong> I got the architect to modify the plans. The teacher got the children to tidy the classroom.</p>",
+      "examples": [
+        "I got the architect to modify the plans.",
+        "The teacher got the children to tidy up the classroom.",
+        "The old lady got the boy next door to mow her lawn.",
+        "We got the waiter to bring extra napkins.",
+        "Mom got me to finish my homework early.",
+        "They got the plumber to fix the leak."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_exceptions.mp3",
+      "functions": ["Use get + to","Show requests","Compare get and have"],
+      "tips": "💡 <strong>Remember:</strong> 'get' usually needs 'to' before the next verb."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Have + Person + Verb / Thing + Past Participle 🛠️",
+      "content": "<p><strong>Have</strong> can ask someone to do something or arrange for something to be done. There are two common patterns.</p><p><strong>Pattern 1:</strong> HAVE + PERSON + VERB (base form)</p><p><strong>Pattern 2:</strong> HAVE + THING + PAST PARTICIPLE</p><p><strong>Examples:</strong> I'll have my assistant call you. I need to have the car repaired.</p>",
+      "examples": [
+        "I’ll have my assistant call you to confirm the date.",
+        "The architect had his secretary make copies.",
+        "The surgeon had the nurse take the patient's temperature.",
+        "I need to have a photograph taken for my passport.",
+        "They had their house painted before the sale.",
+        "My car has broken down; I need to have it repaired."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_4_advanced.mp3",
+      "functions": ["Request actions","Use passive causative","Understand have + past participle"],
+      "tips": "💡 <strong>Practice Tip:</strong> Use have + past participle when someone else does the work for you."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Help + Person/Thing + Verb – Assist and Enable 🤝",
+      "content": "<p><strong>Help</strong> makes it easier for someone to do something. Both forms with and without 'to' are correct. 🎭</p><p><strong>Structure:</strong> HELP + PERSON/THING + VERB (base form)</p><p><strong>Use both:</strong> help someone do something OR help someone to do something.</p>",
+      "examples": [
+        "The dictionary helped him understand the meaning.",
+        "Her new glasses help the old lady read more easily.",
+        "Intensive preparation helped the athlete win the race.",
+        "The tutor helped the student solve the problem.",
+        "The app helped me organize my schedule.",
+        "Her notes helped him remember the rules."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_5_comparison.mp3",
+      "functions": ["Use both help forms","Support actions","Compare help vs make"],
+      "tips": "💡 <strong>Note:</strong> 'help' can use either the bare infinitive or 'to + infinitive' with no change in meaning."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Let + Person/Thing + Verb – Permit and Allow ✅",
+      "content": "<p><strong>Let</strong> means permit something to happen. It uses the base form after the person or thing. ✅</p><p><strong>Structure:</strong> LET + PERSON/THING + VERB</p><p><strong>Note:</strong> More formal alternatives like allow and permit use 'to'.</p>",
+      "examples": [
+        "Eva’s father won’t let her drive his car.",
+        "You shouldn’t let your children watch unsuitable programmes.",
+        "Tom was careful not to let the dog sit on the sofa.",
+        "I don’t allow my children to watch violent programmes.",
+        "Our teacher does not permit us to eat lunch in the classroom.",
+        "My mother allows me to drive her car."
+      ],
+      "difficulty": 4,
+      "audio": "lesson_6_mastery.mp3",
+      "functions": ["Use let correctly","Notice allow vs let","Practice permission forms"],
+      "tips": "💡 <strong>Practice Tip:</strong> Use 'let' with bare infinitive and 'allow/permit' with 'to'."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write a sentence using 'make' to show that someone was forced to do something.",
+      "hint": "Use MAKE + PERSON + VERB (base form).",
+      "expectedKeywords": ["make", "to", "help", "have", "let"],
+      "sentenceStarters": ["The teacher made...", "My parents made...", "The coach made..."] ,
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write a sentence using 'get' to show that someone was persuaded to do something.",
+      "hint": "Use GET + PERSON + TO + VERB.",
+      "expectedKeywords": ["get", "to", "persuade", "manage", "convince"],
+      "sentenceStarters": ["I got...to...", "She got...to...", "They got...to..."] ,
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a sentence using 'have' to request someone to do a task.",
+      "hint": "Use HAVE + PERSON + VERB or HAVE + THING + PAST PARTICIPLE.",
+      "expectedKeywords": ["have", "make", "repair", "take", "call"],
+      "sentenceStarters": ["I had...", "She had...", "We had..."] ,
+      "difficulty": 2
+    },
+    {
+      "id": "writing-4",
+      "question": "Write two sentences: one with 'help' and one with 'let'.",
+      "hint": "Use help + verb and let + verb correctly.",
+      "expectedKeywords": ["help", "let", "to", "do", "permit"],
+      "sentenceStarters": ["He helped...", "She let..."] ,
+      "difficulty": 3
+    },
+    {
+      "id": "writing-5",
+      "question": "Rewrite this command using a causative verb: 'The manager asked the clerk to file the reports.'",
+      "hint": "Choose make, get, have, or let.",
+      "expectedKeywords": ["had", "got", "let", "file", "reports"],
+      "sentenceStarters": ["The manager had...", "The manager got..."] ,
+      "difficulty": 3
+    },
+    {
+      "id": "writing-6",
+      "question": "Write a short paragraph explaining when to use 'let' instead of 'allow'.",
+      "hint": "Mention the base verb after let and the 'to' structure after allow.",
+      "expectedKeywords": ["let", "allow", "to", "permit", "base form"],
+      "sentenceStarters": ["Use let when...", "Allow is more formal when..."] ,
+      "difficulty": 4
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct causative structure.",
+      "sentence": "The teacher ____ the students ____ the project.",
+      "options": ["made / finish", "got / to finish", "let / finish", "have / finish", "help / finish", "made / to finish"],
+      "correctAnswer": ["got / to finish"],
+      "hint": "Use get + person + to + verb.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Choose the correct causative verb.",
+      "sentence": "Her parents ____ her stay out late on Saturday.",
+      "options": ["made", "got", "had", "helped", "let", "allowed"],
+      "correctAnswer": ["let"],
+      "hint": "This verb means permit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Fill the gap with the correct form.",
+      "sentence": "The boss ____ the team ____ the final draft by Friday.",
+      "options": ["made / submit", "got / to submit", "had / submit", "helped / submit", "let / submit", "get / submit"],
+      "correctAnswer": ["got / to submit"],
+      "hint": "GET needs TO before the verb.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the correct pair.",
+      "sentence": "I ____ my assistant ____ the meeting notes.",
+      "options": ["had / take", "had / taken", "have / take", "got / to take", "make / take", "let / take"],
+      "correctAnswer": ["had / take"],
+      "hint": "Use HAVE + PERSON + VERB.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Pick the correct causative expression.",
+      "sentence": "She ____ the nurse ____ the patient’s temperature.",
+      "options": ["made / taking", "got / taking", "had / take", "helped / take", "let / take", "had / taken"],
+      "correctAnswer": ["had / take"],
+      "hint": "Have + person + verb is a common request pattern.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Which sentence is correct for 'get' as a causative verb?",
+      "sentence": "She ____ her brother ____ the exam papers.",
+      "options": ["got / to check", "got / check", "got / checked", "made / to check"],
+      "correctAnswer": "got / to check",
+      "audio": "quiz_1_basics.mp3",
+      "hint": "Get uses 'to' before the next verb.",
+      "difficulty": "easy",
+      "explanation": "Get + person + to + verb is the correct causative pattern."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which verb is used to permit someone?",
+      "sentence": "My mother ____ me drive her car.",
+      "options": ["made", "had", "let", "got"],
+      "correctAnswer": "let",
+      "audio": "quiz_2_application.mp3",
+      "hint": "This verb means allow or permit.",
+      "difficulty": "easy",
+      "explanation": "Let means to permit someone to do something."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which sentence uses 'have' correctly?",
+      "sentence": "The chef ____ the assistant ____ the soup.",
+      "options": ["had / taste", "had / to taste", "got / taste", "made / taste"],
+      "correctAnswer": "had / taste",
+      "audio": "quiz_3_exceptions.mp3",
+      "hint": "Have + person + verb uses the base form after the person.",
+      "difficulty": "medium",
+      "explanation": "Have + person + verb is the common causative structure."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which one is a valid help structure?",
+      "sentence": "The trainer helped the player ____ faster.",
+      "options": ["run", "to run", "ran", "running"],
+      "correctAnswer": "run",
+      "audio": "quiz_4_comparison.mp3",
+      "hint": "Help can use the base form or to + infinitive.",
+      "difficulty": "medium",
+      "explanation": "Help + person + verb (base form) is grammatical."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which sentence shows a passive causative use?",
+      "sentence": "They ____ their house ____ before selling it.",
+      "options": ["had / paint", "had / painted", "got / paint", "let / painted"],
+      "correctAnswer": "had / painted",
+      "audio": "quiz_5_master.mp3",
+      "hint": "Have + thing + past participle is passive causative.",
+      "difficulty": "hard",
+      "explanation": "Have + thing + past participle shows someone else did the action."
+    }
+  ],
+  "spellingActivities": [
+    {"id": "spelling-1", "word": "make", "hint": "Use with force or compulsion", "clue": "_a_e", "sentence": "They ____ him clean his room.", "difficulty": "easy"},
+    {"id": "spelling-2", "word": "get", "hint": "Use to arrange or persuade", "clue": "_e_", "sentence": "She ____ her friend to help her.", "difficulty": "easy"},
+    {"id": "spelling-3", "word": "have", "hint": "Use to request or arrange", "clue": "h_a_", "sentence": "I ____ my assistant call the client.", "difficulty": "easy"},
+    {"id": "spelling-4", "word": "help", "hint": "Use to assist someone", "clue": "h_l_", "sentence": "He ____ her understand the rule.", "difficulty": "easy"},
+    {"id": "spelling-5", "word": "let", "hint": "Use to permit or allow", "clue": "l_t", "sentence": "Her parents ____ her go to the party.", "difficulty": "easy"},
+    {"id": "spelling-6", "word": "allow", "hint": "More formal than let", "clue": "a_low", "sentence": "The school ____ students to use the lab.", "difficulty": "medium"},
+    {"id": "spelling-7", "word": "permit", "hint": "Another formal permission verb", "clue": "p_rmit", "sentence": "The teacher ____ us to ask questions.", "difficulty": "medium"},
+    {"id": "spelling-8", "word": "persuade", "hint": "Use when you convince someone", "clue": "p_rs__de", "sentence": "She ____ him to finish his homework.", "difficulty": "medium"}
+  ],
+  "rewards": {
+    "stars": {"bronze": 12, "silver": 35, "gold": 60, "platinum": 85},
+    "badges": [
+      {"id": "causative-starter", "name": "Causative Starter 🌟", "condition": "Complete lesson-1 with 80% or higher", "icon": "🌟", "points": 25, "message": "Great start! You understand the basics of causative verbs."},
+      {"id": "make-master", "name": "Make Master 🛠️", "condition": "Use make correctly in 3 sentences", "icon": "🛠️", "points": 35, "message": "You can use make to force actions with confidence."},
+      {"id": "get-strategist", "name": "Get Strategist 🎯", "condition": "Score 100% on get activities", "icon": "🎯", "points": 45, "message": "You know how to get someone to do something effectively."},
+      {"id": "have-handler", "name": "Have Handler 🧩", "condition": "Complete all have exercises", "icon": "🧩", "points": 50, "message": "You understand requests and arranged actions clearly."},
+      {"id": "helpful-hero", "name": "Helpful Hero 🤝", "condition": "Perfect help activity scores", "icon": "🤝", "points": 55, "message": "You help others with clear grammar and structure."},
+      {"id": "permission-pro", "name": "Permission Pro ✅", "condition": "Use let, allow, and permit correctly", "icon": "✅", "points": 60, "message": "You can choose the right permission verb every time."},
+      {"id": "causative-wizard", "name": "Causative Wizard ✨", "condition": "Complete all writing activities with high scores", "icon": "✨", "points": 75, "message": "Your causative verb usage is strong and accurate."},
+      {"id": "ultimate-causative-master", "name": "Ultimate Causative Master 🏆", "condition": "Collect ALL other badges + 100% on every activity", "icon": "🏆", "points": 200, "message": "You are a causative verb expert!"}
+    ]
+  }
+}
