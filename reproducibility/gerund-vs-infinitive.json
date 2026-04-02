@@ -79,16 +79,16 @@
     {"id":"writing-10","question":"Write short paragraph (6-8 lines) mixing both gerund and infinitive with at least 5 occurrences.","hint":"Use a story about your week.","expectedKeywords":["to","ing","plan","enjoy","need"],"sentenceStarters":["This week I ...","I decided to ..."],"difficulty":3}
   ],
   "gameActivities": [
-    {"id":"game-1","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"He hopes ___ soon.","options":["to arrive","arriving","arrive","arrived"],"correctAnswer":["to arrive"],"audio":"game1.mp3","hint":"Hope + infinitive.","difficulty":"easy"},
-    {"id":"game-2","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"She enjoys ___ in the park.","options":["run","running","to run","ran"],"correctAnswer":["running"],"audio":"game2.mp3","hint":"Enjoy + gerund.","difficulty":"easy"},
-    {"id":"game-3","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"They decided ___ early.","options":["to leave","leaving","leave","left"],"correctAnswer":["to leave"],"audio":"game3.mp3","hint":"Decide + infinitive.","difficulty":"easy"},
-    {"id":"game-4","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"I’m thinking about ___ abroad.","options":["to move","moving","move","moved"],"correctAnswer":["moving"],"audio":"game4.mp3","hint":"Think about + gerund.","difficulty":"medium"},
-    {"id":"game-5","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"She forgot ___ the cake in the oven.","options":["to take","taking","take","took"],"correctAnswer":["to take"],"audio":"game5.mp3","hint":"Forgot to = failed to do.","difficulty":"medium"},
-    {"id":"game-6","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"I remembered ___ him last week.","options":["calling","to call","call","called"],"correctAnswer":["calling"],"audio":"game6.mp3","hint":"Remember + gerund = memory.","difficulty":"medium"},
-    {"id":"game-7","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"It’s no use ___ him now.","options":["calling","to call","call","called"],"correctAnswer":["calling"],"audio":"game7.mp3","hint":"No use + gerund.","difficulty":"medium"},
-    {"id":"game-8","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"He stopped ___ coffee to stay healthy.","options":["drinking","to drink","drink","drank"],"correctAnswer":["drinking"],"audio":"game8.mp3","hint":"Stopped + gerund = quitting.","difficulty":"medium"},
-    {"id":"game-9","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"She needs ___ her work done by 5 pm.","options":["to have","having","have","had"],"correctAnswer":["to have"],"audio":"game9.mp3","hint":"Need + infinitive.","difficulty":"hard"},
-    {"id":"game-10","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"He kept ___ the same mistake.","options":["making","to make","make","made"],"correctAnswer":["making"],"audio":"game10.mp3","hint":"Keep + gerund.","difficulty":"hard"}
+    {"id":"game-1","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"He hopes ____ soon.","options":["to arrive","arriving","arrive","arrived"],"correctAnswer":["to arrive"],"audio":"game1.mp3","hint":"Hope + infinitive.","difficulty":"easy"},
+    {"id":"game-2","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"She enjoys ____ in the park.","options":["run","running","to run","ran"],"correctAnswer":["running"],"audio":"game2.mp3","hint":"Enjoy + gerund.","difficulty":"easy"},
+    {"id":"game-3","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"They decided ____ early.","options":["to leave","leaving","leave","left"],"correctAnswer":["to leave"],"audio":"game3.mp3","hint":"Decide + infinitive.","difficulty":"easy"},
+    {"id":"game-4","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"I’m thinking about ____ abroad.","options":["to move","moving","move","moved"],"correctAnswer":["moving"],"audio":"game4.mp3","hint":"Think about + gerund.","difficulty":"medium"},
+    {"id":"game-5","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"She forgot ____ the cake in the oven.","options":["to take","taking","take","took"],"correctAnswer":["to take"],"audio":"game5.mp3","hint":"Forgot to = failed to do.","difficulty":"medium"},
+    {"id":"game-6","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"I remembered ____ him last week.","options":["calling","to call","call","called"],"correctAnswer":["calling"],"audio":"game6.mp3","hint":"Remember + gerund = memory.","difficulty":"medium"},
+    {"id":"game-7","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"It’s no use ____ him now.","options":["calling","to call","call","called"],"correctAnswer":["calling"],"audio":"game7.mp3","hint":"No use + gerund.","difficulty":"medium"},
+    {"id":"game-8","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"He stopped ____ coffee to stay healthy.","options":["drinking","to drink","drink","drank"],"correctAnswer":["drinking"],"audio":"game8.mp3","hint":"Stopped + gerund = quitting.","difficulty":"medium"},
+    {"id":"game-9","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"She needs ____ her work done by 5 pm.","options":["to have","having","have","had"],"correctAnswer":["to have"],"audio":"game9.mp3","hint":"Need + infinitive.","difficulty":"hard"},
+    {"id":"game-10","type":"drag-drop","question":"Choose gerund or infinitive.","sentence":"He kept ____ the same mistake.","options":["making","to make","make","made"],"correctAnswer":["making"],"audio":"game10.mp3","hint":"Keep + gerund.","difficulty":"hard"}
   ],
   "quizActivities": [
     {"id":"quiz-1","question":"Select correct phrase:","sentence":"I can’t afford ___ a new car.","options":["buying","to buy","buy","bought"],"correctAnswer":"to buy","audio":"quiz1.mp3","hint":"Afford + infinitive.","difficulty":"easy","explanation":"Afford is followed by infinitive."},
@@ -103,17 +103,87 @@
     {"id":"quiz-10","question":"Select correct phrase:","sentence":"I can’t stand ___ in traffic.","options":["to drive","driving","drive","driven"],"correctAnswer":"driving","audio":"quiz10.mp3","hint":"Can’t stand + gerund.","difficulty":"hard","explanation":"Can’t stand uses gerund."}
   ],
   "spellingActivities": [
-    {"id":"spelling-1","word":"enjoy","hint":"Use with gerund","clue":"I enjoy ___ early.","sentence":"I enjoy waking up early.","difficulty":"easy"},
-    {"id":"spelling-2","word":"plan","hint":"Use with infinitive","clue":"I plan ___ tonight.","sentence":"I plan to study tonight.","difficulty":"easy"},
-    {"id":"spelling-3","word":"avoid","hint":"Use with gerund","clue":"She avoids ___ mistakes.","sentence":"She avoids making mistakes.","difficulty":"easy"},
-    {"id":"spelling-4","word":"need","hint":"Use with infinitive","clue":"We need ___ the rules.","sentence":"We need to learn the rules.","difficulty":"easy"},
-    {"id":"spelling-5","word":"stop","hint":"Gerund vs infinitive difference","clue":"He stopped ___ water.","sentence":"He stopped drinking water (or to drink water).","difficulty":"medium"},
-    {"id":"spelling-6","word":"remember","hint":"Gerund vs infinitive difference","clue":"I remembered ___ the cake.","sentence":"I remembered to buy the cake.","difficulty":"medium"},
-    {"id":"spelling-7","word":"no use","hint":"Expression + gerund","clue":"It’s no use ___ here.","sentence":"It’s no use arguing here.","difficulty":"medium"},
-    {"id":"spelling-8","word":"no point in","hint":"Expression + gerund","clue":"There’s no point in ___ now.","sentence":"There’s no point in complaining now.","difficulty":"medium"},
-    {"id":"spelling-9","word":"afraid of","hint":"Preposition phrase + gerund","clue":"He’s afraid of ___ alone.","sentence":"He’s afraid of walking alone.","difficulty":"hard"},
-    {"id":"spelling-10","word":"afraid to","hint":"To-infinitive with afraid","clue":"She’s afraid to ___ on stage.","sentence":"She’s afraid to sing on stage.","difficulty":"hard"}
-  ],
+    {
+        "id": "spelling-1",
+        "word": "enjoy",
+        "hint": "Verb that takes gerund",
+        "clue": "e____",
+        "sentence": "I _____ waking up early.",
+        "difficulty": "easy"
+    },
+    {
+        "id": "spelling-2",
+        "word": "plan",
+        "hint": "Verb that takes infinitive",
+        "clue": "p___",
+        "sentence": "I _____ to study tonight.",
+        "difficulty": "easy"
+    },
+    {
+        "id": "spelling-3",
+        "word": "avoid",
+        "hint": "Verb that takes gerund",
+        "clue": "a____",
+        "sentence": "She _____ making mistakes.",
+        "difficulty": "easy"
+    },
+    {
+        "id": "spelling-4",
+        "word": "need",
+        "hint": "Verb that takes infinitive",
+        "clue": "n___",
+        "sentence": "We _____ to learn the rules.",
+        "difficulty": "easy"
+    },
+    {
+        "id": "spelling-5",
+        "word": "stop",
+        "hint": "Verb that can take gerund or infinitive with meaning change",
+        "clue": "s___",
+        "sentence": "He _____ drinking coffee to stay healthy.",
+        "difficulty": "medium"
+    },
+    {
+        "id": "spelling-6",
+        "word": "remember",
+        "hint": "Verb that can take gerund or infinitive with meaning change",
+        "clue": "r_______",
+        "sentence": "I _____ to buy the cake.",
+        "difficulty": "medium"
+    },
+    {
+        "id": "spelling-7",
+        "word": "no use",
+        "hint": "Expression followed by gerund",
+        "clue": "n_ u__",
+        "sentence": "It’s _____ arguing with him.",
+        "difficulty": "medium"
+    },
+    {
+        "id": "spelling-8",
+        "word": "no point in",
+        "hint": "Expression followed by gerund",
+        "clue": "n_ p___t i_",
+        "sentence": "There’s _____ complaining now.",
+        "difficulty": "medium"
+    },
+    {
+        "id": "spelling-9",
+        "word": "afraid of",
+        "hint": "Preposition + gerund",
+        "clue": "a____ o_",
+        "sentence": "He’s _____ walking alone at night.",
+        "difficulty": "hard"
+    },
+    {
+        "id": "spelling-10",
+        "word": "afraid to",
+        "hint": "Afraid + to-infinitive",
+        "clue": "a____ t_",
+        "sentence": "She’s _____ sing on stage.",
+        "difficulty": "hard"
+    }
+],
   "rewards": {
     "stars": [
       {"id":"star-1","name":"Gerund Starter","description":"Master 3 gerund lessons and activities.","icon":"⭐","requirement":"Complete 15 tasks","unlocked":false},
