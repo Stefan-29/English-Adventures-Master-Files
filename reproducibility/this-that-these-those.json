@@ -3,7 +3,7 @@
         {
             "id": "lesson-1",
             "title": "This/That & These/Those – Proximity & Distance! 🎯",
-            "content": "<p>Welcome to demonstrative determiners! <strong>This/that</strong> and <strong>these/those</strong> show proximity and distance. 📍</p><p><strong>Core Concept:</strong> Demonstratives indicate how close or far something is from the speaker.</p><p><strong>Basic Rules:</strong></p><ul><li><strong>This/these:</strong> Near the speaker (singular/plural)</li><li><strong>That/those:</strong> Far from the speaker (singular/plural)</li><li><strong>Physical distance:</strong> This room vs that room</li><li><strong>Time distance:</strong> This week vs that week</li></ul><p><strong>Important Note:</strong> Demonstratives can change meaning based on context!</p><p><strong>Common Mistakes:</strong> Mixing singular/plural forms or using wrong proximity.</p>",
+            "content": "<p>Welcome to demonstrative determiners! <strong>This/that</strong> and <strong>these/those</strong> show proximity and distance. 📍</p><p><strong>Core Concept:</strong> Demonstratives indicate how close or far something is from the speaker.</p><p><strong>Basic Rules:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>This/these:</strong> Near the speaker (singular/plural)</td></tr><tr><td><strong>That/those:</strong> Far from the speaker (singular/plural)</td></tr><tr><td><strong>Physical distance:</strong> This room vs that room</td></tr><tr><td><strong>Time distance:</strong> This week vs that week</td></tr></table><p><strong>Important Note:</strong> Demonstratives can change meaning based on context!</p><p><strong>Common Mistakes:</strong> Mixing singular/plural forms or using wrong proximity.</p>",
             "examples": [
                 "<strong>This</strong> book is interesting. (book near speaker)",
                 "<strong>That</strong> book looks good too. (book far from speaker)",
@@ -26,7 +26,7 @@
         {
             "id": "lesson-2",
             "title": "This & That – Singular Demonstratives 📍",
-            "content": "<p>Master <strong>this</strong> and <strong>that</strong> with singular nouns. 📍</p><p><strong>This (near):</strong></p><ul><li>Objects close to speaker</li><li>Current situations</li><li>Present time references</li><li>Introducing new information</li></ul><p><strong>That (far):</strong></p><ul><li>Objects away from speaker</li><li>Past situations</li><li>Distant time references</li><li>Previously mentioned items</li></ul><p><strong>Context Matters:</strong> Distance can be physical, temporal, or emotional.</p>",
+            "content": "<p>Master <strong>this</strong> and <strong>that</strong> with singular nouns. 📍</p><p><strong>This (near):</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td>Objects close to speaker</td></tr><tr><td>Current situations</td></tr><tr><td>Present time references</td></tr><tr><td>Introducing new information</td></tr></table><p><strong>That (far):</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td>Objects away from speaker</td></tr><tr><td>Past situations</td></tr><tr><td>Distant time references</td></tr><tr><td>Previously mentioned items</td></tr></table><p><strong>Context Matters:</strong> Distance can be physical, temporal, or emotional.</p>",
             "examples": [
                 "<strong>This</strong> computer is new. (near speaker)",
                 "<strong>That</strong> computer is old. (far from speaker)",
@@ -49,7 +49,7 @@
         {
             "id": "lesson-3",
             "title": "These & Those – Plural Demonstratives 👥",
-            "content": "<p>Learn <strong>these</strong> and <strong>those</strong> with plural nouns. 👥</p><p><strong>These (near plural):</strong></p><ul><li>Multiple items close to speaker</li><li>Current group/situation</li><li>Present time plural references</li><li>Introducing new plural information</li></ul><p><strong>Those (far plural):</strong></p><ul><li>Multiple items away from speaker</li><li>Past/distant plural situations</li><li>Previously mentioned plural items</li><li>Distant groups</li></ul><p><strong>Advanced Tip:</strong> These/those can show emotional distance too.</p>",
+            "content": "<p>Learn <strong>these</strong> and <strong>those</strong> with plural nouns. 👥</p><p><strong>These (near plural):</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td>Multiple items close to speaker</td></tr><tr><td>Current group/situation</td></tr><tr><td>Present time plural references</td></tr><tr><td>Introducing new plural information</td></tr></table><p><strong>Those (far plural):</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td>Multiple items away from speaker</td></tr><tr><td>Past/distant plural situations</td></tr><tr><td>Previously mentioned plural items</td></tr><tr><td>Distant groups</td></tr></table><p><strong>Advanced Tip:</strong> These/those can show emotional distance too.</p>",
             "examples": [
                 "<strong>These</strong> books are interesting. (books near speaker)",
                 "<strong>Those</strong> books look expensive. (books far from speaker)",
@@ -72,7 +72,7 @@
         {
             "id": "lesson-4",
             "title": "Demonstratives as Pronouns – Standing Alone 🔍",
-            "content": "<p>Use demonstratives as pronouns without nouns. 🔍</p><p><strong>As Pronouns:</strong></p><ul><li><strong>This/these:</strong> Replace nearby nouns</li><li><strong>That/those:</strong> Replace distant nouns</li><li><strong>With 'one':</strong> This one, that one</li><li><strong>With 'ones':</strong> These ones, those ones</li></ul><p><strong>Context Required:</strong> The noun must be clear from context.</p><p><strong>Regional Note:</strong> Americans often add 'one' after demonstratives.</p>",
+            "content": "<p>Use demonstratives as pronouns without nouns. 🔍</p><p><strong>As Pronouns:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>This/these:</strong> Replace nearby nouns</td></tr><tr><td><strong>That/those:</strong> Replace distant nouns</td></tr><tr><td><strong>With 'one':</strong> This one, that one</td></tr><tr><td><strong>With 'ones':</strong> These ones, those ones</td></tr></table><p><strong>Context Required:</strong> The noun must be clear from context.</p><p><strong>Regional Note:</strong> Americans often add 'one' after demonstratives.</p>",
             "examples": [
                 "Which book? <strong>This</strong> one. (nearby book)",
                 "Which shoes? <strong>Those</strong> ones. (distant shoes)",
@@ -95,7 +95,7 @@
         {
             "id": "lesson-5",
             "title": "Time & Context with Demonstratives ⏰",
-            "content": "<p>Learn how demonstratives work with time and context. ⏰</p><p><strong>Temporal Usage:</strong></p><ul><li><strong>This:</strong> Present, current, immediate</li><li><strong>That:</strong> Past, recent, just mentioned</li><li><strong>These:</strong> Current period/group</li><li><strong>Those:</strong> Past period/group</li></ul><p><strong>Context Changes:</strong> What 'near' means depends on situation.</p><p><strong>Emotional Distance:</strong> Can show psychological closeness/farness.</p>",
+            "content": "<p>Learn how demonstratives work with time and context. ⏰</p><p><strong>Temporal Usage:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>This:</strong> Present, current, immediate</td></tr><tr><td><strong>That:</strong> Past, recent, just mentioned</td></tr><tr><td><strong>These:</strong> Current period/group</td></tr><tr><td><strong>Those:</strong> Past period/group</td></tr></table><p><strong>Context Changes:</strong> What 'near' means depends on situation.</p><p><strong>Emotional Distance:</strong> Can show psychological closeness/farness.</p>",
             "examples": [
                 "<strong>This</strong> morning was beautiful. (today)",
                 "<strong>That</strong> morning was rainy. (past)",
@@ -118,7 +118,7 @@
         {
             "id": "lesson-6",
             "title": "Mastering Demonstratives – Natural Communication 🏆",
-            "content": "<p>Put it all together! Use demonstratives naturally in conversation. 🏆</p><p><strong>Communication Strategies:</strong></p><ul><li><strong>Pointing:</strong> This is..., That is...</li><li><strong>Choices:</strong> This one or that one?</li><li><strong>Time:</strong> This week vs that week</li><li><strong>Groups:</strong> These people vs those people</li></ul><p><strong>Advanced Tip:</strong> Demonstratives help create vivid, specific descriptions.</p>",
+            "content": "<p>Put it all together! Use demonstratives naturally in conversation. 🏆</p><p><strong>Communication Strategies:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>Pointing:</strong> This is..., That is...</td></tr><tr><td><strong>Choices:</strong> This one or that one?</td></tr><tr><td><strong>Time:</strong> This week vs that week</td></tr><tr><td><strong>Groups:</strong> These people vs those people</td></tr></table><p><strong>Advanced Tip:</strong> Demonstratives help create vivid, specific descriptions.</p>",
             "examples": [
                 "<strong>This</strong> is the best restaurant in town. (nearby/current)",
                 "<strong>That</strong> was an amazing concert. (past event)",

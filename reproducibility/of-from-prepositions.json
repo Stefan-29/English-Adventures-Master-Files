@@ -1,0 +1,186 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Of for Possession and Quantity – Your First Step! 🎯",
+      "content": "<p>Welcome to Of and From Prepositions! These can be tricky for learners. 📚</p><p><strong>Of for possession:</strong> Use instead of 's for things. Like: noun + of + noun.</p><p><strong>Of for quantity/part:</strong> Shows amount or belonging.</p><table class=\"lesson-table table-pink\"><tr><th>With Adjectives</th><th>Examples</th></tr><tr><td><strong>afraid of, ashamed of, aware of</strong></td><td>afraid of spiders, aware of the problem</td></tr><tr><td><strong>capable of, fond of, proud of</strong></td><td>capable of running, proud of her work</td></tr><tr><td><strong>sure of, tired of</strong></td><td>sure of success, tired of waiting</td></tr></table><table class=\"lesson-table table-pink\"><tr><th>With Verbs</th><th>Examples</th></tr><tr><td><strong>accuse of, complain of, dream of</strong></td><td>accuse of lying, dream of traveling</td></tr><tr><td><strong>hear of, remind of, think of</strong></td><td>hear of the news, think of you</td></tr></table><p><strong>Try:</strong> The roof of the car. A cup of tea.</p>",
+      "examples": [
+        "The roof of the car.",
+        "The title of the book.",
+        "The name of the game.",
+        "It was nice of you to invite me.",
+        "It was generous of Tom to pay for lunch.",
+        "I am afraid of spiders.",
+        "She is proud of her achievements.",
+        "I accuse you of lying.",
+        "I dream of traveling the world.",
+        "A cup of tea.",
+        "Part of the team.",
+        "Made of wood.",
+        "Full of ideas."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_basics.mp3",
+      "functions": ["Use of for possession", "Use of for quantity/part", "Combine of with adjectives/verbs"],
+      "tips": "💡 <strong>Practice Tip:</strong> Use 'of' when 's doesn't work for things."
+    },
+    {
+      "id": "lesson-2",
+      "title": "From for Origins and Sources – Building Confidence 🚀",
+      "content": "<p>Great! Now learn From for showing origins and sources. 📈</p><p><strong>From for origins:</strong> Where something comes from. 'From' + place/person.</p><p><strong>From for time:</strong> From...to/until for periods.</p><p><strong>From for material:</strong> What something is made from.</p><table class=\"lesson-table table-gray\"><tr><th>With Verbs</th><th>Examples</th></tr><tr><td><strong>borrow from, disappear from</strong></td><td>borrow from the library, disappear from view</td></tr><tr><td><strong>discourage from, prevent from</strong></td><td>discourage from smoking, prevent from entering</td></tr><tr><td><strong>protect from</strong></td><td>protect from the rain</td></tr></table><p><strong>Example:</strong> Kate comes from England. From 9 AM to 5 PM.</p>",
+      "examples": [
+        "Kate comes from England.",
+        "The passage is from a poem written by Lord Byron.",
+        "I work from 9 AM to 5 PM every day.",
+        "We will be in London from Tuesday until Friday.",
+        "Jane stayed from 3:30 to 5:30.",
+        "I borrowed the book from the library.",
+        "The plane disappeared from the radar.",
+        "Don't discourage him from trying.",
+        "Rain prevented us from going out.",
+        "Insurance protects you from financial loss.",
+        "Made from recycled materials.",
+        "Built from stone.",
+        "Created from plastic."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_application.mp3",
+      "functions": ["Use from for origins", "Use from for time periods", "Use from with verbs"],
+      "tips": "💡 <strong>Memory Aid:</strong> From = starting point or source."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Of vs From: Common Confusions – Mastery Level 🔍",
+      "content": "<p>You're almost there! Master the differences between of and from. 🎭</p><p><strong>Of vs From:</strong> Of for possession/quantity/part. From for origin/source/material.</p><table class=\"lesson-table table-blue\"><tr><th>Situation</th><th>With Of</th><th>With From</th></tr><tr><td><strong>Possession</strong></td><td>roof of the car</td><td>car from Japan</td></tr><tr><td><strong>Quantity</strong></td><td>cup of tea</td><td>tea from China</td></tr><tr><td><strong>Part</strong></td><td>part of the team</td><td>team from school</td></tr></table><p><strong>Example:</strong> The color of the sky. The sky from my window.</p>",
+      "examples": [
+        "The roof of the car. (possession with of)",
+        "The car from Japan. (origin with from)",
+        "A cup of tea. (quantity with of)",
+        "Tea from China. (source with from)",
+        "Part of the team. (belonging with of)",
+        "Team from school. (origin with from)",
+        "Made of wood. (material with of)",
+        "Made from recycled paper. (source with from)",
+        "The color of the sky. (description with of)",
+        "The sky from my window. (view with from)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_3_exceptions.mp3",
+      "functions": ["Distinguish of and from", "Choose correct preposition", "Avoid common confusions"],
+      "tips": "💡 <strong>Practice Tip:</strong> Ask: possession/quantity (of) or origin/source (from)?"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Use 'of' for possession or quantity in a sentence.",
+      "hint": "Of for things/people belonging or amounts.",
+      "expectedKeywords": ["of the", "of tea", "of wood", "afraid of", "dream of"],
+      "sentenceStarters": ["The ___ of the house is...", "A cup ___ tea.", "I am ___ spiders."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write a sentence using 'from' for origin or source.",
+      "hint": "From for where something comes from.",
+      "expectedKeywords": ["from England", "from the library", "from 9 to 5", "made from"],
+      "sentenceStarters": ["She comes ___ France.", "I borrowed it ___ the store.", "The meeting is ___ 2 to 4."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Choose between 'of' and 'from' correctly.",
+      "hint": "Of for possession/quantity, from for origin/source.",
+      "expectedKeywords": ["of", "from"],
+      "sentenceStarters": ["The roof ___ the car.", "The car ___ Japan.", "A cup ___ tea.", "Tea ___ China."],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Select 'of' or 'from' for possession.",
+      "sentence": "The title ___ the book.",
+      "options": ["of", "from", "at", "in", "on"],
+      "correctAnswer": ["of"],
+      "hint": "Of is used for possession with inanimate objects.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Choose 'of' or 'from' for origin.",
+      "sentence": "She comes ___ Canada.",
+      "options": ["of", "from", "at", "in", "on"],
+      "correctAnswer": ["from"],
+      "hint": "From indicates where someone is from.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct preposition for quantity.",
+      "sentence": "A glass ___ water.",
+      "options": ["of", "from", "at", "in", "on"],
+      "correctAnswer": ["of"],
+      "hint": "Of is used for amounts or quantities.",
+      "difficulty": "medium"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Which is correct: 'the roof of the car' or 'the roof from the car'?",
+      "sentence": "",
+      "options": ["The roof of the car", "The roof from the car", "Both", "Neither"],
+      "correctAnswer": "The roof of the car",
+      "audio": "quiz_1_basics.mp3",
+      "hint": "Of shows possession.",
+      "difficulty": "easy",
+      "explanation": "Of is used for possession with inanimate objects."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Choose the correct sentence: 'I borrowed the book ___ the library.'",
+      "sentence": "",
+      "options": ["of", "from", "at", "in", "on"],
+      "correctAnswer": "from",
+      "audio": "quiz_2_application.mp3",
+      "hint": "From shows the source.",
+      "difficulty": "easy",
+      "explanation": "From indicates where something comes from."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which preposition: 'A cup ___ tea.'",
+      "sentence": "",
+      "options": ["of", "from", "at", "in", "on"],
+      "correctAnswer": "of",
+      "audio": "quiz_3_exceptions.mp3",
+      "hint": "Of for quantity.",
+      "difficulty": "medium",
+      "explanation": "Of shows the quantity or type."
+    }
+  ],
+  "spellingActivities": [
+    {"id": "spelling-1", "word": "of", "hint": "Preposition for possession", "clue": "_f", "sentence": "The roof ___ the car.", "difficulty": "easy"},
+    {"id": "spelling-2", "word": "from", "hint": "Preposition for origin", "clue": "f_o_", "sentence": "She comes ___ England.", "difficulty": "easy"},
+    {"id": "spelling-3", "word": "possession", "hint": "What 'of' shows", "clue": "p_s_e_s_o_", "sentence": "___ is shown by 'of'.", "difficulty": "easy"},
+    {"id": "spelling-4", "word": "origin", "hint": "What 'from' shows", "clue": "_r_g_n", "sentence": "___ is shown by 'from'.", "difficulty": "easy"},
+    {"id": "spelling-5", "word": "quantity", "hint": "Amount with 'of'", "clue": "q_a_t_t_", "sentence": "Cup ___ tea.", "difficulty": "medium"},
+    {"id": "spelling-6", "word": "source", "hint": "Where from comes", "clue": "s_u_c_", "sentence": "The ___ of the river.", "difficulty": "medium"},
+    {"id": "spelling-7", "word": "material", "hint": "Made from ___", "clue": "m_t_r_a_", "sentence": "Made ___ wood.", "difficulty": "medium"},
+    {"id": "spelling-8", "word": "belonging", "hint": "Part of with 'of'", "clue": "b_l_n_i_g", "sentence": "___ to the group.", "difficulty": "medium"}
+  ],
+  "rewards": {
+    "stars": {"bronze": 12, "silver": 35, "gold": 60, "platinum": 85},
+    "badges": [
+      {"id": "of-from-starter", "name": "Of/From Starter 📖", "condition": "Complete lesson-1 with 80% or higher", "icon": "📖", "points": 25, "message": "You understand of for possession!"},
+      {"id": "origin-expert", "name": "Origin Expert 🌍", "condition": "Use from correctly for origins", "icon": "🌍", "points": 35, "message": "You master from for sources."},
+      {"id": "confusion-clarifier", "name": "Confusion Clarifier 🤔", "condition": "Distinguish of and from", "icon": "🤔", "points": 45, "message": "You clarify of vs from."},
+      {"id": "of-from-wizard", "name": "Of/From Wizard 🧙", "condition": "Use both prepositions perfectly", "icon": "🧙", "points": 55, "message": "You are confident with of and from."},
+      {"id": "ultimate-of-from-master", "name": "Ultimate Of/From Master 🏆", "condition": "Collect ALL other badges + 100% on every activity", "icon": "🏆", "points": 200, "message": "You are an of/from preposition expert!"}
+    ]
+  }
+}

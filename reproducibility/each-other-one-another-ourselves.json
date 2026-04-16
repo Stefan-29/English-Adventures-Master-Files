@@ -3,7 +3,7 @@
         {
             "id": "lesson-1",
             "title": "Each Other/One Another/Ourselves – Reciprocal & Reflexive! 🎯",
-            "content": "<p>Welcome to reciprocal and reflexive pronouns! <strong>Each other</strong>, <strong>one another</strong>, and <strong>ourselves</strong> show relationships and self-reference. 🔄</p><p><strong>Core Concept:</strong> These pronouns show how people relate to each other or themselves.</p><p><strong>Three Types:</strong></p><ul><li><strong>Reciprocal:</strong> Each other/one another (mutual actions)</li><li><strong>Reflexive:</strong> Ourselves (self-reference)</li><li><strong>Usage:</strong> Small groups vs large groups vs self</li></ul><p><strong>Important Note:</strong> Each other = two people, one another = more than two, ourselves = we referring to ourselves.</p><p><strong>Common Mistakes:</strong> Using wrong pronoun for group size or confusing with possessive.</p>",
+            "content": "<p>Welcome to reciprocal and reflexive pronouns! <strong>Each other</strong>, <strong>one another</strong>, and <strong>ourselves</strong> show relationships and self-reference. 🔄</p><p><strong>Core Concept:</strong> These pronouns show how people relate to each other or themselves.</p><p><strong>Three Types:</strong></p><table class=\"lesson-table table-pink\"><tr><th>Information</th></tr><tr><td><strong>Reciprocal:</strong> Each other/one another (mutual actions)</td></tr><tr><td><strong>Reflexive:</strong> Ourselves (self-reference)</td></tr><tr><td><strong>Usage:</strong> Small groups vs large groups vs self</td></tr></table><p><strong>Important Note:</strong> Each other = two people, one another = more than two, ourselves = we referring to ourselves.</p><p><strong>Common Mistakes:</strong> Using wrong pronoun for group size or confusing with possessive.</p>",
             "examples": [
                 "John and Mary love <strong>each other</strong>. (two people, mutual)",
                 "The students help <strong>one another</strong>. (group, mutual)",
@@ -24,7 +24,7 @@
         {
             "id": "lesson-2",
             "title": "Each Other – Reciprocal for Pairs 👫",
-            "content": "<p>Master <strong>each other</strong> for reciprocal actions between two people. 👫</p><p><strong>Each Other Usage:</strong></p><ul><li><strong>Two people:</strong> John and Mary, he and she</li><li><strong>Mutual actions:</strong> Both do the same to each other</li><li><strong>Two-way:</strong> Action goes both directions</li><li><strong>Small groups:</strong> Sometimes used for small groups</li></ul><p><strong>Context Matters:</strong> Emphasizes the pair relationship.</p><p><strong>Practice Strategy:</strong> Think of couples, partners, or best friends.</p>",
+            "content": "<p>Master <strong>each other</strong> for reciprocal actions between two people. 👫</p><p><strong>Each Other Usage:</strong></p><table class=\"lesson-table table-pink\"><tr><th>Information</th></tr><tr><td><strong>Two people:</strong> John and Mary, he and she</td></tr><tr><td><strong>Mutual actions:</strong> Both do the same to each other</td></tr><tr><td><strong>Two-way:</strong> Action goes both directions</td></tr><tr><td><strong>Small groups:</strong> Sometimes used for small groups</td></tr></table><p><strong>Context Matters:</strong> Emphasizes the pair relationship.</p><p><strong>Practice Strategy:</strong> Think of couples, partners, or best friends.</p>",
             "examples": [
                 "Tom and Jerry fight <strong>each other</strong>. (two characters)",
                 "The twins look like <strong>each other</strong>. (mutual resemblance)",
@@ -45,7 +45,7 @@
         {
             "id": "lesson-3",
             "title": "One Another – Reciprocal for Groups 👥",
-            "content": "<p>Learn <strong>one another</strong> for reciprocal actions in larger groups. 👥</p><p><strong>One Another Usage:</strong></p><ul><li><strong>Three or more:</strong> Groups, teams, classes</li><li><strong>Formal tone:</strong> More formal than 'each other'</li><li><strong>Mutual actions:</strong> All members interact reciprocally</li><li><strong>Group dynamics:</strong> Shows group relationships</li></ul><p><strong>Regional Note:</strong> Americans often prefer 'each other' even for groups.</p><p><strong>Advanced Tip:</strong> One another sounds more sophisticated.</p>",
+            "content": "<p>Learn <strong>one another</strong> for reciprocal actions in larger groups. 👥</p><p><strong>One Another Usage:</strong></p><table class=\"lesson-table table-pink\"><tr><th>Information</th></tr><tr><td><strong>Three or more:</strong> Groups, teams, classes</td></tr><tr><td><strong>Formal tone:</strong> More formal than 'each other'</td></tr><tr><td><strong>Mutual actions:</strong> All members interact reciprocally</td></tr><tr><td><strong>Group dynamics:</strong> Shows group relationships</td></tr></table><p><strong>Regional Note:</strong> Americans often prefer 'each other' even for groups.</p><p><strong>Advanced Tip:</strong> One another sounds more sophisticated.</p>",
             "examples": [
                 "The students respect <strong>one another</strong>. (class group)",
                 "Team members trust <strong>one another</strong>. (work team)",
@@ -66,7 +66,7 @@
         {
             "id": "lesson-4",
             "title": "Ourselves – Reflexive Pronoun 🔄",
-            "content": "<p>Master <strong>ourselves</strong> as a reflexive pronoun for self-reference. 🔄</p><p><strong>Ourselves Usage:</strong></p><ul><li><strong>Reflexive:</strong> Subject and object are the same ('we')</li><li><strong>Self-actions:</strong> We do something to ourselves</li><li><strong>Emphasis:</strong> We did it ourselves (by ourselves)</li><li><strong>Reciprocal:</strong> Can show mutual actions within 'we'</li></ul><p><strong>Grammar Rule:</strong> Must refer back to subject pronoun 'we'.</p><p><Practice Strategy:</strong> Use when the subject 'we' is doing something to itself.</p>",
+            "content": "<p>Master <strong>ourselves</strong> as a reflexive pronoun for self-reference. 🔄</p><p><strong>Ourselves Usage:</strong></p><table class=\"lesson-table table-pink\"><tr><th>Information</th></tr><tr><td><strong>Reflexive:</strong> Subject and object are the same ('we')</td></tr><tr><td><strong>Self-actions:</strong> We do something to ourselves</td></tr><tr><td><strong>Emphasis:</strong> We did it ourselves (by ourselves)</td></tr><tr><td><strong>Reciprocal:</strong> Can show mutual actions within 'we'</td></tr></table><p><strong>Grammar Rule:</strong> Must refer back to subject pronoun 'we'.</p><p><Practice Strategy:</strong> Use when the subject 'we' is doing something to itself.</p>",
             "examples": [
                 "We prepared <strong>ourselves</strong> for the test. (reflexive)",
                 "We enjoyed <strong>ourselves</strong> at the party. (reflexive)",
@@ -87,7 +87,7 @@
         {
             "id": "lesson-5",
             "title": "Choosing the Right Pronoun – Context Matters ⚖️",
-            "content": "<p>Learn when to choose <strong>each other</strong>, <strong>one another</strong>, or <strong>ourselves</strong>. ⚖️</p><p><strong>Decision Guide:</strong></p><ul><li><strong>Each other:</strong> Two people/things, mutual actions</li><li><strong>One another:</strong> Three+ people/things, formal mutual actions</li><li><strong>Ourselves:</strong> 'We' referring to itself, self-actions</li><li><strong>Group size:</strong> Determines reciprocal pronoun choice</li></ul><p><strong>Context Test:</strong> Count the people involved to choose correctly.</p><p><Practice Strategy:</strong> Identify the subject and see what type of relationship is shown.</p>",
+            "content": "<p>Learn when to choose <strong>each other</strong>, <strong>one another</strong>, or <strong>ourselves</strong>. ⚖️</p><p><strong>Decision Guide:</strong></p><table class=\"lesson-table table-pink\"><tr><th>Information</th></tr><tr><td><strong>Each other:</strong> Two people/things, mutual actions</td></tr><tr><td><strong>One another:</strong> Three+ people/things, formal mutual actions</td></tr><tr><td><strong>Ourselves:</strong> 'We' referring to itself, self-actions</td></tr><tr><td><strong>Group size:</strong> Determines reciprocal pronoun choice</td></tr></table><p><strong>Context Test:</strong> Count the people involved to choose correctly.</p><p><Practice Strategy:</strong> Identify the subject and see what type of relationship is shown.</p>",
             "examples": [
                 "John and Mary love <strong>each other</strong>. (2 people, reciprocal)",
                 "The three friends help <strong>one another</strong>. (3+ people, reciprocal)",
@@ -110,7 +110,7 @@
         {
             "id": "lesson-6",
             "title": "Mastering Reciprocal & Reflexive – Natural Usage 🏆",
-            "content": "<p>Put it all together! Use these pronouns naturally in communication. 🏆</p><p><strong>Communication Strategies:</strong></p><ul><li><strong>Relationships:</strong> Each other for pairs, one another for groups</li><li><strong>Self-reference:</strong> Ourselves for 'we' actions</li><li><strong>Emphasis:</strong> By ourselves, to ourselves</li><li><strong>Reciprocity:</strong> Mutual actions and feelings</li></ul><p><strong>Advanced Tip:</strong> Ourselves can show both reflexive and reciprocal meanings.</p>",
+            "content": "<p>Put it all together! Use these pronouns naturally in communication. 🏆</p><p><strong>Communication Strategies:</strong></p><table class=\"lesson-table table-pink\"><tr><th>Information</th></tr><tr><td><strong>Relationships:</strong> Each other for pairs, one another for groups</td></tr><tr><td><strong>Self-reference:</strong> Ourselves for 'we' actions</td></tr><tr><td><strong>Emphasis:</strong> By ourselves, to ourselves</td></tr><tr><td><strong>Reciprocity:</strong> Mutual actions and feelings</td></tr></table><p><strong>Advanced Tip:</strong> Ourselves can show both reflexive and reciprocal meanings.</p>",
             "examples": [
                 "The couple understands <strong>each other</strong> perfectly. (pair relationship)",
                 "The colleagues respect <strong>one another</strong> in the office. (group respect)",

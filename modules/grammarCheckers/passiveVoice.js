@@ -54,8 +54,18 @@ export const passiveVoiceChecker = {
                 }
                 break;
             }
-            default:
+            case 'writing-7': {
+                if (!/\bit (is|was)\s+(said|believed|thought|known)\s+that\b/.test(clean)) {
+                    return { status: 'missing', title: 'Use Impersonal Passive', message: 'Use impersonal passive like <strong>It is said that...</strong> or <strong>It is believed that...</strong>.', icon: 'Pencil' };
+                }
                 break;
+            }
+            case 'writing-8': {
+                if (!/\b(had|got)\s+\w+\s+\w+ed\b/.test(clean)) {
+                    return { status: 'missing', title: 'Use Causative Passive', message: 'Use causative passive like <strong>I had my car repaired</strong> or <strong>I got my hair cut</strong>.', icon: 'Pencil' };
+                }
+                break;
+            }
         }
 
         return { status: 'good', title: 'Great!', message: 'Your passive writing looks good. Keep practicing!', icon: 'Check' };

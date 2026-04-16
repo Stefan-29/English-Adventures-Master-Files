@@ -3,7 +3,7 @@
         {
             "id": "lesson-1",
             "title": "Countable vs Uncountable Nouns – Quantity Matters! 🎯",
-            "content": "<p>Welcome to countable and uncountable nouns! Learn which nouns can be counted and which cannot. 🔢</p><p><strong>Core Concept:</strong> Countable nouns have plural forms and can be counted. Uncountable nouns cannot be counted individually.</p><p><strong>Key Differences:</strong></p><ul><li><strong>Countable:</strong> Books, cars, ideas (can count: one book, two books)</li><li><strong>Uncountable:</strong> Water, rice, information (cannot count individually)</li><li><strong>Articles:</strong> Countable use a/an, uncountable don't</li><li><strong>Quantifiers:</strong> Different words for each type</li></ul><p><strong>Important Note:</strong> Some nouns can be both depending on meaning!</p><p><strong>Common Mistakes:</strong> Using wrong articles or quantifiers with nouns.</p>",
+            "content": "<p>Welcome to countable and uncountable nouns! Learn which nouns can be counted and which cannot. 🔢</p><p><strong>Core Concept:</strong> Countable nouns have plural forms and can be counted. Uncountable nouns cannot be counted individually.</p><p><strong>Key Differences:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>Countable:</strong> Books, cars, ideas (can count: one book, two books)</td></tr><tr><td><strong>Uncountable:</strong> Water, rice, information (cannot count individually)</td></tr><tr><td><strong>Articles:</strong> Countable use a/an, uncountable don't</td></tr><tr><td><strong>Quantifiers:</strong> Different words for each type</td></tr></table><p><strong>Important Note:</strong> Some nouns can be both depending on meaning!</p><p><strong>Common Mistakes:</strong> Using wrong articles or quantifiers with nouns.</p>",
             "examples": [
                 "<strong>Countable:</strong> I have three <strong>books</strong>. (can count individually)",
                 "<strong>Uncountable:</strong> I need some <strong>water</strong>. (cannot count drops)",
@@ -24,7 +24,7 @@
         {
             "id": "lesson-2",
             "title": "Countable Nouns – Individual Items 📚",
-            "content": "<p>Master <strong>countable nouns</strong> that can be counted individually. 📚</p><p><strong>Countable Characteristics:</strong></p><ul><li><strong>Plural forms:</strong> Book → books, car → cars</li><strong>Articles:</strong> A/an (singular), the (specific), zero article (plural)</li><li><strong>Quantifiers:</strong> Many, few, several, a few, a lot of</li><li><strong>Numbers:</strong> One book, two books, three books</li></ul><p><strong>Grammar Rule:</strong> Always check if noun has plural form.</p><p><strong>Practice Strategy:</strong> Ask 'How many?' to identify countable nouns.</p>",
+            "content": "<p>Master <strong>countable nouns</strong> that can be counted individually. 📚</p><p><strong>Countable Characteristics:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>Plural forms:</strong> Book → books, car → cars</td></tr><tr><td><strong>Quantifiers:</strong> Many, few, several, a few, a lot of</td></tr><tr><td><strong>Numbers:</strong> One book, two books, three books</td></tr></table><p><strong>Grammar Rule:</strong> Always check if noun has plural form.</p><p><strong>Practice Strategy:</strong> Ask 'How many?' to identify countable nouns.</p>",
             "examples": [
                 "I have <strong>a book</strong>. (singular + a)",
                 "She owns <strong>three cars</strong>. (plural + number)",
@@ -47,7 +47,7 @@
         {
             "id": "lesson-3",
             "title": "Uncountable Nouns – Mass Quantities 🌊",
-            "content": "<p>Learn <strong>uncountable nouns</strong> that cannot be counted individually. 🌊</p><p><strong>Uncountable Characteristics:</strong></p><ul><li><strong>No plural:</strong> Water (not waters), rice (not rices)</li><li><strong>No a/an:</strong> Use zero article or 'some'/'any'</li><li><strong>Quantifiers:</strong> Much, little, a little, a lot of, some</li><li><strong>Measurement:</strong> A glass of water, a cup of coffee</li></ul><p><strong>Context Matters:</strong> Cannot use numbers directly with uncountable nouns.</p><p><strong>Advanced Tip:</strong> Use containers or measurements to quantify.</p>",
+            "content": "<p>Learn <strong>uncountable nouns</strong> that cannot be counted individually. 🌊</p><p><strong>Uncountable Characteristics:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>No plural:</strong> Water (not waters), rice (not rices)</td></tr><tr><td><strong>No a/an:</strong> Use zero article or 'some'/'any'</td></tr><tr><td><strong>Quantifiers:</strong> Much, little, a little, a lot of, some</td></tr><tr><td><strong>Measurement:</strong> A glass of water, a cup of coffee</td></tr></table><p><strong>Context Matters:</strong> Cannot use numbers directly with uncountable nouns.</p><p><strong>Advanced Tip:</strong> Use containers or measurements to quantify.</p>",
             "examples": [
                 "I need <strong>some water</strong>. (no article)",
                 "She has <strong>much experience</strong>. (uncountable + much)",
@@ -70,7 +70,7 @@
         {
             "id": "lesson-4",
             "title": "Dual Meaning Nouns – Context Changes Everything 🔄",
-            "content": "<p>Master nouns that can be <strong>both countable and uncountable</strong> depending on context. 🔄</p><p><strong>Dual Meaning Nouns:</strong></p><ul><li><strong>Countable:</strong> A chicken (animal), chickens (food)</li><li><strong>Uncountable:</strong> Chicken (meat), paper (material)</li><li><strong>Context:</strong> Meaning determines countability</li><li><strong>Examples:</strong> Light, time, hair, paper, chicken</li></ul><p><strong>Context Test:</strong> What does the noun refer to? Object or substance?</p><p><Practice Strategy:</strong> Change meaning and see if countability changes.</p>",
+            "content": "<p>Master nouns that can be <strong>both countable and uncountable</strong> depending on context. 🔄</p><p><strong>Dual Meaning Nouns:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>Countable:</strong> A chicken (animal), chickens (food)</td></tr><tr><td><strong>Uncountable:</strong> Chicken (meat), paper (material)</td></tr><tr><td><strong>Context:</strong> Meaning determines countability</td></tr><tr><td><strong>Examples:</strong> Light, time, hair, paper, chicken</td></tr></table><p><strong>Context Test:</strong> What does the noun refer to? Object or substance?</p><p><Practice Strategy:</strong> Change meaning and see if countability changes.</p>",
             "examples": [
                 "<strong>Countable:</strong> I bought <strong>a paper</strong>. (newspaper)",
                 "<strong>Uncountable:</strong> The box is made of <strong>paper</strong>. (material)",
@@ -93,7 +93,7 @@
         {
             "id": "lesson-5",
             "title": "Quantifiers & Articles – Matching Nouns Correctly ⚖️",
-            "content": "<p>Learn to match <strong>quantifiers and articles</strong> with the correct noun type. ⚖️</p><p><strong>Countable Quantifiers:</strong></p><ul><li><strong>Many/few:</strong> Many books, few cars</li><li><strong>A few/several:</strong> A few ideas, several questions</li><li><strong>A lot of:</strong> A lot of problems</li></ul><p><strong>Uncountable Quantifiers:</strong></p><ul><li><strong>Much/little:</strong> Much water, little time</li><li><strong>A little:</strong> A little sugar, a little advice</li><li><strong>A lot of:</strong> A lot of money</li></ul><p><strong>Article Rules:</strong> Countable = a/an/the, Uncountable = zero article.</p>",
+            "content": "<p>Learn to match <strong>quantifiers and articles</strong> with the correct noun type. ⚖️</p><p><strong>Countable Quantifiers:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>Many/few:</strong> Many books, few cars</td></tr><tr><td><strong>A few/several:</strong> A few ideas, several questions</td></tr><tr><td><strong>A lot of:</strong> A lot of problems</td></tr></table><p><strong>Uncountable Quantifiers:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>Much/little:</strong> Much water, little time</td></tr><tr><td><strong>A little:</strong> A little sugar, a little advice</td></tr><tr><td><strong>A lot of:</strong> A lot of money</td></tr></table><p><strong>Article Rules:</strong> Countable = a/an/the, Uncountable = zero article.</p>",
             "examples": [
                 "<strong>Countable:</strong> <strong>Many</strong> people attended. (plural)",
                 "<strong>Uncountable:</strong> <strong>Much</strong> time was wasted. (mass)",
@@ -116,7 +116,7 @@
         {
             "id": "lesson-6",
             "title": "Mastering Countable/Uncountable – Natural Usage 🏆",
-            "content": "<p>Put it all together! Use countable and uncountable nouns naturally. 🏆</p><p><strong>Communication Strategies:</strong></p><ul><li><strong>Quantities:</strong> How many (countable) vs how much (uncountable)</li><li><strong>Articles:</strong> A/an (countable singular), zero (uncountable)</li><li><strong>Measurements:</strong> A cup of, a piece of, a glass of</li><li><strong>Context:</strong> Meaning determines countability</li></ul><p><strong>Advanced Tip:</strong> Native speakers often use countable forms in specific contexts.</p>",
+            "content": "<p>Put it all together! Use countable and uncountable nouns naturally. 🏆</p><p><strong>Communication Strategies:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>Quantities:</strong> How many (countable) vs how much (uncountable)</td></tr><tr><td><strong>Articles:</strong> A/an (countable singular), zero (uncountable)</td></tr><tr><td><strong>Measurements:</strong> A cup of, a piece of, a glass of</td></tr><tr><td><strong>Context:</strong> Meaning determines countability</td></tr></table><p><strong>Advanced Tip:</strong> Native speakers often use countable forms in specific contexts.</p>",
             "examples": [
                 "How <strong>many</strong> books do you have? (countable)",
                 "How <strong>much</strong> money do you need? (uncountable)",

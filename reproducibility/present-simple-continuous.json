@@ -3,7 +3,7 @@
         {
             "id": "lesson-1",
             "title": "Present Simple – Your Daily Superpower! 🎯",
-            "content": "<p>Every time you say \"I wake up at 7,\" \"The sun rises in the east,\" or \"She hates spiders,\" you're using the <strong>Present Simple</strong>! 📚</p><p><strong>Present Simple</strong> = the tense we use for habits, facts, and things that are generally true.</p><p><strong>Formation</strong>: base verb (+ -s / -es for he/she/it). Think of it like a timetable – fixed and reliable:</p><ul><li>I/You/We/They <strong>play</strong></li><li>He/She/It <strong>plays</strong></li></ul><p><em>Fun fact: We add -es to verbs ending in -s, -sh, -ch, -x, -o (go → goes, watch → watches)!</em> 💡</p>",
+            "content": "<p>Every time you say \"I wake up at 7,\" \"The sun rises in the east,\" or \"She hates spiders,\" you're using the <strong>Present Simple</strong>! 📚</p><p><strong>Present Simple</strong> = the tense we use for habits, facts, and things that are generally true.</p><p><strong>Formation</strong>: base verb (+ -s / -es for he/she/it). Think of it like a timetable – fixed and reliable:</p><table class=\"lesson-table table-green\"><tr><th>Information</th></tr><tr><td>I/You/We/They <strong>play</strong></td></tr><tr><td>He/She/It <strong>plays</strong></td></tr></table><p><em>Fun fact: We add -es to verbs ending in -s, -sh, -ch, -x, -o (go → goes, watch → watches)!</em> 💡</p>",
             "examples": [
                 "John <strong>plays</strong> tennis every Saturday. (habit)",
                 "Water <strong>boils</strong> at 100°C. (fact)"
@@ -19,7 +19,7 @@
         {
             "id": "lesson-2",
             "title": "Present Simple Questions & Negatives 🚀",
-            "content": "<p>Now let's ask and say \"no\"! 🎮 We need <strong>do/does</strong> as helpers.</p><p><strong>Formation:</strong></p><ul><li>Question: <strong>Do/Does</strong> + subject + base verb?</li><li>Negative: Subject + <strong>don't/doesn't</strong> + base verb</li></ul><p><em>Example:</em> She likes coffee → <strong>Does</strong> she <strong>like</strong> coffee? → She <strong>doesn't like</strong> tea.</p><p><em>Fun fact: Native speakers almost always use contractions: don't / doesn't!</em> 🌟</p>",
+            "content": "<p>Now let's ask and say \"no\"! 🎮 We need <strong>do/does</strong> as helpers.</p><p><strong>Formation:</strong></p><table class=\"lesson-table table-green\"><tr><th>Information</th></tr><tr><td>Question: <strong>Do/Does</strong> + subject + base verb?</td></tr><tr><td>Negative: Subject + <strong>don't/doesn't</strong> + base verb</td></tr></table><p><em>Example:</em> She likes coffee → <strong>Does</strong> she <strong>like</strong> coffee? → She <strong>doesn't like</strong> tea.</p><p><em>Fun fact: Native speakers almost always use contractions: don't / doesn't!</em> 🌟</p>",
             "examples": [
                 "Positive: He <strong>plays</strong> football.",
                 "Negative: He <strong>doesn't play</strong> rugby.",

@@ -1,0 +1,202 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Position Prepositions – Your First Step! 🎯",
+      "content": "<p>Welcome to Position Prepositions! These prepositions indicate the position of objects in relation to each other. 📚</p><p><strong>Core Concept:</strong> Position prepositions show where something is located.</p><p><strong>Key Points:</strong></p><ul><li>Study the images and examples to understand each preposition</li><li>Common prepositions: above, across, against, among, around, behind, below, beneath, beside, between, by, in front of, inside, near, next to, on, outside, over, through, under, underneath</li></ul><p><strong>Important Note:</strong> Position prepositions are static - they describe fixed locations.</p><p><strong>Common Mistakes:</strong> Confusing similar prepositions like beside and besides.</p>",
+      "examples": [
+        "The red ball is above the blue box.",
+        "The red bar is lying across the blue boxes.",
+        "The red bar is lying against the blue box.",
+        "The red ball is among the blue boxes.",
+        "The red balls are around the blue box.",
+        "The red ball is behind the blue box."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_basics.mp3",
+      "functions": ["Identify position prepositions", "Use them in sentences", "Understand spatial relationships"],
+      "tips": "💡 <strong>Practice Tip:</strong> Visualize the position as you read the examples."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Direction Prepositions – Movement in Action 🚀",
+      "content": "<p>Direction prepositions show movement or the path of motion. 📈</p><p><strong>Core Concept:</strong> These prepositions indicate how something moves from one place to another.</p><p><strong>Key Points:</strong></p><ul><li>Direction prepositions: across, against, along, around, away from, down, from, into, off of, onto, out of, over, through, to, towards, under, up</li><li>They often work with verbs of motion</li><li>Some can be combined with 'from' or 'to' for clarity</li></ul><p><strong>Examples:</strong> The red ball bounced across the blue line. The red ball is rolling away from the blue box.</p>",
+      "examples": [
+        "The red ball bounced across the blue line.",
+        "The red ball rolled against the blue box.",
+        "The red ball is rolling along the blue line.",
+        "The red ball is rolling around the blue box.",
+        "The red ball is rolling away from the blue box.",
+        "The red ball is rolling down the blue stairs."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_application.mp3",
+      "functions": ["Recognize direction in sentences", "Use prepositions with motion verbs", "Combine with from/to when needed"],
+      "tips": "💡 <strong>Memory Aid:</strong> Direction prepositions show 'where to' or 'how'."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Location Prepositions – Specific Places 🔍",
+      "content": "<p>Hey there! Location prepositions are special because they match specific types of places. 🎭</p><p><strong>How to choose:</strong> Think about the type of location to pick the right preposition.</p><table class=\"lesson-table table-purple\"><tr><th>Preposition</th><th>Location Types</th><th>Examples</th></tr><tr><td><strong>At</strong></td><td>Specific places, addresses, events</td><td>at work, at the bank, at 123 Main Street</td></tr><tr><td><strong>In</strong></td><td>Enclosed spaces, buildings, regions</td><td>in class, in New York, in the car</td></tr><tr><td><strong>On</strong></td><td>Surfaces, roads, public transport</td><td>on the table, on the street, on the bus</td></tr><tr><td><strong>Aboard</strong></td><td>Boats, planes, trains (formal)</td><td>aboard the ship, aboard the plane</td></tr></table><p><strong>Tip:</strong> At for points, in for inside, on for contact, aboard for vehicles.</p>",
+      "examples": [
+        "David is waiting at the bank.",
+        "The bank is on Oxford street.",
+        "He lives in New York.",
+        "The children are in the garden.",
+        "The book is on the desk.",
+        "Natalie was on a cruise ship when she saw the whale."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_3_exceptions.mp3",
+      "functions": ["Choose correct location preposition", "Understand location categories", "Use in context"],
+      "tips": "💡 <strong>Practice Tip:</strong> Group locations by preposition to memorize."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Confusing Pairs: Between/Among & Beside/Besides 🧠",
+      "content": "<p>These preposition pairs can be tricky! Let's learn the differences. 📘</p><p><strong>Between vs Among:</strong> Between for two or more distinct things, among for groups.</p><p><strong>Beside vs Besides:</strong> Beside means 'next to', besides means 'in addition'.</p><table class=\"lesson-table table-teal\"><tr><th>Pair</th><th>Usage</th><th>Example</th></tr><tr><td><strong>Between</strong></td><td>For specific items or two things</td><td>between Alex and Hugo</td></tr><tr><td><strong>Among</strong></td><td>For groups or surrounded by</td><td>among friends</td></tr><tr><td><strong>Beside</strong></td><td>Next to (spatial)</td><td>beside the shed</td></tr><tr><td><strong>Besides</strong></td><td>Apart from or in addition</td><td>besides the medal</td></tr></table><p><strong>Remember:</strong> Between names things, among is for crowds.</p>",
+      "examples": [
+        "Carla sat between Alex and Hugo.",
+        "The museum is open between 9 am and 7 pm.",
+        "A spy was among those listening.",
+        "The dog ran among all the children.",
+        "Peter sat beside Charlie on the bus.",
+        "Besides the birthday cake, there will be pastries."
+      ],
+      "difficulty": 4,
+      "audio": "lesson_4_advanced.mp3",
+      "functions": ["Distinguish between similar prepositions", "Use correct pair in context", "Avoid common confusions"],
+      "tips": "💡 <strong>Practice Tip:</strong> Compare sentences side by side to see differences."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Describe the position of objects using position prepositions.",
+      "hint": "Use prepositions like above, behind, beside, etc.",
+      "expectedKeywords": ["above", "behind", "beside", "below", "between", "in front of", "next to", "on", "over", "under"],
+      "sentenceStarters": ["The book is ___ the table.", "The cat is ___ the chair.", "The picture is ___ the wall."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write sentences showing direction or movement.",
+      "hint": "Use direction prepositions with motion verbs.",
+      "expectedKeywords": ["across", "along", "around", "away from", "down", "into", "onto", "out of", "through", "to", "towards", "up"],
+      "sentenceStarters": ["The ball rolled ___ the hill.", "She walked ___ the room.", "He jumped ___ the pool."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Use location prepositions correctly.",
+      "hint": "Choose at, in, on, or aboard based on location type.",
+      "expectedKeywords": ["at", "in", "on", "aboard"],
+      "sentenceStarters": ["I live ___ Main Street.", "The meeting is ___ the office.", "We traveled ___ the train."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-4",
+      "question": "Choose between between/among or beside/besides.",
+      "hint": "Between/among for separation/group, beside/besides for next to/additional.",
+      "expectedKeywords": ["between", "among", "beside", "besides"],
+      "sentenceStarters": ["The shop is ___ the bank and the post office.", "He has many qualities ___ being intelligent.", "The child sat ___ his mother.", "___ the cake, we had ice cream."],
+      "difficulty": 4
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Select the correct position preposition.",
+      "sentence": "The plane flew ___ the clouds.",
+      "options": ["above", "across", "against", "among", "around", "behind"],
+      "correctAnswer": ["above"],
+      "hint": "Above means higher than.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Choose the right direction preposition.",
+      "sentence": "The car drove ___ the tunnel.",
+      "options": ["across", "along", "around", "away from", "into", "through"],
+      "correctAnswer": ["through"],
+      "hint": "Through means passing from one side to the other.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct location preposition.",
+      "sentence": "She works ___ an office.",
+      "options": ["at", "in", "on", "aboard"],
+      "correctAnswer": ["in"],
+      "hint": "In is used for buildings and enclosed spaces.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Select between or among.",
+      "sentence": "The gift was hidden ___ the presents.",
+      "options": ["between", "among", "beside", "besides"],
+      "correctAnswer": ["among"],
+      "hint": "Among is used when surrounded by a group.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Which preposition means 'next to'?",
+      "sentence": "",
+      "options": ["beside", "besides", "between", "among"],
+      "correctAnswer": "beside",
+      "audio": "quiz_1_basics.mp3",
+      "hint": "Beside is spatial, besides is additional.",
+      "difficulty": "easy",
+      "explanation": "Beside means 'at the side of'."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Choose the correct preposition: 'The cat is ___ the table.'",
+      "sentence": "",
+      "options": ["at", "in", "on", "aboard"],
+      "correctAnswer": "on",
+      "hint": "On is used for surfaces.",
+      "difficulty": "easy",
+      "explanation": "On indicates contact with a surface."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which is correct: 'between you and me' or 'among you and me'?",
+      "sentence": "",
+      "options": ["Between you and me", "Among you and me", "Both", "Neither"],
+      "correctAnswer": "Between you and me",
+      "audio": "quiz_3_exceptions.mp3",
+      "hint": "Between for two specific people.",
+      "difficulty": "medium",
+      "explanation": "Between is used for two distinct entities."
+    }
+  ],
+  "spellingActivities": [
+    {"id": "spelling-1", "word": "above", "hint": "Higher than", "clue": "_b_v_", "sentence": "The plane is flying ___ the clouds.", "difficulty": "easy"},
+    {"id": "spelling-2", "word": "behind", "hint": "At the back of", "clue": "b_h_n_", "sentence": "The dog is ___ the house.", "difficulty": "easy"},
+    {"id": "spelling-3", "word": "between", "hint": "Separating two things", "clue": "b_t_e_n", "sentence": "The river flows ___ the mountains.", "difficulty": "easy"},
+    {"id": "spelling-4", "word": "among", "hint": "In a group", "clue": "_m_n_", "sentence": "He was ___ the crowd.", "difficulty": "easy"},
+    {"id": "spelling-5", "word": "beside", "hint": "Next to", "clue": "b_s_d_", "sentence": "Sit ___ me.", "difficulty": "easy"},
+    {"id": "spelling-6", "word": "besides", "hint": "In addition to", "clue": "b_s_d_s", "sentence": "___ English, he speaks French.", "difficulty": "medium"},
+    {"id": "spelling-7", "word": "towards", "hint": "In the direction of", "clue": "t_w_r_s", "sentence": "He walked ___ the door.", "difficulty": "medium"},
+    {"id": "spelling-8", "word": "aboard", "hint": "On a vehicle", "clue": "_b__r_", "sentence": "Welcome ___ the plane.", "difficulty": "medium"}
+  ],
+  "rewards": {
+    "stars": {"bronze": 12, "silver": 35, "gold": 60, "platinum": 85},
+    "badges": [
+      {"id": "position-pro", "name": "Position Pro 📍", "condition": "Complete lesson-1 with 80% or higher", "icon": "📍", "points": 25, "message": "You understand position prepositions!"},
+      {"id": "direction-expert", "name": "Direction Expert 🧭", "condition": "Use direction prepositions in 3 sentences", "icon": "🧭", "points": 35, "message": "You master movement prepositions."},
+      {"id": "location-wizard", "name": "Location Wizard 🗺️", "condition": "Correctly use at, in, on, aboard", "icon": "🗺️", "points": 45, "message": "You know location categories."},
+      {"id": "confusion-solver", "name": "Confusion Solver 🤔", "condition": "Distinguish between/among and beside/besides", "icon": "🤔", "points": 55, "message": "You clarify confusing pairs."},
+      {"id": "ultimate-prep-master", "name": "Ultimate Prep Master 🏆", "condition": "Collect ALL other badges + 100% on every activity", "icon": "🏆", "points": 200, "message": "You are a preposition expert!"}
+    ]
+  }
+}

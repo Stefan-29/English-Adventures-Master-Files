@@ -3,7 +3,7 @@
         {
             "id": "lesson-1",
             "title": "Zero Conditional – Facts & General Truths! 🎯",
-            "content": "<p>The <strong>Zero Conditional</strong> talks about things that are ALWAYS true! 🌍 Like scientific facts, general truths, and habits of the universe.</p><p><strong>Structure:</strong> If/When + Present Simple, Present Simple</p><ul><li>If you <strong>heat</strong> water to 100°C, it <strong>boils</strong>.</li><li>When you <strong>mix</strong> blue and yellow, you <strong>get</strong> green.</li></ul><p><em>Key words: if, when, unless, as long as, provided that</em> 💡</p>",
+            "content": "<p>The <strong>Zero Conditional</strong> talks about things that are ALWAYS true! 🌍 Like scientific facts, general truths, and habits of the universe.</p><p><strong>Structure:</strong> If/When + Present Simple, Present Simple</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>If you <strong>heat</strong> water to 100°C, it <strong>boils</strong>.</td></tr><tr><td>When you <strong>mix</strong> blue and yellow, you <strong>get</strong> green.</td></tr></table><p><em>Key words: if, when, unless, as long as, provided that</em> 💡</p>",
             "examples": [
                 "If you <strong>drop</strong> ice, it <strong>melts</strong>. (scientific fact)",
                 "When the sun <strong>sets</strong>, it <strong>gets</strong> dark. (general truth)"
@@ -20,7 +20,7 @@
         {
             "id": "lesson-2",
             "title": "First Conditional – Real Future Possibilities! 🚀",
-            "content": "<p>The <strong>First Conditional</strong> is for REAL future situations that might happen! 🎲 We use it when we think something is possible or likely.</p><p><strong>Structure:</strong> If + Present Simple, will + infinitive</p><ul><li>If it <strong>rains</strong> tomorrow, I <strong>will stay</strong> at home.</li><li>If you <strong>study</strong> hard, you <strong>will pass</strong> the exam.</li></ul><p><em>Alternatives: unless, as long as, provided that, when</em> ✨</p>",
+            "content": "<p>The <strong>First Conditional</strong> is for REAL future situations that might happen! 🎲 We use it when we think something is possible or likely.</p><p><strong>Structure:</strong> If + Present Simple, will + infinitive</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>If it <strong>rains</strong> tomorrow, I <strong>will stay</strong> at home.</td></tr><tr><td>If you <strong>study</strong> hard, you <strong>will pass</strong> the exam.</td></tr></table><p><em>Alternatives: unless, as long as, provided that, when</em> ✨</p>",
             "examples": [
                 "If I <strong>finish</strong> work early, I <strong>will call</strong> you.",
                 "Unless you <strong>leave</strong> now, you <strong>will miss</strong> the train."
@@ -37,7 +37,7 @@
         {
             "id": "lesson-3",
             "title": "Second Conditional – Hypothetical Dreams! 💭",
-            "content": "<p>The <strong>Second Conditional</strong> is for UNREAL or IMAGINARY situations in the present/future! 🌈 We dream about what could be different.</p><p><strong>Structure:</strong> If + Past Simple, would + infinitive</p><ul><li>If I <strong>won</strong> the lottery, I <strong>would travel</strong> the world.</li><li>If I <strong>were</strong> you, I <strong>would study</strong> harder.</li></ul><p><em>Special: Use 'were' instead of 'was' for all subjects (subjunctive mood!)</em> 🎨</p>",
+            "content": "<p>The <strong>Second Conditional</strong> is for UNREAL or IMAGINARY situations in the present/future! 🌈 We dream about what could be different.</p><p><strong>Structure:</strong> If + Past Simple, would + infinitive</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>If I <strong>won</strong> the lottery, I <strong>would travel</strong> the world.</td></tr><tr><td>If I <strong>were</strong> you, I <strong>would study</strong> harder.</td></tr></table><p><em>Special: Use 'were' instead of 'was' for all subjects (subjunctive mood!)</em> 🎨</p>",
             "examples": [
                 "If I <strong>had</strong> more time, I <strong>would learn</strong> Spanish.",
                 "If she <strong>were</strong> taller, she <strong>would play</strong> basketball."
@@ -54,7 +54,7 @@
         {
             "id": "lesson-4",
             "title": "Third Conditional – Past Regrets! 😔",
-            "content": "<p>The <strong>Third Conditional</strong> is for PAST situations that didn't happen! ⏰ We imagine how things could have been different.</p><p><strong>Structure:</strong> If + Past Perfect, would have + past participle</p><ul><li>If I <strong>had studied</strong> harder, I <strong>would have passed</strong> the exam.</li><li>If we <strong>had left</strong> earlier, we <strong>wouldn't have missed</strong> the flight.</li></ul><p><em>Key: Both actions are COMPLETED in the past</em> 📚</p>",
+            "content": "<p>The <strong>Third Conditional</strong> is for PAST situations that didn't happen! ⏰ We imagine how things could have been different.</p><p><strong>Structure:</strong> If + Past Perfect, would have + past participle</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>If I <strong>had studied</strong> harder, I <strong>would have passed</strong> the exam.</td></tr><tr><td>If we <strong>had left</strong> earlier, we <strong>wouldn't have missed</strong> the flight.</td></tr></table><p><em>Key: Both actions are COMPLETED in the past</em> 📚</p>",
             "examples": [
                 "If she <strong>had called</strong> me, I <strong>would have helped</strong> her.",
                 "If they <strong>had known</strong> about the party, they <strong>would have come</strong>."
@@ -71,7 +71,7 @@
         {
             "id": "lesson-5",
             "title": "Mixed Conditionals – Time Travel Grammar! 🕰️",
-            "content": "<p><strong>Mixed Conditionals</strong> combine different time periods! 🤯 One part past, one part present/future.</p><p><strong>Common Mixes:</strong></p><ul><li>Past condition → Present result: If + Past Perfect, would + infinitive</li><li>Present condition → Past result: If + Past Simple, would have + past participle</li></ul><p><em>Example: If I had studied medicine, I would be a doctor now. (past choice → present result)</em> 🔄</p>",
+            "content": "<p><strong>Mixed Conditionals</strong> combine different time periods! 🤯 One part past, one part present/future.</p><p><strong>Common Mixes:</strong></p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>Past condition → Present result: If + Past Perfect, would + infinitive</td></tr><tr><td>Present condition → Past result: If + Past Simple, would have + past participle</td></tr></table><p><em>Example: If I had studied medicine, I would be a doctor now. (past choice → present result)</em> 🔄</p>",
             "examples": [
                 "If I had woken up earlier, I wouldn't be so tired now.",
                 "If she were more careful, she wouldn't have crashed the car."
@@ -91,70 +91,131 @@
             "id": "writing-1",
             "question": "Write 5 sentences about everyday scientific facts or general truths using the zero conditional.",
             "hint": "Use present simple in both clauses. Example: If you heat ice, it melts.",
-            "expectedKeywords": ["if", "when", "present simple", "facts", "truths", "boils", "melts"],
+            "expectedKeywords": [
+                "if",
+                "when",
+                "present simple",
+                "facts",
+                "truths",
+                "boils",
+                "melts"
+            ],
             "difficulty": 1
         },
         {
             "id": "writing-2",
             "question": "Write 5 sentences describing natural processes or habits using zero conditional (use 'when' or 'unless' in at least two).",
             "hint": "Example: When plants get sunlight, they grow faster.",
-            "expectedKeywords": ["when", "unless", "present simple", "always", "facts"],
+            "expectedKeywords": [
+                "when",
+                "unless",
+                "present simple",
+                "always",
+                "facts"
+            ],
             "difficulty": 1
         },
         {
             "id": "writing-3",
             "question": "Write 5 sentences about your possible plans for tomorrow using first conditional.",
             "hint": "Example: If I wake up early, I will go jogging.",
-            "expectedKeywords": ["if", "will", "present simple", "future", "plans", "unless"],
+            "expectedKeywords": [
+                "if",
+                "will",
+                "present simple",
+                "future",
+                "plans",
+                "unless"
+            ],
             "difficulty": 2
         },
         {
             "id": "writing-4",
             "question": "Write 5 sentences giving advice or warnings to a friend using first conditional (include 'unless' or 'as long as' in at least two).",
             "hint": "Example: Unless you hurry, you will miss the bus.",
-            "expectedKeywords": ["unless", "as long as", "will", "advice", "warning"],
+            "expectedKeywords": [
+                "unless",
+                "as long as",
+                "will",
+                "advice",
+                "warning"
+            ],
             "difficulty": 2
         },
         {
             "id": "writing-5",
             "question": "Imagine winning a big prize. Write 6 sentences about what you would do using second conditional.",
             "hint": "Example: If I won a million dollars, I would buy a house.",
-            "expectedKeywords": ["if", "would", "past simple", "were", "hypothetical"],
+            "expectedKeywords": [
+                "if",
+                "would",
+                "past simple",
+                "were",
+                "hypothetical"
+            ],
             "difficulty": 2
         },
         {
             "id": "writing-6",
             "question": "Write 5 sentences giving polite advice to someone using second conditional (use 'If I were you' at least twice).",
             "hint": "Example: If I were you, I would apologize.",
-            "expectedKeywords": ["were", "would", "advice", "hypothetical"],
+            "expectedKeywords": [
+                "were",
+                "would",
+                "advice",
+                "hypothetical"
+            ],
             "difficulty": 2
         },
         {
             "id": "writing-7",
             "question": "Write 5 sentences expressing regrets about things you didn't do last year using third conditional.",
             "hint": "Example: If I had saved money, I would have traveled.",
-            "expectedKeywords": ["if", "had", "would have", "past perfect", "regret"],
+            "expectedKeywords": [
+                "if",
+                "had",
+                "would have",
+                "past perfect",
+                "regret"
+            ],
             "difficulty": 3
         },
         {
             "id": "writing-8",
             "question": "Describe 5 past mistakes (yours or imaginary) and their consequences using third conditional.",
             "hint": "Example: If we had checked the weather, we wouldn't have gotten wet.",
-            "expectedKeywords": ["had + past participle", "would have", "regret", "past"],
+            "expectedKeywords": [
+                "had + past participle",
+                "would have",
+                "regret",
+                "past"
+            ],
             "difficulty": 3
         },
         {
             "id": "writing-9",
             "question": "Write 6 sentences using mixed conditionals to explain how a past decision affects your present life.",
             "hint": "Example: If I had learned English earlier, I would be fluent now.",
-            "expectedKeywords": ["had", "would be", "would have", "mixed", "past present"],
+            "expectedKeywords": [
+                "had",
+                "would be",
+                "would have",
+                "mixed",
+                "past present"
+            ],
             "difficulty": 4
         },
         {
             "id": "writing-10",
             "question": "Create a short paragraph (8-10 sentences) about an imaginary 'what if' scenario linking past choices to current or future results using mixed conditionals.",
             "hint": "Example: If she had studied abroad, she would speak three languages today and would have better job opportunities.",
-            "expectedKeywords": ["past perfect", "would", "would have", "mixed", "regret ongoing"],
+            "expectedKeywords": [
+                "past perfect",
+                "would",
+                "would have",
+                "mixed",
+                "regret ongoing"
+            ],
             "difficulty": 4
         }
     ],
@@ -164,8 +225,15 @@
             "type": "drag-drop",
             "question": "Zero Conditional – Complete the fact:",
             "sentence": "If you ____ water to 100°C, it ____.",
-            "options": ["heat / boils", "heated / boils", "heat / boiled", "will heat / boils"],
-            "correctAnswer": ["heat / boils"],
+            "options": [
+                "heat / boils",
+                "heated / boils",
+                "heat / boiled",
+                "will heat / boils"
+            ],
+            "correctAnswer": [
+                "heat / boils"
+            ],
             "hint": "Present simple in both clauses – no 'will'!",
             "difficulty": "easy"
         },
@@ -174,8 +242,15 @@
             "type": "drag-drop",
             "question": "First Conditional – Future plan:",
             "sentence": "If I ____ hard, I ____ the test tomorrow.",
-            "options": ["study / will pass", "studied / will pass", "study / would pass", "will study / pass"],
-            "correctAnswer": ["study / will pass"],
+            "options": [
+                "study / will pass",
+                "studied / will pass",
+                "study / would pass",
+                "will study / pass"
+            ],
+            "correctAnswer": [
+                "study / will pass"
+            ],
             "hint": "Present simple + will. No 'will' in if-clause!",
             "difficulty": "easy"
         },
@@ -184,8 +259,15 @@
             "type": "drag-drop",
             "question": "Second Conditional – Hypothetical:",
             "sentence": "If I ____ rich, I ____ buy a yacht.",
-            "options": ["were / would", "was / would", "am / will", "were / will"],
-            "correctAnswer": ["were / would"],
+            "options": [
+                "were / would",
+                "was / would",
+                "am / will",
+                "were / will"
+            ],
+            "correctAnswer": [
+                "were / would"
+            ],
             "hint": "Past simple + would. Use 'were' for all subjects!",
             "difficulty": "medium"
         },
@@ -194,8 +276,15 @@
             "type": "drag-drop",
             "question": "Third Conditional – Regret:",
             "sentence": "If she ____ earlier, she ____ the bus.",
-            "options": ["had left / would have caught", "left / would catch", "had left / would catch", "left / would have caught"],
-            "correctAnswer": ["had left / would have caught"],
+            "options": [
+                "had left / would have caught",
+                "left / would catch",
+                "had left / would catch",
+                "left / would have caught"
+            ],
+            "correctAnswer": [
+                "had left / would have caught"
+            ],
             "hint": "Past perfect + would have + past participle.",
             "difficulty": "medium"
         },
@@ -204,8 +293,15 @@
             "type": "drag-drop",
             "question": "Mixed Conditional – Past → Present:",
             "sentence": "If I ____ medicine, I ____ a doctor now.",
-            "options": ["had studied / would be", "studied / would be", "had studied / would have been", "studied / would have been"],
-            "correctAnswer": ["had studied / would be"],
+            "options": [
+                "had studied / would be",
+                "studied / would be",
+                "had studied / would have been",
+                "studied / would have been"
+            ],
+            "correctAnswer": [
+                "had studied / would be"
+            ],
             "hint": "Past perfect for past condition + would for present result.",
             "difficulty": "hard"
         },
@@ -214,8 +310,15 @@
             "type": "drag-drop",
             "question": "Zero – Avoid common error:",
             "sentence": "Ice ____ when you ____ it.",
-            "options": ["melts / heat", "melts / will heat", "melted / heat", "melts / heated"],
-            "correctAnswer": ["melts / heat"],
+            "options": [
+                "melts / heat",
+                "melts / will heat",
+                "melted / heat",
+                "melts / heated"
+            ],
+            "correctAnswer": [
+                "melts / heat"
+            ],
             "hint": "Always present simple – never 'will'!",
             "difficulty": "easy"
         },
@@ -224,8 +327,15 @@
             "type": "drag-drop",
             "question": "First – Warning:",
             "sentence": "Unless you ____ now, you ____ late.",
-            "options": ["leave / will be", "left / will be", "leave / would be", "will leave / be"],
-            "correctAnswer": ["leave / will be"],
+            "options": [
+                "leave / will be",
+                "left / will be",
+                "leave / would be",
+                "will leave / be"
+            ],
+            "correctAnswer": [
+                "leave / will be"
+            ],
             "hint": "Present simple after 'unless' + will.",
             "difficulty": "easy"
         },
@@ -234,8 +344,15 @@
             "type": "drag-drop",
             "question": "Second – Subjunctive error:",
             "sentence": "If he ____ taller, he ____ basketball.",
-            "options": ["were / would play", "was / would play", "were / will play", "was / will play"],
-            "correctAnswer": ["were / would play"],
+            "options": [
+                "were / would play",
+                "was / would play",
+                "were / will play",
+                "was / will play"
+            ],
+            "correctAnswer": [
+                "were / would play"
+            ],
             "hint": "'Were' for hypothetical – not 'was'!",
             "difficulty": "medium"
         },
@@ -244,8 +361,15 @@
             "type": "drag-drop",
             "question": "Third – No 'would' in if-clause:",
             "sentence": "If we ____ the map, we ____ lost.",
-            "options": ["had studied / wouldn't have gotten", "studied / wouldn't get", "had studied / wouldn't get", "studied / wouldn't have gotten"],
-            "correctAnswer": ["had studied / wouldn't have gotten"],
+            "options": [
+                "had studied / wouldn't have gotten",
+                "studied / wouldn't get",
+                "had studied / wouldn't get",
+                "studied / wouldn't have gotten"
+            ],
+            "correctAnswer": [
+                "had studied / wouldn't have gotten"
+            ],
             "hint": "Past perfect – never 'would' in if-clause.",
             "difficulty": "medium"
         },
@@ -254,8 +378,15 @@
             "type": "drag-drop",
             "question": "Mixed – Present condition → Past result:",
             "sentence": "If I ____ more confident, I ____ the job interview last week.",
-            "options": ["were / would have passed", "was / would pass", "were / would pass", "had been / would have passed"],
-            "correctAnswer": ["were / would have passed"],
+            "options": [
+                "were / would have passed",
+                "was / would pass",
+                "were / would pass",
+                "had been / would have passed"
+            ],
+            "correctAnswer": [
+                "were / would have passed"
+            ],
             "hint": "Past simple + would have for present → past mix.",
             "difficulty": "hard"
         }
@@ -265,7 +396,12 @@
             "id": "quiz-1",
             "question": "Which conditional is used for general truths?",
             "sentence": "If you mix red and blue, you ____ purple.",
-            "options": ["get", "got", "will get", "would get"],
+            "options": [
+                "get",
+                "got",
+                "will get",
+                "would get"
+            ],
             "correctAnswer": "get",
             "hint": "Zero conditional – present simple in both.",
             "difficulty": "easy",
@@ -275,7 +411,12 @@
             "id": "quiz-2",
             "question": "Choose the correct first conditional:",
             "sentence": "If it ____ tomorrow, we ____ the picnic.",
-            "options": ["rains / will cancel", "rained / will cancel", "rains / would cancel", "will rain / cancel"],
+            "options": [
+                "rains / will cancel",
+                "rained / will cancel",
+                "rains / would cancel",
+                "will rain / cancel"
+            ],
             "correctAnswer": "rains / will cancel",
             "hint": "Present simple + will. No 'will' in if-clause!",
             "difficulty": "easy",
@@ -285,7 +426,12 @@
             "id": "quiz-3",
             "question": "Second conditional uses:",
             "sentence": "If I ____ you, I ____ that job.",
-            "options": ["were / would take", "was / would take", "am / will take", "were / will take"],
+            "options": [
+                "were / would take",
+                "was / would take",
+                "am / will take",
+                "were / will take"
+            ],
             "correctAnswer": "were / would take",
             "hint": "Use 'were' for all subjects in hypothetical situations.",
             "difficulty": "medium",
@@ -295,7 +441,12 @@
             "id": "quiz-4",
             "question": "Third conditional structure:",
             "sentence": "If they ____ earlier, they ____ the accident.",
-            "options": ["had left / would have avoided", "left / would avoid", "had left / would avoid", "left / would have avoided"],
+            "options": [
+                "had left / would have avoided",
+                "left / would avoid",
+                "had left / would avoid",
+                "left / would have avoided"
+            ],
             "correctAnswer": "had left / would have avoided",
             "hint": "Past perfect + would have + past participle.",
             "difficulty": "medium",
@@ -305,7 +456,12 @@
             "id": "quiz-5",
             "question": "Which is a correct mixed conditional (past → present)?",
             "sentence": "If I ____ the course, I ____ fluent now.",
-            "options": ["had taken / would be", "took / would be", "had taken / would have been", "took / would have been"],
+            "options": [
+                "had taken / would be",
+                "took / would be",
+                "had taken / would have been",
+                "took / would have been"
+            ],
             "correctAnswer": "had taken / would be",
             "hint": "Past perfect for past action affecting present.",
             "difficulty": "hard",
@@ -315,7 +471,12 @@
             "id": "quiz-6",
             "question": "Common error – avoid 'will' in if-clause:",
             "sentence": "If you ____ me, I will help you.",
-            "options": ["call", "will call", "called", "would call"],
+            "options": [
+                "call",
+                "will call",
+                "called",
+                "would call"
+            ],
             "correctAnswer": "call",
             "hint": "Never use 'will' in the if-clause of first conditional!",
             "difficulty": "easy",
@@ -325,7 +486,12 @@
             "id": "quiz-7",
             "question": "Subjunctive in second conditional:",
             "sentence": "If she ____ here, she would help us.",
-            "options": ["were", "was", "is", "would be"],
+            "options": [
+                "were",
+                "was",
+                "is",
+                "would be"
+            ],
             "correctAnswer": "were",
             "hint": "Always 'were' in hypothetical – even for he/she/it.",
             "difficulty": "medium",
@@ -335,7 +501,12 @@
             "id": "quiz-8",
             "question": "Third conditional – correct form:",
             "sentence": "If he ____ the train, he ____ on time.",
-            "options": ["had caught / would have arrived", "caught / would arrive", "had caught / would arrive", "caught / would have arrived"],
+            "options": [
+                "had caught / would have arrived",
+                "caught / would arrive",
+                "had caught / would arrive",
+                "caught / would have arrived"
+            ],
             "correctAnswer": "had caught / would have arrived",
             "hint": "Past perfect + would have.",
             "difficulty": "medium",
@@ -345,7 +516,12 @@
             "id": "quiz-9",
             "question": "Mixed – present condition → past result:",
             "sentence": "If I ____ more money, I ____ that car last year.",
-            "options": ["had / would have bought", "have / would buy", "had / would buy", "have / would have bought"],
+            "options": [
+                "had / would have bought",
+                "have / would buy",
+                "had / would buy",
+                "have / would have bought"
+            ],
             "correctAnswer": "had / would have bought",
             "hint": "Past simple + would have for unreal present affecting past.",
             "difficulty": "hard",
@@ -355,7 +531,12 @@
             "id": "quiz-10",
             "question": "Identify the correct conditional type:",
             "sentence": "If plants don't get water, they die.",
-            "options": ["Zero", "First", "Second", "Third"],
+            "options": [
+                "Zero",
+                "First",
+                "Second",
+                "Third"
+            ],
             "correctAnswer": "Zero",
             "hint": "General truth = zero conditional.",
             "difficulty": "easy",

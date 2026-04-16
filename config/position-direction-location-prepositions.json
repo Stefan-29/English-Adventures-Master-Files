@@ -1,0 +1,42 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Position, Direction & Location Prepositions",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Position, Direction & Location Prepositions in English",
+    "modules": [
+      {"id": "lesson-module", "name": "Learn", "title": "Preposition Lessons", "instructions": "Master prepositions of position, direction, location, and their differences like between/among, beside/besides."},
+      {"id": "writing-module", "name": "Write", "title": "Writing Practice", "instructions": "Practice using position, direction, and location prepositions in sentences."},
+      {"id": "game-module", "name": "Play", "title": "Grammar Games", "instructions": "Reinforce preposition usage with interactive exercises."},
+      {"id": "quiz-module", "name": "Quiz", "title": "Quick Quiz", "instructions": "Test your preposition knowledge with multiple choice questions."},
+      {"id": "spelling-module", "name": "Apply", "title": "Apply Grammar", "instructions": "Practice key preposition vocabulary and structures."}
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {"title": "Position Prepositions", "words": ["above", "across", "against", "among", "around", "behind", "below", "beneath", "beside", "between", "by", "in front of", "inside", "near", "next to", "on", "outside", "over", "through", "under", "underneath"]},
+      {"title": "Direction Prepositions", "words": ["across", "against", "along", "around", "away from", "down", "from", "into", "off of", "onto", "out of", "over", "through", "to", "towards", "under", "up"]},
+      {"title": "Location Prepositions", "words": ["at", "in", "on", "aboard"]},
+      {"title": "Confusing Pairs", "words": ["between", "among", "beside", "besides"]}
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/position-direction-location-prepositions.json",
+  "grammarChecker": "positionDirectionLocationPrepositions.js",
+  "gameSettings": {
+    "timeLimit": 45,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 1.5,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

@@ -3,7 +3,7 @@
         {
             "id": "lesson-1",
             "title": "Each & Every Basics – Individual vs Complete! 🎯",
-            "content": "<p>Welcome to the precise world of <strong>each</strong> and <strong>every</strong>! These determiners help us talk about individuals versus complete groups. 📚</p><p><strong>Core Concept:</strong> Each emphasizes individuality ('one by one'), every emphasizes completeness ('all members').</p><p><strong>Key Points:</strong></p><ul><li><strong>Each:</strong> Focuses on individual members one at a time</li><li><strong>Every:</strong> Refers to all members of a complete group</li><li><strong>Both:</strong> Used with singular nouns and require singular verbs</li></ul><p><strong>Important Note:</strong> Each can be used with just two items, but every needs three or more.</p><p><strong>Common Mistakes:</strong> Using every when you mean each, or vice versa.</p>",
+            "content": "<p>Welcome to the precise world of <strong>each</strong> and <strong>every</strong>! These determiners help us talk about individuals versus complete groups. 📚</p><p><strong>Core Concept:</strong> Each emphasizes individuality ('one by one'), every emphasizes completeness ('all members').</p><p><strong>Key Points:</strong></p><table class=\"lesson-table table-teal\"><tr><th>Information</th></tr><tr><td><strong>Each:</strong> Focuses on individual members one at a time</td></tr><tr><td><strong>Every:</strong> Refers to all members of a complete group</td></tr><tr><td><strong>Both:</strong> Used with singular nouns and require singular verbs</td></tr></table><p><strong>Important Note:</strong> Each can be used with just two items, but every needs three or more.</p><p><strong>Common Mistakes:</strong> Using every when you mean each, or vice versa.</p>",
             "examples": [
                 "<strong>Each</strong> employee received an invitation. (one by one)",
                 "<strong>Every</strong> pupil must wear a uniform. (all pupils)",
@@ -24,7 +24,7 @@
         {
             "id": "lesson-2",
             "title": "Each in Detail – Individual Focus 🚀",
-            "content": "<p>Master the specific uses of <strong>each</strong> for emphasizing individual treatment. 📈</p><p><strong>Each Characteristics:</strong></p><ul><li><strong>Two or more items:</strong> Can be used with just two</li><strong>Followed by 'of':</strong> Each of the students, each of us</li><li><strong>Pronoun form:</strong> Each can stand alone as a pronoun</li><li><strong>Distribution:</strong> Emphasizes separate treatment</li></ul><p><strong>Context Matters:</strong> Use each when you want to stress individual consideration.</p><p><strong>Practice Strategy:</strong> Think of dividing things among individuals.</p>",
+            "content": "<p>Master the specific uses of <strong>each</strong> for emphasizing individual treatment. 📈</p><p><strong>Each Characteristics:</strong></p><table class=\"lesson-table table-teal\"><tr><th>Information</th></tr><tr><td><strong>Two or more items:</strong> Can be used with just two</td></tr><tr><td><strong>Pronoun form:</strong> Each can stand alone as a pronoun</td></tr><tr><td><strong>Distribution:</strong> Emphasizes separate treatment</td></tr></table><p><strong>Context Matters:</strong> Use each when you want to stress individual consideration.</p><p><strong>Practice Strategy:</strong> Think of dividing things among individuals.</p>",
             "examples": [
                 "A letter was sent to <strong>each of</strong> the firemen. (individual letters)",
                 "The prize money was divided among the team members. <strong>Each</strong> received 10,000€. (individual amounts)",
@@ -45,7 +45,7 @@
         {
             "id": "lesson-3",
             "title": "Every in Detail – Complete Group Focus 🔍",
-            "content": "<p>Learn the specific uses of <strong>every</strong> for referring to complete groups. 🎭</p><p><strong>Every Characteristics:</strong></p><ul><li><strong>Three or more:</strong> Needs a complete group</li><li><strong>Regularity:</strong> Used for frequency (every day, every hour)</li><li><strong>Abstract nouns:</strong> Every reason, every possibility</li><li><strong>With adverbs:</strong> Almost/practically every, nearly every</li></ul><p><strong>Regional Variations:</strong> Some dialects use every with smaller numbers informally.</p><p><strong>Advanced Tip:</strong> Every implies no exceptions in the group.</p>",
+            "content": "<p>Learn the specific uses of <strong>every</strong> for referring to complete groups. 🎭</p><p><strong>Every Characteristics:</strong></p><table class=\"lesson-table table-teal\"><tr><th>Information</th></tr><tr><td><strong>Three or more:</strong> Needs a complete group</td></tr><tr><td><strong>Regularity:</strong> Used for frequency (every day, every hour)</td></tr><tr><td><strong>Abstract nouns:</strong> Every reason, every possibility</td></tr><tr><td><strong>With adverbs:</strong> Almost/practically every, nearly every</td></tr></table><p><strong>Regional Variations:</strong> Some dialects use every with smaller numbers informally.</p><p><strong>Advanced Tip:</strong> Every implies no exceptions in the group.</p>",
             "examples": [
                 "<strong>Every</strong> employee received a free copy. (complete group)",
                 "The church bells ring <strong>every</strong> hour. (regular complete cycle)",
@@ -66,7 +66,7 @@
         {
             "id": "lesson-4",
             "title": "Each vs Every – Critical Differences ⚖️",
-            "content": "<p>Master the crucial distinctions between <strong>each</strong> and <strong>every</strong> in context. ⚖️</p><p><strong>Key Differences:</strong></p><ul><li><strong>Quantity:</strong> Each (2+), Every (3+)</li><li><strong>Emphasis:</strong> Each (individual), Every (group)</li><li><strong>Following words:</strong> Each + of, Every + noun directly</li><li><strong>Implication:</strong> Each (separate), Every (inclusive)</li></ul><p><strong>Emotional Impact:</strong> Each sounds more precise, every more general.</p><p><Practice Strategy:</strong> Replace one with the other and see if meaning changes.</p>",
+            "content": "<p>Master the crucial distinctions between <strong>each</strong> and <strong>every</strong> in context. ⚖️</p><p><strong>Key Differences:</strong></p><table class=\"lesson-table table-teal\"><tr><th>Information</th></tr><tr><td><strong>Quantity:</strong> Each (2+), Every (3+)</td></tr><tr><td><strong>Emphasis:</strong> Each (individual), Every (group)</td></tr><tr><td><strong>Following words:</strong> Each + of, Every + noun directly</td></tr><tr><td><strong>Implication:</strong> Each (separate), Every (inclusive)</td></tr></table><p><strong>Emotional Impact:</strong> Each sounds more precise, every more general.</p><p><Practice Strategy:</strong> Replace one with the other and see if meaning changes.</p>",
             "examples": [
                 "<strong>Each</strong> child got a present. (individual presents)",
                 "<strong>Every</strong> child got a present. (all children included)",
@@ -87,7 +87,7 @@
         {
             "id": "lesson-5",
             "title": "Each/Every + One – Special Constructions 📊",
-            "content": "<p>Learn the special constructions with <strong>each one</strong> and <strong>every one</strong>. 📊</p><p><strong>Special Forms:</strong></p><ul><li><strong>Each one:</strong> Each + one (emphasizes individuality)</li><li><strong>Every one:</strong> Every + one (refers to all individuals)</li><li><strong>With pronouns:</strong> Each/every one of us/them</li></ul><p><strong>Context Matters:</strong> Each one is more emphatic than each alone.</p><p><Practice Strategy:</strong> Use these forms for emphasis in formal writing.</p>",
+            "content": "<p>Learn the special constructions with <strong>each one</strong> and <strong>every one</strong>. 📊</p><p><strong>Special Forms:</strong></p><table class=\"lesson-table table-teal\"><tr><th>Information</th></tr><tr><td><strong>Each one:</strong> Each + one (emphasizes individuality)</td></tr><tr><td><strong>Every one:</strong> Every + one (refers to all individuals)</td></tr><tr><td><strong>With pronouns:</strong> Each/every one of us/them</td></tr></table><p><strong>Context Matters:</strong> Each one is more emphatic than each alone.</p><p><Practice Strategy:</strong> Use these forms for emphasis in formal writing.</p>",
             "examples": [
                 "I would like to thank <strong>each one</strong> of you. (every individual)",
                 "The boss explained to <strong>every one</strong> of the employees. (all employees)",
@@ -108,7 +108,7 @@
         {
             "id": "lesson-6",
             "title": "Mastering Each & Every – Natural Usage 🏆",
-            "content": "<p>Put it all together! Use <strong>each</strong> and <strong>every</strong> naturally in real communication. 🏆</p><p><strong>Communication Strategies:</strong></p><ul><li><strong>Individual treatment:</strong> Use each/each one</li><strong>Complete coverage:</strong> Use every/every one</li><li><strong>Regular events:</strong> Use every + time expression</li><li><strong>Emphasis:</strong> Each and every together for stress</li></ul><p><strong>Advanced Tip:</strong> 'Each and every' is used for emphasis but means the same as 'every'.</p>",
+            "content": "<p>Put it all together! Use <strong>each</strong> and <strong>every</strong> naturally in real communication. 🏆</p><p><strong>Communication Strategies:</strong></p><table class=\"lesson-table table-teal\"><tr><th>Information</th></tr><tr><td><strong>Individual treatment:</strong> Use each/each one</td></tr><tr><td><strong>Regular events:</strong> Use every + time expression</td></tr><tr><td><strong>Emphasis:</strong> Each and every together for stress</td></tr></table><p><strong>Advanced Tip:</strong> 'Each and every' is used for emphasis but means the same as 'every'.</p>",
             "examples": [
                 "The manager explained to <strong>each and every</strong> one of you. (emphasized completeness)",
                 "<strong>Each</strong> participant received a certificate. (individual certificates)",

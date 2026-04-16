@@ -3,7 +3,7 @@
         {
             "id": "lesson-1",
             "title": "A vs. An - The Fundamental Sound Rule 🎯",
-            "content": "<p>Welcome to the world of English articles! This lesson focuses on the most basic rule that 90% of native speakers use instinctively. 📚</p><p><strong>The Core Rule:</strong> A is used before words that start with <em>consonant sounds</em>, AN is used before words that start with <em>vowel sounds</em>.</p><p><strong>Key Sounds:</strong></p><ul><li><strong>Consonant sounds:</strong> /b/, /k/, /d/, /f/, /g/, /h/, /j/, /k/, /l/, /m/, /n/, /p/, /q/, /r/, /s/, /t/, /v/, /w/, /x/, /y/, /z/</li><li><strong>Vowel sounds:</strong> /æ/ (a), /ɛ/ (e), /ɪ/ (i), /ɒ/ (o), /ʌ/ (u)</li></ul><p><strong>Critical Point:</strong> It's the <em>sound</em> that matters, not the spelling! This is why pronunciation practice is essential for mastering articles.</p><p><strong>Common Mistakes:</strong> Many learners focus on letters instead of sounds, leading to errors like 'an book' or 'a elephant'.</p>",
+            "content": "<p>Welcome to the world of English articles! This lesson focuses on the most basic rule that 90% of native speakers use instinctively. 📚</p><p><strong>The Core Rule:</strong> A is used before words that start with <em>consonant sounds</em>, AN is used before words that start with <em>vowel sounds</em>.</p><p><strong>Key Sounds:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>Consonant sounds:</strong> /b/, /k/, /d/, /f/, /g/, /h/, /j/, /k/, /l/, /m/, /n/, /p/, /q/, /r/, /s/, /t/, /v/, /w/, /x/, /y/, /z/</td></tr><tr><td><strong>Vowel sounds:</strong> /æ/ (a), /ɛ/ (e), /ɪ/ (i), /ɒ/ (o), /ʌ/ (u)</td></tr></table><p><strong>Critical Point:</strong> It's the <em>sound</em> that matters, not the spelling! This is why pronunciation practice is essential for mastering articles.</p><p><strong>Common Mistakes:</strong> Many learners focus on letters instead of sounds, leading to errors like 'an book' or 'a elephant'.</p>",
             "examples": [
                 "He is <strong>a</strong> teacher. (/t/ consonant sound)",
                 "She didn't get <strong>an</strong> invitation. (/ɪ/ vowel sound)",
@@ -19,7 +19,7 @@
         {
             "id": "lesson-2",
             "title": "Adjective Interference - The First Sound Principle 🚀",
-            "content": "<p>Now we add complexity! When adjectives appear before nouns, the article choice becomes more challenging. The rule remains the same, but now you must identify the <em>first sound of the adjective</em>, not the noun. 📈</p><p><strong>The Adjective Rule:</strong> Look at the initial sound of the <em>first adjective</em> in the noun phrase. This determines A vs. AN.</p><p><strong>Adjective + Noun Structure:</strong></p><ul><li>Article + Adjective + Noun = Article agrees with adjective's first sound</li><li>Article + Adverb + Adjective + Noun = Article agrees with adverb's first sound</li></ul><p><strong>Advanced Consideration:</strong> Multiple adjectives follow the same rule - only the first word's sound matters.</p><p><strong>Practice Strategy:</strong> Temporarily ignore the noun and focus only on the first descriptive word.</p>",
+            "content": "<p>Now we add complexity! When adjectives appear before nouns, the article choice becomes more challenging. The rule remains the same, but now you must identify the <em>first sound of the adjective</em>, not the noun. 📈</p><p><strong>The Adjective Rule:</strong> Look at the initial sound of the <em>first adjective</em> in the noun phrase. This determines A vs. AN.</p><p><strong>Adjective + Noun Structure:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td>Article + Adjective + Noun = Article agrees with adjective's first sound</td></tr><tr><td>Article + Adverb + Adjective + Noun = Article agrees with adverb's first sound</td></tr></table><p><strong>Advanced Consideration:</strong> Multiple adjectives follow the same rule - only the first word's sound matters.</p><p><strong>Practice Strategy:</strong> Temporarily ignore the noun and focus only on the first descriptive word.</p>",
             "examples": [
                 "He is <strong>an</strong> excellent teacher. (excellent starts with /ɛ/)",
                 "She bought <strong>a</strong> beautiful dress. (beautiful starts with /b/)",
@@ -35,7 +35,7 @@
         {
             "id": "lesson-3",
             "title": "Pronunciation Exceptions - When Spelling Lies 🎭",
-            "content": "<p>The sound rule has exceptions! Some words are spelled with vowels but pronounced with consonant sounds, and vice versa. This is where many learners struggle. 🔍</p><p><strong>Consonant Sound, Vowel Spelling:</strong></p><ul><li><strong>U words:</strong> university (/juː/), unique (/juː/), Europe (/juː/), umbrella (/ʌ/)</li><li><strong>O words:</strong> one (/w/), once (/w/), onion (/ʌ/)</li><li><strong>A words:</strong> abroad (ə/), abroad starts with schwa sound</li></ul><p><strong>Vowel Sound, Consonant Spelling:</strong></p><ul><li><strong>H words:</strong> hour (/aʊ/), honor (/ɒ/), heir (/ɛ/)</li><li><strong>M/U words:</strong> mute (/mjuː/ starts with consonant)</li></ul><p><strong>Accent Variations:</strong> Words like 'herb' (/h/ in American English, silent H in British) and 'hospital' create confusion.</p>",
+            "content": "<p>The sound rule has exceptions! Some words are spelled with vowels but pronounced with consonant sounds, and vice versa. This is where many learners struggle. 🔍</p><p><strong>Consonant Sound, Vowel Spelling:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>U words:</strong> university (/juː/), unique (/juː/), Europe (/juː/), umbrella (/ʌ/)</td></tr><tr><td><strong>O words:</strong> one (/w/), once (/w/), onion (/ʌ/)</td></tr><tr><td><strong>A words:</strong> abroad (ə/), abroad starts with schwa sound</td></tr></table><p><strong>Vowel Sound, Consonant Spelling:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>H words:</strong> hour (/aʊ/), honor (/ɒ/), heir (/ɛ/)</td></tr><tr><td><strong>M/U words:</strong> mute (/mjuː/ starts with consonant)</td></tr></table><p><strong>Accent Variations:</strong> Words like 'herb' (/h/ in American English, silent H in British) and 'hospital' create confusion.</p>",
             "examples": [
                 "She studies at <strong>a</strong> university. (sounds like 'yu-ni-ver-si-ty')",
                 "He has <strong>a</strong> European accent. (sounds like 'yu-ro-pee-an')",
@@ -51,7 +51,7 @@
         {
             "id": "lesson-4",
             "title": "Uncountable Nouns & Indefinite Usage 🌊",
-            "content": "<p>Articles have restrictions! A and AN cannot be used with certain types of nouns. Understanding these limitations is crucial for advanced accuracy. 🚫</p><p><strong>Uncountable Nouns:</strong> Abstract concepts, materials, and substances that cannot be counted individually.</p><ul><li><strong>Abstract:</strong> advice, information, knowledge, love, happiness</li><li><strong>Materials:</strong> water, air, rice, sugar, salt, bread</li><li><strong>Activities:</strong> homework, work, travel, shopping</li></ul><p><strong>Plural Nouns:</strong> A/AN means 'one' - incompatible with plural forms.</p><p><strong>Indefinite Usage:</strong> A/AN signals 'not specific' - used for new information, general statements, and existence questions.</p><p><strong>Advanced Pattern:</strong> A/AN + singular countable noun = indefinite, general reference.</p>",
+            "content": "<p>Articles have restrictions! A and AN cannot be used with certain types of nouns. Understanding these limitations is crucial for advanced accuracy. 🚫</p><p><strong>Uncountable Nouns:</strong> Abstract concepts, materials, and substances that cannot be counted individually.</p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>Abstract:</strong> advice, information, knowledge, love, happiness</td></tr><tr><td><strong>Materials:</strong> water, air, rice, sugar, salt, bread</td></tr><tr><td><strong>Activities:</strong> homework, work, travel, shopping</td></tr></table><p><strong>Plural Nouns:</strong> A/AN means 'one' - incompatible with plural forms.</p><p><strong>Indefinite Usage:</strong> A/AN signals 'not specific' - used for new information, general statements, and existence questions.</p><p><strong>Advanced Pattern:</strong> A/AN + singular countable noun = indefinite, general reference.</p>",
             "examples": [
                 "She gives good <strong>advice</strong>. (not 'a good advice' - uncountable)",
                 "I need <strong>a</strong> phone. (any phone, not specific)",
@@ -67,7 +67,7 @@
         {
             "id": "lesson-5",
             "title": "THE - Definite Article Mastery 🎯",
-            "content": "<p>THE is the most complex article! It signals specificity and shared knowledge. Master this and your English becomes dramatically more precise. 🎯</p><p><strong>Core Function:</strong> THE indicates the listener already knows or can identify which specific thing you're referring to.</p><p><strong>Key Uses:</strong></p><ul><li><strong>Previously mentioned:</strong> 'I have a cat. The cat is black.'</li><li><strong>Unique items:</strong> 'the sun, the moon, the internet'</li><li><strong>Identifying phrases:</strong> 'the book on the table'</li><li><strong>Superlatives:</strong> 'the best, the biggest'</li><li><strong>Ordinals:</strong> 'the first, the second'</li></ul><p><strong>Advanced Concept:</strong> THE creates 'definite' reference, while A/AN creates 'indefinite' reference.</p><p><strong>Context Dependency:</strong> THE's meaning changes based on shared knowledge between speaker and listener.</p>",
+            "content": "<p>THE is the most complex article! It signals specificity and shared knowledge. Master this and your English becomes dramatically more precise. 🎯</p><p><strong>Core Function:</strong> THE indicates the listener already knows or can identify which specific thing you're referring to.</p><p><strong>Key Uses:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>Previously mentioned:</strong> 'I have a cat. The cat is black.'</td></tr><tr><td><strong>Unique items:</strong> 'the sun, the moon, the internet'</td></tr><tr><td><strong>Identifying phrases:</strong> 'the book on the table'</td></tr><tr><td><strong>Superlatives:</strong> 'the best, the biggest'</td></tr><tr><td><strong>Ordinals:</strong> 'the first, the second'</td></tr></table><p><strong>Advanced Concept:</strong> THE creates 'definite' reference, while A/AN creates 'indefinite' reference.</p><p><strong>Context Dependency:</strong> THE's meaning changes based on shared knowledge between speaker and listener.</p>",
             "examples": [
                 "I have a cat. <strong>The</strong> cat is black. (specific cat now)",
                 "Can you pass <strong>the</strong> book on the table? (identifying phrase)",
@@ -83,7 +83,7 @@
         {
             "id": "lesson-6",
             "title": "Special Categories & Zero Article Rules 🌍",
-            "content": "<p>English has specific rules for different categories of nouns. Some always use THE, others never use articles. These patterns require memorization. 🗺️</p><p><strong>Always THE:</strong></p><ul><li><strong>Geographic features:</strong> the Atlantic, the Himalayas, the Sahara</li><li><strong>Countries (some):</strong> the Netherlands, the Philippines, the USA</li><li><strong>Inventions:</strong> the telephone, the computer, the wheel</li><li><strong>Unique items:</strong> the sun, the moon, the sky</li></ul><p><strong>Never articles:</strong></p><ul><li><strong>Most countries:</strong> Italy, Japan, Brazil</li><li><strong>Cities/continents:</strong> London, Europe, Asia</li><li><strong>Illnesses:</strong> cancer, AIDS, diabetes</li><li><strong>General plurals:</strong> Dogs are friendly.</li></ul><p><strong>Advanced Distinction:</strong> THE + category noun = general reference to the type/class.</p>",
+            "content": "<p>English has specific rules for different categories of nouns. Some always use THE, others never use articles. These patterns require memorization. 🗺️</p><p><strong>Always THE:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>Geographic features:</strong> the Atlantic, the Himalayas, the Sahara</td></tr><tr><td><strong>Countries (some):</strong> the Netherlands, the Philippines, the USA</td></tr><tr><td><strong>Inventions:</strong> the telephone, the computer, the wheel</td></tr><tr><td><strong>Unique items:</strong> the sun, the moon, the sky</td></tr></table><p><strong>Never articles:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>Most countries:</strong> Italy, Japan, Brazil</td></tr><tr><td><strong>Cities/continents:</strong> London, Europe, Asia</td></tr><tr><td><strong>Illnesses:</strong> cancer, AIDS, diabetes</td></tr><tr><td><strong>General plurals:</strong> Dogs are friendly.</td></tr></table><p><strong>Advanced Distinction:</strong> THE + category noun = general reference to the type/class.</p>",
             "examples": [
                 "We sailed across <strong>the</strong> Atlantic Ocean. (geographic)",
                 "I love <strong>Italy</strong>. (no article for most countries)",
@@ -99,7 +99,7 @@
         {
             "id": "lesson-7",
             "title": "Time Expressions & Advanced Patterns ⏰",
-            "content": "<p>Time expressions have complex article rules! Some require THE, others forbid articles. This is where advanced speakers demonstrate mastery. ⌚</p><p><strong>THE with time periods:</strong></p><ul><li><strong>Parts of day:</strong> the morning, the afternoon, the evening</li><li><strong>Seasons:</strong> the summer, the winter (but not always)</li><li><strong>Time phrases:</strong> the day before yesterday, the week after next</li></ul><p><strong>No articles with time:</strong></p><ul><li><strong>Specific times:</strong> at night, at noon, at midnight</li><li><strong>Frequency:</strong> every day, last week, next month</li><li><strong>General time:</strong> all day, all night</li></ul><p><strong>Advanced Patterns:</strong></p><ul><li>A/AN as 'per': a day, an hour, a week</li><li>THE with comparatives: the bigger, the better</li><li>THE with groups: the elderly, the French</li></ul>",
+            "content": "<p>Time expressions have complex article rules! Some require THE, others forbid articles. This is where advanced speakers demonstrate mastery. ⌚</p><p><strong>THE with time periods:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>Parts of day:</strong> the morning, the afternoon, the evening</td></tr><tr><td><strong>Seasons:</strong> the summer, the winter (but not always)</td></tr><tr><td><strong>Time phrases:</strong> the day before yesterday, the week after next</td></tr></table><p><strong>No articles with time:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td><strong>Specific times:</strong> at night, at noon, at midnight</td></tr><tr><td><strong>Frequency:</strong> every day, last week, next month</td></tr><tr><td><strong>General time:</strong> all day, all night</td></tr></table><p><strong>Advanced Patterns:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Information</th></tr><tr><td>A/AN as 'per': a day, an hour, a week</td></tr><tr><td>THE with comparatives: the bigger, the better</td></tr><tr><td>THE with groups: the elderly, the French</td></tr></table>",
             "examples": [
                 "We'll meet in <strong>the</strong> afternoon. (part of day)",
                 "Did you sleep well <strong>last night</strong>? (no article)",
@@ -113,7 +113,6 @@
             "tips": "💡 <strong>Time Pattern Recognition:</strong> Group time expressions by article usage. Notice that 'in the [period]' vs 'at [time]' creates different patterns. Practice with a calendar."
         }
     ],
-
     "writingActivities": [
         {
             "id": "writing-1",
@@ -271,7 +270,6 @@
             ]
         }
     ],
-
     "gameActivities": [
         {
             "id": "game-1",
@@ -724,7 +722,6 @@
             "explanation": "THE is always used with superlatives (the best, the biggest, the most interesting)."
         }
     ],
-
     "quizActivities": [
         {
             "id": "quiz-1",
@@ -1127,7 +1124,6 @@
             "explanation": "THE is always used with superlatives (the best, the biggest, the most interesting)."
         }
     ],
-
     "spellingActivities": [
         {
             "id": "spelling-1",
@@ -1210,7 +1206,6 @@
             "difficulty": "hard"
         }
     ],
-
     "rewards": {
         "stars": {
             "bronze": 15,

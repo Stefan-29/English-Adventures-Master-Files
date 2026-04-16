@@ -3,7 +3,7 @@
         {
             "id": "lesson-1",
             "title": "Unless – The Negative If! 🚫",
-            "content": "<p><strong>Unless</strong> means 'if not' or 'except if'! 🔄 It's a concise way to express negative conditions.</p><p><strong>Structure:</strong> Unless + positive clause (equivalent to If + negative clause)</p><ul><li>Unless you hurry, you'll be late. (= If you don't hurry, you'll be late.)</li><li>Call me unless you're busy. (= Call me if you're not busy.)</li></ul><p><em>Key point: Unless is followed by a positive verb form!</em> 💡</p>",
+            "content": "<p><strong>Unless</strong> means 'if not' or 'except if'! 🔄 It's a concise way to express negative conditions.</p><p><strong>Structure:</strong> Unless + positive clause (equivalent to If + negative clause)</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>Unless you hurry, you'll be late. (= If you don't hurry, you'll be late.)</td></tr><tr><td>Call me unless you're busy. (= Call me if you're not busy.)</td></tr></table><p><em>Key point: Unless is followed by a positive verb form!</em> 💡</p>",
             "examples": [
                 "I won't go unless it stops raining.",
                 "Unless you study, you won't pass the exam."
@@ -20,7 +20,7 @@
         {
             "id": "lesson-2",
             "title": "As Long As / Provided That – With Conditions! 📋",
-            "content": "<p><strong>As long as</strong> and <strong>provided that</strong> both mean 'if and only if' or 'on condition that'! ✅ They stress that the condition is essential.</p><p><strong>As long as:</strong> Informal, common in spoken English</p><ul><li>You can go out as long as you finish your homework.</li></ul><p><strong>Provided that:</strong> More formal, frequent in writing/contracts</p><ul><li>The discount applies provided that you pay in cash.</li></ul><p><em>Both require the condition to be fulfilled!</em> 🎯</p>",
+            "content": "<p><strong>As long as</strong> and <strong>provided that</strong> both mean 'if and only if' or 'on condition that'! ✅ They stress that the condition is essential.</p><p><strong>As long as:</strong> Informal, common in spoken English</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>You can go out as long as you finish your homework.</td></tr></table><p><strong>Provided that:</strong> More formal, frequent in writing/contracts</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>The discount applies provided that you pay in cash.</td></tr></table><p><em>Both require the condition to be fulfilled!</em> 🎯</p>",
             "examples": [
                 "I'll help you as long as you promise to try.",
                 "Entry is free provided that you register online."
@@ -37,7 +37,7 @@
         {
             "id": "lesson-3",
             "title": "In Case – For Precautions! 🛡️",
-            "content": "<p><strong>In case</strong> means 'because something might happen' or 'to be prepared if…'! 🚨 It focuses on prevention/preparation.</p><p><strong>Structure:</strong> Main clause + in case + present simple (even for future)</p><ul><li>Take an umbrella in case it rains. (precaution for possible rain)</li><li>I'll leave early in case there's traffic.</li></ul><p><em>NOT the same as 'if' — in case is about planning ahead!</em> 🔮</p>",
+            "content": "<p><strong>In case</strong> means 'because something might happen' or 'to be prepared if…'! 🚨 It focuses on prevention/preparation.</p><p><strong>Structure:</strong> Main clause + in case + present simple (even for future)</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>Take an umbrella in case it rains. (precaution for possible rain)</td></tr><tr><td>I'll leave early in case there's traffic.</td></tr></table><p><em>NOT the same as 'if' — in case is about planning ahead!</em> 🔮</p>",
             "examples": [
                 "Buy extra food in case more people come.",
                 "Keep your phone charged in case of emergency."
@@ -54,7 +54,7 @@
         {
             "id": "lesson-4",
             "title": "Otherwise / Or Else – The Consequences! ⚠️",
-            "content": "<p><strong>Otherwise</strong> and <strong>or else</strong> introduce the negative result if the advice/warning is ignored! 🚫</p><p><strong>Otherwise:</strong> Neutral, common in both speaking & writing</p><ul><li>Hurry up, otherwise we'll miss the train.</li></ul><p><strong>Or else:</strong> More informal/emotional, sometimes stronger tone</p><ul><li>Be quiet, or else!</li></ul><p><em>Both link an instruction to its bad consequence.</em> 😱</p>",
+            "content": "<p><strong>Otherwise</strong> and <strong>or else</strong> introduce the negative result if the advice/warning is ignored! 🚫</p><p><strong>Otherwise:</strong> Neutral, common in both speaking & writing</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>Hurry up, otherwise we'll miss the train.</td></tr></table><p><strong>Or else:</strong> More informal/emotional, sometimes stronger tone</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td>Be quiet, or else!</td></tr></table><p><em>Both link an instruction to its bad consequence.</em> 😱</p>",
             "examples": [
                 "Wear a coat, otherwise you'll catch cold.",
                 "Finish your work on time, or else you'll be in trouble."
@@ -71,7 +71,7 @@
         {
             "id": "lesson-5",
             "title": "Advanced Alternatives – Formal & Complex! 🎓",
-            "content": "<p>More sophisticated conditional connectors for academic, professional, or nuanced contexts! 📝</p><ul><li><strong>Supposing / Suppose:</strong> Hypothetical 'what if' questions</li><li>Supposing we miss the deadline, what then?</li><li><strong>On condition that:</strong> Very formal = provided that</li><li>Access granted on condition that you sign the agreement.</li><li><strong>Given that / Seeing that:</strong> Introducing known facts as the basis</li><li>Given that prices are rising, we should budget carefully.</li></ul><p><em>Select according to formality and purpose!</em> 🎭</p>",
+            "content": "<p>More sophisticated conditional connectors for academic, professional, or nuanced contexts! 📝</p><table class=\"lesson-table table-yellow\"><tr><th>Information</th></tr><tr><td><strong>Supposing / Suppose:</strong> Hypothetical 'what if' questions</td></tr><tr><td>Supposing we miss the deadline, what then?</td></tr><tr><td><strong>On condition that:</strong> Very formal = provided that</td></tr><tr><td>Access granted on condition that you sign the agreement.</td></tr><tr><td><strong>Given that / Seeing that:</strong> Introducing known facts as the basis</td></tr><tr><td>Given that prices are rising, we should budget carefully.</td></tr></table><p><em>Select according to formality and purpose!</em> 🎭</p>",
             "examples": [
                 "Suppose the flight is cancelled — how do we get home?",
                 "Seeing that you're experienced, we value your input."
@@ -91,70 +91,126 @@
             "id": "writing-1",
             "question": "Rewrite the following 6 sentences using 'unless' instead of 'if … not'.",
             "hint": "Example: If you don't leave now, you'll miss the train. → Unless you leave now, you'll miss the train.",
-            "expectedKeywords": ["unless", "positive verb", "will", "negative condition"],
+            "expectedKeywords": [
+                "unless",
+                "positive verb",
+                "will",
+                "negative condition"
+            ],
             "difficulty": 2
         },
         {
             "id": "writing-2",
             "question": "Write 6 original sentences using 'unless' to give warnings or set exceptions.",
             "hint": "Example: You can't enter unless you have a ticket.",
-            "expectedKeywords": ["unless", "present simple", "negative result", "exception"],
+            "expectedKeywords": [
+                "unless",
+                "present simple",
+                "negative result",
+                "exception"
+            ],
             "difficulty": 2
         },
         {
             "id": "writing-3",
             "question": "Write 5 sentences using 'as long as' and 3 using 'provided that' to express requirements or permissions.",
             "hint": "Example: You may leave early as long as you've finished your tasks.",
-            "expectedKeywords": ["as long as", "provided that", "condition", "permission", "requirement"],
+            "expectedKeywords": [
+                "as long as",
+                "provided that",
+                "condition",
+                "permission",
+                "requirement"
+            ],
             "difficulty": 2
         },
         {
             "id": "writing-4",
             "question": "Create 6 sentences using 'as long as' or 'provided that' in formal vs informal contexts (label which is which).",
             "hint": "Think contracts (formal) vs friends/family (informal).",
-            "expectedKeywords": ["as long as", "provided that", "formal", "informal", "condition"],
+            "expectedKeywords": [
+                "as long as",
+                "provided that",
+                "formal",
+                "informal",
+                "condition"
+            ],
             "difficulty": 2
         },
         {
             "id": "writing-5",
             "question": "Write 7 sentences using 'in case' to describe sensible precautions in travel, work, or daily life.",
             "hint": "Example: I'm packing snacks in case we get hungry on the road.",
-            "expectedKeywords": ["in case", "present simple", "precaution", "might", "prepare"],
+            "expectedKeywords": [
+                "in case",
+                "present simple",
+                "precaution",
+                "might",
+                "prepare"
+            ],
             "difficulty": 3
         },
         {
             "id": "writing-6",
             "question": "Write 5 sentences using 'otherwise' and 3 using 'or else' to warn about consequences.",
             "hint": "Example: Turn off the lights, otherwise the bill will be high.",
-            "expectedKeywords": ["otherwise", "or else", "consequence", "imperative", "negative result"],
+            "expectedKeywords": [
+                "otherwise",
+                "or else",
+                "consequence",
+                "imperative",
+                "negative result"
+            ],
             "difficulty": 2
         },
         {
             "id": "writing-7",
             "question": "Write 6 sentences using 'supposing' or 'suppose' to discuss imaginary situations.",
             "hint": "Example: Supposing you could live anywhere, where would you choose?",
-            "expectedKeywords": ["supposing", "suppose", "hypothetical", "would"],
+            "expectedKeywords": [
+                "supposing",
+                "suppose",
+                "hypothetical",
+                "would"
+            ],
             "difficulty": 4
         },
         {
             "id": "writing-8",
             "question": "Write 5 formal sentences using 'on condition that', 'given that', or 'seeing that'.",
             "hint": "Suitable for essays, emails to authorities, or reports.",
-            "expectedKeywords": ["on condition that", "given that", "seeing that", "formal"],
+            "expectedKeywords": [
+                "on condition that",
+                "given that",
+                "seeing that",
+                "formal"
+            ],
             "difficulty": 4
         },
         {
             "id": "writing-9",
             "question": "Write a short story or dialogue (8–10 sentences) that naturally uses at least four different alternatives (unless, in case, otherwise, as long as, etc.).",
             "hint": "Example scenario: planning a trip with friends.",
-            "expectedKeywords": ["unless", "in case", "otherwise", "as long as", "provided that"],
+            "expectedKeywords": [
+                "unless",
+                "in case",
+                "otherwise",
+                "as long as",
+                "provided that"
+            ],
             "difficulty": 4
         },
         {
             "id": "writing-10",
             "question": "Write a paragraph (8–10 sentences) explaining your weekend plans using a mix of unless, in case, as long as, otherwise, and supposing.",
             "hint": "Show natural variation in connectors.",
-            "expectedKeywords": ["unless", "in case", "as long as", "otherwise", "supposing"],
+            "expectedKeywords": [
+                "unless",
+                "in case",
+                "as long as",
+                "otherwise",
+                "supposing"
+            ],
             "difficulty": 4
         }
     ],
@@ -164,8 +220,15 @@
             "type": "drag-drop",
             "question": "Unless transformation:",
             "sentence": "If you don't study, you won't pass. → ____ you study, you won't pass.",
-            "options": ["Unless", "As long as", "In case", "Otherwise"],
-            "correctAnswer": ["Unless"],
+            "options": [
+                "Unless",
+                "As long as",
+                "In case",
+                "Otherwise"
+            ],
+            "correctAnswer": [
+                "Unless"
+            ],
             "hint": "Unless replaces if + not → positive verb follows.",
             "difficulty": "easy"
         },
@@ -174,8 +237,15 @@
             "type": "drag-drop",
             "question": "Choose the formal requirement:",
             "sentence": "Admission is allowed ____ you show ID.",
-            "options": ["unless", "in case", "provided that", "otherwise"],
-            "correctAnswer": ["provided that"],
+            "options": [
+                "unless",
+                "in case",
+                "provided that",
+                "otherwise"
+            ],
+            "correctAnswer": [
+                "provided that"
+            ],
             "hint": "Provided that = formal version of as long as.",
             "difficulty": "easy"
         },
@@ -184,8 +254,15 @@
             "type": "drag-drop",
             "question": "Precaution connector:",
             "sentence": "Bring a jacket ____ it gets cold later.",
-            "options": ["unless", "in case", "otherwise", "as long as"],
-            "correctAnswer": ["in case"],
+            "options": [
+                "unless",
+                "in case",
+                "otherwise",
+                "as long as"
+            ],
+            "correctAnswer": [
+                "in case"
+            ],
             "hint": "In case = preparation for possible situation.",
             "difficulty": "medium"
         },
@@ -194,8 +271,15 @@
             "type": "drag-drop",
             "question": "Consequence after imperative:",
             "sentence": "Don't touch that, ____ you'll get burned.",
-            "options": ["unless", "in case", "otherwise", "provided that"],
-            "correctAnswer": ["otherwise"],
+            "options": [
+                "unless",
+                "in case",
+                "otherwise",
+                "provided that"
+            ],
+            "correctAnswer": [
+                "otherwise"
+            ],
             "hint": "Otherwise introduces bad result if ignored.",
             "difficulty": "medium"
         },
@@ -204,8 +288,15 @@
             "type": "drag-drop",
             "question": "Hypothetical discussion starter:",
             "sentence": "____ we win the lottery, what would you buy?",
-            "options": ["Unless", "Suppose", "In case", "Otherwise"],
-            "correctAnswer": ["Suppose"],
+            "options": [
+                "Unless",
+                "Suppose",
+                "In case",
+                "Otherwise"
+            ],
+            "correctAnswer": [
+                "Suppose"
+            ],
             "hint": "Suppose/Supposing starts imaginary questions.",
             "difficulty": "hard"
         },
@@ -214,8 +305,15 @@
             "type": "drag-drop",
             "question": "Common unless error – avoid double negative:",
             "sentence": "Unless you ____ hurry, we'll be late.",
-            "options": ["don't", "not", "", "will"],
-            "correctAnswer": [""],
+            "options": [
+                "don't",
+                "not",
+                "",
+                "will"
+            ],
+            "correctAnswer": [
+                ""
+            ],
             "hint": "No 'don't' after unless!",
             "difficulty": "medium"
         },
@@ -224,8 +322,15 @@
             "type": "drag-drop",
             "question": "Informal vs formal requirement:",
             "sentence": "You can stay ____ you clean up afterwards. (casual)",
-            "options": ["provided that", "as long as", "on condition that", "given that"],
-            "correctAnswer": ["as long as"],
+            "options": [
+                "provided that",
+                "as long as",
+                "on condition that",
+                "given that"
+            ],
+            "correctAnswer": [
+                "as long as"
+            ],
             "hint": "As long as = informal everyday use.",
             "difficulty": "easy"
         },
@@ -234,8 +339,15 @@
             "type": "drag-drop",
             "question": "Fact-based connector:",
             "sentence": "____ it's already 10 PM, we should go home.",
-            "options": ["Given that", "Unless", "In case", "Suppose"],
-            "correctAnswer": ["Given that"],
+            "options": [
+                "Given that",
+                "Unless",
+                "In case",
+                "Suppose"
+            ],
+            "correctAnswer": [
+                "Given that"
+            ],
             "hint": "Given that / Seeing that = because of known fact.",
             "difficulty": "hard"
         },
@@ -244,8 +356,15 @@
             "type": "drag-drop",
             "question": "Strong informal warning:",
             "sentence": "Stop that right now, ____!",
-            "options": ["or else", "unless", "in case", "provided that"],
-            "correctAnswer": ["or else"],
+            "options": [
+                "or else",
+                "unless",
+                "in case",
+                "provided that"
+            ],
+            "correctAnswer": [
+                "or else"
+            ],
             "hint": "Or else = stronger, more emotional tone.",
             "difficulty": "medium"
         },
@@ -254,8 +373,15 @@
             "type": "drag-drop",
             "question": "Very formal condition:",
             "sentence": "Funds will be released ____ all documents are verified.",
-            "options": ["unless", "as long as", "on condition that", "in case"],
-            "correctAnswer": ["on condition that"],
+            "options": [
+                "unless",
+                "as long as",
+                "on condition that",
+                "in case"
+            ],
+            "correctAnswer": [
+                "on condition that"
+            ],
             "hint": "On condition that = strictest formal version.",
             "difficulty": "hard"
         }
@@ -265,7 +391,12 @@
             "id": "quiz-1",
             "question": "Which means the same as 'if … not'?",
             "sentence": "____ you pay now, we cannot reserve the table.",
-            "options": ["Unless", "As long as", "In case", "Otherwise"],
+            "options": [
+                "Unless",
+                "As long as",
+                "In case",
+                "Otherwise"
+            ],
             "correctAnswer": "Unless",
             "hint": "Unless = if not (positive verb follows).",
             "difficulty": "easy",
@@ -275,7 +406,12 @@
             "id": "quiz-2",
             "question": "'Provided that' is best described as:",
             "sentence": "The contract is valid ____ both parties sign it.",
-            "options": ["informal condition", "very formal condition", "precaution", "consequence"],
+            "options": [
+                "informal condition",
+                "very formal condition",
+                "precaution",
+                "consequence"
+            ],
             "correctAnswer": "very formal condition",
             "hint": "Provided that = formal equivalent of as long as.",
             "difficulty": "easy",
@@ -285,7 +421,12 @@
             "id": "quiz-3",
             "question": "Which expresses preparation for a possible problem?",
             "sentence": "I'm taking cash ____ the card machine doesn't work.",
-            "options": ["unless", "in case", "otherwise", "supposing"],
+            "options": [
+                "unless",
+                "in case",
+                "otherwise",
+                "supposing"
+            ],
             "correctAnswer": "in case",
             "hint": "In case = precaution / just in case something happens.",
             "difficulty": "medium",
@@ -295,7 +436,12 @@
             "id": "quiz-4",
             "question": "Which shows the bad result if advice is ignored?",
             "sentence": "Put on sunscreen, ____ you'll get sunburned.",
-            "options": ["unless", "in case", "otherwise", "provided that"],
+            "options": [
+                "unless",
+                "in case",
+                "otherwise",
+                "provided that"
+            ],
             "correctAnswer": "otherwise",
             "hint": "Otherwise = what will happen if you don't follow the instruction.",
             "difficulty": "medium",
@@ -305,7 +451,12 @@
             "id": "quiz-5",
             "question": "The most informal option among these is:",
             "sentence": "You can join us ____ you bring your own food.",
-            "options": ["provided that", "on condition that", "as long as", "given that"],
+            "options": [
+                "provided that",
+                "on condition that",
+                "as long as",
+                "given that"
+            ],
             "correctAnswer": "as long as",
             "hint": "As long as is casual/conversational.",
             "difficulty": "easy",
@@ -315,7 +466,11 @@
             "id": "quiz-6",
             "question": "Common mistake with 'unless':",
             "sentence": "Which is correct?",
-            "options": ["Unless you don't hurry, we'll be late.", "Unless you hurry, we'll be late.", "Unless you will hurry, we'll be late."],
+            "options": [
+                "Unless you don't hurry, we'll be late.",
+                "Unless you hurry, we'll be late.",
+                "Unless you will hurry, we'll be late."
+            ],
             "correctAnswer": "Unless you hurry, we'll be late.",
             "hint": "No 'don't' or 'will' after unless!",
             "difficulty": "medium",
@@ -325,7 +480,12 @@
             "id": "quiz-7",
             "question": "'In case' uses which tense after it (for future possibility)?",
             "sentence": "I'll text you ____ I get lost.",
-            "options": ["will get", "got", "get", "would get"],
+            "options": [
+                "will get",
+                "got",
+                "get",
+                "would get"
+            ],
             "correctAnswer": "get",
             "hint": "Present simple after 'in case'.",
             "difficulty": "medium",
@@ -335,7 +495,12 @@
             "id": "quiz-8",
             "question": "Which is used for 'what if' imaginary scenarios?",
             "sentence": "____ it snows tomorrow — shall we still meet?",
-            "options": ["Unless", "Suppose", "In case", "Otherwise"],
+            "options": [
+                "Unless",
+                "Suppose",
+                "In case",
+                "Otherwise"
+            ],
             "correctAnswer": "Suppose",
             "hint": "Suppose / Supposing starts hypothetical questions.",
             "difficulty": "hard",
@@ -345,7 +510,12 @@
             "id": "quiz-9",
             "question": "'Given that' and 'seeing that' introduce:",
             "sentence": "____ fuel prices are high, public transport is better.",
-            "options": ["hypothetical condition", "known fact/reason", "precaution", "consequence"],
+            "options": [
+                "hypothetical condition",
+                "known fact/reason",
+                "precaution",
+                "consequence"
+            ],
             "correctAnswer": "known fact/reason",
             "hint": "Given that = because we already know this is true.",
             "difficulty": "hard",
@@ -355,7 +525,12 @@
             "id": "quiz-10",
             "question": "Which is strongest/most threatening?",
             "sentence": "Clean your room right now, ____!",
-            "options": ["unless", "in case", "or else", "provided that"],
+            "options": [
+                "unless",
+                "in case",
+                "or else",
+                "provided that"
+            ],
             "correctAnswer": "or else",
             "hint": "Or else can sound like a threat in informal speech.",
             "difficulty": "medium",

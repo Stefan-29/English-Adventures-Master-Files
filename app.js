@@ -112,6 +112,7 @@ const App = {
             "Articles & Determiners": ['a-an-the','a-lot-of-much-many','some-any-a-little-a-few','few-little','each-every','other-another','this-that-these-those','everyone-vs-every-one','each-other-one-another-ourselves','countable-vs-uncountable-nouns'],
             "Causative Verbs": ['causative-verbs'],
             "Passive Voice": ['passive-voice'],
+            "Prepositions & Phrasal Expressions": ['time-prepositions', 'position-direction-location-prepositions', 'prepositional-phrases', 'of-from-prepositions'],
             "Advanced Grammar": ['conditional-structures', 'wish-if-if-only', 'if-alternatives', 'subjunctive-mood', 'gerund-vs-infinitive', 'after-certain-verbs', 'bare-infinitive']
         };
         for (const [group, modules] of Object.entries(groups)) {
@@ -127,7 +128,7 @@ const App = {
         // MAKE SURE TO ALSO CREATE A CORRESPONDING 
         // CONFIG JSON FILE IN THE config/ FOLDER WITH 
         // THE SAME NAME.
-        const moduleNames = ['can-could-be-able-to','must-have-to-have-got-to','shall-will-would-had-better','should-ought-to','may-might','future-perfect','future-tenses','past-perfect','past-tenses','present-perfect','present-tenses','conditional-structures','wish-if-if-only','if-alternatives','subjunctive-mood','gerund-vs-infinitive','after-certain-verbs','bare-infinitive','a-an-the','a-lot-of-much-many','some-any-a-little-a-few','few-little','each-every','other-another','this-that-these-those','everyone-vs-every-one','each-other-one-another-ourselves','countable-vs-uncountable-nouns','causative-verbs','passive-voice']; // Add new ones here
+        const moduleNames = ['can-could-be-able-to','must-have-to-have-got-to','shall-will-would-had-better','should-ought-to','may-might','future-perfect','future-tenses','past-perfect','past-tenses','present-perfect','present-tenses','conditional-structures','wish-if-if-only','if-alternatives','subjunctive-mood','gerund-vs-infinitive','after-certain-verbs','bare-infinitive','a-an-the','a-lot-of-much-many','some-any-a-little-a-few','few-little','each-every','other-another','this-that-these-those','everyone-vs-every-one','each-other-one-another-ourselves','countable-vs-uncountable-nouns','causative-verbs','passive-voice','time-prepositions','position-direction-location-prepositions','prepositional-phrases','of-from-prepositions']; // Add new ones here
         const promises = moduleNames.map(name => {
             const configPath = `config/${name}.json`;
             return fetch(configPath)

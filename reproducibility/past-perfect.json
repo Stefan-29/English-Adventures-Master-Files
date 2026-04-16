@@ -28,7 +28,7 @@
         {
             "id": "lesson-3",
             "title": "Magic Words that SCREAM Past Perfect",
-            "content": "<p>These words almost FORCE you to use Past Perfect:</p><ul><li><strong>by the time</strong></li><li><strong>already</strong> (in the past)</li><li><strong>never … before</strong></li><li><strong>until then</strong></li><li><strong>the first time … was</strong></li></ul><p>Unlike Present Perfect → you CAN use exact years!</p>",
+            "content": "<p>These words almost FORCE you to use Past Perfect:</p><table class=\"lesson-table table-orange\"><tr><th>Information</th></tr><tr><td><strong>by the time</strong></td></tr><tr><td><strong>already</strong> (in the past)</td></tr><tr><td><strong>never … before</strong></td></tr><tr><td><strong>until then</strong></td></tr><tr><td><strong>the first time … was</strong></td></tr></table><p>Unlike Present Perfect → you CAN use exact years!</p>",
             "examples": [
                 "By the time we arrived, the party <strong>had finished</strong>.",
                 "She <strong>had already left</strong> when I called.",

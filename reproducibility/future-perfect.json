@@ -3,7 +3,7 @@
         {
             "id": "lesson-1",
             "title": "Future Perfect – Actions Finished Before a Future Point!",
-            "content": "<p>Imagine looking back from the future at something already done. That’s Future Perfect! When you say “By 2030, I will have visited 50 countries,” you’re using it!</p><p><strong>Future Perfect</strong> = will have / be going to have + past participle</p><p>Think of it like a time machine: you jump to a future moment and look back at completed actions.</p><ul><li>By next June → I <strong>will have finished</strong> my degree</li><li>When you arrive → we <strong>will have eaten</strong></li></ul><p>Fun fact: 'will' and 'be going to' forms mean almost the same here!</p>",
+            "content": "<p>Imagine looking back from the future at something already done. That’s Future Perfect! When you say “By 2030, I will have visited 50 countries,” you’re using it!</p><p><strong>Future Perfect</strong> = will have / be going to have + past participle</p><p>Think of it like a time machine: you jump to a future moment and look back at completed actions.</p><table class=\"lesson-table table-orange\"><tr><th>Information</th></tr><tr><td>By next June → I <strong>will have finished</strong> my degree</td></tr><tr><td>When you arrive → we <strong>will have eaten</strong></td></tr></table><p>Fun fact: 'will' and 'be going to' forms mean almost the same here!</p>",
             "examples": [
                 "By the time he gets home, she <strong>will have cleaned</strong> the house.",
                 "I <strong>will have learned</strong> 1000 words by December."
@@ -50,7 +50,7 @@
         {
             "id": "lesson-4",
             "title": "The Golden Rule: NO Future in Time Clauses!",
-            "content": "<p>Biggest mistake ever! In time clauses (when, by the time, before, after…), NEVER use will/won’t!</p><p>Wrong: When I will finish → Correct: When I finish / have finished</p><p>With Future Perfect, use Present Perfect in the time clause:</p><ul><li>By the time you <strong>arrive</strong>, I <strong>will have cooked</strong> dinner</li><li>As soon as she <strong>has saved</strong> enough, she’ll buy a car</li></ul><p>Fun fact: This rule applies to ALL future tenses!</p>",
+            "content": "<p>Biggest mistake ever! In time clauses (when, by the time, before, after…), NEVER use will/won’t!</p><p>Wrong: When I will finish → Correct: When I finish / have finished</p><p>With Future Perfect, use Present Perfect in the time clause:</p><table class=\"lesson-table table-orange\"><tr><th>Information</th></tr><tr><td>By the time you <strong>arrive</strong>, I <strong>will have cooked</strong> dinner</td></tr><tr><td>As soon as she <strong>has saved</strong> enough, she’ll buy a car</td></tr></table><p>Fun fact: This rule applies to ALL future tenses!</p>",
             "examples": [
                 "I’ll call you when I <strong>have arrived</strong>.",
                 "She won’t leave until she <strong>has seen</strong> the doctor."

@@ -3,7 +3,7 @@
     {
       "id": "lesson-1",
       "title": "Passive Voice Basics – Your First Step! 🎯",
-      "content": "<p>Welcome to the <strong>Passive Voice</strong>! This lesson explains how to shift the focus from the doer to the action or object. 📚</p><p><strong>Core Concept:</strong> A passive sentence puts the object of an active sentence first.</p><p><strong>Key Points:</strong></p><ul><li><strong>Form:</strong> BE + past participle</li><li><strong>Use:</strong> when the agent is unknown, unimportant, or less important than the action</li><li><strong>Only transitive verbs:</strong> verbs that take an object can be passive</li></ul><p><strong>Important Note:</strong> In passive voice, the subject receives the action.</p><p><strong>Common Mistakes:</strong> Trying to make intransitive verbs passive.</p>",
+      "content": "<p>Welcome to the <strong>Passive Voice</strong>! This lesson explains how to shift the focus from the doer to the action or object. 📚</p><p><strong>Core Concept:</strong> A passive sentence puts the object of an active sentence first.</p><p><strong>Active vs Passive:</strong> Active: 'Tom catches the ball.' Passive: 'The ball is caught by Tom.'</p><p><strong>Key Points:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Aspect</th><th>Explanation</th></tr><tr><td><strong>Form</strong></td><td>BE + past participle</td></tr><tr><td><strong>Use</strong></td><td>When the agent is unknown, unimportant, or less important than the action</td></tr><tr><td><strong>Only transitive verbs</strong></td><td>Verbs that take an object can be passive</td></tr></table><p><strong>Important Note:</strong> In passive voice, the subject receives the action.</p><p><strong>Common Mistakes:</strong> Trying to make intransitive verbs passive (e.g., 'He sleeps' cannot be 'He is slept').</p>",
       "examples": [
         "English is spoken here.",
         "The ball was caught by Tom.",
@@ -20,14 +20,19 @@
     {
       "id": "lesson-2",
       "title": "Forming Passive Verbs in Tenses 🚀",
-      "content": "<p>The passive voice uses the correct tense of 'be' plus the past participle of the main verb. ✅</p><p><strong>Examples by tense:</strong></p><ul><li>Present Simple: is/are + past participle</li><li>Past Simple: was/were + past participle</li><li>Present Perfect: has/have been + past participle</li><li>Future: will be + past participle</li></ul><p>Only transitive verbs can form the passive.</p>",
+      "content": "<p>The passive voice uses the correct tense of 'be' plus the past participle of the main verb. ✅</p><p><strong>Passive Voice Formations:</strong></p><table class=\"lesson-table table-green\"><tr><th>Tense</th><th>Passive Form</th></tr><tr><td><strong>Present Simple</strong></td><td>is/are + past participle</td></tr><tr><td><strong>Past Simple</strong></td><td>was/were + past participle</td></tr><tr><td><strong>Present Continuous</strong></td><td>is/are being + past participle</td></tr><tr><td><strong>Past Continuous</strong></td><td>was/were being + past participle</td></tr><tr><td><strong>Present Perfect</strong></td><td>has/have been + past participle</td></tr><tr><td><strong>Past Perfect</strong></td><td>had been + past participle</td></tr><tr><td><strong>Future</strong></td><td>will be + past participle</td></tr><tr><td><strong>Future Perfect</strong></td><td>will have been + past participle</td></tr><tr><td><strong>Going to</strong></td><td>is/are going to be + past participle</td></tr></table><p>Only transitive verbs can form the passive.</p>",
       "examples": [
-        "Food is cooked in the kitchen.",
-        "The book was written last year.",
-        "The kitchen has been painted.",
-        "The work will be completed tomorrow.",
-        "The letter was delivered by the postman.",
-        "The test was done carefully."
+        "Food is cooked in the kitchen. (Present Simple)",
+        "The book was written last year. (Past Simple)",
+        "The kitchen is being painted now. (Present Continuous)",
+        "The house was being built when I arrived. (Past Continuous)",
+        "The kitchen has been painted. (Present Perfect)",
+        "The work had been completed before the deadline. (Past Perfect)",
+        "The work will be completed tomorrow. (Future)",
+        "The project will have been finished by next week. (Future Perfect)",
+        "The letter is going to be delivered soon. (Going to)",
+        "The letter was delivered by the postman. (Past Simple)",
+        "The test was done carefully. (Past Simple)"
       ],
       "difficulty": 2,
       "audio": "lesson_2_application.mp3",
@@ -88,7 +93,7 @@
     {
       "id": "lesson-6",
       "title": "Why Use the Passive? – Focus and Style 🏆",
-      "content": "<p>Learn the main reasons to use the passive voice. It changes the focus and improves style. 🎯</p><p><strong>Use when:</strong></p><ul><li>You want the action first</li><li>The agent is unknown or unimportant</li><li>You write facts, science, reports, or instructions</li><li>The subject is long or complex</li></ul><p><strong>Examples:</strong> The Mona Lisa was painted by Leonardo da Vinci. Three books are used regularly in class.</p>",
+      "content": "<p>Learn the main reasons to use the passive voice. It changes the focus and improves style. 🎯</p><p><strong>Use when:</strong></p><ul><li>You want the action first</li><li>The agent is unknown or unimportant</li><li>You write facts, science, reports, or instructions</li><li>The subject is long or complex</li></ul><p><strong>When NOT to use:</strong> Avoid passive if the agent is important, in informal writing, or when active is clearer.</p><p><strong>Examples:</strong> The Mona Lisa was painted by Leonardo da Vinci. Three books are used regularly in class.</p>",
       "examples": [
         "The Mona Lisa was painted by Leonardo da Vinci.",
         "The brochure will be finished next month.",
@@ -100,7 +105,23 @@
       "difficulty": 4,
       "audio": "lesson_6_mastery.mp3",
       "functions": ["Choose passive for style", "Use passive in reports", "Improve sentence focus"],
-      "tips": "💡 <strong>Master Strategy:</strong> Use passive to make writing sound more objective or to emphasize the result."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Advanced Passive Structures: Impersonal and Causative 🧠",
+      "content": "<p>Explore advanced passive forms like impersonal passive and causative structures. 📚</p><p><strong>Impersonal Passive:</strong> Used for general truths or rumors, e.g., 'It is said that...' or 'He is believed to have...'</p><p><strong>Causative Passive:</strong> Using 'have' or 'get' to indicate someone else does the action, e.g., 'I had my car repaired.'</p><p><strong>Key Points:</strong></p><ul><li>Impersonal passive shifts focus to the information</li><li>Causative shows arrangement without doing the action yourself</li><li>Common in formal and everyday English</li></ul><p><strong>Examples:</strong> It is believed that the meeting will be postponed. I got my hair cut yesterday.</p>",
+      "examples": [
+        "It is said that the company will expand.",
+        "He is thought to be living abroad.",
+        "She is known to have written several books.",
+        "I had my house painted last summer.",
+        "They got their computer fixed.",
+        "We will have the report typed by tomorrow."
+      ],
+      "difficulty": 4,
+      "audio": "lesson_7_advanced.mp3",
+      "functions": ["Use impersonal passive", "Form causative structures", "Recognize advanced passives"],
+      "tips": "💡 <strong>Practice Tip:</strong> Use impersonal passive for news or opinions; causative for services."
     }
   ],
   "writingActivities": [
@@ -150,6 +171,21 @@
       "hint": "Start with the object or the action. Use 'is', 'are', or 'has been'.",
       "expectedKeywords": ["is placed", "are measured", "has been recorded", "by scientists", "entered"],
       "sentenceStarters": ["The sample is...", "The data are..."] ,
+    },
+    {
+      "id": "writing-7",
+      "question": "Write a sentence using impersonal passive to report a rumor or general belief.",
+      "hint": "Start with 'It is...' and use a passive verb.",
+      "expectedKeywords": ["is said", "is believed", "is thought", "is known", "to be", "to have"],
+      "sentenceStarters": ["It is said that...", "He is believed to..."],
+      "difficulty": 4
+    },
+    {
+      "id": "writing-8",
+      "question": "Use causative passive to describe having something done by someone else.",
+      "hint": "Use 'have' or 'get' + object + past participle.",
+      "expectedKeywords": ["had", "got", "repaired", "cut", "painted", "fixed"],
+      "sentenceStarters": ["I had my...", "She got her..."],
       "difficulty": 4
     }
   ],
@@ -202,6 +238,25 @@
       "options": ["is being", "was being", "has been", "will be", "is", "are"],
       "correctAnswer": ["is being"],
       "hint": "Use the present continuous passive for actions happening now.",
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Complete the impersonal passive sentence.",
+      "sentence": "It ____ that the project will be delayed.",
+      "options": ["is said", "was said", "has been said", "will be said", "is saying", "was saying"],
+      "correctAnswer": ["is said"],
+      "hint": "Use 'It is said' for reporting general information.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Choose the correct causative passive.",
+      "sentence": "I ____ my watch ____.",
+      "options": ["had / repaired", "got / repairing", "have / repair", "get / repaired", "had / repair", "got / repaired"],
+      "correctAnswer": ["had / repaired", "got / repaired"],
+      "hint": "Use 'had' or 'got' + past participle for causative.",
       "difficulty": "hard"
     }
   ],
@@ -258,8 +313,28 @@
       "correctAnswer": "My bike has been stolen.",
       "audio": "quiz_5_master.mp3",
       "hint": "Omit 'by' when the agent is unknown or unimportant.",
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which sentence uses impersonal passive correctly?",
+      "sentence": "",
+      "options": ["It is believed that he left the country.", "He is believed that left the country.", "It believes that he left the country.", "He believes that left the country."],
+      "correctAnswer": "It is believed that he left the country.",
+      "audio": "quiz_6_advanced.mp3",
+      "hint": "Impersonal passive starts with 'It is...' followed by a passive verb.",
       "difficulty": "hard",
-      "explanation": "The passive form is used without mentioning who did the action."
+      "explanation": "Impersonal passive reports opinions or rumors without specifying who believes it."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct causative passive form.",
+      "sentence": "",
+      "options": ["I had my car repair.", "I got my car repaired.", "I had repaired my car.", "I got repair my car."],
+      "correctAnswer": "I got my car repaired.",
+      "audio": "quiz_7_master.mp3",
+      "hint": "Causative uses 'have' or 'get' + object + past participle.",
+      "difficulty": "hard",
+      "explanation": "Causative passive indicates someone else performed the action for you."
     }
   ],
   "spellingActivities": [
@@ -270,7 +345,9 @@
     {"id": "spelling-5", "word": "repair", "hint": "Past participle is repaired", "clue": "r_pa_r", "sentence": "The road is being ____.", "difficulty": "easy"},
     {"id": "spelling-6", "word": "recorded", "hint": "Past participle of record", "clue": "r_co_d_d", "sentence": "The data was ____ carefully.", "difficulty": "medium"},
     {"id": "spelling-7", "word": "delivered", "hint": "Past participle of deliver", "clue": "d_l_v_r_d", "sentence": "The letter was ____ at 9 a.m.", "difficulty": "medium"},
-    {"id": "spelling-8", "word": "repaired", "hint": "Past participle of repair", "clue": "r_pa_r_d", "sentence": "My car has been ____.", "difficulty": "medium"}
+    {"id": "spelling-8", "word": "repaired", "hint": "Past participle of repair", "clue": "r_pa_r_d", "sentence": "My car has been ____.", "difficulty": "medium"},
+    {"id": "spelling-9", "word": "believed", "hint": "Used in impersonal passive", "clue": "b_l_e_v_d", "sentence": "It is ____ that he is innocent.", "difficulty": "medium"},
+    {"id": "spelling-10", "word": "causative", "hint": "Type of passive structure", "clue": "c_u_a_t_v_", "sentence": "The ____ passive uses 'have' or 'get'.", "difficulty": "hard"}
   ],
   "rewards": {
     "stars": {"bronze": 12, "silver": 35, "gold": 60, "platinum": 85},
@@ -282,7 +359,9 @@
       {"id": "science-writer", "name": "Science Writer 🧪", "condition": "Write a scientific passive sentence correctly", "icon": "🧪", "points": 55, "message": "You can use passive voice for facts and reports."},
       {"id": "style-specialist", "name": "Style Specialist ✨", "condition": "Use passive voice for style in 3 sentences", "icon": "✨", "points": 60, "message": "Your writing has a polished, formal style."},
       {"id": "passive-wizard", "name": "Passive Wizard 🪄", "condition": "Complete all writing activities with high scores", "icon": "🪄", "points": 75, "message": "You are confident with passive constructions."},
-      {"id": "ultimate-passive-master", "name": "Ultimate Passive Master 🏆", "condition": "Collect ALL other badges + 100% on every activity", "icon": "🏆", "points": 200, "message": "You are a passive voice expert!"}
+      {"id": "ultimate-passive-master", "name": "Ultimate Passive Master 🏆", "condition": "Collect ALL other badges + 100% on every activity", "icon": "🏆", "points": 200, "message": "You are a passive voice expert!"},
+      {"id": "impersonal-expert", "name": "Impersonal Expert 📢", "condition": "Master impersonal passive structures", "icon": "📢", "points": 65, "message": "You can report rumors and beliefs using passive voice."},
+      {"id": "causative-champion", "name": "Causative Champion 🔧", "condition": "Use causative passive in sentences correctly", "icon": "🔧", "points": 70, "message": "You know how to arrange for things to be done."}
     ]
   }
 }

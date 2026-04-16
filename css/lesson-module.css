@@ -575,6 +575,121 @@
   color: var(--text-secondary);
 }
 
+/* Lesson Tables - Professional Styling */
+.lesson-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 25px 0 25px 0;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--border-color);
+  position: relative;
+  z-index: 1;
+  background-color: var(--card-bg);
+}
+
+.lesson-table th {
+  padding: 16px 18px;
+  text-align: left;
+  font-weight: 700;
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.lesson-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.lesson-table tr:last-child td {
+  border-bottom: none;
+}
+
+.lesson-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.lesson-table tr:hover td {
+  background-color: rgba(110, 86, 207, 0.08);
+  color: var(--primary-light);
+  transition: all 0.3s ease;
+}
+
+/* Color variations for different table types */
+.lesson-table.table-blue th {
+  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+}
+
+.lesson-table.table-green th {
+  background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+}
+
+.lesson-table.table-yellow th {
+  background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%);
+  color: #212529;
+}
+
+.lesson-table.table-purple th {
+  background: linear-gradient(135deg, #6f42c1 0%, #5a32a3 100%);
+}
+
+.lesson-table.table-teal th {
+  background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+}
+
+.lesson-table.table-orange th {
+  background: linear-gradient(135deg, #fd7e14 0%, #e8680d 100%);
+}
+
+.lesson-table.table-pink th {
+  background: linear-gradient(135deg, #e83e8c 0%, #d63384 100%);
+}
+
+.lesson-table.table-gray th {
+  background: linear-gradient(135deg, #6c757d 0%, #5a6268 100%);
+}
+
+.lesson-table.table-blue th {
+  border-bottom-color: rgba(74, 144, 226, 0.2);
+}
+
+.lesson-table.table-green th {
+  border-bottom-color: rgba(40, 167, 69, 0.2);
+}
+
+.lesson-table.table-yellow th {
+  border-bottom-color: rgba(255, 193, 7, 0.2);
+}
+
+.lesson-table.table-purple th {
+  border-bottom-color: rgba(111, 66, 193, 0.2);
+}
+
+.lesson-table.table-teal th {
+  border-bottom-color: rgba(23, 162, 184, 0.2);
+}
+
+.lesson-table.table-orange th {
+  border-bottom-color: rgba(253, 126, 20, 0.2);
+}
+
+.lesson-table.table-pink th {
+  border-bottom-color: rgba(232, 62, 140, 0.2);
+}
+
+.lesson-table.table-gray th {
+  border-bottom-color: rgba(108, 117, 125, 0.2);
+}
+
 /* Frequency table */
 .frequency-table {
   width: 100%;

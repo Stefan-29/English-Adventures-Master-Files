@@ -1,0 +1,219 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Prepositional Phrases with At and By – Your First Step! 🎯",
+      "content": "<p>Welcome to Prepositional Phrases! These are set expressions that add meaning to sentences. 📚</p><p><strong>What are they?</strong> Fixed combinations of preposition + noun/gerund that have special meanings.</p><table class=\"lesson-table table-teal\"><tr><th>Preposition</th><th>Common Phrases</th><th>Meaning</th></tr><tr><td><strong>At</strong></td><td>at an advantage, at a disadvantage, at any cost</td><td>having benefit/loss, no matter what</td></tr><tr><td><strong>At</strong></td><td>at a distance, at ease</td><td>far away, comfortable</td></tr><tr><td><strong>By</strong></td><td>by accident, by all accounts, by all means</td><td>unintentionally, according to reports, certainly</td></tr><tr><td><strong>By</strong></td><td>by chance, by hand</td><td>accidentally, manually</td></tr></table><p><strong>Try it:</strong> Sophie is at an advantage. I found my ring by accident.</p>",
+      "examples": [
+        "Sophie's computer skills puts her at an advantage.",
+        "Eva is at a disadvantage without computer skills.",
+        "We must avoid the spread of the virus at any cost.",
+        "The policeman followed the suspect at a distance.",
+        "I was immediately at ease with the group.",
+        "I found my ring by accident when tidying the wardrobe.",
+        "By all accounts this is the best hotel in the area.",
+        "You may have a copy by all means.",
+        "He met her by chance in a bookshop."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_basics.mp3",
+      "functions": ["Recognize common phrases", "Use at/by phrases correctly", "Understand idiomatic meanings"],
+      "tips": "💡 <strong>Practice Tip:</strong> Learn phrases in context, not isolation."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Phrases with In and On – Building Confidence 🚀",
+      "content": "<p>Great! Let's add more useful phrases to your toolkit. 📈</p><p><strong>More phrases:</strong> These help express ideas like addition, timing, and reasons.</p><table class=\"lesson-table table-orange\"><tr><th>Preposition</th><th>Common Phrases</th><th>Meaning</th></tr><tr><td><strong>In</strong></td><td>in action, in addition, in advance</td><td>doing something, also, before time</td></tr><tr><td><strong>In</strong></td><td>in agreement, in case</td><td>agreeing, if something happens</td></tr><tr><td><strong>On</strong></td><td>on account of, on average, on behalf of</td><td>because of, typically, for someone</td></tr><tr><td><strong>On</strong></td><td>on display, on edge</td><td>being shown, nervous</td></tr></table><p><strong>Example:</strong> It's amazing to see the sculptor in action. The paintings are on display.</p>",
+      "examples": [
+        "It's amazing to see the sculptor in action.",
+        "We get a bonus at the end of the year, in addition to our salary.",
+        "Passengers should book well in advance.",
+        "We were in agreement with his analysis.",
+        "Take a sweater in case it gets cold.",
+        "He couldn't speak on account of a sore throat.",
+        "It takes 5 minutes, on average, to walk to the station.",
+        "I'm making this request on behalf of all the members.",
+        "His paintings are on display at the moment."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_application.mp3",
+      "functions": ["Apply in/on phrases in writing", "Choose correct phrase for context", "Expand vocabulary with phrases"],
+      "tips": "💡 <strong>Memory Aid:</strong> Group phrases by preposition to memorize."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Phrases with Out, Under, Within/Without – Advanced Usage 🔍",
+      "content": "<p>You're doing awesome! Let's master the final phrases for complete fluency. 🎭</p><p><strong>Advanced phrases:</strong> These add nuance to your English.</p><table class=\"lesson-table table-green\"><tr><th>Preposition</th><th>Common Phrases</th><th>Meaning</th></tr><tr><td><strong>Out</strong></td><td>out of bounds, out of breath, out of control</td><td>beyond limits, breathing hard, uncontrollable</td></tr><tr><td><strong>Out</strong></td><td>out of danger</td><td>safe now</td></tr><tr><td><strong>Under</strong></td><td>under age, under consideration, under control</td><td>too young, being thought about, managed</td></tr><tr><td><strong>Under</strong></td><td>under discussion</td><td>being talked about</td></tr><tr><td><strong>Within/Without</strong></td><td>within earshot, within reason, without doubt</td><td>close enough to hear, reasonably, certainly</td></tr><tr><td><strong>Within/Without</strong></td><td>without delay</td><td>immediately</td></tr></table><p><strong>Example:</strong> The patient is out of danger now. The proposal is under consideration.</p>",
+      "examples": [
+        "Paul sent the ball out of bounds.",
+        "Julia ran all the way home and arrived out of breath.",
+        "The children were totally out of control.",
+        "The patient is out of danger now.",
+        "Children under 18 are under age.",
+        "The boss said that her proposal was under consideration.",
+        "There were some violent protests but the situation is now under control.",
+        "The work is under discussion.",
+        "He made sure the boss was not within earshot before speaking.",
+        "I agree with the proposal within limits.",
+        "The author is without doubt one of the greatest writers.",
+        "We must find a solution without delay."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_3_exceptions.mp3",
+      "functions": ["Use advanced phrases naturally", "Distinguish similar phrases", "Apply in formal/informal contexts"],
+      "tips": "💡 <strong>Practice Tip:</strong> Create sentences using multiple phrases."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Complete List of Prepositions – Mastery Level 🧠",
+      "content": "<p>Review the complete list of prepositions and their uses. 📘</p><p><strong>Core Concept:</strong> Prepositions show relationships between words in sentences.</p><p><strong>Categories:</strong> Position, Direction, Location, Time, etc.</p><p><strong>Complete List:</strong> above, across, after, against, along, among, around, as, at, before, behind, below, beneath, beside, besides, between, beyond, but, by, concerning, considering, despite, down, during, except, for, from, in, inside, into, like, near, of, off, on, onto, out, outside, over, past, regarding, round, since, through, throughout, to, toward, towards, under, underneath, until, up, upon, with, within, without.</p><p><strong>Examples:</strong> The coconut was high above our heads. We walked across the street.</p>",
+      "examples": [
+        "The coconut was high above our heads, so nobody could reach it.",
+        "The cat lay across my lap.",
+        "We walked across the street.",
+        "After dinner, we ate dessert.",
+        "The broom was leaning against the fence.",
+        "The path led along the river.",
+        "The deer hid among the trees.",
+        "There was a white fence around the house.",
+        "We don't have a coffee maker at work.",
+        "Before work, I go to the fitness center."
+      ],
+      "difficulty": 4,
+      "audio": "lesson_4_advanced.mp3",
+      "functions": ["Use complete preposition list", "Identify preposition types", "Apply in complex sentences"],
+      "tips": "💡 <strong>Practice Tip:</strong> Study prepositions by category."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Use a prepositional phrase with 'at' or 'by' in a sentence.",
+      "hint": "Choose from at an advantage, by accident, etc.",
+      "expectedKeywords": ["at an advantage", "at a disadvantage", "by accident", "by chance", "at ease"],
+      "sentenceStarters": ["She is ___ because...", "He found it ___ .", "I feel ___ with..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write a sentence using a phrase with 'in' or 'on'.",
+      "hint": "Use phrases like in action, on display, etc.",
+      "expectedKeywords": ["in action", "in advance", "on account of", "on average", "on display"],
+      "sentenceStarters": ["The artist is ___ .", "We booked ___ .", "___ the rain,..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Incorporate a phrase with 'out', 'under', 'within', or 'without'.",
+      "hint": "Choose from out of control, under consideration, within reason, etc.",
+      "expectedKeywords": ["out of control", "under consideration", "within reason", "without doubt"],
+      "sentenceStarters": ["The situation is ___ .", "The proposal is ___ .", "___ , I agree.", "He is ___ the best."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-4",
+      "question": "Use multiple prepositions from the complete list.",
+      "hint": "Include position, direction, time prepositions.",
+      "expectedKeywords": ["above", "across", "after", "against", "along", "among", "around", "at", "before", "behind", "below", "beneath", "beside", "besides", "between", "beyond", "by", "concerning", "considering", "despite", "down", "during", "except", "for", "from", "in", "inside", "into", "like", "near", "of", "off", "on", "onto", "out", "outside", "over", "past", "regarding", "round", "since", "through", "throughout", "to", "toward", "towards", "under", "underneath", "until", "up", "upon", "with", "within", "without"],
+      "sentenceStarters": ["The book is ___ the table.", "We walked ___ the park.", "___ dinner, we watched TV."],
+      "difficulty": 4
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Complete the phrase with 'at' or 'by'.",
+      "sentence": "He found the wallet ___ accident.",
+      "options": ["at", "by", "in", "on", "out"],
+      "correctAnswer": ["by"],
+      "hint": "By accident means unintentionally.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Choose the correct phrase with 'in' or 'on'.",
+      "sentence": "The paintings are ___ display.",
+      "options": ["in", "on", "out", "under", "within"],
+      "correctAnswer": ["on"],
+      "hint": "On display means shown publicly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Select the right phrase with 'out', 'under', etc.",
+      "sentence": "The patient is ___ danger.",
+      "options": ["out of", "under", "within", "without"],
+      "correctAnswer": ["out of"],
+      "hint": "Out of danger means no longer at risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Pick from the complete preposition list.",
+      "sentence": "The cat is ___ the table.",
+      "options": ["above", "across", "after", "against", "along"],
+      "correctAnswer": ["under"],
+      "hint": "Under means below and supported by.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What does 'at a glance' mean?",
+      "sentence": "",
+      "options": ["Slowly", "Quickly, without detailed examination", "With difficulty", "In detail"],
+      "correctAnswer": "Quickly, without detailed examination",
+      "audio": "quiz_1_basics.mp3",
+      "hint": "At a glance means seeing something immediately.",
+      "difficulty": "easy",
+      "explanation": "At a glance means to see or understand something quickly."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Choose the correct phrase: 'The proposal is ___ consideration.'",
+      "sentence": "",
+      "options": ["in", "on", "out of", "under", "within"],
+      "correctAnswer": "under",
+      "audio": "quiz_2_application.mp3",
+      "hint": "Under consideration means being thought about.",
+      "difficulty": "easy",
+      "explanation": "Under consideration means currently being discussed or evaluated."
+    },
+    {
+      "id": "quiz-3",
+      "question": "What does 'without doubt' mean?",
+      "sentence": "",
+      "options": ["With uncertainty", "Definitely", "Possibly", "Never"],
+      "correctAnswer": "Definitely",
+      "audio": "quiz_3_exceptions.mp3",
+      "hint": "Without doubt means certainly true.",
+      "difficulty": "medium",
+      "explanation": "Without doubt means there is no question about it."
+    }
+  ],
+  "spellingActivities": [
+    {"id": "spelling-1", "word": "advantage", "hint": "At an ___", "clue": "_d_a_t_g_", "sentence": "Her skills give her ___ .", "difficulty": "easy"},
+    {"id": "spelling-2", "word": "accident", "hint": "By ___", "clue": "_c_i_e_t", "sentence": "He broke it ___ .", "difficulty": "easy"},
+    {"id": "spelling-3", "word": "advance", "hint": "In ___", "clue": "_d_a_c_", "sentence": "Book ___ .", "difficulty": "easy"},
+    {"id": "spelling-4", "word": "display", "hint": "On ___", "clue": "d_s_l_y", "sentence": "The art is ___ .", "difficulty": "easy"},
+    {"id": "spelling-5", "word": "control", "hint": "Out of ___", "clue": "c_n_r_l", "sentence": "The class is ___ .", "difficulty": "medium"},
+    {"id": "spelling-6", "word": "consideration", "hint": "Under ___", "clue": "c_n_i_e_a_i_n", "sentence": "The idea is ___ .", "difficulty": "medium"},
+    {"id": "spelling-7", "word": "earshot", "hint": "Within ___", "clue": "_a_s_o_", "sentence": "He was ___ .", "difficulty": "medium"},
+    {"id": "spelling-8", "word": "doubt", "hint": "Without ___", "clue": "d_u_t", "sentence": "___ , he is right.", "difficulty": "medium"}
+  ],
+  "rewards": {
+    "stars": {"bronze": 12, "silver": 35, "gold": 60, "platinum": 85},
+    "badges": [
+      {"id": "phrase-starter", "name": "Phrase Starter 📝", "condition": "Complete lesson-1 with 80% or higher", "icon": "📝", "points": 25, "message": "You know basic prepositional phrases!"},
+      {"id": "phrase-builder", "name": "Phrase Builder 🏗️", "condition": "Use in/on phrases correctly", "icon": "🏗️", "points": 35, "message": "You build sentences with phrases."},
+      {"id": "phrase-expert", "name": "Phrase Expert 🔬", "condition": "Master out/under/within phrases", "icon": "🔬", "points": 45, "message": "You handle advanced phrases."},
+      {"id": "complete-prep-wizard", "name": "Complete Prep Wizard 🪄", "condition": "Use prepositions from complete list", "icon": "🪄", "points": 55, "message": "You master all prepositions."},
+      {"id": "ultimate-phrase-master", "name": "Ultimate Phrase Master 🏆", "condition": "Collect ALL other badges + 100% on every activity", "icon": "🏆", "points": 200, "message": "You are a prepositional phrase expert!"}
+    ]
+  }
+}

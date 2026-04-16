@@ -3,7 +3,7 @@
         {
             "id": "lesson-1",
             "title": "Some, Any, A Little & A Few Basics – Expressing Quantity! 🎯",
-            "content": "<p>Welcome to the essential quantity words! <strong>Some</strong>, <strong>any</strong>, <strong>a little</strong>, and <strong>a few</strong> help us talk about quantities in different situations. 📚</p><p><strong>Core Concept:</strong> These words express 'some quantity' but with different rules for positive vs negative contexts.</p><p><strong>Key Points:</strong></p><ul><li><strong>Some:</strong> Affirmative sentences and offers/questions</li><li><strong>Any:</strong> Negative sentences and questions</li><li><strong>A little:</strong> Small amount of uncountable nouns</li><li><strong>A few:</strong> Small number of countable nouns</li></ul><p><strong>Important Note:</strong> Some and any are often interchangeable in questions, but some is friendlier.</p><p><strong>Common Mistakes:</strong> Using any in affirmative sentences or some in true negatives.</p>",
+            "content": "<p>Welcome to the essential quantity words! <strong>Some</strong>, <strong>any</strong>, <strong>a little</strong>, and <strong>a few</strong> help us talk about quantities in different situations. 📚</p><p><strong>Core Concept:</strong> These words express 'some quantity' but with different rules for positive vs negative contexts.</p><p><strong>Key Points:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>Some:</strong> Affirmative sentences and offers/questions</td></tr><tr><td><strong>Any:</strong> Negative sentences and questions</td></tr><tr><td><strong>A little:</strong> Small amount of uncountable nouns</td></tr><tr><td><strong>A few:</strong> Small number of countable nouns</td></tr></table><p><strong>Important Note:</strong> Some and any are often interchangeable in questions, but some is friendlier.</p><p><strong>Common Mistakes:</strong> Using any in affirmative sentences or some in true negatives.</p>",
             "examples": [
                 "I brought you <strong>some</strong> magazines to read.",
                 "Would you like <strong>some</strong> milk in your coffee?",
@@ -24,7 +24,7 @@
         {
             "id": "lesson-2",
             "title": "Some vs Any – Context Matters! 🚀",
-            "content": "<p>Master the crucial difference between <strong>some</strong> and <strong>any</strong> based on sentence type and context. 📈</p><p><strong>Usage Rules:</strong></p><ul><li><strong>Some:</strong> Affirmative sentences, offers, requests</li><li><strong>Any:</strong> Negative sentences, questions, conditionals</li><li><strong>Both in questions:</strong> Any = neutral, some = expecting positive answer</li></ul><p><strong>Context Matters:</strong> Some sounds more positive and friendly than any.</p><p><strong>Practice Strategy:</strong> Notice how some vs any changes the tone of questions.</p>",
+            "content": "<p>Master the crucial difference between <strong>some</strong> and <strong>any</strong> based on sentence type and context. 📈</p><p><strong>Usage Rules:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>Some:</strong> Affirmative sentences, offers, requests</td></tr><tr><td><strong>Any:</strong> Negative sentences, questions, conditionals</td></tr><tr><td><strong>Both in questions:</strong> Any = neutral, some = expecting positive answer</td></tr></table><p><strong>Context Matters:</strong> Some sounds more positive and friendly than any.</p><p><strong>Practice Strategy:</strong> Notice how some vs any changes the tone of questions.</p>",
             "examples": [
                 "I have <strong>some</strong> friends in London. (affirmative)",
                 "I don't have <strong>any</strong> friends in London. (negative)",
@@ -45,7 +45,7 @@
         {
             "id": "lesson-3",
             "title": "A Little vs A Few – Small Quantities 🔍",
-            "content": "<p>Learn the precise difference between <strong>a little</strong> and <strong>a few</strong> for expressing small amounts. 🎭</p><p><strong>Key Distinction:</strong></p><ul><li><strong>A little:</strong> Small amount of uncountable nouns (water, time, money)</li><li><strong>A few:</strong> Small number of countable nouns (books, people, minutes)</li></ul><p><strong>Positive Meaning:</strong> Both imply 'some but not many/much'.</p><p><strong>Advanced Tip:</strong> Little/few (without 'a') mean 'almost none' and are more negative.</p>",
+            "content": "<p>Learn the precise difference between <strong>a little</strong> and <strong>a few</strong> for expressing small amounts. 🎭</p><p><strong>Key Distinction:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>A little:</strong> Small amount of uncountable nouns (water, time, money)</td></tr><tr><td><strong>A few:</strong> Small number of countable nouns (books, people, minutes)</td></tr></table><p><strong>Positive Meaning:</strong> Both imply 'some but not many/much'.</p><p><strong>Advanced Tip:</strong> Little/few (without 'a') mean 'almost none' and are more negative.</p>",
             "examples": [
                 "I have <strong>a little</strong> money saved. (positive - some money)",
                 "I have <strong>little</strong> money saved. (negative - almost no money)",
@@ -66,7 +66,7 @@
         {
             "id": "lesson-4",
             "title": "Little vs Few – Negative Quantities ⚖️",
-            "content": "<p>Master the negative meanings of <strong>little</strong> and <strong>few</strong> without the article 'a'. ⚖️</p><p><strong>Negative Meanings:</strong></p><ul><li><strong>Little:</strong> Not much, almost none (uncountable)</li><li><strong>Few:</strong> Not many, almost none (countable)</li></ul><p><strong>Emotional Impact:</strong> These words sound disappointed or critical.</p><p><strong>Practice Strategy:</strong> Compare sentences with and without 'a' to feel the difference.</p>",
+            "content": "<p>Master the negative meanings of <strong>little</strong> and <strong>few</strong> without the article 'a'. ⚖️</p><p><strong>Negative Meanings:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>Little:</strong> Not much, almost none (uncountable)</td></tr><tr><td><strong>Few:</strong> Not many, almost none (countable)</td></tr></table><p><strong>Emotional Impact:</strong> These words sound disappointed or critical.</p><p><strong>Practice Strategy:</strong> Compare sentences with and without 'a' to feel the difference.</p>",
             "examples": [
                 "<strong>Little</strong> attention was paid to safety. (almost no attention)",
                 "<strong>Few</strong> students understood the lesson. (almost no students)",
@@ -87,7 +87,7 @@
         {
             "id": "lesson-5",
             "title": "Sentence Type Patterns – Complete Guide 📊",
-            "content": "<p>Learn the complete patterns for using these quantity words in different sentence types. 📊</p><p><strong>Affirmative Sentences:</strong></p><ul><li>Some + countable/uncountable nouns</li><li>A little + uncountable nouns</li><li>A few + countable nouns</li></ul><p><strong>Negative Sentences:</strong></p><ul><li>Any + countable/uncountable nouns</li><li>Little + uncountable nouns</li><li>Few + countable nouns</li></ul><p><strong>Questions:</strong></p><ul><li>Any (neutral) or some (expecting yes)</li><li>Little/few (rare in questions)</li></ul>",
+            "content": "<p>Learn the complete patterns for using these quantity words in different sentence types. 📊</p><p><strong>Affirmative Sentences:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td>Some + countable/uncountable nouns</td></tr><tr><td>A little + uncountable nouns</td></tr><tr><td>A few + countable nouns</td></tr></table><p><strong>Negative Sentences:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td>Any + countable/uncountable nouns</td></tr><tr><td>Little + uncountable nouns</td></tr><tr><td>Few + countable nouns</td></tr></table><p><strong>Questions:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td>Any (neutral) or some (expecting yes)</td></tr><tr><td>Little/few (rare in questions)</td></tr></table>",
             "examples": [
                 "There are <strong>some</strong> apples in the bowl. (affirmative)",
                 "There aren't <strong>any</strong> apples in the bowl. (negative)",
@@ -108,7 +108,7 @@
         {
             "id": "lesson-6",
             "title": "Mastering Quantity Words – Real Communication 🏆",
-            "content": "<p>Put it all together! Use these words naturally in real conversations and writing. 🏆</p><p><strong>Communication Tips:</strong></p><ul><li><strong>Offers:</strong> Would you like some...?</li><li><strong>Requests:</strong> Can I have some...?</li><li><strong>Polite questions:</strong> Do you have any...?</li><li><strong>Positive attitude:</strong> A little/a few instead of little/few</li></ul><p><strong>Advanced Tip:</strong> Native speakers use some in questions when expecting a positive answer.</p>",
+            "content": "<p>Put it all together! Use these words naturally in real conversations and writing. 🏆</p><p><strong>Communication Tips:</strong></p><table class=\"lesson-table table-gray\"><tr><th>Information</th></tr><tr><td><strong>Offers:</strong> Would you like some...?</td></tr><tr><td><strong>Requests:</strong> Can I have some...?</td></tr><tr><td><strong>Polite questions:</strong> Do you have any...?</td></tr><tr><td><strong>Positive attitude:</strong> A little/a few instead of little/few</td></tr></table><p><strong>Advanced Tip:</strong> Native speakers use some in questions when expecting a positive answer.</p>",
             "examples": [
                 "Can I have <strong>some</strong> more coffee? (polite request)",
                 "Would you like <strong>some</strong> help? (friendly offer)",

@@ -1,0 +1,42 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Of and From Prepositions",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Of and From Prepositions in English",
+    "modules": [
+      {"id": "lesson-module", "name": "Learn", "title": "Of/From Lessons", "instructions": "Master the uses of 'of' for possession/quantity/part and 'from' for origins/sources/made of."},
+      {"id": "writing-module", "name": "Write", "title": "Writing Practice", "instructions": "Practice using of and from correctly in sentences."},
+      {"id": "game-module", "name": "Play", "title": "Grammar Games", "instructions": "Reinforce of/from usage with interactive exercises."},
+      {"id": "quiz-module", "name": "Quiz", "title": "Quick Quiz", "instructions": "Test your of/from knowledge with multiple choice questions."},
+      {"id": "spelling-module", "name": "Apply", "title": "Apply Grammar", "instructions": "Practice key of/from vocabulary and structures."}
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {"title": "Of for Possession", "words": ["roof of the car", "title of the book", "name of the game", "It was nice of you", "afraid of", "ashamed of", "aware of", "capable of", "fond of", "proud of", "sure of", "tired of", "accuse of", "complain of", "dream of", "hear of", "remind of", "think of"]},
+      {"title": "From for Origins", "words": ["come from England", "passage from a poem", "from 9 AM to 5 PM", "from Tuesday until Friday", "from 3:30 to 5:30", "borrow from", "disappear from", "discourage from", "prevent from", "protect from"]},
+      {"title": "Of for Quantity/Part", "words": ["a cup of tea", "part of the team", "made of wood", "full of ideas"]},
+      {"title": "From for Material", "words": ["made from plastic", "built from stone", "created from recycled materials"]}
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/of-from-prepositions.json",
+  "grammarChecker": "ofFromPrepositions.js",
+  "gameSettings": {
+    "timeLimit": 45,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 1.5,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

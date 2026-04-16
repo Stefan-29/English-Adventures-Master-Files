@@ -1,0 +1,45 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Prepositional Phrases",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Prepositional Phrases in English",
+    "modules": [
+      {"id": "lesson-module", "name": "Learn", "title": "Phrase Lessons", "instructions": "Master common prepositional phrases with at, by, in, on, out, under, within, and complete preposition lists."},
+      {"id": "writing-module", "name": "Write", "title": "Writing Practice", "instructions": "Practice using prepositional phrases in sentences."},
+      {"id": "game-module", "name": "Play", "title": "Grammar Games", "instructions": "Reinforce phrase usage with interactive exercises."},
+      {"id": "quiz-module", "name": "Quiz", "title": "Quick Quiz", "instructions": "Test your phrase knowledge with multiple choice questions."},
+      {"id": "spelling-module", "name": "Apply", "title": "Apply Grammar", "instructions": "Practice key phrase vocabulary and structures."}
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {"title": "Phrases with At", "words": ["at an advantage", "at a disadvantage", "at any cost", "at a distance", "at an end", "at ease", "at a glance", "at hand", "at large", "at length", "at liberty", "at most", "at odds", "at once", "at the latest", "at random", "at risk", "at the outset", "at short notice", "at a standstill", "at times"]},
+      {"title": "Phrases with By", "words": ["by accident", "by all accounts", "by all means", "by and by", "by and large", "by appointment", "by chance", "by degrees", "by hand", "by heart", "by invitation", "by law", "by mistake", "by nature", "by no means", "by now", "by right"]},
+      {"title": "Phrases with In", "words": ["in action", "in addition", "in advance", "in agreement", "in brief", "in case", "in charge", "in common", "in comparison", "in control", "in danger", "in debt", "in decline", "in detail", "in difficulty", "in disguise", "in doubt", "in exchange", "in fact", "in fashion", "in favour", "in future", "in general", "in a hurry", "in keeping", "in moderation", "in no time", "in pain", "in private", "in return", "in secret", "in tears", "in the air", "in the end", "in the meantime", "in person", "in stock"]},
+      {"title": "Phrases with On", "words": ["on account of", "on no account", "on average", "on behalf of", "on display", "on edge", "on foot", "on good terms", "on the increase", "on leave", "on occasion", "on one's own", "on your mind", "on purpose", "on principle", "on second thoughts", "on strike", "on target", "on time"]},
+      {"title": "Phrases with Out", "words": ["out of bounds", "out of breath", "out of character", "out of control", "out of danger", "out of your depth", "out of hand", "out of luck", "out of necessity", "out of order", "out of the question", "out of place", "out of practice", "out of print", "out of reach", "out of season", "out of sight", "out of sorts", "out of touch", "out of tune", "out of turn"]},
+      {"title": "Phrases with Under", "words": ["under age", "under consideration", "under control", "under discussion", "under guarantee", "under obligation", "under suspicion", "under way"]},
+      {"title": "Phrases with Within/Without", "words": ["within earshot", "within grasp", "within limits", "within one's power", "within reason", "within one's rights", "within reach", "within easy reach", "within sight", "within walking distance", "without doubt", "without delay", "without exception", "without fail", "without foundation", "without a hitch", "without question", "without reason", "without respite", "without so much as", "without warning"]}
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/prepositional-phrases.json",
+  "grammarChecker": "prepositionalPhrases.js",
+  "gameSettings": {
+    "timeLimit": 45,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 1.5,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Time Prepositions",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Time Prepositions in English",
+    "modules": [
+      {"id": "lesson-module", "name": "Learn", "title": "Time Prepositions Lessons", "instructions": "Master the use of at, on, in, for, since, ago, during, and while for expressing time."},
+      {"id": "writing-module", "name": "Write", "title": "Writing Practice", "instructions": "Practice using time prepositions in sentences and paragraphs."},
+      {"id": "game-module", "name": "Play", "title": "Grammar Games", "instructions": "Reinforce time preposition usage with interactive exercises."},
+      {"id": "quiz-module", "name": "Quiz", "title": "Quick Quiz", "instructions": "Test your time prepositions knowledge with multiple choice questions."},
+      {"id": "spelling-module", "name": "Apply", "title": "Apply Grammar", "instructions": "Practice key time preposition vocabulary and structures."}
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {"title": "Time Prepositions", "words": ["at", "on", "in", "for", "since", "ago", "during", "while"]},
+      {"title": "Time Expressions", "words": ["clock times", "days", "months", "seasons", "duration", "starting point", "past time", "simultaneous"]}
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/time-prepositions.json",
+  "grammarChecker": "timePrepositions.js",
+  "gameSettings": {
+    "timeLimit": 45,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 1.5,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}
