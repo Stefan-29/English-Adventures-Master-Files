@@ -100,7 +100,7 @@
         "id": "spelling-2",
         "word": "decide",
         "hint": "Infinitive verb after certain verbs",
-        "clue": "d___e",
+        "clue": "d____e",
         "sentence": "She _____ to leave earlier.",
         "difficulty": "easy"
     },
@@ -108,7 +108,7 @@
         "id": "spelling-3",
         "word": "suggest",
         "hint": "Gerund verb after certain verbs",
-        "clue": "s___t",
+        "clue": "s_____t",
         "sentence": "He _____ meeting later.",
         "difficulty": "easy"
     },
@@ -124,7 +124,7 @@
         "id": "spelling-5",
         "word": "imagine",
         "hint": "Gerund verb after certain verbs",
-        "clue": "i___e",
+        "clue": "i_____e",
         "sentence": "_____ living on the moon.",
         "difficulty": "medium"
     },
@@ -140,7 +140,7 @@
         "id": "spelling-7",
         "word": "postpone",
         "hint": "Gerund verb after certain verbs",
-        "clue": "p___e",
+        "clue": "p______e",
         "sentence": "They _____ starting the project.",
         "difficulty": "medium"
     },
@@ -164,7 +164,7 @@
         "id": "spelling-10",
         "word": "instead of",
         "hint": "Preposition + gerund",
-        "clue": "i___d o_",
+        "clue": "i_____d o_",
         "sentence": "_____ complaining, I decided to do it.",
         "difficulty": "hard"
     }
