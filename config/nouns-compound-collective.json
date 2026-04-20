@@ -1,0 +1,100 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Compound & Collective Nouns",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Nouns: Compound & Collective",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Compound & Collective Noun Lessons",
+        "instructions": "Master compound nouns (two or more words as one unit) and collective nouns (groups of people, animals, or things)."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using compound and collective nouns correctly. Practice with appropriate verbs and pronouns."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice identifying compound nouns, collective nouns, and choosing correct verb agreement."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about compound and collective nouns. Choose the correct usage!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Nouns Challenge",
+        "instructions": "Apply compound and collective noun rules correctly in sentences. Master verb agreement and plural formation."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Compound Nouns (Noun + Noun)",
+        "words": ["toothbrush", "sunflower", "firefighter", "sunflower", "keyboard", "notebook", "classroom", "motorcycle", "toothpaste", "washing machine"]
+      },
+      {
+        "title": "Compound Nouns (Adjective + Noun)",
+        "words": ["blackboard", "greenhouse", "hot dog", "full moon", "white lie", "dark room", "high school", "quick fix", "sweet tooth", "heavy metal"]
+      },
+      {
+        "title": "Compound Nouns (Verb + Noun)",
+        "words": ["washing machine", "swimming pool", "drinking water", "reading room", "waiting room", "dining room", "sleeping bag", "frying pan", "running shoes", "writing desk"]
+      },
+      {
+        "title": "Collective Nouns - People",
+        "words": ["team", "family", "class", "crowd", "audience", "committee", "crew", "staff", "board", "group"]
+      },
+      {
+        "title": "Collective Nouns - Animals",
+        "words": ["herd", "flock", "pack", "swarm", "school", "pride", "gaggle", "litter", "colony", "troop"]
+      },
+      {
+        "title": "Collective Nouns - Things",
+        "words": ["bunch", "pile", "stack", "set", "collection", "range", "cluster", "array", "series", "suite"]
+      },
+      {
+        "title": "Compound Nouns with Hyphens",
+        "words": ["mother-in-law", "self-control", "well-being", "up-to-date", "state-of-the-art", "father-in-law", "brother-in-law", "sister-in-law", "man-of-war", "jack-in-the-box"]
+      },
+      {
+        "title": "Plural Compound Nouns",
+        "words": ["toothbrushes", "greenhouses", "washing machines", "mothers-in-law", "passers-by", "runners-up", "sons-in-law", "editors-in-chief", "courts-martial", "men-of-war"]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/nouns-compound-collective.json",
+  "grammarChecker": "nounsCompoundCollective.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

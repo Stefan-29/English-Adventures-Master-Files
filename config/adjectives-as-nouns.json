@@ -1,0 +1,92 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Adjectives Used as Nouns",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Adjectives Used as Nouns",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Adjective-to-Noun Lessons",
+        "instructions": "Master how adjectives can function as nouns to refer to groups of people with shared characteristics. Learn nationalities and descriptive group nouns."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using adjectives as nouns correctly. Practice with nationalities, descriptive groups, and appropriate verbs."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice identifying adjectives used as nouns and choosing correct verb agreement."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about adjectives functioning as nouns. Choose the correct usage!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Nouns Challenge",
+        "instructions": "Apply adjective-as-noun rules correctly in sentences. Master nationalities, group references, and verb agreement."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Descriptive Adjectives as Nouns",
+        "words": ["the poor", "the rich", "the blind", "the deaf", "the homeless", "the sick", "the injured", "the elderly", "the young", "the strong", "the weak"]
+      },
+      {
+        "title": "Nationalities (-sh, -ch, -ese)",
+        "words": ["the British", "the French", "the Swedish", "the Danish", "the Chinese", "the Japanese", "the Portuguese", "the Spanish", "the Turkish", "the Polish"]
+      },
+      {
+        "title": "Nationalities (-an, -ian)",
+        "words": ["the American", "the Canadian", "the Australian", "the Brazilian", "the Russian", "the Italian", "the Mexican", "the Egyptian", "the Indian", "the Norwegian"]
+      },
+      {
+        "title": "Other Nationalities",
+        "words": ["the German", "the Dutch", "the Greek", "the Irish", "the Scottish", "the Welsh", "the Swiss", "the Thai", "the Korean", "the Vietnamese"]
+      },
+      {
+        "title": "Adjectives as Collective Nouns",
+        "words": ["the oppressed", "the underprivileged", "the hardworking", "the unemployed", "the disabled", "the talented", "the gifted", "the fortunate", "the unfortunate", "the privileged"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": ["The ___ need help", "The ___ are coming", "Help the ___", "The ___ deserve respect", "The ___ work hard", "The ___ live here"]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/adjectives-as-nouns.json",
+  "grammarChecker": "adjectivesAsNouns.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

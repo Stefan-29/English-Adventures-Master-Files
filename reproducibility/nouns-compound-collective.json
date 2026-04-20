@@ -1,0 +1,369 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Compound Nouns - Words Working Together 🎯",
+      "content": "<p>Discover how two or more words can join forces to create a brand new noun! These are called <strong>compound nouns</strong>. 📚</p><p><strong>What are Compound Nouns?</strong> They are single noun units formed by combining two or more words, creating a meaning different from the separate parts.</p><table class=\"lesson-table table-blue\"><tr><th>Formation Type</th><th>Examples</th></tr><tr><td><strong>Noun + Noun</strong></td><td>toothbrush, sunflower, keyboard</td></tr><tr><td><strong>Adjective + Noun</strong></td><td>blackboard, greenhouse, hot dog</td></tr><tr><td><strong>Verb + Noun</strong></td><td>washing machine, swimming pool</td></tr><tr><td><strong>Other combinations</strong></td><td>mother-in-law, self-control</td></tr></table><p><em>Fun fact: Compound nouns are usually stressed on the first word! 💡</em></p>",
+      "examples": [
+        "I bought a new <strong>toothbrush</strong>. (noun + noun)",
+        "The <strong>greenhouse</strong> is full of plants. (adjective + noun)",
+        "She uses a <strong>washing machine</strong>. (verb + noun)",
+        "My <strong>mother-in-law</strong> lives nearby.",
+        "The <strong>sunflower</strong> is blooming beautifully."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_compound_basics.mp3",
+      "functions": [
+        "Creating new vocabulary with combined words",
+        "Naming everyday objects and concepts efficiently"
+      ],
+      "tips": "💡 <strong>Quick Rule:</strong> If two words together have a special meaning different from their individual meanings, it's likely a compound noun."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Collective Nouns - Groups and Collections 👥",
+      "content": "<p>Now let's level up! 🎮 Learn about <strong>collective nouns</strong> — special words that represent a group of people, animals, or things as a single unit. 👥</p><p><strong>Formation:</strong> One word that stands for many individuals.</p><table class=\"lesson-table table-green\"><tr><th>Group Type</th><th>Common Collective Nouns</th></tr><tr><td><strong>People groups</strong></td><td>team, family, class, crowd, audience</td></tr><tr><td><strong>Animal groups</strong></td><td>herd, flock, pack, swarm, school</td></tr><tr><td><strong>Things</strong></td><td>bunch, pile, set, collection</td></tr></table><p><em>Fun fact: In British English, collective nouns often take plural verbs, while American English usually prefers singular! 🌟</em></p>",
+      "examples": [
+        "Positive form: The <strong>team</strong> is winning.",
+        "Positive form: The <strong>audience</strong> was very enthusiastic.",
+        "Positive form: A <strong>herd</strong> of elephants crossed the river.",
+        "Positive form: The <strong>family</strong> are having dinner together."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_collective_nouns.mp3",
+      "functions": [
+        "Describing groups of people or animals",
+        "Using correct verb agreement with group nouns"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> Think of the group as one unit (singular verb) or as individuals (plural verb)."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Advanced Compound Nouns & Their Plurals 🔄",
+      "content": "<p>Time to explore more advanced patterns! ✨ Master complex compound nouns and how to make them plural.</p><p><strong>Pattern:</strong> Compound nouns can be written as one word, two words, or with hyphens.</p><table class=\"lesson-table table-orange\"><tr><th>Plural Rule</th><th>Example</th></tr><tr><td>Usually add -s to the main noun</td><td>toothbrush → toothbrushes</td></tr><tr><td>For hyphenated compounds, pluralize the key noun</td><td>mother-in-law → mothers-in-law</td></tr><tr><td>Some change both parts</td><td>passer-by → passers-by</td></tr></table><p><em>Fun fact: English has hundreds of compound nouns, and new ones are created all the time! 🎨</em></p>",
+      "examples": [
+        "With plural: My <strong>mothers-in-law</strong> are visiting.",
+        "With plural: The <strong>passers-by</strong> stopped to watch.",
+        "Idiomatic: She suffered a <strong>heart attack</strong>.",
+        "Phrasal: This phone is completely <strong>state-of-the-art</strong>."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_3_advanced_compounds.mp3",
+      "functions": [
+        "Forming and using complex compound nouns",
+        "Correctly pluralizing compound nouns"
+      ],
+      "tips": "💡 <strong>Decision point:</strong> Pluralize the most important noun in the compound. For hyphenated ones, change the main noun."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Using Collective Nouns in Real Contexts 📝",
+      "content": "<p>Here's where it gets interesting! 🤔 Learn how to use collective nouns naturally in sentences and choose the right verb agreement.</p><p><strong>The Secret:</strong> Verb choice depends on whether you see the group as one unit or as individuals.</p><table class=\"lesson-table table-blue\"><tr><th>Focus</th><th>Verb Agreement</th><th>Example</th></tr><tr><td>Group as one unit</td><td>Singular verb</td><td>The team is winning.</td></tr><tr><td>Individuals inside the group</td><td>Plural verb</td><td>The team are arguing among themselves.</td></tr></table><p><strong>Common mistake:</strong> Using the wrong verb form with collective nouns ❌. <strong>Correct:</strong> Match the verb to your intended meaning ✅</p><p><em>Fun fact: Collective nouns make your English sound more natural and sophisticated! 🎯</em></p>",
+      "examples": [
+        "The <strong>football team</strong> is playing brilliantly.",
+        "My <strong>family</strong> lives in a big house.",
+        "A <strong>crowd</strong> gathered in the square.",
+        "The <strong>audience</strong> applauded loudly after the show."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_collective_usage.mp3",
+      "functions": [
+        "Choosing correct verb agreement in context",
+        "Using collective nouns in everyday situations"
+      ],
+      "tips": "💡 <strong>Pro tip:</strong> If you're thinking about the group acting together → singular verb. If focusing on individual members → plural verb."
+    }
+  ],
+
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 5 sentences using different types of compound nouns (noun+noun, adjective+noun, verb+noun).",
+      "hint": "I bought a new toothbrush. The greenhouse is full of flowers. She uses a washing machine every day.",
+      "expectedKeywords": [
+        "toothbrush",
+        "greenhouse",
+        "washing machine",
+        "sunflower",
+        "blackboard",
+        "swimming pool",
+        "keyboard",
+        "mother-in-law"
+      ],
+      "sentenceStarters": [
+        "I bought a ___",
+        "The ___ is",
+        "She uses a ___",
+        "He saw a ___"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write 5 sentences using collective nouns. Use both singular and plural verb forms where appropriate.",
+      "hint": "The team is winning. / The team are celebrating their victory.",
+      "expectedKeywords": [
+        "team",
+        "family",
+        "class",
+        "crowd",
+        "audience",
+        "herd",
+        "flock",
+        "pack",
+        "swarm"
+      ],
+      "sentenceStarters": [
+        "The ___ is",
+        "The ___ are",
+        "A ___ of",
+        "My ___ has"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write 6 sentences: 4 using plural compound nouns and 2 using complex collective noun expressions with correct verb agreement.",
+      "hint": "I bought three toothbrushes. The mothers-in-law are coming. A herd of elephants crossed the river.",
+      "expectedKeywords": [
+        "toothbrushes",
+        "mothers-in-law",
+        "passers-by",
+        "washing machines",
+        "herd of elephants",
+        "flock of birds",
+        "pack of wolves"
+      ],
+      "sentenceStarters": [
+        "I bought several ___",
+        "The ___ are visiting",
+        "A ___ of ___ crossed",
+        "The ___ applauded"
+      ],
+      "difficulty": 3
+    }
+  ],
+
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Complete this common compound noun.",
+      "sentence": "tooth ____",
+      "options": [
+        "brush",
+        "paste",
+        "pick",
+        "ache"
+      ],
+      "correctAnswer": ["brush"],
+      "audio": "game_1_toothbrush.mp3",
+      "hint": "This is what you use to clean your teeth.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Choose the correct collective noun for bees.",
+      "sentence": "A ____ of bees flew around the garden.",
+      "options": [
+        "herd",
+        "flock",
+        "pack",
+        "swarm"
+      ],
+      "correctAnswer": ["swarm"],
+      "audio": "game_2_swarm.mp3",
+      "hint": "Bees move together in a large group.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Choose the correct plural form of this compound noun.",
+      "sentence": "My two ____ are coming for dinner.",
+      "options": [
+        "mother-in-laws",
+        "mothers-in-law",
+        "mother-in-law",
+        "mothers-in-laws"
+      ],
+      "correctAnswer": ["mothers-in-law"],
+      "audio": "game_3_plural.mp3",
+      "hint": "Pluralize the main noun in hyphenated compounds.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the best verb for this collective noun.",
+      "sentence": "The committee ____ different opinions on the issue.",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "is having"
+      ],
+      "correctAnswer": ["have"],
+      "audio": "game_4_agreement.mp3",
+      "hint": "Here we focus on individual members of the group.",
+      "difficulty": "medium"
+    }
+  ],
+
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What is a compound noun?",
+      "sentence": "A compound noun is made from ____.",
+      "options": [
+        "one word only",
+        "two or more words",
+        "only adjectives",
+        "only verbs"
+      ],
+      "correctAnswer": "two or more words",
+      "audio": "quiz_1_compound.mp3",
+      "hint": "It combines multiple words into one noun unit.",
+      "difficulty": "easy",
+      "explanation": "Compound nouns are formed from two or more words that together function as a single noun."
+    },
+    {
+      "id": "quiz-2",
+      "question": "What is the correct plural of 'mother-in-law'?",
+      "sentence": "Both of my ____ live in the same city.",
+      "options": [
+        "mother-in-laws",
+        "mothers-in-law",
+        "mother-in-law's",
+        "mothers-in-laws"
+      ],
+      "correctAnswer": "mothers-in-law",
+      "audio": "quiz_2_plural.mp3",
+      "hint": "Pluralize the main noun in hyphenated compounds.",
+      "difficulty": "medium",
+      "explanation": "In hyphenated compound nouns, we usually pluralize the most important noun: mothers-in-law."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which is the correct collective noun for lions?",
+      "sentence": "A ____ of lions was resting under the tree.",
+      "options": [
+        "herd",
+        "flock",
+        "pack",
+        "pride"
+      ],
+      "correctAnswer": "pride",
+      "audio": "quiz_3_collective.mp3",
+      "hint": "Special name for a group of lions.",
+      "difficulty": "easy",
+      "explanation": "'Pride' is the collective noun specifically used for lions."
+    },
+    {
+      "id": "quiz-4",
+      "question": "What type of compound is 'washing machine'?",
+      "sentence": "'Washing machine' is a ____ + ____ compound.",
+      "options": [
+        "Noun + Noun",
+        "Adjective + Noun",
+        "Verb + Noun",
+        "Adverb + Noun"
+      ],
+      "correctAnswer": "Verb + Noun",
+      "audio": "quiz_4_types.mp3",
+      "hint": "'Washing' comes from the verb 'wash'.",
+      "difficulty": "medium",
+      "explanation": "'Washing machine' is formed from a verb (washing) + noun (machine)."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which sentence shows correct verb agreement?",
+      "sentence": "Choose the best option:",
+      "options": [
+        "The team are winning the match.",
+        "The team is winning the match.",
+        "The teams is winning.",
+        "The team were winning."
+      ],
+      "correctAnswer": "The team is winning the match.",
+      "audio": "quiz_5_agreement.mp3",
+      "hint": "When the group acts as one unit, use singular verb.",
+      "difficulty": "medium",
+      "explanation": "When we see the team as one unit, we use the singular verb 'is'."
+    }
+  ],
+
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "toothbrush",
+      "hint": "Compound noun - used for cleaning teeth",
+      "clue": "t_o_t_h_b_r_u_s_h",
+      "audio": "spelling_1_toothbrush.mp3",
+      "sentence": "Don't forget to pack your ___ when travelling.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "mothers-in-law",
+      "hint": "Plural of mother-in-law",
+      "clue": "m_o_t_h_e_r_s_i_n_l_a_w",
+      "audio": "spelling_2_mothers_in_law.mp3",
+      "sentence": "Both of my ___ are coming for dinner.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-3",
+      "word": "swimming pool",
+      "hint": "Compound noun - place for swimming",
+      "clue": "s_w_i_m_m_i_n_g_p_o_o_l",
+      "audio": "spelling_3_swimming_pool.mp3",
+      "sentence": "The hotel has a beautiful outdoor ___.",
+      "difficulty": "medium"
+    }
+  ],
+
+  "rewards": {
+    "stars": {
+      "bronze": 15,
+      "silver": 40,
+      "gold": 70,
+      "platinum": 100
+    },
+    "badges": [
+      {
+        "id": "compound-creator",
+        "name": "Compound Creator 🛠️",
+        "condition": "Complete all compound noun activities with 80%+ accuracy",
+        "icon": "🛠️",
+        "points": 50,
+        "message": "You build compound nouns like a master craftsman!"
+      },
+      {
+        "id": "collective-commander",
+        "name": "Collective Commander 👥",
+        "condition": "Score 90%+ on all collective noun activities",
+        "icon": "👥",
+        "points": 75,
+        "message": "You command groups perfectly with collective nouns!"
+      },
+      {
+        "id": "word-merger",
+        "name": "Word Merger 🔗",
+        "condition": "Complete all writing activities with full marks",
+        "icon": "🔗",
+        "points": 100,
+        "message": "You merge words into perfect compounds and groups!"
+      },
+      {
+        "id": "ultimate-compound-collective-champion",
+        "name": "Ultimate Compound & Collective Champion 🏆",
+        "condition": "Collect ALL other badges + 100% on every activity",
+        "icon": "🏆",
+        "points": 150,
+        "message": "You are the supreme master of compound and collective nouns!"
+      }
+    ]
+  }
+}

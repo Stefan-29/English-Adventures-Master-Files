@@ -1,0 +1,368 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Adjectives as Nouns: Turning Qualities into People 🎯",
+      "content": "<p>Did you know adjectives can act like nouns? When we want to talk about a whole group of people who share the same characteristic, we can use <strong>the + adjective</strong>! 📚</p><p><strong>How it Works:</strong> The adjective becomes a plural noun referring to a group of people.</p><p><strong>Key Rules:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Rule</th><th>Use</th></tr><tr><td>Always use <strong>the</strong> before the adjective</td><td>the poor, the rich, the blind</td></tr><tr><td>Use plural verbs</td><td>are, need, deserve</td></tr><tr><td>Refer only to people</td><td>Not things: use people, not objects</td></tr><tr><td>Can be modified</td><td>the very poor, the newly qualified</td></tr></table><p><em>Fun fact: This structure is very common in formal writing and news reports! 💡</em></p>",
+      "examples": [
+        "<strong>The poor</strong> need our help.",
+        "<strong>The rich</strong> often travel abroad.",
+        "<strong>The blind</strong> deserve equal rights.",
+        "<strong>The elderly</strong> need special care.",
+        "<strong>The sick</strong> are waiting for the doctor.",
+        "<strong>The young</strong> learn new things quickly."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_adjective_nouns.mp3",
+      "functions": [
+        "Referring to groups of people with shared characteristics",
+        "Talking about social issues and categories of people"
+      ],
+      "tips": "💡 <strong>Quick Rule:</strong> If you see 'the + adjective' and it refers to people → it's functioning as a noun (plural verb required)."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Nationalities as Nouns: Talking About Whole Nations 🌍",
+      "content": "<p>Now let's level up! Many nationality adjectives can also function as nouns when we talk about the people of a country. 🌍</p><p><strong>Formation:</strong> <strong>the + nationality adjective</strong></p><table class=\"lesson-table table-green\"><tr><th>Use</th><th>Example</th></tr><tr><td>General statements about a nation’s people</td><td>The British love tea.</td></tr><tr><td>Cultural or historical facts</td><td>The Chinese invented paper.</td></tr><tr><td>Group identity and reputation</td><td>The French are known for excellent wine.</td></tr></table><p><em>Fun fact: Some nationalities add -s (Italians), while others stay the same (the British, the French)! 🌟</em></p>",
+      "examples": [
+        "Positive form: <strong>The British</strong> love tea.",
+        "Positive form: <strong>The French</strong> make excellent wine.",
+        "Positive form: <strong>The Americans</strong> celebrate Independence Day.",
+        "Positive form: <strong>The Italians</strong> are famous for pizza."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_nationalities.mp3",
+      "functions": [
+        "Talking about people from a specific country",
+        "Making general statements about nationalities"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> Use 'the' + nationality when talking about the whole group. Use 'a/an' when talking about one person."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Advanced Adjective as Noun Constructions 📈",
+      "content": "<p>Time to explore another way! ✨ You can create more sophisticated expressions by combining adjectives as nouns with compound or participial forms.</p><p><strong>Pattern:</strong> <strong>the + (adjective / compound adjective / participial adjective)</strong></p><table class=\"lesson-table table-orange\"><tr><th>Type</th><th>Example</th><th>Meaning</th></tr><tr><td>Basic adjective</td><td>the poor</td><td>general group</td></tr><tr><td>Compound adjective</td><td>the underprivileged</td><td>formal group reference</td></tr><tr><td>Participial adjective</td><td>the oppressed</td><td>people in a particular state</td></tr><tr><td>Descriptive adjective</td><td>the hardworking</td><td>group defined by quality</td></tr></table><p><em>Fun fact: These forms are especially common in formal speeches and academic writing! 🎨</em></p>",
+      "examples": [
+        "With compound: <strong>The underprivileged</strong> need better opportunities.",
+        "With participial: <strong>The oppressed</strong> fought for their rights.",
+        "With descriptive: <strong>The talented</strong> often succeed through hard work.",
+        "In questions: What can we do to help <strong>the homeless</strong>?"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_3_advanced_usage.mp3",
+      "functions": [
+        "Using more sophisticated and formal expressions",
+        "Discussing social and humanitarian topics"
+      ],
+      "tips": "💡 <strong>Decision point:</strong> Need a formal or general group reference? → Use 'the + adjective'. Need a specific person? → Use regular noun phrase."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Review: All Noun Types in English ⚡",
+      "content": "<p>Here's where it gets interesting! 🤔 Let's compare adjective-as-noun with other noun types to avoid confusion.</p><table class=\"lesson-table table-blue\"><tr><th>Noun Type</th><th>Key Feature</th><th>Example</th></tr><tr><td>Countable</td><td>Can be counted</td><td>three books</td></tr><tr><td>Uncountable</td><td>Cannot be counted</td><td>some water</td></tr><tr><td>Adjective as Noun</td><td>the + adjective = group of people</td><td>the poor, the elderly</td></tr></table><p><strong>The secret:</strong> Adjective-as-noun always refers to people and uses plural verbs.</p><p><strong>Common mistake:</strong> Saying “poors” or “a poor” ❌. <strong>Correct:</strong> the poor ✅</p><p><em>Fun fact: This structure helps make English more concise and elegant! 🎯</em></p>",
+      "examples": [
+        "Adjective as noun: <strong>The elderly</strong> need care.",
+        "Regular noun: Elderly people need care.",
+        "Wrong vs Right: ❌ The poors → ✅ The poor"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_4_noun_review.mp3",
+      "functions": [
+        "Distinguishing between different noun types",
+        "Avoiding common errors with adjective nouns"
+      ],
+      "tips": "💡 <strong>Pro tip:</strong> If you can put 'people' after the adjective and it still makes sense, you probably need the full noun phrase instead of 'the + adjective'."
+    }
+  ],
+
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 5 sentences using adjectives as nouns to describe different groups of people.",
+      "hint": "Use patterns like 'The poor need...', 'The elderly deserve...'. Focus on social topics.",
+      "expectedKeywords": [
+        "the poor",
+        "the rich",
+        "the blind",
+        "the elderly",
+        "the sick",
+        "the young",
+        "the homeless"
+      ],
+      "sentenceStarters": [
+        "The ___ need ",
+        "The ___ deserve ",
+        "We should help the ___ ",
+        "The ___ are ",
+        "The ___ often "
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write 5 sentences using nationalities as nouns to talk about people from different countries.",
+      "hint": "The British love tea. The French are known for... Use cultural or general facts.",
+      "expectedKeywords": [
+        "the British",
+        "the French",
+        "the Chinese",
+        "the Americans",
+        "the Italians",
+        "the Germans",
+        "the Japanese"
+      ],
+      "sentenceStarters": [
+        "The ___ love ",
+        "The ___ are famous for ",
+        "The ___ invented ",
+        "The ___ celebrate ",
+        "The ___ are known as "
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write 6 sentences mixing regular nouns with adjective-as-noun structures. Include at least 2 advanced forms (the underprivileged, the oppressed, the hardworking, etc.).",
+      "hint": "Combine different noun types in one text. Example: The team helped the poor and the elderly.",
+      "expectedKeywords": [
+        "the poor",
+        "the elderly",
+        "the underprivileged",
+        "the oppressed",
+        "the talented",
+        "the hardworking",
+        "the homeless"
+      ],
+      "sentenceStarters": [
+        "The ___ need our support because ",
+        "We must help the ___ and the ___ ",
+        "The ___ often succeed when ",
+        "Society should protect the ___ "
+      ],
+      "difficulty": 3
+    }
+  ],
+
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct word to complete the adjective used as a noun.",
+      "sentence": "The ____ need our help and support.",
+      "options": [
+        "poor",
+        "rich",
+        "blind",
+        "sick"
+      ],
+      "correctAnswer": ["poor"],
+      "audio": "game_1_adjective_nouns.mp3",
+      "hint": "This refers to people who don't have much money.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which form correctly refers to people from Britain?",
+      "sentence": "____ are famous for drinking tea.",
+      "options": [
+        "British",
+        "The British",
+        "A British",
+        "Britishes"
+      ],
+      "correctAnswer": ["The British"],
+      "audio": "game_2_nationalities.mp3",
+      "hint": "Nationalities as nouns need 'the' when referring to the whole group.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Choose the correct verb for this adjective-as-noun structure.",
+      "sentence": "The elderly ____ special care and attention.",
+      "options": [
+        "need",
+        "needs",
+        "needing",
+        "needed"
+      ],
+      "correctAnswer": ["need"],
+      "audio": "game_3_verb_agreement.mp3",
+      "hint": "Adjectives used as nouns refer to groups and take plural verbs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Complete with the most natural and correct form.",
+      "sentence": "We should help ____ in our society.",
+      "options": [
+        "poor people",
+        "the poor",
+        "a poor",
+        "poors"
+      ],
+      "correctAnswer": ["the poor"],
+      "audio": "game_4_correct_form.mp3",
+      "hint": "This is a general reference to a group of people.",
+      "difficulty": "medium"
+    }
+  ],
+
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What article is required when using an adjective as a noun?",
+      "sentence": "____ poor need our help.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correctAnswer": "The",
+      "audio": "quiz_1_adjective_nouns.mp3",
+      "hint": "Adjectives used as nouns always need this article.",
+      "difficulty": "easy",
+      "explanation": "'The' is required before an adjective when it functions as a noun referring to a group of people."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which verb form is correct with adjectives used as nouns?",
+      "sentence": "The rich ____ more opportunities to travel.",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "is having"
+      ],
+      "correctAnswer": "have",
+      "audio": "quiz_2_verb_agreement.mp3",
+      "hint": "These structures refer to groups of people.",
+      "difficulty": "easy",
+      "explanation": "Adjectives as nouns are plural, so they take plural verbs like 'have', 'need', 'deserve'."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which is the correct way to refer to people from France?",
+      "sentence": "____ are known for their excellent cuisine.",
+      "options": [
+        "French",
+        "The French",
+        "A French",
+        "Frances"
+      ],
+      "correctAnswer": "The French",
+      "audio": "quiz_3_nationalities.mp3",
+      "hint": "Use 'the' when talking about the people of a country as a group.",
+      "difficulty": "medium",
+      "explanation": "'The French' uses the nationality adjective as a plural noun."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which sentence correctly uses an adjective as a noun?",
+      "sentence": "Choose the best option:",
+      "options": [
+        "Poor people need help.",
+        "The poor needs help.",
+        "The poor need help.",
+        "A poor need help."
+      ],
+      "correctAnswer": "The poor need help.",
+      "audio": "quiz_4_correct_usage.mp3",
+      "hint": "Check article and verb agreement.",
+      "difficulty": "medium",
+      "explanation": "Correct form is 'The poor need help.' — 'the' + adjective + plural verb."
+    },
+    {
+      "id": "quiz-5",
+      "question": "What does 'the elderly' mean?",
+      "sentence": "The elderly deserve respect and care.",
+      "options": [
+        "Old buildings",
+        "Old people",
+        "Old furniture",
+        "Old ideas"
+      ],
+      "correctAnswer": "Old people",
+      "audio": "quiz_5_meaning.mp3",
+      "hint": "Adjectives as nouns always refer to people.",
+      "difficulty": "easy",
+      "explanation": "'The elderly' refers to elderly people as a group."
+    }
+  ],
+
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "the poor",
+      "hint": "Adjective used as noun - people who have little money",
+      "clue": "t_e_p_o_r",
+      "audio": "spelling_1_the_poor.mp3",
+      "sentence": "We should help ___ in our society.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "the elderly",
+      "hint": "Adjective used as noun - older people",
+      "clue": "t_e_e_l_e_r_y",
+      "audio": "spelling_2_the_elderly.mp3",
+      "sentence": "The ___ need special medical care.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "the British",
+      "hint": "Nationality used as noun",
+      "clue": "t_e_B_r_i_s_h",
+      "audio": "spelling_3_the_british.mp3",
+      "sentence": "___ are famous for their sense of humor.",
+      "difficulty": "hard"
+    }
+  ],
+
+  "rewards": {
+    "stars": {
+      "bronze": 15,
+      "silver": 40,
+      "gold": 70,
+      "platinum": 100
+    },
+    "badges": [
+      {
+        "id": "adjective-noun-artist",
+        "name": "Adjective-Noun Artist 🎨",
+        "condition": "Complete all lesson activities with 80%+ accuracy",
+        "icon": "🎨",
+        "points": 50,
+        "message": "You paint with words, turning adjectives into nouns!"
+      },
+      {
+        "id": "nationality-navigator",
+        "name": "Nationality Navigator 🌍",
+        "condition": "Score 90%+ on all nationality-related activities",
+        "icon": "🌍",
+        "points": 75,
+        "message": "You navigate nationalities like a true global citizen!"
+      },
+      {
+        "id": "group-identifier",
+        "name": "Group Identifier 👥",
+        "condition": "Complete all writing activities with full marks",
+        "icon": "👥",
+        "points": 100,
+        "message": "You identify and describe groups of people with perfect grammar!"
+      },
+      {
+        "id": "ultimate-adjective-noun-champion",
+        "name": "Ultimate Adjective-Noun Champion 🏆",
+        "condition": "Collect ALL other badges + 100% on every activity",
+        "icon": "🏆",
+        "points": 150,
+        "message": "You are the supreme master of adjectives used as nouns!"
+      }
+    ]
+  }
+}

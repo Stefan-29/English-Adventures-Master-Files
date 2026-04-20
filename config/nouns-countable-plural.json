@@ -1,0 +1,104 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Nouns - Countable, Uncountable & Plural Forms",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Nouns: Countable, Uncountable & Plural Forms",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Noun Classification & Plural Lessons",
+        "instructions": "Master countable vs uncountable nouns, plural formation rules, and correct usage patterns. Learn when to use articles and quantifiers."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using countable and uncountable nouns correctly. Practice plural forms and appropriate quantifiers."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice noun classification, plural formation, and choosing correct articles and quantifiers."
+      },
+      {
+        "id": "quiz-module",
+        "name": "Quiz",
+        "title": "Quick Quiz",
+        "instructions": "Test your knowledge with multiple choice questions about noun types and plural forms. Choose the correct usage!"
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Nouns Challenge",
+        "instructions": "Apply noun classification and plural rules correctly in sentences. Master articles, quantifiers, and irregular plurals."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Countable Nouns",
+        "words": ["book", "books", "car", "cars", "student", "students", "idea", "ideas", "question", "questions", "apple", "apples", "dog", "dogs", "house", "houses"]
+      },
+      {
+        "title": "Uncountable Nouns",
+        "words": ["water", "rice", "information", "coffee", "milk", "bread", "cheese", "meat", "advice", "music", "news", "furniture", "luggage", "homework"]
+      },
+      {
+        "title": "Regular Plurals (-s)",
+        "words": ["cat", "cats", "dog", "dogs", "book", "books", "pen", "pens", "table", "tables", "chair", "chairs"]
+      },
+      {
+        "title": "Plurals (-es)",
+        "words": ["bus", "buses", "box", "boxes", "watch", "watches", "dish", "dishes", "brush", "brushes", "church", "churches"]
+      },
+      {
+        "title": "Plurals (-ies)",
+        "words": ["baby", "babies", "city", "cities", "party", "parties", "lady", "ladies", "story", "stories", "country", "countries"]
+      },
+      {
+        "title": "Irregular Plurals",
+        "words": ["child", "children", "man", "men", "woman", "women", "foot", "feet", "tooth", "teeth", "mouse", "mice", "goose", "geese"]
+      },
+      {
+        "title": "Same Singular/Plural",
+        "words": ["deer", "deer", "sheep", "sheep", "fish", "fish", "aircraft", "aircraft", "series", "series", "species", "species"]
+      },
+      {
+        "title": "Quantifiers for Countable",
+        "words": ["many", "few", "several", "a few", "a lot of", "some", "any", "no"]
+      },
+      {
+        "title": "Quantifiers for Uncountable",
+        "words": ["much", "little", "a little", "a lot of", "some", "any", "no", "enough"]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/nouns-countable-plural.json",
+  "grammarChecker": "nounsCountablePlural.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

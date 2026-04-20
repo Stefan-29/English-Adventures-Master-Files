@@ -1,0 +1,374 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Countable vs Uncountable Nouns 🎯",
+      "content": "<p>Welcome to the world of nouns! Understanding the difference between <strong>countable</strong> and <strong>uncountable</strong> nouns is one of the most important foundations in English grammar. 📚</p><table class=\"lesson-table table-blue\"><tr><th>Type</th><th>Characteristics</th><th>Example</th></tr><tr><td>Countable</td><td>Can be counted individually; singular and plural forms; can use 'a/an'</td><td>one book, two books</td></tr><tr><td>Uncountable</td><td>Cannot be counted individually; no plural form; cannot use 'a/an'</td><td>some water, much information</td></tr><tr><td>Key Rule</td><td>Countable answers 'How many?'; Uncountable answers 'How much?'</td><td>How many apples? How much sugar?</td></tr></table><p><em>Fun fact: Many nouns can be both countable and uncountable depending on meaning (e.g., 'chicken' as food vs animal)! 💡</em></p>",
+      "examples": [
+        "<strong>Countable:</strong> I have <strong>three books</strong>.",
+        "<strong>Uncountable:</strong> I need <strong>some water</strong>.",
+        "<strong>Countable:</strong> She bought <strong>a car</strong>.",
+        "<strong>Uncountable:</strong> He gave me <strong>good advice</strong>.",
+        "<strong>Countable:</strong> There are <strong>many students</strong> here.",
+        "<strong>Uncountable:</strong> There's <strong>too much traffic</strong>."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_noun_types.mp3",
+      "functions": [
+        "Distinguishing between countable and uncountable nouns",
+        "Choosing correct articles and quantifiers"
+      ],
+      "tips": "💡 <strong>Quick Test:</strong> Can you put a number in front of it (one book, two books)? If yes → countable. If no → uncountable."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Regular Plural Formation Rules 📝",
+      "content": "<p>Now let's level up! 🎮 Master the rules for forming plural nouns. Most follow clear patterns, but some need special attention.</p><table class=\"lesson-table table-green\"><tr><th>Rule</th><th>When to Use</th><th>Examples</th></tr><tr><td><strong>Add -s</strong></td><td>Most nouns</td><td>book → books, car → cars</td></tr><tr><td><strong>Add -es</strong></td><td>After s, x, z, ch, sh</td><td>bus → buses, box → boxes, watch → watches</td></tr><tr><td><strong>Change y to -ies</strong></td><td>After consonant + y</td><td>baby → babies, city → cities</td></tr><tr><td><strong>Add -es</strong></td><td>After consonant + o</td><td>potato → potatoes, tomato → tomatoes</td></tr></table><p><em>Fun fact: English plural rules come from many different language influences! 🌟</em></p>",
+      "examples": [
+        "Positive form: One <strong>book</strong> → Two <strong>books</strong>",
+        "Positive form: One <strong>bus</strong> → Three <strong>buses</strong>",
+        "Positive form: One <strong>baby</strong> → Many <strong>babies</strong>",
+        "Positive form: One <strong>potato</strong> → Five <strong>potatoes</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_plural_rules.mp3",
+      "functions": [
+        "Forming regular plural nouns correctly",
+        "Applying spelling rules for plurals"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> Words ending in s/x/z/ch/sh → add -es. Consonant + y → change to -ies."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Irregular and Special Plurals 🎭",
+      "content": "<p>Time to explore the rebels! ✨ Some nouns don't follow regular plural rules. These irregular plurals must be memorized.</p><table class=\"lesson-table table-orange\"><tr><th>Irregular Pattern</th><th>Example</th><th>Plural Form</th></tr><tr><td>oo → ee</td><td>foot, tooth, goose</td><td>feet, teeth, geese</td></tr><tr><td>an → en</td><td>man, woman</td><td>men, women</td></tr><tr><td>f/fe → ves</td><td>knife, leaf</td><td>knives, leaves</td></tr><tr><td>ouse → ice</td><td>mouse</td><td>mice</td></tr><tr><td>No change</td><td>deer, sheep, fish</td><td>deer, sheep, fish</td></tr></table><p><em>Fun fact: Many irregular plurals come from Old English! 🎨</em></p>",
+      "examples": [
+        "With irregular: One <strong>foot</strong> → Two <strong>feet</strong>",
+        "With irregular: One <strong>man</strong> → Several <strong>men</strong>",
+        "With irregular: One <strong>mouse</strong> → Many <strong>mice</strong>",
+        "No change: One <strong>deer</strong> → Five <strong>deer</strong>",
+        "No change: One <strong>sheep</strong> → A flock of <strong>sheep</strong>"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_3_irregular_plurals.mp3",
+      "functions": [
+        "Using irregular plural forms correctly",
+        "Recognizing nouns that don't change in plural"
+      ],
+      "tips": "💡 <strong>Decision point:</strong> If it doesn't follow the normal -s rule, check if it's one of the common irregular patterns."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Quantifiers with Countable & Uncountable Nouns 📊",
+      "content": "<p>Here's where it gets interesting! 🤔 Learn which quantifiers work with countable vs uncountable nouns.</p><table class=\"lesson-table table-blue\"><tr><th>Noun Type</th><th>Quantifiers</th><th>Example</th></tr><tr><td>Countable</td><td>many, a few, several, a lot of, few</td><td>many books, a few apples</td></tr><tr><td>Uncountable</td><td>much, a little, a lot of, little</td><td>much water, a little sugar</td></tr></table><p><strong>Common mistake:</strong> Using 'many' with uncountable nouns or 'much' with countable nouns ❌</p><p><strong>The secret:</strong> Match the quantifier to the noun type for natural English ✅</p><p><em>Fun fact: 'A lot of' works with both countable and uncountable nouns! 🎯</em></p>",
+      "examples": [
+        "Countable: I have <strong>many books</strong>.",
+        "Uncountable: There's <strong>much water</strong> in the river.",
+        "Countable: She has <strong>few friends</strong> here.",
+        "Uncountable: He has <strong>little money</strong> left.",
+        "Question: <strong>How many</strong> students are there?",
+        "Question: <strong>How much</strong> time do we have?"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_quantifiers.mp3",
+      "functions": [
+        "Choosing correct quantifiers",
+        "Using articles properly with different noun types"
+      ],
+      "tips": "💡 <strong>Pro tip:</strong> Countable = many / few / how many. Uncountable = much / little / how much."
+    }
+  ],
+
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 5 sentences using countable nouns with correct articles, plural forms, and quantifiers.",
+      "hint": "I have many books. She bought three cars. There are few students.",
+      "expectedKeywords": [
+        "books",
+        "cars",
+        "students",
+        "ideas",
+        "many",
+        "few",
+        "several",
+        "a",
+        "an"
+      ],
+      "sentenceStarters": [
+        "I have ___",
+        "She bought ___",
+        "There are ___",
+        "He has ___"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write 5 sentences using uncountable nouns with appropriate quantifiers and no indefinite article.",
+      "hint": "I need some water. There is much information. He has little patience.",
+      "expectedKeywords": [
+        "water",
+        "information",
+        "advice",
+        "music",
+        "coffee",
+        "much",
+        "little",
+        "some"
+      ],
+      "sentenceStarters": [
+        "I need ___",
+        "There is ___",
+        "He has ___",
+        "She gave me ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write 6 sentences: 4 using irregular plural nouns and 2 using nouns that stay the same in singular and plural form.",
+      "hint": "The children are playing. I saw two deer in the forest.",
+      "expectedKeywords": [
+        "children",
+        "feet",
+        "men",
+        "mice",
+        "teeth",
+        "deer",
+        "sheep",
+        "fish"
+      ],
+      "sentenceStarters": [
+        "The ___ are",
+        "I saw ___",
+        "There are many ___",
+        "She has ___"
+      ],
+      "difficulty": 3
+    }
+  ],
+
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct quantifier for countable nouns.",
+      "sentence": "There are ____ books on the table.",
+      "options": [
+        "much",
+        "many",
+        "little",
+        "a little"
+      ],
+      "correctAnswer": ["many"],
+      "audio": "game_1_many.mp3",
+      "hint": "Use 'many' with plural countable nouns.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Choose the correct quantifier for uncountable nouns.",
+      "sentence": "There is ____ water in the bottle.",
+      "options": [
+        "many",
+        "much",
+        "few",
+        "several"
+      ],
+      "correctAnswer": ["much"],
+      "audio": "game_2_much.mp3",
+      "hint": "Use 'much' with uncountable nouns.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Form the correct plural of this noun.",
+      "sentence": "One child, two ____.",
+      "options": [
+        "childs",
+        "children",
+        "childes",
+        "child"
+      ],
+      "correctAnswer": ["children"],
+      "audio": "game_3_children.mp3",
+      "hint": "This is an irregular plural.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the correct article for this singular countable noun.",
+      "sentence": "I saw ____ eagle flying high.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correctAnswer": ["an"],
+      "audio": "game_4_an.mp3",
+      "hint": "Eagle starts with a vowel sound.",
+      "difficulty": "medium"
+    }
+  ],
+
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Which type of noun can be counted individually?",
+      "sentence": "____ nouns have singular and plural forms.",
+      "options": [
+        "Countable",
+        "Uncountable",
+        "Collective",
+        "Compound"
+      ],
+      "correctAnswer": "Countable",
+      "audio": "quiz_1_countable.mp3",
+      "hint": "They can be counted: one, two, three...",
+      "difficulty": "easy",
+      "explanation": "Countable nouns can be counted individually and have plural forms."
+    },
+    {
+      "id": "quiz-2",
+      "question": "What is the correct plural of 'child'?",
+      "sentence": "The ____ are playing in the garden.",
+      "options": [
+        "childs",
+        "children",
+        "childes",
+        "childrens"
+      ],
+      "correctAnswer": "children",
+      "audio": "quiz_2_children.mp3",
+      "hint": "This is a common irregular plural.",
+      "difficulty": "medium",
+      "explanation": "The irregular plural of 'child' is 'children'."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which quantifier is used with uncountable nouns?",
+      "sentence": "There is ____ information on the website.",
+      "options": [
+        "many",
+        "much",
+        "few",
+        "several"
+      ],
+      "correctAnswer": "much",
+      "audio": "quiz_3_much.mp3",
+      "hint": "Information is uncountable.",
+      "difficulty": "easy",
+      "explanation": "'Much' is used with uncountable nouns like information, water, or money."
+    },
+    {
+      "id": "quiz-4",
+      "question": "What is the plural of 'knife'?",
+      "sentence": "The chef sharpened all his ____.",
+      "options": [
+        "knifes",
+        "knives",
+        "knifees",
+        "knive"
+      ],
+      "correctAnswer": "knives",
+      "audio": "quiz_4_knives.mp3",
+      "hint": "Change 'f' to 'v' and add -es.",
+      "difficulty": "medium",
+      "explanation": "Knife becomes 'knives' following the f → ves pattern."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which sentence is grammatically correct?",
+      "sentence": "Choose the best option:",
+      "options": [
+        "I need many advices.",
+        "I need much advice.",
+        "I need few advice.",
+        "I need several advices."
+      ],
+      "correctAnswer": "I need much advice.",
+      "audio": "quiz_5_advice.mp3",
+      "hint": "Advice is uncountable.",
+      "difficulty": "medium",
+      "explanation": "'Advice' is uncountable, so we use 'much' and never add -s."
+    }
+  ],
+
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "children",
+      "hint": "Irregular plural of child",
+      "clue": "c_h_i_l_d_r_e_n",
+      "audio": "spelling_1_children.mp3",
+      "sentence": "The ___ are playing happily in the park.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-2",
+      "word": "knives",
+      "hint": "Plural of knife (f to v rule)",
+      "clue": "k_n_i_v_e_s",
+      "audio": "spelling_2_knives.mp3",
+      "sentence": "Be careful with sharp ___.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-3",
+      "word": "information",
+      "hint": "Common uncountable noun",
+      "clue": "i_n_f_o_r_m_a_t_i_o_n",
+      "audio": "spelling_3_information.mp3",
+      "sentence": "I need more ___ about the trip.",
+      "difficulty": "easy"
+    }
+  ],
+
+  "rewards": {
+    "stars": {
+      "bronze": 15,
+      "silver": 40,
+      "gold": 70,
+      "platinum": 100
+    },
+    "badges": [
+      {
+        "id": "noun-classifier",
+        "name": "Noun Classifier 🏷️",
+        "condition": "Complete all lesson activities with 80%+ accuracy",
+        "icon": "🏷️",
+        "points": 50,
+        "message": "You can classify nouns like a pro!"
+      },
+      {
+        "id": "plural-master",
+        "name": "Plural Master 🔢",
+        "condition": "Score 90%+ on all plural-related activities",
+        "icon": "🔢",
+        "points": 75,
+        "message": "Your plural formation skills are outstanding!"
+      },
+      {
+        "id": "quantifier-expert",
+        "name": "Quantifier Expert 📊",
+        "condition": "Complete all writing activities with full marks",
+        "icon": "📊",
+        "points": 100,
+        "message": "You master countable and uncountable quantifiers perfectly!"
+      },
+      {
+        "id": "ultimate-noun-champion",
+        "name": "Ultimate Noun Champion 🏆",
+        "condition": "Collect ALL other badges + 100% on every activity",
+        "icon": "🏆",
+        "points": 150,
+        "message": "You are the supreme master of English nouns!"
+      }
+    ]
+  }
+}
