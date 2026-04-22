@@ -41,13 +41,13 @@ tmp/
 temp/
 *.tmp
 
-# Old files (legacy structure)
+# Old files (legacy structure & reorganized)
 app.js
 index.html
-server.ps1
-start-server.cmd
-DOWNLOAD_IMAGES.js
-TEST_IMAGE_SERVICE.js
+scripts/server/server.ps1
+scripts/server/start-server.cmd
+scripts/utilities/DOWNLOAD_IMAGES.js
+scripts/utilities/TEST_IMAGE_SERVICE.js
 draft.txt
 
 # Legacy folders

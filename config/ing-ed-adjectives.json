@@ -1,0 +1,149 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: -ing and -ed Adjectives",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "-ing and -ed Adjectives",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "-ing and -ed Adjective Lessons",
+        "instructions": "Master the cause-effect distinction: -ing adjectives describe characteristics of a person, thing, or situation; -ed adjectives describe how a person feels or is affected. Understand the full set of common -ing/-ed pairs and apply them correctly."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using -ing adjectives for causes and -ed adjectives for feelings. Apply correct pairs in contexts like film reviews, personal reactions, and situation descriptions."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between the -ing cause form and the -ed effect form. Recognize the signal words that show whether you need a cause or an effect adjective."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "-ing/-ed Adjectives Challenge",
+        "instructions": "Apply -ing and -ed adjective pairs correctly in sentences. Master advanced pairs including hypnotizing/hypnotized, rewarding/rewarded, and tempting/tempted."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "-ING Adjectives (Cause)",
+        "words": [
+          "amusing",
+          "boring",
+          "confusing",
+          "disgusting",
+          "exciting",
+          "hypnotizing",
+          "moving",
+          "offending",
+          "rewarding",
+          "shocking",
+          "tempting",
+          "tiring"
+        ]
+      },
+      {
+        "title": "-ED Adjectives (Effect / Feeling)",
+        "words": [
+          "amused",
+          "bored",
+          "confused",
+          "disgusted",
+          "excited",
+          "hypnotized",
+          "moved",
+          "offended",
+          "rewarded",
+          "shocked",
+          "tempted",
+          "tired"
+        ]
+      },
+      {
+        "title": "More -ING/-ED Pairs",
+        "words": [
+          "interesting / interested",
+          "frightening / frightened",
+          "satisfying / satisfied",
+          "disappointing / disappointed",
+          "annoying / annoyed",
+          "depressing / depressed",
+          "inspiring / inspired",
+          "overwhelming / overwhelmed"
+        ]
+      },
+      {
+        "title": "Signal Phrases for -ING",
+        "words": [
+          "The film was ___",
+          "The news was ___",
+          "The situation is ___",
+          "The book is ___",
+          "The job is ___",
+          "The experience was ___",
+          "The offer was ___"
+        ]
+      },
+      {
+        "title": "Signal Phrases for -ED",
+        "words": [
+          "I was ___ by ___",
+          "She felt ___",
+          "We were ___ by ___",
+          "He arrived home ___",
+          "They seemed ___",
+          "I am ___ about ___",
+          "She looked ___"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "The ___ [situation/thing] was [cause adjective -ing].",
+          "I felt [effect adjective -ed] by the ___.",
+          "Question: Was the film ___ or ___?",
+          "Contrast: Although the news was ___ [ing], I wasn't ___ [ed].",
+          "Conditional: If something is [boring], you feel [bored].",
+          "Time clause: After watching the ___ film, I felt ___.",
+          "Emphatic: It was the most ___ [ing] experience I've ever had!"
+        ]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/ing-ed-adjectives.json",
+  "grammarChecker": "ingEdAdjectives.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

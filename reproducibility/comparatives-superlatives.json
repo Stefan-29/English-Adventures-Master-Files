@@ -1,0 +1,483 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Comparing Two Things: Comparative Adjectives 🎯",
+      "content": "Have you ever said 'this pizza is better than that one'? 🍕 You just used a comparative adjective! 📚**Comparative adjectives** compare two things or people by stating that one has more or less of a quality.*Example: A bus is **bigger** than a car. Bill is **older** than Harry.*The key signal word is **than** — it always follows a comparative adjective.**Pattern:** [Subject] + [verb] + [comparative adjective] + **than** + [second noun].*Example: The Amazon is **longer than** the Congo River.*🎯 Use comparatives to highlight differences between exactly two things.*Fun fact: English comparative forms evolved from Old English — 'better' was 'betera' over 1,000 years ago! 💡*",
+      "examples": [
+        "My phone is **newer than** yours. (one syllable: new → newer)",
+        "This exam is **more difficult than** the last one. (multi-syllable: more + adjective)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": [
+        "Comparing exactly two people, places, or things",
+        "Highlighting that one thing has more or less of a quality"
+      ],
+      "tips": "💡 **Quick Rule:** If comparing TWO things, use comparative + 'than'. If ranking within a group, use superlative + 'the'."
+    },
+    {
+      "id": "lesson-2",
+      "title": "The Best of All: Superlative Adjectives 🚀",
+      "content": "Now let's go to the extreme! 🎮 **Superlative adjectives** compare one member of a group to the whole group — they show that nothing else has more or less of that quality.**Formation:** **the** + [superlative form] (always use 'the'!)*Example: The Nile is **the longest** river in the world. In our class, Maria is **the oldest**.*Superlatives often appear with:*'in the world / in our class / of all'***Pattern:** [Subject] + [verb] + **the** + [superlative adjective] + [group reference].*Fun fact: The grammatical term 'superlative' comes from Latin *superlativus* meaning 'carried above'! 🌟*",
+      "examples": [
+        "Positive: **The nicest** café in town. (one syllable: nice → the nicest)",
+        "Positive: **The most interesting** book I have read. (multi-syllable: the most + adjective)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_superlative.mp3",
+      "functions": [
+        "Comparing one member to an entire group",
+        "Expressing the highest or lowest degree of a quality"
+      ],
+      "tips": "💡 **Memory trick:** COMPARATIVE = 2 things + 'than'. SUPERLATIVE = group + 'the'. The word 'the' is your superlative signal!"
+    },
+    {
+      "id": "lesson-3",
+      "title": "One-Syllable Rules: -er and -est 🌟",
+      "content": "Time to learn the patterns! ✨ One-syllable adjectives add **-er** (comparative) and **-est** (superlative) directly to the end.**Basic rule:** long → **longer** → **the longest***⚠️ Spelling traps:***1. Adjectives ending in -e:** Just add -r / -st: *nice → nicer → nicest***2. Adjectives ending in vowel + consonant:** Double the consonant! *big → bigger → biggest / hot → hotter → hottest***Exception:** Do NOT double 'w' or 'y': *new → newer / slow → slower**Try these: fast → ___ → ___ | wet → ___ → ___*Fun fact: 'Hotter' doubled its 't' to preserve the short vowel sound — English spelling reflects pronunciation history! 🎨*",
+      "examples": [
+        "No doubling: **long → longer → the longest**",
+        "Doubling: **hot → hotter → the hottest** (vowel + consonant → double!)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_one_syllable.mp3",
+      "functions": [
+        "Forming comparative and superlative from one-syllable adjectives",
+        "Applying correct spelling rules including consonant doubling"
+      ],
+      "tips": "💡 **Decision point:** Short vowel + single consonant at end? → Double it! Ends in -e? → Just add -r or -st."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Two+ Syllables: More and Most ⚡",
+      "content": "Here's where it gets interesting! 🤔 Adjectives with **two or more syllables** use **more/less** (comparative) and **most/least** (superlative) — we do NOT add -er/-est.**Pattern:** more/less + [adjective] | the most/least + [adjective]*Example: interesting → **more interesting than** → **the most interesting**.*This applies to most adjectives ending in: -ful, -less, -ous, -ive, -ing, -ed**Compare:****One syllable**: tall → taller → tallest**Two+ syllables**: careful → more careful → the most careful**Common mistake:** ❌ 'interestinger' or 'most tall' → ✅ 'more interesting' / 'tallest'*Fun fact: Some two-syllable adjectives (common, likely, polite, simple) can use EITHER form! 🎯*",
+      "examples": [
+        "Two+ syllables: **more practical than** the old method (comparative)",
+        "Two+ syllables: **the least interesting** chapter in the book (superlative with 'least')"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_multi_syllable.mp3",
+      "functions": [
+        "Forming comparatives and superlatives for long adjectives",
+        "Using 'less' and 'least' for the opposite direction"
+      ],
+      "tips": "💡 **Pro tip:** When in doubt about a two-syllable adjective, 'more' is usually safe. Never use BOTH: ❌ 'more taller' is always wrong!"
+    },
+    {
+      "id": "lesson-5",
+      "title": "-Y Adjectives: The 'i' Swap 🎯",
+      "content": "Ready for the next level? 🚀 Adjectives ending in **-y** have a special spelling rule: **change -y to -i** before adding -er or -est.**Pattern:** [adjective ending in -y] → remove -y → add **-ier** / **-iest***Examples:*funny → **funn-i-er** → **the funn-i-est**easy → **easi-er** → **the easi-est**happy → **happi-er** → **the happi-est****⚠️ Don't forget the 'i'!** ❌ 'funnyer' / 'happyest' are common misspellings.**Other -y adjectives:** heavy, dirty, early, lazy, pretty, ugly, noisy, busy*Fun fact: The -y to -i swap also happens in plurals: 'baby → babies'. It's the same spelling rule! ⚙️*",
+      "examples": [
+        "At a specific time: **easier than** yesterday's test (comparative)",
+        "Duration focus: **the happiest** day of my life (superlative)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_y_adjectives.mp3",
+      "functions": [
+        "Forming -ier and -iest comparative/superlative from -y adjectives",
+        "Applying the -y to -i spelling change consistently"
+      ],
+      "tips": "💡 **When to use:** If the adjective ends in -y, change to -i then add -er/-est. Never use 'more' with -y adjectives: ❌ 'more happy' → ✅ 'happier'."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Irregular Comparatives & Superlatives ❓",
+      "content": "Let's master the rebels! 🎨 Some adjectives break all the rules — their comparative and superlative forms are completely different words.**The essential irregular adjectives:**good → **better** → **the best**bad → **worse** → **the worst**much/many → **more** → **the most**little → **less** → **the least**far → **farther/further** → **the farthest/furthest****Contractions:** 'farther' = physical distance; 'further' = distance OR additional (e.g. 'further discussion').**Common mistake:** ❌ 'more good' or 'gooder' → ✅ 'better'. ❌ 'most bad' → ✅ 'worst'.*Fun fact: 'Good/better/best' come from three entirely different Old English roots — that's why they look so different! 💬*",
+      "examples": [
+        "Negative: **worse than** I expected (bad → worse)",
+        "Superlative: **the best** meal I've ever eaten (good → the best)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_irregular.mp3",
+      "functions": [
+        "Using irregular forms correctly without adding -er/-est or 'more'",
+        "Distinguishing 'farther' (physical) from 'further' (also additional)"
+      ],
+      "tips": "💡 **Remember:** Good → Better → Best. Bad → Worse → Worst. Little → Less → Least. These MUST be memorised — no pattern to follow!"
+    },
+    {
+      "id": "lesson-7",
+      "title": "Comparative vs Superlative: Choosing Correctly 🕐",
+      "content": "Here's a crucial rule! ⚠️ The choice between comparative and superlative depends on HOW MANY things you are comparing.**Comparing 2 things:** Use comparative + 'than'. *My car is faster than yours.*(**NOT**: My car is the fastest of the two. ← technically wrong in strict grammar)**Comparing 3 or more (or a whole group):** Use superlative. *She is the tallest student in the class.*⚠️ **Common mistake:** Using superlative to compare only two things: ❌ *She is the tallest of the two.* → ✅ *She is the taller of the two.**Time clause tip:** After 'as ... as', use the base form: *He is **as tall as** his brother.* (= equal comparison)*Fun fact: 'As...as' comparisons (equal degree) are called 'equative' forms in linguistics! 🌍*",
+      "examples": [
+        "Two things: She is **taller than** her sister. (comparative)",
+        "Group: She is **the tallest** student in our school. (superlative)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_choosing.mp3",
+      "functions": [
+        "Choosing comparative vs superlative based on number of items compared",
+        "Using 'as...as' for equal comparisons"
+      ],
+      "tips": "💡 **Never forget:** 2 things → comparative + 'than'. 3+ things or a group → superlative + 'the'. Equal → as...as."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Advanced Nuances & Special Cases 🏆",
+      "content": "You've come so far! 🌟 Let's tackle the **advanced nuances** that separate good from great.**Special Case 1: Two-syllable adjectives with two possible forms**Some adjectives can use EITHER form: *commoner/more common, politer/more polite, simpler/more simple, stupider/more stupid.**Special Case 2: Intensifying superlatives**Use 'by far' for extra emphasis: *She is **by far the most** talented musician here.**Sophisticated Usage:**[Formal]: *This is **the most comprehensive** analysis available.* (superlative before noun)**[Informal]**: *It's the coolest!* (superlative as standalone response)**Mastery checklist:** ✅ 1 syllable → -er/-est ✅ 2+ syllables → more/most ✅ -y → -ier/-iest ✅ Irregulars memorised*Fun fact: 'Unique' technically has no comparative or superlative — something is either unique or it isn't! 🎓*",
+      "examples": [
+        "Flexible form: **more common** and **commoner** are both acceptable",
+        "Intensified superlative: **by far the best** solution we found"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Using 'by far' to intensify superlatives",
+        "Knowing which two-syllable adjectives allow both forms"
+      ],
+      "tips": "💡 **Master level:** In formal writing, prefer 'more polite'. In speech, 'politer' is fine. Add 'by far' before superlatives for strong emphasis."
+    }
+  ],
+
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Compare two cities or countries you know. Write 3 sentences using comparative adjectives. Include: one -er form, one 'more' form, and one irregular comparative.",
+      "hint": "Start with '[City A] is [comparative] than [City B].' Remember: hot → hotter, expensive → more expensive, good → better. Don't forget 'than'!",
+      "expectedKeywords": ["-er", "more", "than", "better/worse/farther"],
+      "sentenceStarters": [
+        "___ is [comparative] than ___ because ___.",
+        "In terms of ___, ___ is more ___ than ___."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write a paragraph about the most impressive natural feature in your country (or a country you know). Use at least 2 superlatives and 1 comparative. Include 'the' correctly with each superlative.",
+      "hint": "Remember: superlatives always need 'the'. Example: *The Nile is the longest river in the world, but the Amazon carries more water than any other river.* Use 'in [place]' or 'of all' after superlatives.",
+      "expectedKeywords": ["the", "superlative", "in", "of all", "comparative", "than"],
+      "sentenceStarters": [
+        "The ___ [superlative] ___ in ___ is ___.",
+        "Compared to ___, ___ is [comparative], but ___ is the [superlative] ___."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a product review comparing three smartphones or gadgets. Use: one -y adjective comparison (e.g. heavier/heaviest), one two-syllable 'more/most' comparison, one irregular form, and one 'as...as' equal comparison.",
+      "hint": "This requires four different comparison structures. Example: *The A12 is heavier than the B7. It is the most advanced of the three. However, its battery life is not as good as the C9's.*",
+      "expectedKeywords": ["-ier", "the most", "better/worse", "as...as"],
+      "sentenceStarters": [
+        "Although ___, the ___ is [comparative] than ___.",
+        "Of the three, the ___ is [superlative] because ___."
+      ],
+      "difficulty": 3
+    }
+  ],
+
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct comparative form:",
+      "sentence": "The blue whale is ____ any land animal.",
+      "options": ["bigger than", "more big than", "biggest than", "the biggest than"],
+      "correctAnswer": ["bigger than"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "'Big' is one syllable ending in vowel + consonant — double the consonant and add -er.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which superlative form is correct?",
+      "sentence": "Maria is ____ student in our class.",
+      "options": ["the oldest", "the most old", "older", "most oldest"],
+      "correctAnswer": ["the oldest"],
+      "audio": "game_2_sentence.mp3",
+      "hint": "'Old' is one syllable — add -est. Superlatives always need 'the'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct comparative for a -y adjective:",
+      "sentence": "Today's test was ____ yesterday's.",
+      "options": ["easier than", "more easy than", "easyer than", "easiest than"],
+      "correctAnswer": ["easier than"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "Adjectives ending in -y: change y → i, then add -er. Don't use 'more'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the correct irregular superlative:",
+      "sentence": "That was ____ meal I have ever eaten!",
+      "options": ["the best", "the most good", "the better", "the goodest"],
+      "correctAnswer": ["the best"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "Good is irregular: good → better → the best. Never use 'more good' or 'goodest'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the correct multi-syllable comparative:",
+      "sentence": "This documentary is ____ the one we watched last week.",
+      "options": ["more interesting than", "interestinger than", "most interesting than", "the most interesting than"],
+      "correctAnswer": ["more interesting than"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "Multi-syllable adjectives use 'more' not '-er'. Comparatives use 'than', not 'the'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Choose the correct form when comparing exactly two things:",
+      "sentence": "Of the two routes, the mountain road is ____.",
+      "options": ["the longer", "longer", "the longest", "most long"],
+      "correctAnswer": ["the longer"],
+      "audio": "game_6_sentence.mp3",
+      "hint": "When comparing only two things, use 'the' + comparative (not superlative).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Which sentence uses the irregular comparative correctly?",
+      "sentence": "The situation is getting ____ every day.",
+      "options": ["worse", "more bad", "badder", "the worst"],
+      "correctAnswer": ["worse"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "Bad → worse → the worst. Never 'more bad' or 'badder'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Pick the correct spelling of a -y comparative:",
+      "sentence": "My new bag is much ____ than my old one.",
+      "options": ["heavier", "heavyer", "more heavy", "heaviest"],
+      "correctAnswer": ["heavier"],
+      "audio": "game_8_sentence.mp3",
+      "hint": "Heavy: y → i, add -er → heavier. Don't use 'more heavy'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the correct superlative with intensifier:",
+      "sentence": "She is ____ candidate for this position.",
+      "options": ["by far the most qualified", "by far the more qualified", "by far most qualified", "the by far most qualified"],
+      "correctAnswer": ["by far the most qualified"],
+      "audio": "game_9_sentence.mp3",
+      "hint": "'By far' intensifies a superlative: by far + the + superlative form.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Choose the correct equal comparison:",
+      "sentence": "Jake is ____ his older brother.",
+      "options": ["as tall as", "as taller as", "taller as", "the same tall than"],
+      "correctAnswer": ["as tall as"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "Equal comparisons use 'as + base adjective + as'. Never use a comparative form inside 'as...as'.",
+      "difficulty": "medium"
+    }
+  ],
+
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What structure is used for one-syllable adjective comparatives?",
+      "sentence": "The Amazon is ____ the Congo River.",
+      "options": ["more long than", "longer than", "the longest", "most long than"],
+      "correctAnswer": "longer than",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "One syllable adjectives add -er + than for comparatives.",
+      "difficulty": "easy",
+      "explanation": "'Long' is one syllable, so it takes -er for comparative: 'longer than'. 'More long than' and 'most long than' are incorrect — 'more' is only used with multi-syllable adjectives. 'The longest' is the superlative, not the comparative."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which superlative form is correct for 'funny'?",
+      "sentence": "He is ____ comedian I have ever seen.",
+      "options": ["the most funny", "the funniest", "the funnyest", "the funnyer"],
+      "correctAnswer": "the funniest",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "-Y adjectives: change y → i before adding -est.",
+      "difficulty": "medium",
+      "explanation": "'Funny' ends in -y, so the rule is: change y to i, then add -est → 'the funniest'. 'The funnyest' and 'the funnyer' are misspellings. 'The most funny' is grammatically possible but non-standard — native speakers prefer 'the funniest'."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which sentence uses the correct irregular comparative?",
+      "sentence": "Choose the best option:",
+      "options": ["This film is more good than the last one.", "This film is gooder than the last one.", "This film is better than the last one.", "This film is the best than the last one."],
+      "correctAnswer": "This film is better than the last one.",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "Good is irregular. Its comparative form is a completely different word.",
+      "difficulty": "easy",
+      "explanation": "Good → better → the best. This is an irregular form — 'more good' and 'gooder' are never correct in standard English. 'The best than' is also wrong; superlatives don't use 'than'."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which word doubles its consonant before -er/-est?",
+      "sentence": "Which adjective follows the consonant-doubling rule?",
+      "options": ["new", "nice", "long", "hot"],
+      "correctAnswer": "hot",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "The doubling rule applies when the adjective ends in a single vowel + single consonant.",
+      "difficulty": "medium",
+      "explanation": "'Hot' ends in vowel (o) + consonant (t), so the consonant doubles: hot → hotter → hottest. 'New' ends in 'w' which is never doubled. 'Nice' ends in -e, so you just add -r/-st. 'Long' ends in two consonants, so no doubling."
+    },
+    {
+      "id": "quiz-5",
+      "question": "When comparing exactly two things, which form is grammatically precise?",
+      "sentence": "Of the two sisters, Anna is ____.",
+      "options": ["the tallest", "taller", "the taller", "most tall"],
+      "correctAnswer": "the taller",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Comparing only two things: use 'the' + comparative form.",
+      "difficulty": "hard",
+      "explanation": "In strict grammar, when comparing exactly two items, you use 'the' + comparative: 'the taller of the two'. Using the superlative ('the tallest') implies a group of three or more. 'Taller' without 'the' is also used informally with 'than', but 'the taller' is the correct precise form when 'of the two' follows."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which is the correct superlative of 'bad'?",
+      "sentence": "This is ____ film I have ever seen.",
+      "options": ["the most bad", "the baddest", "the worst", "the worse"],
+      "correctAnswer": "the worst",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Bad is an irregular adjective — its superlative is a completely different word.",
+      "difficulty": "easy",
+      "explanation": "Bad → worse → the worst. The irregular superlative is 'the worst'. 'The most bad' and 'the baddest' are non-standard. 'The worse' is the comparative, not the superlative."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Which comparative form is correct for 'practical' (two syllables)?",
+      "sentence": "The new system is ____ the old one.",
+      "options": ["practicaler than", "more practical than", "practicalest", "the most practical than"],
+      "correctAnswer": "more practical than",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Two-syllable adjectives use 'more' for comparative and 'the most' for superlative.",
+      "difficulty": "medium",
+      "explanation": "'Practical' has three syllables, so it must use 'more' for the comparative: 'more practical than'. Adding '-er' directly ('practicaler') is never correct for multi-syllable adjectives. Superlatives use 'the most', not 'the most ... than'."
+    },
+    {
+      "id": "quiz-8",
+      "question": "What does the equal comparison 'as...as' express?",
+      "sentence": "Jake is as tall as his brother.",
+      "options": ["Jake is taller than his brother.", "Jake is shorter than his brother.", "Jake and his brother are the same height.", "Jake is the tallest in his family."],
+      "correctAnswer": "Jake and his brother are the same height.",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "'As + adjective + as' shows two things are equal in that quality.",
+      "difficulty": "easy",
+      "explanation": "'As tall as' is an equative comparison — it means the two people or things are equal in that quality. There is no difference in height between Jake and his brother."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which two-syllable adjective can use EITHER comparative form?",
+      "sentence": "Which of these is correct: '___ more common' OR '___ commoner'?",
+      "options": ["Only 'more common' is correct.", "Only 'commoner' is correct.", "Both 'more common' and 'commoner' are acceptable.", "Neither form is correct."],
+      "correctAnswer": "Both 'more common' and 'commoner' are acceptable.",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "Some two-syllable adjectives allow both forms.",
+      "difficulty": "hard",
+      "explanation": "Some two-syllable adjectives (common, likely, polite, simple, subtle) allow both -er and 'more'. 'Commoner' and 'more common' are both grammatically acceptable, though 'more common' tends to be preferred in formal writing."
+    },
+    {
+      "id": "quiz-10",
+      "question": "What is the correct comparative of 'far' when referring to physical distance?",
+      "sentence": "The school is ____ from my house than the library.",
+      "options": ["further", "farther", "more far", "farthest"],
+      "correctAnswer": "farther",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "'Far' has two comparative forms with slightly different uses.",
+      "difficulty": "hard",
+      "explanation": "'Farther' refers specifically to physical distance: 'the school is farther from my house.' 'Further' can mean both physical distance AND additional/more (e.g. 'further discussion'). In American English this distinction is strictly observed; in British English 'further' is used for both meanings."
+    }
+  ],
+
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "comparative",
+      "hint": "The form that compares two things — used with 'than'",
+      "clue": "c_mp_r_t_v_",
+      "audio": "spell_word_1.mp3",
+      "sentence": "The ___ form of 'hot' is 'hotter'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "superlative",
+      "hint": "The form that expresses the highest or lowest degree in a group — used with 'the'",
+      "clue": "s_p_rl_t_v_",
+      "audio": "spell_word_2.mp3",
+      "sentence": "The ___ of 'good' is 'the best'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "irregular",
+      "hint": "An adjective that does not follow the standard -er/-est or more/most pattern",
+      "clue": "_rr_g_l_r",
+      "audio": "spell_word_3.mp3",
+      "sentence": "Good, bad, and far have ___ comparative forms.",
+      "difficulty": "hard"
+    }
+  ],
+
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "concept-explorer",
+        "name": "Comparison Explorer",
+        "condition": "Complete all Comparatives & Superlatives lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You can now compare anything — bigger, better, the best! Great work!"
+      },
+      {
+        "id": "writing-champion",
+        "name": "Comparison Writing Star",
+        "condition": "Score 100% on 3 writing activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your comparisons are crystal clear — impressive writing!"
+      },
+      {
+        "id": "game-master",
+        "name": "Comparison Game Master",
+        "condition": "Complete all games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "Perfect form choices every time — you're the best at comparatives!"
+      },
+      {
+        "id": "perfect-speller",
+        "name": "Grammar Vocabulary Pro",
+        "condition": "Spell all comparison terms correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "Spelling champion — even the tricky doubling rules!"
+      },
+      {
+        "id": "speed-demon",
+        "name": "Speed Champion",
+        "condition": "Complete 5 activities in under 10 minutes each",
+        "icon": "⚡",
+        "points": 30,
+        "message": "The fastest learner in the class — well done!"
+      },
+      {
+        "id": "perfectionist",
+        "name": "Comparison Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "The most perfect score imaginable — truly the best!"
+      }
+    ]
+  }
+}

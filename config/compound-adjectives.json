@@ -1,0 +1,148 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Compound Adjectives",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Compound Adjectives",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Compound Adjectives Lessons",
+        "instructions": "Master adjective+noun, noun+adjective, adjective+participle, noun+participle, adverb+participle, and number+noun compound forms to describe people, places, and things with precision. Understand hyphenation rules and how position changes meaning."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using compound adjectives in both pre-noun (hyphenated) and post-verb (unhyphenated) positions. Apply adjective+noun, noun+present participle, and number+noun patterns in real contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice identifying compound adjective types, choosing hyphenated versus unhyphenated forms, and matching compound adjectives to their definitions. Recognise common patterns like well-known and record-breaking."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Compound Adjectives Challenge",
+        "instructions": "Apply hyphenation rules and compound adjective structures in context. Master number+noun compounds (five-day, ten-minute) and advanced forms like idiomatic phrase adjectives (once-in-a-lifetime)."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Adjective + Noun Compounds",
+        "words": [
+          "full-length",
+          "blue-collar",
+          "last-minute",
+          "deep-sea",
+          "short-term",
+          "long-term",
+          "high-quality",
+          "low-key"
+        ]
+      },
+      {
+        "title": "Noun + Adjective Compounds",
+        "words": [
+          "smoke-free",
+          "ice-cold",
+          "world-famous",
+          "user-friendly",
+          "water-resistant",
+          "sky-blue",
+          "sugar-free",
+          "duty-free"
+        ]
+      },
+      {
+        "title": "Noun/Adjective + Participle Compounds",
+        "words": [
+          "good-looking",
+          "far-reaching",
+          "long-lasting",
+          "easy-going",
+          "mouth-watering",
+          "record-breaking",
+          "eye-opening",
+          "time-saving",
+          "old-fashioned",
+          "narrow-minded",
+          "well-known",
+          "sun-dried"
+        ]
+      },
+      {
+        "title": "Number + Noun Compounds",
+        "words": [
+          "ten-minute",
+          "five-day",
+          "twenty-storey",
+          "three-week",
+          "five-star",
+          "two-way",
+          "ten-page",
+          "three-hour"
+        ]
+      },
+      {
+        "title": "Common Adverb + Participle Compounds",
+        "words": [
+          "well-prepared",
+          "highly-respected",
+          "badly-behaved",
+          "deeply-rooted",
+          "densely-populated",
+          "widely-recognized",
+          "poorly-paid",
+          "brightly-lit"
+        ]
+      },
+      {
+        "title": "Idiomatic & Phrase Compounds",
+        "words": [
+          "middle-of-the-road",
+          "off-the-rack",
+          "over-the-counter",
+          "once-in-a-lifetime",
+          "one-of-a-kind",
+          "all-too-common",
+          "up-to-date",
+          "out-of-the-ordinary"
+        ]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/compound-adjectives.json",
+  "grammarChecker": "compoundAdjectives.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

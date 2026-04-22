@@ -1,0 +1,157 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Adjective Order",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Adjective Order & Placement",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Adjective Order Lessons",
+        "instructions": "Master determiner order, opinion-to-purpose sequencing, and comma rules to describe nouns accurately and naturally. Understand when adjectives are interchangeable and when their order is fixed."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write noun phrases using multiple adjectives in the correct DOSASCOMP order (Determiner, Opinion, Size, Age, Shape, Colour, Origin, Material, Purpose). Apply comma and 'and' rules in real contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice ordering opinion, size, age, shape, colour, origin, material, and purpose adjectives before nouns. Recognise which sequences sound natural in English."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Adjective Order Challenge",
+        "instructions": "Apply determiner placement, multi-adjective sequencing, and comma or 'and' usage correctly in sentences. Master purpose adjectives that sit directly before the noun."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Determiners",
+        "words": [
+          "a",
+          "an",
+          "the",
+          "this",
+          "that",
+          "some",
+          "many",
+          "my",
+          "your"
+        ]
+      },
+      {
+        "title": "Opinion & Size Adjectives",
+        "words": [
+          "gorgeous",
+          "charming",
+          "horrible",
+          "lovely",
+          "ugly",
+          "little",
+          "enormous",
+          "large",
+          "small",
+          "tiny"
+        ]
+      },
+      {
+        "title": "Age, Shape & Colour Adjectives",
+        "words": [
+          "old",
+          "new",
+          "ancient",
+          "round",
+          "square",
+          "narrow",
+          "red",
+          "blue",
+          "pink",
+          "striped"
+        ]
+      },
+      {
+        "title": "Origin, Material & Purpose Adjectives",
+        "words": [
+          "French",
+          "Italian",
+          "Spanish",
+          "English",
+          "cotton",
+          "leather",
+          "silk",
+          "glass",
+          "cocktail",
+          "fishing",
+          "racing",
+          "wedding",
+          "sailing"
+        ]
+      },
+      {
+        "title": "Common Nouns Used with Multiple Adjectives",
+        "words": [
+          "dress",
+          "car",
+          "house",
+          "bag",
+          "boat",
+          "building",
+          "jacket",
+          "ring",
+          "hat",
+          "bowl",
+          "shop",
+          "cup"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "She wore a ___ [adjective chain] dress.",
+          "He drove a beautiful old ___ ...",
+          "Question: What kind of ___ is it?",
+          "Contrast: It is ___, not ___.",
+          "Conditional: If the adjective is opinion, place it ___.",
+          "Time clause: When two colours appear, use ___ and ___.",
+          "Emphatic: What a ___ [adjective chain] ___!"
+        ]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/adjective-order.json",
+  "grammarChecker": "adjectiveOrder.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

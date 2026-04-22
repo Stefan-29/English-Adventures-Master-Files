@@ -80,9 +80,9 @@ nano .env
 All `.md` files moved to `docs/` for organization
 
 ### Utilities (`scripts/`)
-- `DOWNLOAD_IMAGES.js` → `scripts/DOWNLOAD_IMAGES.js`
-- `TEST_IMAGE_SERVICE.js` → `scripts/TEST_IMAGE_SERVICE.js`
-- Server scripts → `scripts/`
+- `DOWNLOAD_IMAGES.js` → `scripts/utilities/DOWNLOAD_IMAGES.js`
+- `TEST_IMAGE_SERVICE.js` → `scripts/utilities/TEST_IMAGE_SERVICE.js`
+- Server scripts → `scripts/server/`
 
 ## 🔧 For Developers
 

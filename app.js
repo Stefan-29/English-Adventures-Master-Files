@@ -14,20 +14,20 @@ const App = {
         completedActivities: {},   // Now: { 'past-tenses': {...}, 'future-perfect': {...}, ... }
         moduleStars: {},            // Now: { 'past-tenses': 5, 'future-perfect': 3, ... }
         rewards: { stars: 0, points: 0, badges: [] },
-        
+
         // Audio Settings
         audioEnabled: false,
         soundEffectsEnabled: true,
         musicVolume: 30,
         soundVolume: 70,
-        
+
         // Display Settings
         textSize: '14',
         animationsEnabled: true,
-        
+
         // Learning Preferences
         autoShowHints: true,
-        
+
         // Accessibility Settings
         highContrast: false,
         reduceMotion: false,
@@ -75,7 +75,7 @@ const App = {
                     }
                 }
                 if (!defaultModule) throw new Error('No grammar modules found');
-                
+
                 // Set the current grammar module ID
                 this.currentGrammarModuleId = defaultModule.id;
 
@@ -107,10 +107,11 @@ const App = {
         // Define groups here. Add new groups or modify existing ones as needed.
         // Format: "Group Name": ["module-id-1", "module-id-2", ...]
         const groups = {
-            "Nouns & Plurals": ['adjectives-as-nouns','nouns-countable-plural', 'nouns-compound-collective'],
+            "Nouns & Plurals": ['adjectives-as-nouns', 'nouns-countable-plural', 'nouns-compound-collective'],
+            "Adjectives": ['adjective-order', 'comparatives-superlatives', 'compound-adjectives', 'descriptive-adjectives', 'ing-ed-adjectives'],
             "Tenses": ['future-perfect', 'future-tenses', 'past-perfect', 'past-tenses', 'present-perfect', 'present-tenses'],
             "Modals": ['can-could-be-able-to', 'must-have-to-have-got-to', 'shall-will-would-had-better', 'should-ought-to', 'may-might'],
-            "Articles & Determiners": ['a-an-the','a-lot-of-much-many','some-any-a-little-a-few','few-little','each-every','other-another','this-that-these-those','everyone-vs-every-one','each-other-one-another-ourselves','countable-vs-uncountable-nouns'],
+            "Articles & Determiners": ['a-an-the', 'a-lot-of-much-many', 'some-any-a-little-a-few', 'few-little', 'each-every', 'other-another', 'this-that-these-those', 'everyone-vs-every-one', 'each-other-one-another-ourselves', 'countable-vs-uncountable-nouns'],
             "Causative Verbs": ['causative-verbs'],
             "Passive Voice": ['passive-voice'],
             "Prepositions & Phrasal Expressions": ['time-prepositions', 'position-direction-location-prepositions', 'prepositional-phrases', 'of-from-prepositions'],
@@ -129,15 +130,16 @@ const App = {
         // MAKE SURE TO ALSO CREATE A CORRESPONDING 
         // CONFIG JSON FILE IN THE config/ FOLDER WITH 
         // THE SAME NAME.
-        const moduleNames = ['can-could-be-able-to','must-have-to-have-got-to','shall-will-would-had-better','should-ought-to','may-might',
-            'future-perfect','future-tenses','past-perfect','past-tenses','present-perfect','present-tenses',
-            'conditional-structures','wish-if-if-only','if-alternatives','subjunctive-mood',
-            'gerund-vs-infinitive','after-certain-verbs','bare-infinitive',
-            'a-an-the','a-lot-of-much-many','some-any-a-little-a-few','few-little','each-every','other-another',
-            'this-that-these-those','everyone-vs-every-one','each-other-one-another-ourselves',
-            'countable-vs-uncountable-nouns','causative-verbs','passive-voice',
-            'time-prepositions','position-direction-location-prepositions','prepositional-phrases','of-from-prepositions',
-            'adjectives-as-nouns','nouns-compound-collective','nouns-countable-plural']; // Add new ones here
+        const moduleNames = ['can-could-be-able-to', 'must-have-to-have-got-to', 'shall-will-would-had-better', 'should-ought-to', 'may-might',
+            'future-perfect', 'future-tenses', 'past-perfect', 'past-tenses', 'present-perfect', 'present-tenses',
+            'conditional-structures', 'wish-if-if-only', 'if-alternatives', 'subjunctive-mood',
+            'gerund-vs-infinitive', 'after-certain-verbs', 'bare-infinitive',
+            'a-an-the', 'a-lot-of-much-many', 'some-any-a-little-a-few', 'few-little', 'each-every', 'other-another',
+            'this-that-these-those', 'everyone-vs-every-one', 'each-other-one-another-ourselves',
+            'countable-vs-uncountable-nouns', 'causative-verbs', 'passive-voice',
+            'time-prepositions', 'position-direction-location-prepositions', 'prepositional-phrases', 'of-from-prepositions',
+            'adjectives-as-nouns', 'nouns-compound-collective', 'nouns-countable-plural',
+            'adjective-order', 'comparatives-superlatives', 'compound-adjectives', 'descriptive-adjectives', 'ing-ed-adjectives']; // Add new ones here
         const promises = moduleNames.map(name => {
             const configPath = `config/${name}.json`;
             return fetch(configPath)
@@ -384,7 +386,7 @@ const App = {
             btn.className = 'nav-btn' + (i === 0 ? ' active' : '');
             btn.dataset.section = m.id;
             btn.textContent = m.name;
-            
+
             btn.addEventListener('click', () => this.switchModule(m.id));
             nav.appendChild(btn);
         });
@@ -439,12 +441,12 @@ const App = {
             const mainSection = document.createElement('section');
             mainSection.id = main.mainId;
             mainSection.className = 'module' + (mainIdx === 0 ? ' active' : '');
-            
+
             let htmlContent = `
                 <h3>${main.mainTitle}</h3>
                 <div class="module-instructions">${main.mainInstructions}</div>
             `;
-            
+
             // Add game mode buttons for Play section
             if (main.gameModes) {
                 htmlContent += `<div class="game-modes-container">`;
@@ -458,7 +460,7 @@ const App = {
                 });
                 htmlContent += `</div>`;
             }
-            
+
             // Add writing mode buttons for Write section
             if (main.writingModes) {
                 htmlContent += `<div class="writing-modes-container">`;
@@ -472,7 +474,7 @@ const App = {
                 });
                 htmlContent += `</div>`;
             }
-            
+
             htmlContent += `<div id="${main.mainId}-activities-wrapper" class="module-activities-wrapper"></div>`;
             mainSection.innerHTML = htmlContent;
 
@@ -480,7 +482,7 @@ const App = {
             if (main.gameModes) {
                 // Active state will be set by setupModeButtons
             }
-            
+
             // Set first mode as active by default for writing modes
             if (main.writingModes) {
                 // Active state will be set by setupModeButtons
@@ -765,7 +767,7 @@ const App = {
         const closeModalBtn = document.querySelector('.modal-close-btn');
         const feedbackContinue = document.getElementById('feedback-continue');
         const modalBackdrop = document.querySelector('.modal-backdrop');
-        
+
         if (closeModalBtn) {
             closeModalBtn.removeEventListener('click', this.closeModalHandler);
             closeModalBtn.addEventListener('click', this.closeModalHandler = (e) => {
@@ -774,7 +776,7 @@ const App = {
                 this.closeFeedback();
             }, { capture: false });
         }
-        
+
         if (feedbackContinue) {
             console.log('✅ Found feedback-continue button, attaching listener');
             feedbackContinue.removeEventListener('click', this.feedbackContinueHandler);
@@ -788,7 +790,7 @@ const App = {
         } else {
             console.error('❌ feedback-continue button not found in DOM');
         }
-        
+
         if (modalBackdrop) {
             modalBackdrop.removeEventListener('click', this.backdropClickHandler);
             modalBackdrop.addEventListener('click', this.backdropClickHandler = (e) => {
@@ -925,16 +927,16 @@ const App = {
         // Toggle Rewards (Stars and Badges) - Setup in setupEventListeners so it only runs once
         const toggleRewardsBtn = document.getElementById('toggle-rewards');
         const rewardsContainer = document.getElementById('rewards-container');
-        
+
         console.log('🔍 DEBUG - toggleRewardsBtn:', toggleRewardsBtn);
         console.log('🔍 DEBUG - rewardsContainer:', rewardsContainer);
         console.log('🔍 DEBUG - toggleRewardsBtn computed style pointer-events:', toggleRewardsBtn ? window.getComputedStyle(toggleRewardsBtn).pointerEvents : 'N/A');
         console.log('🔍 DEBUG - toggleRewardsBtn z-index:', toggleRewardsBtn ? window.getComputedStyle(toggleRewardsBtn).zIndex : 'N/A');
         console.log('🔍 DEBUG - toggleRewardsBtn parent z-index:', toggleRewardsBtn?.parentElement ? window.getComputedStyle(toggleRewardsBtn.parentElement).zIndex : 'N/A');
-        
+
         if (toggleRewardsBtn && rewardsContainer) {
             console.log('✅ Elements found, setting up toggle');
-            
+
             // Load saved state from localStorage
             const rewardsCollapsed = localStorage.getItem('rewardsCollapsed') === 'true';
             if (rewardsCollapsed) {
@@ -942,7 +944,7 @@ const App = {
                 toggleRewardsBtn.classList.add('collapsed');
                 console.log('📌 Restored collapsed state from localStorage');
             }
-            
+
             // Define the toggle handler function
             const handleToggleClick = (e) => {
                 console.log('🖱️ Toggle button clicked');
@@ -953,11 +955,11 @@ const App = {
                 localStorage.setItem('rewardsCollapsed', isCollapsed);
                 console.log('✨ Rewards toggled. Collapsed:', isCollapsed);
             };
-            
+
             // Use capture phase to ensure we catch the click
             toggleRewardsBtn.addEventListener('click', handleToggleClick, { capture: true });
             console.log('✅ Click listener attached to toggle button (capture phase)');
-            
+
             // Also attach as direct onclick for maximum compatibility
             toggleRewardsBtn.onclick = handleToggleClick;
             console.log('✅ Also attached direct onclick handler');
@@ -968,15 +970,15 @@ const App = {
         // Toggle Modules (Learning Activities) - Same pattern as rewards
         const toggleModulesBtn = document.getElementById('toggle-modules');
         const modulesContainer = document.getElementById('modules-container');
-        
+
         console.log('🔍 DEBUG - toggleModulesBtn:', toggleModulesBtn);
         console.log('🔍 DEBUG - modulesContainer:', modulesContainer);
         console.log('🔍 DEBUG - toggleModulesBtn computed style pointer-events:', toggleModulesBtn ? window.getComputedStyle(toggleModulesBtn).pointerEvents : 'N/A');
         console.log('🔍 DEBUG - toggleModulesBtn z-index:', toggleModulesBtn ? window.getComputedStyle(toggleModulesBtn).zIndex : 'N/A');
-        
+
         if (toggleModulesBtn && modulesContainer) {
             console.log('✅ Modules elements found, setting up toggle');
-            
+
             // Load saved state from localStorage
             const modulesCollapsed = localStorage.getItem('modulesCollapsed') === 'true';
             if (modulesCollapsed) {
@@ -984,7 +986,7 @@ const App = {
                 toggleModulesBtn.classList.add('collapsed');
                 console.log('📌 Restored collapsed state for modules from localStorage');
             }
-            
+
             // Define the toggle handler function
             const handleModulesToggleClick = (e) => {
                 console.log('🖱️ Modules toggle button clicked');
@@ -995,11 +997,11 @@ const App = {
                 localStorage.setItem('modulesCollapsed', isCollapsed);
                 console.log('✨ Modules toggled. Collapsed:', isCollapsed);
             };
-            
+
             // Use capture phase to ensure we catch the click
             toggleModulesBtn.addEventListener('click', handleModulesToggleClick, { capture: true });
             console.log('✅ Click listener attached to modules toggle button (capture phase)');
-            
+
             // Also attach as direct onclick for maximum compatibility
             toggleModulesBtn.onclick = handleModulesToggleClick;
             console.log('✅ Also attached direct onclick handler for modules');
@@ -1062,7 +1064,7 @@ const App = {
                 const gameMode = btn.dataset.gameMode;
                 console.log('Game mode button clicked:', gameMode);
                 this.switchGameMode('play', gameMode);
-                
+
                 // Update active state
                 document.querySelectorAll('.game-mode-tag').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
@@ -1078,7 +1080,7 @@ const App = {
                 const writingMode = btn.dataset.writingMode;
                 console.log('Writing mode button clicked:', writingMode);
                 this.switchWritingMode('write', writingMode);
-                
+
                 // Update active state
                 document.querySelectorAll('.writing-mode-tag').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
@@ -1091,11 +1093,11 @@ const App = {
     switchGameMode: function (moduleId, gameMode) {
         // Show the 'play' main section
         this.switchModule('play');
-        
+
         // Show the appropriate game mode sub-section
         const quizSection = document.getElementById('quiz-module');
         const gameSection = document.getElementById('game-module');
-        
+
         if (gameMode === 'quiz') {
             if (quizSection) quizSection.classList.add('active');
             if (gameSection) gameSection.classList.remove('active');
@@ -1108,11 +1110,11 @@ const App = {
     switchWritingMode: function (moduleId, writingMode) {
         // Show the 'write' main section
         this.switchModule('write');
-        
+
         // Show the appropriate writing mode sub-section
         const writingSection = document.getElementById('writing-module');
         const spellingSection = document.getElementById('spelling-module');
-        
+
         if (writingMode === 'writing') {
             if (writingSection) writingSection.classList.add('active');
             if (spellingSection) spellingSection.classList.remove('active');
@@ -1140,14 +1142,14 @@ const App = {
 
         this.state.activeModule = moduleId;
         localStorage.setItem('englishAdventuresActiveModule', moduleId);
-        
+
         // Show check-all button only for non-lesson modules
         const checkAllButton = document.getElementById('check-all-button');
         if (checkAllButton) {
             const isLessonModule = moduleId === 'lesson-module';
             checkAllButton.style.display = isLessonModule ? 'none' : 'flex';
         }
-        
+
         this.saveState();
         this.updateUI();
     },
@@ -1155,7 +1157,7 @@ const App = {
     showFeedback: function (title, message, icon = null) {
         // Add to queue
         this.feedbackQueue.push({ title, message, icon });
-        
+
         // Process queue if not already processing
         if (!this.feedbackActive) {
             this.processFeedbackQueue();
@@ -1218,7 +1220,7 @@ const App = {
     closeFeedback: function () {
         const feedbackModal = document.getElementById('feedback-modal');
         feedbackModal.classList.remove('show');
-        
+
         // Process next feedback in queue after a small delay
         setTimeout(() => {
             this.processFeedbackQueue();
@@ -1315,12 +1317,12 @@ const App = {
         // Mark as completed in this module with status
         this.state.completedActivities[moduleId][id] = status;
         this.calculateProgress();
-        
+
         // Only award stars for correct answers
         if (status === 'completed') {
             RewardSystem.awardStar(id);
         }
-        
+
         this.updateUI();
         this.saveState();
     },
@@ -1358,7 +1360,7 @@ const App = {
                 const parsedState = JSON.parse(savedState);
                 console.log('Parsed state:', parsedState);
                 let migratedCompletedActivities = {};
-                
+
                 // Handle migration from old flat structure to new module-scoped structure
                 if (parsedState.completedActivities) {
                     if (Object.values(parsedState.completedActivities).some(val => typeof val === 'object' && !Array.isArray(val))) {
@@ -1381,7 +1383,7 @@ const App = {
                         }
                     }
                 }
-                
+
                 if (parsedState.rewards && typeof parsedState.rewards.stars === 'number' && Array.isArray(parsedState.rewards.badges)) {
                     this.state = {
                         ...parsedState,
@@ -1397,14 +1399,14 @@ const App = {
                         soundEffectsEnabled: parsedState.soundEffectsEnabled !== undefined ? parsedState.soundEffectsEnabled : true,
                         musicVolume: parsedState.musicVolume !== undefined ? parsedState.musicVolume : 30,
                         soundVolume: parsedState.soundVolume !== undefined ? parsedState.soundVolume : 70,
-                        
+
                         // Display Settings
                         textSize: parsedState.textSize || '14',
                         animationsEnabled: parsedState.animationsEnabled !== undefined ? parsedState.animationsEnabled : true,
-                        
+
                         // Learning Preferences
                         autoShowHints: parsedState.autoShowHints !== undefined ? parsedState.autoShowHints : true,
-                        
+
                         // Accessibility Settings
                         highContrast: parsedState.highContrast === true,
                         reduceMotion: parsedState.reduceMotion === true,
@@ -1491,7 +1493,7 @@ const App = {
         this.saveState();
         this.refreshModules();
         RewardSystem.checkAllBadgeConditions();
-        
+
         // Load theme preference
         this.applyThemePreference();
     },
@@ -1499,29 +1501,29 @@ const App = {
     applyThemePreference: function () {
         const savedTheme = localStorage.getItem('grammar101-theme');
         const isDarkMode = savedTheme === 'dark';
-        
+
         if (isDarkMode) {
             document.body.classList.add('dark-mode');
         } else {
             document.body.classList.remove('dark-mode');
         }
-        
+
         console.log('🌓 Theme applied:', isDarkMode ? 'Dark Mode' : 'Light Mode');
-        
+
         // Apply text size
         if (this.state.textSize) {
             document.documentElement.style.fontSize = this.state.textSize + 'px';
         }
-        
+
         // Apply accessibility settings
         if (this.state.highContrast) {
             document.body.classList.add('high-contrast');
         }
-        
+
         if (this.state.reduceMotion) {
             document.body.classList.add('reduce-motion');
         }
-        
+
         // Update control panel after theme is applied
         setTimeout(() => this.updateControlPanelState(), 100);
     },
@@ -1529,18 +1531,18 @@ const App = {
     loadSoundPreference: function () {
         const savedSound = localStorage.getItem('grammar101-sound');
         const isSoundEnabled = savedSound !== 'disabled'; // Default to enabled if not set
-        
+
         this.state.soundEffectsEnabled = isSoundEnabled;
-        
+
         console.log('🔊 Sound preference loaded:', isSoundEnabled ? 'Enabled' : 'Disabled');
-        
+
         // Update control panel after preferences are loaded
         setTimeout(() => this.updateControlPanelState(), 100);
     },
 
     resetProgress: function () {
         console.log('🔄 RESETTING PROGRESS FOR MODULE:', this.currentGrammarModuleId);
-        
+
         const moduleId = this.currentGrammarModuleId;
         if (!moduleId) {
             console.error('No active module to reset');
@@ -1576,7 +1578,7 @@ const App = {
         if (typeof QuizModule.reset === 'function') resetPromises.push(QuizModule.reset());
         if (typeof SpellingHelper.reset === 'function') resetPromises.push(SpellingHelper.reset());
         if (typeof LessonModule.reset === 'function') resetPromises.push(LessonModule.reset());
-        
+
         return Promise.all(resetPromises).then(() => {
             // Recalculate badges since module progress changed
             if (typeof RewardSystem.checkAllBadgeConditions === 'function') {
@@ -1722,9 +1724,9 @@ const App = {
     // ===== THEME TOGGLE FUNCTION =====
     toggleTheme: function () {
         const isDarkMode = document.body.classList.toggle('dark-mode');
-        
+
         console.log('🌓 Theme switched to:', isDarkMode ? 'Dark Mode' : 'Light Mode');
-        
+
         // Save preference
         localStorage.setItem('grammar101-theme', isDarkMode ? 'dark' : 'light');
         this.saveState();
@@ -1733,14 +1735,14 @@ const App = {
     // ===== SOUND TOGGLE FUNCTION =====
     toggleSound: function () {
         this.state.soundEffectsEnabled = !this.state.soundEffectsEnabled;
-        
+
         console.log('🔊 Sound effects:', this.state.soundEffectsEnabled ? 'Enabled' : 'Disabled');
-        
+
         // Play a test sound if enabling
         if (this.state.soundEffectsEnabled) {
             this.playSound('correctSound');
         }
-        
+
         // Save preference
         localStorage.setItem('grammar101-sound', this.state.soundEffectsEnabled ? 'enabled' : 'disabled');
         this.saveState();
@@ -1749,11 +1751,11 @@ const App = {
     // ===== UPDATE CONTROL PANEL STATE =====
     updateControlPanelState: function () {
         const isDarkMode = document.body.classList.contains('dark-mode');
-        
+
         // Update theme toggle
         const themeToggle = document.getElementById('theme-toggle');
         if (themeToggle) themeToggle.checked = isDarkMode;
-        
+
         // Update music toggle and volume
         const musicToggle = document.getElementById('music-toggle');
         const musicVolume = document.getElementById('music-volume');
@@ -1763,7 +1765,7 @@ const App = {
             musicVolume.value = (this.state.musicVolume || 30);
             musicVolumeDisplay.textContent = (this.state.musicVolume || 30) + '%';
         }
-        
+
         // Update sound toggle and volume
         const soundToggle = document.getElementById('sound-toggle');
         const soundVolume = document.getElementById('sound-volume');
@@ -1773,13 +1775,13 @@ const App = {
             soundVolume.value = (this.state.soundVolume || 70);
             soundVolumeDisplay.textContent = (this.state.soundVolume || 70) + '%';
         }
-        
+
         // Update other toggles
         const animationToggle = document.getElementById('animation-toggle');
         const hintsToggle = document.getElementById('hints-toggle');
         const focusToggle = document.getElementById('focus-toggle');
         const reduceMotion = document.getElementById('reduce-motion');
-        
+
         if (animationToggle) animationToggle.checked = this.state.animationsEnabled !== false;
         if (hintsToggle) hintsToggle.checked = this.state.autoShowHints !== false;
         if (focusToggle) focusToggle.checked = this.state.highContrast === true;
@@ -1790,10 +1792,10 @@ const App = {
         const controlPanelBtn = document.getElementById('control-panel-btn');
         const controlPanelMenu = document.getElementById('control-panel-menu');
         const settingsCloseBtn = document.querySelector('.settings-close-btn');
-        
+
         // Initialize settings on first load
         this.updateControlPanelState();
-        
+
         // Control panel toggle
         if (controlPanelBtn && controlPanelMenu) {
             controlPanelBtn.removeEventListener('click', this.controlPanelHandler);
@@ -1802,7 +1804,7 @@ const App = {
                 console.log('⚙️ Settings panel toggled');
                 controlPanelMenu.classList.toggle('active');
             });
-            
+
             // Close button
             if (settingsCloseBtn) {
                 settingsCloseBtn.removeEventListener('click', this.settingsCloseHandler);
@@ -1811,7 +1813,7 @@ const App = {
                     controlPanelMenu.classList.remove('active');
                 });
             }
-            
+
             // Close when clicking outside
             document.removeEventListener('click', this.closeSettingsHandler);
             document.addEventListener('click', this.closeSettingsHandler = (e) => {
@@ -1820,7 +1822,7 @@ const App = {
                 }
             });
         }
-        
+
         // Theme Toggle
         const themeToggle = document.getElementById('theme-toggle');
         if (themeToggle) {
@@ -1836,7 +1838,7 @@ const App = {
                 this.saveState();
             });
         }
-        
+
         // Text Size
         const textSizeSlider = document.getElementById('text-size');
         if (textSizeSlider) {
@@ -1852,7 +1854,7 @@ const App = {
             // Apply saved text size
             document.documentElement.style.fontSize = (this.state.textSize || '14') + 'px';
         }
-        
+
         // Music Toggle
         const musicToggle = document.getElementById('music-toggle');
         if (musicToggle) {
@@ -1860,7 +1862,7 @@ const App = {
             musicToggle.addEventListener('change', this.musicToggleHandler = (e) => {
                 this.state.audioEnabled = e.target.checked;
                 console.log('🎵 Background music toggled:', e.target.checked ? 'On' : 'Off');
-                
+
                 const backgroundMusic = document.getElementById('backgroundMusic');
                 if (backgroundMusic) {
                     if (e.target.checked) {
@@ -1873,7 +1875,7 @@ const App = {
                 this.saveState();
             });
         }
-        
+
         // Music Volume
         const musicVolume = document.getElementById('music-volume');
         const musicVolumeDisplay = document.getElementById('music-volume-display');
@@ -1883,7 +1885,7 @@ const App = {
                 const volume = e.target.value;
                 this.state.musicVolume = volume;
                 musicVolumeDisplay.textContent = volume + '%';
-                
+
                 const backgroundMusic = document.getElementById('backgroundMusic');
                 if (backgroundMusic) {
                     backgroundMusic.volume = volume / 100;
@@ -1892,7 +1894,7 @@ const App = {
                 this.saveState();
             });
         }
-        
+
         // Sound Effects Toggle
         const soundToggle = document.getElementById('sound-toggle');
         if (soundToggle) {
@@ -1900,14 +1902,14 @@ const App = {
             soundToggle.addEventListener('change', this.soundToggleHandler = (e) => {
                 this.state.soundEffectsEnabled = e.target.checked;
                 console.log('🔔 Sound effects toggled:', e.target.checked ? 'On' : 'Off');
-                
+
                 if (e.target.checked) {
                     this.playSound('correctSound');
                 }
                 this.saveState();
             });
         }
-        
+
         // Sound Volume
         const soundVolume = document.getElementById('sound-volume');
         const soundVolumeDisplay = document.getElementById('sound-volume-display');
@@ -1921,7 +1923,7 @@ const App = {
                 this.saveState();
             });
         }
-        
+
         // Animations Toggle
         const animationToggle = document.getElementById('animation-toggle');
         if (animationToggle) {
@@ -1933,7 +1935,7 @@ const App = {
                 this.saveState();
             });
         }
-        
+
         // Hints Toggle
         const hintsToggle = document.getElementById('hints-toggle');
         if (hintsToggle) {
@@ -1944,7 +1946,7 @@ const App = {
                 this.saveState();
             });
         }
-        
+
         // High Contrast Toggle
         const focusToggle = document.getElementById('focus-toggle');
         if (focusToggle) {
@@ -1964,7 +1966,7 @@ const App = {
                 document.body.classList.add('high-contrast');
             }
         }
-        
+
         // Reduce Motion Toggle
         const reduceMotion = document.getElementById('reduce-motion');
         if (reduceMotion) {
@@ -1984,7 +1986,7 @@ const App = {
                 document.body.classList.add('reduce-motion');
             }
         }
-        
+
         // Reset Settings
         const resetBtn = document.getElementById('reset-settings-btn');
         if (resetBtn) {
@@ -1996,7 +1998,7 @@ const App = {
                     // Reset to defaults
                     document.body.classList.remove('dark-mode', 'high-contrast', 'reduce-motion');
                     document.documentElement.style.fontSize = '14px';
-                    
+
                     // Update state
                     this.state.textSize = '14';
                     this.state.audioEnabled = true;
@@ -2007,20 +2009,20 @@ const App = {
                     this.state.autoShowHints = true;
                     this.state.highContrast = false;
                     this.state.reduceMotion = false;
-                    
+
                     // Update UI
                     this.updateControlPanelState();
-                    
+
                     // Clear localStorage
                     localStorage.setItem('grammar101-theme', 'light');
                     this.saveState();
-                    
+
                     this.playSound('correctSound');
                     console.log('✅ Settings reset to default');
                 }
             });
         }
-        
+
         console.log('✅ Settings panel initialized successfully');
     },
 };

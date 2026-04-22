@@ -1,0 +1,154 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Comparatives & Superlatives",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Comparative & Superlative Adjectives",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Comparatives & Superlatives Lessons",
+        "instructions": "Master one-syllable -er/-est forms, two-syllable more/most forms, -y adjective changes, and irregular forms to compare people, places, and things accurately. Understand when to use comparative vs superlative."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using comparative forms with 'than', superlative forms with 'the', and irregular comparisons (good/better/best). Apply spelling rules for doubled consonants and -y to -i changes in real contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between comparative (-er/more) and superlative (-est/most) forms, and between regular and irregular adjectives. Recognise key signals like 'than' and 'in the world'."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Comparatives & Superlatives Challenge",
+        "instructions": "Apply -er/-est suffixes, more/most structures, -y to -i spelling changes, and irregular forms correctly in sentences. Master double-consonant spelling rules for short adjectives."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "One-Syllable Comparatives & Superlatives",
+        "words": [
+          "longer than",
+          "shorter than",
+          "hotter than",
+          "nicer than",
+          "bigger than",
+          "the longest",
+          "the shortest",
+          "the hottest",
+          "the nicest",
+          "the biggest"
+        ]
+      },
+      {
+        "title": "Multi-Syllable Comparatives & Superlatives",
+        "words": [
+          "more interesting than",
+          "more practical than",
+          "less practical than",
+          "the most interesting",
+          "the least interesting",
+          "more beautiful than",
+          "the most beautiful"
+        ]
+      },
+      {
+        "title": "-Y Adjective Forms",
+        "words": [
+          "funnier than",
+          "easier than",
+          "happier than",
+          "the funniest",
+          "the easiest",
+          "the happiest",
+          "heavier than",
+          "the heaviest"
+        ]
+      },
+      {
+        "title": "Irregular Forms",
+        "words": [
+          "better than",
+          "worse than",
+          "more than",
+          "less than",
+          "farther than",
+          "further than",
+          "the best",
+          "the worst",
+          "the most",
+          "the least",
+          "the farthest",
+          "the furthest"
+        ]
+      },
+      {
+        "title": "Common Adjectives for Comparison",
+        "words": [
+          "old",
+          "young",
+          "tall",
+          "fast",
+          "slow",
+          "cold",
+          "warm",
+          "cheap",
+          "expensive",
+          "difficult",
+          "intelligent",
+          "good",
+          "bad",
+          "far"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "___ is [comparative] than ___.",
+          "The [superlative] ___ in the world.",
+          "Question: Which is [comparative] — ___ or ___?",
+          "Contrast: ___ is better, but ___ is the best.",
+          "Conditional: If ___ is [comparative], then ___.",
+          "Time clause: As she grew older, she became ___.",
+          "Emphatic: By far the [superlative] ___!"
+        ]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/comparatives-superlatives.json",
+  "grammarChecker": "comparativesSuperlatives.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

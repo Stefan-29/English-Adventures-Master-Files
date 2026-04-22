@@ -298,7 +298,7 @@
       "id": "spelling-1",
       "word": "the poor",
       "hint": "Adjective used as noun - people who have little money",
-      "clue": "t_e_p_o_r",
+      "clue": "t_e_po__",
       "audio": "spelling_1_the_poor.mp3",
       "sentence": "We should help ___ in our society.",
       "difficulty": "easy"
@@ -307,7 +307,7 @@
       "id": "spelling-2",
       "word": "the elderly",
       "hint": "Adjective used as noun - older people",
-      "clue": "t_e_e_l_e_r_y",
+      "clue": "t_e_e__er_y",
       "audio": "spelling_2_the_elderly.mp3",
       "sentence": "The ___ need special medical care.",
       "difficulty": "medium"
@@ -316,7 +316,7 @@
       "id": "spelling-3",
       "word": "the British",
       "hint": "Nationality used as noun",
-      "clue": "t_e_B_r_i_s_h",
+      "clue": "t_e_Br___s_",
       "audio": "spelling_3_the_british.mp3",
       "sentence": "___ are famous for their sense of humor.",
       "difficulty": "hard"

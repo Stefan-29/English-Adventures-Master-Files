@@ -1,0 +1,483 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Is an Adjective? 🎯",
+      "content": "Think about how you describe things every day — a *cold* drink, a *beautiful* sunset, a *tiny* dog! 🐶 That's adjectives at work. 📚**Adjective** = a word that describes, identifies, or gives more information about a noun or pronoun.*Example: The **young** man drove his **new** car down the **busy** road.*Adjectives answer questions like: *What kind? Which one? How many?*They can appear directly before a noun (**a red car**) or after a linking verb (**The car is red**). 🎨*Fun fact: English has more adjectives than almost any other language — over 25,000! 💡*",
+      "examples": [
+        "**Beautiful** music filled the room. (opinion adjective before noun)",
+        "The soup was **hot** and **delicious**. (adjectives after linking verb)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": [
+        "Describing the qualities of nouns and pronouns",
+        "Answering 'what kind', 'which one', or 'how many'"
+      ],
+      "tips": "💡 **Quick Rule:** If the adjective comes before the noun, it is *attributive*. If it comes after 'is/was/seems', it is *predicative*. Both are correct!"
+    },
+    {
+      "id": "lesson-2",
+      "title": "The Magic Order: DOSASCOMP 🚀",
+      "content": "Here's English's best-kept secret! 🎮 When you stack multiple adjectives, native speakers always follow a hidden order — even without thinking about it.**The sequence:** Determiner → Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose → **Noun**.*Example: a **gorgeous little old round pink English cotton sun hat**.*You probably wouldn't say 'a cotton gorgeous hat' — it just feels wrong! That feeling is the rule.**Memory tip:** **D**ogs **O**ften **S**it **A**nd **S**tare **C**almly **O**n **M**y **P**orch 🐕*Fun fact: Linguists call this an 'absolute' rule — native speakers obey it instinctively without ever being taught it! 🌟*",
+      "examples": [
+        "Positive: a **gorgeous new French cocktail dress** (Opinion → Age → Origin → Purpose)",
+        "Positive: a **dirty old brown leather bag** (Opinion → Age → Colour → Material)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_order.mp3",
+      "functions": [
+        "Stacking multiple adjectives before a noun naturally",
+        "Avoiding unnatural or confusing adjective sequences"
+      ],
+      "tips": "💡 **Memory trick:** D-O-S-A-S-C-O-M-P. In practice, you'll rarely use more than 3–4 adjectives — but the order still applies!"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Determiners Come First 🌟",
+      "content": "Before any adjective chain, a **determiner** anchors the noun phrase. ✨ Determiners include articles, demonstratives, possessives, and numbers.**Common determiners:** a, an, the, this, that, my, your, some, many, six.*Example: **That** troublesome little boy. | **Six** old blue plastic cups.*Numbers work too — both cardinal (one, two, three) and ordinal (first, second, third).**Compare these:****Without determiner**: 'Gorgeous dress sounds incomplete. ❌**With determiner**: 'A gorgeous dress.' ✅*Fun fact: The word 'the' is the most frequently used word in English! 🎨*",
+      "examples": [
+        "With article: **An enormous** American ship (Determiner → Size → Origin)",
+        "With demonstrative: **That** troublesome little boy (Determiner → Opinion → Size)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_determiners.mp3",
+      "functions": [
+        "Introducing noun phrases correctly in English",
+        "Distinguishing specific from general references"
+      ],
+      "tips": "💡 **Decision point:** Use 'a/an' for general, 'the' for specific. Use 'this/that' for pointing. Determiner ALWAYS comes before all adjectives."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Purpose Adjectives: Closest to the Noun ⚡",
+      "content": "Here's where it gets interesting! 🤔 **Purpose adjectives** (what something is *for*) always sit directly before the noun — they cannot be moved.**Purpose adjective examples:** cocktail (dress), fishing (boat), racing (car), wedding (ring), sailing (boat), sun (hat).**Compare:****Cocktail dress** ✅ → NOT 'dress cocktail' ❌**Racing car** ✅ → NOT 'car racing' ❌ (that would be a gerund, not an adjective!)**The secret:** Purpose adjectives almost function like part of the noun itself. They complete its identity.**Common mistake:** Placing a purpose adjective before colour or material ❌. **Correct:** colour then material then purpose ✅.*Fun fact: 'Wedding ring', 'coffee table', and 'washing machine' are all purpose-adjective compounds! 🎯*",
+      "examples": [
+        "Purpose last: a **beautiful red Italian racing car** (Opinion → Colour → Origin → Purpose)",
+        "Wrong vs Right: ❌ a racing beautiful car → ✅ **a beautiful racing car**"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_purpose.mp3",
+      "functions": [
+        "Placing purpose adjectives correctly before the noun",
+        "Distinguishing purpose adjectives from material adjectives"
+      ],
+      "tips": "💡 **Pro tip:** If the adjective answers 'what is this *for*?', it is a purpose adjective and goes last, just before the noun."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Commas Between Adjectives 🎯",
+      "content": "Ready for the comma rule? 🚀 A comma goes between adjectives **only when they are of the same type and interchangeable**.**Test:** Can you swap the adjectives and use 'and' between them? If yes → use a comma.**Interchangeable (same category — e.g. two opinions):** *A flattering, well-chosen speech.* → *A well-chosen, flattering speech.* ✅**Not interchangeable (different categories):** *A big old house.* → NOT *An old big house.* ❌ No comma needed.**The rule in short:**Same kind of adjective = comma. Different kinds = no comma.*Fun fact: Forgetting this comma rule is one of the most common errors in English writing tests! ⚙️*",
+      "examples": [
+        "Comma used: **A cheerful, relaxed person.** (both opinions — interchangeable)",
+        "No comma: **A big red car.** (size then colour — fixed order)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_commas.mp3",
+      "functions": [
+        "Using commas correctly between adjectives of the same type",
+        "Omitting commas when adjective order is fixed"
+      ],
+      "tips": "💡 **When to use:** If you can say 'and' between the adjectives naturally, add a comma. If swapping sounds wrong, no comma needed."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Using 'And' with Colour Adjectives ❓",
+      "content": "There is one special rule for colour adjectives! 🎨 When you list **two or more colours**, use **'and'** to separate them — not a comma.**Formation:** [Colour 1] **and** [Colour 2] + noun. *Example: She owns a **black and white** cat.*More examples:*The flag has **yellow and blue** stripes on a **white** background.*'And' is specifically for colours combined together, not for mixing colours with other adjective types.**Contractions:** You can also hyphenate: *a black-and-white photo*.❗ Do NOT use 'and' between an opinion adjective and a colour adjective.*Fun fact: Many national flags are described using the 'and' rule — red and white, blue and gold! 💬*",
+      "examples": [
+        "Two colours with 'and': **a black and white** cat",
+        "Hyphenated version: **a red-and-yellow** striped scarf"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_and_colours.mp3",
+      "functions": [
+        "Combining two or more colour adjectives naturally",
+        "Forming hyphenated colour descriptions"
+      ],
+      "tips": "💡 **Remember:** 'And' joins two colours. A comma joins two opinions. They are not the same rule!"
+    },
+    {
+      "id": "lesson-7",
+      "title": "Putting It All Together: Full Noun Phrases 🕐",
+      "content": "Here's the full picture! ⚠️ Let's build noun phrases step by step using the complete order.**Full sequence to remember:** Determiner → Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose → Noun*Full example: a horrible little old round pink English cotton sun hat.*In practice, use 2–4 adjectives maximum. Here are real-world examples:**a gorgeous new French cocktail dress** (Opinion → Age → Origin → Purpose)**a small blue Spanish fishing boat** (Size → Colour → Origin → Purpose)**an elegant striped linen jacket** (Opinion → Shape → Material)**⚠️ Common mistake:** Starting with colour before size ❌ → always Size first ✅.*Fun fact: Non-native speakers who master adjective order immediately sound significantly more fluent! 🌍*",
+      "examples": [
+        "With 'when': **A charming old coffee shop** (Opinion → Age → Purpose)",
+        "With 'before': **Two large cracked glass bowls** (Determiner → Size → Shape → Material)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_full_phrases.mp3",
+      "functions": [
+        "Building complete, natural-sounding noun phrases",
+        "Applying the full DOSASCOMP sequence in real sentences"
+      ],
+      "tips": "💡 **Never forget:** Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose. When in doubt, say it aloud — the wrong order sounds immediately strange!"
+    },
+    {
+      "id": "lesson-8",
+      "title": "Advanced Nuances & Mastery 🏆",
+      "content": "You've come so far! 🌟 Let's tackle the **advanced nuances** that separate good from great.**Special Case 1: Ordinal numbers as determiners** — *The first three large ships* (Ordinal → Cardinal → Size → Noun).**Special Case 2: 'Such a' and 'what a' phrases** — Opinion adjective must still follow the determiner: *What a lovely old house!***Sophisticated Usage:** In formal written English, adjective chains can be longer than in speech.**[Formal]**: *A meticulously crafted, hand-painted Italian ceramic vase* (opinion + compound adjectives)**[Informal]**: *A lovely painted Italian vase***Mastery checklist:** ✅ Fixed DOSASCOMP order ✅ Comma only for same-type adjectives ✅ 'And' for colours ✅ Purpose adjective closest to noun*Fun fact: Children acquire adjective order naturally by age 5 — it is wired into the English language! 🎓*",
+      "examples": [
+        "Ordinal determiner: **The second large old iron gate**",
+        "Exclamatory: **What a gorgeous little French boutique!**"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Using ordinals and exclamatory determiners with adjective chains",
+        "Adapting adjective chains to formal and informal registers"
+      ],
+      "tips": "💡 **Master level:** In formal writing, more adjectives are acceptable. In speech, 2–3 is the sweet spot. Always purpose adjective last!"
+    }
+  ],
+
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Describe your favourite item of clothing using at least 3 adjectives in the correct order. Include: an opinion adjective, a colour adjective, and either an origin or material adjective.",
+      "hint": "Start with 'I love my ___.' Remember: Opinion comes before Colour, which comes before Origin/Material. Example: *I love my gorgeous red Italian leather bag.*",
+      "expectedKeywords": ["opinion_adj", "colour_adj", "origin_or_material", "noun"],
+      "sentenceStarters": [
+        "I love my ___ [opinion] ___ [colour] ___ [origin/material] ___.",
+        "My favourite piece of clothing is a ___ because ___."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe three places in your city or town using noun phrases with multiple adjectives. Use the correct DOSASCOMP order. Include at least one comma between two interchangeable adjectives.",
+      "hint": "Remember: Comma only when adjectives are the same type. Example: *A charming, elegant old café.* (two opinions + age — comma between same-type adjectives).",
+      "expectedKeywords": ["opinion", "size_or_age", "origin_or_material", "noun", "comma"],
+      "sentenceStarters": [
+        "There is a ___, ___ [two opinions] ___ [age/material] ___ near my home.",
+        "The most famous place is a ___ [size] ___ [age] ___ [origin] ___."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a paragraph describing an imaginary museum exhibit using at least 5 different noun phrases. Each noun phrase must include 3 or more adjectives in the correct order. Include at least one purpose adjective and one use of 'and' between two colour adjectives.",
+      "hint": "This requires the full DOSASCOMP chain. Example: *An extraordinary small ancient round black-and-gold Egyptian ceremonial drinking vessel.* Be precise about order!",
+      "expectedKeywords": ["determiner", "opinion", "size", "age", "colour_and_colour", "origin", "material", "purpose", "noun"],
+      "sentenceStarters": [
+        "The exhibit features a ___ [full adjective chain] ___.",
+        "Although ___ [size] ___ [age], the ___ [material] ___ [purpose] ___ is ___."
+      ],
+      "difficulty": 3
+    }
+  ],
+
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correctly ordered adjective phrase:",
+      "sentence": "She carried ____ bag to the market.",
+      "options": ["a dirty old brown leather", "an old dirty leather brown", "a brown dirty leather old", "a leather old dirty brown"],
+      "correctAnswer": ["a dirty old brown leather"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Remember: Opinion → Age → Colour → Material.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which noun phrase uses the correct adjective order?",
+      "sentence": "He sailed on ____ boat every weekend.",
+      "options": ["a small blue Spanish fishing", "a fishing small blue Spanish", "a blue small Spanish fishing", "a Spanish small blue fishing"],
+      "correctAnswer": ["a small blue Spanish fishing"],
+      "audio": "game_2_sentence.mp3",
+      "hint": "Size → Colour → Origin → Purpose. Purpose adjective is always closest to the noun.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Advanced: Where does the comma belong in this adjective phrase?",
+      "sentence": "It was a ____ performance.",
+      "options": ["brilliant, well-rehearsed", "well-rehearsed brilliant", "brilliant well-rehearsed", "brilliant-well rehearsed"],
+      "correctAnswer": ["brilliant, well-rehearsed"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "Both 'brilliant' and 'well-rehearsed' are opinion adjectives — they are interchangeable, so use a comma.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Which sentence correctly uses 'and' between colours?",
+      "sentence": "She owns a ____ cat.",
+      "options": ["black and white", "black, white", "black-white", "black or white"],
+      "correctAnswer": ["black and white"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "When listing two colours together, join them with 'and'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Which noun phrase is correct?",
+      "sentence": "They bought ____ dress for the party.",
+      "options": ["a gorgeous new French cocktail", "a new gorgeous cocktail French", "a French gorgeous new cocktail", "a cocktail French new gorgeous"],
+      "correctAnswer": ["a gorgeous new French cocktail"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "Opinion → Age → Origin → Purpose (cocktail = purpose adjective, goes last).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Pick the correct adjective order:",
+      "sentence": "We visited ____ building in the old town.",
+      "options": ["that ugly old derelict", "that old ugly derelict", "that derelict old ugly", "that old derelict ugly"],
+      "correctAnswer": ["that ugly old derelict"],
+      "audio": "game_6_sentence.mp3",
+      "hint": "Determiner → Opinion → Age → Opinion (condition). 'Derelict' is a condition/quality adjective that follows age.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Which option shows correctly ordered adjectives with NO comma needed?",
+      "sentence": "He drives a ____ car.",
+      "options": ["big red", "big, red", "red big", "red, big"],
+      "correctAnswer": ["big red"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "Size comes before Colour. Different categories = no comma.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Which noun phrase is built correctly?",
+      "sentence": "They sipped from ____ cups.",
+      "options": ["six old blue plastic", "blue six old plastic", "plastic old six blue", "old blue six plastic"],
+      "correctAnswer": ["six old blue plastic"],
+      "audio": "game_8_sentence.mp3",
+      "hint": "Determiner (number) → Age → Colour → Material.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Choose the noun phrase that correctly places the purpose adjective:",
+      "sentence": "She wore a ____ hat to the beach.",
+      "options": ["horrible little old round pink English cotton sun", "horrible little old round pink sun English cotton", "sun horrible little old round pink English cotton", "horrible little old round sun pink English cotton"],
+      "correctAnswer": ["horrible little old round pink English cotton sun"],
+      "audio": "game_9_sentence.mp3",
+      "hint": "Full DOSASCOMP order. Purpose adjective ('sun') comes directly before the noun.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Which sentence uses a comma correctly between adjectives?",
+      "sentence": "She was a ____ person.",
+      "options": ["cheerful, relaxed", "cheerful relaxed", "relaxed cheerful", "cheerful-relaxed"],
+      "correctAnswer": ["cheerful, relaxed"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "Both 'cheerful' and 'relaxed' describe character/opinion. Same type = comma.",
+      "difficulty": "medium"
+    }
+  ],
+
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What is the correct position of a 'purpose' adjective in an English noun phrase?",
+      "sentence": "He bought a beautiful old Italian ____ ring.",
+      "options": ["wedding (directly before the noun)", "wedding (after Italian)", "wedding (before old)", "wedding (before beautiful)"],
+      "correctAnswer": "wedding (directly before the noun)",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Purpose adjectives answer 'what is this for?' and always go last before the noun.",
+      "difficulty": "easy",
+      "explanation": "Purpose adjectives (e.g. wedding, racing, cocktail, fishing) identify what a noun is used for. They are fixed directly before the noun and cannot be moved. The correct phrase is 'a beautiful old Italian wedding ring' — Opinion → Age → Origin → Purpose → Noun."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses a comma between adjectives?",
+      "sentence": "Choose the correct option:",
+      "options": ["A big, old house.", "A cheerful, relaxed person.", "A big, red car.", "A silk, cocktail dress."],
+      "correctAnswer": "A cheerful, relaxed person.",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Commas go between adjectives only when they are the same type and interchangeable.",
+      "difficulty": "medium",
+      "explanation": "'Cheerful' and 'relaxed' are both opinion/character adjectives — they are interchangeable ('a relaxed, cheerful person' is equally correct), so a comma is used. 'Big' and 'old' are different types (size vs age), and 'big' and 'red' are different types (size vs colour), so no comma is used in those phrases."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Choose the correctly ordered noun phrase:",
+      "sentence": "They admired ____ sculpture in the gallery.",
+      "options": ["an ancient small bronze Greek", "a small ancient Greek bronze", "a small ancient bronze Greek", "a Greek small ancient bronze"],
+      "correctAnswer": "a small ancient Greek bronze",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "This tests the difference between Size, Age, Origin, and Material order.",
+      "difficulty": "hard",
+      "explanation": "The correct sequence is Size → Age → Origin → Material: 'a small ancient Greek bronze sculpture.' 'Small' (size) comes before 'ancient' (age), which comes before 'Greek' (origin), which comes before 'bronze' (material). Any other order violates the DOSASCOMP rule."
+    },
+    {
+      "id": "quiz-4",
+      "question": "How should two colours be joined when describing the same noun?",
+      "sentence": "She owns a ____ cat.",
+      "options": ["black, white", "black and white", "black-white", "black or white"],
+      "correctAnswer": "black and white",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "There is a specific rule for combining two colour adjectives.",
+      "difficulty": "easy",
+      "explanation": "Two colour adjectives modifying the same noun are joined with 'and': 'a black and white cat.' Using a comma ('black, white') is incorrect here because colours are not interchangeable opinions — they describe specific markings together."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which noun phrase does NOT need a comma?",
+      "sentence": "Identify the phrase that uses adjectives in a fixed, non-interchangeable order:",
+      "options": ["An elegant, fashionable dress.", "A flattering, well-chosen speech.", "A big old house.", "A cheerful, cooperative colleague."],
+      "correctAnswer": "A big old house.",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Ask yourself: can the adjectives be swapped without sounding wrong?",
+      "difficulty": "medium",
+      "explanation": "'Big' (size) and 'old' (age) belong to different categories in the fixed DOSASCOMP sequence — you cannot say 'an old big house' naturally. Because they are not interchangeable, no comma is used. The other options all pair adjectives of the same type (opinions), which require a comma."
+    },
+    {
+      "id": "quiz-6",
+      "question": "In the DOSASCOMP order, which category comes immediately after 'Shape'?",
+      "sentence": "Determiner → Opinion → Size → Age → Shape → ____",
+      "options": ["Material", "Colour", "Origin", "Purpose"],
+      "correctAnswer": "Colour",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Think of the full sequence: D-O-S-A-S-C-O-M-P.",
+      "difficulty": "easy",
+      "explanation": "The full adjective order in English is: Determiner, Opinion, Size, Age, Shape, **Colour**, Origin, Material, Purpose. Colour comes directly after Shape. This is why 'a big round red ball' is correct and 'a red round big ball' sounds wrong."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Which of these noun phrases is correctly built?",
+      "sentence": "Select the grammatically correct option:",
+      "options": ["a racing beautiful red car", "a beautiful red racing car", "a red beautiful racing car", "a beautiful racing red car"],
+      "correctAnswer": "a beautiful red racing car",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Remember: Opinion → Colour → Purpose (closest to noun).",
+      "difficulty": "medium",
+      "explanation": "The correct order is Opinion → Colour → Purpose → Noun: 'a beautiful red racing car.' 'Racing' is a purpose adjective and must sit directly before the noun. Placing 'racing' between 'beautiful' and 'red' violates the fixed order."
+    },
+    {
+      "id": "quiz-8",
+      "question": "What kind of word is 'my' in the phrase 'my gorgeous red dress'?",
+      "sentence": "Identify the role of 'my' in: **my** gorgeous red dress.",
+      "options": ["Opinion adjective", "Possessive determiner", "Origin adjective", "Pronoun used as adjective"],
+      "correctAnswer": "Possessive determiner",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "Determiners always come before all adjectives in a noun phrase.",
+      "difficulty": "easy",
+      "explanation": "'My' is a possessive determiner. Determiners (including articles like 'a/the', demonstratives like 'this/that', and possessives like 'my/your') always occupy the first position in a noun phrase, before all descriptive adjectives."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which sentence correctly places an ordinal number as a determiner?",
+      "sentence": "Choose the correct option:",
+      "options": ["The large first old gate.", "The first large old gate.", "Large the first old gate.", "The old first large gate."],
+      "correctAnswer": "The first large old gate.",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "Ordinal numbers act as determiners and come first, before all adjectives.",
+      "difficulty": "hard",
+      "explanation": "Ordinal numbers (first, second, third) function as determiners and take position before all descriptive adjectives. So the correct order is: The (article) → first (ordinal/determiner) → large (size) → old (age) → gate (noun)."
+    },
+    {
+      "id": "quiz-10",
+      "question": "How many adjectives is it realistic to use before a noun in everyday English?",
+      "sentence": "What is the typical maximum number of adjectives in a spoken English noun phrase?",
+      "options": ["7–8", "5–6", "2–4", "1 only"],
+      "correctAnswer": "2–4",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Even though DOSASCOMP has 8 slots, most natural English uses far fewer.",
+      "difficulty": "easy",
+      "explanation": "While English grammar theoretically allows up to 8 adjectives before a noun, using more than 3 or 4 in real speech or writing is very unusual and sounds awkward. The DOSASCOMP rule applies whenever adjectives are stacked, even if only 2 are used."
+    }
+  ],
+
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "determiner",
+      "hint": "The first element in a noun phrase — includes 'a', 'the', 'my', 'this'",
+      "clue": "d_t_rm_n_r",
+      "audio": "spell_word_1.mp3",
+      "sentence": "A ___ always comes before all adjectives in an English noun phrase.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "interchangeable",
+      "hint": "Adjectives that can swap positions — requiring a comma between them",
+      "clue": "_nt_rch_ng__bl_",
+      "audio": "spell_word_2.mp3",
+      "sentence": "Two opinion adjectives are ___ and take a comma between them.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "attributive",
+      "hint": "The position of an adjective that comes directly before the noun",
+      "clue": "_ttr_b_t_v_",
+      "audio": "spell_word_3.mp3",
+      "sentence": "In the phrase 'a red car', 'red' is in the ___ position.",
+      "difficulty": "hard"
+    }
+  ],
+
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "concept-explorer",
+        "name": "Adjective Order Explorer",
+        "condition": "Complete all Adjective Order lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You've mastered the secret order! Native speakers do this automatically — now so do you!"
+      },
+      {
+        "id": "writing-champion",
+        "name": "Noun Phrase Writing Star",
+        "condition": "Score 100% on 3 writing activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your noun phrases sound completely natural — brilliant writing!"
+      },
+      {
+        "id": "game-master",
+        "name": "DOSASCOMP Game Master",
+        "condition": "Complete all games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "Perfect ordering every time — you've cracked the DOSASCOMP code!"
+      },
+      {
+        "id": "perfect-speller",
+        "name": "Grammar Vocabulary Pro",
+        "condition": "Spell all adjective order terms correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "You know the words AND how to spell them — impressive!"
+      },
+      {
+        "id": "speed-demon",
+        "name": "Speed Champion",
+        "condition": "Complete 5 activities in under 10 minutes each",
+        "icon": "⚡",
+        "points": 30,
+        "message": "Fast AND accurate — that's the gold standard!"
+      },
+      {
+        "id": "perfectionist",
+        "name": "Adjective Order Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "100% perfect on every activity — you are an adjective order master!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Is a Compound Adjective? 🎯",
+      "content": "Imagine describing a film as 'spine-chilling' or a performance as 'record-breaking' — these are **compound adjectives**! 🎬📚**Compound adjective** = an adjective made up of two or more words joined together to describe a noun.*Example: It was a **badly-lit** hall. | We saw a **man-eating** alligator.*Why does hyphenation matter? Look at the difference:**A man eating alligator** → a man who is eating an alligator 🤔**A man-eating alligator** → an alligator that eats men! 😱The hyphen changes meaning. Without it, ambiguity sneaks in.**Key rule:** When the compound comes **before** a noun, hyphenate it. When it comes **after** a verb, the hyphen is often dropped.*Fun fact: English creates new compound adjectives constantly — 'user-friendly' was invented in the 1970s! 💡*",
+      "examples": [
+        "Before noun (hyphen): **a well-known** author",
+        "After verb (no hyphen): The author is **well known**."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": [
+        "Describing nouns with more precision than single adjectives",
+        "Distinguishing meaning through correct hyphenation"
+      ],
+      "tips": "💡 **Quick Rule:** Compound before a noun = hyphen. Compound after 'is/was/seems' = usually no hyphen. *A well-known actor* vs *The actor is well known.*"
+    },
+    {
+      "id": "lesson-2",
+      "title": "Adjective + Noun Compounds 🚀",
+      "content": "Now let's level up! 🎮 The first big compound type: **Adjective + Noun**.**Pattern:** [adjective] + [noun] → compound adjective*Examples:*full-length (full + length): *a full-length portrait*blue-collar (blue + collar): *blue-collar workers*last-minute (last + minute): *a last-minute decision*deep-sea (deep + sea): *deep-sea diving*short-term / long-term: *a short-term contract***Notice:** The compound works as one unit to describe the main noun — 'full-length portrait' means a portrait showing the full body, not a long portrait!*Fun fact: 'Blue-collar' originated in the USA in the 1920s, referring to workers who wore blue work uniforms! 🌟*",
+      "examples": [
+        "Adjective + Noun: **a last-minute** decision (the decision happened at the last minute)",
+        "Adjective + Noun: **a short-term** contract (a contract for a short term)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_adj_noun.mp3",
+      "functions": [
+        "Compressing two-word descriptions into precise pre-noun modifiers",
+        "Forming professional and technical vocabulary"
+      ],
+      "tips": "💡 **Memory trick:** If [adjective] + [noun] together describe how the main noun IS or what it IS FOR, join them with a hyphen before the noun."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Noun + Adjective Compounds 🌟",
+      "content": "Time to explore another way! ✨ **Noun + Adjective** compounds flip the order — the noun comes first.**Pattern:** [noun] + [adjective] → compound adjective*Examples:*smoke-free (smoke + free): *a smoke-free area*ice-cold (ice + cold): *ice-cold drinks*world-famous (world + famous): *a world-famous actor*user-friendly (user + friendly): *a user-friendly website*water-resistant (water + resistant): *a water-resistant watch***Compare:****Adjective + Noun**: full-length, last-minute**Noun + Adjective**: ice-cold, world-famous*The noun in these compounds acts as a qualifier showing 'in relation to what' the adjective applies.*Fun fact: 'User-friendly' is now used metaphorically for anything easy to use — even people can be 'user-friendly'! 🎨*",
+      "examples": [
+        "Noun + Adjective: **smoke-free** area (free from smoke)",
+        "Noun + Adjective: **ice-cold** drinks (as cold as ice)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_noun_adj.mp3",
+      "functions": [
+        "Creating noun+adjective compound descriptors",
+        "Expressing qualities relative to a reference noun"
+      ],
+      "tips": "💡 **Decision point:** If the noun tells you what the adjective relates to (free from *smoke*, cold as *ice*), it's likely a Noun + Adjective compound."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Compounds with Participles ⚡",
+      "content": "Here's where it gets interesting! 🤔 Many compound adjectives use **present participle (-ing)** or **past participle (-ed/-en)** as the second element.**Adjective + Present Participle:**good-looking, far-reaching, quick-thinking, long-lasting, easy-going*Examples: a good-looking actor | a far-reaching decision***Noun + Present Participle:**coal-mining, eye-opening, mouth-watering, time-saving, record-breaking*Examples: a record-breaking performance | mouth-watering food***Noun + Past Participle:**sun-dried, middle-aged, wind-powered, tree-lined, shop-soiled*Examples: sun-dried tomatoes | a tree-lined avenue***Adjective + Past Participle:**old-fashioned, narrow-minded, cold-blooded, level-headed*Examples: an old-fashioned style | a level-headed person**Common mistake:** ❌ 'good looking' (before noun) → ✅ 'a good-looking person' 🎯*",
+      "examples": [
+        "Adj + Present Participle: **a long-lasting** friendship",
+        "Noun + Past Participle: **sun-dried** tomatoes"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_participles.mp3",
+      "functions": [
+        "Forming compounds using -ing and -ed/-en participle forms",
+        "Distinguishing four participle compound sub-types"
+      ],
+      "tips": "💡 **Pro tip:** If you see a compound adjective ending in -ing or -ed/-en, identify whether the first part is an adjective, noun, or adverb — that tells you its type."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Adverb + Past Participle Compounds 🎯",
+      "content": "Ready for the next level? 🚀 **Adverb + Past Participle** compounds are incredibly common in formal and professional English.**Pattern:** [adverb] + [past participle] → compound*Examples:*deeply-rooted: *These people hold deeply-rooted beliefs.*well-prepared: *The leader gave a well-prepared speech.*highly-respected: *a highly-respected scholar*badly-behaved: *a group of badly-behaved children*densely-populated: *a densely-populated city***These are especially common in academic writing and journalism.**Other common forms:** widely-recognized, poorly-paid, brightly-lit, tightly-wound, long-forgotten, much-needed, long-awaited*Fun fact: 'Well-prepared' can describe both a speech AND a meal — context makes the meaning clear! ⚙️*",
+      "examples": [
+        "At a specific time: **a well-prepared** presentation",
+        "Duration focus: **deeply-rooted** cultural traditions"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_adverb_participle.mp3",
+      "functions": [
+        "Using adverb+participle compounds in formal and academic contexts",
+        "Intensifying past participle descriptors with adverbs"
+      ],
+      "tips": "💡 **When to use:** Adverb + Past Participle compounds add precision to descriptions — especially useful in essays, reports, and professional writing."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Number + Noun Compounds ❓",
+      "content": "Let's master the number compounds! 🔢 **Number + Noun (singular)** compounds are extremely common in everyday English.**Key rule:** The noun in a number+noun compound is always **singular**, even if the number is greater than one!*Examples:*ten-minute break (NOT ten-minutes break ❌)*five-day week (NOT five-days week ❌)*twenty-storey building*three-hour film*five-star hotel***Pattern:** [number] + [singular noun] — always hyphenated before the noun.*More examples:*a two-way street | a ten-page document | a three-week holiday | a six-foot ladder*They answer the question 'what kind of ___?' and measure duration, size, or quantity.*Fun fact: 'Five-star' originally described hotel ratings — now it's used for anything excellent! 💬*",
+      "examples": [
+        "Negative (wrong): a ❌ five-**days** trip → ✅ a **five-day** trip",
+        "Yes/No: Was it a **ten-minute** break? Yes, it was a ten-minute break."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_numbers.mp3",
+      "functions": [
+        "Forming number+noun compound adjectives with singular nouns",
+        "Describing duration, size, measurement, and quantity"
+      ],
+      "tips": "💡 **Remember:** Number + Noun compounds ALWAYS use singular nouns. 'A five-day week', 'a three-hour film' — never 'five-days' or 'three-hours'."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Idiomatic Phrase Compounds 🕐",
+      "content": "Here's a crucial rule! ⚠️ Some compound adjectives are built from entire **idiomatic phrases**, usually hyphenated across multiple words.**Common idiomatic compounds:**middle-of-the-road: *a middle-of-the-road entertainer* (neither extreme)*off-the-rack: *off-the-rack suits* (ready-made, not tailored)*over-the-counter: *over-the-counter medicine* (no prescription needed)*once-in-a-lifetime: *a once-in-a-lifetime experience* (happens only once)*one-of-a-kind: *a one-of-a-kind design* (completely unique)*all-too-common: *an all-too-common mistake* (unfortunately frequent)**⚠️ These are always hyphenated** when they precede the noun — every word in the phrase gets a hyphen.*Fun fact: 'Over-the-counter' is now used globally, but originally referred to medicine sold directly across a pharmacy counter! 🌍*",
+      "examples": [
+        "With 'once-in-a-lifetime': It was a **once-in-a-lifetime** opportunity.",
+        "With 'off-the-rack': He wore an **off-the-rack** suit to the interview."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_idiomatic.mp3",
+      "functions": [
+        "Recognising and using multi-word idiomatic compound adjectives",
+        "Applying full-phrase hyphenation before nouns"
+      ],
+      "tips": "💡 **Never forget:** Multi-word phrase compounds are hyphenated throughout when before a noun: once**-**in**-**a**-**lifetime experience. Every word joins the chain!"
+    },
+    {
+      "id": "lesson-8",
+      "title": "Compound Adjective Mastery 🏆",
+      "content": "You've come so far! 🌟 Let's tackle the **advanced nuances** that separate good from great.**Special Case 1: Hyphen position matters**'A little-used road' (a road that is little used) vs 'A little used road' (ambiguous — a small, used road?). The hyphen prevents misreading.**Special Case 2: Compound adjectives in predicative position**Before noun: *a well-known fact* → After verb: *The fact is **well known*** (no hyphen in most style guides).**Sophisticated Usage:**[Formal]: *a densely-populated, resource-limited coastal region* — compounds stack in formal writing.**[Informal]**: 'That's a mind-blowing idea!' (spoken with emphasis)**Mastery checklist:** ✅ Hyphen before noun ✅ No hyphen after verb ✅ Singular noun in number compounds ✅ Full-phrase hyphenation for idiomatic forms*Fun fact: 'Bittersweet' started as a compound adjective and is now treated as a single word — language evolves! 🎓*",
+      "examples": [
+        "Ambiguity resolved: **a man-eating** shark (not 'a man eating shark')",
+        "Position shift: **a well-prepared** meal → The meal was **well prepared**."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Applying hyphenation rules for pre-noun vs predicative positions",
+        "Using stacked compound adjectives in formal writing"
+      ],
+      "tips": "💡 **Master level:** Before noun = hyphen. After verb = no hyphen (usually). Always check: does removing the hyphen create ambiguity? If yes, keep it!"
+    }
+  ],
+
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Describe your ideal home or workspace using at least 4 compound adjectives. Include: one adjective+noun compound, one noun+adjective compound, and one number+noun compound.",
+      "hint": "Start with 'My ideal [home/workspace] would have a ___.' Examples: energy-efficient windows, a smoke-free environment, a ten-minute commute. Hyphenate all compounds that appear before a noun!",
+      "expectedKeywords": ["compound_adj_noun", "noun_adj", "number_noun", "hyphen"],
+      "sentenceStarters": [
+        "My ideal ___ would be ___ [compound adj] and ___.",
+        "I would want a ___ [number-noun] ___ and a ___ [noun-adj] ___."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write a short review of a film, restaurant, or product using at least 5 compound adjectives from different types: adjective+participle, noun+participle, and adverb+participle. Show correct hyphenation.",
+      "hint": "Remember: well-prepared, mouth-watering, record-breaking, highly-rated, long-awaited are all examples. Hyphenate before the noun, drop the hyphen after 'is/was'. Example: *The food was mouth-watering. It was a well-prepared, highly-rated experience.*",
+      "expectedKeywords": ["adj_participle", "noun_participle", "adverb_participle", "hyphen_before_noun", "no_hyphen_after_verb"],
+      "sentenceStarters": [
+        "The ___ was [compound adj]. It was a ___ [compound adj] ___.",
+        "Although ___, the ___ was widely-regarded as ___."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a paragraph about an extraordinary travel experience (real or imaginary) using at least 6 compound adjectives. Include: two idiomatic phrase compounds, one number+noun compound, and one adverb+participle compound. Pay attention to hyphenation throughout.",
+      "hint": "This requires the most advanced compound types. Example: *It was a once-in-a-lifetime, three-week journey through a densely-populated, world-famous region. Each moment was an eye-opening, all-too-rare experience.*",
+      "expectedKeywords": ["once-in-a-lifetime", "idiomatic_phrase", "number_noun", "adverb_participle", "hyphen"],
+      "sentenceStarters": [
+        "It was a once-in-a-lifetime ___ that felt ___.",
+        "Although the ___ [number-noun] trip was ___ [compound adj], it was a ___ [idiomatic] experience."
+      ],
+      "difficulty": 3
+    }
+  ],
+
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct compound adjective type for this sentence:",
+      "sentence": "They signed a ____ contract with the company.",
+      "options": ["short-term", "short term", "short-termed", "shortly-term"],
+      "correctAnswer": ["short-term"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Adjective + Noun compound before a noun — always hyphenate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which form is correct when the compound comes AFTER the verb?",
+      "sentence": "The author is very ____.",
+      "options": ["well known", "well-known", "wellknown", "well-knowing"],
+      "correctAnswer": ["well known"],
+      "audio": "game_2_sentence.mp3",
+      "hint": "After a linking verb (is/was), compound adjectives are usually written WITHOUT a hyphen.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Which number+noun compound is correctly formed?",
+      "sentence": "We took a ____ break.",
+      "options": ["ten-minute", "ten-minutes", "ten minute", "ten-minutely"],
+      "correctAnswer": ["ten-minute"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "Number + Noun compounds use singular nouns and a hyphen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the correct compound adjective for this sentence:",
+      "sentence": "The performer gave a ____ show.",
+      "options": ["record-breaking", "record breaking", "breaking-record", "records-breaking"],
+      "correctAnswer": ["record-breaking"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "Noun + Present Participle compound before a noun — hyphenate.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Which compound correctly describes a product with no added sugar?",
+      "sentence": "They launched a new ____ drink.",
+      "options": ["sugar-free", "sugar free", "free-sugar", "sugarless-free"],
+      "correctAnswer": ["sugar-free"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "Noun + Adjective compound — hyphenate before the noun.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Pick the correct adverb+participle compound:",
+      "sentence": "The region is home to a ____ population.",
+      "options": ["densely-populated", "dense-populated", "densely populated", "densely-populating"],
+      "correctAnswer": ["densely-populated"],
+      "audio": "game_6_sentence.mp3",
+      "hint": "Adverb + Past Participle — hyphenate before the noun it modifies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Which idiomatic compound adjective means 'neither extreme — average and safe'?",
+      "sentence": "He is a ____ entertainer.",
+      "options": ["middle-of-the-road", "middle of the road", "middle-road", "mid-of-road"],
+      "correctAnswer": ["middle-of-the-road"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "Idiomatic phrase compounds: every word in the phrase gets a hyphen before the noun.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Which sentence is correctly written with the compound adjective in predicative position?",
+      "sentence": "Choose the correct version:",
+      "options": ["The film is long-awaited.", "The film is long awaited.", "The long-awaited film is here.", "The long awaited-film is here."],
+      "correctAnswer": ["The long-awaited film is here.",  "The film is long awaited."],
+      "audio": "game_8_sentence.mp3",
+      "hint": "Before the noun = hyphen. After the verb = no hyphen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Advanced: Which sentence uses ambiguity-resolving hyphenation correctly?",
+      "sentence": "Choose the option where the hyphen prevents misreading:",
+      "options": ["We saw a man-eating alligator.", "We saw a man eating alligator.", "We saw a man eating-alligator.", "We saw a man-eating-alligator."],
+      "correctAnswer": ["We saw a man-eating alligator."],
+      "audio": "game_9_sentence.mp3",
+      "hint": "Without the hyphen, 'man eating alligator' could mean a man who is eating an alligator!",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "What type of compound adjective is 'old-fashioned'?",
+      "sentence": "She wore old-fashioned clothes.",
+      "options": ["Adjective + Past Participle", "Noun + Present Participle", "Adverb + Past Participle", "Number + Noun"],
+      "correctAnswer": ["Adjective + Past Participle"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "'Old' is an adjective, 'fashioned' is a past participle.",
+      "difficulty": "medium"
+    }
+  ],
+
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Why are compound adjectives hyphenated before a noun?",
+      "sentence": "She wore a **well-chosen** dress. / The dress was **well chosen**.",
+      "options": ["To make the word look longer", "To prevent ambiguity and show the words work together as one modifier", "Because all adjectives need hyphens", "To separate the adjective from the noun"],
+      "correctAnswer": "To prevent ambiguity and show the words work together as one modifier",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Think about how 'man eating alligator' vs 'man-eating alligator' have different meanings.",
+      "difficulty": "easy",
+      "explanation": "Hyphens in compound adjectives signal that the words function as a single unit to modify the noun. This prevents misreading: 'a man-eating alligator' is an alligator that eats men, while 'a man eating alligator' reads as a man who is eating an alligator. When the compound comes after the verb, the hyphen is usually dropped as context makes the meaning clear."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which of these is an Adjective + Noun compound?",
+      "sentence": "Identify the compound type:",
+      "options": ["record-breaking", "well-prepared", "last-minute", "sun-dried"],
+      "correctAnswer": "last-minute",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Adjective + Noun: the first word is an adjective (last) and the second is a noun (minute).",
+      "difficulty": "medium",
+      "explanation": "'Last-minute' = Adjective (last) + Noun (minute). 'Record-breaking' = Noun + Present Participle. 'Well-prepared' = Adverb + Past Participle. 'Sun-dried' = Noun + Past Participle. Identifying compound types helps learners predict and form new compounds correctly."
+    },
+    {
+      "id": "quiz-3",
+      "question": "In number + noun compounds, what form must the noun take?",
+      "sentence": "We stayed in ____ hotel.",
+      "options": ["a five-stars", "a five-star", "a fives-star", "a five stars"],
+      "correctAnswer": "a five-star",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "The noun in a number+noun compound is ALWAYS singular.",
+      "difficulty": "easy",
+      "explanation": "In number + noun compound adjectives, the noun is always singular regardless of the number: 'a five-star hotel', 'a ten-minute break', 'a three-week holiday'. Adding a plural -s ('five-stars', 'ten-minutes') is a very common error — the compound acts as a single descriptive unit, not a literal count."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which option correctly uses a compound adjective in the predicative (after-verb) position?",
+      "sentence": "Choose the correctly written sentence:",
+      "options": ["The actor is well-known for his roles.", "The well-known actor received an award.", "The actor is wellknown for his roles.", "The actor is well knowing for his roles."],
+      "correctAnswer": "The actor is well-known for his roles.",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "In predicative position, some style guides drop the hyphen, but many keep it — both 'well known' and 'well-known' after a verb are acceptable.",
+      "difficulty": "medium",
+      "explanation": "In predicative position (after a verb), compound adjectives are commonly written without a hyphen ('well known') in many style guides, though 'well-known' is also accepted. 'The well-known actor' (attributive, before noun) is definitively hyphenated. 'Wellknown' as one word is never correct, and 'well knowing' changes the meaning entirely."
+    },
+    {
+      "id": "quiz-5",
+      "question": "What makes 'once-in-a-lifetime' an idiomatic compound adjective?",
+      "sentence": "It was a once-in-a-lifetime experience.",
+      "options": ["It uses a number", "It is formed from an entire idiomatic phrase, all hyphenated before the noun", "It contains a past participle", "It cannot be used after a verb"],
+      "correctAnswer": "It is formed from an entire idiomatic phrase, all hyphenated before the noun",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Idiomatic compounds can be whole phrases — every word in the phrase gets a hyphen.",
+      "difficulty": "hard",
+      "explanation": "'Once-in-a-lifetime' is an idiomatic phrase compound: the entire expression 'once in a lifetime' becomes a compound adjective when placed before a noun, with hyphens connecting every word. This distinguishes it from number+noun or adjective+participle types. Other examples: 'middle-of-the-road', 'off-the-rack', 'over-the-counter'."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which compound type is 'mouth-watering'?",
+      "sentence": "They served mouth-watering food.",
+      "options": ["Adjective + Present Participle", "Noun + Present Participle", "Adverb + Past Participle", "Noun + Adjective"],
+      "correctAnswer": "Noun + Present Participle",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "'Mouth' is a noun; 'watering' is a present participle (-ing form).",
+      "difficulty": "medium",
+      "explanation": "'Mouth-watering' = Noun (mouth) + Present Participle (watering). This type includes: coal-mining, eye-opening, time-saving, record-breaking. The noun specifies the subject or context of the participle action."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Which adverb + past participle compound adjective is correctly formed?",
+      "sentence": "Choose the correct option for this sentence: 'The city is ____.'",
+      "options": ["dense-populated", "densely populated", "densely-populate", "dense-populating"],
+      "correctAnswer": "densely populated",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "After a verb (predicative position), the hyphen is typically dropped.",
+      "difficulty": "medium",
+      "explanation": "'Densely populated' is correct in predicative position (after 'is'). In attributive position it would be 'a densely-populated city'. 'Dense-populated' incorrectly uses an adjective instead of the adverb 'densely'. 'Densely-populate' uses the wrong verb form."
+    },
+    {
+      "id": "quiz-8",
+      "question": "What type of compound adjective is 'narrow-minded'?",
+      "sentence": "My grandfather was a narrow-minded man.",
+      "options": ["Noun + Adjective", "Adjective + Past Participle", "Adverb + Past Participle", "Noun + Present Participle"],
+      "correctAnswer": "Adjective + Past Participle",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "'Narrow' is an adjective; 'minded' comes from the past participle of 'to mind'.",
+      "difficulty": "hard",
+      "explanation": "'Narrow-minded' = Adjective (narrow) + Past Participle (minded). Other examples of this type: old-fashioned, cold-blooded, level-headed, red-haired, absent-minded, high-pitched. The adjective describes the quality of the participle."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which sentence INCORRECTLY uses a compound adjective?",
+      "sentence": "Identify the error:",
+      "options": ["She found a user-friendly app.", "He wore a blue-collars worker's uniform.", "It was a world-famous landmark.", "They took a three-week holiday."],
+      "correctAnswer": "He wore a blue-collars worker's uniform.",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "Look for the error in how the compound adjective is formed.",
+      "difficulty": "hard",
+      "explanation": "'Blue-collars' is wrong — compound adjectives do not take plural -s on either component. The correct form is 'blue-collar'. All other options are correct: 'user-friendly' (Noun+Adjective), 'world-famous' (Noun+Adjective), 'three-week' (Number+Noun, singular noun)."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Which of these is an example of an 'Adjective + Present Participle' compound?",
+      "sentence": "Identify the compound type from the options:",
+      "options": ["record-breaking", "easy-going", "sun-dried", "world-famous"],
+      "correctAnswer": "easy-going",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "'Easy' is an adjective; 'going' is a present participle.",
+      "difficulty": "medium",
+      "explanation": "'Easy-going' = Adjective (easy) + Present Participle (going). Other Adjective + Present Participle examples: good-looking, far-reaching, quick-thinking, long-lasting, fast-talking. 'Record-breaking' is Noun + Present Participle. 'Sun-dried' is Noun + Past Participle. 'World-famous' is Noun + Adjective."
+    }
+  ],
+
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "hyphenated",
+      "hint": "The form of a compound adjective when it comes directly before a noun",
+      "clue": "h_ph_n_t_d",
+      "audio": "spell_word_1.mp3",
+      "sentence": "A compound adjective is ___ when it precedes the noun it modifies.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "participle",
+      "hint": "A verb form ending in -ing or -ed/-en that can be used in compound adjectives",
+      "clue": "p_rt_c_pl_",
+      "audio": "spell_word_2.mp3",
+      "sentence": "'Record-breaking' uses a present ___ as its second element.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "attributive",
+      "hint": "The position of an adjective (or compound adjective) that comes BEFORE the noun",
+      "clue": "_ttr_b_t_v_",
+      "audio": "spell_word_3.mp3",
+      "sentence": "In the ___ position, compound adjectives require a hyphen.",
+      "difficulty": "hard"
+    }
+  ],
+
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "concept-explorer",
+        "name": "Compound Adjective Explorer",
+        "condition": "Complete all Compound Adjectives lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You've unlocked one of English's most powerful description tools — well done!"
+      },
+      {
+        "id": "writing-champion",
+        "name": "Compound Writing Star",
+        "condition": "Score 100% on 3 writing activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your writing is now precise, vivid, and professional — brilliant!"
+      },
+      {
+        "id": "game-master",
+        "name": "Compound Game Master",
+        "condition": "Complete all games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "Perfect compound choices every time — you're a hyphenation hero!"
+      },
+      {
+        "id": "perfect-speller",
+        "name": "Grammar Vocabulary Pro",
+        "condition": "Spell all compound adjective terms correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "Even 'attributive' and 'participle' — impressive spelling!"
+      },
+      {
+        "id": "speed-demon",
+        "name": "Speed Champion",
+        "condition": "Complete 5 activities in under 10 minutes each",
+        "icon": "⚡",
+        "points": 30,
+        "message": "Lightning-fast AND record-breakingly accurate!"
+      },
+      {
+        "id": "perfectionist",
+        "name": "Compound Adjective Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "A once-in-a-lifetime score — you are a true compound adjective master!"
+      }
+    ]
+  }
+}

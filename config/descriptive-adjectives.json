@@ -1,0 +1,169 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Descriptive Adjectives",
+    "favicon": "favicon.ico"
+  },
+
+  "lesson": {
+    "title": "Descriptive Adjectives: People, Character & Feelings",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Descriptive Adjectives Lessons",
+        "instructions": "Master adjectives for physical appearance, positive and negative character traits, size and shape, personal qualities, and emotional states to describe people vividly and precisely. Understand vocabulary range from basic to nuanced feeling words."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write character descriptions and emotional narratives using appearance adjectives, positive and negative character adjectives, and feeling adjectives. Apply precise vocabulary from happy/sad/confident/angry/anxious word sets."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice matching descriptive adjectives to their correct category (appearance, character, feeling), choosing the most precise emotion word, and pairing antonyms. Recognise shades of meaning between similar adjectives."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Descriptive Adjectives Challenge",
+        "instructions": "Apply appearance, character, and emotion adjectives correctly in sentences. Master less common but vivid words like 'ecstatic', 'despondent', 'unflappable', and 'indignant'."
+      }
+    ]
+  },
+
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Appearance Adjectives",
+        "words": [
+          "alluring",
+          "attractive",
+          "beautiful",
+          "distinguished",
+          "elegant",
+          "glamorous",
+          "gorgeous",
+          "handsome",
+          "lovely",
+          "repulsive",
+          "smart",
+          "ugly"
+        ]
+      },
+      {
+        "title": "Positive Character Adjectives",
+        "words": [
+          "brave",
+          "calm",
+          "cheerful",
+          "compassionate",
+          "considerate",
+          "cooperative",
+          "friendly",
+          "generous",
+          "gentle",
+          "kind",
+          "patient",
+          "thoughtful",
+          "witty"
+        ]
+      },
+      {
+        "title": "Negative Character Adjectives",
+        "words": [
+          "aggressive",
+          "cowardly",
+          "cruel",
+          "defiant",
+          "erratic",
+          "grumpy",
+          "hostile",
+          "impatient",
+          "jealous",
+          "obnoxious",
+          "rude",
+          "selfish"
+        ]
+      },
+      {
+        "title": "Feeling Adjectives: Happy & Sad",
+        "words": [
+          "blissful",
+          "cheerful",
+          "delighted",
+          "ecstatic",
+          "elated",
+          "joyful",
+          "jubilant",
+          "crestfallen",
+          "dejected",
+          "depressed",
+          "despondent",
+          "heartbroken",
+          "miserable",
+          "inconsolable"
+        ]
+      },
+      {
+        "title": "Feeling Adjectives: Confident, Angry & Anxious",
+        "words": [
+          "assertive",
+          "decisive",
+          "hopeful",
+          "optimistic",
+          "unflappable",
+          "annoyed",
+          "furious",
+          "indignant",
+          "irate",
+          "outraged",
+          "apprehensive",
+          "agitated",
+          "nervous",
+          "restless",
+          "tense"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "She is a ___ [appearance] woman who ___.",
+          "He has always been known as a ___ [character] person.",
+          "Question: How would you describe ___'s character?",
+          "Contrast: Although she seems ___ [positive], she can be ___ [negative].",
+          "Conditional: If someone is ___ [feeling], they might ___.",
+          "Time clause: When she heard the news, she felt ___.",
+          "Emphatic: Of all the emotions, ___ is the most ___."
+        ]
+      }
+    ]
+  },
+
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+
+  "dataFile": "reproducibility/descriptive-adjectives.json",
+  "grammarChecker": "descriptiveAdjectives.js",
+
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

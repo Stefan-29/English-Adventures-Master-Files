@@ -10,7 +10,7 @@ Your project has been restructured into a **professional framework-like layout**
 
 ```bash
 # Start the development server
-bash start-dev-server.sh
+bash scripts/server/start-dev-server.sh
 
 # Open in browser
 http://localhost:8001
@@ -41,8 +41,8 @@ Grammar101/
 | **Configuration** | `src/config/` |
 | **Images** | `src/assets/images/` |
 | **Audio** | `src/assets/sounds/` |
-| **Guides** | `docs/` |
-| **Quick Start** | `QUICK_NAVIGATION.md` |
+| **Guides** | `docs/guides/` |
+| **Quick Start** | `docs/guides/QUICK_NAVIGATION.md` |
 | **Path Help** | `docs/FILE_REFERENCE_GUIDE.md` |
 
 ---
@@ -89,9 +89,9 @@ fetch('./src/config/...')                   // ❌ Wrong
 - **Update**: `src/app.js` line ~93
 
 ### I want to read DOCUMENTATION
-- **Quick guide**: `QUICK_NAVIGATION.md`
+- **Quick guide**: `docs/guides/QUICK_NAVIGATION.md`
 - **Path details**: `docs/FILE_REFERENCE_GUIDE.md`
-- **Full docs**: `README.md`
+- **Full docs**: `docs/guides/README.md`
 
 ---
 
