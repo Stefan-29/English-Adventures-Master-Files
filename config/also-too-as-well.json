@@ -1,0 +1,138 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Also, Too & As well",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Also, Too & As well",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Also, Too & As well Lessons",
+        "instructions": "Master also, too, and as well to add agreeing thoughts in positive sentences, and either for negative sentences. Understand position rules and formal vs informal usage."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using also in different positions, too and as well at the end of clauses, and either in negative sentences. Apply formal and informal registers."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice placing also, too, and as well correctly, and choosing between too and either in positive and negative contexts."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Also, Too & As well Challenge",
+        "instructions": "Apply also, too, as well, and either correctly in complex sentences. Master formal usage and sentence-initial also."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Also",
+        "words": [
+          "also",
+          "too",
+          "as well",
+          "either",
+          "additionally",
+          "moreover",
+          "furthermore",
+          "besides"
+        ]
+      },
+      {
+        "title": "Too",
+        "words": [
+          "too",
+          "also",
+          "as well",
+          "either",
+          "likewise",
+          "similarly",
+          "as well as",
+          "in addition"
+        ]
+      },
+      {
+        "title": "As well",
+        "words": [
+          "as well",
+          "too",
+          "also",
+          "either",
+          "in addition",
+          "along with",
+          "together with",
+          "plus"
+        ]
+      },
+      {
+        "title": "Either",
+        "words": [
+          "either",
+          "neither",
+          "nor",
+          "too",
+          "also",
+          "not either",
+          "neither nor",
+          "none"
+        ]
+      },
+      {
+        "title": "Addition Phrases",
+        "words": [
+          "in addition",
+          "moreover",
+          "furthermore",
+          "besides",
+          "what is more",
+          "on top of that",
+          "as well as",
+          "plus"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "She not only... but she also...",
+          "Harry likes...",
+          "I too...",
+          "I don't... either",
+          "Also, ...",
+          "... too",
+          "... as well"
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/also-too-as-well.json",
+  "grammarChecker": "alsoTooAsWell.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

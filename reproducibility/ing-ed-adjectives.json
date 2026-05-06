@@ -3,10 +3,10 @@
     {
       "id": "lesson-1",
       "title": "The -ing/-ed Mystery: Cause and Effect 🎯",
-      "content": "Have you ever said 'I am boring' when you meant 'I am bored'? 😅 This is one of the most common English mistakes — and today we crack the code! 📚**The rule is beautifully simple:**An adjective that ends in **-ING** → describes the *cause* (the thing, situation, or person that produces a feeling).An adjective that ends in **-ED** → describes the *effect* (how a person *feels* as a result).*Example:*The film was **boring**. (The film = the cause — it produced boredom.)*I was **bored**. (I = the effect — I experienced boredom.)*Think of it like this: **-ING = the source, -ED = the receiver** 📡 → 📺*Fun fact: This cause-effect pattern applies to over 50 common adjective pairs in English! 💡*",
+      "content": "<p>Have you ever said 'I am boring' when you meant 'I am bored'? 😅 This is one of the most common English mistakes — and today we crack the code! 📚</p><p><strong>The rule is beautifully simple:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Ending</th><th>Role</th><th>Describes</th><th>Example</th></tr><tr><td><strong>-ING</strong></td><td>Cause</td><td>The thing, situation, or person that <em>produces</em> a feeling</td><td>The film was <strong>boring</strong>.</td></tr><tr><td><strong>-ED</strong></td><td>Effect</td><td>How a person <em>feels</em> as a result</td><td>I was <strong>bored</strong>.</td></tr></table><p><strong>Example Breakdown:</strong></p><table class=\"lesson-table table-green\"><tr><th>Sentence</th><th>Subject</th><th>Role</th><th>Ending</th></tr><tr><td>The film was <strong>boring</strong>.</td><td>The film</td><td>Cause — it produced boredom</td><td>-ING</td></tr><tr><td>I was <strong>bored</strong>.</td><td>I</td><td>Effect — I experienced boredom</td><td>-ED</td></tr></table><p><strong>Think of it like this:</strong> <strong>-ING = the source, -ED = the receiver</strong> 📡 → 📺</p><p><em>Fun fact: This cause-effect pattern applies to over 50 common adjective pairs in English! 💡</em></p>",
       "examples": [
-        "Cause: **The jokes were amusing.** (the jokes made people laugh)",
-        "Effect: **We were amused by the jokes.** (we experienced amusement)"
+        "Cause: <strong>The jokes were amusing.</strong> (the jokes made people laugh)",
+        "Effect: <strong>We were amused by the jokes.</strong> (we experienced amusement)"
       ],
       "difficulty": 1,
       "audio": "lesson_1_intro.mp3",
@@ -14,15 +14,15 @@
         "Describing the characteristic of a thing or situation (-ing)",
         "Describing how a person feels or is affected (-ed)"
       ],
-      "tips": "💡 **Quick Rule:** Ask 'Is this a THING or a PERSON?' Things/situations usually take -ing. People usually take -ed. 'The film was boring. I was bored.'"
+      "tips": "💡 <strong>Quick Rule:</strong> Ask 'Is this a THING or a PERSON?' Things/situations usually take -ing. People usually take -ed. 'The film was boring. I was bored.'"
     },
     {
       "id": "lesson-2",
       "title": "The Core -ing/-ed Pairs 🚀",
-      "content": "Now let's level up! 🎮 Here are the most essential -ing/-ed pairs, organized by cause and effect:**Cause (-ING) → Effect (-ED):**amusing → amused: *The circus was amusing. The children were amused.*boring → bored: *The film was boring. Alice was bored.*confusing → confused: *The rules were confusing. We were confused.*exciting → excited: *The circus is exciting. The kids were excited.*shocking → shocked: *The news was shocking. We were shocked.*tiring → tired: *The hike was tiring. We arrived home tired.**Pattern to remember:** [Thing/situation] + **is/was** + **-ING**. [Person] + **is/was** + **-ED**.*Fun fact: These pairs come from transitive verbs — 'bore', 'excite', 'shock'. The -ing form describes what the verb *does*; the -ed form describes what happens to the receiver! 🌟*",
+      "content": "<p>Now let's level up! 🎮 Here are the most essential -ing/-ed pairs, organized by cause and effect.</p><p><strong>Core Pairs Table:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Cause (-ING)</th><th>Effect (-ED)</th><th>Example Sentence (Cause)</th><th>Example Sentence (Effect)</th></tr><tr><td><strong>amusing</strong></td><td><strong>amused</strong></td><td>The circus was <strong>amusing</strong>.</td><td>The children were <strong>amused</strong>.</td></tr><tr><td><strong>boring</strong></td><td><strong>bored</strong></td><td>The film was <strong>boring</strong>.</td><td>Alice was <strong>bored</strong>.</td></tr><tr><td><strong>confusing</strong></td><td><strong>confused</strong></td><td>The rules were <strong>confusing</strong>.</td><td>We were <strong>confused</strong>.</td></tr><tr><td><strong>exciting</strong></td><td><strong>excited</strong></td><td>The circus is <strong>exciting</strong>.</td><td>The kids were <strong>excited</strong>.</td></tr><tr><td><strong>shocking</strong></td><td><strong>shocked</strong></td><td>The news was <strong>shocking</strong>.</td><td>We were <strong>shocked</strong>.</td></tr><tr><td><strong>tiring</strong></td><td><strong>tired</strong></td><td>The hike was <strong>tiring</strong>.</td><td>We arrived home <strong>tired</strong>.</td></tr></table><p><strong>Pattern to Remember:</strong></p><table class=\"lesson-table table-green\"><tr><th>Structure</th><th>Ending</th><th>Example</th></tr><tr><td>[Thing/situation] + is/was + adjective</td><td>-ING</td><td>The film <strong>was boring</strong>.</td></tr><tr><td>[Person] + is/was + adjective</td><td>-ED</td><td>I <strong>was bored</strong>.</td></tr></table><p><em>Fun fact: These pairs come from transitive verbs — 'bore', 'excite', 'shock'. The -ing form describes what the verb <em>does</em>; the -ed form describes what happens to the receiver! 🌟</em></p>",
       "examples": [
-        "Positive: **The news was shocking** / **We were shocked** by the news.",
-        "Question: Was the film **exciting**? Were the children **excited**?"
+        "Positive: <strong>The news was shocking</strong> / <strong>We were shocked</strong> by the news.",
+        "Question: Was the film <strong>exciting</strong>? Were the children <strong>excited</strong>?"
       ],
       "difficulty": 1,
       "audio": "lesson_2_core_pairs.mp3",
@@ -30,15 +30,15 @@
         "Accurately using the most common -ing/-ed adjective pairs",
         "Matching -ing to situations and -ed to people's feelings"
       ],
-      "tips": "💡 **Memory trick:** -ING = 'it IS producing this feeling'. -ED = 'I EXPERIENCED this feeling'. The letters I-N-G can remind you: 'It's Not the person experiencing, it's the Generator of the feeling'."
+      "tips": "💡 <strong>Memory trick:</strong> -ING = 'it IS producing this feeling'. -ED = 'I EXPERIENCED this feeling'. The letters I-N-G can remind you: 'It's Not the person experiencing, it's the Generator of the feeling'."
     },
     {
       "id": "lesson-3",
       "title": "More Essential Pairs 🌟",
-      "content": "Time to explore another set! ✨ Let's add more pairs that are especially useful for describing experiences:**disgusting → disgusted:** *The toilets were disgusting. She was disgusted by them.*hypnotizing → hypnotized: *The speech was hypnotizing. They were hypnotized by it.*moving → moved: *The story was very moving. I was moved by it.*offending → offended: *Sam's remarks were offending. We were offended.*rewarding → rewarded: *My job is rewarding. I feel rewarded by my results.*tempting → tempted: *The offer was tempting. We were tempted by it.**Notice** the preposition: [person] **was [ed] + by + [thing]** is a very natural pattern in English.*Fun fact: 'Moving' as an adjective can describe both something that literally moves AND something emotionally powerful — context decides! 🎨*",
+      "content": "<p>Time to explore another set! ✨ Let's add more pairs that are especially useful for describing experiences.</p><p><strong>Extended Pairs Table:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Cause (-ING)</th><th>Effect (-ED)</th><th>Example (Cause)</th><th>Example (Effect)</th></tr><tr><td><strong>disgusting</strong></td><td><strong>disgusted</strong></td><td>The toilets were <strong>disgusting</strong>.</td><td>She was <strong>disgusted</strong> by them.</td></tr><tr><td><strong>hypnotizing</strong></td><td><strong>hypnotized</strong></td><td>The speech was <strong>hypnotizing</strong>.</td><td>They were <strong>hypnotized</strong> by it.</td></tr><tr><td><strong>moving</strong></td><td><strong>moved</strong></td><td>The story was very <strong>moving</strong>.</td><td>I was <strong>moved</strong> by it.</td></tr><tr><td><strong>offending</strong></td><td><strong>offended</strong></td><td>Sam's remarks were <strong>offending</strong>.</td><td>We were <strong>offended</strong>.</td></tr><tr><td><strong>rewarding</strong></td><td><strong>rewarded</strong></td><td>My job is <strong>rewarding</strong>.</td><td>I feel <strong>rewarded</strong> by my results.</td></tr><tr><td><strong>tempting</strong></td><td><strong>tempted</strong></td><td>The offer was <strong>tempting</strong>.</td><td>We were <strong>tempted</strong> by it.</td></tr></table><p><strong>Key Preposition Pattern:</strong></p><table class=\"lesson-table table-green\"><tr><th>Pattern</th><th>Structure</th><th>Example</th></tr><tr><td>Cause + Effect</td><td>[Person] + was [ed] + by + [thing]</td><td>I was <strong>moved by</strong> the refugee's story.</td></tr><tr><td>Question Form</td><td>Was [thing] [ing]? → Were [you] [ed]?</td><td><strong>Was the offer tempting?</strong> → Were <strong>you tempted</strong> by it?</td></tr></table><p><em>Fun fact: 'Moving' as an adjective can describe both something that literally moves AND something emotionally powerful — context decides! 🎨</em></p>",
       "examples": [
-        "With 'by': **I was moved by** the refugee's story.",
-        "In questions: **Was the offer tempting?** → Were **you tempted** by it?"
+        "With 'by': <strong>I was moved by</strong> the refugee's story.",
+        "In questions: <strong>Was the offer tempting?</strong> → Were <strong>you tempted</strong> by it?"
       ],
       "difficulty": 2,
       "audio": "lesson_3_more_pairs.mp3",
@@ -46,15 +46,15 @@
         "Using a wider range of -ing/-ed adjective pairs in context",
         "Using the preposition 'by' naturally after -ed adjectives"
       ],
-      "tips": "💡 **Decision point:** If the subject is the THING causing the feeling → -ING. If the subject is the PERSON feeling it → -ED. '[The thing] was -ING' / '[I] was -ED by [the thing]'."
+      "tips": "💡 <strong>Decision point:</strong> If the subject is the THING causing the feeling → -ING. If the subject is the PERSON feeling it → -ED. '[The thing] was -ING' / '[I] was -ED by [the thing]'."
     },
     {
       "id": "lesson-4",
       "title": "Common Mistakes: Boring vs Bored ⚡",
-      "content": "Here's where it gets interesting! 🤔 Many learners confuse **-ing** and **-ed** adjectives. Here are the most common mistakes:**Mistake 1:** 'I am boring.' (Said about yourself) → This means YOU are a dull person — not what you intended! ✅ Correct: 'I am **bored**.' (I feel bored.)**Mistake 2:** 'The lesson was interested.' → Lessons can't feel interest! ✅ Correct: 'The lesson was **interesting**.' (It caused interest.)**Mistake 3:** 'She was very exciting about the trip.' → ✅ 'She was very **excited** about the trip.'**The secret:** If the word describes how YOU or SOMEONE ELSE feels → **-ED**. If it describes what a THING is like → **-ING**.*Fun fact: Native speakers make the same mistake in other languages — it's a cross-linguistic challenge! 🎯*",
+      "content": "<p>Here's where it gets interesting! 🤔 Many learners confuse <strong>-ing</strong> and <strong>-ed</strong> adjectives. Here are the most common mistakes.</p><p><strong>Common Mistakes Table:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Mistake ❌</th><th>Problem</th><th>Correct ✅</th><th>Explanation</th></tr><tr><td>I am <strong>boring</strong>.</td><td>Says YOU are a dull person!</td><td>I am <strong>bored</strong>.</td><td>How YOU feel (effect)</td></tr><tr><td>The lesson was <strong>interested</strong>.</td><td>Lessons can't feel interest!</td><td>The lesson was <strong>interesting</strong>.</td><td>What the lesson IS like (cause)</td></tr><tr><td>She was very <strong>exciting</strong> about the trip.</td><td>She is not a thing causing excitement</td><td>She was very <strong>excited</strong> about the trip.</td><td>How SHE feels (effect)</td></tr></table><p><strong>The Secret:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Question to Ask</th><th>Answer</th><th>Ending</th></tr><tr><td>Does this describe how YOU or SOMEONE ELSE feels?</td><td>Yes → Person experiencing</td><td>-ED</td></tr><tr><td>Does this describe what a THING is like?</td><td>Yes → Thing producing feeling</td><td>-ING</td></tr></table><p><em>Fun fact: Native speakers make the same mistake in other languages — it's a cross-linguistic challenge! 🎯</em></p>",
       "examples": [
-        "Wrong vs Right: ❌ 'I am boring.' → ✅ **'I am bored.'** (about how I feel)",
-        "Wrong vs Right: ❌ 'The film was interested.' → ✅ **'The film was interesting.'** (about the film)"
+        "Wrong vs Right: ❌ 'I am boring.' → ✅ <strong>'I am bored.'</strong> (about how I feel)",
+        "Wrong vs Right: ❌ 'The film was interested.' → ✅ <strong>'The film was interesting.'</strong> (about the film)"
       ],
       "difficulty": 2,
       "audio": "lesson_4_mistakes.mp3",
@@ -62,15 +62,15 @@
         "Avoiding the most common -ing/-ed confusion errors",
         "Self-checking: is the subject a thing or a person experiencing something?"
       ],
-      "tips": "💡 **Pro tip:** Before using -ING or -ED, ask: 'Is this subject a thing producing a feeling, or a person receiving a feeling?' Person receiving → -ED. Thing producing → -ING."
+      "tips": "💡 <strong>Pro tip:</strong> Before using -ING or -ED, ask: 'Is this subject a thing producing a feeling, or a person receiving a feeling?' Person receiving → -ED. Thing producing → -ING."
     },
     {
       "id": "lesson-5",
       "title": "Extended Pairs: Feelings in Depth 🎯",
-      "content": "Ready for the next level? 🚀 Let's explore more nuanced pairs used in academic, professional, and creative writing:**frightening → frightened:** *The haunted house was frightening. The children were frightened.*satisfying → satisfied: *The result was satisfying. I was very satisfied with it.*disappointing → disappointed: *The film was disappointing. We were all disappointed.*inspiring → inspired: *The speech was inspiring. The audience felt inspired.*overwhelming → overwhelmed: *The workload was overwhelming. She felt overwhelmed.*depressing → depressed: *The news was depressing. He felt depressed after hearing it.**Useful construction:** [Subject] + felt + **[ed adjective]** after the [ing situation]. *Example: I felt exhausted after the exhausting marathon.*Fun fact: 'Overwhelm' originally meant to turn upside down (like a boat capsizing) — now it describes being emotionally flooded! ⚙️*",
+      "content": "<p>Ready for the next level? 🚀 Let's explore more nuanced pairs used in academic, professional, and creative writing.</p><p><strong>Advanced Pairs Table:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Cause (-ING)</th><th>Effect (-ED)</th><th>Example (Cause)</th><th>Example (Effect)</th></tr><tr><td><strong>frightening</strong></td><td><strong>frightened</strong></td><td>The haunted house was <strong>frightening</strong>.</td><td>The children were <strong>frightened</strong>.</td></tr><tr><td><strong>satisfying</strong></td><td><strong>satisfied</strong></td><td>The result was <strong>satisfying</strong>.</td><td>I was very <strong>satisfied</strong> with it.</td></tr><tr><td><strong>disappointing</strong></td><td><strong>disappointed</strong></td><td>The film was <strong>disappointing</strong>.</td><td>We were all <strong>disappointed</strong>.</td></tr><tr><td><strong>inspiring</strong></td><td><strong>inspired</strong></td><td>The speech was <strong>inspiring</strong>.</td><td>The audience felt <strong>inspired</strong>.</td></tr><tr><td><strong>overwhelming</strong></td><td><strong>overwhelmed</strong></td><td>The workload was <strong>overwhelming</strong>.</td><td>She felt <strong>overwhelmed</strong>.</td></tr><tr><td><strong>depressing</strong></td><td><strong>depressed</strong></td><td>The news was <strong>depressing</strong>.</td><td>He felt <strong>depressed</strong> after hearing it.</td></tr></table><p><strong>Useful Construction:</strong></p><table class=\"lesson-table table-green\"><tr><th>Pattern</th><th>Structure</th><th>Example</th></tr><tr><td>Cause + Effect in sequence</td><td>[Subject] + felt + [ed] after the [ing situation]</td><td>I felt <strong>exhausted</strong> after the <strong>exhausting</strong> marathon.</td></tr><tr><td>Cause then Effect</td><td>[Thing] was [ing]; [Person] was [ed]</td><td>The speech was <strong>inspiring</strong> → The audience felt <strong>inspired</strong> by it.</td></tr></table><p><em>Fun fact: 'Overwhelm' originally meant to turn upside down (like a boat capsizing) — now it describes being emotionally flooded! ⚙️</em></p>",
       "examples": [
-        "Paired: **The speech was inspiring** → **The audience felt inspired** by it.",
-        "Extended: After the **disappointing** match, the fans went home **disappointed**."
+        "Paired: <strong>The speech was inspiring</strong> → <strong>The audience felt inspired</strong> by it.",
+        "Extended: After the <strong>disappointing</strong> match, the fans went home <strong>disappointed</strong>."
       ],
       "difficulty": 2,
       "audio": "lesson_5_extended_pairs.mp3",
@@ -78,15 +78,15 @@
         "Using nuanced -ing/-ed pairs for expressing complex feelings",
         "Combining cause and effect in the same sentence naturally"
       ],
-      "tips": "💡 **When to use:** Writing a review? Use -ING for the thing you're reviewing. Writing about your reaction? Use -ED. Both can appear in the same sentence!"
+      "tips": "💡 <strong>When to use:</strong> Writing a review? Use -ING for the thing you're reviewing. Writing about your reaction? Use -ED. Both can appear in the same sentence!"
     },
     {
       "id": "lesson-6",
       "title": "Grammar Pattern: Subject + Is/Was + Adjective ❓",
-      "content": "Let's master the full picture! 🎨 Knowing the grammar patterns for -ing and -ed adjectives completes your control.**Pattern 1: [Situation/thing] + is/was + [-ING adjective]**The lecture was **boring**. The match is **exciting**. The offer was **tempting**.**Pattern 2: [Person] + is/was + [-ED adjective]**We were **bored**. She is **excited**. They felt **tempted**.**Pattern 3: [Person] + was + [-ED adjective] + by + [thing]**I was **moved** by the story. We were **shocked** by the news.**Pattern 4: [Person] + found + [thing] + [-ING adjective]**I found the lecture **boring**. She found the job **rewarding**.*Fun fact: Pattern 4 ('found it + -ing') is very natural in spoken British English! 💬*",
+      "content": "<p>Let's master the full picture! 🎨 Knowing the grammar patterns for -ing and -ed adjectives completes your control.</p><p><strong>Four Key Patterns:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Pattern</th><th>Structure</th><th>Example</th><th>Usage</th></tr><tr><td>1</td><td>[Situation/thing] + is/was + [-ING adjective]</td><td>The lecture was <strong>boring</strong>.</td><td>Describing the cause</td></tr><tr><td>2</td><td>[Person] + is/was + [-ED adjective]</td><td>We were <strong>bored</strong>.</td><td>Describing the effect</td></tr><tr><td>3</td><td>[Person] + was + [-ED adjective] + by + [thing]</td><td>I was <strong>moved</strong> by the story.</td><td>Passive cause-effect</td></tr><tr><td>4</td><td>[Person] + found + [thing] + [-ING adjective]</td><td>I found the lecture <strong>boring</strong>.</td><td>Active perspective</td></tr></table><p><strong>Pattern Examples in Context:</strong></p><table class=\"lesson-table table-green\"><tr><th>Pattern</th><th>Example</th></tr><tr><td>Pattern 1</td><td>The match is <strong>exciting</strong>.</td></tr><tr><td>Pattern 2</td><td>She is <strong>excited</strong>.</td></tr><tr><td>Pattern 3</td><td>We were <strong>shocked</strong> by the news.</td></tr><tr><td>Pattern 4</td><td>She found the job <strong>rewarding</strong>.</td></tr></table><p><em>Fun fact: Pattern 4 ('found it + -ing') is very natural in spoken British English! 💬</em></p>",
       "examples": [
-        "Pattern 3: **She was disgusted by** the dirty conditions.",
-        "Pattern 4: **He found the hike exhausting** but deeply rewarding."
+        "Pattern 3: <strong>She was disgusted by</strong> the dirty conditions.",
+        "Pattern 4: <strong>He found the hike exhausting</strong> but deeply rewarding."
       ],
       "difficulty": 2,
       "audio": "lesson_6_patterns.mp3",
@@ -94,15 +94,15 @@
         "Using all four key grammatical patterns for -ing and -ed adjectives",
         "Forming natural 'was [ed] by' and 'found [thing] [ing]' constructions"
       ],
-      "tips": "💡 **Remember:** 'Was [ed] by' → passive cause-effect structure. 'Found [thing] [ing]' → active cause-effect from the person's perspective. Both are natural and correct."
+      "tips": "💡 <strong>Remember:</strong> 'Was [ed] by' → passive cause-effect structure. 'Found [thing] [ing]' → active cause-effect from the person's perspective. Both are natural and correct."
     },
     {
       "id": "lesson-7",
       "title": "Both in One Sentence 🕐",
-      "content": "Here's a crucial skill! ⚠️ Skilled writers use BOTH the -ing and -ed form in the same sentence to describe cause AND effect together.**Examples:**'The film was **boring**; I was completely **bored** by the end.''After the **exhausting** day, she arrived home **exhausted**.''The **shocking** results left the audience deeply **shocked**.''I found the story **moving**, and I was genuinely **moved** by it.'**Structure:** [Cause = thing + -ING] + [Effect = person + -ED] in the same sentence.⚠️ **Common mistake:** Using -ING for both: ❌ 'The film was boring and I was boring.' ← This says YOU are boring!*Fun fact: This double structure is very common in film and book reviews — using both forms shows sophisticated English! 🌍*",
+      "content": "<p>Here's a crucial skill! ⚠️ Skilled writers use BOTH the -ing and -ed form in the same sentence to describe cause AND effect together.</p><p><strong>Combined Structure Examples:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Combined Sentence</th><th>Cause (-ING)</th><th>Effect (-ED)</th></tr><tr><td>The film was <strong>boring</strong>; I was completely <strong>bored</strong> by the end.</td><td>The film was boring</td><td>I was bored</td></tr><tr><td>After the <strong>exhausting</strong> day, she arrived home <strong>exhausted</strong>.</td><td>the exhausting day</td><td>she arrived exhausted</td></tr><tr><td>The <strong>shocking</strong> results left the audience deeply <strong>shocked</strong>.</td><td>The shocking results</td><td>the audience was shocked</td></tr><tr><td>I found the story <strong>moving</strong>, and I was genuinely <strong>moved</strong> by it.</td><td>the story was moving</td><td>I was moved</td></tr></table><p><strong>Structure Formula:</strong></p><table class=\"lesson-table table-green\"><tr><th>Component</th><th>Form</th><th>Position</th></tr><tr><td>Cause</td><td>Thing/situation + -ING</td><td>First clause or phrase</td></tr><tr><td>Effect</td><td>Person + -ED</td><td>Second clause or phrase</td></tr></table><p><strong>⚠️ Common Mistake:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Wrong ❌</th><th>Problem</th><th>Right ✅</th></tr><tr><td>The film was boring and I was boring.</td><td>Says YOU are a dull person!</td><td>The film was <strong>boring</strong> and I was <strong>bored</strong>.</td></tr></table><p><em>Fun fact: This double structure is very common in film and book reviews — using both forms shows sophisticated English! 🌍</em></p>",
       "examples": [
-        "Double structure: **The news was shocking**; we were all **shocked** by the announcement.",
-        "Combined: After the **tiring** journey, everyone arrived **tired** but happy."
+        "Double structure: <strong>The news was shocking</strong>; we were all <strong>shocked</strong> by the announcement.",
+        "Combined: After the <strong>tiring</strong> journey, everyone arrived <strong>tired</strong> but happy."
       ],
       "difficulty": 3,
       "audio": "lesson_7_combined.mp3",
@@ -110,15 +110,15 @@
         "Describing both the cause and the effect in one sentence",
         "Writing sophisticated -ing/-ed pairs in reviews and narratives"
       ],
-      "tips": "💡 **Never forget:** -ING for the thing → -ED for the person. Never use -ING to describe how YOU feel. 'I am bored' (not 'I am boring' unless you mean others find you dull)."
+      "tips": "💡 <strong>Never forget:</strong> -ING for the thing → -ED for the person. Never use -ING to describe how YOU feel. 'I am bored' (not 'I am boring' unless you mean others find you dull)."
     },
     {
       "id": "lesson-8",
       "title": "Advanced Nuances & Mastery 🏆",
-      "content": "You've come so far! 🌟 Let's tackle the **advanced nuances** that separate good from great.**Special Case 1: Some adjectives are only -ING or only -ED**Not every verb produces a clean pair. 'Interesting' is very common, but 'interested' is used differently: 'I'm interested in learning.' (followed by 'in + gerund', not from a cause).**Special Case 2: Degree adverbs work with both**Both forms take degree adverbs: *The film was incredibly **boring**. I was incredibly **bored**.* ✅ Adverbs like 'very', 'deeply', 'utterly', 'slightly' work with both.**Sophisticated Usage:**[Formal]: *The findings were deeply disturbing to all committee members who were visibly disturbed by the implications.**[Informal]**: 'That was so boring! I was so bored!**Mastery checklist:** ✅ -ING for causes ✅ -ED for effects ✅ 'By' after -ED ✅ Both in one sentence ✅ Degree adverbs with both*Fun fact: 'Bored' is actually quite a modern word — it only became common in the 19th century! 🎓*",
+      "content": "<p>You've come so far! 🌟 Let's tackle the <strong>advanced nuances</strong> that separate good from great.</p><p><strong>Special Case 1: Some Adjectives Are Only -ING or Only -ED</strong></p><table class=\"lesson-table table-blue\"><tr><th>Adjective</th><th>Form</th><th>Usage</th><th>Example</th></tr><tr><td>interesting</td><td>-ING only (common)</td><td>Describes things</td><td>The book was <strong>interesting</strong>.</td></tr><tr><td>interested</td><td>-ED only (specific)</td><td>Followed by 'in + gerund'</td><td>I'm <strong>interested in</strong> learning.</td></tr></table><p><strong>Special Case 2: Degree Adverbs Work with Both</strong></p><table class=\"lesson-table table-green\"><tr><th>Degree Adverb</th><th>With -ING</th><th>With -ED</th></tr><tr><td>very</td><td>The film was <strong>very boring</strong>.</td><td>I was <strong>very bored</strong>.</td></tr><tr><td>deeply</td><td>The news was <strong>deeply disturbing</strong>.</td><td>We were <strong>deeply disturbed</strong>.</td></tr><tr><td>utterly</td><td>The task was <strong>utterly exhausting</strong>.</td><td>I was <strong>utterly exhausted</strong>.</td></tr><tr><td>slightly</td><td>The joke was <strong>slightly amusing</strong>.</td><td>I was <strong>slightly amused</strong>.</td></tr></table><p><strong>Register Comparison:</strong></p><table class=\"lesson-table table-green\"><tr><th>Register</th><th>Example</th><th>Characteristics</th></tr><tr><td>Formal</td><td>The findings were deeply disturbing to all committee members who were visibly disturbed by the implications.</td><td>Both forms; elevated vocabulary</td></tr><tr><td>Informal</td><td>That was so boring! I was so bored!</td><td>Both forms; emphatic, casual</td></tr></table><p><strong>Mastery Checklist:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Skill</th><th>Status</th></tr><tr><td>-ING for causes</td><td>✅</td></tr><tr><td>-ED for effects</td><td>✅</td></tr><tr><td>'By' after -ED</td><td>✅</td></tr><tr><td>Both in one sentence</td><td>✅</td></tr><tr><td>Degree adverbs with both</td><td>✅</td></tr></table><p><em>Fun fact: 'Bored' is actually quite a modern word — it only became common in the 19th century! 🎓</em></p>",
       "examples": [
-        "Degree adverb: The hike was **utterly exhausting**; we arrived home **completely exhausted**.",
-        "Formal register: The committee was **deeply troubled** by the **troubling** evidence."
+        "Degree adverb: The hike was <strong>utterly exhausting</strong>; we arrived home <strong>completely exhausted</strong>.",
+        "Formal register: The committee was <strong>deeply troubled</strong> by the <strong>troubling</strong> evidence."
       ],
       "difficulty": 3,
       "audio": "lesson_8_mastery.mp3",
@@ -126,7 +126,7 @@
         "Using degree adverbs accurately with -ing and -ed adjectives",
         "Applying both forms in formal and academic writing"
       ],
-      "tips": "💡 **Master level:** In formal writing, use 'deeply', 'profoundly', 'utterly' before -ED adjectives for impact. In informal speech, 'so' and 'really' work for both forms."
+      "tips": "💡 <strong>Master level:</strong> In formal writing, use 'deeply', 'profoundly', 'utterly' before -ED adjectives for impact. In informal speech, 'so' and 'really' work for both forms."
     }
   ],
 

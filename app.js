@@ -109,6 +109,7 @@ const App = {
         const groups = {
             "Nouns & Plurals": ['adjectives-as-nouns', 'nouns-countable-plural', 'nouns-compound-collective'],
             "Adjectives": ['adjective-order', 'comparatives-superlatives', 'compound-adjectives', 'descriptive-adjectives', 'ing-ed-adjectives'],
+            "Adverbs": ['adverbs-formation-position','already-still-yet-always','also-too-as-well'],
             "Tenses": ['future-perfect', 'future-tenses', 'past-perfect', 'past-tenses', 'present-perfect', 'present-tenses'],
             "Modals": ['can-could-be-able-to', 'must-have-to-have-got-to', 'shall-will-would-had-better', 'should-ought-to', 'may-might'],
             "Articles & Determiners": ['a-an-the', 'a-lot-of-much-many', 'some-any-a-little-a-few', 'few-little', 'each-every', 'other-another', 'this-that-these-those', 'everyone-vs-every-one', 'each-other-one-another-ourselves', 'countable-vs-uncountable-nouns'],
@@ -139,7 +140,8 @@ const App = {
             'countable-vs-uncountable-nouns', 'causative-verbs', 'passive-voice',
             'time-prepositions', 'position-direction-location-prepositions', 'prepositional-phrases', 'of-from-prepositions',
             'adjectives-as-nouns', 'nouns-compound-collective', 'nouns-countable-plural',
-            'adjective-order', 'comparatives-superlatives', 'compound-adjectives', 'descriptive-adjectives', 'ing-ed-adjectives']; // Add new ones here
+            'adjective-order', 'comparatives-superlatives', 'compound-adjectives', 'descriptive-adjectives', 'ing-ed-adjectives',
+        'adverbs-formation-position','already-still-yet-always','also-too-as-well']; // Add new ones here
         const promises = moduleNames.map(name => {
             const configPath = `config/${name}.json`;
             return fetch(configPath)

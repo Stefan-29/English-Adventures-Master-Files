@@ -3,10 +3,10 @@
     {
       "id": "lesson-1",
       "title": "What Is an Adjective? 🎯",
-      "content": "Think about how you describe things every day — a *cold* drink, a *beautiful* sunset, a *tiny* dog! 🐶 That's adjectives at work. 📚**Adjective** = a word that describes, identifies, or gives more information about a noun or pronoun.*Example: The **young** man drove his **new** car down the **busy** road.*Adjectives answer questions like: *What kind? Which one? How many?*They can appear directly before a noun (**a red car**) or after a linking verb (**The car is red**). 🎨*Fun fact: English has more adjectives than almost any other language — over 25,000! 💡*",
+      "content": "<p>Think about how you describe things every day — a <em>cold</em> drink, a <em>beautiful</em> sunset, a <em>tiny</em> dog! 🐶 That's adjectives at work. 📚</p><p><strong>Adjective</strong> = a word that describes, identifies, or gives more information about a noun or pronoun.</p><p><strong>Key Functions:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Function</th><th>Question Answered</th><th>Example</th></tr><tr><td>Describe quality</td><td>What kind?</td><td><strong>beautiful</strong> music</td></tr><tr><td>Identify specifics</td><td>Which one?</td><td><strong>that</strong> book</td></tr><tr><td>Indicate quantity</td><td>How many?</td><td><strong>six</strong> cups</td></tr></table><p><strong>Position:</strong></p><table class=\"lesson-table table-green\"><tr><th>Position</th><th>Name</th><th>Example</th></tr><tr><td>Before noun</td><td>Attributive</td><td>a <strong>red</strong> car</td></tr><tr><td>After linking verb</td><td>Predicative</td><td>The car is <strong>red</strong>.</td></tr></table><p><em>Fun fact: English has more adjectives than almost any other language — over 25,000! 💡</em></p>",
       "examples": [
-        "**Beautiful** music filled the room. (opinion adjective before noun)",
-        "The soup was **hot** and **delicious**. (adjectives after linking verb)"
+        "<strong>Beautiful</strong> music filled the room. (opinion adjective before noun)",
+        "The soup was <strong>hot</strong> and <strong>delicious</strong>. (adjectives after linking verb)"
       ],
       "difficulty": 1,
       "audio": "lesson_1_intro.mp3",
@@ -14,15 +14,15 @@
         "Describing the qualities of nouns and pronouns",
         "Answering 'what kind', 'which one', or 'how many'"
       ],
-      "tips": "💡 **Quick Rule:** If the adjective comes before the noun, it is *attributive*. If it comes after 'is/was/seems', it is *predicative*. Both are correct!"
+      "tips": "💡 <strong>Quick Rule:</strong> If the adjective comes before the noun, it is <em>attributive</em>. If it comes after 'is/was/seems', it is <em>predicative</em>. Both are correct!"
     },
     {
       "id": "lesson-2",
       "title": "The Magic Order: DOSASCOMP 🚀",
-      "content": "Here's English's best-kept secret! 🎮 When you stack multiple adjectives, native speakers always follow a hidden order — even without thinking about it.**The sequence:** Determiner → Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose → **Noun**.*Example: a **gorgeous little old round pink English cotton sun hat**.*You probably wouldn't say 'a cotton gorgeous hat' — it just feels wrong! That feeling is the rule.**Memory tip:** **D**ogs **O**ften **S**it **A**nd **S**tare **C**almly **O**n **M**y **P**orch 🐕*Fun fact: Linguists call this an 'absolute' rule — native speakers obey it instinctively without ever being taught it! 🌟*",
+      "content": "<p>Here's English's best-kept secret! 🎮 When you stack multiple adjectives, native speakers always follow a hidden order — even without thinking about it.</p><p><strong>The sequence:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Order</th><th>Type</th><th>Example Words</th></tr><tr><td>1</td><td><strong>D</strong>eterminer</td><td>a, the, my, six</td></tr><tr><td>2</td><td><strong>O</strong>pinion</td><td>beautiful, horrible, lovely</td></tr><tr><td>3</td><td><strong>S</strong>ize</td><td>big, tiny, enormous</td></tr><tr><td>4</td><td><strong>A</strong>ge</td><td>old, new, ancient</td></tr><tr><td>5</td><td><strong>S</strong>hape</td><td>round, square, flat</td></tr><tr><td>6</td><td><strong>C</strong>olour</td><td>red, blue, pink</td></tr><tr><td>7</td><td><strong>O</strong>rigin</td><td>English, French, Spanish</td></tr><tr><td>8</td><td><strong>M</strong>aterial</td><td>cotton, leather, glass</td></tr><tr><td>9</td><td><strong>P</strong>urpose</td><td>racing, wedding, sun</td></tr><tr><td>10</td><td><strong>Noun</strong></td><td>hat, car, dress</td></tr></table><p><strong>Full example:</strong> a <strong>gorgeous little old round pink English cotton sun</strong> hat.</p><p><em>Fun fact: Linguists call this an 'absolute' rule — native speakers obey it instinctively without ever being taught it! 🌟</em></p>",
       "examples": [
-        "Positive: a **gorgeous new French cocktail dress** (Opinion → Age → Origin → Purpose)",
-        "Positive: a **dirty old brown leather bag** (Opinion → Age → Colour → Material)"
+        "Positive: a <strong>gorgeous new French cocktail</strong> dress (Opinion → Age → Origin → Purpose)",
+        "Positive: a <strong>dirty old brown leather</strong> bag (Opinion → Age → Colour → Material)"
       ],
       "difficulty": 1,
       "audio": "lesson_2_order.mp3",
@@ -30,15 +30,15 @@
         "Stacking multiple adjectives before a noun naturally",
         "Avoiding unnatural or confusing adjective sequences"
       ],
-      "tips": "💡 **Memory trick:** D-O-S-A-S-C-O-M-P. In practice, you'll rarely use more than 3–4 adjectives — but the order still applies!"
+      "tips": "💡 <strong>Memory trick:</strong> D-O-S-A-S-C-O-M-P. In practice, you'll rarely use more than 3–4 adjectives — but the order still applies!"
     },
     {
       "id": "lesson-3",
       "title": "Determiners Come First 🌟",
-      "content": "Before any adjective chain, a **determiner** anchors the noun phrase. ✨ Determiners include articles, demonstratives, possessives, and numbers.**Common determiners:** a, an, the, this, that, my, your, some, many, six.*Example: **That** troublesome little boy. | **Six** old blue plastic cups.*Numbers work too — both cardinal (one, two, three) and ordinal (first, second, third).**Compare these:****Without determiner**: 'Gorgeous dress sounds incomplete. ❌**With determiner**: 'A gorgeous dress.' ✅*Fun fact: The word 'the' is the most frequently used word in English! 🎨*",
+      "content": "<p>Before any adjective chain, a <strong>determiner</strong> anchors the noun phrase. ✨ Determiners include articles, demonstratives, possessives, and numbers.</p><p><strong>Types of Determiners:</strong></p><table class=\"lesson-table table-green\"><tr><th>Type</th><th>Examples</th><th>Usage</th></tr><tr><td>Articles</td><td>a, an, the</td><td>General or specific reference</td></tr><tr><td>Demonstratives</td><td>this, that, these, those</td><td>Pointing to specific items</td></tr><tr><td>Possessives</td><td>my, your, his, her, our, their</td><td>Showing ownership</td></tr><tr><td>Numbers</td><td>six, first, second, three</td><td>Quantity or sequence</td></tr></table><p><strong>Compare these:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Without Determiner</th><th>With Determiner</th></tr><tr><td>'Gorgeous dress' sounds incomplete. ❌</td><td>'A gorgeous dress.' ✅</td></tr><tr><td>'Big old house' (fragment)</td><td>'That big old house.' ✅</td></tr></table><p><em>Fun fact: The word 'the' is the most frequently used word in English! 🎨</em></p>",
       "examples": [
-        "With article: **An enormous** American ship (Determiner → Size → Origin)",
-        "With demonstrative: **That** troublesome little boy (Determiner → Opinion → Size)"
+        "With article: <strong>An enormous</strong> American ship (Determiner → Size → Origin)",
+        "With demonstrative: <strong>That</strong> troublesome little boy (Determiner → Opinion → Size)"
       ],
       "difficulty": 2,
       "audio": "lesson_3_determiners.mp3",
@@ -46,15 +46,15 @@
         "Introducing noun phrases correctly in English",
         "Distinguishing specific from general references"
       ],
-      "tips": "💡 **Decision point:** Use 'a/an' for general, 'the' for specific. Use 'this/that' for pointing. Determiner ALWAYS comes before all adjectives."
+      "tips": "💡 <strong>Decision point:</strong> Use 'a/an' for general, 'the' for specific. Use 'this/that' for pointing. Determiner ALWAYS comes before all adjectives."
     },
     {
       "id": "lesson-4",
       "title": "Purpose Adjectives: Closest to the Noun ⚡",
-      "content": "Here's where it gets interesting! 🤔 **Purpose adjectives** (what something is *for*) always sit directly before the noun — they cannot be moved.**Purpose adjective examples:** cocktail (dress), fishing (boat), racing (car), wedding (ring), sailing (boat), sun (hat).**Compare:****Cocktail dress** ✅ → NOT 'dress cocktail' ❌**Racing car** ✅ → NOT 'car racing' ❌ (that would be a gerund, not an adjective!)**The secret:** Purpose adjectives almost function like part of the noun itself. They complete its identity.**Common mistake:** Placing a purpose adjective before colour or material ❌. **Correct:** colour then material then purpose ✅.*Fun fact: 'Wedding ring', 'coffee table', and 'washing machine' are all purpose-adjective compounds! 🎯*",
+      "content": "<p>Here's where it gets interesting! 🤔 <strong>Purpose adjectives</strong> (what something is <em>for</em>) always sit directly before the noun — they cannot be moved.</p><p><strong>Common Purpose Adjectives:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Purpose Adjective</th><th>Noun</th><th>Complete Phrase</th></tr><tr><td>cocktail</td><td>dress</td><td>cocktail dress</td></tr><tr><td>fishing</td><td>boat</td><td>fishing boat</td></tr><tr><td>racing</td><td>car</td><td>racing car</td></tr><tr><td>wedding</td><td>ring</td><td>wedding ring</td></tr><tr><td>sun</td><td>hat</td><td>sun hat</td></tr></table><p><strong>Correct vs Incorrect Placement:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Correct ✅</th><th>Incorrect ❌</th></tr><tr><td>cocktail dress</td><td>dress cocktail</td></tr><tr><td>racing car</td><td>car racing (gerund, not adjective!)</td></tr><tr><td>a beautiful racing car</td><td>a racing beautiful car</td></tr></table><p><em>Fun fact: 'Wedding ring', 'coffee table', and 'washing machine' are all purpose-adjective compounds! 🎯</em></p>",
       "examples": [
-        "Purpose last: a **beautiful red Italian racing car** (Opinion → Colour → Origin → Purpose)",
-        "Wrong vs Right: ❌ a racing beautiful car → ✅ **a beautiful racing car**"
+        "Purpose last: a <strong>beautiful red Italian racing</strong> car (Opinion → Colour → Origin → Purpose)",
+        "Wrong vs Right: ❌ a racing beautiful car → ✅ <strong>a beautiful racing car</strong>"
       ],
       "difficulty": 2,
       "audio": "lesson_4_purpose.mp3",
@@ -62,15 +62,15 @@
         "Placing purpose adjectives correctly before the noun",
         "Distinguishing purpose adjectives from material adjectives"
       ],
-      "tips": "💡 **Pro tip:** If the adjective answers 'what is this *for*?', it is a purpose adjective and goes last, just before the noun."
+      "tips": "💡 <strong>Pro tip:</strong> If the adjective answers 'what is this <em>for</em>?', it is a purpose adjective and goes last, just before the noun."
     },
     {
       "id": "lesson-5",
       "title": "Commas Between Adjectives 🎯",
-      "content": "Ready for the comma rule? 🚀 A comma goes between adjectives **only when they are of the same type and interchangeable**.**Test:** Can you swap the adjectives and use 'and' between them? If yes → use a comma.**Interchangeable (same category — e.g. two opinions):** *A flattering, well-chosen speech.* → *A well-chosen, flattering speech.* ✅**Not interchangeable (different categories):** *A big old house.* → NOT *An old big house.* ❌ No comma needed.**The rule in short:**Same kind of adjective = comma. Different kinds = no comma.*Fun fact: Forgetting this comma rule is one of the most common errors in English writing tests! ⚙️*",
+      "content": "<p>Ready for the comma rule? 🚀 A comma goes between adjectives <strong>only when they are of the same type and interchangeable</strong>.</p><p><strong>The Swap Test:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Test Question</th><th>Result</th><th>Example</th></tr><tr><td>Can you swap the adjectives?</td><td>Yes → Use comma</td><td>A flattering, well-chosen speech.</td></tr><tr><td>Can you use 'and' between them?</td><td>Yes → Use comma</td><td>A well-chosen, flattering speech.</td></tr></table><p><strong>Comma Rules:</strong></p><table class=\"lesson-table table-green\"><tr><th>Same Category (Comma)</th><th>Different Categories (No Comma)</th></tr><tr><td>A cheerful, relaxed person (two opinions)</td><td>A big red car (size + colour)</td></tr><tr><td>A beautiful, elegant dress (two opinions)</td><td>An old brown bag (age + colour)</td></tr></table><p><em>Fun fact: Forgetting this comma rule is one of the most common errors in English writing tests! ⚙️</em></p>",
       "examples": [
-        "Comma used: **A cheerful, relaxed person.** (both opinions — interchangeable)",
-        "No comma: **A big red car.** (size then colour — fixed order)"
+        "Comma used: <strong>A cheerful, relaxed</strong> person. (both opinions — interchangeable)",
+        "No comma: <strong>A big red</strong> car. (size then colour — fixed order)"
       ],
       "difficulty": 2,
       "audio": "lesson_5_commas.mp3",
@@ -78,15 +78,15 @@
         "Using commas correctly between adjectives of the same type",
         "Omitting commas when adjective order is fixed"
       ],
-      "tips": "💡 **When to use:** If you can say 'and' between the adjectives naturally, add a comma. If swapping sounds wrong, no comma needed."
+      "tips": "💡 <strong>When to use:</strong> If you can say 'and' between the adjectives naturally, add a comma. If swapping sounds wrong, no comma needed."
     },
     {
       "id": "lesson-6",
       "title": "Using 'And' with Colour Adjectives ❓",
-      "content": "There is one special rule for colour adjectives! 🎨 When you list **two or more colours**, use **'and'** to separate them — not a comma.**Formation:** [Colour 1] **and** [Colour 2] + noun. *Example: She owns a **black and white** cat.*More examples:*The flag has **yellow and blue** stripes on a **white** background.*'And' is specifically for colours combined together, not for mixing colours with other adjective types.**Contractions:** You can also hyphenate: *a black-and-white photo*.❗ Do NOT use 'and' between an opinion adjective and a colour adjective.*Fun fact: Many national flags are described using the 'and' rule — red and white, blue and gold! 💬*",
+      "content": "<p>There is one special rule for colour adjectives! 🎨 When you list <strong>two or more colours</strong>, use <strong>'and'</strong> to separate them — not a comma.</p><p><strong>Formation:</strong> [Colour 1] <strong>and</strong> [Colour 2] + noun.</p><table class=\"lesson-table table-blue\"><tr><th>Structure</th><th>Example</th><th>Notes</th></tr><tr><td>Two colours + noun</td><td>a <strong>black and white</strong> cat</td><td>Standard form</td></tr><tr><td>Hyphenated</td><td>a <strong>black-and-white</strong> photo</td><td>When colours act as single modifier</td></tr><tr><td>Three colours</td><td><strong>red, white and blue</strong> flag</td><td>Comma before final 'and' (Oxford style optional)</td></tr></table><p><strong>Important Distinction:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Correct ✅</th><th>Incorrect ❌</th></tr><tr><td>black and white cat (two colours)</td><td>beautiful and black cat (opinion + colour)</td></tr><tr><td>red-and-yellow scarf</td><td>big and red car (size + colour)</td></tr></table><p><em>Fun fact: Many national flags are described using the 'and' rule — red and white, blue and gold! 💬</em></p>",
       "examples": [
-        "Two colours with 'and': **a black and white** cat",
-        "Hyphenated version: **a red-and-yellow** striped scarf"
+        "Two colours with 'and': <strong>a black and white</strong> cat",
+        "Hyphenated version: <strong>a red-and-yellow</strong> striped scarf"
       ],
       "difficulty": 2,
       "audio": "lesson_6_and_colours.mp3",
@@ -94,15 +94,15 @@
         "Combining two or more colour adjectives naturally",
         "Forming hyphenated colour descriptions"
       ],
-      "tips": "💡 **Remember:** 'And' joins two colours. A comma joins two opinions. They are not the same rule!"
+      "tips": "💡 <strong>Remember:</strong> 'And' joins two colours. A comma joins two opinions. They are not the same rule!"
     },
     {
       "id": "lesson-7",
       "title": "Putting It All Together: Full Noun Phrases 🕐",
-      "content": "Here's the full picture! ⚠️ Let's build noun phrases step by step using the complete order.**Full sequence to remember:** Determiner → Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose → Noun*Full example: a horrible little old round pink English cotton sun hat.*In practice, use 2–4 adjectives maximum. Here are real-world examples:**a gorgeous new French cocktail dress** (Opinion → Age → Origin → Purpose)**a small blue Spanish fishing boat** (Size → Colour → Origin → Purpose)**an elegant striped linen jacket** (Opinion → Shape → Material)**⚠️ Common mistake:** Starting with colour before size ❌ → always Size first ✅.*Fun fact: Non-native speakers who master adjective order immediately sound significantly more fluent! 🌍*",
+      "content": "<p>Here's the full picture! ⚠️ Let's build noun phrases step by step using the complete order.</p><p><strong>Complete Sequence:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Step</th><th>Type</th><th>Example</th></tr><tr><td>1</td><td>Determiner</td><td>a, the, my, six</td></tr><tr><td>2</td><td>Opinion</td><td>gorgeous, horrible, charming</td></tr><tr><td>3</td><td>Size</td><td>small, large, tiny</td></tr><tr><td>4</td><td>Age</td><td>old, new, ancient</td></tr><tr><td>5</td><td>Shape</td><td>round, flat, cracked</td></tr><tr><td>6</td><td>Colour</td><td>blue, pink, brown</td></tr><tr><td>7</td><td>Origin</td><td>French, Spanish, English</td></tr><tr><td>8</td><td>Material</td><td>cotton, leather, glass</td></tr><tr><td>9</td><td>Purpose</td><td>racing, coffee, fishing</td></tr><tr><td>10</td><td>Noun</td><td>dress, boat, shop</td></tr></table><p><strong>Real-World Examples:</strong></p><table class=\"lesson-table table-green\"><tr><th>Phrase</th><th>Sequence Used</th></tr><tr><td>a gorgeous new French cocktail dress</td><td>Opinion → Age → Origin → Purpose</td></tr><tr><td>a small blue Spanish fishing boat</td><td>Size → Colour → Origin → Purpose</td></tr><tr><td>an elegant striped linen jacket</td><td>Opinion → Shape → Material</td></tr></table><p><em>Fun fact: Non-native speakers who master adjective order immediately sound significantly more fluent! 🌍</em></p>",
       "examples": [
-        "With 'when': **A charming old coffee shop** (Opinion → Age → Purpose)",
-        "With 'before': **Two large cracked glass bowls** (Determiner → Size → Shape → Material)"
+        "With 'when': <strong>A charming old coffee</strong> shop (Opinion → Age → Purpose)",
+        "With 'before': <strong>Two large cracked glass</strong> bowls (Determiner → Size → Shape → Material)"
       ],
       "difficulty": 3,
       "audio": "lesson_7_full_phrases.mp3",
@@ -110,15 +110,15 @@
         "Building complete, natural-sounding noun phrases",
         "Applying the full DOSASCOMP sequence in real sentences"
       ],
-      "tips": "💡 **Never forget:** Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose. When in doubt, say it aloud — the wrong order sounds immediately strange!"
+      "tips": "💡 <strong>Never forget:</strong> Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose. When in doubt, say it aloud — the wrong order sounds immediately strange!"
     },
     {
       "id": "lesson-8",
       "title": "Advanced Nuances & Mastery 🏆",
-      "content": "You've come so far! 🌟 Let's tackle the **advanced nuances** that separate good from great.**Special Case 1: Ordinal numbers as determiners** — *The first three large ships* (Ordinal → Cardinal → Size → Noun).**Special Case 2: 'Such a' and 'what a' phrases** — Opinion adjective must still follow the determiner: *What a lovely old house!***Sophisticated Usage:** In formal written English, adjective chains can be longer than in speech.**[Formal]**: *A meticulously crafted, hand-painted Italian ceramic vase* (opinion + compound adjectives)**[Informal]**: *A lovely painted Italian vase***Mastery checklist:** ✅ Fixed DOSASCOMP order ✅ Comma only for same-type adjectives ✅ 'And' for colours ✅ Purpose adjective closest to noun*Fun fact: Children acquire adjective order naturally by age 5 — it is wired into the English language! 🎓*",
+      "content": "<p>You've come so far! 🌟 Let's tackle the <strong>advanced nuances</strong> that separate good from great.</p><p><strong>Special Cases:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Case</th><th>Rule</th><th>Example</th></tr><tr><td>Ordinal numbers as determiners</td><td>Ordinal → Cardinal → Size → Noun</td><td>The <strong>first three large</strong> ships</td></tr><tr><td>'Such a' phrases</td><td>Determiner + Opinion adjective follows</td><td><strong>Such a lovely old</strong> house!</td></tr><tr><td>'What a' phrases</td><td>Determiner + Opinion adjective follows</td><td><strong>What a gorgeous little French</strong> boutique!</td></tr></table><p><strong>Register Comparison:</strong></p><table class=\"lesson-table table-green\"><tr><th>Register</th><th>Example</th><th>Characteristics</th></tr><tr><td>Formal</td><td>A meticulously crafted, hand-painted Italian ceramic vase</td><td>Longer chains, compound adjectives</td></tr><tr><td>Informal</td><td>A lovely painted Italian vase</td><td>2–3 adjectives maximum</td></tr></table><p><strong>Mastery Checklist:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Skill</th><th>Status</th></tr><tr><td>Fixed DOSASCOMP order</td><td>✅</td></tr><tr><td>Comma only for same-type adjectives</td><td>✅</td></tr><tr><td>'And' for colours</td><td>✅</td></tr><tr><td>Purpose adjective closest to noun</td><td>✅</td></tr></table><p><em>Fun fact: Children acquire adjective order naturally by age 5 — it is wired into the English language! 🎓</em></p>",
       "examples": [
-        "Ordinal determiner: **The second large old iron gate**",
-        "Exclamatory: **What a gorgeous little French boutique!**"
+        "Ordinal determiner: <strong>The second large old iron</strong> gate",
+        "Exclamatory: <strong>What a gorgeous little French</strong> boutique!"
       ],
       "difficulty": 3,
       "audio": "lesson_8_mastery.mp3",
@@ -126,7 +126,7 @@
         "Using ordinals and exclamatory determiners with adjective chains",
         "Adapting adjective chains to formal and informal registers"
       ],
-      "tips": "💡 **Master level:** In formal writing, more adjectives are acceptable. In speech, 2–3 is the sweet spot. Always purpose adjective last!"
+      "tips": "💡 <strong>Master level:</strong> In formal writing, more adjectives are acceptable. In speech, 2–3 is the sweet spot. Always purpose adjective last!"
     }
   ],
 

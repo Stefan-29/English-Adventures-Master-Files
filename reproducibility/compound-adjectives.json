@@ -3,10 +3,10 @@
     {
       "id": "lesson-1",
       "title": "What Is a Compound Adjective? 🎯",
-      "content": "Imagine describing a film as 'spine-chilling' or a performance as 'record-breaking' — these are **compound adjectives**! 🎬📚**Compound adjective** = an adjective made up of two or more words joined together to describe a noun.*Example: It was a **badly-lit** hall. | We saw a **man-eating** alligator.*Why does hyphenation matter? Look at the difference:**A man eating alligator** → a man who is eating an alligator 🤔**A man-eating alligator** → an alligator that eats men! 😱The hyphen changes meaning. Without it, ambiguity sneaks in.**Key rule:** When the compound comes **before** a noun, hyphenate it. When it comes **after** a verb, the hyphen is often dropped.*Fun fact: English creates new compound adjectives constantly — 'user-friendly' was invented in the 1970s! 💡*",
+      "content": "<p>Imagine describing a film as 'spine-chilling' or a performance as 'record-breaking' — these are <strong>compound adjectives</strong>! 🎬📚</p><p><strong>Compound adjective</strong> = an adjective made up of two or more words joined together to describe a noun.</p><p><strong>Example:</strong> It was a <strong>badly-lit</strong> hall. | We saw a <strong>man-eating</strong> alligator.</p><p><strong>Why Hyphenation Matters:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Without Hyphen ❌</th><th>With Hyphen ✅</th><th>Meaning</th></tr><tr><td>a man eating alligator</td><td>a <strong>man-eating</strong> alligator</td><td>an alligator that eats men! 😱</td></tr><tr><td>a man eating alligator</td><td>—</td><td>a man who is eating an alligator 🤔</td></tr></table><p><strong>Key Rule:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Position</th><th>Hyphen Rule</th><th>Example</th></tr><tr><td>Before noun</td><td>Hyphenate the compound</td><td>a <strong>well-known</strong> author</td></tr><tr><td>After verb</td><td>Often drop the hyphen</td><td>The author is <strong>well known</strong>.</td></tr></table><p><em>Fun fact: English creates new compound adjectives constantly — 'user-friendly' was invented in the 1970s! 💡</em></p>",
       "examples": [
-        "Before noun (hyphen): **a well-known** author",
-        "After verb (no hyphen): The author is **well known**."
+        "Before noun (hyphen): <strong>a well-known</strong> author",
+        "After verb (no hyphen): The author is <strong>well known</strong>."
       ],
       "difficulty": 1,
       "audio": "lesson_1_intro.mp3",
@@ -14,15 +14,15 @@
         "Describing nouns with more precision than single adjectives",
         "Distinguishing meaning through correct hyphenation"
       ],
-      "tips": "💡 **Quick Rule:** Compound before a noun = hyphen. Compound after 'is/was/seems' = usually no hyphen. *A well-known actor* vs *The actor is well known.*"
+      "tips": "💡 <strong>Quick Rule:</strong> Compound before a noun = hyphen. Compound after 'is/was/seems' = usually no hyphen. <em>A well-known actor</em> vs <em>The actor is well known.</em>"
     },
     {
       "id": "lesson-2",
       "title": "Adjective + Noun Compounds 🚀",
-      "content": "Now let's level up! 🎮 The first big compound type: **Adjective + Noun**.**Pattern:** [adjective] + [noun] → compound adjective*Examples:*full-length (full + length): *a full-length portrait*blue-collar (blue + collar): *blue-collar workers*last-minute (last + minute): *a last-minute decision*deep-sea (deep + sea): *deep-sea diving*short-term / long-term: *a short-term contract***Notice:** The compound works as one unit to describe the main noun — 'full-length portrait' means a portrait showing the full body, not a long portrait!*Fun fact: 'Blue-collar' originated in the USA in the 1920s, referring to workers who wore blue work uniforms! 🌟*",
+      "content": "<p>Now let's level up! 🎮 The first big compound type: <strong>Adjective + Noun</strong>.</p><p><strong>Pattern:</strong> [adjective] + [noun] → compound adjective</p><table class=\"lesson-table table-blue\"><tr><th>Compound</th><th>Parts</th><th>Full Phrase</th><th>Meaning</th></tr><tr><td><strong>full-length</strong></td><td>full + length</td><td>a full-length portrait</td><td>showing the full body</td></tr><tr><td><strong>blue-collar</strong></td><td>blue + collar</td><td>blue-collar workers</td><td>manual labour workers</td></tr><tr><td><strong>last-minute</strong></td><td>last + minute</td><td>a last-minute decision</td><td>made at the final moment</td></tr><tr><td><strong>deep-sea</strong></td><td>deep + sea</td><td>deep-sea diving</td><td>diving in deep ocean</td></tr><tr><td><strong>short-term</strong></td><td>short + term</td><td>a short-term contract</td><td>limited duration</td></tr><tr><td><strong>long-term</strong></td><td>long + term</td><td>a long-term plan</td><td>extended duration</td></tr></table><p><strong>The Secret:</strong> The compound works as one unit to describe the main noun — 'full-length portrait' means a portrait showing the full body, not a long portrait!</p><p><em>Fun fact: 'Blue-collar' originated in the USA in the 1920s, referring to workers who wore blue work uniforms! 🌟</em></p>",
       "examples": [
-        "Adjective + Noun: **a last-minute** decision (the decision happened at the last minute)",
-        "Adjective + Noun: **a short-term** contract (a contract for a short term)"
+        "Adjective + Noun: <strong>a last-minute</strong> decision (the decision happened at the last minute)",
+        "Adjective + Noun: <strong>a short-term</strong> contract (a contract for a short term)"
       ],
       "difficulty": 1,
       "audio": "lesson_2_adj_noun.mp3",
@@ -30,15 +30,15 @@
         "Compressing two-word descriptions into precise pre-noun modifiers",
         "Forming professional and technical vocabulary"
       ],
-      "tips": "💡 **Memory trick:** If [adjective] + [noun] together describe how the main noun IS or what it IS FOR, join them with a hyphen before the noun."
+      "tips": "💡 <strong>Memory trick:</strong> If [adjective] + [noun] together describe how the main noun IS or what it IS FOR, join them with a hyphen before the noun."
     },
     {
       "id": "lesson-3",
       "title": "Noun + Adjective Compounds 🌟",
-      "content": "Time to explore another way! ✨ **Noun + Adjective** compounds flip the order — the noun comes first.**Pattern:** [noun] + [adjective] → compound adjective*Examples:*smoke-free (smoke + free): *a smoke-free area*ice-cold (ice + cold): *ice-cold drinks*world-famous (world + famous): *a world-famous actor*user-friendly (user + friendly): *a user-friendly website*water-resistant (water + resistant): *a water-resistant watch***Compare:****Adjective + Noun**: full-length, last-minute**Noun + Adjective**: ice-cold, world-famous*The noun in these compounds acts as a qualifier showing 'in relation to what' the adjective applies.*Fun fact: 'User-friendly' is now used metaphorically for anything easy to use — even people can be 'user-friendly'! 🎨*",
+      "content": "<p>Time to explore another way! ✨ <strong>Noun + Adjective</strong> compounds flip the order — the noun comes first.</p><p><strong>Pattern:</strong> [noun] + [adjective] → compound adjective</p><table class=\"lesson-table table-blue\"><tr><th>Compound</th><th>Parts</th><th>Full Phrase</th><th>Meaning</th></tr><tr><td><strong>smoke-free</strong></td><td>smoke + free</td><td>a smoke-free area</td><td>free from smoke</td></tr><tr><td><strong>ice-cold</strong></td><td>ice + cold</td><td>ice-cold drinks</td><td>as cold as ice</td></tr><tr><td><strong>world-famous</strong></td><td>world + famous</td><td>a world-famous actor</td><td>famous across the world</td></tr><tr><td><strong>user-friendly</strong></td><td>user + friendly</td><td>a user-friendly website</td><td>easy for users</td></tr><tr><td><strong>water-resistant</strong></td><td>water + resistant</td><td>a water-resistant watch</td><td>resists water damage</td></tr></table><p><strong>Compare the Two Types:</strong></p><table class=\"lesson-table table-green\"><tr><th>Type</th><th>Pattern</th><th>Examples</th></tr><tr><td>Adjective + Noun</td><td>[adj] + [noun]</td><td>full-length, last-minute, deep-sea</td></tr><tr><td>Noun + Adjective</td><td>[noun] + [adj]</td><td>ice-cold, world-famous, smoke-free</td></tr></table><p><strong>The Secret:</strong> The noun in these compounds acts as a qualifier showing 'in relation to what' the adjective applies.</p><p><em>Fun fact: 'User-friendly' is now used metaphorically for anything easy to use — even people can be 'user-friendly'! 🎨</em></p>",
       "examples": [
-        "Noun + Adjective: **smoke-free** area (free from smoke)",
-        "Noun + Adjective: **ice-cold** drinks (as cold as ice)"
+        "Noun + Adjective: <strong>smoke-free</strong> area (free from smoke)",
+        "Noun + Adjective: <strong>ice-cold</strong> drinks (as cold as ice)"
       ],
       "difficulty": 2,
       "audio": "lesson_3_noun_adj.mp3",
@@ -46,15 +46,15 @@
         "Creating noun+adjective compound descriptors",
         "Expressing qualities relative to a reference noun"
       ],
-      "tips": "💡 **Decision point:** If the noun tells you what the adjective relates to (free from *smoke*, cold as *ice*), it's likely a Noun + Adjective compound."
+      "tips": "💡 <strong>Decision point:</strong> If the noun tells you what the adjective relates to (free from <em>smoke</em>, cold as <em>ice</em>), it's likely a Noun + Adjective compound."
     },
     {
       "id": "lesson-4",
       "title": "Compounds with Participles ⚡",
-      "content": "Here's where it gets interesting! 🤔 Many compound adjectives use **present participle (-ing)** or **past participle (-ed/-en)** as the second element.**Adjective + Present Participle:**good-looking, far-reaching, quick-thinking, long-lasting, easy-going*Examples: a good-looking actor | a far-reaching decision***Noun + Present Participle:**coal-mining, eye-opening, mouth-watering, time-saving, record-breaking*Examples: a record-breaking performance | mouth-watering food***Noun + Past Participle:**sun-dried, middle-aged, wind-powered, tree-lined, shop-soiled*Examples: sun-dried tomatoes | a tree-lined avenue***Adjective + Past Participle:**old-fashioned, narrow-minded, cold-blooded, level-headed*Examples: an old-fashioned style | a level-headed person**Common mistake:** ❌ 'good looking' (before noun) → ✅ 'a good-looking person' 🎯*",
+      "content": "<p>Here's where it gets interesting! 🤔 Many compound adjectives use <strong>present participle (-ing)</strong> or <strong>past participle (-ed/-en)</strong> as the second element.</p><p><strong>Four Sub-Types:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Type</th><th>Pattern</th><th>Examples</th></tr><tr><td>Adjective + Present Participle</td><td>[adj] + [verb-ing]</td><td>good-looking, far-reaching, quick-thinking, long-lasting, easy-going</td></tr><tr><td>Noun + Present Participle</td><td>[noun] + [verb-ing]</td><td>coal-mining, eye-opening, mouth-watering, time-saving, record-breaking</td></tr><tr><td>Noun + Past Participle</td><td>[noun] + [verb-ed/-en]</td><td>sun-dried, middle-aged, wind-powered, tree-lined, shop-soiled</td></tr><tr><td>Adjective + Past Participle</td><td>[adj] + [verb-ed/-en]</td><td>old-fashioned, narrow-minded, cold-blooded, level-headed</td></tr></table><p><strong>Examples in Action:</strong></p><table class=\"lesson-table table-green\"><tr><th>Compound</th><th>Type</th><th>Full Phrase</th></tr><tr><td><strong>good-looking</strong></td><td>Adj + Present Participle</td><td>a good-looking actor</td></tr><tr><td><strong>record-breaking</strong></td><td>Noun + Present Participle</td><td>a record-breaking performance</td></tr><tr><td><strong>sun-dried</strong></td><td>Noun + Past Participle</td><td>sun-dried tomatoes</td></tr><tr><td><strong>old-fashioned</strong></td><td>Adj + Past Participle</td><td>an old-fashioned style</td></tr></table><p><strong>Common Mistake:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Wrong ❌</th><th>Right ✅</th></tr><tr><td>a good looking person</td><td>a <strong>good-looking</strong> person</td></tr></table><p><em>Fun fact: 'Eye-opening' literally means something so surprising it makes your eyes open wide! 🎯</em></p>",
       "examples": [
-        "Adj + Present Participle: **a long-lasting** friendship",
-        "Noun + Past Participle: **sun-dried** tomatoes"
+        "Adj + Present Participle: <strong>a long-lasting</strong> friendship",
+        "Noun + Past Participle: <strong>sun-dried</strong> tomatoes"
       ],
       "difficulty": 2,
       "audio": "lesson_4_participles.mp3",
@@ -62,15 +62,15 @@
         "Forming compounds using -ing and -ed/-en participle forms",
         "Distinguishing four participle compound sub-types"
       ],
-      "tips": "💡 **Pro tip:** If you see a compound adjective ending in -ing or -ed/-en, identify whether the first part is an adjective, noun, or adverb — that tells you its type."
+      "tips": "💡 <strong>Pro tip:</strong> If you see a compound adjective ending in -ing or -ed/-en, identify whether the first part is an adjective, noun, or adverb — that tells you its type."
     },
     {
       "id": "lesson-5",
       "title": "Adverb + Past Participle Compounds 🎯",
-      "content": "Ready for the next level? 🚀 **Adverb + Past Participle** compounds are incredibly common in formal and professional English.**Pattern:** [adverb] + [past participle] → compound*Examples:*deeply-rooted: *These people hold deeply-rooted beliefs.*well-prepared: *The leader gave a well-prepared speech.*highly-respected: *a highly-respected scholar*badly-behaved: *a group of badly-behaved children*densely-populated: *a densely-populated city***These are especially common in academic writing and journalism.**Other common forms:** widely-recognized, poorly-paid, brightly-lit, tightly-wound, long-forgotten, much-needed, long-awaited*Fun fact: 'Well-prepared' can describe both a speech AND a meal — context makes the meaning clear! ⚙️*",
+      "content": "<p>Ready for the next level? 🚀 <strong>Adverb + Past Participle</strong> compounds are incredibly common in formal and professional English.</p><p><strong>Pattern:</strong> [adverb] + [past participle] → compound</p><table class=\"lesson-table table-blue\"><tr><th>Compound</th><th>Parts</th><th>Full Phrase</th><th>Context</th></tr><tr><td><strong>deeply-rooted</strong></td><td>deeply + rooted</td><td>deeply-rooted beliefs</td><td>cultural traditions</td></tr><tr><td><strong>well-prepared</strong></td><td>well + prepared</td><td>a well-prepared speech</td><td>professional settings</td></tr><tr><td><strong>highly-respected</strong></td><td>highly + respected</td><td>a highly-respected scholar</td><td>academic contexts</td></tr><tr><td><strong>badly-behaved</strong></td><td>badly + behaved</td><td>badly-behaved children</td><td>behavioural descriptions</td></tr><tr><td><strong>densely-populated</strong></td><td>densely + populated</td><td>a densely-populated city</td><td>demographic data</td></tr></table><p><strong>More Common Forms:</strong></p><table class=\"lesson-table table-green\"><tr><th>Compound</th><th>Full Phrase</th></tr><tr><td>widely-recognized</td><td>a widely-recognized expert</td></tr><tr><td>poorly-paid</td><td>poorly-paid workers</td></tr><tr><td>brightly-lit</td><td>a brightly-lit room</td></tr><tr><td>tightly-wound</td><td>a tightly-wound spring</td></tr><tr><td>long-forgotten</td><td>a long-forgotten memory</td></tr><tr><td>much-needed</td><td>a much-needed break</td></tr><tr><td>long-awaited</td><td>a long-awaited announcement</td></tr></table><p><em>Fun fact: 'Well-prepared' can describe both a speech AND a meal — context makes the meaning clear! ⚙️</em></p>",
       "examples": [
-        "At a specific time: **a well-prepared** presentation",
-        "Duration focus: **deeply-rooted** cultural traditions"
+        "At a specific time: <strong>a well-prepared</strong> presentation",
+        "Duration focus: <strong>deeply-rooted</strong> cultural traditions"
       ],
       "difficulty": 2,
       "audio": "lesson_5_adverb_participle.mp3",
@@ -78,15 +78,15 @@
         "Using adverb+participle compounds in formal and academic contexts",
         "Intensifying past participle descriptors with adverbs"
       ],
-      "tips": "💡 **When to use:** Adverb + Past Participle compounds add precision to descriptions — especially useful in essays, reports, and professional writing."
+      "tips": "💡 <strong>When to use:</strong> Adverb + Past Participle compounds add precision to descriptions — especially useful in essays, reports, and professional writing."
     },
     {
       "id": "lesson-6",
       "title": "Number + Noun Compounds ❓",
-      "content": "Let's master the number compounds! 🔢 **Number + Noun (singular)** compounds are extremely common in everyday English.**Key rule:** The noun in a number+noun compound is always **singular**, even if the number is greater than one!*Examples:*ten-minute break (NOT ten-minutes break ❌)*five-day week (NOT five-days week ❌)*twenty-storey building*three-hour film*five-star hotel***Pattern:** [number] + [singular noun] — always hyphenated before the noun.*More examples:*a two-way street | a ten-page document | a three-week holiday | a six-foot ladder*They answer the question 'what kind of ___?' and measure duration, size, or quantity.*Fun fact: 'Five-star' originally described hotel ratings — now it's used for anything excellent! 💬*",
+      "content": "<p>Let's master the number compounds! 🔢 <strong>Number + Noun (singular)</strong> compounds are extremely common in everyday English.</p><p><strong>Key Rule:</strong> The noun in a number+noun compound is always <strong>singular</strong>, even if the number is greater than one!</p><table class=\"lesson-table table-orange\"><tr><th>Wrong ❌</th><th>Right ✅</th><th>Meaning</th></tr><tr><td>a ten-minutes break</td><td>a <strong>ten-minute</strong> break</td><td>lasting ten minutes</td></tr><tr><td>a five-days week</td><td>a <strong>five-day</strong> week</td><td>working five days</td></tr><tr><td>a twenty-storeys building</td><td>a <strong>twenty-storey</strong> building</td><td>with twenty storeys</td></tr><tr><td>a three-hours film</td><td>a <strong>three-hour</strong> film</td><td>lasting three hours</td></tr></table><p><strong>Pattern:</strong> [number] + [singular noun] — always hyphenated before the noun.</p><table class=\"lesson-table table-blue\"><tr><th>Compound</th><th>Full Phrase</th><th>Category</th></tr><tr><td><strong>two-way</strong></td><td>a two-way street</td><td>direction</td></tr><tr><td><strong>ten-page</strong></td><td>a ten-page document</td><td>quantity</td></tr><tr><td><strong>three-week</strong></td><td>a three-week holiday</td><td>duration</td></tr><tr><td><strong>six-foot</strong></td><td>a six-foot ladder</td><td>measurement</td></tr><tr><td><strong>five-star</strong></td><td>a five-star hotel</td><td>rating/quality</td></tr></table><p><strong>The Secret:</strong> They answer the question 'what kind of ___?' and measure duration, size, or quantity.</p><p><em>Fun fact: 'Five-star' originally described hotel ratings — now it's used for anything excellent! 💬</em></p>",
       "examples": [
-        "Negative (wrong): a ❌ five-**days** trip → ✅ a **five-day** trip",
-        "Yes/No: Was it a **ten-minute** break? Yes, it was a ten-minute break."
+        "Negative (wrong): a ❌ five-<strong>days</strong> trip → ✅ a <strong>five-day</strong> trip",
+        "Yes/No: Was it a <strong>ten-minute</strong> break? Yes, it was a ten-minute break."
       ],
       "difficulty": 2,
       "audio": "lesson_6_numbers.mp3",
@@ -94,15 +94,15 @@
         "Forming number+noun compound adjectives with singular nouns",
         "Describing duration, size, measurement, and quantity"
       ],
-      "tips": "💡 **Remember:** Number + Noun compounds ALWAYS use singular nouns. 'A five-day week', 'a three-hour film' — never 'five-days' or 'three-hours'."
+      "tips": "💡 <strong>Remember:</strong> Number + Noun compounds ALWAYS use singular nouns. 'A five-day week', 'a three-hour film' — never 'five-days' or 'three-hours'."
     },
     {
       "id": "lesson-7",
       "title": "Idiomatic Phrase Compounds 🕐",
-      "content": "Here's a crucial rule! ⚠️ Some compound adjectives are built from entire **idiomatic phrases**, usually hyphenated across multiple words.**Common idiomatic compounds:**middle-of-the-road: *a middle-of-the-road entertainer* (neither extreme)*off-the-rack: *off-the-rack suits* (ready-made, not tailored)*over-the-counter: *over-the-counter medicine* (no prescription needed)*once-in-a-lifetime: *a once-in-a-lifetime experience* (happens only once)*one-of-a-kind: *a one-of-a-kind design* (completely unique)*all-too-common: *an all-too-common mistake* (unfortunately frequent)**⚠️ These are always hyphenated** when they precede the noun — every word in the phrase gets a hyphen.*Fun fact: 'Over-the-counter' is now used globally, but originally referred to medicine sold directly across a pharmacy counter! 🌍*",
+      "content": "<p>Here's a crucial rule! ⚠️ Some compound adjectives are built from entire <strong>idiomatic phrases</strong>, usually hyphenated across multiple words.</p><p><strong>Common Idiomatic Compounds:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Compound</th><th>Full Phrase</th><th>Meaning</th></tr><tr><td><strong>middle-of-the-road</strong></td><td>a middle-of-the-road entertainer</td><td>neither extreme; moderate</td></tr><tr><td><strong>off-the-rack</strong></td><td>off-the-rack suits</td><td>ready-made, not tailored</td></tr><tr><td><strong>over-the-counter</strong></td><td>over-the-counter medicine</td><td>no prescription needed</td></tr><tr><td><strong>once-in-a-lifetime</strong></td><td>a once-in-a-lifetime experience</td><td>happens only once</td></tr><tr><td><strong>one-of-a-kind</strong></td><td>a one-of-a-kind design</td><td>completely unique</td></tr><tr><td><strong>all-too-common</strong></td><td>an all-too-common mistake</td><td>unfortunately frequent</td></tr></table><p><strong>⚠️ Hyphenation Rule:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Position</th><th>Rule</th><th>Example</th></tr><tr><td>Before noun</td><td>Every word gets a hyphen</td><td>a <strong>once-in-a-lifetime</strong> opportunity</td></tr><tr><td>After verb</td><td>Hyphens usually dropped</td><td>The experience was once in a lifetime.</td></tr></table><p><strong>The Secret:</strong> These are always hyphenated when they precede the noun — every word in the phrase joins the chain.</p><p><em>Fun fact: 'Over-the-counter' is now used globally, but originally referred to medicine sold directly across a pharmacy counter! 🌍</em></p>",
       "examples": [
-        "With 'once-in-a-lifetime': It was a **once-in-a-lifetime** opportunity.",
-        "With 'off-the-rack': He wore an **off-the-rack** suit to the interview."
+        "With 'once-in-a-lifetime': It was a <strong>once-in-a-lifetime</strong> opportunity.",
+        "With 'off-the-rack': He wore an <strong>off-the-rack</strong> suit to the interview."
       ],
       "difficulty": 3,
       "audio": "lesson_7_idiomatic.mp3",
@@ -110,15 +110,15 @@
         "Recognising and using multi-word idiomatic compound adjectives",
         "Applying full-phrase hyphenation before nouns"
       ],
-      "tips": "💡 **Never forget:** Multi-word phrase compounds are hyphenated throughout when before a noun: once**-**in**-**a**-**lifetime experience. Every word joins the chain!"
+      "tips": "💡 <strong>Never forget:</strong> Multi-word phrase compounds are hyphenated throughout when before a noun: once<strong>-</strong>in<strong>-</strong>a<strong>-</strong>lifetime experience. Every word joins the chain!"
     },
     {
       "id": "lesson-8",
       "title": "Compound Adjective Mastery 🏆",
-      "content": "You've come so far! 🌟 Let's tackle the **advanced nuances** that separate good from great.**Special Case 1: Hyphen position matters**'A little-used road' (a road that is little used) vs 'A little used road' (ambiguous — a small, used road?). The hyphen prevents misreading.**Special Case 2: Compound adjectives in predicative position**Before noun: *a well-known fact* → After verb: *The fact is **well known*** (no hyphen in most style guides).**Sophisticated Usage:**[Formal]: *a densely-populated, resource-limited coastal region* — compounds stack in formal writing.**[Informal]**: 'That's a mind-blowing idea!' (spoken with emphasis)**Mastery checklist:** ✅ Hyphen before noun ✅ No hyphen after verb ✅ Singular noun in number compounds ✅ Full-phrase hyphenation for idiomatic forms*Fun fact: 'Bittersweet' started as a compound adjective and is now treated as a single word — language evolves! 🎓*",
+      "content": "<p>You've come so far! 🌟 Let's tackle the <strong>advanced nuances</strong> that separate good from great.</p><p><strong>Special Case 1: Hyphen Position Prevents Misreading</strong></p><table class=\"lesson-table table-orange\"><tr><th>With Hyphen ✅</th><th>Without Hyphen ❌</th><th>Problem</th></tr><tr><td>a <strong>little-used</strong> road</td><td>a little used road</td><td>ambiguous — a small, used road?</td></tr><tr><td>a <strong>man-eating</strong> shark</td><td>a man eating shark</td><td>completely different meaning!</td></tr></table><p><strong>Special Case 2: Position Shift — Before Noun vs After Verb</strong></p><table class=\"lesson-table table-blue\"><tr><th>Position</th><th>Form</th><th>Example</th></tr><tr><td>Before noun</td><td>Hyphenated</td><td>a <strong>well-known</strong> fact</td></tr><tr><td>After verb (predicative)</td><td>No hyphen (most guides)</td><td>The fact is <strong>well known</strong>.</td></tr></table><p><strong>Register Comparison:</strong></p><table class=\"lesson-table table-green\"><tr><th>Register</th><th>Example</th><th>Characteristics</th></tr><tr><td>Formal</td><td>a densely-populated, resource-limited coastal region</td><td>compounds stack; precise, academic</td></tr><tr><td>Informal</td><td>That's a mind-blowing idea!</td><td>spoken with emphasis; standalone</td></tr></table><p><strong>Mastery Checklist:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Skill</th><th>Status</th></tr><tr><td>Hyphen before noun</td><td>✅</td></tr><tr><td>No hyphen after verb</td><td>✅</td></tr><tr><td>Singular noun in number compounds</td><td>✅</td></tr><tr><td>Full-phrase hyphenation for idiomatic forms</td><td>✅</td></tr><tr><td>Hyphen prevents ambiguity</td><td>✅</td></tr></table><p><em>Fun fact: 'Bittersweet' started as a compound adjective and is now treated as a single word — language evolves! 🎓</em></p>",
       "examples": [
-        "Ambiguity resolved: **a man-eating** shark (not 'a man eating shark')",
-        "Position shift: **a well-prepared** meal → The meal was **well prepared**."
+        "Ambiguity resolved: <strong>a man-eating</strong> shark (not 'a man eating shark')",
+        "Position shift: <strong>a well-prepared</strong> meal → The meal was <strong>well prepared</strong>."
       ],
       "difficulty": 3,
       "audio": "lesson_8_mastery.mp3",
@@ -126,7 +126,7 @@
         "Applying hyphenation rules for pre-noun vs predicative positions",
         "Using stacked compound adjectives in formal writing"
       ],
-      "tips": "💡 **Master level:** Before noun = hyphen. After verb = no hyphen (usually). Always check: does removing the hyphen create ambiguity? If yes, keep it!"
+      "tips": "💡 <strong>Master level:</strong> Before noun = hyphen. After verb = no hyphen (usually). Always check: does removing the hyphen create ambiguity? If yes, keep it!"
     }
   ],
 

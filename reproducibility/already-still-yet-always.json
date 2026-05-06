@@ -1,0 +1,667 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Already: Done Sooner Than Expected! ⏰",
+      "content": "<p><strong>Already</strong> is used to say that something has happened <strong>earlier than expected</strong> or earlier than it might have happened. ⏰</p><p><strong>Core Structure:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Component</th><th>Position</th><th>Example</th></tr><tr><td>have/has</td><td>First</td><td>I have</td></tr><tr><td><strong>already</strong></td><td>Middle</td><td><strong>already</strong></td></tr><tr><td>past participle</td><td>Last</td><td>finished</td></tr></table><p><strong>Typical Exchanges:</strong></p><table class=\"lesson-table table-green\"><tr><th>Speaker A</th><th>Speaker B</th><th>Meaning</th></tr><tr><td>\"Hurry up Susan. Breakfast is ready!\"</td><td>\"I have <strong>already</strong> had breakfast thanks. I woke up early.\"</td><td>Action completed before expected time</td></tr><tr><td>\"Here is a book you might like.\"</td><td>\"I have <strong>already</strong> read it — I found it interesting too.\"</td><td>Action completed before the offer</td></tr></table><p><strong>Pattern:</strong> have/has + <strong>already</strong> + past participle</p><p><em>Fun fact: \"Already\" can also express surprise: \"Have you finished <strong>already</strong>?!\" 🎉</em></p>",
+      "examples": [
+        "I have <strong>already</strong> finished.",
+        "She has <strong>already</strong> left.",
+        "Have you <strong>already</strong> eaten?"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": [
+        "Reporting completed actions",
+        "Expressing surprise at early completion"
+      ],
+      "tips": "💡 <strong>Quick Rule:</strong> Already goes between have/has and the past participle: have already finished."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Still: Things That Keep Going 🔄",
+      "content": "<p><strong>Still</strong> is used to refer to <strong>continuing situations</strong>. Something that started in the past and continues now. 🔄</p><p><strong>Position Rules:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Verb Type</th><th>Position</th><th>Example</th></tr><tr><td>Verb <strong>be</strong></td><td>After be</td><td>I <strong>am still</strong> waiting.</td></tr><tr><td>Main verb</td><td>Before main verb</td><td>She <strong>still</strong> works there.</td></tr></table><p><strong>Examples in Context:</strong></p><table class=\"lesson-table table-green\"><tr><th>Sentence</th><th>Duration</th><th>Implied Meaning</th></tr><tr><td>They have been married for 40 years and they <strong>still</strong> love each other.</td><td>40 years</td><td>Continues despite long time</td></tr><tr><td>I moved to this town five years ago and I <strong>am still</strong> living here.</td><td>5 years</td><td>Continues from past to present</td></tr><tr><td>Are you <strong>still</strong> smoking? I thought you had stopped!</td><td>Ongoing</td><td>Surprise at continuation</td></tr><tr><td>It started raining early this morning and it <strong>is still</strong> raining!</td><td>Since morning</td><td>Emphasis on duration</td></tr></table><p><em>Fun fact: \"Still\" often expresses surprise that a situation continues! 😲</em></p>",
+      "examples": [
+        "I <strong>am still</strong> waiting.",
+        "She <strong>still</strong> works there.",
+        "It <strong>is still</strong> raining."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_still.mp3",
+      "functions": [
+        "Describing ongoing situations",
+        "Expressing surprise that something continues"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> Still goes before the main verb or after be: am still, still works."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Always: Every Time, All the Time 💫",
+      "content": "<p><strong>Always</strong> is used to refer to something that happens <strong>regularly</strong>, very frequently, or forever. 💫</p><p><strong>Standard Usage — Habits & Routines:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Pattern</th><th>Example</th><th>Meaning</th></tr><tr><td>Subject + always + verb</td><td>I <strong>always</strong> send cards at Christmas.</td><td>Regular habit</td></tr><tr><td>Subject + always + verb</td><td>Sue <strong>always</strong> takes the 8 o'clock train to work.</td><td>Fixed routine</td></tr><tr><td>Subject + will + always + verb</td><td>I promise I will <strong>always</strong> love you.</td><td>Forever commitment</td></tr></table><p><strong>Special Usage — Complaint Form:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Structure</th><th>Example</th><th>Emotion</th></tr><tr><td>Subject + be + <strong>always</strong> + verb-ing</td><td>Alex <strong>is always</strong> complaining about his job.</td><td>Irritation</td></tr><tr><td>Subject + be + <strong>always</strong> + verb-ing</td><td>She <strong>is always</strong> losing her keys!</td><td>Frustration</td></tr></table><p><strong>The Secret:</strong> always + present continuous expresses irritation about a repeated, annoying habit.</p><p><em>Fun fact: Using always with present continuous is a classic way to complain in English! 😤</em></p>",
+      "examples": [
+        "I <strong>always</strong> eat breakfast.",
+        "He <strong>is always</strong> late.",
+        "They <strong>always</strong> visit us at Christmas."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_3_always.mp3",
+      "functions": [
+        "Describing habits and routines",
+        "Expressing irritation with continuous + always"
+      ],
+      "tips": "💡 <strong>Pro tip:</strong> For complaints, use present continuous + always: \"He is always losing his keys!\""
+    },
+    {
+      "id": "lesson-4",
+      "title": "Yet: Waiting for Something to Happen ⏳",
+      "content": "<p><strong>Yet</strong> is used in <strong>questions</strong>, to ask if something expected has happened, and in <strong>negative sentences</strong>. ⏳</p><p><strong>Key Rule: Yet always goes at the END of the sentence or clause!</strong></p><table class=\"lesson-table table-blue\"><tr><th>Use</th><th>Structure</th><th>Example</th></tr><tr><td>Questions</td><td>Have/Has + subject + past participle + <strong>yet</strong>?</td><td>Has the postman arrived <strong>yet</strong>?</td></tr><tr><td>Questions</td><td>Have/Has + subject + past participle + <strong>yet</strong>?</td><td>Have you booked your ticket <strong>yet</strong>?</td></tr><tr><td>Negative</td><td>Subject + have/has + not + past participle + <strong>yet</strong></td><td>The book I ordered has not arrived <strong>yet</strong>.</td></tr><tr><td>Negative</td><td>Subject + have/has + not + <strong>yet</strong> + past participle</td><td>Julie has not <strong>yet</strong> decided whether she is going to join us.</td></tr></table><p><strong>Meaning Notes:</strong></p><table class=\"lesson-table table-green\"><tr><th>Sentence</th><th>Meaning</th></tr><tr><td>The book has not arrived <strong>yet</strong>.</td><td>I am still waiting.</td></tr><tr><td>They have not set the date of their wedding <strong>yet</strong>.</td><td>Still undecided, expected soon.</td></tr></table><p><em>Fun fact: \"Yet\" always goes at the END of the sentence or clause! 🎯</em></p>",
+      "examples": [
+        "Have you finished <strong>yet</strong>?",
+        "I have not decided <strong>yet</strong>.",
+        "We have <strong>yet</strong> to find out."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_yet.mp3",
+      "functions": [
+        "Asking about expected events",
+        "Reporting unfinished actions"
+      ],
+      "tips": "💡 <strong>Never forget:</strong> Yet goes at the END of the sentence. Use it with present perfect."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Yet: Meaning Nevertheless ⚡",
+      "content": "<p><strong>Yet</strong> can also be used to link two clauses or <strong>contrasting ideas</strong> (like \"nevertheless\" or \"nonetheless\"). ⚡</p><p><strong>Contrast Usage:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Pattern</th><th>Example</th><th>Meaning</th></tr><tr><td>Clause 1 + comma + <strong>yet</strong> + clause 2</td><td>Olivia was offered an interesting job with good pay, <strong>yet</strong> she refused it.</td><td>Unexpected contrast</td></tr><tr><td>Clause 1 + comma + <strong>yet</strong> + clause 2</td><td>Charlie felt alone in the world, <strong>yet</strong> he was surrounded by friends.</td><td>Surprising contradiction</td></tr><tr><td>Adjective + <strong>yet</strong> + adjective</td><td>Mr. Harding was a strict <strong>yet</strong> fair teacher.</td><td>Balanced qualities</td></tr></table><p><strong>Emphasis Usage:</strong></p><table class=\"lesson-table table-green\"><tr><th>Structure</th><th>Example</th><th>Meaning</th></tr><tr><td><strong>yet another</strong> + noun</td><td>Sunday will be <strong>yet another</strong> rainy day.</td><td>One more in a series</td></tr><tr><td><strong>yet again</strong></td><td>The photocopier is out of order <strong>yet again</strong>!</td><td>Repeating frustration</td></tr></table><p><em>Fun fact: This use of yet comes from Old English and is very common in literature! 📚</em></p>",
+      "examples": [
+        "He felt alone, <strong>yet</strong> he was surrounded by friends.",
+        "She sings beautifully, <strong>yet</strong> she prefers to accompany others.",
+        "<strong>Yet another</strong> rainy day."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_yet_contrast.mp3",
+      "functions": [
+        "Expressing contrast between ideas",
+        "Adding emphasis with yet another/again"
+      ],
+      "tips": "💡 <strong>Rule:</strong> When yet means \"but,\" it usually has a comma before it."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Already, Still, Always & Yet Together 🎯",
+      "content": "<p>Let us compare all four adverbs side by side! 🎯</p><table class=\"lesson-table table-blue\"><tr><th>Adverb</th><th>Meaning</th><th>Example</th><th>Tense Used</th></tr><tr><td><strong>Already</strong></td><td>Completed early</td><td>I have <strong>already</strong> eaten.</td><td>Present perfect</td></tr><tr><td><strong>Still</strong></td><td>Continuing</td><td>I <strong>am still</strong> hungry.</td><td>Present continuous / simple</td></tr><tr><td><strong>Always</strong></td><td>Regular / habit</td><td>I <strong>always</strong> eat at 7.</td><td>Present simple</td></tr><tr><td><strong>Yet</strong></td><td>Not finished</td><td>I have not eaten <strong>yet</strong>.</td><td>Present perfect negative/question</td></tr></table><p><strong>Tense Patterns Summary:</strong></p><table class=\"lesson-table table-green\"><tr><th>Adverb</th><th>Tense Pattern</th><th>Example</th></tr><tr><td>Already</td><td>Present perfect</td><td>She has <strong>already</strong> left.</td></tr><tr><td>Still</td><td>Present continuous / present simple</td><td>He <strong>is still</strong> working. / He <strong>still</strong> works.</td></tr><tr><td>Always</td><td>Present simple (complaints: present continuous)</td><td>They <strong>always</strong> arrive late. / He <strong>is always</strong> complaining.</td></tr><tr><td>Yet</td><td>Present perfect negative/question</td><td>Have you finished <strong>yet</strong>? / I have not finished <strong>yet</strong>.</td></tr></table><p><em>Fun fact: Many languages do not have exact equivalents for these four words, making them tricky for learners! 🌍</em></p>",
+      "examples": [
+        "Have you <strong>already</strong> left? No, I <strong>am still</strong> here.",
+        "I <strong>always</strong> wait for you, <strong>yet</strong> you are <strong>never</strong> on time."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_all_four.mp3",
+      "functions": [
+        "Distinguishing between the four adverbs",
+        "Choosing the correct adverb for context"
+      ],
+      "tips": "💡 <strong>Decision tree:</strong> Finished? → already. Continuing? → still. Regular? → always. Not finished? → yet."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Avoid These Common Errors ❌",
+      "content": "<p>Let us master the most common errors with these adverbs! ❌</p><p><strong>Common Mistakes Table:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Wrong ❌</th><th>Why It's Wrong</th><th>Right ✅</th></tr><tr><td>I have finished <strong>yet</strong>.</td><td>Yet is for negative/questions, not positive completion</td><td>I have <strong>already</strong> finished.</td></tr><tr><td>I <strong>yet</strong> have not seen it.</td><td>Wrong word order — yet must be at the end</td><td>I have not seen it <strong>yet</strong>.</td></tr><tr><td>She is <strong>always</strong> late? (question intonation only)</td><td>Missing question inversion</td><td><strong>Is</strong> she <strong>always</strong> late?</td></tr><tr><td>I <strong>still am</strong> working.</td><td>Wrong position — still goes after be</td><td>I <strong>am still</strong> working.</td></tr><tr><td>She is <strong>yet</strong> here.</td><td>Wrong adverb — yet means not finished</td><td>She is <strong>still</strong> here.</td></tr></table><p><strong>Position Rules Summary:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Adverb</th><th>Position</th><th>Example</th></tr><tr><td>Already</td><td>Between have/has and past participle</td><td>I have <strong>already</strong> finished.</td></tr><tr><td>Still</td><td>Before main verb or after be</td><td>I <strong>am still</strong> waiting. / She <strong>still</strong> works.</td></tr><tr><td>Yet</td><td>At the end of the clause</td><td>I have not seen it <strong>yet</strong>.</td></tr><tr><td>Always</td><td>After be, before other verbs</td><td>She <strong>is always</strong> late. / She <strong>always</strong> arrives late.</td></tr></table><p><em>Fun fact: Native speakers sometimes break these rules in casual speech, but exams expect formal correctness! 🎓</em></p>",
+      "examples": [
+        "❌ She is <strong>yet</strong> here → ✅ She is <strong>still</strong> here.",
+        "❌ I <strong>yet</strong> have not seen it → ✅ I have not seen it <strong>yet</strong>."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_mistakes.mp3",
+      "functions": [
+        "Identifying and correcting common errors",
+        "Using formal vs informal patterns"
+      ],
+      "tips": "💡 <strong>Remember:</strong> Already = positive. Yet = negative/question. Still = positive/negative continuation."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Master Level: Nuanced Meanings 🏆",
+      "content": "<p>You have come so far! Let us tackle the <strong>advanced nuances</strong>. 🌟</p><p><strong>Special Case 1: Formal \"have yet to\"</strong></p><table class=\"lesson-table table-blue\"><tr><th>Structure</th><th>Example</th><th>Equivalent Meaning</th></tr><tr><td>Subject + have/has + <strong>yet to</strong> + base verb</td><td>We <strong>have yet to find out</strong> the cause.</td><td>We still have not found out.</td></tr><tr><td>Subject + have/has + <strong>yet to</strong> + base verb</td><td>I <strong>have yet to understand</strong> the problem.</td><td>I still do not understand.</td></tr></table><p><strong>Special Case 2: American English Variation</strong></p><table class=\"lesson-table table-green\"><tr><th>Variety</th><th>Example</th><th>Notes</th></tr><tr><td>British English</td><td>I <strong>have already</strong> eaten.</td><td>Present perfect standard</td></tr><tr><td>American English</td><td>I <strong>already ate</strong>.</td><td>Past simple also acceptable</td></tr></table><p><strong>Special Case 3: Advanced \"better yet\"</strong></p><table class=\"lesson-table table-blue\"><tr><th>Structure</th><th>Example</th><th>Meaning</th></tr><tr><td>or better <strong>yet</strong></td><td>Do not overcook the fish, or better <strong>yet</strong>, eat it raw.</td><td>An even better suggestion</td></tr></table><p><strong>Mastery Checklist:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Skill</th><th>Status</th></tr><tr><td>Already for early completion</td><td>✅</td></tr><tr><td>Still for continuation</td><td>✅</td></tr><tr><td>Always for habits and complaints</td><td>✅</td></tr><tr><td>Yet for unfinished actions</td><td>✅</td></tr><tr><td>Yet for contrast</td><td>✅</td></tr><tr><td>\"Have yet to\" formal structure</td><td>✅</td></tr></table><p><em>Fun fact: \"Have yet to\" is considered very elegant and is common in academic writing! 🎓</em></p>",
+      "examples": [
+        "I <strong>have yet to</strong> understand the problem.",
+        "The photocopier is out of order <strong>yet again</strong>!",
+        "She is <strong>always</strong> interrupting me."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Using advanced and formal structures",
+        "Adapting to different English varieties"
+      ],
+      "tips": "💡 <strong>Master level:</strong> \"Have yet to\" is formal and elegant. Use it in academic or professional writing."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about things you have already done today using already + present perfect. Include at least 2 sentences with already.",
+      "hint": "Use <strong>have/has + already + past participle</strong>. Example: <em>I have already eaten breakfast and I have already read the news.</em>",
+      "expectedKeywords": [
+        "already",
+        "have",
+        "has",
+        "finished",
+        "eaten",
+        "seen",
+        "done",
+        "read",
+        "written",
+        "today",
+        "this morning"
+      ],
+      "sentenceStarters": [
+        "I have already ___",
+        "This morning, I have already ___",
+        "My friend has already ___"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe things that are still happening in your life. Use still + present continuous or present simple in at least 2 sentences.",
+      "hint": "Use <strong>still</strong> to show continuation. Example: <em>I am still learning English. I still live in the same house.</em>",
+      "expectedKeywords": [
+        "still",
+        "am",
+        "is",
+        "are",
+        "living",
+        "working",
+        "studying",
+        "waiting",
+        "raining",
+        "playing",
+        "reading"
+      ],
+      "sentenceStarters": [
+        "I am still ___",
+        "My family is still ___",
+        "It is still ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write about your plans and unfinished tasks using yet in negative sentences and questions. Include at least 1 question and 1 negative sentence.",
+      "hint": "Use <strong>Have you...yet?</strong> for questions and <strong>haven't/hasn't...yet</strong> for negatives. Example: <em>I haven't finished my homework yet. Have you called her yet?</em>",
+      "expectedKeywords": [
+        "yet",
+        "have",
+        "has",
+        "not",
+        "finished",
+        "decided",
+        "arrived",
+        "seen",
+        "done",
+        "already",
+        "still"
+      ],
+      "sentenceStarters": [
+        "I haven't ___ yet",
+        "Have you ___ yet?",
+        "We haven't ___ yet"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-4",
+      "question": "Write about your habits using always + present simple. Describe 3 things you always do.",
+      "hint": "Use <strong>always</strong> with present simple for habits. Example: <em>I always drink coffee in the morning. She always takes the bus.</em>",
+      "expectedKeywords": [
+        "always",
+        "usually",
+        "drink",
+        "eat",
+        "take",
+        "go",
+        "do",
+        "make",
+        "every",
+        "morning",
+        "evening"
+      ],
+      "sentenceStarters": [
+        "I always ___",
+        "On weekends, I always ___",
+        "My best friend always ___"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-5",
+      "question": "Describe changes in your town or city using already and still. Show what has changed and what has stayed the same.",
+      "hint": "Use <strong>already</strong> for completed changes and <strong>still</strong> for things that haven't changed. Example: <em>They have already built a new hospital, but the old school is still there.</em>",
+      "expectedKeywords": [
+        "already",
+        "still",
+        "have",
+        "has",
+        "built",
+        "changed",
+        "remained",
+        "old",
+        "new",
+        "but",
+        "however"
+      ],
+      "sentenceStarters": [
+        "They have already ___",
+        "The ___ is still ___",
+        "Although ___ has changed, ___ is still ___"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-6",
+      "question": "Write two contrasting sentences using yet to mean nevertheless. Connect two unexpected ideas.",
+      "hint": "Use <strong>yet</strong> like 'but' or 'nevertheless'. Example: <em>She was very tired, yet she finished the marathon.</em>",
+      "expectedKeywords": [
+        "yet",
+        "but",
+        "nevertheless",
+        "however",
+        "tired",
+        "difficult",
+        "refused",
+        "continued",
+        "surrounded"
+      ],
+      "sentenceStarters": [
+        "He was ___, yet he ___",
+        "Although ___, yet ___",
+        "The ___ was ___, yet ___"
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct word:",
+      "sentence": "I have ____ finished my homework.",
+      "options": [
+        "already",
+        "yet",
+        "still",
+        "always"
+      ],
+      "correctAnswer": [
+        "already"
+      ],
+      "audio": "game_1_sentence.mp3",
+      "hint": "This is a positive sentence about something completed. Use already for completed actions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which sentence is correct?",
+      "sentence": "She ____ lives in the same house.",
+      "options": [
+        "still",
+        "already",
+        "yet",
+        "always"
+      ],
+      "correctAnswer": [
+        "still"
+      ],
+      "audio": "game_2_sentence.mp3",
+      "hint": "This sentence talks about a continuing situation. Use still for things that continue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Advanced: Complete with the most precise word:",
+      "sentence": "The offer was generous, ____ she refused it.",
+      "options": [
+        "yet",
+        "already",
+        "still",
+        "always"
+      ],
+      "correctAnswer": [
+        "yet"
+      ],
+      "audio": "game_3_sentence.mp3",
+      "hint": "The two parts of the sentence contrast with each other. Use yet to mean 'nevertheless'.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What does already express?",
+      "sentence": "Choose the correct meaning.",
+      "options": [
+        "Something completed earlier than expected",
+        "Something continuing",
+        "Something regular",
+        "Something not happened"
+      ],
+      "correctAnswer": "Something completed earlier than expected",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Already is used when something happens sooner than expected.",
+      "difficulty": "easy",
+      "explanation": "Already indicates that an action is complete, often sooner than expected."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence uses still correctly?",
+      "sentence": "Choose the correct sentence.",
+      "options": [
+        "I am still waiting for you",
+        "I still am waiting for you",
+        "I waiting still am for you",
+        "I am waiting for you still"
+      ],
+      "correctAnswer": "I am still waiting for you",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Still goes before the main verb or after the verb 'be'.",
+      "difficulty": "easy",
+      "explanation": "After 'be': am still waiting. Before other verbs: still works."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Where does yet usually go in a sentence?",
+      "sentence": "Choose the correct position.",
+      "options": [
+        "At the end",
+        "At the beginning",
+        "Before the verb",
+        "After the subject"
+      ],
+      "correctAnswer": "At the end",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "Yet typically appears at the end of questions and negative sentences.",
+      "difficulty": "easy",
+      "explanation": "Yet goes at the end: Have you finished yet? I haven't finished yet."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Choose the correct form:",
+      "sentence": "Have you finished ____?",
+      "options": [
+        "yet",
+        "already",
+        "still",
+        "always"
+      ],
+      "correctAnswer": "yet",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "Questions expecting a completion use yet at the end.",
+      "difficulty": "easy",
+      "explanation": "Yet is used in questions to ask if something expected has happened."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which shows a habit?",
+      "sentence": "Choose the sentence that describes a regular action.",
+      "options": [
+        "I always brush my teeth before bed",
+        "I am still brushing my teeth",
+        "I have already brushed my teeth",
+        "I haven't brushed my teeth yet"
+      ],
+      "correctAnswer": "I always brush my teeth before bed",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Always with present simple describes habits and routines.",
+      "difficulty": "easy",
+      "explanation": "Always + present simple expresses regular habits."
+    },
+    {
+      "id": "quiz-6",
+      "question": "What is the correct negative with yet?",
+      "sentence": "Choose the correct sentence.",
+      "options": [
+        "I haven't finished yet",
+        "I don't have finished yet",
+        "I not finished yet",
+        "I haven't yet finished"
+      ],
+      "correctAnswer": "I haven't finished yet",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Use present perfect negative + yet at the end.",
+      "difficulty": "medium",
+      "explanation": "The standard form is haven't/hasn't + past participle + yet. Yet goes at the end."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Advanced: 'He is always losing his keys!' This expresses:",
+      "sentence": "Choose the correct function.",
+      "options": [
+        "Complaint/irritation",
+        "A future plan",
+        "A completed action",
+        "A question"
+      ],
+      "correctAnswer": "Complaint/irritation",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Always + present continuous often shows the speaker is annoyed.",
+      "difficulty": "medium",
+      "explanation": "Present continuous + always expresses annoyance about repeated actions."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Choose the best sentence:",
+      "sentence": "They have been married 50 years and they ____ love each other.",
+      "options": [
+        "still",
+        "already",
+        "yet",
+        "always"
+      ],
+      "correctAnswer": "still",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "This describes a continuing situation over 50 years.",
+      "difficulty": "medium",
+      "explanation": "Still shows that a situation continues over a long period."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which uses yet as contrast?",
+      "sentence": "Choose the sentence with contrastive yet.",
+      "options": [
+        "She was tired, yet she kept working",
+        "Have you finished yet?",
+        "I haven't eaten yet",
+        "I have already seen it"
+      ],
+      "correctAnswer": "She was tired, yet she kept working",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "Contrastive yet means 'nevertheless' and links two contrasting ideas.",
+      "difficulty": "medium",
+      "explanation": "Yet can mean 'nevertheless' when linking two contrasting clauses."
+    },
+    {
+      "id": "quiz-10",
+      "question": "What tense usually goes with already?",
+      "sentence": "Choose the correct tense.",
+      "options": [
+        "Present perfect",
+        "Past simple",
+        "Future simple",
+        "Past continuous"
+      ],
+      "correctAnswer": "Present perfect",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Already connects past actions to the present.",
+      "difficulty": "easy",
+      "explanation": "Already is typically used with present perfect: have/has + already + past participle."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Which is correct?",
+      "sentence": "Choose the correct formal expression.",
+      "options": [
+        "I have yet to understand",
+        "I yet have to understand",
+        "I have to yet understand",
+        "I have to understand yet"
+      ],
+      "correctAnswer": "I have yet to understand",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "Have yet to + infinitive is a formal structure meaning 'still have not'.",
+      "difficulty": "hard",
+      "explanation": "Have yet to + verb is a formal equivalent of still haven't + past participle."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Identify the error:",
+      "sentence": "I have finished my dinner yet.",
+      "options": [
+        "yet → already",
+        "finished → finish",
+        "have → has",
+        "my → the"
+      ],
+      "correctAnswer": "yet → already",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "Positive completed actions use already, not yet.",
+      "difficulty": "medium",
+      "explanation": "Yet is for negatives and questions. Already is for positive completed actions."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which question is correct?",
+      "sentence": "Choose the correct question form.",
+      "options": [
+        "Has the postman arrived yet?",
+        "Has yet the postman arrived?",
+        "Yet has the postman arrived?",
+        "Has the postman yet arrived?"
+      ],
+      "correctAnswer": "Has the postman arrived yet?",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "Yet goes at the end of the question.",
+      "difficulty": "medium",
+      "explanation": "In questions, yet always occupies the end position: subject + verb + yet?"
+    },
+    {
+      "id": "quiz-14",
+      "question": "Complete the sentence:",
+      "sentence": "I promise I will ____ love you.",
+      "options": [
+        "always",
+        "still",
+        "already",
+        "yet"
+      ],
+      "correctAnswer": "always",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "This expresses a commitment forever.",
+      "difficulty": "easy",
+      "explanation": "Always expresses something that will happen regularly or forever."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Complete the sentence:",
+      "sentence": "The book I ordered hasn't arrived ____.",
+      "options": [
+        "yet",
+        "already",
+        "still",
+        "always"
+      ],
+      "correctAnswer": "yet",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Negative present perfect + expectation uses yet at the end.",
+      "difficulty": "easy",
+      "explanation": "In negative present perfect sentences, yet goes at the end to show expectation."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "already",
+      "hint": "Used to say something happened earlier than expected",
+      "clue": "a_r_a_d_",
+      "audio": "spell_word_1.mp3",
+      "sentence": "I have already finished my homework.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "always",
+      "hint": "Used for things that happen regularly or forever",
+      "clue": "a_w_y_",
+      "audio": "spell_word_2.mp3",
+      "sentence": "I always take the 8 o'clock train.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "continuously",
+      "hint": "Without interruption - related to still and continuing actions",
+      "clue": "c_n_i_u_u_y",
+      "audio": "spell_word_3.mp3",
+      "sentence": "It has been raining continuously for three hours.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "concept-explorer",
+        "name": "Time Adverb Explorer",
+        "condition": "Complete all Already, Still, Yet & Always lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You have mastered the time adverbs!"
+      },
+      {
+        "id": "writing-champion",
+        "name": "Time Adverb Writing Star",
+        "condition": "Score 100% on 3 writing activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your writing shows perfect control of already, still, yet, and always!"
+      },
+      {
+        "id": "game-master",
+        "name": "Time Adverb Game Master",
+        "condition": "Complete all games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "You can choose the right time adverb instantly!"
+      },
+      {
+        "id": "perfect-speller",
+        "name": "Time Adverb Spelling Pro",
+        "condition": "Spell all time adverb words correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "Perfect spelling of time adverbs!"
+      },
+      {
+        "id": "speed-demon",
+        "name": "Speed Champion",
+        "condition": "Complete 5 activities in under 10 minutes each",
+        "icon": "⚡",
+        "points": 30,
+        "message": "Lightning fast and perfectly accurate!"
+      },
+      {
+        "id": "perfectionist",
+        "name": "Time Adverb Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Absolute mastery of already, still, yet, and always!"
+      }
+    ]
+  }
+}

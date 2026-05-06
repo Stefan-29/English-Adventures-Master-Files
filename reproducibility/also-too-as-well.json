@@ -1,0 +1,659 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Also: Adding Information the Right Way ➕",
+      "content": "<p><strong>Also</strong> means &quot;in addition.&quot; It is used in <strong>positive sentences</strong> to add an agreeing thought. ➕</p><p><strong>Position rules:</strong></p><ul><li><strong>After &quot;to be&quot;:</strong> I am <strong>also</strong> Canadian. She was <strong>also</strong> there.</li><li><strong>Before other verbs:</strong> I <strong>also</strong> sing. He <strong>also</strong> helped us.</li><li><strong>Between auxiliary and verb:</strong> I have <strong>also</strong> been to Hong Kong. I can <strong>also</strong> speak French.</li></ul><p><strong>Not only... but also:</strong></p><ul><li>She not only sings but she <strong>also</strong> plays the piano.</li></ul><p><em>Fun fact: Also is the most flexible of the three adverbs in terms of position! 🎯</em></p>",
+      "examples": [
+        "I <strong>also</strong> speak French.",
+        "She <strong>is also</strong> a doctor.",
+        "They <strong>have also</strong> visited Paris."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": [
+        "Adding agreeing thoughts in positive sentences",
+        "Positioning also correctly"
+      ],
+      "tips": "💡 <strong>Quick Rule:</strong> Also comes after 'to be' and before other verbs."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Too: Agreeing at the End 👍",
+      "content": "<p><strong>Too</strong> means &quot;in addition&quot; and usually comes at the <strong>end</strong> of a clause. 👍</p><p><strong>Standard position:</strong></p><ul><li>I am Canadian <strong>too</strong>.</li><li>I can speak French <strong>too</strong>.</li><li>I am studying economics <strong>too</strong>.</li></ul><p><strong>After the subject (formal):</strong></p><ul><li>Mr. Jones wanted the contract. Ms. Jackson, <strong>too</strong>, thought it was necessary.</li><li>Donna is working on a solution. I, <strong>too</strong>, am trying to find a way.</li></ul><p><strong>Short responses:</strong></p><ul><li>A: Enjoy Thanksgiving. B: You <strong>too</strong>!</li></ul><p><em>Fun fact: Too comes from Old English &quot;to&quot; meaning &quot;in addition&quot;! 📜</em></p>",
+      "examples": [
+        "I am Canadian <strong>too</strong>.",
+        "She can sing <strong>too</strong>.",
+        "I, <strong>too</strong>, agree with you."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_too.mp3",
+      "functions": [
+        "Adding agreement in positive sentences",
+        "Using too in formal and informal contexts"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> Too is never at the beginning of a sentence. It likes the end!"
+    },
+    {
+      "id": "lesson-3",
+      "title": "As well: Another Way to Say Too 🔄",
+      "content": "<p><strong>As well</strong> means &quot;in addition&quot; and goes at the <strong>end</strong> of a clause, just like too. 🔄</p><p><strong>Examples:</strong></p><ul><li>Harry likes pasta, and I like it <strong>as well</strong>.</li><li>You look tired, and I imagine you are hungry <strong>as well</strong>.</li><li>Sam visited the house with me, and the children came with us <strong>as well</strong>.</li></ul><p><strong>As well as:</strong></p><ul><li>She speaks French <strong>as well as</strong> German. (this is a different meaning!)</li></ul><p><em>Fun fact: As well is slightly more common in British English than in American English! 🇬🇧</em></p>",
+      "examples": [
+        "I will have chicken, and vegetables <strong>as well</strong>.",
+        "She sings and plays guitar <strong>as well</strong>."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_3_as_well.mp3",
+      "functions": [
+        "Using as well as an alternative to too",
+        "Keeping as well at the end"
+      ],
+      "tips": "💡 <strong>Rule:</strong> As well and too are interchangeable at the end of clauses."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Either: Negative Additions ➖",
+      "content": "<p><strong>Either</strong> is used in <strong>negative sentences</strong> to add an agreeing thought. ➖</p><p><strong>Examples:</strong></p><ul><li>Jane does not speak French. Sam does not speak French <strong>either</strong>.</li><li>I do not love chocolate. I do not love pizza <strong>either</strong>.</li><li>I cannot speak French <strong>either</strong>.</li></ul><p><strong>Position:</strong> Either goes at the <strong>end</strong> of the clause.</p><p><strong>Neither alternative:</strong></p><ul><li>She does not like coffee. <strong>Neither do</strong> I. (more formal)</li></ul><p><em>Fun fact: Either comes from Old English meaning &quot;both&quot; or &quot;each of two&quot;—now it is strictly for negatives! 🎓</em></p>",
+      "examples": [
+        "I cannot speak French <strong>either</strong>.",
+        "I am not studying economics <strong>either</strong>.",
+        "He does not like it <strong>either</strong>."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_either.mp3",
+      "functions": [
+        "Adding agreement in negative sentences",
+        "Distinguishing either from too/also"
+      ],
+      "tips": "💡 <strong>Never forget:</strong> Either = negative. Too/Also = positive. Never use either in positive sentences."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Also vs Too vs As well: What's the Difference? ⚖️",
+      "content": "<p>Let us compare all three side by side! ⚖️</p><table><tr><th>Also</th><th>Too</th><th>As well</th></tr><tr><td>Flexible position</td><td>End of clause</td><td>End of clause</td></tr><tr><td>Can start a sentence</td><td>Cannot start</td><td>Cannot start</td></tr><tr><td><em>I also like pizza.</em></td><td><em>I like pizza too.</em></td><td><em>I like pizza as well.</em></td></tr></table><p><strong>Key differences:</strong></p><ul><li>Also: before verb, after be, between aux and verb, or at the start</li><li>Too: end of clause (or after subject with commas)</li><li>As well: end of clause only</li></ul><p><em>Fun fact: In very formal writing, also is preferred over too and as well! 🎩</em></p>",
+      "examples": [
+        "<strong>Also:</strong> I also like pizza.",
+        "<strong>Too:</strong> I like pizza too.",
+        "<strong>As well:</strong> I like pizza as well."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_compare.mp3",
+      "functions": [
+        "Choosing the correct word for the sentence structure",
+        "Avoiding position errors"
+      ],
+      "tips": "💡 <strong>Decision point:</strong> If you want to start a sentence, use Also. If you want to end a sentence, use Too or As well."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Also at the Start: Like Moreover 📝",
+      "content": "<p><strong>Also</strong> can be put at the <strong>beginning of a clause</strong> to add information, like &quot;moreover&quot; or &quot;furthermore.&quot; 📝</p><p><strong>Examples:</strong></p><ul><li>Eva is a very good skier. <strong>Also,</strong> she goes hiking a lot.</li><li>Take warm clothes with you. <strong>Also,</strong> walking shoes are advised.</li><li>The insurance covered the damage to the car. <strong>Also,</strong> a replacement car was provided.</li></ul><p><strong>Important:</strong> Use a <strong>comma</strong> after also when it starts a sentence!</p><p><em>Fun fact: This use of also is very common in academic and business writing! 📊</em></p>",
+      "examples": [
+        "The insurance covered the damage. <strong>Also,</strong> a replacement car was provided.",
+        "She speaks French. <strong>Also,</strong> she knows German."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_also_start.mp3",
+      "functions": [
+        "Connecting ideas across sentences",
+        "Using also as a sentence adverb"
+      ],
+      "tips": "💡 <strong>Rule:</strong> When also starts a sentence, it acts like a transition word. Put a comma after it."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Avoid These Common Errors ❌",
+      "content": "<p>Let us master the most common errors with these adverbs! ❌</p><p><strong>Common mistakes:</strong></p><ul><li>❌ <strong>Too,</strong> I would like to add something. → ✅ I would like to add something <strong>too</strong>.</li><li>❌ <strong>As well,</strong> Peter would like to join. → ✅ Peter would like to join <strong>as well</strong>.</li><li>❌ I like pizza <strong>also</strong>. (awkward at end) → ✅ I <strong>also</strong> like pizza. / I like pizza <strong>too</strong>.</li><li>❌ I do not like it <strong>too</strong>. → ✅ I do not like it <strong>either</strong>.</li></ul><p><strong>Remember:</strong></p><ul><li>Too and as well <strong>NEVER</strong> start a sentence.</li><li>Also rarely goes at the very end.</li><li>Either = negative. Too/Also = positive.</li></ul><p><em>Fun fact: These errors are so common that examiners specifically test for them! 🎯</em></p>",
+      "examples": [
+        "❌ <strong>Too,</strong> I would like to add something. → ✅ I would like to add something <strong>too</strong>.",
+        "❌ I do not like it <strong>too</strong>. → ✅ I do not like it <strong>either</strong>."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_mistakes.mp3",
+      "functions": [
+        "Identifying position errors",
+        "Correcting negative/positive mismatches"
+      ],
+      "tips": "💡 <strong>Remember:</strong> Too and as well NEVER start a sentence. Also rarely goes at the very end."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Formal & Informal Usage 🎩",
+      "content": "<p>Let us explore <strong>formal and informal</strong> usage! 🎩</p><p><strong>Informal:</strong></p><ul><li>I like it <strong>too</strong>.</li><li>Me <strong>too</strong>!</li></ul><p><strong>Formal:</strong></p><ul><li>I, <strong>too</strong>, believe this is correct.</li><li>Mr. Smith, <strong>too</strong>, supported the proposal.</li><li><strong>Also,</strong> previous studies have shown consistent results.</li></ul><p><strong>Academic writing:</strong></p><ul><li>Prefer <strong>also</strong> or <strong>moreover</strong> at the beginning.</li><li>Avoid <strong>too</strong> and <strong>as well</strong> in formal essays.</li></ul><p><em>Fun fact: The formal &quot;I, too&quot; with commas was extremely common in 19th-century literature! 📖</em></p>",
+      "examples": [
+        "Informal: You <strong>too</strong>!",
+        "Formal: I, <strong>too</strong>, am concerned about this issue.",
+        "Academic: <strong>Also,</strong> previous studies have shown..."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_formal.mp3",
+      "functions": [
+        "Adapting to formal and informal registers",
+        "Using commas correctly with formal too"
+      ],
+      "tips": "💡 <strong>Master level:</strong> 'I, too,' with commas around it is formal and elegant. Use it in essays and professional emails."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about your skills and hobbies using also. Include at least 2 sentences with also in different positions (before a verb, after be, or between auxiliary and verb).",
+      "hint": "Use <strong>also</strong> correctly: <em>I also play tennis. I am also a musician. I have also visited Spain.</em>",
+      "expectedKeywords": [
+        "also",
+        "play",
+        "speak",
+        "sing",
+        "dance",
+        "work",
+        "study",
+        "am",
+        "is",
+        "are",
+        "have",
+        "has"
+      ],
+      "sentenceStarters": [
+        "I also ___",
+        "I am also ___",
+        "I have also ___"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Write agreeing statements using too, as well, and either. Include 1 positive sentence with too or as well, and 1 negative sentence with either.",
+      "hint": "Positive: <em>I like it too.</em> Negative: <em>I don't like it either.</em> Remember: either is for negatives!",
+      "expectedKeywords": [
+        "too",
+        "as well",
+        "either",
+        "don't",
+        "doesn't",
+        "can't",
+        "not",
+        "never",
+        "like",
+        "enjoy",
+        "want"
+      ],
+      "sentenceStarters": [
+        "I like ___, and I like ___ too",
+        "She doesn't ___, and I don't ___ either",
+        "They ___, and we ___ as well"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Combine information about two people using also, too, and as well. Write at least 3 sentences showing different positions.",
+      "hint": "Example: <em>John plays football. He also plays basketball. His sister plays too. They both play tennis as well.</em>",
+      "expectedKeywords": [
+        "also",
+        "too",
+        "as well",
+        "and",
+        "both",
+        "plays",
+        "speaks",
+        "works",
+        "studies"
+      ],
+      "sentenceStarters": [
+        "John ___",
+        "He also ___",
+        "His sister ___ too",
+        "They both ___ as well"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-4",
+      "question": "Write a short paragraph starting two sentences with Also to add extra information (like moreover).",
+      "hint": "Use <strong>Also,</strong> at the beginning of a sentence with a comma. Example: <em>Take an umbrella. Also, wear comfortable shoes.</em>",
+      "expectedKeywords": [
+        "also",
+        "moreover",
+        "furthermore",
+        "addition",
+        "additionally",
+        "besides"
+      ],
+      "sentenceStarters": [
+        "First, ___",
+        "Also, ___",
+        "Finally, ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Write two sentences: one informal using too at the end, and one formal using I, too, with commas.",
+      "hint": "Informal: <em>I want to go too.</em> Formal: <em>I, too, would like to attend the meeting.</em>",
+      "expectedKeywords": [
+        "too",
+        "I too",
+        "also",
+        "formal",
+        "informal",
+        "meeting",
+        "attend",
+        "want",
+        "like"
+      ],
+      "sentenceStarters": [
+        "I want to ___ too",
+        "I, too, ___",
+        "She, too, ___"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-6",
+      "question": "Write three negative agreeing sentences using either. Show that you and others don't do something.",
+      "hint": "Use <strong>either</strong> at the end of negative sentences. Example: <em>I don't eat meat. My brother doesn't eat meat either.</em>",
+      "expectedKeywords": [
+        "either",
+        "don't",
+        "doesn't",
+        "didn't",
+        "can't",
+        "not",
+        "never",
+        "neither",
+        "nor"
+      ],
+      "sentenceStarters": [
+        "I don't ___",
+        "She doesn't ___ either",
+        "We can't ___ either"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct position for also:",
+      "sentence": "She sings and she ____ plays the piano.",
+      "options": [
+        "also",
+        "too",
+        "as well",
+        "either"
+      ],
+      "correctAnswer": [
+        "also"
+      ],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Before the main verb, use also. Too and as well go at the end.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which word fits best in this negative sentence?",
+      "sentence": "I don't like coffee, and I don't like tea ____.",
+      "options": [
+        "either",
+        "too",
+        "as well",
+        "also"
+      ],
+      "correctAnswer": [
+        "either"
+      ],
+      "audio": "game_2_sentence.mp3",
+      "hint": "In negative sentences, use either at the end. Too and as well are for positive sentences.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the most formal option:",
+      "sentence": "The manager approved the plan. ____, the director agreed.",
+      "options": [
+        "Also",
+        "Too",
+        "As well",
+        "Either"
+      ],
+      "correctAnswer": [
+        "Also"
+      ],
+      "audio": "game_3_sentence.mp3",
+      "hint": "Only Also can start a sentence to add information like 'moreover'. Too and As well cannot start sentences.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Where does also usually go with verbs other than be?",
+      "sentence": "Choose the correct position.",
+      "options": [
+        "Before the verb",
+        "After the verb",
+        "At the end",
+        "At the beginning"
+      ],
+      "correctAnswer": "Before the verb",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "With verbs other than be, also comes immediately before the main verb.",
+      "difficulty": "easy",
+      "explanation": "Also comes before the verb: I also sing. She also plays."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Where does too usually go?",
+      "sentence": "Choose the correct position.",
+      "options": [
+        "At the end of a clause",
+        "Before the verb",
+        "After be",
+        "At the beginning"
+      ],
+      "correctAnswer": "At the end of a clause",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Too typically occupies the final position in a clause.",
+      "difficulty": "easy",
+      "explanation": "Too usually comes at the end: I like it too. I am happy too."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which is used in negative sentences?",
+      "sentence": "Choose the correct word.",
+      "options": [
+        "either",
+        "too",
+        "also",
+        "as well"
+      ],
+      "correctAnswer": "either",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "Only either is used to agree with negative statements.",
+      "difficulty": "easy",
+      "explanation": "Either is used in negative sentences. Too, also, and as well are for positive sentences."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Choose the correct sentence:",
+      "sentence": "Select the grammatically correct option.",
+      "options": [
+        "I like pizza too",
+        "I too like pizza",
+        "Too I like pizza",
+        "I like too pizza"
+      ],
+      "correctAnswer": "I like pizza too",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "Too goes at the end of the clause.",
+      "difficulty": "easy",
+      "explanation": "Too goes at the end: I like pizza too. 'I too like pizza' is possible but formal and requires commas."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which sentence uses also correctly?",
+      "sentence": "Choose the correct sentence.",
+      "options": [
+        "She also speaks French",
+        "She speaks also French",
+        "She speaks French also",
+        "Also she speaks French"
+      ],
+      "correctAnswer": "She also speaks French",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Also goes before the main verb.",
+      "difficulty": "easy",
+      "explanation": "Also goes before the verb: She also speaks French. After be: She is also French."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Complete the negative sentence:",
+      "sentence": "I don't like it ____.",
+      "options": [
+        "either",
+        "too",
+        "also",
+        "as well"
+      ],
+      "correctAnswer": "either",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Negative sentences use either at the end.",
+      "difficulty": "easy",
+      "explanation": "In negative sentences, either goes at the end: I don't like it either."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Which can start a sentence?",
+      "sentence": "Choose the word that can begin a sentence.",
+      "options": [
+        "Also",
+        "Too",
+        "As well",
+        "Either"
+      ],
+      "correctAnswer": "Also",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Only also can function as a sentence starter meaning 'moreover'.",
+      "difficulty": "easy",
+      "explanation": "Also can start a sentence: Also, we need to consider the costs. Too and as well cannot start sentences."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Complete the sentence:",
+      "sentence": "I am Canadian ____.",
+      "options": [
+        "too",
+        "either",
+        "also",
+        "too and either"
+      ],
+      "correctAnswer": "too",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "Positive sentence at the end of a clause.",
+      "difficulty": "easy",
+      "explanation": "Too goes at the end of positive clauses: I am Canadian too."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which is formal?",
+      "sentence": "Choose the most formal option.",
+      "options": [
+        "I, too, agree",
+        "I agree too",
+        "Me too",
+        "I agree as well"
+      ],
+      "correctAnswer": "I, too, agree",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "Commas around too after the subject indicate formal usage.",
+      "difficulty": "medium",
+      "explanation": "'I, too, agree' with commas around too is formal. 'I agree too' is informal."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Complete the sentence:",
+      "sentence": "She not only sings ____ she also plays piano.",
+      "options": [
+        "but",
+        "and",
+        "too",
+        "as well"
+      ],
+      "correctAnswer": "but",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "The correlative conjunction is 'not only... but also'.",
+      "difficulty": "medium",
+      "explanation": "The correct pattern is 'not only... but also': She not only sings but she also plays piano."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Identify the error:",
+      "sentence": "As well, I would like to join.",
+      "options": [
+        "As well → Also",
+        "As well → Too",
+        "join → joins",
+        "like → likes"
+      ],
+      "correctAnswer": "As well → Also",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "As well cannot start a sentence.",
+      "difficulty": "medium",
+      "explanation": "As well cannot start a sentence. Use Also: Also, I would like to join."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Complete the sentence:",
+      "sentence": "Jane speaks French. Sam speaks French ____.",
+      "options": [
+        "too",
+        "either",
+        "also",
+        "neither"
+      ],
+      "correctAnswer": "too",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "Positive agreement at the end of the clause.",
+      "difficulty": "easy",
+      "explanation": "Too adds positive agreement at the end: Sam speaks French too."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which sentence is correct?",
+      "sentence": "Choose the correct option.",
+      "options": [
+        "I also want to go",
+        "I want also to go",
+        "I want to go also",
+        "Also I want to go"
+      ],
+      "correctAnswer": "I also want to go",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "Also goes before the main verb want.",
+      "difficulty": "medium",
+      "explanation": "Also goes before the main verb: I also want to go. Between auxiliary and verb: I have also wanted to go."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Complete the negative sentence:",
+      "sentence": "He doesn't study, and he doesn't work ____.",
+      "options": [
+        "either",
+        "too",
+        "also",
+        "as well"
+      ],
+      "correctAnswer": "either",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Negative agreement requires either at the end.",
+      "difficulty": "easy",
+      "explanation": "Either is used for negative agreement at the end of the clause."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Advanced: Which shows the most formal usage?",
+      "sentence": "Choose the best sentence.",
+      "options": [
+        "Mr. Smith, too, supported the proposal",
+        "Mr. Smith supported the proposal too",
+        "Mr. Smith also supported the proposal",
+        "Also Mr. Smith supported the proposal"
+      ],
+      "correctAnswer": "Mr. Smith, too, supported the proposal",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Formal too appears after the subject surrounded by commas.",
+      "difficulty": "hard",
+      "explanation": "'Mr. Smith, too, supported' with commas is the most formal. 'Also' is formal but 'too' with commas is the most sophisticated."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "also",
+      "hint": "Used to add an agreeing thought in positive sentences",
+      "clue": "a_s_",
+      "audio": "spell_word_1.mp3",
+      "sentence": "She not only sings but she also plays the piano.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "either",
+      "hint": "Used in negative sentences to add an agreeing thought",
+      "clue": "e_t_e_",
+      "audio": "spell_word_2.mp3",
+      "sentence": "I don't like coffee, and I don't like tea either.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "additionally",
+      "hint": "Formal synonym for also - used to add information across sentences",
+      "clue": "a_d_t_o_a_y",
+      "audio": "spell_word_3.mp3",
+      "sentence": "Additionally, we need to consider the costs.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "concept-explorer",
+        "name": "Addition Adverb Explorer",
+        "condition": "Complete all Also, Too & As well lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You have mastered also, too, as well, and either!"
+      },
+      {
+        "id": "writing-champion",
+        "name": "Addition Adverb Writing Star",
+        "condition": "Score 100% on 3 writing activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your writing shows perfect control of addition adverbs!"
+      },
+      {
+        "id": "game-master",
+        "name": "Addition Adverb Game Master",
+        "condition": "Complete all games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "You can place also, too, and as well perfectly!"
+      },
+      {
+        "id": "perfect-speller",
+        "name": "Addition Adverb Spelling Pro",
+        "condition": "Spell all addition adverb words correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "Perfect spelling of addition adverbs!"
+      },
+      {
+        "id": "speed-demon",
+        "name": "Speed Champion",
+        "condition": "Complete 5 activities in under 10 minutes each",
+        "icon": "⚡",
+        "points": 30,
+        "message": "Lightning fast and perfectly accurate!"
+      },
+      {
+        "id": "perfectionist",
+        "name": "Addition Adverb Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Absolute mastery of also, too, as well, and either!"
+      }
+    ]
+  }
+}

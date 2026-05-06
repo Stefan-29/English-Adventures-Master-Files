@@ -1,0 +1,670 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Forming Adverbs: The Magic of -ly ✨",
+      "content": "<p>Most adverbs are formed by adding <strong>-ly</strong> to adjectives. When you want to describe <em>how</em> someone does something, you need an adverb! 📚</p><p><strong>Basic Rule:</strong> adjective + ly = adverb.</p><table class=\"lesson-table table-blue\"><tr><th>Adjective</th><th>+ ly</th><th>Adverb</th></tr><tr><td>slow</td><td>+ ly</td><td><strong>slowly</strong></td></tr><tr><td>quick</td><td>+ ly</td><td><strong>quickly</strong></td></tr><tr><td>clear</td><td>+ ly</td><td><strong>clearly</strong></td></tr></table><p><strong>Special Rules:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Rule</th><th>Pattern</th><th>Example</th></tr><tr><td>Ends in <strong>-l</strong></td><td>Double the l, add y</td><td>careful → <strong>carefully</strong>, graceful → <strong>gracefully</strong></td></tr><tr><td>Ends in <strong>-y</strong></td><td>Change y to i, add ly</td><td>busy → <strong>busily</strong>, easy → <strong>easily</strong>, lucky → <strong>luckily</strong></td></tr><tr><td>Ends in <strong>-able, -ible, -le</strong></td><td>Replace final e with y</td><td>probable → <strong>probably</strong>, incredible → <strong>incredibly</strong>, humble → <strong>humbly</strong></td></tr><tr><td>Ends in <strong>-ic</strong></td><td>Add -ally</td><td>basic → <strong>basically</strong>, dynamic → <strong>dynamically</strong>, energetic → <strong>energetically</strong></td></tr></table><p><strong>Exception:</strong> The word \"public\" breaks the -ic rule: public → <strong>publicly</strong>!</p><p><em>Fun fact: The word \"public\" breaks the -ic rule: public → publicly! 💡</em></p>",
+      "examples": [
+        "She danced <strong>gracefully</strong> across the stage.",
+        "He drove <strong>carefully</strong> along the icy road.",
+        "The technician explained the problem <strong>very clearly</strong>."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": [
+        "Describing how actions are performed",
+        "Transforming adjectives into adverbs correctly"
+      ],
+      "tips": "💡 <strong>Quick Rule:</strong> If the adjective ends in -y, change y to i before adding -ly (except shy → shyly)."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Tricky Adverbs: Exceptions You Must Know 🚨",
+      "content": "<p>Not all adverbs follow the -ly rule! Some are <strong>exceptions</strong> you must memorize. 🎯</p><p><strong>Common Exception Adverbs:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Adjective</th><th>Adverb</th><th>Example</th></tr><tr><td>good</td><td><strong>well</strong></td><td>She sings well.</td></tr><tr><td>hard</td><td><strong>hard</strong></td><td>He works hard.</td></tr><tr><td>fast</td><td><strong>fast</strong></td><td>She runs fast.</td></tr><tr><td>early</td><td><strong>early</strong></td><td>He arrived early.</td></tr><tr><td>late</td><td><strong>late</strong></td><td>She came home late.</td></tr><tr><td>daily</td><td><strong>daily</strong></td><td>Exercise daily.</td></tr><tr><td>straight</td><td><strong>straight</strong></td><td>Go straight ahead.</td></tr></table><p><strong>Important Trap — Words That Look Like Adverbs But Are Adjectives:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Word</th><th>Actually Is</th><th>Example</th><th>Correct Usage</th></tr><tr><td>friendly</td><td>Adjective</td><td>a friendly person</td><td>NOT \"She speaks friendly\" ❌</td></tr><tr><td>lovely</td><td>Adjective</td><td>a lovely day</td><td>NOT \"She sings lovely\" ❌</td></tr><tr><td>lonely</td><td>Adjective</td><td>a lonely street</td><td>NOT \"He lives lonely\" ❌</td></tr><tr><td>lively</td><td>Adjective</td><td>a lively conversation</td><td>NOT \"She talks lively\" ❌</td></tr><tr><td>silly</td><td>Adjective</td><td>a silly remark</td><td>NOT \"He acts silly\" (informal only)</td></tr><tr><td>ugly</td><td>Adjective</td><td>an ugly duckling</td><td>NOT \"She dresses ugly\" ❌</td></tr></table><p><em>Fun fact: \"Good\" is one of the most commonly misused words in English—remember, it is an adjective, while \"well\" is the adverb! 🌟</em></p>",
+      "examples": [
+        "Tom plays tennis <strong>well</strong> (not good!).",
+        "She works <strong>hard</strong> every day.",
+        "a <strong>friendly</strong> teacher (adjective, not adverb!)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_exceptions.mp3",
+      "functions": [
+        "Using common exception adverbs correctly",
+        "Avoiding adjective/adverb confusion"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> GOOD describes nouns (a good book). WELL describes verbs (she sings well)."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Where Do Manner Adverbs Go? 🎯",
+      "content": "<p>Adverbs of manner answer the question <strong>\"How?\"</strong> and they usually sit <strong>after the verb</strong> or <strong>after the verb + object</strong>. 🎨</p><p><strong>Standard Position:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Structure</th><th>Position</th><th>Example</th></tr><tr><td>Verb only</td><td>After verb</td><td>He spoke <strong>clearly</strong>.</td></tr><tr><td>Verb + object</td><td>After object</td><td>He read the instructions <strong>carefully</strong>.</td></tr></table><p><strong>Exception — Long Object:</strong></p><table class=\"lesson-table table-green\"><tr><th>When Object Is Long</th><th>Adverb Position</th><th>Example</th></tr><tr><td>Object has multiple items</td><td>Before verb (for rhythm)</td><td>He <strong>slowly</strong> moved the newspaper, pencil, and coffee cup, then picked up the book.</td></tr></table><p><strong>Position Comparison:</strong></p><table class=\"lesson-table table-green\"><tr><th>Standard</th><th>With Long Object</th></tr><tr><td>She sings <strong>beautifully</strong>.</td><td>She <strong>beautifully</strong> sang the entire opera from memory.</td></tr><tr><td>He answered <strong>correctly</strong>.</td><td>He <strong>correctly</strong> answered every question on the exam.</td></tr></table><p><em>Fun fact: Moving the adverb before the verb adds drama and emphasis to the action! ⚡</em></p>",
+      "examples": [
+        "She sings <strong>beautifully</strong>.",
+        "He answered the question <strong>correctly</strong>.",
+        "They walked <strong>slowly</strong> through the park."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_3_manner.mp3",
+      "functions": [
+        "Placing manner adverbs naturally in sentences",
+        "Adjusting position for sentence rhythm"
+      ],
+      "tips": "💡 <strong>Rule:</strong> Manner adverbs usually go at the end of the action: verb + object + manner adverb."
+    },
+    {
+      "id": "lesson-4",
+      "title": "How Often? Placing Frequency Adverbs 📅",
+      "content": "<p>Adverbs of frequency tell us <strong>how often</strong> something happens. Their position depends on the verb structure! 📊</p><p><strong>Three Key Positions:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Position</th><th>Rule</th><th>Example</th></tr><tr><td>1</td><td><strong>After the verb BE</strong></td><td>Tom <strong>is always</strong> late. English grammar <strong>is sometimes</strong> difficult.</td></tr><tr><td>2</td><td><strong>Before all other verbs</strong></td><td>Eva <strong>sometimes takes</strong> the bus. They <strong>rarely eat</strong> processed food.</td></tr><tr><td>3</td><td><strong>Between two verbs</strong></td><td>You <strong>can always change</strong> it later. I <strong>would never have</strong> found the way.</td></tr></table><p><strong>Infinitive Exception:</strong></p><table class=\"lesson-table table-green\"><tr><th>Structure</th><th>Position</th><th>Example</th></tr><tr><td>Verb + infinitive</td><td>Before both verbs</td><td>We <strong>generally try</strong> to eat healthy food.</td></tr><tr><td>Verb + infinitive</td><td>Before both verbs</td><td>Charlie <strong>often needs</strong> to ask for advice.</td></tr></table><p><strong>Frequency Adverb Scale:</strong></p><table class=\"lesson-table table-green\"><tr><th>Adverb</th><th>Frequency</th></tr><tr><td><strong>always</strong></td><td>100%</td></tr><tr><td><strong>usually</strong></td><td>~80%</td></tr><tr><td><strong>often / frequently</strong></td><td>~60%</td></tr><tr><td><strong>sometimes</strong></td><td>~40%</td></tr><tr><td><strong>rarely / seldom</strong></td><td>~10%</td></tr><tr><td><strong>never</strong></td><td>0%</td></tr></table><p><em>Fun fact: Frequency adverbs are the most commonly misplaced adverbs in learner writing! 🎓</em></p>",
+      "examples": [
+        "She <strong>is always</strong> on time.",
+        "They <strong>rarely eat</strong> out.",
+        "We <strong>have often discussed</strong> this topic."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_frequency.mp3",
+      "functions": [
+        "Expressing habits and routines",
+        "Positioning frequency adverbs correctly"
+      ],
+      "tips": "💡 <strong>Pro tip:</strong> After BE, before DO. If there are two verbs, put the adverb between them."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Place & Degree: Here, There, Really, Quite 📍",
+      "content": "<p>Place adverbs and degree adverbs have their own favorite positions in the sentence! 🌍</p><p><strong>Place Adverbs</strong> (here, there, inside, outside):</p><table class=\"lesson-table table-blue\"><tr><th>Position</th><th>Example</th></tr><tr><td>Usually at the <strong>end</strong></td><td>Come and sit <strong>here</strong>.</td></tr><tr><td>Usually at the <strong>end</strong></td><td>They are waiting <strong>inside</strong>.</td></tr></table><p><strong>Degree Adverbs</strong> (really, quite, very, too, extremely):</p><table class=\"lesson-table table-blue\"><tr><th>Position</th><th>Example</th></tr><tr><td>Usually <strong>before the verb</strong></td><td>I <strong>really</strong> love that dress.</td></tr><tr><td>Usually <strong>before the verb</strong></td><td>She <strong>quite</strong> liked the idea of a picnic.</td></tr></table><p><strong>Between Two Verbs:</strong></p><table class=\"lesson-table table-green\"><tr><th>Structure</th><th>Example</th></tr><tr><td>Modal + main verb</td><td>I would <strong>just</strong> like a glass of water.</td></tr><tr><td>Have + past participle</td><td>I have <strong>really</strong> enjoyed this.</td></tr></table><p><strong>At the End (Special Cases):</strong></p><table class=\"lesson-table table-green\"><tr><th>Phrase</th><th>Example</th></tr><tr><td>a lot</td><td>He watches television <strong>a lot</strong>.</td></tr><tr><td>very much</td><td>She enjoys reading <strong>very much</strong>.</td></tr></table><p><em>Fun fact: \"Really\" is the most common degree adverb in spoken English! 💬</em></p>",
+      "examples": [
+        "The children are playing <strong>outside</strong>.",
+        "I <strong>really</strong> enjoy classical music.",
+        "She <strong>quite</strong> likes the idea."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_place_degree.mp3",
+      "functions": [
+        "Indicating location and intensity",
+        "Balancing sentence structure"
+      ],
+      "tips": "💡 <strong>Remember:</strong> Place adverbs answer \"Where?\" and like the end. Degree adverbs answer \"How much?\" and like to be close to the verb."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Stacking Adverbs: Manner + Place + Time 🎪",
+      "content": "<p>When you use more than one adverb, there is a <strong>special order</strong> to make your sentence sound natural! 🎭</p><p><strong>The Golden Rule: MANNER / PLACE / TIME</strong> (How → Where → When)</p><table class=\"lesson-table table-blue\"><tr><th>Order</th><th>Type</th><th>Question</th><th>Example Word</th></tr><tr><td>1st</td><td><strong>MANNER</strong></td><td>How?</td><td>carefully, beautifully, slowly</td></tr><tr><td>2nd</td><td><strong>PLACE</strong></td><td>Where?</td><td>upstairs, abroad, at the concert</td></tr><tr><td>3rd</td><td><strong>TIME</strong></td><td>When?</td><td>yesterday, recently, last night</td></tr></table><p><strong>Examples in Action:</strong></p><table class=\"lesson-table table-green\"><tr><th>Sentence</th><th>Manner</th><th>Place</th><th>Time</th></tr><tr><td>He <strong>carefully</strong> carried the baby <strong>upstairs</strong>.</td><td>carefully</td><td>upstairs</td><td>—</td></tr><tr><td>They moved <strong>abroad</strong> <strong>recently</strong>.</td><td>—</td><td>abroad</td><td>recently</td></tr><tr><td>She sang <strong>beautifully</strong> <strong>at the concert</strong> <strong>yesterday</strong>.</td><td>beautifully</td><td>at the concert</td><td>yesterday</td></tr></table><p><strong>Emphasis Trick:</strong></p><table class=\"lesson-table table-green\"><tr><th>Standard</th><th>Fronted for Emphasis</th></tr><tr><td>They moved abroad recently.</td><td><strong>Recently</strong>, they moved abroad.</td></tr><tr><td>She sang beautifully at the concert yesterday.</td><td><strong>Yesterday</strong>, she sang beautifully at the concert.</td></tr></table><p><em>Fun fact: English is one of the few languages with this specific M-P-T adverb order! 🌍</em></p>",
+      "examples": [
+        "She sang <strong>beautifully</strong> <strong>at the concert</strong> <strong>yesterday</strong>.",
+        "He drove <strong>carefully</strong> <strong>along the icy road</strong> <strong>last night</strong>.",
+        "<strong>Recently</strong>, they moved abroad."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_order.mp3",
+      "functions": [
+        "Combining multiple adverbs smoothly",
+        "Creating rich descriptive sentences"
+      ],
+      "tips": "💡 <strong>M-P-T:</strong> Manner, Place, Time. \"How\" comes before \"Where,\" which comes before \"When.\""
+    },
+    {
+      "id": "lesson-7",
+      "title": "Frequency Phrases & Advanced Position 🔍",
+      "content": "<p>Frequency <strong>phrases</strong> (every day, once a week) behave differently from single-word frequency adverbs! 🔎</p><p><strong>Position of Frequency Phrases:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Position</th><th>Example</th><th>Effect</th></tr><tr><td>At the <strong>beginning</strong></td><td><strong>Every so often</strong>, Anna goes to the library.</td><td>Emphasis on frequency</td></tr><tr><td>At the <strong>end</strong></td><td>She plays tennis <strong>once a week</strong>.</td><td>Neutral information</td></tr></table><p><strong>Complex Verb Structures:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Structure</th><th>Position</th><th>Example</th></tr><tr><td>have/has + past participle</td><td>Between have and participle</td><td>Julie <strong>has never travelled</strong> by plane.</td></tr><tr><td>modal + have + past participle</td><td>After first verb</td><td>I <strong>would never have thought</strong> that.</td></tr><tr><td>verb + infinitive</td><td>Before both verbs</td><td>Charlie <strong>often needs</strong> to ask for advice.</td></tr></table><p><strong>Important Distinction:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Two Words</th><th>One Word</th><th>Part of Speech</th></tr><tr><td><strong>every day</strong></td><td><strong>everyday</strong></td><td>Adjective</td></tr><tr><td>I exercise every day.</td><td>an everyday activity</td><td>—</td></tr></table><p><em>Fun fact: \"Every day\" (two words) is an adverb phrase, but \"everyday\" (one word) is an adjective! 📝</em></p>",
+      "examples": [
+        "I wash my hair <strong>every day</strong>.",
+        "We <strong>generally try</strong> to eat healthy food.",
+        "You <strong>can always change</strong> your password later."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_phrases.mp3",
+      "functions": [
+        "Using frequency phrases naturally",
+        "Handling complex verb structures"
+      ],
+      "tips": "💡 <strong>Never forget:</strong> Frequency phrases at the beginning add emphasis. Single-word frequency adverbs follow the be/verb/auxiliary rules."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Adverbs in Complex Sentences 🏆",
+      "content": "<p>You have come so far! Let us tackle the <strong>advanced nuances</strong> that separate good from great. 🌟</p><p><strong>Fronted Adverbs for Emphasis:</strong></p><table class=\"lesson-table table-blue\"><tr><th>Technique</th><th>Structure</th><th>Example</th><th>Effect</th></tr><tr><td>Fronted adverb + comma</td><td>[Adverb], + subject + verb</td><td><strong>Slowly and carefully</strong>, he opened the door.</td><td>Drama, suspense</td></tr><tr><td>Fronted adverb + comma</td><td>[Adverb], + subject + verb</td><td><strong>Honestly</strong>, I do not know the answer.</td><td>Directness, sincerity</td></tr></table><p><strong>Formal vs Informal Register:</strong></p><table class=\"lesson-table table-green\"><tr><th>Register</th><th>Example</th><th>Status</th></tr><tr><td>Informal (spoken)</td><td>He drives slow.</td><td>❌ Non-standard</td></tr><tr><td>Formal (written)</td><td>He drives <strong>slowly</strong>.</td><td>✅ Standard</td></tr></table><p><strong>Common Errors to Avoid:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Wrong ❌</th><th>Problem</th><th>Right ✅</th></tr><tr><td>She speaks perfect.</td><td>Adjective describing verb</td><td>She speaks <strong>perfectly</strong>.</td></tr><tr><td>He runs quick.</td><td>Adjective describing verb</td><td>He runs <strong>quickly</strong>.</td></tr><tr><td>a friendly smile person</td><td>Wrong word order</td><td>a person with a friendly smile</td></tr></table><p><strong>Mastery Checklist:</strong></p><table class=\"lesson-table table-orange\"><tr><th>Skill</th><th>Status</th></tr><tr><td>-ly formation rules</td><td>✅</td></tr><tr><td>Exception adverbs memorized</td><td>✅</td></tr><tr><td>Manner adverb position</td><td>✅</td></tr><tr><td>Frequency adverb position (be/do/auxiliary)</td><td>✅</td></tr><tr><td>M-P-T stacking order</td><td>✅</td></tr><tr><td>Fronted adverbs for emphasis</td><td>✅</td></tr><tr><td>Formal vs informal register</td><td>✅</td></tr></table><p><em>Fun fact: Fronting an adverb and using a comma after it is a classic literary technique used by great writers! 📖</em></p>",
+      "examples": [
+        "<strong>Slowly and carefully</strong>, he approached the door.",
+        "<strong>Honestly</strong>, I do not know the answer.",
+        "The test was <strong>incredibly</strong> difficult."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Using adverbs for stylistic effect",
+        "Mastering formal and informal registers"
+      ],
+      "tips": "💡 <strong>Master level:</strong> Fronting an adverb (putting it first) adds drama and emphasis. Always use a comma after a fronted adverb."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Describe your morning routine using adverbs of manner and frequency. Include: at least 2 adverbs of manner, at least 1 adverb of frequency, and 3 action verbs.",
+      "hint": "Start with 'Every morning, I...'. Make sure to use adverbs like <strong>slowly, carefully, quickly</strong> and frequency words like <strong>always, usually, often</strong>.",
+      "expectedKeywords": [
+        "slowly",
+        "quickly",
+        "carefully",
+        "always",
+        "usually",
+        "often",
+        "eat",
+        "drive",
+        "walk",
+        "read",
+        "work"
+      ],
+      "sentenceStarters": [
+        "Every morning, I ___",
+        "I usually ___ because ___",
+        "Then I ___"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Compare your habits with a friend's habits using adverbs of frequency. Use 3 different frequency adverbs and include a contrast word (however, although, but).",
+      "hint": "Remember: place frequency adverbs after 'be' (is always) or before other verbs (always goes). Use <strong>however</strong> to show differences.",
+      "expectedKeywords": [
+        "always",
+        "usually",
+        "sometimes",
+        "rarely",
+        "never",
+        "often",
+        "however",
+        "although",
+        "but"
+      ],
+      "sentenceStarters": [
+        "I always ___, but my friend ___",
+        "Although I ___, she ___",
+        "We both ___, however ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write about a memorable trip using multiple adverbs in the correct order (manner, place, time). Include a time clause with when, before, after, or while.",
+      "hint": "This requires 3 different types of adverbs. Pay attention to the M-P-T order (Manner-Place-Time). Model: <em>We walked slowly through the park yesterday.</em>",
+      "expectedKeywords": [
+        "slowly",
+        "quickly",
+        "carefully",
+        "here",
+        "there",
+        "outside",
+        "yesterday",
+        "recently",
+        "tomorrow",
+        "when",
+        "before",
+        "after"
+      ],
+      "sentenceStarters": [
+        "Last year, I ___",
+        "When I arrived, I ___",
+        "We ___ because ___"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-4",
+      "question": "Write 3 sentences transforming adjectives into adverbs correctly. Use at least one exception adverb (well, hard, fast, early, late, daily, straight).",
+      "hint": "Transform adjectives like careful → carefully, easy → easily, probable → probably. Remember the exceptions!",
+      "expectedKeywords": [
+        "carefully",
+        "easily",
+        "probably",
+        "quickly",
+        "slowly",
+        "well",
+        "hard",
+        "fast",
+        "early",
+        "daily"
+      ],
+      "sentenceStarters": [
+        "The driver was ___ so he drove ___",
+        "It was an ___ test so I ___",
+        "She is a ___ speaker so she speaks ___"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-5",
+      "question": "Describe your feelings about a recent event using adverbs of degree (really, quite, very, too, extremely). Use at least 2 degree adverbs in the correct position.",
+      "hint": "Place degree adverbs <strong>before the verb</strong> (I really enjoyed) or <strong>between two verbs</strong> (I have really enjoyed).",
+      "expectedKeywords": [
+        "really",
+        "quite",
+        "very",
+        "too",
+        "extremely",
+        "almost",
+        "nearly",
+        "enjoyed",
+        "liked",
+        "wanted",
+        "interested"
+      ],
+      "sentenceStarters": [
+        "I really ___",
+        "The movie was quite ___",
+        "I have always really ___"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write about your family's habits showing correct frequency adverb position. Use at least one frequency adverb after 'be', one before a main verb, and one between two verbs.",
+      "hint": "After be: My dad <strong>is always</strong> early. Before verb: We <strong>usually eat</strong> at 7. Between verbs: I <strong>have always liked</strong> chocolate.",
+      "expectedKeywords": [
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "rarely",
+        "never",
+        "is",
+        "are",
+        "have",
+        "has",
+        "can",
+        "would"
+      ],
+      "sentenceStarters": [
+        "My mother is always ___",
+        "We usually ___",
+        "I have always ___"
+      ],
+      "difficulty": 2
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct adverb form:",
+      "sentence": "She speaks very ____.",
+      "options": [
+        "well",
+        "good",
+        "careful",
+        "carefully"
+      ],
+      "correctAnswer": [
+        "well"
+      ],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Use an adverb to describe the verb 'speaks'. 'Good' is an adjective.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which position is correct?",
+      "sentence": "Tom ____ late for appointments.",
+      "options": [
+        "is always",
+        "always is",
+        "always",
+        "late always"
+      ],
+      "correctAnswer": [
+        "is always"
+      ],
+      "audio": "game_2_sentence.mp3",
+      "hint": "Frequency adverbs go AFTER the verb 'be'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Advanced: Complete with the most precise adverb:",
+      "sentence": "He ____ carried the boxes downstairs this morning.",
+      "options": [
+        "carefully",
+        "careful",
+        "slow",
+        "quick"
+      ],
+      "correctAnswer": [
+        "carefully"
+      ],
+      "audio": "game_3_sentence.mp3",
+      "hint": "You need an adverb to describe how he carried. Choose the adverb form.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What is the adverb form of 'quick'?",
+      "sentence": "The adverb form of quick is ____.",
+      "options": [
+        "quickly",
+        "quickely",
+        "quicly",
+        "quick"
+      ],
+      "correctAnswer": "quickly",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Most adjectives add -ly to become adverbs.",
+      "difficulty": "easy",
+      "explanation": "Quick + ly = quickly. 'Quick' is the adjective; 'quickly' is the adverb."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence uses an adverb correctly?",
+      "sentence": "Choose the correct sentence.",
+      "options": [
+        "She sings beautiful",
+        "She sings beautifully",
+        "She beautiful sings",
+        "She is sings beautifully"
+      ],
+      "correctAnswer": "She sings beautifully",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Use an adverb (beautifully) to describe the verb 'sings'.",
+      "difficulty": "easy",
+      "explanation": "'Beautifully' is the adverb form. 'Beautiful' is an adjective and cannot describe the verb 'sings'."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Where do adverbs of frequency usually go after the verb 'be'?",
+      "sentence": "Tom ____ late.",
+      "options": [
+        "is always",
+        "always is",
+        "is late always",
+        "always late is"
+      ],
+      "correctAnswer": "is always",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "After the verb 'be', frequency adverbs come immediately after.",
+      "difficulty": "medium",
+      "explanation": "After 'be', frequency adverbs go immediately after: is always, are usually, was never."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Choose the correct form to complete the sentence:",
+      "sentence": "He drives ____.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefull",
+        "careless"
+      ],
+      "correctAnswer": "carefully",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "You need an adverb to describe the verb 'drives'.",
+      "difficulty": "medium",
+      "explanation": "'Carefully' is the adverb. 'Careful' is an adjective. 'Careless' is also an adjective."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which sentence has the adverb in the correct position?",
+      "sentence": "Choose the correct word order.",
+      "options": [
+        "He speaks clearly the instructions",
+        "He clearly speaks the instructions",
+        "He speaks the instructions clearly",
+        "Clearly he speaks the instructions"
+      ],
+      "correctAnswer": "He speaks the instructions clearly",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Manner adverbs usually go after the verb + object.",
+      "difficulty": "easy",
+      "explanation": "Manner adverbs usually follow the verb and object: speaks the instructions clearly."
+    },
+    {
+      "id": "quiz-6",
+      "question": "What is the correct adverb from 'happy'?",
+      "sentence": "happy → ____",
+      "options": [
+        "happily",
+        "happyly",
+        "happiely",
+        "happy"
+      ],
+      "correctAnswer": "happily",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Adjectives ending in -y change y to i before adding -ly.",
+      "difficulty": "easy",
+      "explanation": "Happy ends in -y, so change y to i: happily."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct order of multiple adverbs:",
+      "sentence": "She sang ____ ____ ____.",
+      "options": [
+        "beautifully at the concert yesterday",
+        "yesterday at the concert beautifully",
+        "at the concert beautifully yesterday",
+        "beautifully yesterday at the concert"
+      ],
+      "correctAnswer": "beautifully at the concert yesterday",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Remember M-P-T: Manner, Place, Time.",
+      "difficulty": "hard",
+      "explanation": "The correct order is Manner (beautifully) + Place (at the concert) + Time (yesterday)."
+    },
+    {
+      "id": "quiz-8",
+      "question": "What is the adverb form of 'good'?",
+      "sentence": "good → ____",
+      "options": [
+        "well",
+        "goodly",
+        "good",
+        "better"
+      ],
+      "correctAnswer": "well",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "'Good' is an exception adjective.",
+      "difficulty": "medium",
+      "explanation": "'Good' → 'well'. This is an irregular adverb form you must memorize."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which sentence uses a frequency adverb correctly?",
+      "sentence": "Choose the correct sentence.",
+      "options": [
+        "She always is on time",
+        "She is always on time",
+        "She is on time always",
+        "Always she is on time"
+      ],
+      "correctAnswer": "She is always on time",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "After 'be', the frequency adverb goes immediately after the verb.",
+      "difficulty": "medium",
+      "explanation": "After 'be': is always. Before other verbs: always arrives."
+    },
+    {
+      "id": "quiz-10",
+      "question": "What is the adverb form of 'probable'?",
+      "sentence": "probable → ____",
+      "options": [
+        "probably",
+        "probablely",
+        "probly",
+        "probaly"
+      ],
+      "correctAnswer": "probably",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Adjectives ending in -le drop the e and add -y.",
+      "difficulty": "easy",
+      "explanation": "Probable ends in -le, so replace e with y: probably."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Which question form is correct for adverb position?",
+      "sentence": "____",
+      "options": [
+        "Is he always late?",
+        "He is always late?",
+        "Always is he late?",
+        "Is always he late?"
+      ],
+      "correctAnswer": "Is he always late?",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "In questions, 'be' comes before the subject, and the frequency adverb follows 'be'.",
+      "difficulty": "medium",
+      "explanation": "Question: Is (be) + he (subject) + always (frequency) + late?"
+    },
+    {
+      "id": "quiz-12",
+      "question": "Advanced: Which sentence is most precise?",
+      "sentence": "Choose the best sentence.",
+      "options": [
+        "He slowly and carefully opened the door",
+        "He slow and careful opened the door",
+        "He opened the door slow and careful",
+        "Slow and careful, he opened the door"
+      ],
+      "correctAnswer": "He slowly and carefully opened the door",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "Use adverbs (slowly, carefully) to describe the verb 'opened'.",
+      "difficulty": "hard",
+      "explanation": "'Slowly' and 'carefully' are adverbs. 'Slow' and 'careful' are adjectives and cannot directly describe the verb."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Identify the error in this sentence:",
+      "sentence": "She runs very quick.",
+      "options": [
+        "quick → quickly",
+        "very → too",
+        "runs → run",
+        "She → Her"
+      ],
+      "correctAnswer": "quick → quickly",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "Use an adverb to describe the verb 'runs'.",
+      "difficulty": "medium",
+      "explanation": "'Quick' is an adjective. The adverb is 'quickly'. She runs very quickly."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Which best expresses manner + place + time?",
+      "sentence": "They danced ____ ____ ____.",
+      "options": [
+        "happily in the garden last night",
+        "in the garden happily last night",
+        "last night in the garden happily",
+        "happily last night in the garden"
+      ],
+      "correctAnswer": "happily in the garden last night",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Manner (happily) + Place (in the garden) + Time (last night).",
+      "difficulty": "hard",
+      "explanation": "The standard order is Manner + Place + Time: happily (how) + in the garden (where) + last night (when)."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Complete the sequence with the correct adverb forms:",
+      "sentence": "First, I ____ read the newspaper. Then, I ____ walked the dog.",
+      "options": [
+        "quickly / slowly",
+        "quick / slow",
+        "quickly / slow",
+        "quick / slowly"
+      ],
+      "correctAnswer": "quickly / slowly",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Both blanks need adverbs to describe the verbs 'read' and 'walked'.",
+      "difficulty": "hard",
+      "explanation": "'Quickly' and 'slowly' are adverbs. 'Quick' and 'slow' are adjectives."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "carefully",
+      "hint": "Adverb of manner - in a careful way (adjective careful + ly)",
+      "clue": "c_r_f_l_y",
+      "audio": "spell_word_1.mp3",
+      "sentence": "He drove carefully along the icy road.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "frequently",
+      "hint": "Adverb of frequency - happening often (adjective frequent + ly)",
+      "clue": "f_r_q_e_t_y",
+      "audio": "spell_word_2.mp3",
+      "sentence": "She frequently visits her grandmother.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "gracefully",
+      "hint": "Adverb of manner - with grace and elegance (adjective graceful + ly, note double l)",
+      "clue": "g_a_e_u_y",
+      "audio": "spell_word_3.mp3",
+      "sentence": "The dancer moved gracefully across the stage.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "concept-explorer",
+        "name": "Adverb Explorer",
+        "condition": "Complete all Adverb Formation & Position lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You have mastered how adverbs are formed and placed!"
+      },
+      {
+        "id": "writing-champion",
+        "name": "Adverb Writing Star",
+        "condition": "Score 100% on 3 writing activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your writing is rich with precise adverbs!"
+      },
+      {
+        "id": "game-master",
+        "name": "Adverb Game Master",
+        "condition": "Complete all games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "You can spot the right adverb form instantly!"
+      },
+      {
+        "id": "perfect-speller",
+        "name": "Adverb Spelling Pro",
+        "condition": "Spell all adverb words correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "Perfect spelling of tricky adverbs!"
+      },
+      {
+        "id": "speed-demon",
+        "name": "Speed Champion",
+        "condition": "Complete 5 activities in under 10 minutes each",
+        "icon": "⚡",
+        "points": 30,
+        "message": "Lightning fast and perfectly accurate!"
+      },
+      {
+        "id": "perfectionist",
+        "name": "Adverb Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Absolute mastery of adverb formation and position!"
+      }
+    ]
+  }
+}

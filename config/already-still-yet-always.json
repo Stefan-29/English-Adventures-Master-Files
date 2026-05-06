@@ -1,0 +1,139 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Already, Still, Yet & Always",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Already, Still, Yet & Always",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Already, Still, Yet & Always Lessons",
+        "instructions": "Master already, still, yet, and always to express completion, continuation, expectation, and habits in present perfect and other tenses."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using already with present perfect, still with continuous situations, yet in negatives and questions, and always with habits."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between already, still, yet, and always in different contexts and tenses."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Already, Still, Yet & Always Challenge",
+        "instructions": "Apply already, still, yet, and always correctly in complex sentences. Master contrastive yet and advanced present perfect usage."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Already",
+        "words": [
+          "already",
+          "just",
+          "recently",
+          "lately",
+          "so far",
+          "up to now",
+          "by now",
+          "long since"
+        ]
+      },
+      {
+        "title": "Still",
+        "words": [
+          "still",
+          "yet",
+          "anymore",
+          "no longer",
+          "continuously",
+          "constantly",
+          "continually",
+          "persistently"
+        ]
+      },
+      {
+        "title": "Always",
+        "words": [
+          "always",
+          "forever",
+          "constantly",
+          "continually",
+          "invariably",
+          "without fail",
+          "every time",
+          "all the time"
+        ]
+      },
+      {
+        "title": "Yet",
+        "words": [
+          "yet",
+          "already",
+          "still",
+          "nevertheless",
+          "however",
+          "nonetheless",
+          "even so",
+          "but"
+        ]
+      },
+      {
+        "title": "Time Expressions",
+        "words": [
+          "this morning",
+          "today",
+          "recently",
+          "so far",
+          "up to now",
+          "for years",
+          "since 2020",
+          "lately"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "I have already...",
+          "Are you still...?",
+          "The... has not arrived yet",
+          "I always...",
+          "Have you... yet?",
+          "She is still...",
+          "They have already...",
+          "We always..."
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/already-still-yet-always.json",
+  "grammarChecker": "alreadyStillYetAlways.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

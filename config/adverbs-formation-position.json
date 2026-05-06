@@ -1,0 +1,159 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Adverb Formation & Position",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Adverb Formation & Position",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Adverb Lessons",
+        "instructions": "Master adverb formation rules, position in sentences, and the correct order of multiple adverbs to describe actions precisely. Understand the key distinctions between adjectives and adverbs."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using adverbs of manner, frequency, place, and degree. Apply formation rules and position patterns in real contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Grammar Games",
+        "instructions": "Play games to practice choosing between adjective and adverb forms, placing adverbs correctly, and ordering multiple adverbs."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Adverb Challenge",
+        "instructions": "Apply adverb formation rules, position patterns, and multiple adverb order correctly in sentences. Master advanced adverb usage."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Adverb Formation Rules",
+        "words": [
+          "slowly",
+          "quickly",
+          "carefully",
+          "easily",
+          "probably",
+          "incredibly",
+          "basically",
+          "dynamically",
+          "well",
+          "hard",
+          "fast",
+          "early"
+        ]
+      },
+      {
+        "title": "Adverbs of Manner",
+        "words": [
+          "gracefully",
+          "happily",
+          "carefully",
+          "clearly",
+          "widely",
+          "busily",
+          "hopefully",
+          "humbly",
+          "energetically",
+          "slowly",
+          "quickly",
+          "beautifully"
+        ]
+      },
+      {
+        "title": "Adverbs of Frequency",
+        "words": [
+          "always",
+          "often",
+          "sometimes",
+          "rarely",
+          "never",
+          "usually",
+          "generally",
+          "regularly",
+          "seldom",
+          "frequently",
+          "occasionally",
+          "constantly"
+        ]
+      },
+      {
+        "title": "Adverbs of Place & Degree",
+        "words": [
+          "here",
+          "there",
+          "inside",
+          "outside",
+          "really",
+          "quite",
+          "very",
+          "too",
+          "extremely",
+          "almost",
+          "nearly",
+          "especially"
+        ]
+      },
+      {
+        "title": "Common Adverbs",
+        "words": [
+          "already",
+          "still",
+          "yet",
+          "always",
+          "too",
+          "also",
+          "as well",
+          "either",
+          "late",
+          "daily",
+          "straight",
+          "equally"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "He spoke...",
+          "Tom is...",
+          "They moved...",
+          "I really...",
+          "She dances...",
+          "The children are playing...",
+          "He drove...",
+          "We generally try to..."
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/adverbs-formation-position.json",
+  "grammarChecker": "adverbsFormationPosition.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}
