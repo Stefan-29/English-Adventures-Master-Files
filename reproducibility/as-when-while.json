@@ -1,0 +1,398 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "As, When, and While: Understanding Time 🎯",
+      "content": "<p>When you want to show <strong>two events happening together or in sequence</strong>, you use <strong>as</strong>, <strong>when</strong>, or <strong>while</strong>! 📚</p><p><strong>Core Meaning:</strong> All three indicate temporal relationships, but they differ in focus and grammatical pairing. Select based on whether you're emphasizing a <em>moment</em>, a <em>duration</em>, or <em>progression</em>.</p><table class='lesson-table table-blue'><thead><tr><th>Marker</th><th>Primary Focus</th><th>Typical Structure</th><th>Example</th></tr></thead><tbody><tr><td><strong>As</strong></td><td>Simultaneous progression / Cause</td><td><code>As + [continuous/simple]</code></td><td>As I walked, I thought.</td></tr><tr><td><strong>When</strong></td><td>Specific moment / Completion</td><td><code>When + [simple/perfect]</code></td><td>When I arrived, everyone clapped.</td></tr><tr><td><strong>While</strong></td><td>Duration / Parallel actions</td><td><code>While + [continuous]</code></td><td>While I cooked, he read.</td></tr></tbody></table><p><em>💡 Note: These are the most commonly confused time markers in English. Mastering their distinct temporal 'shapes' instantly elevates your fluency and accuracy.</em></p>",
+      "examples": [
+        "As: \"<strong>As the sun rose, the birds started singing</strong>\" (shows progression together)",
+        "When: \"<strong>When the sun rose, the birds started singing</strong>\" (marks the moment)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_as_when_while_intro.mp3",
+      "functions": [
+        "Showing simultaneous events",
+        "Expressing timing and sequence"
+      ],
+      "tips": "💡 <strong>Quick Rule:</strong> As = during, When = at the moment, While = throughout."
+    },
+    {
+      "id": "lesson-2",
+      "title": "When: Specific Moments in Time 🚀",
+      "content": "<p>Level up your precision! 🎮 <strong>When</strong> introduces a specific point in time or a completed event. It's highly versatile across tenses and registers.</p><table class='lesson-table table-green'><thead><tr><th>Function</th><th>Structure Pattern</th><th>Example</th><th>Key Signal</th></tr></thead><tbody><tr><td><strong>Single Moment</strong></td><td><code>When + [simple past]</code></td><td>When I arrived, I found a surprise.</td><td>Interruption, sequence</td></tr><tr><td><strong>Habitual/Repeated</strong></td><td><code>When + [present simple]</code></td><td>When I see her, I always smile.</td><td>Frequency, routine</td></tr><tr><td><strong>Conditional Timing</strong></td><td><code>When + [present] → future</code></td><td>When you finish, you can leave.</td><td>Condition → Permission</td></tr><tr><td><strong>Question Form</strong></td><td><code>When + [auxiliary] + [subject]?</code></td><td>When is your deadline?</td><td>Time inquiry</td></tr></tbody></table><p><em>🌟 Instructor Insight: 'When' is the only marker that comfortably pairs with simple tenses to mark clear boundaries between events. It's your go-to for punctual, non-continuous actions.</em></p>",
+      "examples": [
+        "Simple moment: \"<strong>Lucy was driving when the accident happened</strong>\"",
+        "Habitual: \"<strong>When the teacher arrived, the students stopped talking</strong>\"",
+        "Conditional: \"<strong>You can leave when you finish</strong>\""
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_when.mp3",
+      "functions": [
+        "Marking specific moments in time",
+        "Expressing habitual reactions",
+        "Showing conditional timing"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> WHEN = moment, point, deadline. Use it for specific times."
+    },
+    {
+      "id": "lesson-3",
+      "title": "While: Duration and Parallel Actions 🌟",
+      "content": "<p>Master the continuous side! ✨ <strong>While</strong> emphasizes duration and parallel timelines. It primarily pairs with continuous/progressive forms but carries a secondary contrastive meaning.</p><table class='lesson-table table-teal'><thead><tr><th>Function</th><th>Structure</th><th>Example</th><th>Nuance</th></tr></thead><tbody><tr><td><strong>Duration</strong></td><td><code>While + [continuous]</code></td><td>Carla arrived while Tom was watching TV.</td><td>Background timeframe</td></tr><tr><td><strong>Parallel Actions</strong></td><td><code>While + [continuous] + [continuous]</code></td><td>While I studied, she cooked.</td><td>Two ongoing processes</td></tr><tr><td><strong>Contrast (Whereas)</strong></td><td><code>While + [state/adjective/noun]</code></td><td>While he's quiet, his sister is outgoing.</td><td>Non-temporal, comparative</td></tr></tbody></table><p><strong>⚠️ Critical Distinction:</strong> Always check context. If the clauses describe actions happening simultaneously, it's temporal. If it compares two different states or characteristics, it's contrastive. Never mix the two functions in a single clause.</p>",
+      "examples": [
+        "Duration: \"<strong>While I was playing the piano, someone knocked on the door</strong>\"",
+        "Parallel actions: \"<strong>A band played while we were having dinner</strong>\"",
+        "Contrast meaning: \"<strong>While the food was excellent, the service was poor</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_while.mp3",
+      "functions": [
+        "Showing parallel or simultaneous actions",
+        "Expressing duration of actions",
+        "Showing contrast (alternative meaning)"
+      ],
+      "tips": "💡 <strong>Decision point:</strong> Is something happening WHILE something else happens? Perfect! But remember, 'while' can also mean 'whereas' for contrast."
+    },
+    {
+      "id": "lesson-4",
+      "title": "As: Progressive Action and Cause ⚡",
+      "content": "<p>Here's where complexity meets utility! 🤔 <strong>As</strong> is the most polysemous time marker—it spans time, causality, function, and progression.</p><table class='lesson-table table-purple'><thead><tr><th>Usage Type</th><th>Structure</th><th>Example</th><th>Substitution Test</th></tr></thead><tbody><tr><td><strong>Progressive Simultaneity</strong></td><td><code>As + [continuous]</code></td><td>As she walked, she hummed.</td><td>Replace with 'during the time that'</td></tr><tr><td><strong>Causal (Because)</strong></td><td><code>As + [state/reason]</code></td><td>As it's late, we should leave.</td><td>Replace with 'because' or 'since'</td></tr><tr><td><strong>Role / Function</strong></td><td><code>verb + as + [noun]</code></td><td>He works as an analyst.</td><td>Replace with 'in the capacity of'</td></tr><tr><td><strong>Gradual Change</strong></td><td><code>As + [progressive/change]</code></td><td>As the storm passed, skies cleared.</td><td>Replace with 'with the progression of'</td></tr></tbody></table><p><strong>Diagnostic Tip:</strong> If you can replace it with <em>'because'</em>, it's causal. If not, and it describes ongoing action, it's temporal. If neither, check for occupational or functional meaning. Context dictates function.</p>",
+      "examples": [
+        "Progressive: \"<strong>As Emily was getting into the car, she tore her dress</strong>\"",
+        "Causal (because): \"<strong>As I finished my homework, I can go out</strong>\"",
+        "Function: \"<strong>The author is respected as a writer</strong>\"",
+        "Change/progression: \"<strong>As the seasons changed, so did our routine</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_as.mp3",
+      "functions": [
+        "Showing simultaneous progressive actions",
+        "Expressing reasons or causes",
+        "Indicating roles or functions",
+        "Describing change over time"
+      ],
+      "tips": "💡 <strong>Pro tip:</strong> If 'as' can be replaced with 'because,' use that. If not, it's time-related. If neither works, it might mean 'in the role of.'"
+    },
+    {
+      "id": "lesson-5",
+      "title": "Comparing As, When, and While 🎯",
+      "content": "<p>Direct comparison eliminates guesswork. 🚀 Choose your marker based on the <em>temporal shape</em> you want to convey and the verb aspect you're using.</p><table class='lesson-table table-orange'><thead><tr><th>Marker</th><th>Temporal Shape</th><th>Best Verb Pairing</th><th>Emphasis</th></tr></thead><tbody><tr><td><strong>As</strong></td><td>Parallel progression</td><td>Continuous / Simple</td><td>Flow, cause, simultaneous development</td></tr><tr><td><strong>When</strong></td><td>Point / Boundary</td><td>Simple / Perfect</td><td>Specific moment, interruption, sequence</td></tr><tr><td><strong>While</strong></td><td>Duration / Overlap</td><td>Continuous / Progressive</td><td>Background timeframe, parallel actions</td></tr></tbody></table><p><strong>Scenario Test:</strong> <em>'___ I walked to work, it began to rain.'</em> → <strong>While</strong> (focus on duration) / <strong>When</strong> (focus on the exact moment) / <strong>As</strong> (focus on parallel progression). All three can work, but they shift the reader's attention differently.</p>",
+      "examples": [
+        "As (progression): \"<strong>All eyes were on the actor as he walked onto the stage</strong>\"",
+        "When (moment): \"<strong>The students stopped making noise when the teacher arrived</strong>\"",
+        "While (duration): \"<strong>It started to rain while the children were playing in the garden</strong>\"",
+        "Same scenario, three ways: \"<strong>As/When/While I was driving down the road, I saw an accident</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_comparison.mp3",
+      "functions": [
+        "Choosing the correct time marker",
+        "Understanding subtle time relationships",
+        "Expressing the same idea with emphasis changes"
+      ],
+      "tips": "💡 <strong>When to use:</strong> Need specificity? Use WHEN. Need progression? Use AS. Need duration? Use WHILE."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Comma Rules and Natural Flow ❓",
+      "content": "<p>Punctuation controls rhythm and cognitive load. 🎨 Mastering position-based comma rules ensures professional readability and native-like cadence.</p><table class='lesson-table table-pink'><thead><tr><th>Clause Position</th><th>Punctuation Rule</th><th>Focus / Effect</th><th>Example</th></tr></thead><tbody><tr><td><strong>Initial (Fronted)</strong></td><td>Comma <em>after</em> time clause</td><td>Emphasizes timing/context first</td><td>When I arrived, everyone paused.</td></tr><tr><td><strong>Final (Terminal)</strong></td><td><strong>No comma</strong> required</td><td>Emphasizes main action; natural flow</td><td>Everyone paused when I arrived.</td></tr><tr><td><strong>Middle (Inserted)</strong></td><td>Commas <em>around</em> clause</td><td>Supplementary, interruptive</td><td>The project, while ambitious, succeeded.</td></tr></tbody></table><p><strong>Stylistic Note:</strong> Fronting the time clause builds suspense or sets context. Terminal placement prioritizes the main event. In spoken English, terminal position is overwhelmingly preferred for conversational ease.</p>",
+      "examples": [
+        "Start (formal): \"<strong>As the sun set, the temperature dropped</strong>\"",
+        "End (natural): \"<strong>The temperature dropped as the sun set</strong>\"",
+        "Start emphasizes time: \"<strong>While he was away, everything changed</strong>\"",
+        "End emphasizes action: \"<strong>Everything changed while he was away</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_punctuation.mp3",
+      "functions": [
+        "Using correct punctuation with time clauses",
+        "Creating natural-sounding sentences",
+        "Controlling emphasis through position"
+      ],
+      "tips": "💡 <strong>Remember:</strong> Time clause at START = comma after. Time clause at END = no comma. Choose position for natural flow!"
+    },
+    {
+      "id": "lesson-7",
+      "title": "Advanced: Time Clauses in Complex Sentences 🕐",
+      "content": "<p>Advanced syntax requires precision. ⚠️ Layering time clauses demands strict attention to sequencing, parallelism, and cognitive clarity.</p><table class='lesson-table table-gray'><thead><tr><th>Structure Type</th><th>Correct Pattern</th><th>Common Pitfall</th><th>Instructor Guidance</th></tr></thead><tbody><tr><td><strong>Sequential Time Clauses</strong></td><td>When X happened, Y occurred while Z was ongoing.</td><td>❌ Stacking multiple subordinators in one clause</td><td>Use coordinate conjunctions (and, but) to separate events.</td></tr><tr><td><strong>Time + Reason</strong></td><td>When conditions align and because preparation is complete, success follows.</td><td>❌ Mixing causal and temporal markers awkwardly</td><td>Keep causal and temporal logic in separate syntactic layers.</td></tr><tr><td><strong>Interrupted Duration</strong></td><td>While I was reading, the phone rang and I answered.</td><td>❌ \"While I read, when phone rang, I answered.\"</td><td>One primary time subordinator per independent clause.</td></tr></tbody></table><p><strong>Professional Standard:</strong> Avoid subordination stacking. If you need three time references, split them into two sentences or use participial phrases (<em>'Having arrived, I joined while the discussion continued.'</em>) to maintain syntactic elegance.</p>",
+      "examples": [
+        "Double time markers: \"<strong>As the sun rose, while birds were singing, I felt peaceful</strong>\"",
+        "Time + condition: \"<strong>When you finish, because you've worked hard, you deserve rest</strong>\"",
+        "Sequential events: \"<strong>While I was away, the package arrived, and when I returned, it was waiting</strong>\"",
+        "Complex layering: \"<strong>As the evening progressed and while we were having fun, time passed quickly</strong>\""
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_advanced_time.mp3",
+      "functions": [
+        "Creating layered time relationships",
+        "Expressing multiple simultaneous or sequential events",
+        "Building sophisticated narrative structures"
+      ],
+      "tips": "💡 <strong>Never forget:</strong> Too many time clauses can confuse. Usually, one time clause per main clause is clearest. Use coordinate conjunctions (and, but) to add more events rather than stacking subordinators."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: As, When, While in Context 🏆",
+      "content": "<p>Mastery is contextual adaptation. 🌟 Elite writers select time markers not just for grammar, but for register, pacing, and rhetorical impact.</p><table class='lesson-table table-yellow'><thead><tr><th>Context / Genre</th><th>Preferred Marker(s)</th><th>Rhetorical Purpose</th><th>Exemplar</th></tr></thead><tbody><tr><td><strong>Narrative / Literary</strong></td><td>As / While</td><td>Atmosphere, flow, parallel imagery</td><td>As the fog lifted, while birds awoke, the valley revealed itself.</td></tr><tr><td><strong>Academic / Technical</strong></td><td>When / While</td><td>Precision, sequence, condition</td><td>When the threshold exceeded 5.0, while control parameters remained stable, output normalized.</td></tr><tr><td><strong>Persuasive / Speech</strong></td><td>When / As</td><td>Emphasis, cause-effect, urgency</td><td>When we act decisively, as history demonstrates, progress accelerates.</td></tr><tr><td><strong>Conversational</strong></td><td>While / When</td><td>Natural pacing, background context</td><td>I'll grab coffee while you finish up.</td></tr></tbody></table><p><strong>Mastery Checklist:</strong> ✅ Match temporal shape to intent ✅ Align register with audience ✅ Control pacing via clause position ✅ Avoid subordination overload. <em>🎓 Expert Insight: The most sophisticated prose uses these markers invisibly—the reader feels the timing, never the grammar.</em></p>",
+      "examples": [
+        "Literary: \"<strong>As the protagonist walked through the forest, while darkness surrounded her, she heard a distant call</strong>\"",
+        "Academic: \"<strong>When the experiment began, samples were analyzed. As the temperature increased, changes were observed</strong>\"",
+        "Narrative: \"<strong>He entered the room when everyone suddenly quieted. While adjusting to the silence, he realized something was wrong</strong>\"",
+        "Poetic: \"<strong>As dawn breaks and while darkness fades, hope emerges</strong>\""
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery_time.mp3",
+      "functions": [
+        "Using time markers strategically for style",
+        "Creating specific atmospheric or rhetorical effects",
+        "Adapting time language to genre and audience",
+        "Demonstrating sophisticated control of temporal relationships"
+      ],
+      "tips": "💡 <strong>Master level:</strong> In narrative, choose 'as' for flow and progression. In academic writing, use 'when' for precision. In natural speech, 'while' sounds best. Vary them to avoid repetition and show mastery!"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about something that happened to you. Use 'when' to describe the moment it occurred and 'while' to describe what was happening at the same time.",
+      "hint": "Start with \"One day, when...\". Make sure to use <strong>when</strong> (for the specific moment) and <strong>while</strong> (for what was ongoing). Example: <em>\"When I walked outside, while the sun was shining, I felt happy.\"</em>",
+      "expectedKeywords": [
+        "when",
+        "while",
+        "time_marker",
+        "past_tense_verb",
+        "continuous_action",
+        "emotion_word"
+      ],
+      "sentenceStarters": [
+        "When I ___, while I was ___.",
+        "As I was doing ___, when suddenly ___."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe a busy day at school or work. Show different activities happening at the same time using 'as' (for progression), 'when' (for moments), and 'while' (for duration).",
+      "hint": "Use all three words to show a complex timeline. Example: <em>\"As I entered the office, while my boss was reviewing reports, when suddenly an alarm sounded.\"</em>",
+      "expectedKeywords": [
+        "as",
+        "when",
+        "while",
+        "time_progression",
+        "simultaneous_actions",
+        "busy_vocabulary",
+        "present_participle"
+      ],
+      "sentenceStarters": [
+        "As I arrived, while ___ was happening, when ___.",
+        "When ___, I realized that as ___, while ___."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a sophisticated narrative paragraph using 'as' to show progression, 'when' to mark specific moments, and 'while' for background duration. Demonstrate control of all three.",
+      "hint": "Create a literary quality passage. Example: <em>\"As the storm approached and while clouds gathered, when lightning first appeared, the town fell silent.\"</em>",
+      "expectedKeywords": [
+        "as",
+        "when",
+        "while",
+        "advanced_vocabulary",
+        "atmospheric_description",
+        "sequential_action",
+        "literary_elements"
+      ],
+      "sentenceStarters": [
+        "As night fell, when ___, while ___.",
+        "While darkness surrounded ___, as ___ changed, when ___ appeared, ___."
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct time marker for a specific moment:",
+      "sentence": "___ I arrived home, I found a surprise waiting.",
+      "options": [
+        "When",
+        "While",
+        "As",
+        "Because"
+      ],
+      "correctAnswer": ["When"],
+      "audio": "game_1_specific_moment.mp3",
+      "hint": "This describes a specific moment in time when something happened. WHEN marks that precise moment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which time marker shows duration and parallel actions?",
+      "sentence": "___ I was cooking, he was reading his book.",
+      "options": [
+        "When",
+        "While",
+        "As",
+        "Since"
+      ],
+      "correctAnswer": ["While"],
+      "audio": "game_2_duration.mp3",
+      "hint": "Two things happen at the same time throughout a period. WHILE emphasizes this parallel duration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the marker that shows progression and flow:",
+      "sentence": "___ the sun rose, the world came alive with color.",
+      "options": [
+        "When the sun rose",
+        "While the sun rose",
+        "As the sun rose",
+        "Because the sun rose"
+      ],
+      "correctAnswer": ["As the sun rose"],
+      "audio": "game_3_progression.mp3",
+      "hint": "This shows how something changes and progresses. AS emphasizes the gradual progression.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What is the main difference between 'when' and 'while' for time?",
+      "sentence": "Choose the best answer:",
+      "options": [
+        "When marks a specific moment; while shows duration",
+        "While is for the past; when is for the future",
+        "When and while mean exactly the same thing",
+        "While is used in questions; when in statements"
+      ],
+      "correctAnswer": "When marks a specific moment; while shows duration",
+      "audio": "quiz_1_when_vs_while.mp3",
+      "hint": "Think about what happens at a single moment (when) versus what happens over a period of time (while).",
+      "difficulty": "easy",
+      "explanation": "The correct answer is 'When marks a specific moment; while shows duration.' This is the key distinction. When typically introduces a specific point in time when something happened, often marking the moment or trigger for another action. While, on the other hand, emphasizes a period of time or duration during which something happens, often used with continuous forms. The other options are incorrect: while and when don't exclusively belong to different tenses, and 'while' doesn't have special use in questions."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses 'as' with its causal meaning?",
+      "sentence": "Select the correct sentence:",
+      "options": [
+        "As she was tired, she went to sleep. (time meaning)",
+        "As he is skilled, he was hired for the job. (causal meaning)",
+        "As the door opened, we heard noise. (time meaning)",
+        "As I was eating, I noticed the taste. (time meaning)"
+      ],
+      "correctAnswer": "As he is skilled, he was hired for the job. (causal meaning)",
+      "audio": "quiz_2_as_causal.mp3",
+      "hint": "Some sentences use 'as' to mean 'because.' Look for sentences where 'as' can be replaced with 'because'.",
+      "difficulty": "medium",
+      "explanation": "The correct answer is 'As he is skilled, he was hired for the job.' This sentence uses 'as' with its causal meaning (meaning 'because'). You can replace 'as' with 'because' here: 'Because he is skilled, he was hired.' The other sentences use 'as' in its time meaning (during/when). The key is recognizing that 'as' has multiple functions: temporal (time-related) and causal (reason-related)."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Choose the sentence that demonstrates sophisticated use of all three time markers:",
+      "sentence": "Which shows the best use of as/when/while?",
+      "options": [
+        "When I arrived, I saw things. As time passed, things changed.",
+        "While I was thinking, when I arrived, as the day progressed, the situation evolved.",
+        "As evening fell, while we discussed matters, when suddenly news arrived that shocked everyone.",
+        "When and while and as, all at once, things happened."
+      ],
+      "correctAnswer": "As evening fell, while we discussed matters, when suddenly news arrived that shocked everyone.",
+      "audio": "quiz_3_sophisticated_time.mp3",
+      "hint": "Good writing uses these markers strategically. Look for natural flow and clear meaning.",
+      "difficulty": "hard",
+      "explanation": "The correct answer is 'As evening fell, while we discussed matters, when suddenly news arrived that shocked everyone.' This sentence expertly uses all three time markers: 'as' for progression (evening falling), 'while' for duration (ongoing discussion), and 'when' for a specific moment (news arrival). The other sentences either use time markers redundantly or awkwardly. This combination shows mastery by using each marker for its specific purpose while maintaining grammatical clarity and narrative flow."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "simultaneous",
+      "hint": "Occurring at the same time—what as/when/while express",
+      "clue": "s_m_lt_n___s",
+      "audio": "spell_simultaneous.mp3",
+      "sentence": "These actions happen ___ when we use time conjunctions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "temporal",
+      "hint": "Grammar term relating to time and tense",
+      "clue": "t_mp_r_l",
+      "audio": "spell_temporal.mp3",
+      "sentence": "The ___ relationship between clauses matters in sentences.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "sequential",
+      "hint": "Advanced concept showing order and time progression",
+      "clue": "_eq___nt__l",
+      "audio": "spell_sequential.mp3",
+      "sentence": "The ___ nature of events requires careful use of time markers.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "time-marker-explorer",
+        "name": "Time Marker Explorer",
+        "condition": "Complete all 8 as/when/while lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You've conquered the complexities of time markers! Excellent!"
+      },
+      {
+        "id": "time-master",
+        "name": "Time Master",
+        "condition": "Score 100% on 3 time writing activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your temporal expressions are perfectly natural!"
+      },
+      {
+        "id": "temporal-game-expert",
+        "name": "Temporal Game Expert",
+        "condition": "Complete all time marker games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "Perfect! You instantly choose the right time marker!"
+      },
+      {
+        "id": "time-vocabulary-pro",
+        "name": "Time Vocabulary Pro",
+        "condition": "Spell all time-related vocabulary correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "Excellent! Your grammar terminology is precise!"
+      },
+      {
+        "id": "writing-flow-champion",
+        "name": "Writing Flow Champion",
+        "condition": "Complete 5 time marker activities scoring 90% or higher",
+        "icon": "⚡",
+        "points": 30,
+        "message": "Your writing now flows with perfect timing!"
+      },
+      {
+        "id": "time-perfectionist",
+        "name": "Time Perfectionist",
+        "condition": "Score 100% on all time marker activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Outstanding! You're a time marker mastery expert!"
+      }
+    ]
+  }
+}

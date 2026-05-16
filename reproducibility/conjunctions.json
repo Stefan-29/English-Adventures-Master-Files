@@ -1,0 +1,393 @@
+{
+ "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Are Conjunctions? 🎯",
+      "content": "<p>When you <strong>connect ideas together</strong>, you're using <strong>conjunctions</strong>! 📚</p><p><strong>Conjunction</strong> = a word that connects words, phrases, and clauses. <em>Example: \"She likes tea <strong>and</strong> coffee.\"</em></p><p><strong>Three Types of Conjunctions:</strong> Each type serves a distinct syntactic function. Choose based on the relationship between your ideas:</p><table class='lesson-table table-blue'><thead><tr><th>Type</th><th>Function</th><th>Key Markers</th><th>Example</th></tr></thead><tbody><tr><td><strong>Coordinating</strong></td><td>Joins equal, independent elements</td><td>FANBOYS: for, and, nor, but, or, yet, so</td><td>I like swimming, <strong>but</strong> I hate running.</td></tr><tr><td><strong>Subordinating</strong></td><td>Introduces a dependent clause</td><td>because, although, when, if, while, since</td><td><strong>Because</strong> it was raining, I stayed home.</td></tr><tr><td><strong>Correlative</strong></td><td>Works in pairs to link parallel elements</td><td>both...and, either...or, neither...nor</td><td><strong>Both</strong> tea <strong>and</strong> coffee are delicious.</td></tr></tbody></table><p><em>💡 Etymology Note: 'Conjunction' derives from Latin <em>coniungere</em> ('to join together'). Understanding this root helps remember their core purpose: connection.</em></p>",
+      "examples": [
+        "Simple connection: \"Tom likes soccer <strong>and</strong> basketball\" (two activities joined)",
+        "Showing contrast: \"The book was expensive <strong>but</strong> worth it\" (opposing ideas)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_conjunctions_intro.mp3",
+      "functions": [
+        "Connecting simple ideas together",
+        "Showing relationships between thoughts"
+      ],
+      "tips": "💡 <strong>Quick Rule:</strong> If you need to join two equal ideas, use a coordinating conjunction. If one idea depends on another, use a subordinating conjunction."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Coordinating Conjunctions (FANBOYS) 🚀",
+      "content": "<p>Now let's level up! 🎮 <strong>Coordinating conjunctions</strong> connect two independent clauses (complete thoughts). There are exactly 7—they spell <strong>FANBOYS</strong>.</p><table class='lesson-table table-green'><thead><tr><th>Conjunction</th><th>Logical Function</th><th>Example</th><th>Usage Note</th></tr></thead><tbody><tr><td><strong>For</strong></td><td>Reason / Explanation</td><td>She stayed home, <strong>for</strong> she was ill.</td><td>Formal; often replaced by 'because'</td></tr><tr><td><strong>And</strong></td><td>Addition / Sequence</td><td>He studied <strong>and</strong> passed.</td><td>Most common; joins similar ideas</td></tr><tr><td><strong>Nor</strong></td><td>Negative addition</td><td>She doesn't sing, <strong>nor</strong> does she dance.</td><td>Requires inversion in second clause</td></tr><tr><td><strong>But / Yet</strong></td><td>Contrast / Unexpected result</td><td>It's expensive, <strong>but</strong> worth it.</td><td>'Yet' adds stronger surprise</td></tr><tr><td><strong>Or</strong></td><td>Alternative / Choice</td><td>Coffee <strong>or</strong> tea?</td><td>Exclusive or inclusive depending on context</td></tr><tr><td><strong>So</strong></td><td>Result / Consequence</td><td>It rained, <strong>so</strong> we canceled.</td><td>Shows cause → effect relationship</td></tr></tbody></table><p><strong>Formation Rule:</strong> <code>Independent Clause + , + [FANBOYS] + Independent Clause</code>. The comma before the conjunction is mandatory when joining two complete sentences.</p><p><em>🌟 Memory Hack: Write FANBOYS vertically and add one example per letter. Visual encoding boosts retention by 40%!</em></p>",
+      "examples": [
+        "Positive form: \"She studied hard, <strong>and</strong> she passed the exam\"",
+        "Contrast form: \"The movie was long, <strong>yet</strong> I enjoyed it\"",
+        "Result form: \"He forgot his keys, <strong>so</strong> he couldn't enter the house\""
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_fanboys.mp3",
+      "functions": [
+        "Connecting equal ideas or facts",
+        "Showing cause and effect relationships"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> Remember FANBOYS! Use a comma before the conjunction when connecting independent clauses: \"Subject + verb, [conjunction] subject + verb.\""
+    },
+    {
+      "id": "lesson-3",
+      "title": "Subordinating Conjunctions 🌟",
+      "content": "<p>Time to explore dependency! ✨ <strong>Subordinating conjunctions</strong> introduce dependent clauses—ideas that cannot stand alone. They create complex sentences by showing logical relationships.</p><table class='lesson-table table-teal'><thead><tr><th>Category</th><th>Common Markers</th><th>Function</th><th>Example</th></tr></thead><tbody><tr><td><strong>Reason / Cause</strong></td><td>because, since, as, now that</td><td>Explains why something happened</td><td>I left early <strong>because</strong> I was tired.</td></tr><tr><td><strong>Time / Sequence</strong></td><td>when, while, as, before, after, until</td><td>Situates events chronologically</td><td><strong>When</strong> I arrived, everyone clapped.</td></tr><tr><td><strong>Contrast / Concession</strong></td><td>although, even though, though, whereas</td><td>Shows unexpected or opposing ideas</td><td><strong>Although</strong> it rained, we hiked.</td></tr><tr><td><strong>Condition</strong></td><td>if, unless, provided that, in case</td><td>Expresses hypothetical scenarios</td><td><strong>If</strong> you study, you'll succeed.</td></tr><tr><td><strong>Purpose / Result</strong></td><td>so that, in order that, lest</td><td>Indicates intention or outcome</td><td>She saved money <strong>so that</strong> she could travel.</td></tr></tbody></table><p><strong>Position Flexibility:</strong> Subordinating clauses can appear at the <em>start</em> (comma required) or <em>end</em> (no comma) of a sentence. Start position emphasizes the condition; end position emphasizes the result.</p><p><em>🎨 Stylistic Tip: Vary clause position to control pacing. Fronted clauses build suspense; terminal clauses feel conversational.</em></p>",
+      "examples": [
+        "Reason clause: \"<strong>Because</strong> she practiced, her pronunciation improved\"",
+        "Time clause: \"<strong>While</strong> I was cooking, the phone rang\"",
+        "Condition clause: \"<strong>If</strong> you need help, just ask\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_subordinating.mp3",
+      "functions": [
+        "Creating complex sentences with dependent clauses",
+        "Expressing reasons, time, conditions, and contrasts"
+      ],
+      "tips": "💡 <strong>Decision point:</strong> Does one clause depend on the other? Use subordinating. Are both clauses independent? Use coordinating or connect them separately."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Coordinating vs. Subordinating ⚡",
+      "content": "<p>Here's where precision matters! 🤔 Many learners confuse <strong>coordinating</strong> and <strong>subordinating</strong> conjunctions. Master this distinction to eliminate structural errors.</p><table class='lesson-table table-purple'><thead><tr><th>Feature</th><th>Coordinating Conjunctions</th><th>Subordinating Conjunctions</th></tr></thead><tbody><tr><td><strong>Clause Relationship</strong></td><td>Equal, independent clauses</td><td>One dependent + one independent clause</td></tr><tr><td><strong>Standalone Test</strong></td><td>Both clauses can stand alone ✅</td><td>Dependent clause cannot stand alone ❌</td></tr><tr><td><strong>Comma Rule</strong></td><td>Comma <em>before</em> conjunction</td><td>Comma <em>after</em> clause only if it starts sentence</td></tr><tr><td><strong>Example</strong></td><td>I like tea, <strong>but</strong> I love coffee.</td><td><strong>Because</strong> I was tired, I slept early.</td></tr><tr><td><strong>Common Error</strong></td><td>❌ Missing comma: \"I like tea but I love coffee.\"</td><td>❌ Unnecessary comma: \"I slept, because I was tired.\"</td></tr></tbody></table><p><strong>Diagnostic Strategy:</strong> Remove one clause. If the remainder is a complete sentence, use coordinating. If it's fragmented or incomplete, use subordinating.</p><p><em>🎯 Visual Metaphor: Coordinating = two friends walking side-by-side (equal status). Subordinating = a guide and follower (one leads, one depends).</em></p>",
+      "examples": [
+        "Coordinating example: \"<strong>It was raining, but we went to the park</strong>\" → Both clauses stand alone",
+        "Subordinating example: \"<strong>We stayed home because it was raining</strong>\" → 'Because it was raining' cannot stand alone",
+        "Comma rule: ❌ \"I studied, because I wanted to pass\" → ✅ \"I studied because I wanted to pass\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_comparison.mp3",
+      "functions": [
+        "Choosing correctly between two conjunction types",
+        "Understanding when to use commas with conjunctions"
+      ],
+      "tips": "💡 <strong>Pro tip:</strong> Try removing one clause. If what remains is a complete sentence, use coordinating. If what remains is incomplete, use subordinating."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Correlative Conjunctions 🎯",
+      "content": "<p>Ready for symmetry? 🚀 <strong>Correlative conjunctions</strong> work in fixed pairs to link parallel grammatical elements. They create balance, emphasis, and rhetorical power.</p><table class='lesson-table table-orange'><thead><tr><th>Correlative Pair</th><th>Function</th><th>Parallel Structure Required</th><th>Example</th></tr></thead><tbody><tr><td><strong>Both...and</strong></td><td>Additive emphasis (two positives)</td><td>Noun+Noun / Verb+Verb / Adj+Adj</td><td><strong>Both</strong> tea <strong>and</strong> coffee are caffeinated.</td></tr><tr><td><strong>Either...or</strong></td><td>Exclusive choice (one of two)</td><td>Must match grammatical form</td><td>You can <strong>either</strong> walk <strong>or</strong> take the bus.</td></tr><tr><td><strong>Neither...nor</strong></td><td>Negative exclusion (zero of two)</td><td>Verb agrees with closest subject</td><td>She likes <strong>neither</strong> tea <strong>nor</strong> coffee.</td></tr><tr><td><strong>Not only...but also</strong></td><td>Amplifying addition (surprise emphasis)</td><td>Inversion possible for drama</td><td><strong>Not only</strong> is he smart <strong>but also</strong> kind.</td></tr><tr><td><strong>Whether...or</strong></td><td>Alternative possibilities</td><td>Often introduces indirect questions</td><td>I don't know <strong>whether</strong> to stay <strong>or</strong> go.</td></tr></tbody></table><p><strong>⚠️ Critical Rule: Parallelism</strong>. The grammatical form following each part of the pair must match. ❌ \"She both likes swimming and to run.\" ✅ \"She likes <strong>both</strong> swimming <strong>and</strong> running.\"</p><p><em>⚙️ Rhetorical Power: Correlatives create rhythm and emphasis. Use them sparingly for maximum impact in persuasive or creative writing.</em></p>",
+      "examples": [
+        "Balance: \"<strong>Both Emma and Tom</strong> like Italian food\"",
+        "Choice: \"You can <strong>either</strong> study now <strong>or</strong> regret it later\"",
+        "Emphasis: \"<strong>Not only</strong> did he apologize <strong>but also</strong> sent flowers\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_correlative.mp3",
+      "functions": [
+        "Creating emphasis and balance in sentences",
+        "Expressing paired ideas or choices",
+        "Making sentences more symmetrical and professional"
+      ],
+      "tips": "💡 <strong>When to use:</strong> If you need to emphasize two connected elements, use correlative pairs. The parts after each conjunction should be parallel (same structure)."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Comma Rules with Conjunctions ❓",
+      "content": "<p>Master punctuation to master clarity! 🎨 Comma usage with conjunctions follows predictable, logical rules. Internalize these patterns for professional writing.</p><table class='lesson-table table-pink'><thead><tr><th>Conjunction Type</th><th>Clause Position</th><th>Comma Rule</th><th>Example</th></tr></thead><tbody><tr><td><strong>Coordinating (FANBOYS)</strong></td><td>Between two independent clauses</td><td>Comma <strong>before</strong> conjunction</td><td>I wanted to call, <strong>but</strong> my phone died.</td></tr><tr><td><strong>Subordinating</strong></td><td>Dependent clause <strong>first</strong></td><td>Comma <strong>after</strong> dependent clause</td><td><strong>Because</strong> it rained, we canceled.</td></tr><tr><td><strong>Subordinating</strong></td><td>Dependent clause <strong>second</strong></td><td><strong>No comma</strong> required</td><td>We canceled <strong>because</strong> it rained.</td></tr><tr><td><strong>Correlative Pairs</strong></td><td>Linking parallel elements</td><td><strong>No comma</strong> within the pair</td><td><strong>Both</strong> tea <strong>and</strong> coffee are good.</td></tr><tr><td><strong>Correlative + Independent Clauses</strong></td><td>Joining full sentences</td><td>Comma before second clause</td><td><strong>Not only</strong> did she study, <strong>but</strong> she also aced the test.</td></tr></tbody></table><p><strong>Exception Alert:</strong> Short, closely related independent clauses joined by <em>and</em> or <em>but</em> may omit the comma in informal writing: \"I came and I saw.\" However, retaining the comma is always correct and recommended for clarity.</p><p><em>💬 Pro Insight: Commas control reading pace. A comma before a conjunction creates a micro-pause—use it to emphasize the relationship between ideas.</em></p>",
+      "examples": [
+        "With comma (coordinating): \"<strong>The weather was beautiful, so we went hiking</strong>\"",
+        "With comma (subordinating start): \"<strong>When the rain stopped, we came out to play</strong>\"",
+        "No comma (subordinating middle): \"<strong>We came out to play when the rain stopped</strong>\"",
+        "Short answer practice: \"<em>Do you like apples?</em>\" → \"<strong>Both apples and oranges, actually!</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_commas.mp3",
+      "functions": [
+        "Using correct punctuation with conjunctions",
+        "Understanding how commas affect meaning",
+        "Following standard English writing rules"
+      ],
+      "tips": "💡 <strong>Remember:</strong> Coordinating conjunctions need commas. Subordinating conjunctions need commas ONLY at the start. No commas with correlative pairs (usually)."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Advanced Conjunction Combinations 🕐",
+      "content": "<p>Complex thought requires complex syntax! ⚠️ Advanced writers layer conjunctions to express nuanced relationships. Precision and parallelism are non-negotiable.</p><table class='lesson-table table-gray'><thead><tr><th>Combination Pattern</th><th>Correct Structure</th><th>Common Error</th><th>Correction Strategy</th></tr></thead><tbody><tr><td><strong>Subordinating + Coordinating</strong></td><td><strong>Although</strong> he was tired, he worked hard, <strong>so</strong> he succeeded.</td><td>❌ \"Although he was tired, but he worked.\"</td><td>Never pair subordinating + coordinating for the same logical relationship.</td></tr><tr><td><strong>Multiple Subordinating</strong></td><td><strong>When</strong> I arrived, <strong>since</strong> everyone was busy, I waited quietly.</td><td>❌ Stacking without clear hierarchy</td><td>Ensure each dependent clause logically attaches to the correct main clause.</td></tr><tr><td><strong>Correlative + Other Types</strong></td><td><strong>Neither</strong> tea <strong>nor</strong> coffee, <strong>but</strong> I'd love juice.</td><td>❌ \"Neither tea, nor coffee, but juice.\"</td><td>Keep correlative pairs tight; use commas only for clause boundaries.</td></tr><tr><td><strong>Mixed Register</strong></td><td><strong>If</strong> you're ready and <strong>because</strong> time permits, we can begin.</td><td>❌ \"If you're ready, because time permits, we can begin.\"</td><td>Use coordinate conjunctions (and, but) to join multiple subordinating clauses.</td></tr></tbody></table><p><strong>Professional Standard:</strong> Limit to one subordinating conjunction per independent clause unless the logic demands otherwise. When combining types, ensure each conjunction serves a distinct logical function (e.g., time + cause, not cause + cause).</p><p><em>🌍 Expert Note: Native speakers intuitively layer conjunctions. Study authentic texts to internalize natural patterns—don't over-engineer.</em></p>",
+      "examples": [
+        "Mixed types: \"<strong>Although she studied hard, she failed the test, so she tried again</strong>\"",
+        "Sophisticated use: \"<strong>Not only did she study, but because she had help, she improved greatly</strong>\"",
+        "Complex structure: \"<strong>When you're ready and if you have time, we can discuss this</strong>\""
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_advanced.mp3",
+      "functions": [
+        "Creating sophisticated complex sentences",
+        "Combining multiple ideas logically",
+        "Expressing nuanced relationships between ideas"
+      ],
+      "tips": "💡 <strong>Never forget:</strong> Even in complex sentences, apply the same rules. Coordinating conjunctions need commas; subordinating conjunctions don't (unless at the start). Always ask: Which rule applies to which conjunction?"
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: All Conjunctions Together 🏆",
+      "content": "<p>You've reached the summit! 🌟 Mastery means selecting conjunctions not just for correctness, but for rhetorical effect, register, and reader experience.</p><table class='lesson-table table-yellow'><thead><tr><th>Context / Register</th><th>Preferred Conjunction Types</th><th>Rhetorical Effect</th><th>Exemplar</th></tr></thead><tbody><tr><td><strong>Academic / Formal</strong></td><td>Subordinating + Correlative</td><td>Precision, logical density, sophistication</td><td><strong>Although</strong> data is limited, <strong>not only</strong> does it suggest a trend <strong>but also</strong> warrants further study.</td></tr><tr><td><strong>Narrative / Creative</strong></td><td>Coordinating + Subordinating (varied)</td><td>Flow, pacing, emotional rhythm</td><td>She ran, <strong>and</strong> the wind chased her, <strong>until</strong> dawn broke <strong>and</strong> silence fell.</td></tr><tr><td><strong>Persuasive / Speech</strong></td><strong></strong><td>Emphasis, urgency, audience engagement</td><td><strong>Not only</strong> must we act now, <strong>but</strong> we must act together, <strong>for</strong> the future depends on it.</td></tr><tr><td><strong>Conversational</strong></td><td>Coordinating (FANBOYS) + Simple Subordinating</td><td>Naturalness, clarity, accessibility</td><td>I was tired, <strong>so</strong> I left early, <strong>but</strong> I'll be back tomorrow.</td></tr></tbody></table><p><strong>Mastery Checklist:</strong> ✅ Match conjunction type to logical relationship ✅ Apply comma rules consistently ✅ Vary structures to avoid monotony ✅ Align register with audience ✅ Use correlative pairs for emphasis, not decoration.</p><p><em>🎓 Final Insight: The most powerful prose uses conjunctions invisibly. The reader feels the logic, never notices the grammar. That is true fluency.</em></p>",
+      "examples": [
+        "Formal context: \"<strong>Although numerous studies have shown the benefits, few people apply this knowledge</strong>\"",
+        "Stylistic repetition: \"<strong>She was not only tired but also hungry and frustrated</strong>\"",
+        "Natural flow: \"<strong>When I finished my homework and completed my chores, I finally relaxed</strong>\"",
+        "Academic style: \"<strong>The research indicates that students improve significantly when they receive feedback, yet few utilize this opportunity</strong>\""
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Using conjunctions strategically for style and meaning",
+        "Adapting conjunction choice to context and register",
+        "Creating sophisticated multi-clause sentences",
+        "Controlling pace and rhythm through conjunction use"
+      ],
+      "tips": "💡 <strong>Master level:</strong> In formal writing, prefer subordinating conjunctions for sophistication. In creative writing, vary all types for rhythm. In speech, use coordinating for naturalness. This shows true fluency!"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about your favorite hobby using coordinating conjunctions. Include: what you like about it, why you do it, and what benefits you get from it.",
+      "hint": "Start with \"My favorite hobby is...\". Make sure to use FANBOYS (for, and, nor, but, or, yet, so) at least 3 times. For example: <em>\"I love painting, so I do it every weekend.\"</em>",
+      "expectedKeywords": [
+        "and",
+        "but",
+        "or",
+        "so",
+        "yet",
+        "hobby_name",
+        "benefit_word"
+      ],
+      "sentenceStarters": [
+        "My favorite hobby is ___ , and ___.",
+        "I enjoy it because ___ , so ___."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe what you would do on a perfect weekend. Use subordinating conjunctions to explain reasons and conditions, and coordinate with some contrasting ideas.",
+      "hint": "Remember: Use subordinating conjunctions (because, although, when, if) to explain WHY you do things, and use coordinating conjunctions to connect actions. Example: <em>\"Although I'm busy, I would wake up early because I love the sunrise.\"</em>",
+      "expectedKeywords": [
+        "because",
+        "although",
+        "when",
+        "if",
+        "but",
+        "and",
+        "time_word",
+        "activity_word"
+      ],
+      "sentenceStarters": [
+        "First, I would ___ because ___.",
+        "Although ___, I would ___.",
+        "If I had time, I would ___, but ___."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a persuasive paragraph about why someone should learn English. Use a mix of all conjunction types and demonstrate sophisticated sentence structures.",
+      "hint": "This requires coordinating, subordinating, and correlative conjunctions. Pay attention to showing contrast and adding emphasis. Model: <em>\"Not only does learning English open career opportunities, but it also connects you to millions of people worldwide. Although it's challenging, the benefits far outweigh the effort.\"</em>",
+      "expectedKeywords": [
+        "not_only_but_also",
+        "although",
+        "so_that",
+        "because",
+        "and",
+        "moreover",
+        "benefit_vocabulary"
+      ],
+      "sentenceStarters": [
+        "Not only does English ___, but it also ___.",
+        "Although learning English ___, the benefits ___."
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct coordinating conjunction for this situation:",
+      "sentence": "I wanted to go out, ___ it was raining, so I stayed home.",
+      "options": [
+        "but",
+        "and",
+        "so",
+        "because"
+      ],
+      "correctAnswer": ["but"],
+      "audio": "game_1_conjunction.mp3",
+      "hint": "You need a word that shows CONTRAST between wanting to go out and staying home.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which subordinating conjunction fits best?",
+      "sentence": "___ she had never cooked before, she prepared an amazing dinner.",
+      "options": [
+        "Although",
+        "Because",
+        "When",
+        "So that"
+      ],
+      "correctAnswer": ["Although"],
+      "audio": "game_2_conjunction.mp3",
+      "hint": "The two ideas CONTRAST—she's inexperienced but the result is great. This indicates ALTHOUGH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Advanced: Complete with the most precise correlative conjunction pair:",
+      "sentence": "You can ___ study now ___ play; the choice is yours.",
+      "options": [
+        "either / or",
+        "both / and",
+        "neither / nor"
+      ],
+      "correctAnswer": ["either / or"],
+      "audio": "game_3_conjunction.mp3",
+      "hint": "The sentence offers two opposite choices. Either...or presents options.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What type of conjunction connects two independent clauses and should be preceded by a comma?",
+      "sentence": "\"Sarah loves coffee, ___ her sister prefers tea.\"",
+      "options": [
+        "and (FANBOYS coordinating)",
+        "because (subordinating)",
+        "although (subordinating)",
+        "when (subordinating)"
+      ],
+      "correctAnswer": "and (FANBOYS coordinating)",
+      "audio": "quiz_1_definition.mp3",
+      "hint": "Think about FANBOYS. Both clauses can stand alone.",
+      "difficulty": "easy",
+      "explanation": "The correct answer is 'and.' This is a coordinating conjunction from FANBOYS (For, And, Nor, But, Or, Yet, So). Both 'Sarah loves coffee' and 'her sister prefers tea' are independent clauses that can stand alone. When connecting independent clauses with coordinating conjunctions, use a comma before the conjunction."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses a subordinating conjunction?",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "Because it was cold, I wore a jacket.",
+        "I wore a jacket, because it was cold.",
+        "Because I wore a jacket, it was cold.",
+        "I wore because it was cold, a jacket."
+      ],
+      "correctAnswer": "Because it was cold, I wore a jacket.",
+      "audio": "quiz_2_usage.mp3",
+      "hint": "Pay attention to comma placement. A subordinating clause at the START needs a comma after it.",
+      "difficulty": "medium",
+      "explanation": "The correct sentence is 'Because it was cold, I wore a jacket.' This shows the proper use of a subordinating conjunction. When the subordinating clause (because it was cold) begins the sentence, it must be followed by a comma. The second option incorrectly places a comma before 'because' when it comes after the main clause—no comma is needed there. The other options have illogical word order."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Choose the best form to complete the sentence:",
+      "sentence": "She is ___ intelligent ___ kind, so everyone respects her.",
+      "options": [
+        "both / and",
+        "either / or",
+        "not only / but also",
+        "neither / nor"
+      ],
+      "correctAnswer": "not only / but also",
+      "audio": "quiz_3_advanced.mp3",
+      "hint": "This tests the difference between different correlative conjunctions. The sentence emphasizes she has BOTH qualities equally.",
+      "difficulty": "hard",
+      "explanation": "The correct answer is 'not only / but also.' This correlative conjunction pair is used to add emphasis to both qualities equally. 'Both / and' would also work grammatically, but 'not only / but also' provides stronger emphasis and is more commonly used in formal or literary contexts. 'Either / or' and 'neither / nor' are incorrect because they suggest choice or negation, not emphasis of both qualities."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "conjunction",
+      "hint": "Grammatical term - a word used to connect other words, phrases, or clauses",
+      "clue": "c_nj_nct__n",
+      "audio": "spell_conjunction.mp3",
+      "sentence": "A ___ is essential for combining ideas in English.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "coordinate",
+      "hint": "Grammar term that connects elements of equal importance or independent clauses",
+      "clue": "c__rd_n_t_",
+      "audio": "spell_coordinate.mp3",
+      "sentence": "Use a ___ conjunction to connect two independent clauses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "subordinate",
+      "hint": "Advanced grammar concept - indicates dependent clauses that depend on independent ones",
+      "clue": "s_b_rd_n_t_",
+      "audio": "spell_subordinate.mp3",
+      "sentence": "A ___ conjunction introduces a dependent clause.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "conjunction-explorer",
+        "name": "Conjunction Explorer",
+        "condition": "Complete all 8 conjunction lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You've mastered the three types of conjunctions! Great job!"
+      },
+      {
+        "id": "fanboys-master",
+        "name": "FANBOYS Master",
+        "condition": "Score 100% on 3 coordinating conjunction activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "You're a FANBOYS pro! No more confusion!"
+      },
+      {
+        "id": "conjunction-game-expert",
+        "name": "Conjunction Game Expert",
+        "condition": "Complete all conjunction games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "Perfect! You've mastered conjunction selection!"
+      },
+      {
+        "id": "grammar-vocabulary-scholar",
+        "name": "Grammar Vocabulary Scholar",
+        "condition": "Spell all conjunction vocabulary words correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "Excellent spelling! You know your grammar terms!"
+      },
+      {
+        "id": "writing-master",
+        "name": "Writing Champion",
+        "condition": "Complete 5 writing activities scoring 90% or higher",
+        "icon": "⚡",
+        "points": 30,
+        "message": "Your sentences are now sophisticated and correct!"
+      },
+      {
+        "id": "conjunction-perfectionist",
+        "name": "Conjunction Perfectionist",
+        "condition": "Score 100% on all conjunction activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Outstanding! You're a conjunction master!"
+      }
+    ]
+  }
+}

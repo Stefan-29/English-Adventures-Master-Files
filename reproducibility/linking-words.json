@@ -1,0 +1,401 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Are Linking Words? 🎯",
+      "content": "<p>When you want to connect ideas between sentences or within a paragraph, you use <strong>linking words</strong> (also called connectors, transition words, or discourse markers)! 📚</p><p><strong>Definition:</strong> Words or phrases that explicitly signal the logical relationship between ideas, ensuring textual coherence and guiding the reader through your argument.</p><table class='lesson-table table-blue'><thead><tr><th>Category</th><th>Key Markers</th><th>Logical Function</th><th>Example</th></tr></thead><tbody><tr><td><strong>Addition</strong></td><td>also, furthermore, moreover, in addition</td><td>Accumulating points or evidence</td><td>She speaks Spanish; <strong>moreover</strong>, she understands French.</td></tr><tr><td><strong>Contrast</strong></td><td>however, nevertheless, on the contrary, yet</td><td>Introducing opposing or unexpected ideas</td><td>The task was hard; <strong>however</strong>, she completed it.</td></tr><tr><td><strong>Cause &amp; Effect</strong></td><td>therefore, consequently, as a result, thus</td><td>Showing reasoning or outcomes</td><td>It rained heavily; <strong>therefore</strong>, we stayed indoors.</td></tr><tr><td><strong>Conclusion</strong></td><td>in conclusion, to summarize, ultimately, overall</td><td>Wrapping up or synthesizing main points</td><td><strong>In conclusion</strong>, the research validates the hypothesis.</td></tr></tbody></table><p><em>💡 Pedagogical Note: Linking words are the structural glue of academic and professional writing. They transform a list of isolated sentences into a coherent, persuasive narrative.</em></p>",
+      "examples": [
+        "Addition: \"<strong>She studied hard. In addition, she practiced regularly</strong>\" (adds information)",
+        "Contrast: \"<strong>The food was expensive. However, the quality justified the price</strong>\" (shows difference)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_linking_words_intro.mp3",
+      "functions": [
+        "Connecting ideas logically between sentences",
+        "Creating coherent paragraphs and essays"
+      ],
+      "tips": "💡 <strong>Quick Rule:</strong> Linking words improve clarity and flow. They help readers understand how ideas relate."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Addition and Enumeration 🚀",
+      "content": "<p>Level up your cohesion! 🎮 <strong>Addition linking words</strong> help you layer information, build momentum, and structure multi-point arguments systematically.</p><table class='lesson-table table-green'><thead><tr><th>Marker</th><th>Formality Level</th><th>Usage Context</th><th>Punctuation / Structure</th></tr></thead><tbody><tr><td><strong>And / Also</strong></td><td>Neutral / Conversational</td><td>Simple addition within or between sentences</td><td>He's smart <strong>and</strong> diligent. / He's smart. <strong>Also</strong>, he's diligent.</td></tr><tr><td><strong>In addition / Furthermore</strong></td><td>Formal / Academic</td><td>Introducing a new, equally important point</td><td>The data is robust. <strong>Furthermore</strong>, it aligns with prior studies.</td></tr><tr><td><strong>Moreover / Besides</strong></td><td>Formal / Persuasive</td><td>Adding a stronger or reinforcing point</td><td>The policy is costly. <strong>Moreover</strong>, it lacks public support.</td></tr><tr><td><strong>First, Second, Finally</strong></td><td>Universal</td><td>Sequential enumeration or step-by-step logic</td><td><strong>First</strong>, we analyze. <strong>Second</strong>, we implement. <strong>Finally</strong>, we evaluate.</td></tr></tbody></table><p><strong>Structural Tip:</strong> Avoid overusing \"and\" in formal writing. Replace it with <em>furthermore</em> or <em>additionally</em> to vary rhythm and elevate register.</p><p><em>🌟 Memory Framework: Addition linkers act as intellectual \"plus signs\" (+), stacking evidence to strengthen your core argument.</em></p>",
+      "examples": [
+        "Simple addition: \"<strong>She's intelligent and hardworking</strong>\"",
+        "Formal: \"<strong>The research is comprehensive. Furthermore, it includes recent data</strong>\"",
+        "Enumeration: \"<strong>First, we plan. Secondly, we execute. Finally, we evaluate</strong>\""
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_addition.mp3",
+      "functions": [
+        "Adding supporting ideas",
+        "Building cumulative arguments",
+        "Creating ordered lists of points"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> Addition words say \"PLUS one more thing!\" They accumulate ideas."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Contrast and Comparison 🌟",
+      "content": "<p>Master opposition and alignment! ✨ <strong>Contrast</strong> and <strong>comparison</strong> linkers manage tension and similarity between ideas, crucial for balanced analysis.</p><table class='lesson-table table-teal'><thead><tr><th>Type</th><th>Primary Markers</th><th>Syntactic Pattern</th><th>Rhetorical Effect</th></tr></thead><tbody><tr><td><strong>Direct Contrast</strong></td><td>however, nevertheless, nonetheless</td><td>[Statement]. <strong>Marker</strong>, [Contrasting Idea].</td><td>Signals a shift or unexpected turn</td></tr><tr><td><strong>Comparative Opposition</strong></td><td>on the one hand / on the other hand</td><td>Must be used as a paired structure</td><td>Frames a balanced, dialectical view</td></tr><tr><td><strong>Internal Contrast</strong></td><td>whereas, while</td><td>[Clause 1], <strong>whereas</strong> [Clause 2].</td><td>Juxtaposes traits within one sentence</td></tr><tr><td><strong>Similarity/Comparison</strong></td><td>similarly, likewise, in the same vein</td><td>[Statement A]. <strong>Similarly</strong>, [Statement B].</td><td>Draws parallels to reinforce a point</td></tr></tbody></table><p><strong>⚠️ Punctuation Alert:</strong> Contrast transition words connecting independent clauses require a semicolon before and a comma after: <code>\"The plan was ambitious; however, execution faltered.\"</code></p><p><em>🎨 Stylistic Insight: Contrast creates intellectual friction, which engages readers. Use it to acknowledge complexity before presenting your stance.</em></p>",
+      "examples": [
+        "Contrast: \"<strong>The weather was beautiful. However, we stayed indoors</strong>\"",
+        "Comparison: \"<strong>She loves reading. Similarly, her brother enjoys books</strong>\"",
+        "Two sides: \"<strong>Summer is warm. On the other hand, winter is cold</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_contrast.mp3",
+      "functions": [
+        "Showing unexpected or opposing ideas",
+        "Comparing and contrasting concepts",
+        "Presenting balanced arguments"
+      ],
+      "tips": "💡 <strong>Decision point:</strong> Does the second idea contradict the first? Use contrast. Does it support or parallel it? Use comparison."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Cause, Effect, and Reason ⚡",
+      "content": "<p>Decode causality! 🤔 <strong>Cause, effect, and purpose</strong> linkers establish logical chains, essential for analytical and persuasive writing.</p><table class='lesson-table table-purple'><thead><tr><th>Logical Relation</th><th>Primary Markers</th><th>Grammatical Function</th><th>Example</th></tr></thead><tbody><tr><td><strong>Cause / Reason</strong></td><td>because, since, as, due to</td><td>Introduces the origin or trigger</td><td>Delays occurred <strong>due to</strong> supply chain issues.</td></tr><tr><td><strong>Effect / Result</strong></td><td>therefore, consequently, thus, as a result</td><td>Shows the outcome or conclusion</td><td>Funding was cut; <strong>consequently</strong>, the project halted.</td></tr><tr><td><strong>Purpose / Intention</strong></td><td>so that, in order to, for the purpose of</td><td>Expresses goal or desired outcome</td><td>We implemented safeguards <strong>in order to</strong> prevent errors.</td></tr><tr><td><strong>Condition → Result</strong></td><td>if...then, provided that, assuming</td><td>Links hypothetical to consequence</td><td><strong>Provided that</strong> targets are met, bonuses will be awarded.</td></tr></tbody></table><p><strong>Professional Standard:</strong> Maintain strict logical direction. <em>Because/since</em> point backward to reasons. <em>Therefore/consequently</em> point forward to results. Never reverse them without adjusting syntax.</p><p><em>⚙️ Logic Rule: A → B. \"Because\" explains A. \"Therefore\" announces B.</em></p>",
+      "examples": [
+        "Cause: \"<strong>The student succeeded because she studied consistently</strong>\"",
+        "Effect: \"<strong>The weather was bad. As a result, the game was postponed</strong>\"",
+        "Purpose: \"<strong>He exercised so that he'd be fit</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_cause_effect.mp3",
+      "functions": [
+        "Explaining reasons and causes",
+        "Showing results and consequences",
+        "Expressing intention and purpose"
+      ],
+      "tips": "💡 <strong>Pro tip:</strong> Cause/effect structure: If A happens, B results. BECAUSE shows A. THEREFORE shows B."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Summarizing and Concluding 🎯",
+      "content": "<p>Engineer powerful endings! 🚀 <strong>Summary and conclusion</strong> linkers signal closure, synthesize arguments, and leave a lasting impression.</p><table class='lesson-table table-orange'><thead><tr><th>Function</th><th>Recommended Phrases</th><th>Ideal Placement</th><th>Rhetorical Purpose</th></tr></thead><tbody><tr><td><strong>Recap / Summary</strong></td><td>in summary, to summarize, briefly, in essence</td><td>Mid-section or pre-conclusion</td><td>Condenses complex points for clarity</td></tr><tr><td><strong>Final Conclusion</strong></td><td>in conclusion, to conclude, ultimately, all in all</td><td>Beginning of final paragraph</td><td>Signals definitive closure and stance</td></tr><tr><td><strong>Synthesis / Implication</strong></td><td>therefore, thus, hence, consequently</td><td>Follows evidence summary</td><td>Derives logical action or recommendation</td></tr><tr><td><strong>Final Emphasis</strong></td><td>finally, lastly, above all, most importantly</td><td>Last point or concluding sentence</td><td>Highlights the critical takeaway</td></tr></tbody></table><p><strong>Strategic Usage:</strong> Use <em>summary</em> markers to briefly restate evidence. Transition immediately to <em>conclusion</em> markers to present your final judgment. Avoid introducing new evidence after a conclusion marker.</p><p><em>⚙️ Pro Tip: Strong conclusions don't just repeat—they synthesize. Use linkers to show how your points collectively prove your thesis.</em></p>",
+      "examples": [
+        "Summary: \"<strong>The costs are high, the timeline is tight, and resources are limited. In summary, we need more support</strong>\"",
+        "Conclusion: \"<strong>The evidence is clear. Therefore, we must act now</strong>\"",
+        "Final point: \"<strong>Consider the benefits, evaluate the risks, and ultimately, decide what's best</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_conclusion.mp3",
+      "functions": [
+        "Restating and reinforcing main ideas",
+        "Drawing conclusions from evidence",
+        "Creating strong endings"
+      ],
+      "tips": "💡 <strong>When to use:</strong> Use summary words to restate points. Use conclusion words for final ideas."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Conditional and Adversative Linking ❓",
+      "content": "<p>Handle complexity and nuance! 🎨 <strong>Conditional</strong> and <strong>adversative/concessive</strong> linkers manage hypotheticals, exceptions, and counterarguments with precision.</p><table class='lesson-table table-pink'><thead><tr><th>Category</th><th>Key Markers</th><th>Structural Pattern</th><th>Nuance / Usage</th></tr></thead><tbody><tr><td><strong>Real Condition</strong></td><td>if, when, as long as</td><td><strong>If</strong> + [condition], [result].</td><td>Likely or standard scenarios</td></tr><tr><td><strong>Negative Condition</strong></td><td>unless, provided that, except if</td><td><strong>Unless</strong> + [condition], [result].</td><td>States what must NOT happen</td></tr><tr><td><strong>Hypothetical</strong></td><td>supposing, assuming, in the event that</td><td><strong>Assuming</strong> + [scenario], [implication].</td><td>Exploratory or theoretical analysis</td></tr><tr><td><strong>Concession / Adversative</strong></td><td>although, despite, even though, admittedly</td><td><strong>Although</strong> + [valid point], [counter-point].</td><td>Acknowledges opposition before refuting</td></tr><tr><td><strong>Persistent Contrast</strong></td><td>nevertheless, nonetheless, still, yet</td><td>[Challenge]. <strong>Nevertheless</strong>, [response].</td><td>Shows determination despite obstacles</td></tr></tbody></table><p><strong>⚠️ Critical Distinction:</strong> <em>Conditional</em> linkers set up dependencies (If A, then B). <em>Concessive/Adversative</em> linkers acknowledge a valid opposing fact but maintain the main argument (Although X is true, Y prevails).</p><p><em>💬 Expert Note: Mastering concession (\"Admittedly, X has flaws; however, Y addresses them...\") is the hallmark of advanced, credible argumentation.</em></p>",
+      "examples": [
+        "Conditional: \"<strong>If the budget allows, we'll expand the program</strong>\"",
+        "Adversative: \"<strong>The team is inexperienced. Nevertheless, their enthusiasm is remarkable</strong>\"",
+        "Concession: \"<strong>Although I'm tired, I'll help you finish</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_conditional.mp3",
+      "functions": [
+        "Expressing conditions and hypotheticals",
+        "Acknowledging counterarguments",
+        "Showing exceptions or persistence"
+      ],
+      "tips": "💡 <strong>Remember:</strong> Conditional = IF something, THEN... Adversative = BUT despite..."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Advanced: Multi-Linking Strategies 🕐",
+      "content": "<p>Orchestrate complex arguments! ⚠️ Advanced writing chains linking words logically to build sophisticated, multi-layered discourse.</p><table class='lesson-table table-gray'><thead><tr><th>Argument Phase</th><th>Recommended Chain</th><th>Common Error</th><th>Professional Correction</th></tr></thead><tbody><tr><td><strong>Introduction &amp; Expansion</strong></td><td>Initially... Furthermore... Additionally...</td><td>❌ \"Furthermore, also, we found...\"</td><td>Stack one marker per logical step. Avoid synonym clustering.</td></tr><tr><td><strong>Counterargument &amp; Rebuttal</strong></td><td>Some claim... Although valid, evidence shows... Consequently...</td><td>❌ \"However, but the data says...\"</td><td>Never pair contrast linkers. Pick one per transition.</td></tr><tr><td><strong>Synthesis &amp; Conclusion</strong></td><td>Collectively... Thus... Ultimately...</td><td>❌ \"Therefore, as a result, hence...\"</td><td>Choose the strongest single marker. Redundancy weakens impact.</td></tr><tr><td><strong>Logical Flow Check</strong></td><td>Claim → Evidence → Concession → Rebuttal → Conclusion</td><td>❌ Jumping between cause/contrast randomly</td><td>Map your logic tree first. Linkers should mirror your reasoning path.</td></tr></tbody></table><p><strong>Professional Standard:</strong> Each transition should serve a distinct logical function. If two adjacent linkers perform the same job (e.g., <em>however + but</em>), delete the weaker one. Precision &gt; Density.</p><p><em>🌍 Academic Insight: Top-tier writers use linkers as \"signposts.\" They don't just connect sentences—they guide the reader's cognitive journey through your argument.</em></p>",
+      "examples": [
+        "Multi-strategy: \"<strong>First, we identified problems. Additionally, we proposed solutions. Consequently, outcomes improved. Nevertheless, challenges remain. Therefore, ongoing efforts are needed</strong>\"",
+        "Building argument: \"<strong>Research indicates A. Furthermore, this supports B. Thus, C is essential</strong>\"",
+        "Handling opposition: \"<strong>Critics claim X. While this has merit, evidence shows Y. Therefore, Z is preferable</strong>\""
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_advanced_linking.mp3",
+      "functions": [
+        "Creating sophisticated multi-part arguments",
+        "Handling counterarguments effectively",
+        "Guiding readers through complex logic"
+      ],
+      "tips": "💡 <strong>Never forget:</strong> Never use two overlapping linking words. Choose one per idea transition. Plan the logic before writing."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Linking Words in Professional Context 🏆",
+      "content": "<p>Achieve invisible mastery! 🌟 Elite communicators deploy linking words strategically to match register, control pacing, and persuade without sounding mechanical.</p><table class='lesson-table table-yellow'><thead><tr><th>Context / Genre</th><th>Preferred Linking Strategy</th><th>Rhetorical Effect</th><th>Exemplar</th></tr></thead><tbody><tr><td><strong>Academic / Research</strong></td><td>Formal transitions: <em>consequently, nevertheless, subsequently</em></td><td>Precision, logical rigor, objectivity</td><td>The methodology was sound; <strong>nevertheless</strong>, limitations persist.</td></tr><tr><td><strong>Business / Executive</strong></td><td>Direct &amp; actionable: <em>additionally, therefore, moving forward</em></td><td>Clarity, decisiveness, forward momentum</td><td>Q3 targets were met. <strong>Therefore</strong>, we will scale operations.</td></tr><tr><td><strong>Persuasive / Debate</strong></td><td>Concessive &amp; emphatic: <em>admittedly, however, ultimately</em></td><td>Credibility, counter-handling, conviction</td><td><strong>Admittedly</strong>, costs are high; <strong>however</strong>, ROI justifies the investment.</td></tr><tr><td><strong>Creative / Narrative</strong></td><td>Varied &amp; rhythmic: <em>meanwhile, consequently, as a result</em></td><td>Atmosphere, pacing, emotional resonance</td><td>Shadows lengthened. <strong>Consequently</strong>, the village fell silent.</td></tr></tbody></table><p><strong>Mastery Checklist:</strong> ✅ Map linkers to logical function, not just formality ✅ Maintain parallel structure in chained arguments ✅ Eliminate redundant transitions ✅ Vary placement (start/mid) for natural rhythm.</p><p><em>🎓 Final Insight: The hallmark of mastery is invisibility. When your linkers perfectly align with the reader's expectations, they won't notice the technique—they'll simply understand your argument effortlessly.</em></p>",
+      "examples": [
+        "Academic: \"<strong>Furthermore, the evidence is compelling. Therefore, we must reconsider our approach</strong>\"",
+        "Persuasive: \"<strong>Sales increased 30%. Moreover, customer satisfaction improved. Thus, our strategy is validated</strong>\"",
+        "Narrative: \"<strong>He faced challenges. Nevertheless, he persevered. Consequently, success followed</strong>\"",
+        "Complex argument: \"<strong>While critics argue X, evidence suggests Y. Furthermore, emerging research supports Z. Therefore, our position is sound</strong>\""
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery_professional_linking.mp3",
+      "functions": [
+        "Using linking words strategically for persuasion",
+        "Creating logical flow in complex arguments",
+        "Adapting linking strategies to genre and audience",
+        "Demonstrating sophisticated command of structure"
+      ],
+      "tips": "💡 <strong>Master level:</strong> Choose linking words to reveal your thinking. In academic writing, show logic explicitly. In professional writing, be balanced. In creative writing, vary strategically. True mastery is invisible technique!"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about the benefits and challenges of social media. Use addition linking words for multiple benefits, contrast linking words for challenges, and conclusion linking words to summarize.",
+      "hint": "Start with \"Social media has many benefits.\". Use <strong>addition</strong> words (and, also, moreover) for more benefits, <strong>contrast</strong> words (however, but) for challenges, and <strong>conclusion</strong> words (in conclusion, therefore) to wrap up. Example: <em>\"It connects people. Also, it allows sharing. However, cyberbullying is a challenge. In conclusion, social media is complex.\"</em>",
+      "expectedKeywords": [
+        "and",
+        "also",
+        "moreover",
+        "however",
+        "but",
+        "in_conclusion",
+        "therefore",
+        "benefit_word",
+        "challenge_word"
+      ],
+      "sentenceStarters": [
+        "Social media has ___ benefits. Also, ___. Moreover, ___.",
+        "However, ___. But ___. In conclusion, ___."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe your most memorable learning experience. Use cause-effect linking words to explain why it was memorable, conditional words to discuss lessons learned, and summary words to conclude.",
+      "hint": "Explain the cause (why it was memorable), effects (what changed), conditions (if you could do it again...), and summarize. Example: <em>\"As a result of this experience, I learned patience. If I could do it again, I'd start earlier. In summary, this taught me valuable lessons.\"</em>",
+      "expectedKeywords": [
+        "because",
+        "therefore",
+        "as_a_result",
+        "if",
+        "unless",
+        "in_summary",
+        "to_summarize",
+        "learning_word",
+        "lesson_word"
+      ],
+      "sentenceStarters": [
+        "This experience was memorable because ___. As a result, ___.",
+        "If I could change anything, ___. In summary, ___."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a persuasive essay argument using sophisticated linking strategies. Build your case with addition and cause-effect words, acknowledge counterarguments with adversative words, and close with conclusions.",
+      "hint": "Structure: introduce position → add supporting points → address counterarguments → conclude logically. Model: <em>\"First, evidence shows X. Furthermore, Y supports this. Although some argue Z, research contradicts this. Consequently, we should believe X.\"</em>",
+      "expectedKeywords": [
+        "first",
+        "furthermore",
+        "additionally",
+        "although",
+        "however",
+        "nevertheless",
+        "therefore",
+        "in_conclusion",
+        "argument_word",
+        "evidence_word"
+      ],
+      "sentenceStarters": [
+        "First, ___. Furthermore, ___. Additionally, ___.",
+        "Although some argue ___, nevertheless, ___. Therefore, ___."
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct linking word for adding more information:",
+      "sentence": "He is intelligent. ___, he is kind and generous.",
+      "options": [
+        "Furthermore",
+        "However",
+        "Therefore",
+        "In conclusion"
+      ],
+      "correctAnswer": ["Furthermore"],
+      "audio": "game_1_addition_linking.mp3",
+      "hint": "You're adding MORE information about him. Addition words add ideas, not contrast.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which linking word shows cause and effect?",
+      "sentence": "The storm was severe; ___, schools were closed for the day.",
+      "options": [
+        "Moreover",
+        "However",
+        "As a result",
+        "In summary"
+      ],
+      "correctAnswer": ["As a result"],
+      "audio": "game_2_cause_effect.mp3",
+      "hint": "The storm CAUSED schools to close. CAUSE-EFFECT linking words show this relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the linking word that acknowledges a counterargument before refuting it:",
+      "sentence": "Some claim this is too expensive. ___, research shows the long-term savings justify the cost.",
+      "options": [
+        "Furthermore, yes",
+        "Although this is valid, nevertheless",
+        "In conclusion, we agree",
+        "Additionally, furthermore"
+      ],
+      "correctAnswer": ["Although this is valid, nevertheless"],
+      "audio": "game_3_counterargument.mp3",
+      "hint": "You acknowledge their point (Although/Though) but then disagree (Nevertheless/However).",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What is the primary purpose of linking words?",
+      "sentence": "Choose the best answer:",
+      "options": [
+        "To make sentences longer and more complex",
+        "To connect ideas logically and improve clarity and flow",
+        "To show the author's personal opinion",
+        "To replace conjunctions entirely"
+      ],
+      "correctAnswer": "To connect ideas logically and improve clarity and flow",
+      "audio": "quiz_1_linking_purpose.mp3",
+      "hint": "Think about what linking words do for your writing. How do they help readers?",
+      "difficulty": "easy",
+      "explanation": "The correct answer is 'To connect ideas logically and improve clarity and flow.' Linking words (also called connectors, transition words, or connectives) serve the crucial function of helping readers understand how ideas relate to each other. They create coherent, well-structured writing by showing logical relationships—whether adding information, contrasting ideas, showing cause and effect, or summarizing. The other options are incorrect: linking words don't necessarily make sentences longer, they don't replace conjunctions, and while they may reflect opinion, that's not their primary purpose."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses multiple linking words?",
+      "sentence": "Select the grammatically correct sentence:",
+      "options": [
+        "First, the cost is high. Moreover, it's unreliable. However, in conclusion, we should buy it.",
+        "First, the cost is high. Moreover, it's unreliable. However, we must consider its benefits. Therefore, let's proceed.",
+        "First, the cost is high, and moreover, and it's unreliable; however, nevertheless, we should consider it.",
+        "In conclusion, first, furthermore, the situation is complex, therefore, so we must act carefully."
+      ],
+      "correctAnswer": "First, the cost is high. Moreover, it's unreliable. However, we must consider its benefits. Therefore, let's proceed.",
+      "audio": "quiz_2_multiple_linking.mp3",
+      "hint": "Good writing chains linking words logically without redundancy. Look for smooth, progressive logic.",
+      "difficulty": "medium",
+      "explanation": "The correct sentence is 'First, the cost is high. Moreover, it's unreliable. However, we must consider its benefits. Therefore, let's proceed.' This sentence uses linking words logically and progressively: 'first' begins the enumeration, 'moreover' adds supporting points, 'however' introduces a counterargument, and 'therefore' concludes. The other options either use redundant linking words (moreover and and), place conclusion words incorrectly, or mix too many linking words without clear logical progression."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Choose the most sophisticated use of linking words for academic writing:",
+      "sentence": "Which demonstrates professional mastery?",
+      "options": [
+        "Things happened. Also, other things happened. But in conclusion, it was good.",
+        "Research indicates A. Furthermore, this supports B. Although some dispute this, evidence clearly validates the position. Consequently, we recommend action.",
+        "First, A happened. Also, B happened. Then, C happened. So, D is true.",
+        "The problem exists; however, the solution is therefore here; moreover, everyone agrees consequently."
+      ],
+      "correctAnswer": "Research indicates A. Furthermore, this supports B. Although some dispute this, evidence clearly validates the position. Consequently, we recommend action.",
+      "audio": "quiz_3_sophisticated_academic.mp3",
+      "hint": "Professional academic writing builds logic progressively, acknowledges counterarguments, and concludes firmly.",
+      "difficulty": "hard",
+      "explanation": "The correct answer is 'Research indicates A. Furthermore, this supports B. Although some dispute this, evidence clearly validates the position. Consequently, we recommend action.' This sentence demonstrates sophisticated academic linking by: establishing facts, adding supporting evidence (furthermore), acknowledging potential counterargument (although), refuting it with confidence, and drawing a conclusion (consequently). The progression is logical and persuasive. The other options either use overly simple language, lack progression, or awkwardly over-use linking words without clear purpose."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "therefore",
+      "hint": "Linking word showing cause and effect—used to show results",
+      "clue": "th_r_f_r_",
+      "audio": "spell_therefore.mp3",
+      "sentence": "The research was conclusive; ___, we must act.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "furthermore",
+      "hint": "Linking word showing addition in formal writing",
+      "clue": "f_rth_rm_r_",
+      "audio": "spell_furthermore.mp3",
+      "sentence": "She's intelligent. ___, she's hardworking.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "coherence",
+      "hint": "Advanced concept—the quality that linking words create by connecting ideas logically",
+      "clue": "c_h_r_nc_",
+      "audio": "spell_coherence.mp3",
+      "sentence": "Good writing shows ___ through effective linking words.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "linking-word-explorer",
+        "name": "Linking Word Explorer",
+        "condition": "Complete all 8 linking word lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You've mastered all linking word categories! Excellent work!"
+      },
+      {
+        "id": "argument-builder",
+        "name": "Argument Builder",
+        "condition": "Score 100% on 3 persuasive linking word writing activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your arguments are logically connected and persuasive!"
+      },
+      {
+        "id": "coherence-expert",
+        "name": "Coherence Expert",
+        "condition": "Complete all linking word games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "Perfect! Your writing now flows with perfect coherence!"
+      },
+      {
+        "id": "linking-vocabulary-scholar",
+        "name": "Linking Vocabulary Scholar",
+        "condition": "Spell all linking-related vocabulary correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "Excellent! Your professional vocabulary is on point!"
+      },
+      {
+        "id": "flow-master",
+        "name": "Writing Flow Master",
+        "condition": "Complete 5 linking word activities scoring 90% or higher",
+        "icon": "⚡",
+        "points": 30,
+        "message": "Your writing now flows naturally and logically!"
+      },
+      {
+        "id": "linking-perfectionist",
+        "name": "Linking Word Perfectionist",
+        "condition": "Score 100% on all linking word activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Outstanding! You're a linking word mastery expert!"
+      }
+    ]
+  }
+}

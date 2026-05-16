@@ -1,0 +1,145 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Although, Despite, In Spite Of",
+    "favicon": "favicon.ico"
+  },
+  
+  "lesson": {
+    "title": "Although/Though/Even Though vs. Despite/In Spite Of",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Contrast Marker Lessons",
+        "instructions": "Master although, even though, despite, and in spite of to show contrasting ideas. Understand the key distinction: although/even though take subject + verb, while despite/in spite of take nouns or gerunds."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using although/even though (with complete clauses) and despite/in spite of (with noun phrases or gerunds) to express contrast. Apply proper punctuation and word order."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Contrast Games",
+        "instructions": "Play games to practice distinguishing between although/even though and despite/in spite of. Recognize grammatical structures and choose the correct contrast marker."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Contrast Challenge",
+        "instructions": "Apply contrast structures correctly in complex sentences and master the grammar rules. Spell contrast-related terminology precisely."
+      }
+    ]
+  },
+  
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Contrast Markers - Clause Form",
+        "words": [
+          "although",
+          "though",
+          "even though",
+          "as though",
+          "even if",
+          "in that"
+        ]
+      },
+      {
+        "title": "Contrast Markers - Noun/Gerund Form",
+        "words": [
+          "despite",
+          "in spite of",
+          "notwithstanding",
+          "regardless of",
+          "despite the fact that",
+          "in spite of the fact that"
+        ]
+      },
+      {
+        "title": "Subordinating Conjunctions - Related",
+        "words": [
+          "whereas",
+          "while (contrast)",
+          "but",
+          "however",
+          "nevertheless",
+          "nonetheless",
+          "yet",
+          "still"
+        ]
+      },
+      {
+        "title": "Contrast Phrases & Expressions",
+        "words": [
+          "despite X, Y happened",
+          "although X, Y happened",
+          "even though X, still Y",
+          "in spite of X, Y occurred",
+          "contrary to X, Y is true",
+          "against all odds",
+          "to the contrary",
+          "at the same time"
+        ]
+      },
+      {
+        "title": "Common Verbs with Contrast",
+        "words": [
+          "contrast",
+          "differ",
+          "contradict",
+          "oppose",
+          "contradict",
+          "conflict",
+          "contrapose",
+          "acknowledge",
+          "concede",
+          "accept",
+          "persist",
+          "continue",
+          "maintain"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "Although + subject + verb, ...",
+          "Even though + subject + verb, ...",
+          "Despite + noun/gerund, ...",
+          "In spite of + noun/gerund, ...",
+          "... although/even though + subject + verb",
+          "... despite/in spite of + noun",
+          "Although/Despite X, the situation + verb",
+          "Concession: While I acknowledge X, Y is true"
+        ]
+      }
+    ]
+  },
+  
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  
+  "dataFile": "reproducibility/although-despite.json",
+  "grammarChecker": "althoughDespite.js",
+  
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

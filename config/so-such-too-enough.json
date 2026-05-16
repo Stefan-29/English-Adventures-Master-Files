@@ -1,0 +1,148 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: So, Such, Too, Enough",
+    "favicon": "favicon.ico"
+  },
+  
+  "lesson": {
+    "title": "Degree Markers: So/Such (Intensity) vs. Too/Enough (Sufficiency)",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Degree Marker Lessons",
+        "instructions": "Master so and such (showing intensity/extremeness) and too and enough (showing excess or adequacy). Understand the key distinction: so/such = 'how extreme', too/enough = 'is it adequate?'"
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using so + adjective, such + noun, too + adjective, and enough + adjective to express intensity and sufficiency. Apply so...that and enough...to constructions."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Degree Games",
+        "instructions": "Play games to practice choosing between so/such (intensity) and too/enough (sufficiency) in various contexts. Recognize when each marker is appropriate."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Degree Marker Challenge",
+        "instructions": "Apply degree markers correctly in sentences showing intensity, excess, and adequacy. Spell degree-related terminology precisely."
+      }
+    ]
+  },
+  
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Intensity Markers - So / Such",
+        "words": [
+          "so (+ adjective/adverb)",
+          "such (+ article + adjective + noun)",
+          "so much",
+          "so many",
+          "so little",
+          "so few",
+          "such a",
+          "such an"
+        ]
+      },
+      {
+        "title": "Sufficiency Markers - Too / Enough",
+        "words": [
+          "too (+ adjective) - excess",
+          "enough (after adjective) - adequate",
+          "too much",
+          "too many",
+          "enough time",
+          "enough space",
+          "too little",
+          "too few"
+        ]
+      },
+      {
+        "title": "Intensity + Result - So...That / Such...That",
+        "words": [
+          "so + adjective + that",
+          "so + adverb + that",
+          "such + adjective + noun + that",
+          "such a + adjective + noun + that",
+          "so ... that (result)",
+          "such ... that (result)"
+        ]
+      },
+      {
+        "title": "Limitation / Capability - Too...To / Enough...To",
+        "words": [
+          "too + adjective + to + infinitive",
+          "too + adverb + to + infinitive",
+          "adjective + enough + to + infinitive",
+          "enough + noun + to + infinitive",
+          "too...to (inability)",
+          "enough...to (ability)"
+        ]
+      },
+      {
+        "title": "Common Adjectives & Adverbs",
+        "words": [
+          "hot",
+          "cold",
+          "fast",
+          "slow",
+          "big",
+          "small",
+          "good",
+          "bad",
+          "difficult",
+          "easy",
+          "expensive",
+          "cheap",
+          "bright",
+          "dark",
+          "loud",
+          "quiet"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "This is so + adjective + that ...",
+          "Such + adjective + noun + that ...",
+          "It's too + adjective + to + infinitive",
+          "You're + adjective + enough + to + infinitive",
+          "So ... that indicates result",
+          "Too ... to indicates inability",
+          "Enough ... to indicates ability",
+          "Emphasis: It was such a + noun + !"
+        ]
+      }
+    ]
+  },
+  
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  
+  "dataFile": "reproducibility/so-such-too-enough.json",
+  "grammarChecker": "degreeMarkers.js",
+  
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

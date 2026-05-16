@@ -1,0 +1,152 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Conjunctions",
+    "favicon": "favicon.ico"
+  },
+  
+  "lesson": {
+    "title": "Conjunctions & Coordinating vs. Subordinating",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Conjunctions Lessons",
+        "instructions": "Master coordinating conjunctions (FANBOYS), subordinating conjunctions, and correlative conjunctions to connect ideas logically. Understand the key distinction: coordinating joins equal clauses, subordinating joins dependent to independent clauses."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using coordinating conjunctions (and, but, or, so), subordinating conjunctions (because, although, when, if), and correlative conjunctions (both...and, either...or) to combine related ideas. Apply comma rules correctly."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Conjunction Games",
+        "instructions": "Play games to practice choosing between coordinating, subordinating, and correlative conjunctions in various contexts. Recognize signal words and understand how they determine conjunction choice."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Conjunction Challenge",
+        "instructions": "Apply conjunctions correctly in complex sentences and master the subtle differences between types. Spell conjunction-related grammar terminology."
+      }
+    ]
+  },
+  
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Coordinating Conjunctions (FANBOYS)",
+        "words": [
+          "for",
+          "and",
+          "nor",
+          "but",
+          "or",
+          "yet",
+          "so",
+          "FANBOYS"
+        ]
+      },
+      {
+        "title": "Subordinating Conjunctions - Reason & Cause",
+        "words": [
+          "because",
+          "since",
+          "as",
+          "in order that",
+          "so that",
+          "in case",
+          "unless",
+          "provided that"
+        ]
+      },
+      {
+        "title": "Subordinating Conjunctions - Time & Contrast",
+        "words": [
+          "when",
+          "while",
+          "before",
+          "after",
+          "until",
+          "although",
+          "though",
+          "even though",
+          "whereas",
+          "while (contrast)"
+        ]
+      },
+      {
+        "title": "Correlative Conjunctions",
+        "words": [
+          "both...and",
+          "either...or",
+          "neither...nor",
+          "not only...but also",
+          "rather...than",
+          "as...as",
+          "whether...or",
+          "between...and"
+        ]
+      },
+      {
+        "title": "Common Verbs with Conjunctions",
+        "words": [
+          "connect",
+          "join",
+          "combine",
+          "link",
+          "relate",
+          "separate",
+          "contrast",
+          "compare",
+          "emphasize",
+          "distinguish",
+          "coordinate",
+          "subordinate",
+          "correlate",
+          "parallel"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "Two independent clauses: ... , [FANBOYS] ...",
+          "Dependent + Independent: [Subordinating conjunction] ..., ...",
+          "Paired structures: Both ... and ...",
+          "Either/Or choice: Either ... or ...",
+          "Neither/Nor denial: Neither ... nor ...",
+          "Not only emphasis: Not only ... but also ...",
+          "Question form: ... or ...?",
+          "Emphasis pattern: [Conjunction] ... , which shows ..."
+        ]
+      }
+    ]
+  },
+  
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  
+  "dataFile": "reproducibility/conjunctions.json",
+  "grammarChecker": "conjunctions.js",
+  
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

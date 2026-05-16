@@ -1,0 +1,175 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Linking Words and Connectors",
+    "favicon": "favicon.ico"
+  },
+  
+  "lesson": {
+    "title": "Linking Words, Connectors & Transition Phrases",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Linking Word Lessons",
+        "instructions": "Master linking words for addition, contrast, cause-effect, comparison, sequence, and conclusion to connect ideas logically. Understand how different linking words create different relationships between ideas."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using addition words (and, moreover, furthermore), contrast words (but, however, although), cause-effect words (because, therefore, so), and conclusion words (in conclusion, to summarize)."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Linking Word Games",
+        "instructions": "Play games to practice choosing appropriate linking words in different contexts. Recognize relationships between ideas and select the correct connector."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Linking Word Challenge",
+        "instructions": "Apply linking words strategically in complex paragraphs and academic writing. Spell connector terminology and master multi-linking strategies."
+      }
+    ]
+  },
+  
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Addition Linking Words",
+        "words": [
+          "and",
+          "also",
+          "as well",
+          "in addition",
+          "furthermore",
+          "moreover",
+          "besides",
+          "additionally"
+        ]
+      },
+      {
+        "title": "Enumeration / Sequencing",
+        "words": [
+          "first",
+          "firstly",
+          "second",
+          "secondly",
+          "third",
+          "thirdly",
+          "finally",
+          "next",
+          "then",
+          "last"
+        ]
+      },
+      {
+        "title": "Contrast Linking Words",
+        "words": [
+          "but",
+          "yet",
+          "however",
+          "nevertheless",
+          "nonetheless",
+          "on the other hand",
+          "whereas",
+          "conversely"
+        ]
+      },
+      {
+        "title": "Cause, Effect & Result",
+        "words": [
+          "because",
+          "since",
+          "as",
+          "so",
+          "therefore",
+          "thus",
+          "consequently",
+          "as a result",
+          "due to",
+          "owing to"
+        ]
+      },
+      {
+        "title": "Comparison & Similarity",
+        "words": [
+          "similarly",
+          "likewise",
+          "in the same way",
+          "by the same token",
+          "just as",
+          "equally",
+          "in comparison"
+        ]
+      },
+      {
+        "title": "Summary & Conclusion",
+        "words": [
+          "in conclusion",
+          "to summarize",
+          "to sum up",
+          "briefly",
+          "in short",
+          "overall",
+          "all in all",
+          "finally",
+          "ultimately"
+        ]
+      },
+      {
+        "title": "Conditional & Adversative",
+        "words": [
+          "if",
+          "unless",
+          "provided that",
+          "in case",
+          "suppose",
+          "although",
+          "even though",
+          "despite",
+          "in spite of"
+        ]
+      },
+      {
+        "title": "Example & Illustration",
+        "words": [
+          "for example",
+          "for instance",
+          "such as",
+          "like",
+          "to illustrate",
+          "in particular",
+          "namely",
+          "that is"
+        ]
+      }
+    ]
+  },
+  
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  
+  "dataFile": "reproducibility/linking-words.json",
+  "grammarChecker": "linkingWords.js",
+  
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}

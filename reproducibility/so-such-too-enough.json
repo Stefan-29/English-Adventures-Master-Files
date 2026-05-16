@@ -1,0 +1,394 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Intensity vs. Sufficiency: The Big Picture 🎯",
+      "content": "<p> When you want to show how <strong>intense or extreme</strong> something is, you use <strong>so</strong> and <strong>such</strong>! But when you want to show if something is <strong>enough or too much</strong>, you use <strong>enough</strong> and <strong>too</strong>! 📚</p><p><strong>Key Difference:</strong> = SO/SUCH show \"to what degree?\" (very, extremely). ENOUGH/TOO show \"is it sufficient?\" (adequate or excessive). <em>Example: \"This coffee is <strong>so hot</strong>\" vs. \"This coffee is <strong>too hot</strong> to drink.\"</em></p><p><strong>Understanding the Structure:</strong> Think of them as answering different questions:</p><ul><li><strong>So/Such</strong>: Shows intensity. <em>\"The weather is <strong>so</strong> beautiful!\"</em></li><li><strong>Too/Enough</strong>: Shows sufficiency. <em>\"The coffee is <strong>too</strong> hot to drink.\" or \"You know <strong>enough</strong> to start.\"</em></li></ul><p><em>Fun fact: Many learners mix these up because they all show degree—but they answer different questions! 💡</em></p>",
+      "examples": [
+        "So/Such (intensity): \"<strong>The meal was so good!</strong>\" (shows how delicious)",
+        "Too/Enough (sufficiency): \"<strong>The meal was too expensive</strong>.\" (shows it exceeded the limit)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_so_such_too_enough_intro.mp3",
+      "functions": [
+        "Expressing intensity and extremes",
+        "Indicating sufficiency or excess"
+      ],
+      "tips": "💡 <strong>Quick Rule:</strong> SO/SUCH = intensity markers. TOO/ENOUGH = sufficiency markers."
+    },
+    {
+      "id": "lesson-2",
+      "title": "So and Such: The Intensity Markers 🚀",
+      "content": "<p>Now let's level up! 🎮 <strong>So</strong> and <strong>such</strong> express intensity, showing how extreme or intense something is.</p><p><strong>Formation - SO:</strong> <strong>So</strong> + [adjective/adverb]. <em>Example: \"The music is <strong>so</strong> loud!\"</em></p><p><strong>Formation - SUCH:</strong> <strong>Such</strong> + [article + adjective + noun] OR [adjective + plural noun]. <em>Example: \"It's <strong>such</strong> a beautiful day!\"</em></p><p><strong>Key difference between So and Such:</strong></p><ol><li><strong>So + Adjective/Adverb (no noun)</strong>: <em>\"The car is <strong>so</strong> fast.\"</em></li><li><strong>Such + Article + Adjective + Singular Noun</strong>: <em>\"It's <strong>such</strong> a fast car.\"</em></li><li><strong>Such + Plural/Uncountable Noun</strong>: <em>\"Such <strong>beautiful</strong> cars!\" or \"Such <strong>heavy</strong> furniture.\"</em></li></ol><p><em>Fun fact: Without a noun after the adjective, you MUST use SO, never SUCH! 🌟</em></p>",
+      "examples": [
+        "So only: \"<strong>This book is so interesting</strong>\" (no noun after interesting)",
+        "Such with noun: \"<strong>This is such an interesting book</strong>\" (noun present)",
+        "Plural nouns: \"<strong>Such beautiful paintings hang on the wall</strong>\""
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_so_such.mp3",
+      "functions": [
+        "Expressing strong intensity or extremes",
+        "Making exclamations about degree"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> SO = standalone adjective/adverb. SUCH = before a noun. No noun? = SO. Noun present? = SUCH."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Too and Enough: The Sufficiency Markers 🌟",
+      "content": "<p>Time to explore the sufficiency side! ✨ <strong>Too</strong> and <strong>enough</strong> show whether something is excessive or adequate.</p><p><strong>TOO = excessive (more than needed)</strong> <em>\"The coffee is too hot.\" (I can't drink it)</em></p><p><strong>ENOUGH = adequate (just right or sufficient)</strong> <em>\"This coffee is hot enough.\" (It's the right temperature)</em></p><p><strong>Placement rules for TOO:</strong></p><ul><li><strong>Too + Adjective</strong>: <em>\"This pen is <strong>too</strong> long.\"</em></li><li><strong>Too + Much/Many + Noun</strong>: <em>\"You put <strong>too much</strong> sugar in my tea.\"</em></li><li><strong>Too + Adverb</strong>: <em>\"The driver drives <strong>too</strong> fast.\"</em></li></ul><p><strong>Placement rules for ENOUGH:</strong></p><ul><li><strong>Enough + Noun</strong>: <em>\"We have <strong>enough</strong> food for everyone.\"</em></li><li><strong>Adjective + Enough</strong>: <em>\"This ladder is <strong>long enough</strong>.\"</em></li><li><strong>Adverb + Enough</strong>: <em>\"You're speaking <strong>well enough</strong>.\"</em></li></ul><p><em>Fun fact: ENOUGH comes AFTER adjectives/adverbs, but TOO comes BEFORE! 🎨</em></p>",
+      "examples": [
+        "Too (excessive): \"<strong>This knife is too dull to cut</strong>\" (can't use it properly)",
+        "Enough (adequate): \"<strong>This knife is sharp enough to cut</strong>\" (works well)",
+        "Too many: \"<strong>There are too many questions</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_too_enough.mp3",
+      "functions": [
+        "Expressing that something exceeds limits",
+        "Expressing that something meets requirements",
+        "Describing adequacy or excess"
+      ],
+      "tips": "💡 <strong>Word order trick:</strong> TOO comes BEFORE. ENOUGH comes AFTER. Remember: \"Too early, breakfast early enough!\""
+    },
+    {
+      "id": "lesson-4",
+      "title": "So...That and Such...That Constructions ⚡",
+      "content": "<p>Here's where it gets interesting! 🤔 When you combine SO/SUCH with THAT, you show <strong>result</strong> or <strong>consequence</strong>.</p><p><strong>Formation:</strong> SO/SUCH + [intensifier] + <strong>THAT</strong> + [result clause]</p><p><strong>So...That patterns:</strong></p><ul><li><strong>So + Adjective + That</strong>: <em>\"The hotel was <strong>so</strong> comfortable <strong>that</strong> we stayed another night.\"</em></li><li><strong>So + Adverb + That</strong>: <em>\"She spoke <strong>so</strong> quickly <strong>that</strong> I couldn't understand.\"</em></li><li><strong>So + Much/Many + That</strong>: <em>\"He earned <strong>so much</strong> money <strong>that</strong> he lost perspective.\"</em></li></ul><p><strong>Such...That patterns:</strong></p><ul><li><strong>Such + Adjective + Noun + That</strong>: <em>\"It's <strong>such</strong> a comfortable hotel <strong>that</strong> we'll return.\"</em></li></ul><p><strong>Compare:</strong> \"The meal was so expensive.\" (just intensity) vs. \"The meal was so expensive that we couldn't afford dessert.\" (intensity + result)</p><p><em>Fun fact: The THAT clause shows why the intensity matters! ⚙️</em></p>",
+      "examples": [
+        "Intensity result: \"<strong>The road was so icy that it was dangerous to drive</strong>\"",
+        "Such with result: \"<strong>It was such a cold day that we stayed indoors</strong>\"",
+        "Strong intensity: \"<strong>He had such a headache that he couldn't concentrate</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_so_that_such_that.mp3",
+      "functions": [
+        "Showing cause and effect with intensity",
+        "Expressing how intensity leads to consequences",
+        "Creating sophisticated complex sentences"
+      ],
+      "tips": "💡 <strong>Pro tip:</strong> So...That and Such...That show RESULT. The intensity causes something to happen."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Too...To and Enough...To Constructions 🎯",
+      "content": "<p>Ready for the next level? 🚀 <strong>Too</strong> and <strong>enough</strong> often pair with <strong>to + infinitive</strong> to show purpose or ability.</p><p><strong>Formation:</strong> [Adjective] + Too/Enough + <strong>TO</strong> + [infinitive verb]</p><p><strong>Too...To patterns:</strong></p><ul><li><strong>Too + Adjective + To + Infinitive</strong>: <em>\"This box is <strong>too</strong> heavy <strong>to</strong> carry.\"</em></li><li><strong>Too + Adverb + To + Infinitive</strong>: <em>\"He drives <strong>too</strong> fast <strong>to</strong> be safe.\"</em></li></ul><p><strong>Enough...To patterns:</strong></p><ul><li><strong>Adjective + Enough + To + Infinitive</strong>: <em>\"You're <strong>old</strong> <strong>enough</strong> <strong>to</strong> decide.\"</em></li><li><strong>Noun + Enough + To + Infinitive</strong>: <em>\"We have <strong>time</strong> <strong>enough</strong> <strong>to</strong> finish.\"</em></li></ul><p><strong>Compare:</strong> \"This coffee is too hot.\" (just fact) vs. \"This coffee is too hot to drink.\" (shows why it matters)</p><p><em>Fun fact: Too...To usually has a NEGATIVE meaning (can't do it). Enough...To usually has a POSITIVE meaning (can do it)! ⚙️</em></p>",
+      "examples": [
+        "Too...to (negative): \"<strong>The knife is too dull to cut bread</strong>\" (can't cut)",
+        "Enough...to (positive): \"<strong>The knife is sharp enough to cut bread</strong>\" (can cut)",
+        "Too much/little: \"<strong>There's too much noise to concentrate</strong>\" (negative consequence)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_too_to_enough_to.mp3",
+      "functions": [
+        "Showing inability or limitation (too...to)",
+        "Showing capability or sufficiency (enough...to)",
+        "Expressing purpose or result"
+      ],
+      "tips": "💡 <strong>When to use:</strong> Too...To = can't. Enough...To = can."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Comparing All Four Markers ❓",
+      "content": "<p>Let's master the full picture! 🎨 Understanding all four together is key to mastery.</p><p><strong>Comparison table:</strong></p><table><tr><th>Marker</th><th>Meaning</th><th>Example</th></tr><tr><td><strong>So</strong></td><td>Intensity (extremely)</td><td>\"This is <strong>so</strong> good!\"</td></tr><tr><td><strong>Such</strong></td><td>Intensity (extremely) with noun</td><td>\"This is <strong>such</strong> a good book!\"</td></tr><tr><td><strong>Too</strong></td><td>Excess (more than needed)</td><td>\"This is <strong>too</strong> expensive.\"</td></tr><tr><td><strong>Enough</strong></td><td>Sufficiency (adequate)</td><td>\"This is <strong>enough</strong> to start.\"</td></tr></table><p><strong>Compare in context:</strong> \"The weather is <strong>so</strong> cold.\" (intensity) vs. \"The weather is <strong>too</strong> cold for swimming.\" (excess, negative) vs. \"The weather is cold <strong>enough</strong> for ice skating.\" (adequate)</p><p><em>Fun fact: The same sentence can use different markers with different meanings! 🎯</em></p>",
+      "examples": [
+        "So: \"<strong>This coffee is so hot</strong>!\" (amazingly hot)",
+        "Such: \"<strong>It's such hot coffee</strong>!\" (emphasizes the noun)",
+        "Too: \"<strong>The coffee is too hot to drink</strong>\" (can't drink it)",
+        "Enough: \"<strong>The coffee is hot enough to make tea</strong>\" (perfect temperature)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_comparison_all_four.mp3",
+      "functions": [
+        "Distinguishing all four markers",
+        "Expressing intensity vs. sufficiency",
+        "Using appropriate marker for context"
+      ],
+      "tips": "💡 <strong>Remember:</strong> SO/SUCH = intensity. TOO = excess. ENOUGH = sufficiency. Different meanings, different uses!"
+    },
+    {
+      "id": "lesson-7",
+      "title": "Advanced: Subtle Distinctions and Combinations 🕐",
+      "content": "<p>Here's a crucial skill! ⚠️ Advanced usage means understanding subtle differences and how to combine these markers effectively.</p><p><strong>The Rule:</strong> You can combine markers or use them in sophisticated ways, but understanding their core meanings is essential.</p><p><strong>Advanced distinctions:</strong></p><ul><li><strong>So much vs. Too much</strong>: <em>\"I love you <strong>so much</strong>\" (intensity)</em> vs. <em>\"You're asking <strong>too much</strong>.\" (excess)</em></li><li><strong>Such + Noun vs. So + Adjective</strong>: <em>\"<strong>Such</strong> beautiful eyes\" (noun emphasis)</em> vs. <em>\"So beautiful eyes\" (WRONG—need noun)</em></li><li><strong>Enough placement</strong>: <em>\"Time enough\" (formal)</em> vs. <em>\"Enough time\" (modern)</em></li></ul><p><strong>⚠️ Common mistakes:</strong> ❌ \"I'm so enough rich.\" → ✅ \"I'm rich enough.\" ❌ \"This is too such a problem.\" → ✅ \"This is such a big problem.\"</p><p><em>Fun fact: Professional writers use these distinctions to create precise meanings! 🌍</em></p>",
+      "examples": [
+        "Intensity emphasis: \"<strong>He's so talented that he was hired immediately</strong>\"",
+        "Excess problem: \"<strong>The box is too heavy to carry alone</strong>\"",
+        "Adequacy positive: \"<strong>You're experienced enough to lead this project</strong>\"",
+        "Complex use: \"<strong>She was such a good teacher that students learned so much</strong>\""
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_advanced_distinctions.mp3",
+      "functions": [
+        "Creating precise meaning with markers",
+        "Avoiding common mixing errors",
+        "Combining multiple markers naturally"
+      ],
+      "tips": "💡 <strong>Never forget:</strong> Don't mix SO + SUCH unnecessarily. Choose one. SO + Adjective (no noun). SUCH + noun. TOO + excess meaning. ENOUGH + positive meaning."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Markers in Professional Context 🏆",
+      "content": "<p>You've come so far! 🌟 Let's tackle the advanced nuances that separate good from great. Master-level usage means using these markers strategically for tone and effect.</p><p><strong>Special Case 1: Register and Formality</strong></p><p>Casual speech uses SO and SUCH more. Formal writing uses TOO and ENOUGH more. <em>Casual: \"The movie was so good!\" Formal: \"The results were insufficient to reach conclusions.\"</em></p><p><strong>Special Case 2: Emotional Tone</strong></p><p>SO/SUCH create excitement and emotion. TOO shows problems or complaints. ENOUGH shows calm assessment. <em>Excited: \"It's such a beautiful sunset!\" Complaint: \"This is too slow.\" Assessment: \"Your knowledge is sufficient.\"</em></p><p><strong>Sophisticated Usage - Style Patterns:</strong></p><ul><li><strong>Marketing/Persuasion</strong>: <em>\"Our product is <strong>so</strong> effective that customers love it!\"</em> (emotional)</li><li><strong>Technical writing</strong>: <em>\"The sample size was <strong>too</strong> small to reach conclusions.\"</em> (problem-focused)</li><li><strong>Assessment</strong>: <em>\"You have <strong>enough</strong> experience to manage this role.\"</em> (professional)</li></ul><p><strong>Mastery checklist:</strong> ✅ Choose correct marker for meaning ✅ Understand emotional tone ✅ Match register to context ✅ Avoid common mixing errors</p><p><em>Fun fact: Native speakers feel the difference immediately—using SO sounds enthusiastic, using ENOUGH sounds professional! 🎓</em></p>",
+      "examples": [
+        "Enthusiastic: \"<strong>This is such an amazing opportunity</strong>!\" (SO/SUCH emotional)",
+        "Problem-statement: \"<strong>The price is too high for the market</strong>\" (TOO business)",
+        "Professional assessment: \"<strong>Your qualifications are sufficient for promotion</strong>\" (ENOUGH formal)",
+        "Complex emotional: \"<strong>The situation was so complicated that nobody understood it well enough</strong>\" (mixed for effect)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery_professional.mp3",
+      "functions": [
+        "Using markers strategically for tone",
+        "Creating appropriate register and register-switching",
+        "Expressing complex ideas with precision",
+        "Demonstrating sophisticated control of nuance"
+      ],
+      "tips": "💡 <strong>Master level:</strong> Use SO/SUCH for enthusiasm, TOO for problems, ENOUGH for facts. This flexible approach shows professional command! Choose your marker based on what you want to express!"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about something you really like or dislike. Use 'so' and 'such' to show intensity, and 'too'/'enough' to show limits or adequacy.",
+      "hint": "Start with \"I really like/dislike...\". Use <strong>so/such</strong> to express how intense your feeling is, and <strong>too/enough</strong> to explain limitations. Example: <em>\"Coffee is so good that I drink it daily, but sometimes it's too bitter to enjoy.\"</em>",
+      "expectedKeywords": [
+        "so",
+        "such",
+        "too",
+        "enough",
+        "adjective",
+        "intensity_word",
+        "limit_word"
+      ],
+      "sentenceStarters": [
+        "I think ___ is so/such ___.",
+        "It's ___ enough to ___, but it's too ___ to ___."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe your ideal weekend. Use SO...THAT or SUCH...THAT to show intensity and results, and TOO...TO or ENOUGH...TO to show capabilities and limitations.",
+      "hint": "Show cause-and-effect relationships. Example: <em>\"I would sleep so much that I'd be refreshed. I'd have enough energy to go hiking, but the weather would be too hot for strenuous activity.\"</em>",
+      "expectedKeywords": [
+        "so_that",
+        "such_that",
+        "too_to",
+        "enough_to",
+        "consequence_word",
+        "capability_word"
+      ],
+      "sentenceStarters": [
+        "I would be so ___ that ___.",
+        "It would be such a ___ that ___."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a persuasive paragraph about a product or service. Use all four markers (so, such, too, enough) appropriately to create emotional appeal and logical argumentation.",
+      "hint": "Mix emotional language (so/such) with practical assessment (too/enough). Model: <em>\"This is such a reliable product that thousands trust it. The price is too reasonable to ignore, and the features are advanced enough for professionals.\"</em>",
+      "expectedKeywords": [
+        "so",
+        "such",
+        "too",
+        "enough",
+        "benefit_word",
+        "quality_word",
+        "value_word"
+      ],
+      "sentenceStarters": [
+        "This is so/such ___ that ___.",
+        "The price is too/enough ___ to ___."
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct intensity marker (no noun after the adjective):",
+      "sentence": "This weather is ___ cold!",
+      "options": [
+        "so",
+        "such",
+        "too",
+        "enough"
+      ],
+      "correctAnswer": ["so"],
+      "audio": "game_1_so_vs_such.mp3",
+      "hint": "There's no noun after 'cold.' Without a noun, you need SO, never SUCH.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Which suffix marker shows this is EXCESSIVE?",
+      "sentence": "This coffee is ___ hot to drink immediately.",
+      "options": [
+        "so",
+        "such",
+        "too",
+        "enough"
+      ],
+      "correctAnswer": ["too"],
+      "audio": "game_2_too_vs_enough.mp3",
+      "hint": "The TO INFINITIVE follows. TOO shows it's excessive/problematic. ENOUGH shows it's adequate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Advanced: Complete with the most precise marker pair:",
+      "sentence": "The book is ___ interesting ___ I finished it in one day.",
+      "options": [
+        "so / that",
+        "such / that",
+        "too / to",
+        "enough / to"
+      ],
+      "correctAnswer": ["so / that"],
+      "audio": "game_3_intensity_result.mp3",
+      "hint": "This shows INTENSITY + RESULT. SO...THAT creates this cause-effect relationship.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What is the main difference between 'so' and 'such'?",
+      "sentence": "Choose the correct answer:",
+      "options": [
+        "So is used before adjectives/adverbs alone; such is used before nouns",
+        "So means 'very'; such means 'excessively'",
+        "So is for the present; such is for the past",
+        "They are completely interchangeable"
+      ],
+      "correctAnswer": "So is used before adjectives/adverbs alone; such is used before nouns",
+      "audio": "quiz_1_so_vs_such_difference.mp3",
+      "hint": "Think about what comes after each word. What determines when you use each one?",
+      "difficulty": "easy",
+      "explanation": "The correct answer is 'So is used before adjectives/adverbs alone; such is used before nouns.' This is the fundamental distinction. 'So' must be followed by an adjective or adverb (e.g., 'so beautiful,' 'so quickly'). 'Such' must introduce a noun, usually with an article and adjective (e.g., 'such a beautiful day,' 'such beautiful days'). Without a noun following the adjective, you must use 'so,' never 'such.' The other options are incorrect because both so and such express intensity/degree, and they're not limited to specific tenses."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses 'too' vs 'enough'?",
+      "sentence": "Select the grammatically correct sentence:",
+      "options": [
+        "The knife is enough sharp to cut the meat.",
+        "The knife is sharp enough to cut the meat.",
+        "The knife is too enough to use.",
+        "The knife is enough to too cut the meat."
+      ],
+      "correctAnswer": "The knife is sharp enough to cut the meat.",
+      "audio": "quiz_2_too_enough_placement.mp3",
+      "hint": "Pay attention to word order. Where does 'enough' come in relation to the adjective?",
+      "difficulty": "medium",
+      "explanation": "The correct sentence is 'The knife is sharp enough to cut the meat.' This shows the proper placement of 'enough': it comes AFTER the adjective (sharp enough). 'Too' comes BEFORE the adjective (too sharp), but 'enough' always comes AFTER. The other options show incorrect word order: 'enough' should not come before the adjective, and 'too' and 'enough' should not appear together in the same way."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Choose the sentence that demonstrates mastery of all four markers:",
+      "sentence": "Which shows sophisticated use?",
+      "options": [
+        "This is so good and such great and too much enough.",
+        "The meal was so delicious that we couldn't eat enough, and the portions were too large.",
+        "It's such good and so great and enough too beautiful.",
+        "The solution is so and such and too and enough problem."
+      ],
+      "correctAnswer": "The meal was so delicious that we couldn't eat enough, and the portions were too large.",
+      "audio": "quiz_3_sophisticated_all_four.mp3",
+      "hint": "Professional writing uses these markers clearly and naturally, each for its specific purpose.",
+      "difficulty": "hard",
+      "explanation": "The correct answer is 'The meal was so delicious that we couldn't eat enough, and the portions were too large.' This sentence expertly uses all four markers: 'so...that' for intensity and result (so delicious that...), 'enough' for sufficiency (couldn't eat enough), and 'too' for excess (too large). Each marker is used correctly and for its specific purpose. The sentence is grammatically sound and expresses complex ideas clearly. The other options either misuse the markers, use them redundantly, or create grammatically incorrect constructions."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "intensity",
+      "hint": "The quality that so/such express—degree of extreme feeling or quality",
+      "clue": "int_n_ity",
+      "audio": "spell_intensity.mp3",
+      "sentence": "The ___ of his enthusiasm was remarkable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "sufficiency",
+      "hint": "The state of being enough—what enough expresses",
+      "clue": "_uffici_ncy",
+      "audio": "spell_sufficiency.mp3",
+      "sentence": "The ___ of the resources allowed the project to proceed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "excessively",
+      "hint": "Advanced adverb meaning too much or beyond normal—related to too",
+      "clue": "_xc_ss_v_ly",
+      "audio": "spell_excessively.mp3",
+      "sentence": "He spoke ___ about the topic.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "degree-marker-explorer",
+        "name": "Degree Marker Explorer",
+        "condition": "Complete all 8 so/such/too/enough lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You've mastered all four degree markers! Excellent work!"
+      },
+      {
+        "id": "intensity-master",
+        "name": "Intensity Master",
+        "condition": "Score 100% on 3 so/such writing activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your intensity expressions are perfect!"
+      },
+      {
+        "id": "sufficiency-expert",
+        "name": "Sufficiency Expert",
+        "condition": "Score 100% on 3 too/enough writing activities",
+        "icon": "⚡",
+        "points": 20,
+        "message": "Your sufficiency markers are spot-on!"
+      },
+      {
+        "id": "degree-game-champion",
+        "name": "Degree Game Champion",
+        "condition": "Complete all degree marker games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "Perfect! You instantly choose the right degree marker!"
+      },
+      {
+        "id": "degree-vocabulary-scholar",
+        "name": "Degree Vocabulary Scholar",
+        "condition": "Spell all degree-related vocabulary correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "Excellent! Your grammar terminology is precise!"
+      },
+      {
+        "id": "degree-perfectionist",
+        "name": "Degree Perfectionist",
+        "condition": "Score 100% on all degree marker activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Outstanding! You're a degree marker mastery expert!"
+      }
+    ]
+  }
+}

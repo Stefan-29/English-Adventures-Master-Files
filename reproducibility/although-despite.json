@@ -1,0 +1,393 @@
+{
+"lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Although vs. Despite: The Basics 🎯",
+      "content": "<p>When you want to express <strong>contradiction or contrast</strong>, you choose between <strong>although</strong> or <strong>despite</strong>. 📚</p><p>Both convey the identical semantic meaning: <em>'in spite of'</em> or <em>'even though'</em>. The difference is purely syntactic. Select your marker based on the grammatical structure that immediately follows:</p><table class='lesson-table table-blue'><thead><tr><th>Conjunction</th><th>Grammatical Requirement</th><th>Example Structure</th></tr></thead><tbody><tr><td><strong>Although</strong></td><td>Requires a full clause: <em>Subject + Verb</em></td><td>Although [it rained], [we went].</td></tr><tr><td><strong>Despite</strong></td><td>Requires a noun phrase or gerund (<code>-ing</code>)</td><td>Despite [the rain], [we went].</td></tr></tbody></table><p><strong>Key Insight:</strong> Think of <em>although</em> as a bridge connecting two complete thoughts, while <em>despite</em> functions as a prepositional phrase attaching to a noun or action.</p><p><em>💡 Note: 'Although' and 'though' are often interchangeable in standard contexts, but 'though' leans conversational.</em></p>",
+      "examples": [
+        "Although: \"<strong>Although she was tired, she smiled</strong>\" (has subject 'she' + verb 'was')",
+        "Despite: \"<strong>Despite being tired, she smiled</strong>\" (has gerund 'being tired', no subject)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_although_despite_basics.mp3",
+      "functions": [
+        "Showing contrast between ideas",
+        "Expressing contradiction to expectations"
+      ],
+      "tips": "💡 <strong>Quick Rule:</strong> If you have a subject and a verb, use although. If you have just a noun or -ing form, use despite."
+    },
+    {
+      "id": "lesson-2",
+      "title": "When to Use Although 🚀",
+      "content": "<p>Level up your precision! 🎮 <strong>Although</strong> (and its variants) connects a subordinate clause to a main clause. Mastering the nuances between <em>although</em>, <em>even though</em>, and <em>though</em> elevates both fluency and register control.</p><table class='lesson-table table-green'><thead><tr><th>Form</th><th>Formality</th><th>Emphasis</th><th>Position</th></tr></thead><tbody><tr><td><strong>Although</strong></td><td>Standard / Formal</td><td>Neutral contrast</td><td>Beginning or middle</td></tr><tr><td><strong>Even though</strong></td><td>Standard</td><td>Strong / Emphatic</td><td>Beginning or middle</td></tr><tr><td><strong>Though</strong></td><td>Informal / Conversational</td><td>Mild / Afterthought</td><td>Beginning, middle, or end</td></tr></tbody></table><p><strong>Usage Tip:</strong> Deploy <em>even though</em> when the contrast defies strong expectations. Reserve <em>though</em> at the end of sentences for natural conversational flow.</p><p><em>🌟 Memory Trick: A = Academic/Standard. E = Emphatic. T = Tail (sentence-end), casual.</em></p>",
+      "examples": [
+        "Standard: \"<strong>Although Amy was wearing glasses, she couldn't read the notice</strong>\"",
+        "Stronger emphasis: \"<strong>Even though he had worked hard, he still failed the exam</strong>\"",
+        "At sentence end: \"<strong>He took my newspaper. I don't mind, though.</strong>\""
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_although.mp3",
+      "functions": [
+        "Showing unexpected contrasts",
+        "Expressing that something happens despite a condition"
+      ],
+      "tips": "💡 <strong>Memory trick:</strong> Although = A=formal, standard. Even though = E=emphasized, stronger. Though = T=at the tail (end), less formal."
+    },
+    {
+      "id": "lesson-3",
+      "title": "When to Use Despite and In Spite Of 🌟",
+      "content": "<p>Master the prepositional side! ✨ <strong>Despite</strong> and <strong>in spite of</strong> are functionally identical but differ slightly in rhythm and modern usage frequency.</p><p>Both require a noun phrase or gerund. <strong>Never</strong> follow them directly with a subject + verb clause.</p><table class='lesson-table table-teal'><thead><tr><th>Pattern</th><th>Structure</th><th>Example</th></tr></thead><tbody><tr><td><strong>Despite</strong> + Noun</td><td><code>Despite + [noun phrase]</code></td><td>Despite <em>the delay</em>, we arrived on time.</td></tr><tr><td><strong>In spite of</strong> + Noun</td><td><code>In spite of + [noun phrase]</code></td><td>In spite of <em>the delay</em>, we arrived on time.</td></tr><tr><td><strong>Despite</strong> + Gerund</td><td><code>Despite + [verb-ing]</code></td><td>Despite <em>feeling ill</em>, she attended.</td></tr></tbody></table><p><strong>Modern Usage Note:</strong> <em>Despite</em> is significantly more concise and preferred in contemporary writing. <em>In spite of</em> remains grammatically correct but carries slightly heavier syntactic weight.</p>",
+      "examples": [
+        "Noun form: \"<strong>Despite the noise, the children slept well</strong>\"",
+        "Gerund form: \"<strong>Despite being wet and tired, he continued walking</strong>\"",
+        "In spite of: \"<strong>In spite of earning a low salary, Maria sent money to her parents</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_despite.mp3",
+      "functions": [
+        "Showing contrast with noun phrases",
+        "Using gerunds to express contrast",
+        "Creating concise expressions of contradiction"
+      ],
+      "tips": "💡 <strong>Decision point:</strong> Do you have a subject + verb? Use although. Just a noun or -ing word? Use despite/in spite of."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Although vs. Despite in Detail ⚡",
+      "content": "<p>Let's conduct a side-by-side structural analysis to eliminate common errors. ⚡ The choice between these markers depends entirely on what immediately follows the contrast word.</p><table class='lesson-table table-purple'><thead><tr><th>Feature</th><th>Although / Even Though</th><th>Despite / In Spite Of</th></tr></thead><tbody><tr><td><strong>Followed by</strong></td><td>Full clause (Subject + Verb)</td><td>Noun phrase or Gerund</td></tr><tr><td><strong>Example</strong></td><td>Although <em>she was ill</em>, she worked.</td><td>Despite <em>her illness</em>, she worked.</td></tr><tr><td><strong>Position</strong></td><td>Starts clause (usually)</td><td>Starts phrase (can end sentence)</td></tr><tr><td><strong>Common Error</strong></td><td>❌ \"Despite she was ill...\"</td><td>❌ \"Although her illness...\"</td></tr></tbody></table><p><strong>The Golden Rule:</strong> Both express identical semantic contrast. Your choice is purely syntactic. Ask yourself: <em>Is the next word a subject performing an action? Use although. Is it a thing or an -ing form? Use despite.</em></p>",
+      "examples": [
+        "Although version: \"<strong>Although he had enough money, he refused to buy a new car</strong>\"",
+        "Despite version: \"<strong>Despite having enough money, he refused to buy a new car</strong>\"",
+        "Mixed: \"<strong>He had enough money, but despite that, he refused to buy a new car</strong>\"",
+        "Wrong: ❌ \"Despite he had enough money, he refused\" → ✅ \"Despite his wealth/having money\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_comparison.mp3",
+      "functions": [
+        "Choosing the correct structure for contrast",
+        "Avoiding common mixing of although and despite",
+        "Expressing the same idea different ways"
+      ],
+      "tips": "💡 <strong>Pro tip:</strong> If you're unsure, use although with a full clause. You can't go wrong. For more conciseness, use despite + noun/gerund."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Sentence Positions and Variations 🎯",
+      "content": "<p>Strategic placement controls pacing, emphasis, and reader focus. 🚀 Understanding positional variation is a hallmark of advanced writing.</p><table class='lesson-table table-orange'><thead><tr><th>Position</th><th>Punctuation Rule</th><th>Effect</th><th>Example</th></tr></thead><tbody><tr><td><strong>Sentence Start</strong></td><td>Comma after contrast clause</td><td>High emphasis, sets context</td><td>Although it rained, we hiked.</td></tr><tr><td><strong>Sentence Middle/End</strong></td><td>No comma required</td><td>Subtle contrast, main point first</td><td>We hiked although it rained.</td></tr><tr><td><strong>With Phrasal Link</strong></td><td>Period/Semicolon + Despite that/this</td><td>Strong rhetorical pivot</td><td>It rained. Despite that, we hiked.</td></tr></tbody></table><p><strong>Instructor Insight:</strong> Front-loading contrast (<em>Although X, Y</em>) primes the reader for surprise. Placing it at the end (<em>Y, although X</em>) treats the contrast as supplementary information. Choose based on your communicative intent.</p>",
+      "examples": [
+        "Beginning: \"<strong>Although the price was high, we bought it anyway</strong>\"",
+        "Ending: \"<strong>We bought it, although the price was high</strong>\"",
+        "With emphasis: \"<strong>Despite being expensive; in fact, it was the most costly option we considered</strong>\"",
+        "Mixed styles: \"<strong>The book was expensive. Despite that, I bought it</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_positions.mp3",
+      "functions": [
+        "Placing contrast structures strategically",
+        "Creating rhythm and emphasis in sentences",
+        "Controlling where the reader's focus lands"
+      ],
+      "tips": "💡 <strong>When to use:</strong> Put strong contrast at the sentence beginning for emphasis. Use end position for softer contrast or afterthought."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Negative and Emphatic Forms ❓",
+      "content": "<p>Mastering negation and emphasis within contrast structures unlocks sophisticated rhetorical control. 🎨</p><table class='lesson-table table-pink'><thead><tr><th>Pattern</th><th>Structure</th><th>Example</th><th>Nuance</th></tr></thead><tbody><tr><td><strong>Although not</strong></td><td><code>Although not + [adj/noun]</code></td><td>Although not expensive, it's durable.</td><td>Concise concession</td></tr><tr><td><strong>Despite not</strong></td><td><code>Despite not + [gerund]</code></td><td>Despite not practicing, he won.</td><td>Strong unexpected outcome</td></tr><tr><td><strong>Even though (negative)</strong></td><td><code>Even though + subject + did not</code></td><td>Even though I didn't warn him, he knew.</td><td>Emphatic contradiction</td></tr></tbody></table><p><strong>Pedagogical Note:</strong> Negative contrast creates cognitive tension. It signals that an expected outcome was <em>prevented</em> or an unexpected outcome <em>occurred anyway</em>. Use deliberately for rhetorical impact.</p>",
+      "examples": [
+        "Emphatic negative: \"<strong>Although it wasn't dark yet, the street lights came on</strong>\"",
+        "Double emphasis: \"<strong>Even though I didn't want to, I had to go</strong>\"",
+        "Gerund negative: \"<strong>Despite not having finished, he submitted his work</strong>\"",
+        "Indirect negation: \"<strong>Although the job was difficult, she showed no fear</strong>\""
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_emphatic.mp3",
+      "functions": [
+        "Creating powerful contrast with negation",
+        "Emphasizing unexpected situations",
+        "Building complex negative scenarios"
+      ],
+      "tips": "💡 <strong>Remember:</strong> Although/despite + negative = very strong contrast. Use this when something happens that really shouldn't or doesn't usually happen."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Advanced: Mixing Although and Despite in Complex Sentences 🕐",
+      "content": "<p>Advanced writers layer contrast structures to build complexity. ⚠️ However, grammatical parallelism and clause boundaries must be strictly maintained.</p><table class='lesson-table table-gray'><thead><tr><th>Combination Type</th><th>Correct Structure</th><th>Common Mistake</th><th>Instructor Note</th></tr></thead><tbody><tr><td><strong>Parallel Conjunctions</strong></td><td>Although exhausted and despite doubts, she persisted.</td><td>❌ Although exhausted, despite doubts, she...</td><td>Use one comma for multiple introductory contrast phrases.</td></tr><tr><td><strong>Sequential Paragraphs</strong></td><td>Although he failed, he tried again. Despite that setback, he succeeded.</td><td>❌ Mixing in one clause without proper punctuation</td><td>Separate into distinct clauses or sentences for clarity.</td></tr><tr><td><strong>Stacked Emphasis</strong></td><td>Despite poor conditions and although resources were limited, we delivered.</td><td>❌ Despite he was tired and although the weather was bad...</td><td>Never follow <em>despite</em> with a clause.</td></tr></tbody></table><p><strong>Professional Standard:</strong> One contrast marker per main clause is optimal for readability. If combining both, ensure they share the same grammatical function (both introductory phrases) or are separated by proper punctuation.</p>",
+      "examples": [
+        "Parallel use: \"<strong>Although exhausted and despite doubts, she persisted</strong>\"",
+        "Sequential paragraphs: \"<strong>Although he studied hard, he failed. Despite that failure, he tried again.</strong>\"",
+        "Sophisticated blend: \"<strong>The essay was good. Although well-written, despite its length, it lacked depth.</strong>\"",
+        "Building effect: \"<strong>Although we prepared thoroughly and despite having excellent resources, the outcome disappointed us.</strong>\""
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_advanced.mp3",
+      "functions": [
+        "Creating layered contrast",
+        "Building complex narrative structures",
+        "Expressing multiple simultaneous contradictions"
+      ],
+      "tips": "💡 <strong>Never forget:</strong> One contrast structure per main clause is clearest. If you use both although and despite, make sure they're grammatically parallel or in separate clauses."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Although/Despite in Context 🏆",
+      "content": "<p>Mastery lies in contextual adaptation. 🌟 The most proficient writers select contrast markers not just for grammar, but for register, rhythm, and rhetorical effect.</p><table class='lesson-table table-yellow'><thead><tr><th>Context / Register</th><th>Preferred Form</th><th>Rhetorical Effect</th><th>Example</th></tr></thead><tbody><tr><td><strong>Academic / Formal</strong></td><td>Despite / In spite of</td><td>Concise, objective, dense</td><td>Despite methodological limitations, the results remain valid.</td></tr><tr><td><strong>Literary / Narrative</strong></td><td>Although</td><td>Flowing, rhythmic, suspenseful</td><td>Although the forest was dark, she walked without hesitation.</td></tr><tr><td><strong>Persuasive / Speech</strong></td><td>Even though</td><td>Emphatic, audience-engaging</td><td>Even though critics oppose us, the evidence is undeniable.</td></tr><tr><td><strong>Conversational</strong></td><td>Though</td><td>Casual, afterthought, natural</td><td>It's pricey. I'll buy it, though.</td></tr></tbody></table><p><strong>Final Mastery Checklist:</strong> ✅ Match structure to grammatical requirement ✅ Align register with audience ✅ Use position for emphasis ✅ Deploy negatives strategically ✅ Layer contrast only when parallel.</p><p><em>🎓 Expert Tip: The best contrast language is felt, not noticed. Let the structure serve your message, not distract from it.</em></p>",
+      "examples": [
+        "Formal academic: \"<strong>Despite the limitations of this study, the findings provide valuable insights</strong>\"",
+        "Literary/narrative: \"<strong>Although the night was dark and the path uncertain, she walked forward without hesitation</strong>\"",
+        "Persuasive speech: \"<strong>Even though challenges exist, the potential benefits far outweigh any drawbacks</strong>\"",
+        "Everyday narrative: \"<strong>Despite being exhausted, she continued working to finish the project</strong>\""
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Using contrast structures in professional contexts",
+        "Creating specific emotional or rhetorical effects",
+        "Adapting contrast language to audience and purpose",
+        "Demonstrating sophisticated control of nuance"
+      ],
+      "tips": "💡 <strong>Master level:</strong> In formal writing, prefer despite for conciseness. In creative writing, use although for rhythm. In persuasion, emphasize with 'even though.' This flexibility shows true mastery!"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about someone you know who overcame a challenge. Use 'although' to explain their situation and 'despite' to show what they accomplished.",
+      "hint": "Start with \"I know someone who...\". Make sure to use <strong>although</strong> (with subject + verb) at least once and <strong>despite</strong> (with noun/gerund) at least once. For example: <em>\"Although he was injured, he completed the race despite his pain.\"</em>",
+      "expectedKeywords": [
+        "although",
+        "despite",
+        "challenge_word",
+        "accomplishment_word",
+        "emotion_word"
+      ],
+      "sentenceStarters": [
+        "I know someone who ___, although ___.",
+        "Despite ___, they ___ because ___."
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe your ideal weekend plans. Show contrast between what you should do and what you want to do, using both 'although' and 'despite' appropriately.",
+      "hint": "Remember: Use 'although' for contrasting complete thoughts, and 'despite' for contrasting nouns/gerunds. Example: <em>\"Although I should study, I want to relax. Despite having homework, I plan to rest.\"</em>",
+      "expectedKeywords": [
+        "although",
+        "despite",
+        "should_word",
+        "want_word",
+        "contrast_word",
+        "time_word"
+      ],
+      "sentenceStarters": [
+        "Although I should ___, I want to ___.",
+        "Despite my ___, I plan to ___."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a persuasive paragraph about why you should be accepted for a particular opportunity. Acknowledge difficulties but emphasize your strengths using contrast structures.",
+      "hint": "Combine although and despite strategically. Show challenges (despite/although) but also your strengths. Model: <em>\"Although I lack direct experience, I bring enthusiasm. Despite facing setbacks in my previous role, I've learned valuable lessons that make me ideal for this position.\"</em>",
+      "expectedKeywords": [
+        "although",
+        "despite",
+        "challenge_acknowledgement",
+        "strength_word",
+        "value_word",
+        "experience_word"
+      ],
+      "sentenceStarters": [
+        "Although I lack ___, I bring ___.",
+        "Despite challenges with ___, I've ___."
+      ],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Which contrast word correctly completes this sentence with a subject and verb?",
+      "sentence": "___ it was raining heavily, the game continued as scheduled.",
+      "options": [
+        "Although",
+        "Despite",
+        "In spite of",
+        "Because"
+      ],
+      "correctAnswer": ["Although"],
+      "audio": "game_1_although_vs_despite.mp3",
+      "hint": "What follows? Look for a subject + verb. That means you need ALTHOUGH, not DESPITE.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Choose the correct contrast form with a noun/gerund:",
+      "sentence": "___ his exhaustion, he continued working on the project.",
+      "options": [
+        "Although he was exhausted",
+        "Despite his exhaustion",
+        "Even though he was tired",
+        "In spite of the exhaustion being"
+      ],
+      "correctAnswer": ["Despite his exhaustion"],
+      "audio": "game_2_despite_noun.mp3",
+      "hint": "You have a noun phrase after the blank, not a complete clause. Use DESPITE + NOUN.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Advanced: Which sentence best combines both contrast structures naturally?",
+      "sentence": "___ and ___ being new to the job, Sarah proved herself an excellent employee.",
+      "options": [
+        "Although her inexperience / Despite",
+        "Even though / Despite her being inexperienced",
+        "Although / Despite her inexperience",
+        "In spite of / Although she had"
+      ],
+      "correctAnswer": ["Although / Despite her inexperience"],
+      "audio": "game_3_combined.mp3",
+      "hint": "The two blanks need structures that work in parallel. Although (full clause) and Despite (noun) are the only grammatically parallel options.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What is the main grammatical difference between 'although' and 'despite'?",
+      "sentence": "Choose the correct statement:",
+      "options": [
+        "Although requires a subject + verb; despite requires a noun or gerund",
+        "Despitecan start sentences; although cannot",
+        "Although is more formal than despite",
+        "They are completely interchangeable in all situations"
+      ],
+      "correctAnswer": "Although requires a subject + verb; despite requires a noun or gerund",
+      "audio": "quiz_1_difference.mp3",
+      "hint": "Think about the grammar structure that follows each word.",
+      "difficulty": "easy",
+      "explanation": "The correct answer is 'Although requires a subject + verb; despite requires a noun or gerund.' This is the core grammatical distinction. Although/even though must be followed by a complete clause with subject and verb (e.g., 'Although she was tired...'). Despite/in spite of must be followed by a noun or gerund form (e.g., 'Despite her tiredness...' or 'Despite being tired...'). The other options are partially true but miss the fundamental difference."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses 'although' and 'despite'?",
+      "sentence": "Select the grammatically correct sentence:",
+      "options": [
+        "Despite she was tired, she continued working.",
+        "Although her tiredness, she continued working.",
+        "Although she was tired, she continued working despite that.",
+        "In spite of being tired, although she continued, she worked hard."
+      ],
+      "correctAnswer": "Although she was tired, she continued working despite that.",
+      "audio": "quiz_2_correct_usage.mp3",
+      "hint": "Check the grammar after each contrast word. Does it match the required structure?",
+      "difficulty": "medium",
+      "explanation": "The correct sentence is 'Although she was tired, she continued working despite that.' The first clause uses although correctly (subject 'she' + verb 'was'), and the second part uses despite correctly with a pronoun. The other options mix structures incorrectly: the first tries despite + subject + verb (wrong), the second tries although + noun (wrong), and the fourth is awkwardly constructed. Only the third option maintains proper grammatical structures throughout."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Choose the best version that uses contrast structures most effectively:",
+      "sentence": "Which demonstrates sophisticated use of contrast?",
+      "options": [
+        "The book was expensive, and he bought it anyway.",
+        "Although the book was expensive, he bought it because he wanted it.",
+        "The book was expensive. Despite this, he purchased it, and he was happy.",
+        "Despite the book's high cost, he purchased it, and although he had spent much money, he felt satisfied."
+      ],
+      "correctAnswer": "Despite the book's high cost, he purchased it, and although he had spent much money, he felt satisfied.",
+      "audio": "quiz_3_sophisticated.mp3",
+      "hint": "Professional writing uses contrast structures efficiently. Look for variety and clear grammatical use of both forms.",
+      "difficulty": "hard",
+      "explanation": "The correct answer is 'Despite the book's high cost, he purchased it, and although he had spent much money, he felt satisfied.' This sentence demonstrates sophisticated, professional use of contrast. It combines despite (noun) with although (complete clause) naturally, using them for different rhetorical effects. The first option lacks contrast markers, the second uses but unnecessary because, and the third uses clumsy coordination. The fourth option shows mastery by layering two contrast structures while maintaining clear grammatical structure and parallel construction."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "although",
+      "hint": "Subordinating conjunction used to show contrast when followed by a subject and verb",
+      "clue": "_lth__gh",
+      "audio": "spell_although.mp3",
+      "sentence": "The sentence shows ___ in action despite my doubts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "despite",
+      "hint": "Preposition that connects nouns or gerunds to show contrast",
+      "clue": "d_sp_t_",
+      "audio": "spell_despite.mp3",
+      "sentence": "Use a ___ phrase to link a noun with a main clause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-3",
+      "word": "contrast",
+      "hint": "Advanced concept - the linguistic device showing opposing or contradictory ideas",
+      "clue": "c_ntr_st",
+      "audio": "spell_contrast.mp3",
+      "sentence": "The ___ between these two ideas makes the sentence interesting.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "contrast-explorer",
+        "name": "Contrast Explorer",
+        "condition": "Complete all 8 although/despite lessons",
+        "icon": "🎓",
+        "points": 15,
+        "message": "You've mastered the subtle art of showing contrast! Excellent!"
+      },
+      {
+        "id": "although-master",
+        "name": "Although/Despite Master",
+        "condition": "Score 100% on 3 contrast writing activities",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your contrast structures are perfect! No more confusion!"
+      },
+      {
+        "id": "contrast-game-pro",
+        "name": "Contrast Game Pro",
+        "condition": "Complete all contrast games with no mistakes",
+        "icon": "🎮",
+        "points": 25,
+        "message": "Perfect! You instantly recognize when to use each form!"
+      },
+      {
+        "id": "grammar-term-scholar",
+        "name": "Grammar Term Scholar",
+        "condition": "Spell all contrast vocabulary words correctly on first try",
+        "icon": "📝",
+        "points": 20,
+        "message": "Excellent! Your grammar vocabulary is on point!"
+      },
+      {
+        "id": "writing-sophistication-master",
+        "name": "Writing Sophistication Master",
+        "condition": "Complete 5 contrast activities scoring 90% or higher",
+        "icon": "⚡",
+        "points": 30,
+        "message": "Your writing now flows with nuanced contrast!"
+      },
+      {
+        "id": "contrast-perfectionist",
+        "name": "Contrast Perfectionist",
+        "condition": "Score 100% on all contrast activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Outstanding! You're a contrast mastery expert!"
+      }
+    ]
+  }
+}

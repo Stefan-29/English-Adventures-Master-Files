@@ -1,0 +1,150 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: As, When, While",
+    "favicon": "favicon.ico"
+  },
+  
+  "lesson": {
+    "title": "Time Markers: As, When, While Differences",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Time Marker Lessons",
+        "instructions": "Master as (progression), when (specific moment), and while (duration) to express timing relationships. Understand the key distinction: when marks a point in time, while emphasizes duration, as shows progression."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using when (for specific moments), while (for simultaneous ongoing actions), and as (for progressive action) to describe temporal relationships. Apply correct comma rules for time clauses."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Time Marker Games",
+        "instructions": "Play games to practice choosing between as, when, and while in different time contexts. Recognize signal words and understand temporal relationships."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Time Marker Challenge",
+        "instructions": "Apply time markers correctly in complex temporal sentences and master the subtle distinctions. Spell time-related grammar terminology."
+      }
+    ]
+  },
+  
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Time Markers - Core Differences",
+        "words": [
+          "as (progression)",
+          "when (moment)",
+          "while (duration)",
+          "as soon as",
+          "just as",
+          "even as",
+          "the moment",
+          "at the time"
+        ]
+      },
+      {
+        "title": "Causal Use of As",
+        "words": [
+          "as (because)",
+          "since",
+          "given",
+          "seeing as",
+          "inasmuch as",
+          "as much as"
+        ]
+      },
+      {
+        "title": "Function/Role Use of As",
+        "words": [
+          "as (in the role of)",
+          "as a",
+          "serving as",
+          "acting as",
+          "function as",
+          "work as",
+          "employed as"
+        ]
+      },
+      {
+        "title": "Time Expressions & Adverbs",
+        "words": [
+          "simultaneously",
+          "at the same time",
+          "during",
+          "throughout",
+          "throughout",
+          "for the duration",
+          "at the moment",
+          "at that instant",
+          "progressively",
+          "gradually"
+        ]
+      },
+      {
+        "title": "Common Verbs with Time Markers",
+        "words": [
+          "happen",
+          "occur",
+          "take place",
+          "unfold",
+          "proceed",
+          "progress",
+          "continue",
+          "interrupt",
+          "begin",
+          "start",
+          "finish",
+          "end",
+          "complete",
+          "arrive",
+          "depart"
+        ]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "When + subject + verb, ...",
+          "While + subject + verb + -ing, ...",
+          "As + subject + verb, ...",
+          "Just as ... , so ...",
+          "Whenever + subject + verb, ...",
+          "Each time + subject + verb, ...",
+          "The moment + subject + verb, ...",
+          "... when/while/as + subject + verb"
+        ]
+      }
+    ]
+  },
+  
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  
+  "dataFile": "reproducibility/as-when-while.json",
+  "grammarChecker": "timeMarkers.js",
+  
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}
