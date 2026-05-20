@@ -1,0 +1,69 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Who vs. Which vs. That 🎯",
+      "content": "<p>Choosing the right pronoun makes your English <strong>precise</strong>! 📚 <strong>Who</strong> = people. <strong>Which</strong> = things/ideas. <strong>That</strong> = people OR things (defining clauses only).</p><table class='lesson-table table-blue'><thead><tr><th>Pronoun</th><th>Use For</th><th>Example</th><th>Tip</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>People (subject)</td><td><em>The teacher who helps me</em></td><td>Replace with he/she</td></tr><tr><td><strong>which</strong></td><td>Things/ideas</td><td><em>The book which I read</em></td><td>Extra info → commas</td></tr><tr><td><strong>that</strong></td><td>People/things (defining)</td><td><em>The car that I bought</em></td><td>No commas, essential info</td></tr></tbody></table><p><em>Fun fact: In American English, 'that' is often preferred over 'which' in defining clauses! 💡</em></p>",
+      "examples": ["People: The student who studied passed ✅", "Things: The movie that/which we saw was great ✅", "Avoid: ❌ 'The person which...'"],
+      "difficulty": 1,
+      "audio": "lesson_1_who_which_that.mp3",
+      "functions": ["Select pronoun by noun type", "Recognize defining vs. non-defining contexts"],
+      "tips": "💡 <strong>Quick Test:</strong> Can you replace with he/she? → who. It/they? → which/that."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Where, When, Why: The Adverb Pronouns 🚀",
+      "content": "<p>Not all relative words are pronouns! <strong>Where</strong>, <strong>when</strong>, and <strong>why</strong> are relative <em>adverbs</em>—they describe places, times, and reasons.</p><p><strong>Pattern:</strong> [Noun] + <strong>where/when/why</strong> + [clause]. <em>Example: The day when we met was sunny.</em></p><table class='lesson-table table-green'><thead><tr><th>Word</th><th>Describes</th><th>Example</th><th>Alternative</th></tr></thead><tbody><tr><td><strong>where</strong></td><td>Places</td><td><em>The café where we met</em></td><td>in which</td></tr><tr><td><strong>when</strong></td><td>Times</td><td><em>The year when I graduated</em></td><td>in which</td></tr><tr><td><strong>why</strong></td><td>Reasons</td><td><em>The reason why I left</em></td><td>for which</td></tr></tbody></table><p><em>Fun fact: 'Why' is often omitted in informal English: 'The reason I left' = 'The reason why I left'! 🌟</em></p>",
+      "examples": ["Place: The city where I live", "Time: The moment when everything changed", "Reason: The reason why she smiled"],
+      "difficulty": 1,
+      "audio": "lesson_2_where_when_why.mp3",
+      "functions": ["Match adverb pronouns to noun types", "Use formal alternatives (in which)"],
+      "tips": "💡 <strong>Memory trick:</strong> Where = place, When = time, Why = reason. If the noun is 'reason', you can often drop 'why'!"
+    }
+  ],
+  "writingActivities": [
+    { "id": "writing-1", "question": "Write about a person using 'who'.", "hint": "Start: 'The person who...'", "expectedKeywords": ["who", "person"], "sentenceStarters": ["The person who ____."], "difficulty": 1 },
+    { "id": "writing-2", "question": "Describe a thing using 'which' or 'that'.", "hint": "Use 'The [thing] which/that...'", "expectedKeywords": ["which", "that", "thing"], "sentenceStarters": ["The ____ that ____."], "difficulty": 1 },
+    { "id": "writing-3", "question": "Write about a place using 'where'.", "hint": "Try 'The place where...'", "expectedKeywords": ["where", "place"], "sentenceStarters": ["The place where ____."], "difficulty": 1 },
+    { "id": "writing-4", "question": "Write about a time using 'when'.", "hint": "Use 'The day/year/moment when...'", "expectedKeywords": ["when", "time", "day"], "sentenceStarters": ["The day when ____."], "difficulty": 2 },
+    { "id": "writing-5", "question": "Explain a reason using 'why'.", "hint": "Start: 'The reason why...'", "expectedKeywords": ["why", "reason"], "sentenceStarters": ["The reason why ____."], "difficulty": 2 },
+    { "id": "writing-6", "question": "Write 3 sentences using who, which, and where correctly.", "hint": "One for people, one for things, one for places.", "expectedKeywords": ["who", "which", "where"], "sentenceStarters": ["The ____ who/which/where ____."], "difficulty": 2 },
+    { "id": "writing-7", "question": "Compare two nouns using different pronouns.", "hint": "Example: 'The person who... but the thing that...'", "expectedKeywords": ["who", "that", "contrast"], "sentenceStarters": ["The ____ who ____, but the ____ that ____."], "difficulty": 3 },
+    { "id": "writing-8", "question": "Write a complex sentence using when and why together.", "hint": "Connect time and reason: 'The day when... is the reason why...'", "expectedKeywords": ["when", "why", "complex"], "sentenceStarters": ["The day when ____, is the reason why ____."], "difficulty": 3 }
+  ],
+  "gameActivities": [
+    { "id": "game-1", "type": "drag-drop", "question": "Choose pronoun for person:", "sentence": "The woman ____ called is my aunt.", "options": ["who", "which", "where"], "correctAnswer": ["who"], "hint": "People → who", "difficulty": "easy" },
+    { "id": "game-2", "type": "drag-drop", "question": "Choose pronoun for thing:", "sentence": "The book ____ I read was fun.", "options": ["who", "which", "where"], "correctAnswer": ["which"], "hint": "Things → which/that", "difficulty": "easy" },
+    { "id": "game-3", "type": "drag-drop", "question": "Choose pronoun for place:", "sentence": "The city ____ I live is small.", "options": ["who", "which", "where"], "correctAnswer": ["where"], "hint": "Places → where", "difficulty": "easy" },
+    { "id": "game-4", "type": "drag-drop", "question": "Choose pronoun for time:", "sentence": "The day ____ we met was sunny.", "options": ["who", "when", "where"], "correctAnswer": ["when"], "hint": "Times → when", "difficulty": "easy" },
+    { "id": "game-5", "type": "drag-drop", "question": "Choose pronoun for reason:", "sentence": "The reason ____ I left is simple.", "options": ["who", "why", "where"], "correctAnswer": ["why"], "hint": "Reasons → why", "difficulty": "easy" },
+    { "id": "game-6", "type": "drag-drop", "question": "Advanced: Select formal alternative:", "sentence": "The house ____ I live (formal)", "options": ["where", "in which", "that"], "correctAnswer": ["in which"], "hint": "Formal: preposition + which", "difficulty": "medium" },
+    { "id": "game-7", "type": "drag-drop", "question": "Spot the error:", "sentence": "The person which helped me", "options": ["which → who", "which → that", "No error"], "correctAnswer": ["which → who"], "hint": "People → who", "difficulty": "medium" },
+    { "id": "game-8", "type": "drag-drop", "question": "Choose most natural in speech:", "sentence": "The reason ____ I called", "options": ["why", "(omit)", "for which"], "correctAnswer": ["(omit)"], "hint": "Informal: 'why' often omitted", "difficulty": "hard" }
+  ],
+  "quizActivities": [
+    { "id": "quiz-1", "question": "Which pronoun for people?", "sentence": "The person ____ helped me", "options": ["who", "which", "where"], "correctAnswer": "who", "hint": "People → who", "difficulty": "easy", "explanation": "'Who' is the subject pronoun for people in relative clauses." },
+    { "id": "quiz-2", "question": "Which pronoun for things?", "sentence": "The book ____ I read", "options": ["who", "which", "where"], "correctAnswer": "which", "hint": "Things → which/that", "difficulty": "easy", "explanation": "'Which' (or 'that') introduces clauses about things or ideas." },
+    { "id": "quiz-3", "question": "Which word for places?", "sentence": "The city ____ I live", "options": ["who", "which", "where"], "correctAnswer": "where", "hint": "Places → where", "difficulty": "easy", "explanation": "'Where' is the relative adverb for locations." },
+    { "id": "quiz-4", "question": "Formal alternative for 'where'?", "sentence": "The house in ____ I live", "options": ["where", "which", "that"], "correctAnswer": "which", "hint": "Formal: preposition + which", "difficulty": "medium", "explanation": "In formal writing, 'in which' can replace 'where' for precision." },
+    { "id": "quiz-5", "question": "When can 'why' be omitted?", "sentence": "The reason (why) I left", "options": ["Always", "In informal speech", "Never"], "correctAnswer": "In informal speech", "hint": "Informal English often drops 'why'", "difficulty": "medium", "explanation": "'Why' is frequently omitted after 'the reason' in casual conversation." },
+    { "id": "quiz-6", "question": "Identify the error:", "sentence": "The person which called", "options": ["which → who", "which → that", "No error"], "correctAnswer": "which → who", "hint": "People → who", "difficulty": "medium", "explanation": "'Which' is for things; use 'who' for people." },
+    { "id": "quiz-7", "question": "Choose correct for defining clause:", "sentence": "The car ____ I bought", "options": ["who", "which", "that"], "correctAnswer": "that", "hint": "Defining clauses often use 'that'", "difficulty": "medium", "explanation": "'That' is commonly used in defining clauses for things in spoken English." },
+    { "id": "quiz-8", "question": "Advanced: Best for academic writing:", "sentence": "The methodology ____ data were collected", "options": ["where", "by which", "that"], "correctAnswer": "by which", "hint": "Formal: preposition + which", "difficulty": "hard", "explanation": "Academic writing prefers precise preposition + which constructions." }
+  ],
+  "spellingActivities": [
+    { "id": "spelling-1", "word": "who", "hint": "Pronoun for people (subject)", "clue": "w_o", "audio": "spell_who.mp3", "sentence": "The person ____ called is here.", "difficulty": "easy" },
+    { "id": "spelling-2", "word": "which", "hint": "Pronoun for things", "clue": "w_i_h", "audio": "spell_which.mp3", "sentence": "The book ____ I read was fun.", "difficulty": "easy" },
+    { "id": "spelling-3", "word": "where", "hint": "Adverb for places", "clue": "w_e_e", "audio": "spell_where.mp3", "sentence": "The city ____ I live is small.", "difficulty": "easy" },
+    { "id": "spelling-4", "word": "when", "hint": "Adverb for times", "clue": "w_e_", "audio": "spell_when.mp3", "sentence": "The day ____ we met was sunny.", "difficulty": "medium" },
+    { "id": "spelling-5", "word": "why", "hint": "Adverb for reasons", "clue": "w_y", "audio": "spell_why.mp3", "sentence": "The reason ____ I left is simple.", "difficulty": "medium" }
+  ],
+  "rewards": {
+    "stars": { "bronze": 10, "silver": 25, "gold": 40, "platinum": 60 },
+    "badges": [
+      { "id": "pronoun-picker", "name": "Pronoun Selector", "condition": "Perfect score on pronoun games", "icon": "🎯", "points": 20, "message": "You choose the right pronoun every time!" },
+      { "id": "adverb-master", "name": "Where/When/Why Expert", "condition": "Complete all adverb pronoun lessons", "icon": "🌟", "points": 25, "message": "You master place, time, and reason clauses!" },
+      { "id": "formal-writer", "name": "Formal Style Pro", "condition": "Use preposition + which correctly 5 times", "icon": "✍️", "points": 30, "message": "Your formal writing is precise and polished!" }
+    ]
+  }
+}

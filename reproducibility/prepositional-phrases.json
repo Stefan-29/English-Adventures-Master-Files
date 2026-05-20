@@ -91,7 +91,7 @@
       "question": "Use a prepositional phrase with 'at' or 'by' in a sentence.",
       "hint": "Choose from at an advantage, by accident, etc.",
       "expectedKeywords": ["at an advantage", "at a disadvantage", "by accident", "by chance", "at ease"],
-      "sentenceStarters": ["She is ___ because...", "He found it ___ .", "I feel ___ with..."],
+      "sentenceStarters": ["She is ____ because...", "He found it ____ .", "I feel ____ with..."],
       "difficulty": 1
     },
     {
@@ -99,7 +99,7 @@
       "question": "Write a sentence using a phrase with 'in' or 'on'.",
       "hint": "Use phrases like in action, on display, etc.",
       "expectedKeywords": ["in action", "in advance", "on account of", "on average", "on display"],
-      "sentenceStarters": ["The artist is ___ .", "We booked ___ .", "___ the rain,..."],
+      "sentenceStarters": ["The artist is ____ .", "We booked ____ .", "____ the rain,..."],
       "difficulty": 2
     },
     {
@@ -107,7 +107,7 @@
       "question": "Incorporate a phrase with 'out', 'under', 'within', or 'without'.",
       "hint": "Choose from out of control, under consideration, within reason, etc.",
       "expectedKeywords": ["out of control", "under consideration", "within reason", "without doubt"],
-      "sentenceStarters": ["The situation is ___ .", "The proposal is ___ .", "___ , I agree.", "He is ___ the best."],
+      "sentenceStarters": ["The situation is ____ .", "The proposal is ____ .", "____ , I agree.", "He is ____ the best."],
       "difficulty": 3
     },
     {
@@ -115,7 +115,7 @@
       "question": "Use multiple prepositions from the complete list.",
       "hint": "Include position, direction, time prepositions.",
       "expectedKeywords": ["above", "across", "after", "against", "along", "among", "around", "at", "before", "behind", "below", "beneath", "beside", "besides", "between", "beyond", "by", "concerning", "considering", "despite", "down", "during", "except", "for", "from", "in", "inside", "into", "like", "near", "of", "off", "on", "onto", "out", "outside", "over", "past", "regarding", "round", "since", "through", "throughout", "to", "toward", "towards", "under", "underneath", "until", "up", "upon", "with", "within", "without"],
-      "sentenceStarters": ["The book is ___ the table.", "We walked ___ the park.", "___ dinner, we watched TV."],
+      "sentenceStarters": ["The book is ____ the table.", "We walked ____ the park.", "____ dinner, we watched TV."],
       "difficulty": 4
     }
   ],
@@ -124,7 +124,7 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Complete the phrase with 'at' or 'by'.",
-      "sentence": "He found the wallet ___ accident.",
+      "sentence": "He found the wallet ____ accident.",
       "options": ["at", "by", "in", "on", "out"],
       "correctAnswer": ["by"],
       "hint": "By accident means unintentionally.",
@@ -134,7 +134,7 @@
       "id": "game-2",
       "type": "drag-drop",
       "question": "Choose the correct phrase with 'in' or 'on'.",
-      "sentence": "The paintings are ___ display.",
+      "sentence": "The paintings are ____ display.",
       "options": ["in", "on", "out", "under", "within"],
       "correctAnswer": ["on"],
       "hint": "On display means shown publicly.",
@@ -144,7 +144,7 @@
       "id": "game-3",
       "type": "drag-drop",
       "question": "Select the right phrase with 'out', 'under', etc.",
-      "sentence": "The patient is ___ danger.",
+      "sentence": "The patient is ____ danger.",
       "options": ["out of", "under", "within", "without"],
       "correctAnswer": ["out of"],
       "hint": "Out of danger means no longer at risk.",
@@ -154,7 +154,7 @@
       "id": "game-4",
       "type": "drag-drop",
       "question": "Pick from the complete preposition list.",
-      "sentence": "The cat is ___ the table.",
+      "sentence": "The cat is ____ the table.",
       "options": ["above", "across", "after", "against", "along"],
       "correctAnswer": ["under"],
       "hint": "Under means below and supported by.",
@@ -175,7 +175,7 @@
     },
     {
       "id": "quiz-2",
-      "question": "Choose the correct phrase: 'The proposal is ___ consideration.'",
+      "question": "Choose the correct phrase: 'The proposal is ____ consideration.'",
       "sentence": "",
       "options": ["in", "on", "out of", "under", "within"],
       "correctAnswer": "under",
@@ -197,14 +197,14 @@
     }
   ],
   "spellingActivities": [
-    {"id": "spelling-1", "word": "advantage", "hint": "At an ___", "clue": "_d_a_t_g_", "sentence": "Her skills give her ___ .", "difficulty": "easy"},
-    {"id": "spelling-2", "word": "accident", "hint": "By ___", "clue": "_c_i_e_t", "sentence": "He broke it ___ .", "difficulty": "easy"},
-    {"id": "spelling-3", "word": "advance", "hint": "In ___", "clue": "_d_a_c_", "sentence": "Book ___ .", "difficulty": "easy"},
-    {"id": "spelling-4", "word": "display", "hint": "On ___", "clue": "d_s_l_y", "sentence": "The art is ___ .", "difficulty": "easy"},
-    {"id": "spelling-5", "word": "control", "hint": "Out of ___", "clue": "c_n_r_l", "sentence": "The class is ___ .", "difficulty": "medium"},
-    {"id": "spelling-6", "word": "consideration", "hint": "Under ___", "clue": "c_n_i_e_a_i_n", "sentence": "The idea is ___ .", "difficulty": "medium"},
-    {"id": "spelling-7", "word": "earshot", "hint": "Within ___", "clue": "_a_s_o_", "sentence": "He was ___ .", "difficulty": "medium"},
-    {"id": "spelling-8", "word": "doubt", "hint": "Without ___", "clue": "d_u_t", "sentence": "___ , he is right.", "difficulty": "medium"}
+    {"id": "spelling-1", "word": "advantage", "hint": "At an ____", "clue": "_d_a_t_g_", "sentence": "Her skills give her ____ .", "difficulty": "easy"},
+    {"id": "spelling-2", "word": "accident", "hint": "By ____", "clue": "_c_i_e_t", "sentence": "He broke it ____ .", "difficulty": "easy"},
+    {"id": "spelling-3", "word": "advance", "hint": "In ____", "clue": "_d_a_c_", "sentence": "Book ____ .", "difficulty": "easy"},
+    {"id": "spelling-4", "word": "display", "hint": "On ____", "clue": "d_s_l_y", "sentence": "The art is ____ .", "difficulty": "easy"},
+    {"id": "spelling-5", "word": "control", "hint": "Out of ____", "clue": "c_n_r_l", "sentence": "The class is ____ .", "difficulty": "medium"},
+    {"id": "spelling-6", "word": "consideration", "hint": "Under ____", "clue": "c_n_i_e_a_i_n", "sentence": "The idea is ____ .", "difficulty": "medium"},
+    {"id": "spelling-7", "word": "earshot", "hint": "Within ____", "clue": "_a_s_o_", "sentence": "He was ____ .", "difficulty": "medium"},
+    {"id": "spelling-8", "word": "doubt", "hint": "Without ____", "clue": "d_u_t", "sentence": "____ , he is right.", "difficulty": "medium"}
   ],
   "rewards": {
     "stars": {"bronze": 12, "silver": 35, "gold": 60, "platinum": 85},

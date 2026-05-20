@@ -75,7 +75,7 @@
     {
       "id": "lesson-5",
       "title": "Comparing As, When, and While 🎯",
-      "content": "<p>Direct comparison eliminates guesswork. 🚀 Choose your marker based on the <em>temporal shape</em> you want to convey and the verb aspect you're using.</p><table class='lesson-table table-orange'><thead><tr><th>Marker</th><th>Temporal Shape</th><th>Best Verb Pairing</th><th>Emphasis</th></tr></thead><tbody><tr><td><strong>As</strong></td><td>Parallel progression</td><td>Continuous / Simple</td><td>Flow, cause, simultaneous development</td></tr><tr><td><strong>When</strong></td><td>Point / Boundary</td><td>Simple / Perfect</td><td>Specific moment, interruption, sequence</td></tr><tr><td><strong>While</strong></td><td>Duration / Overlap</td><td>Continuous / Progressive</td><td>Background timeframe, parallel actions</td></tr></tbody></table><p><strong>Scenario Test:</strong> <em>'___ I walked to work, it began to rain.'</em> → <strong>While</strong> (focus on duration) / <strong>When</strong> (focus on the exact moment) / <strong>As</strong> (focus on parallel progression). All three can work, but they shift the reader's attention differently.</p>",
+      "content": "<p>Direct comparison eliminates guesswork. 🚀 Choose your marker based on the <em>temporal shape</em> you want to convey and the verb aspect you're using.</p><table class='lesson-table table-orange'><thead><tr><th>Marker</th><th>Temporal Shape</th><th>Best Verb Pairing</th><th>Emphasis</th></tr></thead><tbody><tr><td><strong>As</strong></td><td>Parallel progression</td><td>Continuous / Simple</td><td>Flow, cause, simultaneous development</td></tr><tr><td><strong>When</strong></td><td>Point / Boundary</td><td>Simple / Perfect</td><td>Specific moment, interruption, sequence</td></tr><tr><td><strong>While</strong></td><td>Duration / Overlap</td><td>Continuous / Progressive</td><td>Background timeframe, parallel actions</td></tr></tbody></table><p><strong>Scenario Test:</strong> <em>'____ I walked to work, it began to rain.'</em> → <strong>While</strong> (focus on duration) / <strong>When</strong> (focus on the exact moment) / <strong>As</strong> (focus on parallel progression). All three can work, but they shift the reader's attention differently.</p>",
       "examples": [
         "As (progression): \"<strong>All eyes were on the actor as he walked onto the stage</strong>\"",
         "When (moment): \"<strong>The students stopped making noise when the teacher arrived</strong>\"",
@@ -164,8 +164,8 @@
         "emotion_word"
       ],
       "sentenceStarters": [
-        "When I ___, while I was ___.",
-        "As I was doing ___, when suddenly ___."
+        "When I ____, while I was ____.",
+        "As I was doing ____, when suddenly ____."
       ],
       "difficulty": 1
     },
@@ -183,8 +183,8 @@
         "present_participle"
       ],
       "sentenceStarters": [
-        "As I arrived, while ___ was happening, when ___.",
-        "When ___, I realized that as ___, while ___."
+        "As I arrived, while ____ was happening, when ____.",
+        "When ____, I realized that as ____, while ____."
       ],
       "difficulty": 2
     },
@@ -202,8 +202,8 @@
         "literary_elements"
       ],
       "sentenceStarters": [
-        "As night fell, when ___, while ___.",
-        "While darkness surrounded ___, as ___ changed, when ___ appeared, ___."
+        "As night fell, when ____, while ____.",
+        "While darkness surrounded ____, as ____ changed, when ____ appeared, ____."
       ],
       "difficulty": 3
     }
@@ -213,7 +213,7 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Choose the correct time marker for a specific moment:",
-      "sentence": "___ I arrived home, I found a surprise waiting.",
+      "sentence": "____ I arrived home, I found a surprise waiting.",
       "options": [
         "When",
         "While",
@@ -229,7 +229,7 @@
       "id": "game-2",
       "type": "drag-drop",
       "question": "Which time marker shows duration and parallel actions?",
-      "sentence": "___ I was cooking, he was reading his book.",
+      "sentence": "____ I was cooking, he was reading his book.",
       "options": [
         "When",
         "While",
@@ -245,7 +245,7 @@
       "id": "game-3",
       "type": "drag-drop",
       "question": "Advanced: Choose the marker that shows progression and flow:",
-      "sentence": "___ the sun rose, the world came alive with color.",
+      "sentence": "____ the sun rose, the world came alive with color.",
       "options": [
         "When the sun rose",
         "While the sun rose",
@@ -313,9 +313,9 @@
       "id": "spelling-1",
       "word": "simultaneous",
       "hint": "Occurring at the same time—what as/when/while express",
-      "clue": "s_m_lt_n___s",
+      "clue": "s_m_lt_n____s",
       "audio": "spell_simultaneous.mp3",
-      "sentence": "These actions happen ___ when we use time conjunctions.",
+      "sentence": "These actions happen ____ when we use time conjunctions.",
       "difficulty": "easy"
     },
     {
@@ -324,16 +324,16 @@
       "hint": "Grammar term relating to time and tense",
       "clue": "t_mp_r_l",
       "audio": "spell_temporal.mp3",
-      "sentence": "The ___ relationship between clauses matters in sentences.",
+      "sentence": "The ____ relationship between clauses matters in sentences.",
       "difficulty": "medium"
     },
     {
       "id": "spelling-3",
       "word": "sequential",
       "hint": "Advanced concept showing order and time progression",
-      "clue": "_eq___nt__l",
+      "clue": "_eq____nt__l",
       "audio": "spell_sequential.mp3",
-      "sentence": "The ___ nature of events requires careful use of time markers.",
+      "sentence": "The ____ nature of events requires careful use of time markers.",
       "difficulty": "hard"
     }
   ],

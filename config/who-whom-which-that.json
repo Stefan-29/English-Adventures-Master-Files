@@ -1,0 +1,28 @@
+{
+  "siteSettings": { "title": "English Adventures: Who/Whom/Which/That Mastery", "favicon": "favicon.ico" },
+  "lesson": {
+    "title": "Advanced Pronoun Choice",
+    "modules": [
+      { "id": "lesson-module", "name": "Learn", "title": "Who vs. Whom vs. Which vs. That", "instructions": "Master formal vs. informal usage, subject/object distinctions, and preposition placement with relative pronouns." },
+      { "id": "writing-module", "name": "Write", "title": "Register-Appropriate Writing", "instructions": "Write sentences adapting pronoun choice to formal/informal contexts and preposition placement rules." },
+      { "id": "game-module", "name": "Play", "title": "Pronoun Precision Games", "instructions": "Select the most appropriate pronoun for context, register, and grammatical function." },
+      { "id": "spelling-module", "name": "Apply", "title": "Formal Terms Challenge", "instructions": "Spell and use: whom, whose, preposition, formal, informal, subject, object, quantifier." }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      { "title": "Subject/Object Pronouns", "words": ["who (subject)", "whom (object)", "subject", "object", "he/she/they", "him/her/them"] },
+      { "title": "Thing Pronouns", "words": ["which", "that", "defining", "non-defining"] },
+      { "title": "Preposition Patterns", "words": ["to whom", "with which", "for whom", "in which", "preposition + whom/which"] },
+      { "title": "Formality Markers", "words": ["formal", "informal", "academic", "conversational", "professional", "casual"] },
+      { "title": "Quantifier + Whom", "words": ["most of whom", "several of whom", "many of whom", "all of whom", "few of whom"] }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": { "correctSound": "assets/sounds/correct.mp3", "wrongSound": "assets/sounds/wrong.mp3", "victorySound": "assets/sounds/victory.mp3", "gameStartSound": "assets/sounds/game-start.mp3", "hintSound": "assets/sounds/hint.mp3" }
+  },
+  "dataFile": "reproducibility/who-whom-which-that.json",
+  "grammarChecker": "whoWhomWhichThat.js",
+  "gameSettings": { "timeLimit": 30, "pointsPerCorrect": 10, "bonusMultiplier": 2, "difficultyLevels": ["intermediate", "advanced"] }
+}

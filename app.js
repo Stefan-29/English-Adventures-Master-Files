@@ -183,16 +183,14 @@ const App = {
   'linking-words'
   ],
   "RELATIVE CLAUSES & PRONOUNS": [
-    // 'relative-clauses',
-    // 'relative-pronouns',
-    // 'defining-non-defining-clauses',
-    // 'who-whom-which-that'
+    'relative-clauses',
+    'relative-pronouns',
+    'defining-non-defining-clauses',
+    'who-whom-which-that'
   ],
   "QUESTION FORMATION": [
-    // 'question-tags',
-    // 'wh-questions',
-    // 'yes-no-questions',
-    // 'whether-if'
+    'question-tags',
+    'whether-if'
   ],
   "REPORTED SPEECH": [
     // 'reported-speech',
@@ -333,16 +331,14 @@ const moduleNames = [
   'linking-words',
   
   // RELATIVE CLAUSES & PRONOUNS
-  // 'relative-clauses',
-  // 'relative-pronouns',
-  // 'defining-non-defining-clauses',
-  // 'who-whom-which-that',
+  'relative-clauses',
+  'relative-pronouns',
+  'defining-non-defining-clauses',
+  'who-whom-which-that',
   
   // QUESTION FORMATION
-  // 'question-tags',
-  // 'wh-questions',
-  // 'yes-no-questions',
-  // 'whether-if',
+  'question-tags',
+  'whether-if'
   
   // REPORTED SPEECH
   // 'reported-speech',

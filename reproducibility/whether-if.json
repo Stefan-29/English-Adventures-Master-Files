@@ -1,0 +1,193 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Whether vs. If: The Core Difference 🎯",
+      "content": "<p><strong>Whether</strong> and <strong>if</strong> both introduce uncertainty—but they're not always interchangeable! 🤔</p><p><strong>Core Rule:</strong><br>✅ Use <strong>whether</strong> for <em>choices and alternatives</em>.<br>✅ Use <strong>if</strong> for <em>conditions</em>.</p><table class='lesson-table table-blue'><thead><tr><th>Context</th><th>Preferred Word</th><th>Example</th><th>Why?</th></tr></thead><tbody><tr><td><strong>Two alternatives</strong></td><td>whether (or if)</td><td><em>I don't know <strong>whether/if</strong> she'll come.</em></td><td>Both work for indirect yes/no questions</td></tr><tr><td><strong>Condition</strong></td><td>if ONLY</td><td><em>I'll go <strong>if</strong> you come.</em></td><td>'Whether' can't introduce conditions</td></tr><tr><td><strong>Formal writing</strong></td><td>whether preferred</td><td><em>We discussed <strong>whether</strong> to proceed.</em></td><td>'Whether' sounds more precise in formal contexts</td></tr></tbody></table><p><em>Fun fact: In informal speech, 'if' is used for alternatives about 70% of the time—but in writing, 'whether' is safer! 💡</em></p>",
+      "examples": [
+        "Alternative: She asked whether/if I was ready (both OK)",
+        "Condition: I'll help if you ask (ONLY 'if')",
+        "Formal: The committee debated whether to approve (prefer 'whether')"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_core_difference.mp3",
+      "functions": ["Distinguish alternatives from conditions", "Choose whether/if for indirect questions"],
+      "tips": "💡 <strong>Quick Test:</strong> Can you add 'or not' naturally? → whether is safer. Is it a condition (if X, then Y)? → must use if."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Whether for Alternatives & Indirect Questions 🚀",
+      "content": "<p>When reporting a yes/no question or presenting alternatives, <strong>whether</strong> and <strong>if</strong> are often interchangeable—but <strong>whether</strong> is preferred in formal contexts. 🎮</p><p><strong>Pattern:</strong> [Reporting verb] + <strong>whether/if</strong> + [subject + verb]</p><table class='lesson-table table-green'><thead><tr><th>Direct Question</th><th>Reported with Whether</th><th>Reported with If</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Are you coming?</strong></td><td>She asked <strong>whether</strong> I was coming.</td><td>She asked <strong>if</strong> I was coming.</td><td>Both correct; whether more formal</td></tr><tr><td><strong>Will they accept?</strong></td><td>I wonder <strong>whether</strong> they'll accept.</td><td>I wonder <strong>if</strong> they'll accept.</td><td>Whether preferred in writing</td></tr><tr><td><strong>Should we go or stay?</strong></td><td>He asked <strong>whether</strong> we should go or stay.</td><td>He asked <strong>if</strong> we should go or stay.</td><td>With 'or', whether is clearer</td></tr></tbody></table><p><strong>Tip:</strong> When there are <em>more than two alternatives</em>, <strong>whether</strong> is strongly preferred: ✅ 'We discussed whether to change leaders, policies, or both.'</p><p><em>Fun fact: 'Whether' comes from Old English 'hwæþer' meaning 'which of two'—it's built for choices! 🌟</em></p>",
+      "examples": [
+        "Indirect question: He asked whether/if I had seen it",
+        "Multiple options: We debated whether to expand, merge, or close",
+        "Formal preference: The board considered whether to proceed"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_alternatives.mp3",
+      "functions": ["Report yes/no questions correctly", "Choose whether for multiple alternatives"],
+      "tips": "💡 <strong>Memory trick:</strong> If you can imagine 'or not' at the end → whether is always safe. In formal writing, default to whether."
+    },
+    {
+      "id": "lesson-3",
+      "title": "If for Conditions: The Non-Negotiable Rule 🌟",
+      "content": "<p>Here's the rule you <strong>cannot break</strong>: ⚠️ <strong>Only 'if'</strong> introduces conditional sentences (if X, then Y). <strong>'Whether' never works here.</strong></p><p><strong>Conditional Pattern:</strong> <strong>If</strong> + [condition], + [result]</p><table class='lesson-table table-teal'><thead><tr><th>Conditional Type</th><th>Structure</th><th>Example</th><th>Why 'whether' fails</th></tr></thead><tbody><tr><td><strong>First Conditional</strong></td><td>If + present, will + base</td><td><em><strong>If</strong> it rains, we'll cancel.</em></td><td>❌ 'Whether it rains...' = choice, not condition</td></tr><tr><td><strong>Second Conditional</strong></td><td>If + past, would + base</td><td><em><strong>If</strong> I won, I'd travel.</em></td><td>❌ 'Whether I won...' changes meaning</td></tr><tr><td><strong>Third Conditional</strong></td><td>If + past perfect, would have + pp</td><td><em><strong>If</strong> I had known, I would have come.</em></td><td>❌ 'Whether I had known...' = uncertainty, not condition</td></tr></tbody></table><p><strong>⚠️ Common mistake:</strong> ❌ 'Whether you invite me, I'll come.' → ✅ <strong>'If you invite me, I'll come.'</strong></p><p><em>Fun fact: 'Only if' expresses a strong condition: 'Payment will be made only if the work is complete.' This is NEVER replaceable with 'whether'! 🎯</em></p>",
+      "examples": [
+        "Condition: If you study, you'll pass ✅",
+        "Not alternative: ❌ Whether you study, you'll pass (wrong meaning)",
+        "Strong condition: I'll go only if you come with me ✅"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_conditions.mp3",
+      "functions": ["Identify conditional sentences", "Avoid using whether for conditions"],
+      "tips": "💡 <strong>Decision point:</strong> Does the sentence mean 'In the case that X happens...' → must use IF. If it means 'I'm uncertain about X...' → whether is possible."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Whether ONLY: Infinitives, Prepositions, Subject Clauses ⚡",
+      "content": "<p>Three contexts where <strong>only 'whether'</strong> works—'if' is grammatically incorrect! 🚫</p><table class='lesson-table table-purple'><thead><tr><th>Context</th><th>Correct (Whether)</th><th>Incorrect (If)</th><th>Reason</th></tr></thead><tbody><tr><td><strong>Before to-infinitive</strong></td><td>I don't know <strong>whether to go</strong>.</td><td>❌ I don't know if to go.</td><td>'If' cannot introduce infinitive phrases</td></tr><tr><td><strong>After prepositions</strong></td><td>It depends <strong>on whether</strong> we have time.</td><td>❌ ...on if we have time.</td><td>Prepositions require noun phrases; 'whether' clauses act as nouns</td></tr><tr><td><strong>Subject of sentence</strong></td><td><strong>Whether we go</strong> makes no difference.</td><td>❌ If we go makes no difference.</td><td>Subject clauses need 'whether' for clarity</td></tr></tbody></table><p><strong>Also:</strong> When <strong>'or not'</strong> comes immediately after, use <strong>whether</strong>:<br>✅ 'I don't know <strong>whether or not</strong> she'll come.'<br>❌ 'I don't know <strong>if or not</strong> she'll come.'</p><p><em>Fun fact: After prepositions, 'whether' clauses function as noun clauses—this is why 'if' (a conjunction) doesn't work! 🎨</em></p>",
+      "examples": [
+        "Infinitive: She debated whether to accept the offer ✅",
+        "Preposition: We talked about whether to move ✅",
+        "Subject: Whether we win or lose doesn't matter ✅",
+        "Or not position: I'll go whether or not you come ✅"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_only_whether.mp3",
+      "functions": ["Recognize contexts requiring 'whether' only", "Place 'or not' correctly with whether"],
+      "tips": "💡 <strong>Pro tip:</strong> Before 'to + verb'? → whether. After a preposition? → whether. Starting the sentence as subject? → whether."
+    },
+    {
+      "id": "lesson-5",
+      "title": "'Or Not' Placement: Whether vs. If 🎯",
+      "content": "<p>Both <strong>whether</strong> and <strong>if</strong> can be used with <strong>'or not'</strong>—but placement rules differ! 🎯</p><p><strong>With WHETHER:</strong> 'or not' can go immediately after OR at the end.<br><strong>With IF:</strong> 'or not' can ONLY go at the end.</p><table class='lesson-table table-orange'><thead><tr><th>Word</th><th>'Or not' After Word</th><th>'Or not' at End</th><th>Example</th></tr></thead><tbody><tr><td><strong>whether</strong></td><td>✅ Yes</td><td>✅ Yes</td><td><em>I called to find out <strong>whether or not</strong> she was coming.</em><br><em>I called to find out <strong>whether</strong> she was coming <strong>or not</strong>.</em></td></tr><tr><td><strong>if</strong></td><td>❌ No</td><td>✅ Yes</td><td><em>❌ I called to find out <strong>if or not</strong> she was coming.</em><br><em>✅ I called to find out <strong>if</strong> she was coming <strong>or not</strong>.</em></td></tr></tbody></table><p><strong>Why?</strong> 'Whether' is a stronger alternative-marker, so it pairs naturally with 'or not' in either position. 'If' is primarily conditional, so 'if or not' sounds awkward.</p><p><em>Fun fact: In very formal writing, some style guides prefer 'whether...or not' for maximum clarity, even when 'or not' is logically redundant! 💬</em></p>",
+      "examples": [
+        "Whether: I don't know whether or not to go ✅",
+        "Whether: I don't know whether to go or not ✅",
+        "If: I don't know if to go ❌ (infinitive error)",
+        "If: I don't know if I should go or not ✅"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_or_not.mp3",
+      "functions": ["Place 'or not' correctly with whether/if", "Choose structure for desired formality"],
+      "tips": "💡 <strong>When to use:</strong> Need 'or not' right after the word? → must use whether. At the end? → whether or if both work."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Formality & Register: When to Prefer Whether ❓",
+      "content": "<p>In <strong>formal writing</strong> (academic, business, legal), <strong>whether</strong> is strongly preferred over <strong>if</strong> for indirect questions—even when both are grammatically correct. 🎨</p><p><strong>Why?</strong> 'Whether' is more precise (explicitly marks alternatives), while 'if' can ambiguously suggest conditionality.</p><table class='lesson-table table-pink'><thead><tr><th>Context</th><th>Preferred Choice</th><th>Example</th><th>Reason</th></tr></thead><tbody><tr><td><strong>Academic writing</strong></td><td>whether</td><td><em>The study examined <strong>whether</strong> the intervention was effective.</em></td><td>Precision; avoids conditional ambiguity</td></tr><tr><td><strong>Business reports</strong></td><td>whether</td><td><em>We need to determine <strong>whether</strong> to proceed.</em></td><td>Professional clarity</td></tr><tr><td><strong>Casual conversation</strong></td><td>if (or whether)</td><td><em>I don't know <strong>if/whether</strong> she's coming.</em></td><td>Informal speech favors brevity</td></tr><tr><td><strong>Conditional sentences</strong></td><td>if ONLY</td><td><em><strong>If</strong> it rains, we'll stay home.</em></td><td>Grammatical rule: 'whether' can't introduce conditions</td></tr></tbody></table><p><strong>Tip:</strong> When in doubt in formal writing, choose <strong>whether</strong>. In speech, <strong>if</strong> is natural and widely accepted for alternatives.</p><p><em>Fun fact: Some style guides (e.g., APA, Chicago) explicitly recommend 'whether' over 'if' for indirect questions in formal prose! 🎓</em></p>",
+      "examples": [
+        "Formal: The committee will decide whether to approve the proposal",
+        "Informal: I wonder if she'll show up",
+        "Avoid ambiguity: We discussed whether (not if) the data supports the hypothesis"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_formality.mp3",
+      "functions": ["Adapt word choice to register", "Avoid ambiguity in formal writing"],
+      "tips": "💡 <strong>Remember:</strong> Formal writing → prefer whether for alternatives. Speech → if is natural. Conditions → always if."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Doubt, Uncertainty & Verb Patterns 🕐",
+      "content": "<p>After verbs of <strong>doubting</strong> or <strong>uncertainty</strong> (doubt, wonder, not know, not sure), both <strong>whether</strong> and <strong>if</strong> are possible—but nuance matters. ⚠️</p><p><strong>General pattern:</strong> [Verb of uncertainty] + <strong>whether/if</strong> + [clause]</p><table class='lesson-table table-gray'><thead><tr><th>Verb</th><th>Example with Whether</th><th>Example with If</th><th>Preference</th></tr></thead><tbody><tr><td><strong>doubt</strong></td><td>I doubt <strong>whether</strong> he'll come.</td><td>I doubt <strong>if</strong> he'll come.</td><td>Both common; 'if' slightly more informal</td></tr><tr><td><strong>wonder</strong></td><td>I wonder <strong>whether</strong> to go.</td><td>I wonder <strong>if</strong> to go. ❌</td><td>Before infinitive: ONLY whether</td></tr><tr><td><strong>not know</strong></td><td>I don't know <strong>whether</strong> she agreed.</td><td>I don't know <strong>if</strong> she agreed.</td><td>Both correct; whether more formal</td></tr><tr><td><strong>discuss</strong></td><td>We discussed <strong>whether</strong> to proceed.</td><td>We discussed <strong>if</strong> to proceed. ❌</td><td>After preposition-like verbs: prefer whether</td></tr></tbody></table><p><strong>⚠️ Common mistake:</strong> ❌ 'I doubt if to go.' → ✅ <strong>'I doubt whether to go.'</strong> (infinitive requires whether)</p><p><em>Fun fact: 'Doubt if' is more common in American English; 'doubt whether' is preferred in British English and formal contexts worldwide! 🌍</em></p>",
+      "examples": [
+        "Doubt: I doubt whether/if he'll agree (both OK)",
+        "Wonder + infinitive: I wonder whether to call (ONLY whether)",
+        "Discuss: They debated whether to expand (prefer whether)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_verb_patterns.mp3",
+      "functions": ["Choose whether/if after uncertainty verbs", "Handle infinitive patterns correctly"],
+      "tips": "💡 <strong>Never forget:</strong> Before 'to + verb' → always whether. After prepositions → always whether. In doubt in formal writing → choose whether."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Nuance, Ambiguity & Advanced Usage 🏆",
+      "content": "<p>You've learned the rules—now master the <strong>nuances</strong> that separate good from great! 🌟 Sometimes the choice between whether and if affects meaning, not just correctness.</p><p><strong>Ambiguity Alert:</strong> 'If' can mean CONDITION or ALTERNATIVE. 'Whether' ONLY means ALTERNATIVE.</p><table class='lesson-table table-yellow'><thead><tr><th>Sentence</th><th>Possible Meanings with 'if'</th><th>Clear Meaning with 'whether'</th><th>Best Choice</th></tr></thead><tbody><tr><td><em>I'll go if you come.</em></td><td>Condition: Your coming causes my going</td><td>N/A (whether can't express condition)</td><td>✅ if (only option for condition)</td></tr><tr><td><em>I don't know if she'll come.</em></td><td>1. Alternative: Will she come or not?<br>2. Condition: In case she comes...</td><td>Alternative ONLY: Will she come or not?</td><td>✅ whether (avoids ambiguity)</td></tr><tr><td><em>Let me know if you need help.</em></td><td>Condition: In case you need help...</td><td>Alternative: Tell me whether you need help or not</td><td>Depends on intended meaning!</td></tr></tbody></table><p><strong>Pro Strategy:</strong> In formal/professional writing, use <strong>whether</strong> for alternatives to eliminate ambiguity. Reserve <strong>if</strong> strictly for conditions.</p><p><strong>Mastery checklist:</strong> ✅ Condition? → if ONLY ✅ Alternative? → whether preferred in formal writing ✅ Before infinitive/preposition/subject? → whether ONLY ✅ 'Or not' immediately after? → whether ONLY</p><p><em>Fun fact: Legal documents almost always use 'whether' for alternatives to prevent misinterpretation—precision matters! 🎓</em></p>",
+      "examples": [
+        "Ambiguous: Tell me if you're coming (condition or alternative?)",
+        "Clear: Tell me whether you're coming (alternative only)",
+        "Formal precision: The contract specifies whether payment is due (not if)",
+        "Conditional clarity: If payment is late, fees apply (ONLY if)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": ["Eliminate ambiguity in professional writing", "Choose whether/if for intended meaning"],
+      "tips": "💡 <strong>Master level:</strong> In high-stakes writing (legal, academic, business), default to 'whether' for alternatives. Use 'if' only for clear conditions. This shows true linguistic precision!"
+    }
+  ],
+
+  "writingActivities": [
+    { "id": "writing-1", "question": "Write 3 indirect questions using whether or if to report yes/no questions.", "hint": "Example: 'She asked whether/if I was ready.' Both are correct here.", "expectedKeywords": ["whether", "if", "asked", "wondered", "knew"], "sentenceStarters": ["He asked whether/if ___", "I wondered whether/if ___", "She didn't know whether/if ___"], "difficulty": 1 },
+    { "id": "writing-2", "question": "Write 3 conditional sentences using if (not whether).", "hint": "If + condition, + result. Example: 'If it rains, we'll stay home.'", "expectedKeywords": ["if", "condition", "will", "would", "then"], "sentenceStarters": ["If ___ , ___", "I'll ___ if ___", "If I were ___, I would ___"], "difficulty": 1 },
+    { "id": "writing-3", "question": "Write sentences using whether before a to-infinitive.", "hint": "Pattern: whether + to + verb. Example: 'I don't know whether to go.'", "expectedKeywords": ["whether to", "whether or not to", "decide whether to"], "sentenceStarters": ["I'm not sure whether to ___", "She debated whether to ___", "We discussed whether to ___"], "difficulty": 1 },
+    { "id": "writing-4", "question": "Write sentences using whether after a preposition.", "hint": "Pattern: preposition + whether. Example: 'It depends on whether we have time.'", "expectedKeywords": ["on whether", "about whether", "of whether", "depends on whether"], "sentenceStarters": ["It depends on whether ___", "We talked about whether ___", "The decision of whether ___"], "difficulty": 2 },
+    { "id": "writing-5", "question": "Write sentences where whether is the subject of the sentence.", "hint": "Whether-clause starts the sentence. Example: 'Whether we win matters less than how we play.'", "expectedKeywords": ["whether", "subject", "makes no difference", "doesn't matter"], "sentenceStarters": ["Whether ___ makes no difference", "Whether ___ is uncertain", "Whether ___ remains to be seen"], "difficulty": 2 },
+    { "id": "writing-6", "question": "Write sentences using 'whether or not' in both possible positions.", "hint": "Whether or not + clause OR whether + clause + or not", "expectedKeywords": ["whether or not", "or not", "alternative"], "sentenceStarters": ["I don't know whether or not ___", "She'll come whether ___ or not"], "difficulty": 2 },
+    { "id": "writing-7", "question": "Write a formal paragraph using whether for alternatives (avoid if for alternatives).", "hint": "Academic/business style: prefer whether for precision.", "expectedKeywords": ["whether", "formal", "alternative", "determine", "consider"], "sentenceStarters": ["The committee will consider whether ___", "We must determine whether ___"], "difficulty": 2 },
+    { "id": "writing-8", "question": "Write a conditional sentence using 'only if' for strong condition.", "hint": "Only if + condition = strict requirement. Example: 'I'll go only if you come with me.'", "expectedKeywords": ["only if", "condition", "requirement", "must"], "sentenceStarters": ["Payment will be made only if ___", "I'll agree only if ___"], "difficulty": 3 },
+    { "id": "writing-9", "question": "Write sentences showing the ambiguity of 'if' vs. clarity of 'whether'.", "hint": "Create one sentence where 'if' could mean condition or alternative, then rewrite with 'whether' for clarity.", "expectedKeywords": ["if", "whether", "ambiguity", "clarity", "condition", "alternative"], "sentenceStarters": ["Ambiguous: Let me know if ___", "Clear: Let me know whether ___"], "difficulty": 3 },
+    { "id": "writing-10", "question": "Write a professional email excerpt using whether appropriately for alternatives in formal register.", "hint": "Avoid contractions, use precise vocabulary, prefer whether over if for alternatives.", "expectedKeywords": ["whether", "formal", "determine", "consider", "regarding"], "sentenceStarters": ["Regarding your inquiry, we must determine whether ___", "The board will consider whether ___"], "difficulty": 3 }
+  ],
+
+  "gameActivities": [
+    { "id": "game-1", "type": "drag-drop", "question": "Choose whether or if:", "sentence": "I don't know ____ she'll come.", "options": ["whether", "if", "both"], "correctAnswer": ["both"], "hint": "Indirect yes/no question: both whether and if are correct", "difficulty": "easy" },
+    { "id": "game-2", "type": "drag-drop", "question": "Choose whether or if:", "sentence": "____ it rains, we'll cancel.", "options": ["Whether", "If"], "correctAnswer": ["If"], "hint": "This is a condition → only 'if' works", "difficulty": "easy" },
+    { "id": "game-3", "type": "drag-drop", "question": "Choose the correct word:", "sentence": "I don't know ____ to go.", "options": ["whether", "if"], "correctAnswer": ["whether"], "hint": "Before to-infinitive → only 'whether'", "difficulty": "easy" },
+    { "id": "game-4", "type": "drag-drop", "question": "Choose the correct word:", "sentence": "It depends ____ we have time.", "options": ["on whether", "on if"], "correctAnswer": ["on whether"], "hint": "After preposition → only 'whether'", "difficulty": "easy" },
+    { "id": "game-5", "type": "drag-drop", "question": "Choose the correct word:", "sentence": "____ we go makes no difference.", "options": ["Whether", "If"], "correctAnswer": ["Whether"], "hint": "Subject of sentence → only 'whether'", "difficulty": "easy" },
+    { "id": "game-6", "type": "drag-drop", "question": "Choose correct 'or not' placement:", "sentence": "I called to find out ____ she was coming.", "options": ["whether or not", "if or not", "whether...or not"], "correctAnswer": ["whether or not", "whether...or not"], "hint": "With 'whether', 'or not' can be immediate or at end; with 'if', only at end", "difficulty": "medium" },
+    { "id": "game-7", "type": "drag-drop", "question": "Choose formal-preferred word:", "sentence": "The committee discussed ____ to proceed. (formal report)", "options": ["whether", "if"], "correctAnswer": ["whether"], "hint": "Formal writing prefers 'whether' for alternatives", "difficulty": "medium" },
+    { "id": "game-8", "type": "drag-drop", "question": "Identify the error:", "sentence": "I doubt if to accept the offer.", "options": ["if → whether", "No error", "to accept → accepting"], "correctAnswer": ["if → whether"], "hint": "Before infinitive → only 'whether'", "difficulty": "medium" },
+    { "id": "game-9", "type": "drag-drop", "question": "Choose for clarity (avoid ambiguity):", "sentence": "Tell me ____ you need help. (meaning: alternative, not condition)", "options": ["if", "whether"], "correctAnswer": ["whether"], "hint": "'Whether' eliminates ambiguity: only means alternative", "difficulty": "medium" },
+    { "id": "game-10", "type": "drag-drop", "question": "Choose correct for multiple alternatives:", "sentence": "We debated ____ to expand, merge, or close.", "options": ["whether", "if"], "correctAnswer": ["whether"], "hint": "With more than two options, 'whether' is strongly preferred", "difficulty": "medium" },
+    { "id": "game-11", "type": "drag-drop", "question": "Choose correct strong condition:", "sentence": "I'll agree ____ you apologize.", "options": ["only if", "only whether"], "correctAnswer": ["only if"], "hint": "'Only if' expresses strict condition; 'whether' can't be used", "difficulty": "medium" },
+    { "id": "game-12", "type": "drag-drop", "question": "Advanced: Choose for legal precision:", "sentence": "The contract specifies ____ payment is due. (legal document)", "options": ["whether", "if"], "correctAnswer": ["whether"], "hint": "Legal writing prefers 'whether' to avoid ambiguity", "difficulty": "hard" },
+    { "id": "game-13", "type": "drag-drop", "question": "Identify ambiguous 'if':", "sentence": "Let me know ____ you're coming.", "options": ["Could mean condition OR alternative", "Only means condition", "Only means alternative"], "correctAnswer": ["Could mean condition OR alternative"], "hint": "'If' can introduce conditions or alternatives → potential ambiguity", "difficulty": "hard" },
+    { "id": "game-14", "type": "drag-drop", "question": "Choose correct after verb of doubt:", "sentence": "I doubt ____ he'll agree. (formal context)", "options": ["whether", "if"], "correctAnswer": ["whether"], "hint": "Formal contexts prefer 'whether' after doubt/wonder", "difficulty": "hard" },
+    { "id": "game-15", "type": "drag-drop", "question": "Advanced: Choose for maximum clarity:", "sentence": "We need to determine ____ the data supports the hypothesis. (academic paper)", "options": ["whether", "if"], "correctAnswer": ["whether"], "hint": "Academic writing prefers 'whether' to avoid conditional ambiguity", "difficulty": "hard" }
+  ],
+
+  "quizActivities": [
+    { "id": "quiz-1", "question": "Which word introduces conditions?", "sentence": "____ it rains, we'll stay home.", "options": ["Whether", "If"], "correctAnswer": "If", "hint": "Only 'if' introduces conditional sentences", "difficulty": "easy", "explanation": "'If' is used for conditions (if X, then Y). 'Whether' expresses alternatives, not conditions." },
+    { "id": "quiz-2", "question": "Which word works before to-infinitive?", "sentence": "I don't know ____ to go.", "options": ["whether", "if"], "correctAnswer": "whether", "hint": "Before 'to + verb', only 'whether' is correct", "difficulty": "easy", "explanation": "'Whether' can introduce infinitive phrases ('whether to go'); 'if' cannot." },
+    { "id": "quiz-3", "question": "Which word follows prepositions?", "sentence": "It depends ____ we have time.", "options": ["on whether", "on if"], "correctAnswer": "on whether", "hint": "After prepositions, only 'whether' works", "difficulty": "easy", "explanation": "Prepositions require noun phrases. 'Whether'-clauses function as nouns; 'if'-clauses do not." },
+    { "id": "quiz-4", "question": "Which word can be sentence subject?", "sentence": "____ we go makes no difference.", "options": ["Whether", "If"], "correctAnswer": "Whether", "hint": "Only 'whether' can start a subject clause", "difficulty": "medium", "explanation": "'Whether we go' can act as the subject of a sentence; 'If we go' cannot." },
+    { "id": "quiz-5", "question": "Correct 'or not' placement with 'if':", "sentence": "I don't know if she's coming ____.", "options": ["or not", "or not (immediately after if)", "neither"], "correctAnswer": "or not", "hint": "With 'if', 'or not' can only go at the end", "difficulty": "medium", "explanation": "'If or not' is incorrect. With 'if', 'or not' must come at the end of the clause." },
+    { "id": "quiz-6", "question": "Preferred word in formal writing for alternatives:", "sentence": "The committee discussed ____ to proceed. (formal report)", "options": ["whether", "if"], "correctAnswer": "whether", "hint": "Formal contexts prefer 'whether' for precision", "difficulty": "medium", "explanation": "In academic, business, and legal writing, 'whether' is preferred for alternatives to avoid ambiguity with conditional 'if'." },
+    { "id": "quiz-7", "question": "Identify the error:", "sentence": "I doubt if to accept the offer.", "options": ["if → whether", "No error", "to accept → accepting"], "correctAnswer": "if → whether", "hint": "Before infinitive → only 'whether'", "difficulty": "medium", "explanation": "'If' cannot introduce infinitive phrases. Correct: 'I doubt whether to accept the offer.'" },
+    { "id": "quiz-8", "question": "Which sentence shows ambiguity of 'if'?", "sentence": "Select the option where 'if' could mean condition OR alternative:", "options": ["If you need help, ask.", "Let me know if you're coming.", "If it rains, we'll cancel."], "correctAnswer": "Let me know if you're coming.", "hint": "'If' in indirect questions can be ambiguous", "difficulty": "hard", "explanation": "'Let me know if you're coming' could mean: (1) In case you're coming, let me know (condition) OR (2) Tell me whether you're coming or not (alternative). 'Whether' eliminates this ambiguity." },
+    { "id": "quiz-9", "question": "Correct for multiple alternatives:", "sentence": "We discussed ____ to change leaders, policies, or both.", "options": ["whether", "if"], "correctAnswer": "whether", "hint": "With more than two options, 'whether' is strongly preferred", "difficulty": "hard", "explanation": "When presenting multiple alternatives, 'whether' is clearer and preferred over 'if', which can suggest conditionality." },
+    { "id": "quiz-10", "question": "Strong condition expression:", "sentence": "Payment will be made ____ the work is complete.", "options": ["only if", "only whether"], "correctAnswer": "only if", "hint": "'Only if' expresses strict condition; 'whether' can't be used", "difficulty": "hard", "explanation": "'Only if' emphasizes that the condition is necessary and sufficient. 'Whether' cannot introduce conditions." },
+    { "id": "quiz-11", "question": "Legal writing preference:", "sentence": "The contract specifies ____ payment is due. (legal document)", "options": ["whether", "if"], "correctAnswer": "whether", "hint": "Legal documents prefer 'whether' to prevent misinterpretation", "difficulty": "hard", "explanation": "In legal contexts, 'whether' is preferred for alternatives to ensure precision and avoid ambiguity that could lead to disputes." },
+    { "id": "quiz-12", "question": "Academic writing preference:", "sentence": "The study examined ____ the intervention was effective. (research paper)", "options": ["whether", "if"], "correctAnswer": "whether", "hint": "Academic style guides recommend 'whether' for indirect questions", "difficulty": "hard", "explanation": "Style guides like APA and Chicago recommend 'whether' over 'if' in formal academic writing to maintain precision and avoid conditional ambiguity." },
+    { "id": "quiz-13", "question": "Choose for intended meaning (alternative, not condition):", "sentence": "Tell me ____ you need help. (meaning: I want to know yes or no)", "options": ["if", "whether"], "correctAnswer": "whether", "hint": "'Whether' exclusively marks alternatives", "difficulty": "hard", "explanation": "If you want to ask for a yes/no answer (alternative), 'whether' is unambiguous. 'If' could be misinterpreted as a condition ('In case you need help, tell me')." },
+    { "id": "quiz-14", "question": "Identify grammatically incorrect:", "sentence": "Select the sentence with an error:", "options": ["I don't know whether to go.", "I don't know if to go.", "It depends on whether we have time.", "Whether we go is uncertain."], "correctAnswer": "I don't know if to go.", "hint": "'If' cannot introduce infinitive phrases", "difficulty": "hard", "explanation": "'If to go' is grammatically incorrect. Before to-infinitives, only 'whether' is acceptable: 'I don't know whether to go.'" },
+    { "id": "quiz-15", "question": "Most precise for professional communication:", "sentence": "We must determine ____ the proposal meets our criteria. (business report)", "options": ["whether", "if"], "correctAnswer": "whether", "hint": "Professional writing prefers 'whether' for clarity", "difficulty": "hard", "explanation": "In business and professional contexts, 'whether' is preferred for alternatives to ensure clarity and avoid the conditional ambiguity of 'if'." }
+  ],
+
+  "spellingActivities": [
+    { "id": "spelling-1", "word": "whether", "hint": "Word for alternatives/choices", "clue": "w_e_h_r", "audio": "spell_whether.mp3", "sentence": "I don't know ____ to go.", "difficulty": "easy" },
+    { "id": "spelling-2", "word": "if", "hint": "Word for conditions", "clue": "i_", "audio": "spell_if.mp3", "sentence": "____ it rains, we'll stay home.", "difficulty": "easy" },
+    { "id": "spelling-3", "word": "alternative", "hint": "One of two or more choices", "clue": "a_t_r_a_i_e", "audio": "spell_alternative.mp3", "sentence": "Whether presents an ___.", "difficulty": "medium" },
+    { "id": "spelling-4", "word": "condition", "hint": "Requirement for something to happen", "clue": "c_n_i_i_n", "audio": "spell_condition.mp3", "sentence": "If introduces a ___.", "difficulty": "medium" },
+    { "id": "spelling-5", "word": "infinitive", "hint": "To + verb form (to go, to accept)", "clue": "i_f_i_i_e", "audio": "spell_infinitive.mp3", "sentence": "Whether can precede a to-___.", "difficulty": "medium" },
+    { "id": "spelling-6", "word": "preposition", "hint": "Word like on/about/of + whether", "clue": "p_e_o_i_i_n", "audio": "spell_preposition.mp3", "sentence": "After a ___, use whether, not if.", "difficulty": "hard" },
+    { "id": "spelling-7", "word": "ambiguity", "hint": "Unclear meaning; 'if' can cause this", "clue": "a_b_g_i_y", "audio": "spell_ambiguity.mp3", "sentence": "Using 'if' for alternatives can create ___.", "difficulty": "hard" },
+    { "id": "spelling-8", "word": "precision", "hint": "Exactness; 'whether' offers more of this", "clue": "p_e_i_i_n", "audio": "spell_precision.mp3", "sentence": "Formal writing values ___ in word choice.", "difficulty": "hard" },
+    { "id": "spelling-9", "word": "indirect", "hint": "Reported question type", "clue": "i_d_r_c_", "audio": "spell_indirect.mp3", "sentence": "Whether/if introduce ___ questions.", "difficulty": "medium" },
+    { "id": "spelling-10", "word": "register", "hint": "Formality level affecting word choice", "clue": "r_g_s_e_", "audio": "spell_register.mp3", "sentence": "Formal ___ prefers 'whether' for alternatives.", "difficulty": "hard" }
+  ],
+
+  "rewards": {
+    "stars": { "bronze": 10, "silver": 25, "gold": 40, "platinum": 60 },
+    "badges": [
+      { "id": "choice-master", "name": "Choice Clarifier", "condition": "Perfect score on whether/if alternative games", "icon": "⚖️", "points": 20, "message": "You distinguish alternatives like a pro!" },
+      { "id": "condition-king", "name": "Condition Commander", "condition": "Correctly use 'if' for conditions 10 times", "icon": "🔗", "points": 25, "message": "You master conditional logic!" },
+      { "id": "formality-pro", "name": "Formal Register Expert", "condition": "Prefer 'whether' in 5 formal writing tasks", "icon": "✍️", "points": 30, "message": "Your formal writing is precise and polished!" },
+      { "id": "ambiguity-avoider", "name": "Ambiguity Eliminator", "condition": "Identify and fix ambiguous 'if' usage 3 times", "icon": "🔍", "points": 35, "message": "You write with crystal clarity!" },
+      { "id": "infinitive-navigator", "name": "Infinitive Guide", "condition": "Correctly use 'whether to' in 5 sentences", "icon": "🧭", "points": 25, "message": "You navigate infinitive patterns perfectly!" },
+      { "id": "whether-if-perfectionist", "name": "Whether/If Perfectionist", "condition": "Score 100% on all activities in this module", "icon": "🏆", "points": 50, "message": "Flawless mastery of whether vs. if—congratulations!" }
+    ]
+  }
+}

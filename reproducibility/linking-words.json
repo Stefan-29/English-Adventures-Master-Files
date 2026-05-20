@@ -162,8 +162,8 @@
         "challenge_word"
       ],
       "sentenceStarters": [
-        "Social media has ___ benefits. Also, ___. Moreover, ___.",
-        "However, ___. But ___. In conclusion, ___."
+        "Social media has ____ benefits. Also, ____. Moreover, ____.",
+        "However, ____. But ____. In conclusion, ____."
       ],
       "difficulty": 1
     },
@@ -183,8 +183,8 @@
         "lesson_word"
       ],
       "sentenceStarters": [
-        "This experience was memorable because ___. As a result, ___.",
-        "If I could change anything, ___. In summary, ___."
+        "This experience was memorable because ____. As a result, ____.",
+        "If I could change anything, ____. In summary, ____."
       ],
       "difficulty": 2
     },
@@ -205,8 +205,8 @@
         "evidence_word"
       ],
       "sentenceStarters": [
-        "First, ___. Furthermore, ___. Additionally, ___.",
-        "Although some argue ___, nevertheless, ___. Therefore, ___."
+        "First, ____. Furthermore, ____. Additionally, ____.",
+        "Although some argue ____, nevertheless, ____. Therefore, ____."
       ],
       "difficulty": 3
     }
@@ -216,7 +216,7 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Choose the correct linking word for adding more information:",
-      "sentence": "He is intelligent. ___, he is kind and generous.",
+      "sentence": "He is intelligent. ____, he is kind and generous.",
       "options": [
         "Furthermore",
         "However",
@@ -232,7 +232,7 @@
       "id": "game-2",
       "type": "drag-drop",
       "question": "Which linking word shows cause and effect?",
-      "sentence": "The storm was severe; ___, schools were closed for the day.",
+      "sentence": "The storm was severe; ____, schools were closed for the day.",
       "options": [
         "Moreover",
         "However",
@@ -248,7 +248,7 @@
       "id": "game-3",
       "type": "drag-drop",
       "question": "Advanced: Choose the linking word that acknowledges a counterargument before refuting it:",
-      "sentence": "Some claim this is too expensive. ___, research shows the long-term savings justify the cost.",
+      "sentence": "Some claim this is too expensive. ____, research shows the long-term savings justify the cost.",
       "options": [
         "Furthermore, yes",
         "Although this is valid, nevertheless",
@@ -318,7 +318,7 @@
       "hint": "Linking word showing cause and effect—used to show results",
       "clue": "th_r_f_r_",
       "audio": "spell_therefore.mp3",
-      "sentence": "The research was conclusive; ___, we must act.",
+      "sentence": "The research was conclusive; ____, we must act.",
       "difficulty": "easy"
     },
     {
@@ -327,7 +327,7 @@
       "hint": "Linking word showing addition in formal writing",
       "clue": "f_rth_rm_r_",
       "audio": "spell_furthermore.mp3",
-      "sentence": "She's intelligent. ___, she's hardworking.",
+      "sentence": "She's intelligent. ____, she's hardworking.",
       "difficulty": "medium"
     },
     {
@@ -336,7 +336,7 @@
       "hint": "Advanced concept—the quality that linking words create by connecting ideas logically",
       "clue": "c_h_r_nc_",
       "audio": "spell_coherence.mp3",
-      "sentence": "Good writing shows ___ through effective linking words.",
+      "sentence": "Good writing shows ____ through effective linking words.",
       "difficulty": "hard"
     }
   ],

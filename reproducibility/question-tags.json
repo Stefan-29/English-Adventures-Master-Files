@@ -1,0 +1,190 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Are Question Tags? 🎯",
+      "content": "<p>Ever said <em>'It's nice, isn't it?'</em> or <em>'You're coming, aren't you?'</em>? 🙋 Those are <strong>question tags</strong>! They turn statements into mini-questions to seek agreement or confirmation. 📚</p><p><strong>Basic Rule:</strong> Positive statement → Negative tag | Negative statement → Positive tag</p><table class='lesson-table table-blue'><thead><tr><th>Statement</th><th>Tag</th><th>Example</th><th>Function</th></tr></thead><tbody><tr><td><strong>Positive</strong></td><td>Negative</td><td><em>She lives in Tokyo, <strong>doesn't she?</strong></em></td><td>Seeking agreement</td></tr><tr><td><strong>Negative</strong></td><td>Positive</td><td><em>He can't drive, <strong>can he?</strong></em></td><td>Checking confirmation</td></tr></tbody></table><p><em>Fun fact: Question tags are far more common in speaking than writing—they make conversations feel interactive! 💡</em></p>",
+      "examples": [
+        "Agreement: You've seen this film, <strong>haven't you?</strong>",
+        "Confirmation: The train isn't late, <strong>is it?</strong>"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": ["Identify when to use question tags", "Recognize positive/negative polarity patterns"],
+      "tips": "💡 <strong>Quick Rule:</strong> Same auxiliary in tag as in statement. Flip the sign: + statement → - tag, - statement → + tag."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Forming Tags with Auxiliary Verbs 🚀",
+      "content": "<p>When the statement has an <strong>auxiliary verb</strong> (be, have, do) or a <strong>modal</strong> (can, will, should), use that same verb in the tag! 🎮</p><p><strong>Pattern:</strong> [Statement with auxiliary] + [same auxiliary + not/not + subject pronoun]?</p><table class='lesson-table table-green'><thead><tr><th>Auxiliary in Statement</th><th>Tag Pattern</th><th>Example</th><th>Subject Pronoun</th></tr></thead><tbody><tr><td><strong>is/are/was/were</strong></td><td>isn't/aren't/wasn't/weren't + pronoun</td><td><em>He is tall, <strong>isn't he?</strong></em></td><td>he/she/it/they</td></tr><tr><td><strong>have/has/had</strong></td><td>haven't/hasn't/hadn't + pronoun</td><td><em>They've left, <strong>haven't they?</strong></em></td><td>they/we/you</td></tr><tr><td><strong>can/could/will/would</strong></td><td>can't/couldn't/won't/wouldn't + pronoun</td><td><em>You can swim, <strong>can't you?</strong></em></td><td>you/I/we</td></tr></tbody></table><p><em>Fun fact: The subject in the tag is ALWAYS a pronoun, never a name or noun! ✅ 'John is here, isn't he?' NOT 'isn't John?' 🌟</em></p>",
+      "examples": [
+        "Be-verb: The bus stop's over there, <strong>isn't it?</strong>",
+        "Modal: They could hear me, <strong>couldn't they?</strong>",
+        "Perfect: Your parents have retired, <strong>haven't they?</strong>"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_auxiliaries.mp3",
+      "functions": ["Match auxiliary verbs to tag forms", "Convert nouns to pronouns in tags"],
+      "tips": "💡 <strong>Memory trick:</strong> Copy the auxiliary, flip the sign, swap noun for pronoun. Done! ✨"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Tags with No Auxiliary: Do/Does/Did 🌟",
+      "content": "<p>What if the statement has NO auxiliary verb? 🤔 For present simple or past simple positive statements, we add <strong>do/does/did</strong> in the tag!</p><p><strong>Pattern:</strong> [Subject + main verb] + [do/does/did + not + pronoun]?</p><table class='lesson-table table-teal'><thead><tr><th>Statement Tense</th><th>Tag Auxiliary</th><th>Example</th><th>Why?</th></tr></thead><tbody><tr><td><strong>Present Simple</strong></td><td>do/does</td><td><em>Jenni eats cheese, <strong>doesn't she?</strong></em></td><td>No auxiliary in statement</td></tr><tr><td><strong>Past Simple</strong></td><td>did</td><td><em>I said that already, <strong>didn't I?</strong></em></td><td>Need auxiliary for tag</td></tr><tr><td><strong>Verb = be (present/past)</strong></td><td>am/is/are/was/were</td><td><em>None were happy, <strong>were they?</strong></em></td><td>'Be' IS the auxiliary</td></tr></tbody></table><p><em>Fun fact: Even though 'be' is a main verb, it acts like an auxiliary for tags—so no 'do' needed! 🎨</em></p>",
+      "examples": [
+        "Present: She works hard, <strong>doesn't she?</strong>",
+        "Past: They arrived early, <strong>didn't they?</strong>",
+        "Be-verb exception: You're tired, <strong>aren't you?</strong> (NOT 'don't you?')"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_do_does_did.mp3",
+      "functions": ["Identify when to add do/does/did", "Distinguish 'be' as auxiliary vs. main verb"],
+      "tips": "💡 <strong>Decision point:</strong> Does the statement already have am/is/are/was/were/have/can/will? → Use that. No auxiliary? → Add do/does/did."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Special Cases: Aren't I? Shall We? Will You? ⚡",
+      "content": "<p>English loves exceptions! 🤯 Three question tag patterns break the usual rules—let's master them:</p><table class='lesson-table table-purple'><thead><tr><th>Statement</th><th>Standard Rule Would Give</th><th>Actual Tag</th><th>Reason</th></tr></thead><tbody><tr><td><strong>I am...</strong></td><td>amn't I? ❌</td><td><strong>aren't I?</strong> ✅</td><td>'Amn't' doesn't exist in standard English</td></tr><tr><td><strong>Let's...</strong></td><td>don't we? ❌</td><td><strong>shall we?</strong> ✅</td><td>'Let's' = 'let us' → suggestion → 'shall' for proposals</td></tr><tr><td><strong>Imperative (You...)</strong></td><td>do you? ❌</td><td><strong>will you? / won't you?</strong> ✅</td><td>Softens commands into polite requests</td></tr></tbody></table><p><strong>Examples:</strong></p><ul><li><em>I'm never on time, <strong>aren't I?</strong></em> (NOT 'amn't I?')</li><li><em>Let's go now, <strong>shall we?</strong></em> (Making a suggestion)</li><li><em>Close the door, <strong>will you?</strong></em> (Polite request)</li></ul><p><em>Fun fact: 'Aren't I?' is one of the most accepted 'irregular' forms in English—even in formal speech! 🎯</em></p>",
+      "examples": [
+        "I'm clever, <strong>aren't I?</strong> ✅",
+        "Let's leave, <strong>shall we?</strong> ✅",
+        "Pass the salt, <strong>will you?</strong> ✅ (polite)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_special_cases.mp3",
+      "functions": ["Apply exception rules for I am / Let's / imperatives", "Choose appropriate tag for politeness level"],
+      "tips": "💡 <strong>Pro tip:</strong> Memorize these three: I am → aren't I? | Let's → shall we? | Command → will you?"
+    },
+    {
+      "id": "lesson-5",
+      "title": "Negative Meaning Words & Tags 🎯",
+      "content": "<p>Words like <strong>never, seldom, rarely, hardly, nobody</strong> have negative meaning—even if the verb looks positive! 🎨 This affects your tag choice.</p><p><strong>Rule:</strong> If the statement contains a negative-meaning word → treat it as NEGATIVE → use POSITIVE tag.</p><table class='lesson-table table-orange'><thead><tr><th>Negative Word</th><th>Statement Example</th><th>Correct Tag</th><th>Why?</th></tr></thead><tbody><tr><td><strong>never</strong></td><td>She never calls, ___?</td><td><strong>does she?</strong></td><td>'Never' = negative meaning</td></tr><tr><td><strong>seldom</strong></td><td>He seldom travels, ___?</td><td><strong>does he?</strong></td><td>'Seldom' = rarely = negative</td></tr><tr><td><strong>nobody</strong></td><td>Nobody called, ___?</td><td><strong>did they?</strong></td><td>'Nobody' = not anybody</td></tr><tr><td><strong>hardly</strong></td><td>They hardly ever come, ___?</td><td><strong>do they?</strong></td><td>'Hardly' = almost never</td></tr></tbody></table><p><strong>⚠️ Common mistake:</strong> ❌ 'She never calls, doesn't she?' → ✅ <strong>'does she?'</strong> (positive tag because 'never' is negative)</p><p><em>Fun fact: These words are called 'negative adverbs' or 'semi-negatives'—they flip the polarity without using 'not'! 🌍</em></p>",
+      "examples": [
+        "He hardly knows her, <strong>does he?</strong> ✅",
+        "Nothing happened, <strong>did it?</strong> ✅",
+        "Rarely do they complain, <strong>do they?</strong> ✅"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_negative_words.mp3",
+      "functions": ["Identify negative-meaning words", "Apply polarity rule for semi-negatives"],
+      "tips": "💡 <strong>When to use:</strong> Scan for never/seldom/rarely/hardly/nobody/nothing. If found → positive tag, even if verb looks positive."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Intonation: Falling vs. Rising ❓",
+      "content": "<p>Question tags aren't just about grammar—they're about <strong>intonation</strong> too! 🎵 How you say the tag changes its meaning.</p><p><strong>Falling intonation (↘):</strong> You're sure; you expect agreement.<br><strong>Rising intonation (↗):</strong> You're less sure; you're genuinely asking.</p><table class='lesson-table table-pink'><thead><tr><th>Intonation</th><th>Speaker Certainty</th><th>Example (written)</th><th>Spoken Meaning</th></tr></thead><tbody><tr><td><strong>Falling ↘</strong></td><td>High certainty</td><td><em>It's cold, isn't it? ↘</em></td><td>'I think it's cold; agree with me.'</td></tr><tr><td><strong>Rising ↗</strong></td><td>Low certainty</td><td><em>It's cold, isn't it? ↗</em></td><td>'Is it cold? I'm not sure—tell me.'</td></tr><tr><td><strong>Falling ↘</strong></td><td>Polite assumption</td><td><em>You're coming, aren't you? ↘</em></td><td>'I assume you're coming; confirm please.'</td></tr></tbody></table><p><strong>Note:</strong> In writing, we can't show intonation—but context clues help! Formal writing often avoids tags; informal writing may add (↘) or (↗) for clarity.</p><p><em>Fun fact: Native speakers use falling intonation for tags about 80% of the time—they're usually seeking agreement, not information! 💬</em></p>",
+      "examples": [
+        "Agreement-seeking: You like coffee, don't you? ↘",
+        "Genuine question: This is the right way, isn't it? ↗",
+        "Polite confirmation: We'll meet at 5, won't we? ↘"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_intonation.mp3",
+      "functions": ["Interpret tag function from context", "Choose appropriate tag for intended certainty level"],
+      "tips": "💡 <strong>Remember:</strong> In writing, if the statement sounds confident → tag seeks agreement. If uncertain → tag asks for info."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Tags in Reported Speech & Complex Sentences 🕐",
+      "content": "<p>Question tags get tricky in <strong>reported speech</strong> and <strong>complex sentences</strong>! ⚠️ The tag always refers to the MAIN clause's subject and auxiliary.</p><p><strong>Rule:</strong> Ignore subordinate clauses. Find the main subject + auxiliary → form tag from those.</p><table class='lesson-table table-gray'><thead><tr><th>Sentence Type</th><th>Main Clause</th><th>Correct Tag</th><th>Common Error</th></tr></thead><tbody><tr><td><strong>Reported speech</strong></td><td>She said (that) he was late</td><td><strong>didn't she?</strong></td><td>❌ 'wasn't he?' (wrong subject)</td></tr><tr><td><strong>Relative clause</strong></td><td>The man who called you is here</td><td><strong>isn't he?</strong></td><td>❌ 'didn't he?' (wrong clause)</td></tr><tr><td><strong>Conditional</strong></td><td>If it rains, we'll stay home</td><td><strong>won't we?</strong></td><td>❌ 'doesn't it?' (wrong clause)</td></tr></tbody></table><p><strong>⚠️ Common mistake:</strong> ❌ 'She said he was late, wasn't he?' → ✅ <strong>'didn't she?'</strong> (tag refers to 'She said', not 'he was late')</p><p><em>Fun fact: Even advanced learners mix up tag subjects in complex sentences—focus on the MAIN verb! 🎯</em></p>",
+      "examples": [
+        "Reported: He told us they'd won, <strong>didn't he?</strong>",
+        "Relative: The book that I borrowed is great, <strong>isn't it?</strong>",
+        "Conditional: If you need help, just ask, <strong>will you?</strong>"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_complex_sentences.mp3",
+      "functions": ["Identify main clause in complex sentences", "Form tags based on main subject/auxiliary"],
+      "tips": "💡 <strong>Never forget:</strong> Find the MAIN subject + verb FIRST. Ignore 'that...', 'who...', 'if...' clauses when forming tags."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Tags for Politeness & Nuance 🏆",
+      "content": "<p>You've mastered the rules—now let's use tags for <strong>social nuance</strong>! 🌟 Question tags can soften requests, show empathy, or invite collaboration.</p><p><strong>Polite Requests:</strong> Use 'will you?', 'would you?', 'could you?' after imperatives.<br><strong>Empathetic Tags:</strong> Use falling intonation to show shared experience.<br><strong>Collaborative Tags:</strong> Use 'shall we?' to include the listener in decisions.</p><table class='lesson-table table-yellow'><thead><tr><th>Context / Purpose</th><th>Tag Choice</th><th>Example</th><th>Effect</th></tr></thead><tbody><tr><td><strong>Polite command</strong></td><td>will you? / would you?</td><td><em>Pass the salt, <strong>would you?</strong></em></td><td>Softens order → request</td></tr><tr><tr><td><strong>Shared experience</strong></td><td>isn't it? / don't you? (falling)</td><td><em>What a day, <strong>isn't it?</strong> ↘</em></td><td>Builds rapport, invites agreement</td></tr><tr><td><strong>Joint decision</strong></td><td>shall we?</td><td><em>Let's start, <strong>shall we?</strong></em></td><td>Inclusive, collaborative tone</td></tr><tr><td><strong>Checking understanding</strong></td><td>right? / okay? (informal)</td><td><em>We meet at 5, <strong>okay?</strong></em></td><td>Casual confirmation</td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✅ Flip polarity correctly ✅ Match auxiliary/modal ✅ Handle special cases (aren't I?, shall we?) ✅ Adjust for negative-meaning words ✅ Choose intonation for intended meaning</p><p><em>Fun fact: In some dialects, invariant tags like 'innit?' (isn't it?) or 'eh?' are used for all statements—standard English prefers precise matching! 🎓</em></p>",
+      "examples": [
+        "Polite: Open the window, <strong>could you?</strong>",
+        "Empathetic: Tough exam, <strong>wasn't it?</strong> ↘",
+        "Collaborative: Let's review this, <strong>shall we?</strong>",
+        "Casual: You're joining us, <strong>right?</strong>"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": ["Select tags for social purposes", "Adapt tag choice to formality and relationship"],
+      "tips": "💡 <strong>Master level:</strong> In formal contexts, use precise tags. In casual speech, invariant tags ('right?', 'okay?') are acceptable—but know the difference!"
+    }
+  ],
+
+  "writingActivities": [
+    { "id": "writing-1", "question": "Write 3 statements with correct question tags seeking agreement. Use different auxiliaries.", "hint": "Positive statement → negative tag. Example: 'You're coming, aren't you?'", "expectedKeywords": ["isn't", "aren't", "don't", "doesn't", "haven't"], "sentenceStarters": ["You're ___, ___?", "She ___ , ___?", "They ___ , ___?"], "difficulty": 1 },
+    { "id": "writing-2", "question": "Write 3 negative statements with positive question tags for confirmation.", "hint": "Negative statement → positive tag. Example: 'He can't drive, can he?'", "expectedKeywords": ["can he", "is she", "do they", "will it"], "sentenceStarters": ["He can't ___, ___?", "She doesn't ___, ___?", "It won't ___, ___?"], "difficulty": 1 },
+    { "id": "writing-3", "question": "Write sentences using the special cases: 'aren't I?', 'shall we?', 'will you?'.", "hint": "I am → aren't I? | Let's → shall we? | Command → will you?", "expectedKeywords": ["aren't I", "shall we", "will you"], "sentenceStarters": ["I'm ___, ___?", "Let's ___, ___?", "___ , ___?"], "difficulty": 1 },
+    { "id": "writing-4", "question": "Write sentences using negative-meaning words (never, seldom, hardly) with correct tags.", "hint": "Negative word → positive tag. Example: 'She never calls, does she?'", "expectedKeywords": ["never", "seldom", "hardly", "does she", "do they"], "sentenceStarters": ["He never ___, ___?", "They seldom ___, ___?", "She hardly ___, ___?"], "difficulty": 2 },
+    { "id": "writing-5", "question": "Write a short dialogue using question tags to show agreement-seeking vs. genuine questions.", "hint": "Use context or (↘)/(↗) to show intonation difference.", "expectedKeywords": ["isn't it", "don't you", "↘", "↗", "agreement"], "sentenceStarters": ["A: It's cold, isn't it? ↘", "B: Yes, and ___ , ___? ↗"], "difficulty": 2 },
+    { "id": "writing-6", "question": "Write complex sentences with question tags referring to the main clause.", "hint": "Ignore subordinate clauses. Tag matches MAIN subject + auxiliary.", "expectedKeywords": ["main clause", "didn't she", "isn't he", "won't we"], "sentenceStarters": ["She said that ___, ___?", "The man who ___ is here, ___?"], "difficulty": 2 },
+    { "id": "writing-7", "question": "Write polite requests using imperative + tag (will you? / would you? / could you?).", "hint": "Softens commands. Example: 'Close the door, would you?'", "expectedKeywords": ["will you", "would you", "could you", "polite"], "sentenceStarters": ["Please ___, ___?", "___ , ___?", "Could you ___, ___?"], "difficulty": 2 },
+    { "id": "writing-8", "question": "Write a paragraph using question tags to build rapport in a casual conversation.", "hint": "Use falling intonation tags for shared experiences.", "expectedKeywords": ["isn't it", "don't you", "wasn't it", "rapport", "↘"], "sentenceStarters": ["What a day, isn't it? ↘", "You know how ___, ___?"], "difficulty": 3 },
+    { "id": "writing-9", "question": "Write formal vs. informal versions of the same idea using appropriate tags.", "hint": "Formal: precise tags. Informal: 'right?', 'okay?', invariant tags.", "expectedKeywords": ["formal", "informal", "isn't it", "right", "okay"], "sentenceStarters": ["Formal: The report is due Friday, isn't it?", "Informal: Report's due Friday, right?"], "difficulty": 3 },
+    { "id": "writing-10", "question": "Write a reflective piece using question tags to express uncertainty vs. confidence.", "hint": "Rising intonation for doubt, falling for certainty. Show the difference in writing.", "expectedKeywords": ["rising", "falling", "uncertain", "confident", "↗", "↘"], "sentenceStarters": ["I think this is right, isn't it? ↗", "This is definitely correct, isn't it? ↘"], "difficulty": 3 }
+  ],
+
+  "gameActivities": [
+    { "id": "game-1", "type": "drag-drop", "question": "Choose the correct tag:", "sentence": "She lives in Tokyo, ____?", "options": ["doesn't she", "does she", "isn't she", "is she"], "correctAnswer": ["doesn't she"], "hint": "Positive statement → negative tag. Verb = lives (present simple) → does/doesn't.", "difficulty": "easy" },
+    { "id": "game-2", "type": "drag-drop", "question": "Choose the correct tag:", "sentence": "He can't swim, ____?", "options": ["can he", "can't he", "does he", "doesn't he"], "correctAnswer": ["can he"], "hint": "Negative statement → positive tag. Modal = can → can/can't.", "difficulty": "easy" },
+    { "id": "game-3", "type": "drag-drop", "question": "Choose the correct tag:", "sentence": "I'm late, ____?", "options": ["amn't I", "aren't I", "am I", "isn't I"], "correctAnswer": ["aren't I"], "hint": "Special case: I am → aren't I? (standard English)", "difficulty": "easy" },
+    { "id": "game-4", "type": "drag-drop", "question": "Choose the correct tag:", "sentence": "Let's go, ____?", "options": ["will we", "shall we", "do we", "don't we"], "correctAnswer": ["shall we"], "hint": "Special case: Let's → shall we? (suggestion)", "difficulty": "easy" },
+    { "id": "game-5", "type": "drag-drop", "question": "Choose the correct tag:", "sentence": "She never calls, ____?", "options": ["doesn't she", "does she", "isn't she", "is she"], "correctAnswer": ["does she"], "hint": "'Never' = negative meaning → positive tag", "difficulty": "easy" },
+    { "id": "game-6", "type": "drag-drop", "question": "Choose the correct tag for this imperative:", "sentence": "Close the door, ____?", "options": ["do you", "will you", "won't you", "B or C"], "correctAnswer": ["B or C"], "hint": "Imperatives → will you? / won't you? for polite requests", "difficulty": "medium" },
+    { "id": "game-7", "type": "drag-drop", "question": "Identify the main clause for the tag:", "sentence": "She said that he was late, ____?", "options": ["wasn't he", "didn't she", "was he", "did she"], "correctAnswer": ["didn't she"], "hint": "Tag refers to MAIN clause: 'She said' → didn't she?", "difficulty": "medium" },
+    { "id": "game-8", "type": "drag-drop", "question": "Choose tag for negative adverb:", "sentence": "They hardly ever visit, ____?", "options": ["do they", "don't they", "are they", "aren't they"], "correctAnswer": ["do they"], "hint": "'Hardly' = negative meaning → positive tag", "difficulty": "medium" },
+    { "id": "game-9", "type": "drag-drop", "question": "Select tag showing certainty (falling intonation):", "sentence": "It's a beautiful day, ____? ↘", "options": ["isn't it", "is it", "doesn't it", "does it"], "correctAnswer": ["isn't it"], "hint": "Falling intonation = seeking agreement → negative tag for positive statement", "difficulty": "medium" },
+    { "id": "game-10", "type": "drag-drop", "question": "Select tag showing uncertainty (rising intonation):", "sentence": "This is the right way, ____? ↗", "options": ["isn't it", "is it", "doesn't it", "does it"], "correctAnswer": ["isn't it"], "hint": "Same tag form, different intonation changes meaning", "difficulty": "medium" },
+    { "id": "game-11", "type": "drag-drop", "question": "Choose polite request tag:", "sentence": "Pass the salt, ____?", "options": ["do you", "will you", "won't you", "B or C"], "correctAnswer": ["B or C"], "hint": "Imperative + will/won't you? = polite request", "difficulty": "medium" },
+    { "id": "game-12", "type": "drag-drop", "question": "Advanced: Tag for complex sentence:", "sentence": "The book that I borrowed is fascinating, ____?", "options": ["isn't it", "didn't I", "is it", "did I"], "correctAnswer": ["isn't it"], "hint": "Main clause: 'The book... is fascinating' → isn't it?", "difficulty": "hard" },
+    { "id": "game-13", "type": "drag-drop", "question": "Choose tag for reported speech:", "sentence": "He told us they'd won, ____?", "options": ["didn't he", "hadn't they", "did he", "had they"], "correctAnswer": ["didn't he"], "hint": "Main clause: 'He told us' → didn't he?", "difficulty": "hard" },
+    { "id": "game-14", "type": "drag-drop", "question": "Select formal vs. informal tag:", "sentence": "We'll meet at 5, ____? (formal)", "options": ["won't we", "right", "okay", "innit"], "correctAnswer": ["won't we"], "hint": "Formal: precise tag matching auxiliary. Informal: invariant tags like 'right?'", "difficulty": "hard" },
+    { "id": "game-15", "type": "drag-drop", "question": "Advanced: Choose tag for nuance:", "sentence": "You're not leaving yet, ____? (hopeful)", "options": ["are you", "aren't you", "do you", "don't you"], "correctAnswer": ["are you"], "hint": "Negative statement → positive tag. 'Hopeful' tone confirms the rule.", "difficulty": "hard" }
+  ],
+
+  "quizActivities": [
+    { "id": "quiz-1", "question": "What tag follows a positive statement?", "sentence": "She works hard, ____?", "options": ["doesn't she", "does she", "isn't she", "is she"], "correctAnswer": "doesn't she", "hint": "Positive statement → negative tag", "difficulty": "easy", "explanation": "Question tags reverse polarity: positive statements take negative tags to seek agreement or confirmation." },
+    { "id": "quiz-2", "question": "Which tag is correct for 'I am'?", "sentence": "I'm clever, ____?", "options": ["amn't I", "aren't I", "am I", "isn't I"], "correctAnswer": "aren't I", "hint": "Special case: 'amn't' doesn't exist in standard English", "difficulty": "easy", "explanation": "'Aren't I?' is the standard negative tag for 'I am' statements, even though it seems irregular." },
+    { "id": "quiz-3", "question": "What tag follows 'Let's'?", "sentence": "Let's go, ____?", "options": ["will we", "shall we", "do we", "don't we"], "correctAnswer": "shall we", "hint": "'Let's' = suggestion → 'shall we?' for proposals", "difficulty": "easy", "explanation": "'Let's' is a contraction of 'let us', used for suggestions. The conventional tag is 'shall we?' to invite agreement." },
+    { "id": "quiz-4", "question": "Tag for negative-meaning word:", "sentence": "He seldom travels, ____?", "options": ["doesn't he", "does he", "isn't he", "is he"], "correctAnswer": "does he", "hint": "'Seldom' = negative meaning → positive tag", "difficulty": "medium", "explanation": "Words like seldom, never, hardly have negative meaning even without 'not'. Treat the statement as negative → use positive tag." },
+    { "id": "quiz-5", "question": "Tag for imperative:", "sentence": "Close the window, ____?", "options": ["do you", "will you", "won't you", "B or C"], "correctAnswer": "B or C", "hint": "Imperatives → will you? / won't you? for politeness", "difficulty": "medium", "explanation": "After commands, 'will you?' or 'won't you?' softens the imperative into a polite request. Both are acceptable." },
+    { "id": "quiz-6", "question": "Tag for complex sentence:", "sentence": "She said that he was late, ____?", "options": ["wasn't he", "didn't she", "was he", "did she"], "correctAnswer": "didn't she", "hint": "Tag refers to MAIN clause subject + auxiliary", "difficulty": "medium", "explanation": "In complex sentences, the tag always matches the main clause ('She said'), not subordinate clauses ('that he was late')." },
+    { "id": "quiz-7", "question": "Intonation for agreement-seeking:", "sentence": "It's cold, isn't it? ____", "options": ["rising ↗", "falling ↘", "flat →", "doesn't matter"], "correctAnswer": "falling ↘", "hint": "Falling intonation = speaker expects agreement", "difficulty": "medium", "explanation": "Falling intonation on the tag signals the speaker is confident and seeks confirmation. Rising intonation signals genuine uncertainty." },
+    { "id": "quiz-8", "question": "Tag for 'nobody':", "sentence": "Nobody called, ____?", "options": ["did they", "didn't they", "did he", "didn't he"], "correctAnswer": "did they", "hint": "'Nobody' = negative → positive tag; use 'they' for indefinite subjects", "difficulty": "medium", "explanation": "'Nobody' has negative meaning, so use positive tag. For indefinite subjects (nobody, somebody), use 'they' in the tag." },
+    { "id": "quiz-9", "question": "Formal vs. informal tag:", "sentence": "We're meeting at 5, ____? (formal)", "options": ["aren't we", "right", "okay", "innit"], "correctAnswer": "aren't we", "hint": "Formal: precise auxiliary match. Informal: invariant tags", "difficulty": "hard", "explanation": "In formal contexts, use grammatically precise tags matching the auxiliary. Informal speech may use invariant tags like 'right?' or 'okay?'." },
+    { "id": "quiz-10", "question": "Tag for modal 'must':", "sentence": "You must leave now, ____?", "options": ["mustn't you", "don't you", "won't you", "shouldn't you"], "correctAnswer": "mustn't you", "hint": "Modal in statement → same modal in tag", "difficulty": "hard", "explanation": "When the statement contains a modal verb (must, can, will), the tag uses the same modal: 'must' → 'mustn't'." },
+    { "id": "quiz-11", "question": "Identify the error:", "sentence": "She never smiles, doesn't she?", "options": ["doesn't she → does she", "never → ever", "No error", "smiles → smile"], "correctAnswer": "doesn't she → does she", "hint": "'Never' = negative meaning → positive tag", "difficulty": "hard", "explanation": "'Never' makes the statement negative in meaning, so the tag should be positive: 'does she?', not 'doesn't she?'." },
+    { "id": "quiz-12", "question": "Tag for past perfect:", "sentence": "They had already left, ____?", "options": ["hadn't they", "didn't they", "had they", "did they"], "correctAnswer": "hadn't they", "hint": "Auxiliary 'had' in statement → 'hadn't' in tag", "difficulty": "hard", "explanation": "When the statement uses past perfect ('had left'), the tag uses the same auxiliary 'had': 'hadn't they?'." },
+    { "id": "quiz-13", "question": "Advanced: Tag for conditional main clause:", "sentence": "If it rains, we'll cancel, ____?", "options": ["won't we", "doesn't it", "will we", "does it"], "correctAnswer": "won't we", "hint": "Tag matches MAIN clause: 'we'll cancel' → won't we?", "difficulty": "hard", "explanation": "Even in conditional sentences, the tag refers to the main clause ('we'll cancel'), not the if-clause ('If it rains')." },
+    { "id": "quiz-14", "question": "Tag for emphatic 'do':", "sentence": "You DO like coffee, ____?", "options": ["don't you", "do you", "doesn't it", "does it"], "correctAnswer": "don't you", "hint": "Emphatic 'do' still counts as auxiliary → don't you?", "difficulty": "hard", "explanation": "Even when 'do' is used for emphasis ('You DO like...'), it functions as the auxiliary for tag formation: 'don't you?'." },
+    { "id": "quiz-15", "question": "Most natural informal tag:", "sentence": "That was amazing, ____? (casual chat)", "options": ["wasn't it", "right", "okay", "A or B or C"], "correctAnswer": "A or B or C", "hint": "Informal speech allows invariant tags like 'right?' or 'okay?'", "difficulty": "hard", "explanation": "In casual conversation, invariant tags ('right?', 'okay?', 'innit?') are common and natural, though precise tags ('wasn't it?') are always correct." }
+  ],
+
+  "spellingActivities": [
+    { "id": "spelling-1", "word": "auxiliary", "hint": "Helper verb for tags (is, have, can...)", "clue": "a_u_i_i_r_", "audio": "spell_auxiliary.mp3", "sentence": "Use the ___ verb from the statement in the tag.", "difficulty": "easy" },
+    { "id": "spelling-2", "word": "polarity", "hint": "Positive/negative reversal in tags", "clue": "p_o_r_t_", "audio": "spell_polarity.mp3", "sentence": "Tags reverse the ___ of the statement.", "difficulty": "medium" },
+    { "id": "spelling-3", "word": "intonation", "hint": "Rising/falling pitch changes tag meaning", "clue": "i_t_n_t_o_", "audio": "spell_intonation.mp3", "sentence": "Falling ___ shows you expect agreement.", "difficulty": "medium" },
+    { "id": "spelling-4", "word": "confirmation", "hint": "What tags often seek", "clue": "c_n_f_r_a_i_n", "audio": "spell_confirmation.mp3", "sentence": "Question tags seek ___ or agreement.", "difficulty": "easy" },
+    { "id": "spelling-5", "word": "imperative", "hint": "Command form + will you? tag", "clue": "i_p_r_t_v_", "audio": "spell_imperative.mp3", "sentence": "An ___ like 'Close the door' takes 'will you?'", "difficulty": "medium" },
+    { "id": "spelling-6", "word": "semi-negative", "hint": "Words like never/seldom with negative meaning", "clue": "s_m_-n_g_t_v_", "audio": "spell_seminegative.mp3", "sentence": "A ___ word like 'never' needs a positive tag.", "difficulty": "hard" },
+    { "id": "spelling-7", "word": "invariant", "hint": "Tags like 'right?' that don't change", "clue": "i_v_r_a_t", "audio": "spell_invariant.mp3", "sentence": "Informal ___ tags work with any statement.", "difficulty": "hard" },
+    { "id": "spelling-8", "word": "rapport", "hint": "Connection built by agreement-seeking tags", "clue": "r_p_o_t", "audio": "spell_rapport.mp3", "sentence": "Tags with falling intonation build ___.", "difficulty": "medium" },
+    { "id": "spelling-9", "word": "subordinate", "hint": "Clause ignored when forming tags", "clue": "s_b_r_i_a_e", "audio": "spell_subordinate.mp3", "sentence": "Ignore ___ clauses when choosing the tag.", "difficulty": "hard" },
+    { "id": "spelling-10", "word": "nuance", "hint": "Subtle meaning changes via tag choice", "clue": "n_a_c_", "audio": "spell_nuance.mp3", "sentence": "Tag choice adds ___ to your meaning.", "difficulty": "hard" }
+  ],
+
+  "rewards": {
+    "stars": { "bronze": 10, "silver": 25, "gold": 40, "platinum": 60 },
+    "badges": [
+      { "id": "tag-former", "name": "Tag Formation Pro", "condition": "Perfect score on auxiliary/modal tag games", "icon": "🎯", "points": 20, "message": "You flip polarity like a native speaker!" },
+      { "id": "special-case-master", "name": "Exception Expert", "condition": "Correctly use aren't I? / shall we? / will you? 5 times", "icon": "✨", "points": 25, "message": "You've mastered English's favorite irregularities!" },
+      { "id": "intonation-artist", "name": "Intonation Interpreter", "condition": "Identify rising/falling meaning in 10 quiz questions", "icon": "🎵", "points": 30, "message": "You hear the music in grammar!" },
+      { "id": "politeness-pro", "name": "Polite Request Pro", "condition": "Write 3 perfect imperative + tag requests", "icon": "🙏", "points": 25, "message": "Your requests are perfectly softened!" },
+      { "id": "complex-clause-king", "name": "Clause Navigator", "condition": "Form correct tags for 5 complex sentences", "icon": "🧭", "points": 35, "message": "You find the main clause every time!" },
+      { "id": "tag-perfectionist", "name": "Question Tag Perfectionist", "condition": "Score 100% on all activities in this module", "icon": "🏆", "points": 50, "message": "Flawless tag mastery—congratulations!" }
+    ]
+  }
+}

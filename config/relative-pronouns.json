@@ -1,0 +1,28 @@
+{
+  "siteSettings": { "title": "English Adventures: Relative Pronouns", "favicon": "favicon.ico" },
+  "lesson": {
+    "title": "Choosing the Right Relative Pronoun",
+    "modules": [
+      { "id": "lesson-module", "name": "Learn", "title": "Pronoun Rules", "instructions": "Master when to use who, which, that, where, when, and why to describe nouns accurately." },
+      { "id": "writing-module", "name": "Write", "title": "Pronoun Practice", "instructions": "Write sentences selecting the correct relative pronoun for people, things, places, times, and reasons." },
+      { "id": "game-module", "name": "Play", "title": "Pronoun Picker", "instructions": "Drag the correct relative pronoun into sentences based on context clues." },
+      { "id": "spelling-module", "name": "Apply", "title": "Pronoun Spelling Challenge", "instructions": "Spell and use who, whom, whose, which, that, where, when, why correctly." }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      { "title": "People Pronouns", "words": ["who", "whom", "whose"] },
+      { "title": "Thing Pronouns", "words": ["which", "that"] },
+      { "title": "Place/Time/Reason", "words": ["where", "when", "why"] },
+      { "title": "Context Clues", "words": ["person", "thing", "place", "time", "reason", "subject", "object"] },
+      { "title": "Sentence Patterns", "words": ["The person who...", "The thing that...", "The place where...", "The day when...", "The reason why..."] }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": { "correctSound": "assets/sounds/correct.mp3", "wrongSound": "assets/sounds/wrong.mp3", "victorySound": "assets/sounds/victory.mp3", "gameStartSound": "assets/sounds/game-start.mp3", "hintSound": "assets/sounds/hint.mp3" }
+  },
+  "dataFile": "reproducibility/relative-pronouns.json",
+  "grammarChecker": "relativePronouns.js",
+  "gameSettings": { "timeLimit": 30, "pointsPerCorrect": 10, "bonusMultiplier": 2, "difficultyLevels": ["beginner", "intermediate", "advanced"] }
+}

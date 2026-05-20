@@ -135,7 +135,7 @@
   },
   
   "dataFile": "reproducibility/as-when-while.json",
-  "grammarChecker": "timeMarkers.js",
+  "grammarChecker": "asWhenWhile.js",
   
   "gameSettings": {
     "timeLimit": 30,

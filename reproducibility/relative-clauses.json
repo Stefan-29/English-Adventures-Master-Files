@@ -1,0 +1,66 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Is a Relative Clause? 🎯",
+      "content": "<p>A <strong>relative clause</strong> describes a noun! 📚 When you say <em>'the person who...'</em> or <em>'the book that...'</em>, you're using one.</p><p><strong>Formula:</strong> [Noun] + [relative pronoun] + [extra info]. <em>Example: The teacher <strong>who helps me</strong> is kind.</em></p><table class='lesson-table table-blue'><thead><tr><th>Part</th><th>Example</th><th>Role</th></tr></thead><tbody><tr><td><strong>Noun</strong></td><td>The teacher</td><td>Who we describe</td></tr><tr><td><strong>Pronoun</strong></td><td>who</td><td>Connects clause</td></tr><tr><td><strong>Clause</strong></td><td>who helps me</td><td>Adds detail</td></tr></tbody></table><p><em>Fun fact: Relative clauses exist in most languages—they're a universal way to add detail! 💡</em></p>",
+      "examples": ["The dog that barks is loud", "The city where I live is small"],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": ["Identify nouns that can be described", "Recognize relative clause patterns"],
+      "tips": "💡 <strong>Quick Rule:</strong> If you can replace the clause with 'that one' → it's probably a relative clause!"
+    },
+    {
+      "id": "lesson-2",
+      "title": "Why Use Relative Clauses? 🚀",
+      "content": "<p>Relative clauses make your English <strong>clearer and more detailed</strong>! 🎮 Instead of two short sentences, combine them smoothly.</p><p><strong>Before:</strong> I have a friend. She speaks Spanish. <strong>After:</strong> I have a friend <strong>who speaks Spanish</strong>. ✨</p><table class='lesson-table table-green'><thead><tr><th>Benefit</th><th>Example</th><th>Effect</th></tr></thead><tbody><tr><td><strong>Combine ideas</strong></td><td>The book + I read it → The book that I read</td><td>Smoother flow</td></tr><tr><td><strong>Specify which one</strong></td><td>The student who studies hard</td><td>Clear identification</td></tr><tr><td><strong>Add interest</strong></td><td>The café where we met</td><td>Richer description</td></tr></tbody></table><p><em>Fun fact: Using relative clauses is a key skill for academic and professional writing! 🌟</em></p>",
+      "examples": ["The movie that we saw was amazing", "The person who called left a message"],
+      "difficulty": 1,
+      "audio": "lesson_2_benefits.mp3",
+      "functions": ["Combine two simple sentences", "Choose which noun to describe"],
+      "tips": "💡 <strong>Memory trick:</strong> Think of relative clauses as 'noun stickers'—they attach extra info right to the noun!"
+    }
+  ],
+  "writingActivities": [
+    { "id": "writing-1", "question": "Write about a person you know using 'who'. Example: 'My friend who...'", "hint": "Start with 'The person who...' or 'My friend who...'", "expectedKeywords": ["who", "person", "friend"], "sentenceStarters": ["The person who ____ is ____."], "difficulty": 1 },
+    { "id": "writing-2", "question": "Describe a thing you own using 'that' or 'which'.", "hint": "Use 'The [thing] that/which...'", "expectedKeywords": ["that", "which", "thing"], "sentenceStarters": ["The ____ that ____."], "difficulty": 1 },
+    { "id": "writing-3", "question": "Write about a place using 'where'.", "hint": "Try 'The place where...'", "expectedKeywords": ["where", "place"], "sentenceStarters": ["The place where ____."], "difficulty": 1 },
+    { "id": "writing-4", "question": "Combine two sentences using a relative clause.", "hint": "Find the repeated noun and replace with who/that/which.", "expectedKeywords": ["who", "that", "which", "combine"], "sentenceStarters": ["I have a ____. ____ is ____."], "difficulty": 2 },
+    { "id": "writing-5", "question": "Write 3 sentences describing different nouns with relative clauses.", "hint": "Use who for people, that/which for things, where for places.", "expectedKeywords": ["who", "which", "that", "where"], "sentenceStarters": ["The ____ who/that/where ____."], "difficulty": 2 }
+  ],
+  "gameActivities": [
+    { "id": "game-1", "type": "drag-drop", "question": "Is this a relative clause?", "sentence": "who (____) lives next door", "options": ["Yes", "No"], "correctAnswer": ["Yes"], "hint": "Does it describe a noun and start with who/which/that?", "difficulty": "easy" },
+    { "id": "game-2", "type": "drag-drop", "question": "Match the clause to the noun:", "sentence": "Noun: The teacher | Clause: ____", "options": ["who teaches math", "that is blue", "where I eat"], "correctAnswer": ["who teaches math"], "hint": "People → who", "difficulty": "easy" },
+    { "id": "game-3", "type": "drag-drop", "question": "Choose the right pronoun:", "sentence": "The book ____ I read was fun.", "options": ["who", "which", "where"], "correctAnswer": ["which"], "hint": "Things → which/that", "difficulty": "easy" },
+    { "id": "game-4", "type": "drag-drop", "question": "Combine these sentences:", "sentence": "I have a cat. It is black. Combine here: ____", "options": ["I have a cat who is black.", "I have a cat that is black.", "I have a cat where is black."], "correctAnswer": ["I have a cat that is black."], "hint": "Animals/things → that/which", "difficulty": "medium" },
+    { "id": "game-5", "type": "drag-drop", "question": "Identify the noun being described:", "sentence": "The park where I play is big. Described noun: ____", "options": ["park", "play", "big"], "correctAnswer": ["park"], "hint": "The clause describes the noun right before the pronoun.", "difficulty": "medium" },
+    { "id": "game-6", "type": "drag-drop", "question": "Which sentence uses a relative clause correctly?", "sentence": "Select the grammatically correct option:____", "options": ["The person which called", "The person who called", "The person where called"], "correctAnswer": ["The person who called"], "hint": "People → who", "difficulty": "medium" },
+    { "id": "game-7", "type": "drag-drop", "question": "Spot the relative clause:", "sentence": "I visited the city where my grandparents live. The relative clause: ____", "options": ["I visited", "where my grandparents live", "my grandparents"], "correctAnswer": ["where my grandparents live"], "hint": "Look for pronoun + subject + verb pattern.", "difficulty": "medium" },
+    { "id": "game-8", "type": "drag-drop", "question": "Advanced: Choose the most natural combination:", "sentence": "She has a brother. He is a doctor. Answer here: ____", "options": ["She has a brother who is a doctor.", "She has a brother which is a doctor.", "She has a brother where is a doctor."], "correctAnswer": ["She has a brother who is a doctor."], "hint": "People + profession → who", "difficulty": "hard" }
+  ],
+  "quizActivities": [
+    { "id": "quiz-1", "question": "What does a relative clause do?", "sentence": "The person who helped me...", "options": ["Describes a noun", "Shows time", "Asks a question", "Lists items"], "correctAnswer": "Describes a noun", "hint": "Relative clauses add detail to nouns.", "difficulty": "easy", "explanation": "Relative clauses describe or identify nouns by adding extra information." },
+    { "id": "quiz-2", "question": "Which word can start a relative clause about a person?", "sentence": "The woman ____ called is my aunt.", "options": ["who", "which", "where", "when"], "correctAnswer": "who", "hint": "People → who", "difficulty": "easy", "explanation": "'Who' is the relative pronoun used for people as subjects." },
+    { "id": "quiz-3", "question": "Identify the relative clause:", "sentence": "I like the book that you recommended.", "options": ["I like", "the book", "that you recommended", "you recommended"], "correctAnswer": "that you recommended", "hint": "Look for pronoun + verb pattern.", "difficulty": "easy", "explanation": "'That you recommended' is the clause describing 'the book'." },
+    { "id": "quiz-4", "question": "Which sentence correctly combines these ideas?", "sentence": "I have a friend. She speaks French.", "options": ["I have a friend who speaks French.", "I have a friend which speaks French.", "I have a friend where speaks French."], "correctAnswer": "I have a friend who speaks French.", "hint": "People → who", "difficulty": "medium", "explanation": "Use 'who' to connect clauses about people. 'Which' is for things; 'where' is for places." },
+    { "id": "quiz-5", "question": "What pronoun fits this thing?", "sentence": "The car ____ I bought is red.", "options": ["who", "which", "where", "when"], "correctAnswer": "which", "hint": "Things → which/that", "difficulty": "medium", "explanation": "'Which' (or 'that') introduces relative clauses about things or animals." },
+    { "id": "quiz-6", "question": "Choose the correct structure:", "sentence": "The place ____ we met is special.", "options": ["who", "which", "where", "when"], "correctAnswer": "where", "hint": "Places → where", "difficulty": "medium", "explanation": "'Where' is used for locations: 'the place where...', 'the city where...'." },
+    { "id": "quiz-7", "question": "Which is NOT a relative pronoun?", "sentence": "Select the word that doesn't introduce relative clauses:", "options": ["who", "which", "because", "that"], "correctAnswer": "because", "hint": "Relative pronouns connect clauses to nouns.", "difficulty": "medium", "explanation": "'Because' is a subordinating conjunction for reasons, not a relative pronoun." },
+    { "id": "quiz-8", "question": "Advanced: Identify the error:", "sentence": "The person which helped me was kind.", "options": ["'which' should be 'who'", "'which' should be 'that'", "No error", "Missing comma"], "correctAnswer": "'which' should be 'who'", "hint": "People → who, not which.", "difficulty": "hard", "explanation": "Use 'who' for people. 'Which' is reserved for things and animals in standard English." }
+  ],
+  "spellingActivities": [
+    { "id": "spelling-1", "word": "clause", "hint": "A group of words with subject + verb", "clue": "c_a_s_", "audio": "spell_clause.mp3", "sentence": "A relative ____ describes a noun.", "difficulty": "easy" },
+    { "id": "spelling-2", "word": "pronoun", "hint": "Word like who/which/that", "clue": "p_o_o_n", "audio": "spell_pronoun.mp3", "sentence": "A relative ____ introduces the clause.", "difficulty": "easy" },
+    { "id": "spelling-3", "word": "describe", "hint": "Tell what something is like", "clue": "d_c_i_e", "audio": "spell_describe.mp3", "sentence": "Relative clauses ____ nouns.", "difficulty": "easy" },
+    { "id": "spelling-4", "word": "relative", "hint": "Type of clause that connects to a noun", "clue": "r_l_t_v_", "audio": "spell_relative.mp3", "sentence": "A ____ clause adds detail to a noun.", "difficulty": "medium" },
+    { "id": "spelling-5", "word": "identify", "hint": "Say which one you mean", "clue": "i_e_t_f_", "audio": "spell_identify.mp3", "sentence": "Defining clauses help ____ the noun.", "difficulty": "medium" }
+  ],
+  "rewards": {
+    "stars": { "bronze": 10, "silver": 25, "gold": 40, "platinum": 60 },
+    "badges": [
+      { "id": "clause-newbie", "name": "Clause Explorer", "condition": "Complete all intro lessons", "icon": "🎓", "points": 15, "message": "You've discovered the power of relative clauses!" },
+      { "id": "pronoun-starter", "name": "Pronoun Pro", "condition": "Score 100% on pronoun games", "icon": "✍️", "points": 20, "message": "You choose who/which/that like a pro!" },
+      { "id": "combo-master", "name": "Sentence Combiner", "condition": "Perfect score on combination writing", "icon": "🎮", "points": 25, "message": "You merge sentences smoothly!" }
+    ]
+  }
+}

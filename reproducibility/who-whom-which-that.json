@@ -1,0 +1,83 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Who vs. Whom: The Subject/Object Test 🎯",
+      "content": "<p><strong>Who</strong> = subject (does the action). <strong>Whom</strong> = object (receives the action). 🎯 Use the substitution test:</p><p><strong>Test:</strong> Replace with <em>he/she/they</em> → use <strong>who</strong>. Replace with <em>him/her/them</em> → use <strong>whom</strong>.</p><table class='lesson-table table-blue'><thead><tr><th>Pronoun</th><th>Function</th><th>Test</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>Subject</td><td><em>He/She/They</em> + verb</td><td><em>The person <strong>who</strong> called</em> → <strong>He</strong> called ✅</td></tr><tr><td><strong>whom</strong></td><td>Object</td><td>Verb + <em>him/her/them</em></td><td><em>The person <strong>whom</strong> I called</em> → I called <strong>him</strong> ✅</td></tr></tbody></table><p><strong>Modern usage:</strong> In speech, 'who' often replaces 'whom' ✅ 'Who did you invite?' But in formal writing or after prepositions, use 'whom': ✅ 'To whom it may concern.'</p><p><em>Fun fact: 'Whom' is required after quantifiers: 'most of whom', 'several of whom' 🎯</em></p>",
+      "examples": ["Subject: The woman who spoke was brilliant → She spoke ✅", "Object: The woman whom we met was brilliant → We met her ✅", "Preposition: The person to whom I spoke (formal) ✅"],
+      "difficulty": 2,
+      "audio": "lesson_1_who_whom.mp3",
+      "functions": ["Apply subject/object substitution test", "Recognize formal contexts requiring 'whom'"],
+      "tips": "💡 <strong>Quick Test:</strong> Answer the question with 'him/her/them'? → use WHOM. 'He/she/they'? → use WHO."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Which vs. That: Defining Clause Nuances 🚀",
+      "content": "<p><strong>That</strong> and <strong>which</strong> both describe things—but usage depends on <em>clause type</em> and <em>register</em>.</p><p><strong>American English Preference:</strong></p><ul><li><strong>Defining clauses (essential info)</strong>: Prefer <strong>that</strong> (no commas). <em>The car that I bought is red.</em></li><li><strong>Non-defining clauses (extra info)</strong>: Use <strong>which</strong> (with commas). <em>My car, which I bought last year, is red.</em></li></ul><table class='lesson-table table-green'><thead><tr><th>Clause Type</th><th>Preferred Pronoun</th><th>Commas?</th><th>Example</th></tr></thead><tbody><tr><td><strong>Defining</strong></td><td>that (or which)</td><td>❌ No</td><td><em>The book that I read</em></td></tr><tr><td><strong>Non-defining</strong></td><td>which (never that)</td><td>✅ Yes</td><td><em>This book, which I read, is great</em></td></tr><tr><td><strong>Formal Writing</strong></td><td>which for non-defining</td><td>✅ Yes</td><td><em>The data, which were collected...</em></td></tr></tbody></table><p><em>Fun fact: British English is more flexible with 'which' in defining clauses, but American style guides strongly prefer 'that' for defining! 🌍</em></p>",
+      "examples": ["Defining: The movie that/which we saw (both OK, 'that' more natural in speech)", "Non-defining: My car, which is red (never 'that')", "Formal: The methodology which was used (academic writing)"],
+      "difficulty": 2,
+      "audio": "lesson_2_which_that.mp3",
+      "functions": ["Choose pronoun by clause type", "Adapt to American vs. British style"],
+      "tips": "💡 <strong>Memory trick:</strong> Defining = that (no commas) | Non-defining = which (commas). When in doubt, 'that' is safer for defining clauses."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Prepositions + Pronouns: Formal Placement 🌟",
+      "content": "<p>In <strong>formal English</strong>, prepositions go <em>before</em> 'whom' or 'which'. In <strong>informal speech</strong>, they often go at the <em>end</em>.</p><p><strong>Formal:</strong> The person <strong>to whom</strong> I spoke... ✅<br><strong>Informal:</strong> The person (who) I spoke <strong>to</strong>... ✅</p><table class='lesson-table table-teal'><thead><tr><th>Register</th><th>Structure</th><th>Example</th><th>When to Use</th></tr></thead><tbody><tr><td><strong>Formal/Written</strong></td><td>preposition + whom/which</td><td><em>The house <strong>in which</strong> I live</em></td><td>Academic, legal, professional</td></tr><tr><td><strong>Informal/Spoken</strong></td><td>pronoun (optional) + ... + preposition</td><td><em>The house (that) I live <strong>in</strong></em></td><td>Conversation, casual writing</td></tr><tr><td><strong>Avoid</strong></td><td>preposition + who</td><td>❌ <em>to who</em></td><td>Always incorrect</td></tr></tbody></table><p><strong>Key rule:</strong> After prepositions, <strong>never use 'who'</strong>—use <strong>'whom'</strong> for people, <strong>'which'</strong> for things.</p><p><em>Fun fact: 'Where' = 'in which', so you don't need an extra preposition! ✅ 'The city where I live' = 'The city in which I live' 🌍</em></p>",
+      "examples": ["Formal: The colleague with whom I worked...", "Informal: The colleague (who) I worked with...", "Place shortcut: The office where I work (NOT 'in where')"],
+      "difficulty": 3,
+      "audio": "lesson_3_prepositions.mp3",
+      "functions": ["Adjust formality by preposition placement", "Avoid 'to who' errors"],
+      "tips": "💡 <strong>Never forget:</strong> After prepositions → WHOM (people) / WHICH (things). In speech → preposition at end is natural."
+    }
+  ],
+  "writingActivities": [
+    { "id": "writing-1", "question": "Write a formal sentence using 'whom' as object.", "hint": "Use the substitution test: I called him → whom I called.", "expectedKeywords": ["whom", "object", "formal"], "sentenceStarters": ["The person whom ____."], "difficulty": 2 },
+    { "id": "writing-2", "question": "Write an informal sentence where 'who' replaces 'whom'.", "hint": "In speech, 'Who did you see?' is natural.", "expectedKeywords": ["who", "informal", "object"], "sentenceStarters": ["Who did you ____?"], "difficulty": 2 },
+    { "id": "writing-3", "question": "Write a defining clause using 'that' for a thing.", "hint": "No commas, essential info. Example: 'The book that I read...'", "expectedKeywords": ["that", "defining", "no commas"], "sentenceStarters": ["The ____ that ____."], "difficulty": 2 },
+    { "id": "writing-4", "question": "Write a non-defining clause using 'which' with commas.", "hint": "Extra info about known thing. Example: 'My book, which I read, ...'", "expectedKeywords": ["which", "non-defining", "commas"], "sentenceStarters": ["My ____, which ____, ____."], "difficulty": 2 },
+    { "id": "writing-5", "question": "Write a formal sentence with preposition + whom.", "hint": "Example: 'The candidate to whom I spoke...'", "expectedKeywords": ["to whom", "with whom", "formal"], "sentenceStarters": ["The person to whom ____."], "difficulty": 3 },
+    { "id": "writing-6", "question": "Write an informal version of the same idea with preposition at end.", "hint": "Example: 'The person (who) I spoke to...'", "expectedKeywords": ["who", "informal", "preposition end"], "sentenceStarters": ["The person (who) I ____ to."], "difficulty": 3 },
+    { "id": "writing-7", "question": "Use 'most of whom' or 'several of whom' correctly in a sentence.", "hint": "Quantifier + whom for people in formal contexts.", "expectedKeywords": ["most of whom", "several of whom", "quantifier"], "sentenceStarters": ["The team, most of whom ____."], "difficulty": 3 },
+    { "id": "writing-8", "question": "Adapt a sentence for academic writing: use formal pronouns and preposition placement.", "hint": "Avoid contractions, use whom/which, preposition before pronoun.", "expectedKeywords": ["academic", "whom", "which", "preposition"], "sentenceStarters": ["The participants, to whom surveys were sent, ____."], "difficulty": 3 }
+  ],
+  "gameActivities": [
+    { "id": "game-1", "type": "drag-drop", "question": "Who or whom? Use substitution test:", "sentence": "____ did you invite?", "options": ["Who", "Whom"], "correctAnswer": ["Whom"], "hint": "Answer: I invited him → object → whom (formal)", "difficulty": "medium" },
+    { "id": "game-2", "type": "drag-drop", "question": "Formal or informal pronoun?", "sentence": "The person ____ I spoke was helpful.", "options": ["to whom", "who...to"], "correctAnswer": ["to whom"], "hint": "Formal context → preposition + whom", "difficulty": "medium" },
+    { "id": "game-3", "type": "drag-drop", "question": "That or which for defining clause?", "sentence": "The car ____ I bought is red.", "options": ["that", "which"], "correctAnswer": ["that"], "hint": "American English prefers 'that' in defining clauses", "difficulty": "medium" },
+    { "id": "game-4", "type": "drag-drop", "question": "Correct non-defining punctuation:", "sentence": "My car ____ is red needs washing.", "options": [", which", "that", "which"], "correctAnswer": [", which"], "hint": "Non-defining → commas + which (never 'that')", "difficulty": "medium" },
+    { "id": "game-5", "type": "drag-drop", "question": "Quantifier + whom:", "sentence": "The team, several of ____ were injured,", "options": ["who", "whom", "which"], "correctAnswer": ["whom"], "hint": "After 'several of', use 'whom' for people", "difficulty": "medium" },
+    { "id": "game-6", "type": "drag-drop", "question": "Formal preposition placement:", "sentence": "The methodology ____ data were collected", "options": ["that", "by which", "where"], "correctAnswer": ["by which"], "hint": "Formal: preposition + which", "difficulty": "hard" },
+    { "id": "game-7", "type": "drag-drop", "question": "Identify register-appropriate choice:", "sentence": "Formal email: The candidate ____ we interviewed", "options": ["who", "whom", "(omit)"], "correctAnswer": ["whom"], "hint": "Formal + object → whom preferred", "difficulty": "hard" },
+    { "id": "game-8", "type": "drag-drop", "question": "Advanced: Most precise academic sentence:", "sentence": "Select the option with correct pronouns, commas, and register: (answer here: ____ )", "options": [
+      "The data that we collected, which was extensive, supports the hypothesis.",
+      "The data, that we collected which was extensive, supports the hypothesis.",
+      "The data which we collected, that was extensive, supports the hypothesis."
+    ], "correctAnswer": ["The data that we collected, which was extensive, supports the hypothesis."], "hint": "Defining (no commas) + non-defining (commas) + correct pronouns", "difficulty": "hard" }
+  ],
+  "quizActivities": [
+    { "id": "quiz-1", "question": "Who or whom? Substitution test:", "sentence": "____ called you?", "options": ["Who", "Whom"], "correctAnswer": "Who", "hint": "Answer: He called → subject → who", "difficulty": "medium", "explanation": "'Who' is subject pronoun. 'He called you' → subject → 'Who called you?'" },
+    { "id": "quiz-2", "question": "Formal object pronoun:", "sentence": "To ____ did you speak?", "options": ["who", "whom"], "correctAnswer": "whom", "hint": "After preposition → whom", "difficulty": "medium", "explanation": "Prepositions require 'whom' for people in formal English: 'to whom', 'with whom'." },
+    { "id": "quiz-3", "question": "Defining clause pronoun preference (American English):", "sentence": "The book ____ I read", "options": ["that", "which"], "correctAnswer": "that", "hint": "American style prefers 'that' in defining clauses", "difficulty": "medium", "explanation": "While both are grammatically correct, American English style guides recommend 'that' for defining clauses about things." },
+    { "id": "quiz-4", "question": "Non-defining clause rule:", "sentence": "My car, ____ is red, is fast.", "options": ["that", "which"], "correctAnswer": "which", "hint": "Non-defining → which (never 'that')", "difficulty": "medium", "explanation": "'That' cannot introduce non-defining clauses. Use 'which' with commas for extra information." },
+    { "id": "quiz-5", "question": "Quantifier + whom rule:", "sentence": "The participants, most of ____ completed the survey,", "options": ["who", "whom"], "correctAnswer": "whom", "hint": "After 'most of', use 'whom' for people", "difficulty": "hard", "explanation": "When a relative pronoun follows a quantifier ('most of', 'several of'), 'whom' is required for people in formal writing." },
+    { "id": "quiz-6", "question": "Formal preposition placement:", "sentence": "The house ____ I live (formal)", "options": ["where", "in which"], "correctAnswer": "in which", "hint": "Formal: preposition + which", "difficulty": "hard", "explanation": "Academic and professional writing prefers 'in which' over 'where' for precision, though both are correct." },
+    { "id": "quiz-7", "question": "Identify register error:", "sentence": "The person to who I spoke. (the error: ____ )", "options": ["'who' should be 'whom'", "No error", "Commas needed"], "correctAnswer": "'who' should be 'whom'", "hint": "After preposition → whom", "difficulty": "hard", "explanation": "'To who' is grammatically incorrect. After prepositions, use 'whom' for people: 'to whom'." },
+    { "id": "quiz-8", "question": "Advanced: Best for academic abstract:", "sentence": "The framework, ____ was developed by Smith, ____ has been widely adopted,", "options": ["that / and that", "which / and which"], "correctAnswer": "which / and which", "hint": "Non-defining clauses about things use 'which'", "difficulty": "hard", "explanation": "Both clauses are non-defining (extra info about 'framework'), so 'which' is correct for both. Parallel structure enhances clarity in formal writing." }
+  ],
+  "spellingActivities": [
+    { "id": "spelling-1", "word": "whom", "hint": "Object pronoun for people (formal)", "clue": "w_o_", "audio": "spell_whom.mp3", "sentence": "To ____ did you speak?", "difficulty": "medium" },
+    { "id": "spelling-2", "word": "whose", "hint": "Possessive relative pronoun", "clue": "w_o_e", "audio": "spell_whose.mp3", "sentence": "The student ____ project won is talented.", "difficulty": "medium" },
+    { "id": "spelling-3", "word": "preposition", "hint": "Word like to/with/in + whom/which", "clue": "p_e_o_i_i_n", "audio": "spell_preposition.mp3", "sentence": "In formal English, place the ____ before whom.", "difficulty": "hard" },
+    { "id": "spelling-4", "word": "quantifier", "hint": "Word like most/several/many + of whom", "clue": "q_a_t_f_e_", "audio": "spell_quantifier.mp3", "sentence": "After a ____, use 'whom' for people.", "difficulty": "hard" },
+    { "id": "spelling-5", "word": "restrictive", "hint": "Another term for defining clause", "clue": "r_s_r_c_i_e", "audio": "spell_restrictive.mp3", "sentence": "A ____ clause uses 'that' in American English.", "difficulty": "hard" }
+  ],
+  "rewards": {
+    "stars": { "bronze": 10, "silver": 25, "gold": 40, "platinum": 60 },
+    "badges": [
+      { "id": "whom-master", "name": "Whom Whisperer", "condition": "Perfect score on whom/who distinction activities", "icon": "🎯", "points": 30, "message": "You master the formal object pronoun!" },
+      { "id": "register-pro", "name": "Register Adapter", "condition": "Correctly adapt pronouns for formal/informal contexts 10 times", "icon": "🎭", "points": 35, "message": "You switch registers like a native speaker!" },
+      { "id": "precision-expert", "name": "Pronoun Precisionist", "condition": "Flawless performance on advanced pronoun quizzes", "icon": "🏆", "points": 40, "message": "Your pronoun choices are academically impeccable!" }
+    ]
+  }
+}

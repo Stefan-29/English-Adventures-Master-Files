@@ -161,8 +161,8 @@
         "emotion_word"
       ],
       "sentenceStarters": [
-        "I know someone who ___, although ___.",
-        "Despite ___, they ___ because ___."
+        "I know someone who ____, although ____.",
+        "Despite ____, they ____ because ____."
       ],
       "difficulty": 1
     },
@@ -179,8 +179,8 @@
         "time_word"
       ],
       "sentenceStarters": [
-        "Although I should ___, I want to ___.",
-        "Despite my ___, I plan to ___."
+        "Although I should ____, I want to ____.",
+        "Despite my ____, I plan to ____."
       ],
       "difficulty": 2
     },
@@ -197,8 +197,8 @@
         "experience_word"
       ],
       "sentenceStarters": [
-        "Although I lack ___, I bring ___.",
-        "Despite challenges with ___, I've ___."
+        "Although I lack ____, I bring ____.",
+        "Despite challenges with ____, I've ____."
       ],
       "difficulty": 3
     }
@@ -208,7 +208,7 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Which contrast word correctly completes this sentence with a subject and verb?",
-      "sentence": "___ it was raining heavily, the game continued as scheduled.",
+      "sentence": "____ it was raining heavily, the game continued as scheduled.",
       "options": [
         "Although",
         "Despite",
@@ -224,7 +224,7 @@
       "id": "game-2",
       "type": "drag-drop",
       "question": "Choose the correct contrast form with a noun/gerund:",
-      "sentence": "___ his exhaustion, he continued working on the project.",
+      "sentence": "____ his exhaustion, he continued working on the project.",
       "options": [
         "Although he was exhausted",
         "Despite his exhaustion",
@@ -240,7 +240,7 @@
       "id": "game-3",
       "type": "drag-drop",
       "question": "Advanced: Which sentence best combines both contrast structures naturally?",
-      "sentence": "___ and ___ being new to the job, Sarah proved herself an excellent employee.",
+      "sentence": "____ and ____ being new to the job, Sarah proved herself an excellent employee.",
       "options": [
         "Although her inexperience / Despite",
         "Even though / Despite her being inexperienced",
@@ -310,7 +310,7 @@
       "hint": "Subordinating conjunction used to show contrast when followed by a subject and verb",
       "clue": "_lth__gh",
       "audio": "spell_although.mp3",
-      "sentence": "The sentence shows ___ in action despite my doubts.",
+      "sentence": "The sentence shows ____ in action despite my doubts.",
       "difficulty": "easy"
     },
     {
@@ -319,7 +319,7 @@
       "hint": "Preposition that connects nouns or gerunds to show contrast",
       "clue": "d_sp_t_",
       "audio": "spell_despite.mp3",
-      "sentence": "Use a ___ phrase to link a noun with a main clause.",
+      "sentence": "Use a ____ phrase to link a noun with a main clause.",
       "difficulty": "medium"
     },
     {
@@ -328,7 +328,7 @@
       "hint": "Advanced concept - the linguistic device showing opposing or contradictory ideas",
       "clue": "c_ntr_st",
       "audio": "spell_contrast.mp3",
-      "sentence": "The ___ between these two ideas makes the sentence interesting.",
+      "sentence": "The ____ between these two ideas makes the sentence interesting.",
       "difficulty": "hard"
     }
   ],

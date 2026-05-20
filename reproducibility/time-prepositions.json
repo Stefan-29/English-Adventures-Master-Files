@@ -58,7 +58,7 @@
       "question": "Complete the sentence with the correct time preposition (at, on, in).",
       "hint": "At for specific times, on for days, in for longer periods.",
       "expectedKeywords": ["at", "on", "in"],
-      "sentenceStarters": ["I will meet you ___ 3 PM.", "The party is ___ Saturday.", "She was born ___ 1990."],
+      "sentenceStarters": ["I will meet you ____ 3 PM.", "The party is ____ Saturday.", "She was born ____ 1990."],
       "difficulty": 1
     },
     {
@@ -66,7 +66,7 @@
       "question": "Use 'for', 'since', or 'ago' to complete the sentence.",
       "hint": "For duration, since starting point, ago past time.",
       "expectedKeywords": ["for", "since", "ago"],
-      "sentenceStarters": ["I have known him ___ 5 years.", "He left ___ two hours.", "We moved here ___ 2015."],
+      "sentenceStarters": ["I have known him ____ 5 years.", "He left ____ two hours.", "We moved here ____ 2015."],
       "difficulty": 2
     },
     {
@@ -74,7 +74,7 @@
       "question": "Choose between 'during' and 'while' to complete the sentence.",
       "hint": "During + noun, while + subject + verb.",
       "expectedKeywords": ["during", "while"],
-      "sentenceStarters": ["___ the movie, the phone rang.", "I read a book ___ I was waiting.", "___ the summer, we go swimming."],
+      "sentenceStarters": ["____ the movie, the phone rang.", "I read a book ____ I was waiting.", "____ the summer, we go swimming."],
       "difficulty": 3
     }
   ],
@@ -83,7 +83,7 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Select the correct preposition for the time expression.",
-      "sentence": "The meeting is scheduled ___ 2 PM.",
+      "sentence": "The meeting is scheduled ____ 2 PM.",
       "options": ["at", "on", "in", "for", "since", "ago"],
       "correctAnswer": ["at"],
       "hint": "At is used for clock times.",
@@ -93,7 +93,7 @@
       "id": "game-2",
       "type": "drag-drop",
       "question": "Choose the right preposition for duration.",
-      "sentence": "I have been studying English ___ three years.",
+      "sentence": "I have been studying English ____ three years.",
       "options": ["at", "on", "in", "for", "since", "ago"],
       "correctAnswer": ["for"],
       "hint": "For indicates a period of time.",
@@ -103,7 +103,7 @@
       "id": "game-3",
       "type": "drag-drop",
       "question": "Pick the correct preposition for simultaneous actions.",
-      "sentence": "___ I was cooking, the phone rang.",
+      "sentence": "____ I was cooking, the phone rang.",
       "options": ["at", "on", "in", "for", "during", "while"],
       "correctAnswer": ["while"],
       "hint": "While is used with subject + verb for simultaneous time.",
@@ -146,14 +146,14 @@
     }
   ],
   "spellingActivities": [
-    {"id": "spelling-1", "word": "at", "hint": "Preposition for specific times", "clue": "_t", "sentence": "The class starts ___ 9 AM.", "difficulty": "easy"},
-    {"id": "spelling-2", "word": "on", "hint": "Preposition for days", "clue": "_n", "sentence": "We have a meeting ___ Monday.", "difficulty": "easy"},
-    {"id": "spelling-3", "word": "in", "hint": "Preposition for months", "clue": "_n", "sentence": "Summer starts ___ June.", "difficulty": "easy"},
-    {"id": "spelling-4", "word": "for", "hint": "Preposition for duration", "clue": "f_r", "sentence": "I waited ___ an hour.", "difficulty": "easy"},
-    {"id": "spelling-5", "word": "since", "hint": "Preposition for starting point", "clue": "s_n_e", "sentence": "I have known him ___ childhood.", "difficulty": "easy"},
-    {"id": "spelling-6", "word": "ago", "hint": "Adverb for past time", "clue": "_g_", "sentence": "He left two days ___.", "difficulty": "easy"},
-    {"id": "spelling-7", "word": "during", "hint": "Preposition for events", "clue": "d_r_n_", "sentence": "___ the break, we ate lunch.", "difficulty": "medium"},
-    {"id": "spelling-8", "word": "while", "hint": "Conjunction for simultaneous time", "clue": "w_i_e", "sentence": "___ I was sleeping, it rained.", "difficulty": "medium"}
+    {"id": "spelling-1", "word": "at", "hint": "Preposition for specific times", "clue": "_t", "sentence": "The class starts ____ 9 AM.", "difficulty": "easy"},
+    {"id": "spelling-2", "word": "on", "hint": "Preposition for days", "clue": "_n", "sentence": "We have a meeting ____ Monday.", "difficulty": "easy"},
+    {"id": "spelling-3", "word": "in", "hint": "Preposition for months", "clue": "_n", "sentence": "Summer starts ____ June.", "difficulty": "easy"},
+    {"id": "spelling-4", "word": "for", "hint": "Preposition for duration", "clue": "f_r", "sentence": "I waited ____ an hour.", "difficulty": "easy"},
+    {"id": "spelling-5", "word": "since", "hint": "Preposition for starting point", "clue": "s_n_e", "sentence": "I have known him ____ childhood.", "difficulty": "easy"},
+    {"id": "spelling-6", "word": "ago", "hint": "Adverb for past time", "clue": "_g_", "sentence": "He left two days ____.", "difficulty": "easy"},
+    {"id": "spelling-7", "word": "during", "hint": "Preposition for events", "clue": "d_r_n_", "sentence": "____ the break, we ate lunch.", "difficulty": "medium"},
+    {"id": "spelling-8", "word": "while", "hint": "Conjunction for simultaneous time", "clue": "w_i_e", "sentence": "____ I was sleeping, it rained.", "difficulty": "medium"}
   ],
   "rewards": {
     "stars": {"bronze": 12, "silver": 35, "gold": 60, "platinum": 85},

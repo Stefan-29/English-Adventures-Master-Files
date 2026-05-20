@@ -1,0 +1,28 @@
+{
+  "siteSettings": { "title": "English Adventures: Defining vs. Non-Defining Clauses", "favicon": "favicon.ico" },
+  "lesson": {
+    "title": "Commas & Clause Types",
+    "modules": [
+      { "id": "lesson-module", "name": "Learn", "title": "Essential vs. Extra Info", "instructions": "Master when to use commas with relative clauses and how meaning changes with punctuation." },
+      { "id": "writing-module", "name": "Write", "title": "Punctuation Practice", "instructions": "Write sentences using correct comma placement for defining and non-defining clauses." },
+      { "id": "game-module", "name": "Play", "title": "Comma Challenge", "instructions": "Add or remove commas to change clause meaning correctly." },
+      { "id": "spelling-module", "name": "Apply", "title": "Key Terms Challenge", "instructions": "Spell and use: defining, non-defining, comma, essential, extra, restrictive, non-restrictive." }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      { "title": "Clause Types", "words": ["defining clause", "non-defining clause", "restrictive", "non-restrictive", "essential information", "extra information"] },
+      { "title": "Punctuation", "words": ["comma", "commas", "punctuation", "parentheses", "dash"] },
+      { "title": "Meaning Shifters", "words": ["which one", "all of them", "only the", "the specific", "in general", "bonus detail"] },
+      { "title": "Pronouns by Type", "words": ["that (defining only)", "which (non-defining)", "who (both)", "whom (formal)"] },
+      { "title": "Sentence Patterns", "words": ["The [noun] that...", "My [noun], which...", "People who...", "My friend, who..."] }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": { "correctSound": "assets/sounds/correct.mp3", "wrongSound": "assets/sounds/wrong.mp3", "victorySound": "assets/sounds/victory.mp3", "gameStartSound": "assets/sounds/game-start.mp3", "hintSound": "assets/sounds/hint.mp3" }
+  },
+  "dataFile": "reproducibility/defining-non-defining-clauses.json",
+  "grammarChecker": "definingNonDefiningClauses.js",
+  "gameSettings": { "timeLimit": 30, "pointsPerCorrect": 10, "bonusMultiplier": 2, "difficultyLevels": ["beginner", "intermediate", "advanced"] }
+}

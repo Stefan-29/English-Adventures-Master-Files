@@ -1,0 +1,43 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Question Tags",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Question Tags: Agreement & Confirmation",
+    "modules": [
+      { "id": "lesson-module", "name": "Learn", "title": "Tag Formation Rules", "instructions": "Master how to form question tags with auxiliary verbs, modals, and do/does/did. Understand positive/negative patterns and special cases like 'aren't I?' and 'shall we?'." },
+      { "id": "writing-module", "name": "Write", "title": "Tag Practice", "instructions": "Write sentences with correct question tags for agreement, confirmation, and polite requests. Apply intonation awareness in written form." },
+      { "id": "game-module", "name": "Play", "title": "Tag Matching Games", "instructions": "Match statements to correct question tags. Practice recognizing auxiliary verbs and polarity reversal." },
+      { "id": "spelling-module", "name": "Apply", "title": "Tag Vocabulary Challenge", "instructions": "Spell and use key terms: auxiliary, modal, polarity, intonation, confirmation, agreement." }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      { "title": "Auxiliary Verbs", "words": ["am", "is", "are", "was", "were", "have", "has", "had", "do", "does", "did"] },
+      { "title": "Modal Verbs", "words": ["can", "could", "will", "would", "shall", "should", "must", "might", "may"] },
+      { "title": "Tag Patterns", "words": ["positive + negative tag", "negative + positive tag", "aren't I?", "shall we?", "will you?"] },
+      { "title": "Negative Meaning Words", "words": ["never", "seldom", "rarely", "hardly", "scarcely", "barely", "nobody", "nothing"] },
+      { "title": "Intonation & Function", "words": ["falling intonation", "rising intonation", "seeking agreement", "checking confirmation", "polite request"] },
+      { "title": "Sentence Starters", "words": ["You're coming, ___?", "She doesn't like coffee, ___?", "Let's go, ___?", "I'm late, ___?"] }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/question-tags.json",
+  "grammarChecker": "questionTags.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

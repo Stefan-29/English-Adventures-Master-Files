@@ -1,0 +1,43 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Whether vs. If",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Whether & If: Choices, Conditions & Reported Questions",
+    "modules": [
+      { "id": "lesson-module", "name": "Learn", "title": "When to Use Whether vs. If", "instructions": "Master the rules for using whether and if in indirect questions, alternatives, conditional sentences, and after prepositions. Understand formal vs. informal preferences." },
+      { "id": "writing-module", "name": "Write", "title": "Context-Appropriate Usage", "instructions": "Write sentences choosing whether or if based on context: alternatives, conditions, reported speech, and formality level." },
+      { "id": "game-module", "name": "Play", "title": "Whether/If Decision Games", "instructions": "Select whether or if for different contexts. Practice recognizing when only one is correct." },
+      { "id": "spelling-module", "name": "Apply", "title": "Key Terms Challenge", "instructions": "Spell and use: alternative, condition, indirect question, preposition, infinitive, or not, formal, informal." }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      { "title": "Choice Words", "words": ["whether", "if", "or", "or not", "either", "alternative", "choice"] },
+      { "title": "Condition Words", "words": ["if", "only if", "unless", "provided that", "condition", "hypothetical"] },
+      { "title": "Reporting Verbs", "words": ["ask", "wonder", "know", "decide", "discuss", "doubt", "uncertain"] },
+      { "title": "Prepositions + Whether", "words": ["about whether", "on whether", "of whether", "for whether", "depends on whether"] },
+      { "title": "Infinitive Patterns", "words": ["whether to go", "whether to accept", "whether to move", "whether or not to"] },
+      { "title": "Formality Markers", "words": ["formal", "informal", "academic", "business", "casual", "spoken", "written"] }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/whether-if.json",
+  "grammarChecker": "whetherIf.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

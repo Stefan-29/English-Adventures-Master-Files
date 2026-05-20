@@ -1,0 +1,40 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Relative Clauses Intro",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "What Are Relative Clauses?",
+    "modules": [
+      { "id": "lesson-module", "name": "Learn", "title": "Clause Basics", "instructions": "Understand what relative clauses are and how they describe nouns." },
+      { "id": "writing-module", "name": "Write", "title": "Simple Descriptions", "instructions": "Write sentences adding details to nouns using basic relative clauses." },
+      { "id": "game-module", "name": "Play", "title": "Clause Recognition", "instructions": "Identify relative clauses in sentences and match them to nouns." },
+      { "id": "spelling-module", "name": "Apply", "title": "Key Terms Challenge", "instructions": "Spell and use key terms: clause, pronoun, noun, describe." }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      { "title": "Core Terms", "words": ["relative clause", "noun", "describe", "pronoun", "clause", "sentence", "identify", "add information"] },
+      { "title": "Basic Pronouns", "words": ["who", "which", "that", "where"] },
+      { "title": "Sentence Starters", "words": ["The person who...", "The thing that...", "The place where...", "Someone who..."] }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/relative-clauses.json",
+  "grammarChecker": "relativeClauses.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate"]
+  }
+}

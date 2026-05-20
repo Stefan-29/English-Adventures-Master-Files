@@ -75,7 +75,7 @@
       "question": "Describe the position of objects using position prepositions.",
       "hint": "Use prepositions like above, behind, beside, etc.",
       "expectedKeywords": ["above", "behind", "beside", "below", "between", "in front of", "next to", "on", "over", "under"],
-      "sentenceStarters": ["The book is ___ the table.", "The cat is ___ the chair.", "The picture is ___ the wall."],
+      "sentenceStarters": ["The book is ____ the table.", "The cat is ____ the chair.", "The picture is ____ the wall."],
       "difficulty": 1
     },
     {
@@ -83,7 +83,7 @@
       "question": "Write sentences showing direction or movement.",
       "hint": "Use direction prepositions with motion verbs.",
       "expectedKeywords": ["across", "along", "around", "away from", "down", "into", "onto", "out of", "through", "to", "towards", "up"],
-      "sentenceStarters": ["The ball rolled ___ the hill.", "She walked ___ the room.", "He jumped ___ the pool."],
+      "sentenceStarters": ["The ball rolled ____ the hill.", "She walked ____ the room.", "He jumped ____ the pool."],
       "difficulty": 2
     },
     {
@@ -91,7 +91,7 @@
       "question": "Use location prepositions correctly.",
       "hint": "Choose at, in, on, or aboard based on location type.",
       "expectedKeywords": ["at", "in", "on", "aboard"],
-      "sentenceStarters": ["I live ___ Main Street.", "The meeting is ___ the office.", "We traveled ___ the train."],
+      "sentenceStarters": ["I live ____ Main Street.", "The meeting is ____ the office.", "We traveled ____ the train."],
       "difficulty": 3
     },
     {
@@ -99,7 +99,7 @@
       "question": "Choose between between/among or beside/besides.",
       "hint": "Between/among for separation/group, beside/besides for next to/additional.",
       "expectedKeywords": ["between", "among", "beside", "besides"],
-      "sentenceStarters": ["The shop is ___ the bank and the post office.", "He has many qualities ___ being intelligent.", "The child sat ___ his mother.", "___ the cake, we had ice cream."],
+      "sentenceStarters": ["The shop is ____ the bank and the post office.", "He has many qualities ____ being intelligent.", "The child sat ____ his mother.", "____ the cake, we had ice cream."],
       "difficulty": 4
     }
   ],
@@ -108,7 +108,7 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Select the correct position preposition.",
-      "sentence": "The plane flew ___ the clouds.",
+      "sentence": "The plane flew _____ the clouds.",
       "options": ["above", "across", "against", "among", "around", "behind"],
       "correctAnswer": ["above"],
       "hint": "Above means higher than.",
@@ -118,7 +118,7 @@
       "id": "game-2",
       "type": "drag-drop",
       "question": "Choose the right direction preposition.",
-      "sentence": "The car drove ___ the tunnel.",
+      "sentence": "The car drove ____ the tunnel.",
       "options": ["across", "along", "around", "away from", "into", "through"],
       "correctAnswer": ["through"],
       "hint": "Through means passing from one side to the other.",
@@ -128,7 +128,7 @@
       "id": "game-3",
       "type": "drag-drop",
       "question": "Pick the correct location preposition.",
-      "sentence": "She works ___ an office.",
+      "sentence": "She works ____ an office.",
       "options": ["at", "in", "on", "aboard"],
       "correctAnswer": ["in"],
       "hint": "In is used for buildings and enclosed spaces.",
@@ -138,7 +138,7 @@
       "id": "game-4",
       "type": "drag-drop",
       "question": "Select between or among.",
-      "sentence": "The gift was hidden ___ the presents.",
+      "sentence": "The gift was hidden ____ the presents.",
       "options": ["between", "among", "beside", "besides"],
       "correctAnswer": ["among"],
       "hint": "Among is used when surrounded by a group.",
@@ -159,7 +159,7 @@
     },
     {
       "id": "quiz-2",
-      "question": "Choose the correct preposition: 'The cat is ___ the table.'",
+      "question": "Choose the correct preposition: 'The cat is ____ the table.'",
       "sentence": "",
       "options": ["at", "in", "on", "aboard"],
       "correctAnswer": "on",
@@ -180,14 +180,14 @@
     }
   ],
   "spellingActivities": [
-    {"id": "spelling-1", "word": "above", "hint": "Higher than", "clue": "_b_v_", "sentence": "The plane is flying ___ the clouds.", "difficulty": "easy"},
-    {"id": "spelling-2", "word": "behind", "hint": "At the back of", "clue": "b_h_n_", "sentence": "The dog is ___ the house.", "difficulty": "easy"},
-    {"id": "spelling-3", "word": "between", "hint": "Separating two things", "clue": "b_t_e_n", "sentence": "The river flows ___ the mountains.", "difficulty": "easy"},
-    {"id": "spelling-4", "word": "among", "hint": "In a group", "clue": "_m_n_", "sentence": "He was ___ the crowd.", "difficulty": "easy"},
-    {"id": "spelling-5", "word": "beside", "hint": "Next to", "clue": "b_s_d_", "sentence": "Sit ___ me.", "difficulty": "easy"},
-    {"id": "spelling-6", "word": "besides", "hint": "In addition to", "clue": "b_s_d_s", "sentence": "___ English, he speaks French.", "difficulty": "medium"},
-    {"id": "spelling-7", "word": "towards", "hint": "In the direction of", "clue": "t_w_r_s", "sentence": "He walked ___ the door.", "difficulty": "medium"},
-    {"id": "spelling-8", "word": "aboard", "hint": "On a vehicle", "clue": "_b__r_", "sentence": "Welcome ___ the plane.", "difficulty": "medium"}
+    {"id": "spelling-1", "word": "above", "hint": "Higher than", "clue": "_b_v_", "sentence": "The plane is flying ____ the clouds.", "difficulty": "easy"},
+    {"id": "spelling-2", "word": "behind", "hint": "At the back of", "clue": "b_h_n_", "sentence": "The dog is ____ the house.", "difficulty": "easy"},
+    {"id": "spelling-3", "word": "between", "hint": "Separating two things", "clue": "b_t_e_n", "sentence": "The river flows ____ the mountains.", "difficulty": "easy"},
+    {"id": "spelling-4", "word": "among", "hint": "In a group", "clue": "_m_n_", "sentence": "He was ____ the crowd.", "difficulty": "easy"},
+    {"id": "spelling-5", "word": "beside", "hint": "Next to", "clue": "b_s_d_", "sentence": "Sit ____ me.", "difficulty": "easy"},
+    {"id": "spelling-6", "word": "besides", "hint": "In addition to", "clue": "b_s_d_s", "sentence": "____ English, he speaks French.", "difficulty": "medium"},
+    {"id": "spelling-7", "word": "towards", "hint": "In the direction of", "clue": "t_w_r_s", "sentence": "He walked ____ the door.", "difficulty": "medium"},
+    {"id": "spelling-8", "word": "aboard", "hint": "On a vehicle", "clue": "_b__r_", "sentence": "Welcome ____ the plane.", "difficulty": "medium"}
   ],
   "rewards": {
     "stars": {"bronze": 12, "silver": 35, "gold": 60, "platinum": 85},

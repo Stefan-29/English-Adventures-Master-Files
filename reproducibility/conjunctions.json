@@ -158,8 +158,8 @@
         "benefit_word"
       ],
       "sentenceStarters": [
-        "My favorite hobby is ___ , and ___.",
-        "I enjoy it because ___ , so ___."
+        "My favorite hobby is ____ , and ____.",
+        "I enjoy it because ____ , so ____."
       ],
       "difficulty": 1
     },
@@ -178,9 +178,9 @@
         "activity_word"
       ],
       "sentenceStarters": [
-        "First, I would ___ because ___.",
-        "Although ___, I would ___.",
-        "If I had time, I would ___, but ___."
+        "First, I would ____ because ____.",
+        "Although ____, I would ____.",
+        "If I had time, I would ____, but ____."
       ],
       "difficulty": 2
     },
@@ -198,8 +198,8 @@
         "benefit_vocabulary"
       ],
       "sentenceStarters": [
-        "Not only does English ___, but it also ___.",
-        "Although learning English ___, the benefits ___."
+        "Not only does English ____, but it also ____.",
+        "Although learning English ____, the benefits ____."
       ],
       "difficulty": 3
     }
@@ -209,7 +209,7 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Choose the correct coordinating conjunction for this situation:",
-      "sentence": "I wanted to go out, ___ it was raining, so I stayed home.",
+      "sentence": "I wanted to go out, ____ it was raining, so I stayed home.",
       "options": [
         "but",
         "and",
@@ -225,7 +225,7 @@
       "id": "game-2",
       "type": "drag-drop",
       "question": "Which subordinating conjunction fits best?",
-      "sentence": "___ she had never cooked before, she prepared an amazing dinner.",
+      "sentence": "____ she had never cooked before, she prepared an amazing dinner.",
       "options": [
         "Although",
         "Because",
@@ -241,7 +241,7 @@
       "id": "game-3",
       "type": "drag-drop",
       "question": "Advanced: Complete with the most precise correlative conjunction pair:",
-      "sentence": "You can ___ study now ___ play; the choice is yours.",
+      "sentence": "You can ____ study now ____ play; the choice is yours.",
       "options": [
         "either / or",
         "both / and",
@@ -257,7 +257,7 @@
     {
       "id": "quiz-1",
       "question": "What type of conjunction connects two independent clauses and should be preceded by a comma?",
-      "sentence": "\"Sarah loves coffee, ___ her sister prefers tea.\"",
+      "sentence": "\"Sarah loves coffee, ____ her sister prefers tea.\"",
       "options": [
         "and (FANBOYS coordinating)",
         "because (subordinating)",
@@ -289,7 +289,7 @@
     {
       "id": "quiz-3",
       "question": "Choose the best form to complete the sentence:",
-      "sentence": "She is ___ intelligent ___ kind, so everyone respects her.",
+      "sentence": "She is ____ intelligent ____ kind, so everyone respects her.",
       "options": [
         "both / and",
         "either / or",
@@ -310,7 +310,7 @@
       "hint": "Grammatical term - a word used to connect other words, phrases, or clauses",
       "clue": "c_nj_nct__n",
       "audio": "spell_conjunction.mp3",
-      "sentence": "A ___ is essential for combining ideas in English.",
+      "sentence": "A ____ is essential for combining ideas in English.",
       "difficulty": "easy"
     },
     {
@@ -319,7 +319,7 @@
       "hint": "Grammar term that connects elements of equal importance or independent clauses",
       "clue": "c__rd_n_t_",
       "audio": "spell_coordinate.mp3",
-      "sentence": "Use a ___ conjunction to connect two independent clauses.",
+      "sentence": "Use a ____ conjunction to connect two independent clauses.",
       "difficulty": "medium"
     },
     {
@@ -328,7 +328,7 @@
       "hint": "Advanced grammar concept - indicates dependent clauses that depend on independent ones",
       "clue": "s_b_rd_n_t_",
       "audio": "spell_subordinate.mp3",
-      "sentence": "A ___ conjunction introduces a dependent clause.",
+      "sentence": "A ____ conjunction introduces a dependent clause.",
       "difficulty": "hard"
     }
   ],
