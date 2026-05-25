@@ -1,0 +1,59 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Time & Place Expression Changes 🕐📍",
+      "content": "<p>Here's where it gets interesting! 🌍 Many learners forget that <strong>time and place words</strong> also change in reported speech. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Feature</th><th>Direct Speech</th><th>Reported Speech</th></tr></thead><tbody><tr><td><strong>Time: Now</strong></td><td>'I'm busy now.'</td><td>She said she was busy <strong>then</strong>.</td></tr><tr><td><strong>Time: Today</strong></td><td>'I'll call today.'</td><td>He said he would call <strong>that day</strong>.</td></tr><tr><td><strong>Time: Yesterday</strong></td><td>'I saw her yesterday.'</td><td>She said she had seen her <strong>the day before</strong>.</td></tr><tr><td><strong>Time: Tomorrow</strong></td><td>'We leave tomorrow.'</td><td>They said they left <strong>the next day</strong>.</td></tr><tr><td><strong>Place: Here</strong></td><td>'Sit here.'</td><td>She told me to sit <strong>there</strong>.</td></tr><tr><td><strong>Place: This</strong></td><td>'I like this book.'</td><td>He said he liked <strong>that</strong> book.</td></tr></tbody></table><p><strong>The secret:</strong> Imagine you're reporting the conversation from a different time or place. Words like 'here' and 'today' no longer make sense! 🗺️</p><p><strong>Common mistake:</strong> 'He said he is coming tomorrow' × → <strong>Correct:</strong> 'He said he was coming the next day' ✓</p><p><em>Fun fact: If you report speech on the same day, 'today' can sometimes stay 'today'! Context matters! 📅</em></p><p>   <strong>Pro tip:</strong> Look for time/place words in direct speech. If the reporting context has changed, shift them: today→that day, here→there.</p>",
+      "examples": ["<strong>Time change</strong>: 'I finished yesterday' → She said she had finished <strong>the day before</strong>.", "<strong>Place change</strong>: 'Meet me here' → He told me to meet him <strong>there</strong>.", "Wrong vs Right: 'She said she is leaving tomorrow' × → <strong>'She said she was leaving the next day'</strong> ✓"],
+      "difficulty": 2,
+      "audio": "lesson_1_time_place.mp3",
+      "functions": ["Adjusting time expressions for reported context", "Shifting place references accurately"],
+      "tips": "   <strong>Pro tip:</strong> Look for time/place words in direct speech. If the reporting context has changed, shift them: today→that day, here→there."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Contextual Reporting: When Expressions Don't Change 🎯",
+      "content": "<p>Advanced insight! 🎯 Sometimes time/place expressions <strong>don't change</strong> in reported speech. It depends on <strong>when and where you're reporting</strong>.</p><p><strong>Rule:</strong> If the time/place reference is still accurate when you report, keep the original word.</p><table class='lesson-table table-yellow'><thead><tr><th>Scenario</th><th>Direct Speech</th><th>Reported (Same Day)</th><th>Reported (Later)</th></tr></thead><tbody><tr><td><strong>Today (reported same day)</strong></td><td>'I'm busy today.'</td><td>She said she's busy <strong>today</strong>.</td><td>She said she was busy <strong>that day</strong>.</td></tr><tr><td><strong>Here (same location)</strong></td><td>'Meet me here.'</td><td>He told me to meet him <strong>here</strong>.</td><td>He told me to meet him <strong>there</strong>.</td></tr><tr><td><strong>Now (immediate reporting)</strong></td><td>'I'm leaving now.'</td><td>She says she's leaving <strong>now</strong>.</td><td>She said she was leaving <strong>then</strong>.</td></tr></tbody></table><p><em>Fun fact: Native speakers often mix rules in casual speech—focus on clarity first! 💬</em></p><p>   <strong>Master level:</strong> In formal writing, be consistent with shift rules. In speech, prioritize clarity: if the meaning is clear, small variations are acceptable!</p>",
+      "examples": ["Same-day reporting: <strong>'I'll call today'</strong> → He said he'll call <strong>today</strong> (if still today).", "Different location: <strong>'This is my office'</strong> → She said that was <strong>her</strong> office.", "Immediate context: <strong>'It's raining now'</strong> → She says it's raining <strong>now</strong> (if still raining)."],
+      "difficulty": 3,
+      "audio": "lesson_2_context.mp3",
+      "functions": ["Determining when expressions change vs. stay", "Adapting to reporting context"],
+      "tips": "   <strong>Master level:</strong> In formal writing, be consistent with shift rules. In speech, prioritize clarity: if the meaning is clear, small variations are acceptable!"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Report what your friend said yesterday about their plans. Include: a time expression change and a place expression change.",
+      "hint": "Change 'today'→'that day', 'here'→'there'. Example: <em>She said she would meet me there that day.</em>",
+      "expectedKeywords": ["that day", "the day before", "there", "then", "pronoun shift"],
+      "sentenceStarters": ["He said that...", "She mentioned that..."],
+      "difficulty": 1
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct time expression change:",
+      "sentence": "Direct: 'I saw her yesterday.' → Reported: He said he had seen her ______.",
+      "options": ["the day before", "yesterday", "tomorrow", "last week"],
+      "correctAnswer": ["the day before"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "'Yesterday' in direct speech usually becomes 'the day before' in reported speech.",
+      "difficulty": "easy"
+    }
+  ],
+  "rewards": {
+    "badges": [
+      {
+        "id": "time-place-pro",
+        "name": "Time & Place Expression Pro",
+        "condition": "Spell all time/place words correctly on first try",
+        "icon": "🕐📍",
+        "points": 20,
+        "message": "You never mix up 'yesterday' and 'the day before' again!"
+      }
+    ]
+  }
+}

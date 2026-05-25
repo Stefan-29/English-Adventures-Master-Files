@@ -1,0 +1,67 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Reported Questions: Word Order Changes ❓",
+      "content": "<p>Ready for the next level? ❓ Reporting <strong>questions</strong> requires a special change: the word order becomes like a statement, not a question!</p><p><strong>Formation:</strong> [Subject] + <strong>asked/wanted to know</strong> + [question word/if] + [subject + verb in backshifted tense]. <em>Example: 'Where do you live?' → She asked where I lived.</em></p><table class='lesson-table table-orange'><thead><tr><th>Question Type</th><th>Direct Speech</th><th>Reported Structure</th><th>Key Change</th></tr></thead><tbody><tr><td><strong>Wh- Question</strong></td><td>'What is your name?'</td><td><em>She asked what my name was.</em></td><td>Keep question word; statement order</td></tr><tr><td><strong>Yes/No Question</strong></td><td>'Are you tired?'</td><td><em>He asked if I was tired.</em></td><td>Add 'if/whether'; statement order</td></tr><tr><td><strong>Present Simple Q</strong></td><td>'Do you like coffee?'</td><td><em>She asked if I liked coffee.</em></td><td>Remove 'do/does'; backshift verb</td></tr></tbody></table><p><em>Fun fact: 'Whether' is a more formal alternative to 'if' in reported yes/no questions! ✨</em></p><p>   <strong>When to use:</strong> If the original was a question, use <strong>asked/wanted to know</strong> + statement word order. Never use question marks in reported questions!</p>",
+      "examples": ["At a specific time: <strong>'When are you leaving?'</strong> → She asked when I was leaving.", "Yes/No focus: <strong>'Do you understand?'</strong> → He asked if I understood."],
+      "difficulty": 2,
+      "audio": "lesson_1_questions.mp3",
+      "functions": ["Converting direct questions to reported form", "Using 'if/whether' for yes/no questions correctly"],
+      "tips": "   <strong>When to use:</strong> If the original was a question, use <strong>asked/wanted to know</strong> + statement word order. Never use question marks in reported questions!"
+    },
+    {
+      "id": "lesson-2",
+      "title": "Orders, Requests & Advice: Using the Infinitive 📋",
+      "content": "<p>Let's master the full picture! 📋 Knowing how to report <strong>orders, requests, and advice</strong> completes your control of indirect speech. These use the infinitive!</p><p><strong>Formation for Orders/Requests:</strong> [Subject] + <strong>told/asked</strong> + [person] + <strong>(not) to + base verb</strong>. <em>Example: 'Close the door!' → She told me to close the door.</em></p><table class='lesson-table table-pink'><thead><tr><th>Direct Type</th><th>Reporting Verb</th><th>Structure Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>Order</strong></td><td>told / ordered</td><td><code>told + person + to + verb</code></td><td>'Sit down!' → He told me to sit down.</td></tr><tr><td><strong>Negative Order</strong></td><td>told / warned</td><td><code>told + person + not to + verb</code></td><td>'Don't touch!' → She told me not to touch.</td></tr><tr><td><strong>Polite Request</strong></td><td>asked / requested</td><td><code>asked + person + to + verb</code></td><td>'Could you help?' → He asked me to help.</td></tr><tr><td><strong>Advice</strong></td><td>advised / suggested</td><td><code>advised + person + to + verb</code></td><td>'You should rest' → She advised me to rest.</td></tr></tbody></table><p><em>Fun fact: 'Suggest' can also take 'that + subject + (should) + verb'! 'She suggested that I (should) study.' 🎓</em></p><p>   <strong>Remember:</strong> For orders/requests, use <strong>told/asked + to + verb</strong>. For advice, <strong>advised/suggested + to + verb</strong> OR <strong>that + clause</strong>.</p>",
+      "examples": ["Negative statement: <strong>'Don't be late!'</strong> → She told me not to be late.", "Yes/No request: <strong>'Could you pass the salt?'</strong> → He asked me to pass the salt."],
+      "difficulty": 2,
+      "audio": "lesson_2_requests.mp3",
+      "functions": ["Reporting commands and polite requests", "Using infinitive structure correctly"],
+      "tips": "   <strong>Remember:</strong> For orders/requests, use <strong>told/asked + to + verb</strong>. For advice, <strong>advised/suggested + to + verb</strong> OR <strong>that + clause</strong>."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Convert these direct questions into reported questions: 'Where do you live?' and 'Are you coming tomorrow?'",
+      "hint": "Use <strong>asked</strong> + question word (or 'if' for yes/no questions) + subject + backshifted verb. Example: <em>She asked me where I lived.</em>",
+      "expectedKeywords": ["asked", "if/whether", "question word", "backshifted verb", "subject pronoun"],
+      "sentenceStarters": ["She asked me where...", "He wanted to know if..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Report this polite request: 'Could you please help me with my homework?'",
+      "hint": "Use <strong>asked + me + to + verb</strong> for polite requests. Example: <em>She asked me to help her with her homework.</em>",
+      "expectedKeywords": ["asked", "to help", "pronoun change", "polite structure"],
+      "sentenceStarters": ["She asked me to...", "He requested that I..."],
+      "difficulty": 1
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Select the correct reported form for this question:",
+      "sentence": "Direct: 'Do you like coffee?' → Reported: She asked ______.",
+      "options": ["if I liked coffee", "do I like coffee", "if I like coffee", "that I liked coffee"],
+      "correctAnswer": ["if I liked coffee"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Yes/no questions use 'if/whether' + statement word order + backshifted verb.",
+      "difficulty": "easy"
+    }
+  ],
+  "rewards": {
+    "badges": [
+      {
+        "id": "indirect-questions-master",
+        "name": "Indirect Questions Master",
+        "condition": "Complete all reported question activities with no mistakes",
+        "icon": "❓",
+        "points": 25,
+        "message": "You can convert any question to indirect form like a pro!"
+      }
+    ]
+  }
+}

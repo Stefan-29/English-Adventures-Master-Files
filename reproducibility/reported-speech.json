@@ -1,0 +1,74 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Is Reported Speech? 🗣️",
+      "content": "<p>When someone shares an idea and you want to tell another person about it later, you use <strong>reported (indirect) speech</strong>! Instead of quoting exact words, you report the meaning.</p><p><strong>Direct Speech</strong> = exact words in quotation marks. <em>Example: Tom said, 'I like football.'</em></p><p><strong>Reported Speech</strong> = meaning without quotes. <em>Example: Tom said (that) he liked football.</em></p><table class='lesson-table table-blue'><thead><tr><th>Element</th><th>Direct</th><th>Reported</th><th>Change</th></tr></thead><tbody><tr><td><strong>Reporting Verb</strong></td><td>said/told</td><td>said/told</td><td>Same verb, different structure</td></tr><tr><td><strong>Pronouns</strong></td><td>I, you, my</td><td>he/she, I, his/her</td><td>Shift to match reporter's perspective</td></tr><tr><td><strong>Quotes</strong></td><td>Yes</td><td>No</td><td>Remove quotation marks</td></tr></tbody></table><p><em>Fun fact: The word 'that' is optional after reporting verbs! ✨</em></p><p>   <strong>Quick Rule:</strong> If the reporting verb is past (said/told), prepare to backshift. If present (says/tells), keep original tense.</p>",
+      "examples": ["Direct: 'I want to go home.' → Reported: She said (that) she wanted to go home.", "Direct: 'Can you help me?' → Reported: She asked if I could help her."],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": ["Reporting statements someone made", "Changing pronouns to match perspective"],
+      "tips": "   <strong>Quick Rule:</strong> If the reporting verb is past (said/told), prepare to backshift. If present (says/tells), keep original tense."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Report what your friend said about their day using basic reported speech. Include: a statement with said/told, a pronoun change, and remove quotation marks.",
+      "hint": "Start with 'My friend said (that)...'. Change I→he/she, my→his/her. Example: <em>My friend said that she was tired after work.</em>",
+      "expectedKeywords": ["said/told", "pronoun change", "past tense verb", "that (optional)", "no quotes"],
+      "sentenceStarters": ["My friend said that...", "He/She told me that..."],
+      "difficulty": 1
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct reported speech form:",
+      "sentence": "Direct: 'I like ice cream.' → Reported: She said ______.",
+      "options": ["that she liked ice cream", "that she likes ice cream", "that she will like ice cream", "that she had liked ice cream"],
+      "correctAnswer": ["that she liked ice cream"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Present Simple in direct speech often becomes Past Simple in reported speech.",
+      "difficulty": "easy"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What is the main difference between direct and reported speech?",
+      "sentence": "Direct: 'I am happy.' → Reported: She said ______.",
+      "options": ["that she was happy", "that she is happy", "that she had been happy", "that she will be happy"],
+      "correctAnswer": "that she was happy",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Reported speech usually removes quotes and may change pronouns/tense.",
+      "difficulty": "easy",
+      "explanation": "Reported speech reports the meaning without quotation marks. Pronouns and tenses often shift to match the reporting context."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "although",
+      "hint": "Subordinating conjunction - shows contrast in reported clauses",
+      "clue": "a_l_ou_h",
+      "audio": "spell_although.mp3",
+      "sentence": "______ it was raining, she said she would go out.",
+      "difficulty": "easy"
+    }
+  ],
+  "rewards": {
+    "stars": {"bronze": 10, "silver": 25, "gold": 40, "platinum": 60},
+    "badges": [
+      {
+        "id": "reported-speech-explorer",
+        "name": "Reported Speech Explorer",
+        "condition": "Complete all Reported Speech Foundations lessons",
+        "icon": "🗣️",
+        "points": 15,
+        "message": "You've mastered the basics of reporting what others say!"
+      }
+    ]
+  }
+}

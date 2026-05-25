@@ -1,0 +1,67 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Tense Backshift Rules",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Tense Backshift Patterns & Modal Transformations",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Backshift Rules Mastery",
+        "instructions": "Master tense backshift patterns (present→past, past→past perfect), modal verb changes (will→would, can→could), and exceptions for general truths."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Tense Transformation Practice",
+        "instructions": "Write sentences applying correct backshift rules. Practice when to backshift vs. when to keep present tense for timeless facts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Tense Shift Games",
+        "instructions": "Play games to practice choosing correct backshifted forms. Recognize signal words that trigger tense changes."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Backshift Vocabulary Challenge",
+        "instructions": "Apply backshift markers, modal transformations, and exception indicators correctly in reported contexts."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Tense Backshift Pairs",
+        "words": ["present→past", "past→past perfect", "present perfect→past perfect", "will→would", "can→could", "may→might"]
+      },
+      {
+        "title": "Modal Transformations",
+        "words": ["will→would", "can→could", "may→might", "must→had to", "shall→should", "need to→needed to"]
+      },
+      {
+        "title": "No-Change Modals",
+        "words": ["might", "could", "would", "should", "ought to"]
+      },
+      {
+        "title": "Exception Markers",
+        "words": ["general truth", "still true", "timeless fact", "scientific fact", "permanent situation"]
+      },
+      {
+        "title": "Backshift Signal Words",
+        "words": ["said that", "told me that", "explained that", "mentioned that", "reported that"]
+      }
+    ]
+  },
+  "dataFile": "reproducibility/backshift-tenses.json",
+  "grammarChecker": "backshiftTenses.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

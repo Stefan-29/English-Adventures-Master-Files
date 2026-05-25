@@ -1,0 +1,80 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Reported Speech Foundations",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Reported Speech Basics & Core Transformations",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "What Is Reported Speech?",
+        "instructions": "Master direct vs. reported speech, reporting verbs (say/tell/ask), and basic pronoun shifts. Understand when and why we report what others say."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Basic Reported Statements",
+        "instructions": "Write simple reported statements using said/told + that-clause. Practice pronoun changes and removing quotation marks."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Speech Transformation Games",
+        "instructions": "Play games to practice converting direct quotes to reported form. Recognize reporting verbs and basic structure patterns."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Reporting Vocabulary Challenge",
+        "instructions": "Apply reporting verbs, pronouns, and basic connectors correctly. Master foundational reported speech vocabulary."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Core Reporting Verbs",
+        "words": ["said", "told", "asked", "explained", "replied", "answered", "stated", "mentioned"]
+      },
+      {
+        "title": "Pronoun Shifts",
+        "words": ["I→he/she", "you→I/me", "we→they", "my→his/her", "your→my/our", "our→their"]
+      },
+      {
+        "title": "Basic Connectors",
+        "words": ["that", "if", "whether", "because", "so", "but", "and", "then"]
+      },
+      {
+        "title": "Sentence Starters",
+        "words": [
+          "He/She said (that)...",
+          "He/She told me (that)...",
+          "They explained that...",
+          "She mentioned that...",
+          "He replied that...",
+          "I wanted to know..."
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/reported-speech.json",
+  "grammarChecker": "reportedSpeech.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

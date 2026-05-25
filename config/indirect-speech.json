@@ -1,0 +1,67 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Indirect Speech Structures",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Indirect Questions, Requests & Advanced Transformations",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Indirect Speech Patterns",
+        "instructions": "Master reported questions (wh-/yes-no), orders/requests with infinitives, and modal verb transformations. Understand statement word order in reported questions."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Complex Indirect Structures",
+        "instructions": "Write reported questions, polite requests, and advice using asked/wanted to know + if/whether/wh-word. Apply infinitive structures for commands."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Transformation Challenge Games",
+        "instructions": "Play games to practice converting questions, commands, and modal statements to indirect form. Recognize statement vs. question word order."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Indirect Speech Vocabulary",
+        "instructions": "Apply question words, reporting verbs for requests, and modal transformations correctly in indirect contexts."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Question Reporting Verbs",
+        "words": ["asked", "wanted to know", "wondered", "inquired", "questioned", "checked"]
+      },
+      {
+        "title": "Question Structures",
+        "words": ["asked if...", "asked whether...", "asked what/where/when...", "wanted to know why/how"]
+      },
+      {
+        "title": "Request/Order Verbs",
+        "words": ["told", "asked", "ordered", "requested", "advised", "suggested", "warned", "reminded"]
+      },
+      {
+        "title": "Infinitive Patterns",
+        "words": ["to + verb", "not to + verb", "to be careful", "to wait", "not to worry", "to help"]
+      },
+      {
+        "title": "Modal Transformations",
+        "words": ["will→would", "can→could", "may→might", "must→had to", "should→should", "could→could"]
+      }
+    ]
+  },
+  "dataFile": "reproducibility/indirect-speech.json",
+  "grammarChecker": "indirectSpeech.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

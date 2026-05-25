@@ -1,0 +1,67 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Time & Place in Reported Speech",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Time & Place Expression Transformations",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Time/Place Changes Mastery",
+        "instructions": "Master time expression changes (now→then, today→that day, yesterday→the day before) and place changes (here→there, this→that). Understand contextual reporting."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Contextual Reporting Practice",
+        "instructions": "Write sentences applying correct time/place shifts based on reporting context. Practice when expressions change vs. stay the same."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Time/Place Transformation Games",
+        "instructions": "Play games to practice choosing correct time/place expressions in reported speech. Recognize contextual clues that trigger changes."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Time/Place Vocabulary Challenge",
+        "instructions": "Apply time markers, place references, and contextual connectors correctly in reported contexts."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Time Expression Changes",
+        "words": ["now→then", "today→that day", "yesterday→the day before", "tomorrow→the next day", "ago→before", "last week→the week before"]
+      },
+      {
+        "title": "Place Expression Changes",
+        "words": ["here→there", "this→that", "these→those", "in this room→in that room", "at this table→at that table"]
+      },
+      {
+        "title": "Contextual Markers",
+        "words": ["that day", "the next day", "the day before", "then", "there", "previously", "earlier"]
+      },
+      {
+        "title": "Exception Indicators",
+        "words": ["same day", "still today", "right now", "here (unchanged)", "this (unchanged)"]
+      },
+      {
+        "title": "Reporting Context Phrases",
+        "words": ["he said that day", "she mentioned yesterday", "they explained then", "I reported there"]
+      }
+    ]
+  },
+  "dataFile": "reproducibility/reported-time-place.json",
+  "grammarChecker": "reportedTimePlace.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

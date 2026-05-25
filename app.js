@@ -193,10 +193,10 @@ const App = {
     'whether-if'
   ],
   "REPORTED SPEECH": [
-    // 'reported-speech',
-    // 'indirect-speech',
-    // 'backshift-tenses',
-    // 'reported-time-place'
+    'reported-speech',
+    'indirect-speech',
+    'backshift-tenses',
+    'reported-time-place'
   ],
   "CONFUSING WORDS & FALSE FRIENDS": [
     // 'look-see-watch',
@@ -338,13 +338,13 @@ const moduleNames = [
   
   // QUESTION FORMATION
   'question-tags',
-  'whether-if'
+  'whether-if',
   
   // REPORTED SPEECH
-  // 'reported-speech',
-  // 'indirect-speech',
-  // 'backshift-tenses',
-  // 'reported-time-place',
+  'reported-speech',
+  'indirect-speech',
+  'backshift-tenses',
+  'reported-time-place'
   
   // CONFUSING WORDS & FALSE FRIENDS
   // 'look-see-watch',

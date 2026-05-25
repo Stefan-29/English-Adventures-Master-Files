@@ -1,0 +1,59 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Tense Backshift Rules ⏪",
+      "content": "<p>Now let's level up! 🎯 When the reporting verb is in the past, most tenses shift 'back' one step. <strong>Tense backshift</strong> helps you report past conversations accurately.</p><p><strong>Formation:</strong> [Subject] + <strong>[reporting verb in past]</strong> + (that) + [backshifted clause]. <em>Example: 'I am tired' → He said he was tired.</em></p><table class='lesson-table table-green'><thead><tr><th>Direct Tense</th><th>Reported Tense</th><th>Example</th><th>Key Signal</th></tr></thead><tbody><tr><td><strong>Present Simple</strong></td><td><code>→ Past Simple</code></td><td>'I like coffee' → She said she liked coffee</td><td>General facts, habits</td></tr><tr><td><strong>Present Continuous</strong></td><td><code>→ Past Continuous</code></td><td>'I'm working' → He said he was working</td><td>Actions in progress</td></tr><tr><td><strong>Present Perfect</strong></td><td><code>→ Past Perfect</code></td><td>'I have finished' → She said she had finished</td><td>Completed actions with present relevance</td></tr><tr><td><strong>Will</strong></td><td><code>→ Would</code></td><td>'I'll call you' → She said she would call me</td><td>Future promises/plans</td></tr><tr><td><strong>Can</strong></td><td><code>→ Could</code></td><td>'I can swim' → He said he could swim</td><td>Ability/possibility</td></tr></tbody></table><p><em>Fun fact: Past Perfect and modal verbs (might/could/would/should) don't change! 🎉</em></p><p>   <strong>Memory trick:</strong> Think of a timeline: Direct speech is 'now', reported speech moves everything one step into the 'past'.</p>",
+      "examples": ["Positive: <strong>'I have finished'</strong> → She said she had finished.", "Negative: <strong>'I don't know'</strong> → He said he didn't know.", "Question form: <strong>'Do you understand?'</strong> → She asked if I understood."],
+      "difficulty": 1,
+      "audio": "lesson_1_backshift.mp3",
+      "functions": ["Reporting past conversations with correct tense shifts", "Handling modals and perfect tenses"],
+      "tips": "   <strong>Memory trick:</strong> Think of a timeline: Direct speech is 'now', reported speech moves everything one step into the 'past'."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Modal Verbs in Reported Speech: What Changes? 🔑",
+      "content": "<p>Here's a crucial rule! 🔑 When you report speech with <strong>modal verbs</strong>, some change and some don't! This trips up many learners.</p><p><strong>The Rule:</strong> After a past reporting verb, <strong>will→would, can→could, may→might, must→had to</strong>. But <strong>might/could/would/should/ought to</strong> stay the same! <em>Example: 'I must go' → He said he had to go.</em></p><table class='lesson-table table-gray'><thead><tr><th>Modal in Direct</th><th>Meaning</th><th>Reported Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>will</strong></td><td>future intention</td><td><code>would</code></td><td><em>'I'll help' → She said she would help.</em></td></tr><tr><td><strong>can</strong></td><td>ability/permission</td><td><code>could</code></td><td><em>'I can swim' → He said he could swim.</em></td></tr><tr><td><strong>may</strong></td><td>possibility/permission</td><td><code>might</code></td><td><em>'It may rain' → She said it might rain.</em></td></tr><tr><td><strong>must</strong></td><td>obligation</td><td><code>had to</code></td><td><em>'I must study' → He said he had to study.</em></td></tr><tr><td><strong>should</strong></td><td>advice (NO CHANGE)</td><td><code>should</code></td><td><em>'You should rest' → She said I should rest.</em></td></tr></tbody></table><p><em>Fun fact: 'Must' for logical deduction ('He must be tired') often stays 'must' in reported speech! 🤔</em></p><p>   <strong>Never forget:</strong> Modals of deduction (must/can't) and advice (should) often don't change. Modals of future/ability/permission usually do!</p>",
+      "examples": ["With <strong>'will'</strong>: <strong>'I will call'</strong> → She said she would call.", "With <strong>'can'</strong>: <strong>'I can help'</strong> → He said he could help.", "With <strong>'must'</strong>: <strong>'I must leave'</strong> → She said she had to leave.", "No change: <strong>'You should try'</strong> → He said I should try."],
+      "difficulty": 2,
+      "audio": "lesson_2_modals.mp3",
+      "functions": ["Identifying which modals change in reported speech", "Using 'had to' vs 'must' correctly"],
+      "tips": "   <strong>Never forget:</strong> Modals of deduction (must/can't) and advice (should) often don't change. Modals of future/ability/permission usually do!"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Report these statements with correct tense backshift: 'I like pizza' and 'She is studying now'.",
+      "hint": "Present Simple → Past Simple; Present Continuous → Past Continuous. Example: <em>He said he liked pizza.</em>",
+      "expectedKeywords": ["said/told", "past tense verb", "backshift pattern", "pronoun change"],
+      "sentenceStarters": ["He said that...", "She mentioned that..."],
+      "difficulty": 1
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct backshifted form:",
+      "sentence": "Direct: 'I can swim 500 meters.' → Reported: He said he ______ swim 500 meters.",
+      "options": ["could", "can", "would", "might"],
+      "correctAnswer": ["could"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "'Can' changes to 'could' in reported speech when the reporting verb is past.",
+      "difficulty": "easy"
+    }
+  ],
+  "rewards": {
+    "badges": [
+      {
+        "id": "tense-backshift-champion",
+        "name": "Tense Backshift Champion",
+        "condition": "Score 100% on 3 tense conversion activities",
+        "icon": "⏪",
+        "points": 20,
+        "message": "You've got the tense shifts down perfectly!"
+      }
+    ]
+  }
+}
