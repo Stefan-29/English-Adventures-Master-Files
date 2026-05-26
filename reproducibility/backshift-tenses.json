@@ -4,21 +4,141 @@
       "id": "lesson-1",
       "title": "Tense Backshift Rules ⏪",
       "content": "<p>Now let's level up! 🎯 When the reporting verb is in the past, most tenses shift 'back' one step. <strong>Tense backshift</strong> helps you report past conversations accurately.</p><p><strong>Formation:</strong> [Subject] + <strong>[reporting verb in past]</strong> + (that) + [backshifted clause]. <em>Example: 'I am tired' → He said he was tired.</em></p><table class='lesson-table table-green'><thead><tr><th>Direct Tense</th><th>Reported Tense</th><th>Example</th><th>Key Signal</th></tr></thead><tbody><tr><td><strong>Present Simple</strong></td><td><code>→ Past Simple</code></td><td>'I like coffee' → She said she liked coffee</td><td>General facts, habits</td></tr><tr><td><strong>Present Continuous</strong></td><td><code>→ Past Continuous</code></td><td>'I'm working' → He said he was working</td><td>Actions in progress</td></tr><tr><td><strong>Present Perfect</strong></td><td><code>→ Past Perfect</code></td><td>'I have finished' → She said she had finished</td><td>Completed actions with present relevance</td></tr><tr><td><strong>Will</strong></td><td><code>→ Would</code></td><td>'I'll call you' → She said she would call me</td><td>Future promises/plans</td></tr><tr><td><strong>Can</strong></td><td><code>→ Could</code></td><td>'I can swim' → He said he could swim</td><td>Ability/possibility</td></tr></tbody></table><p><em>Fun fact: Past Perfect and modal verbs (might/could/would/should) don't change! 🎉</em></p><p>   <strong>Memory trick:</strong> Think of a timeline: Direct speech is 'now', reported speech moves everything one step into the 'past'.</p>",
-      "examples": ["Positive: <strong>'I have finished'</strong> → She said she had finished.", "Negative: <strong>'I don't know'</strong> → He said he didn't know.", "Question form: <strong>'Do you understand?'</strong> → She asked if I understood."],
+      "examples": [
+        "Positive: <strong>'I have finished'</strong> → She said she had finished.",
+        "Negative: <strong>'I don't know'</strong> → He said he didn't know.",
+        "Question form: <strong>'Do you understand?'</strong> → She asked if I understood."
+      ],
       "difficulty": 1,
       "audio": "lesson_1_backshift.mp3",
-      "functions": ["Reporting past conversations with correct tense shifts", "Handling modals and perfect tenses"],
+      "functions": [
+        "Reporting past conversations with correct tense shifts",
+        "Handling modals and perfect tenses"
+      ],
       "tips": "   <strong>Memory trick:</strong> Think of a timeline: Direct speech is 'now', reported speech moves everything one step into the 'past'."
     },
     {
       "id": "lesson-2",
       "title": "Modal Verbs in Reported Speech: What Changes? 🔑",
       "content": "<p>Here's a crucial rule! 🔑 When you report speech with <strong>modal verbs</strong>, some change and some don't! This trips up many learners.</p><p><strong>The Rule:</strong> After a past reporting verb, <strong>will→would, can→could, may→might, must→had to</strong>. But <strong>might/could/would/should/ought to</strong> stay the same! <em>Example: 'I must go' → He said he had to go.</em></p><table class='lesson-table table-gray'><thead><tr><th>Modal in Direct</th><th>Meaning</th><th>Reported Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>will</strong></td><td>future intention</td><td><code>would</code></td><td><em>'I'll help' → She said she would help.</em></td></tr><tr><td><strong>can</strong></td><td>ability/permission</td><td><code>could</code></td><td><em>'I can swim' → He said he could swim.</em></td></tr><tr><td><strong>may</strong></td><td>possibility/permission</td><td><code>might</code></td><td><em>'It may rain' → She said it might rain.</em></td></tr><tr><td><strong>must</strong></td><td>obligation</td><td><code>had to</code></td><td><em>'I must study' → He said he had to study.</em></td></tr><tr><td><strong>should</strong></td><td>advice (NO CHANGE)</td><td><code>should</code></td><td><em>'You should rest' → She said I should rest.</em></td></tr></tbody></table><p><em>Fun fact: 'Must' for logical deduction ('He must be tired') often stays 'must' in reported speech! 🤔</em></p><p>   <strong>Never forget:</strong> Modals of deduction (must/can't) and advice (should) often don't change. Modals of future/ability/permission usually do!</p>",
-      "examples": ["With <strong>'will'</strong>: <strong>'I will call'</strong> → She said she would call.", "With <strong>'can'</strong>: <strong>'I can help'</strong> → He said he could help.", "With <strong>'must'</strong>: <strong>'I must leave'</strong> → She said she had to leave.", "No change: <strong>'You should try'</strong> → He said I should try."],
+      "examples": [
+        "With <strong>'will'</strong>: <strong>'I will call'</strong> → She said she would call.",
+        "With <strong>'can'</strong>: <strong>'I can help'</strong> → He said he could help.",
+        "With <strong>'must'</strong>: <strong>'I must leave'</strong> → She said she had to leave.",
+        "No change: <strong>'You should try'</strong> → He said I should try."
+      ],
       "difficulty": 2,
       "audio": "lesson_2_modals.mp3",
-      "functions": ["Identifying which modals change in reported speech", "Using 'had to' vs 'must' correctly"],
+      "functions": [
+        "Identifying which modals change in reported speech",
+        "Using 'had to' vs 'must' correctly"
+      ],
       "tips": "   <strong>Never forget:</strong> Modals of deduction (must/can't) and advice (should) often don't change. Modals of future/ability/permission usually do!"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Past Tense Backshift: Simple → Perfect 🔄",
+      "content": "<p>Time to explore another way! 🔄 When the direct speech uses <strong>past tenses</strong>, they often shift to <strong>past perfect</strong> in reported speech.</p><p><strong>Pattern:</strong> [Subject] + <strong>said/told</strong> + (that) + [subject] + <strong>had + past participle</strong>. <em>Example: 'I visited Paris' → He said he had visited Paris.</em></p><p><strong>Compare these:</strong></p><table class='lesson-table table-teal'><thead><tr><th>Direct Tense</th><th>Context</th><th>Reported Tense</th><th>Example</th></tr></thead><tbody><tr><td><strong>Past Simple</strong></td><td>Completed past action</td><td><code>→ Past Perfect</code></td><td>'I saw her' → He said he had seen her.</td></tr><tr><td><strong>Past Continuous</strong></td><td>Action in progress in past</td><td><code>→ Past Perfect Continuous</code></td><td>'I was working' → She said she had been working.</td></tr><tr><td><strong>Past Perfect</strong></td><td>Already 'past of past'</td><td><code>→ No change</code></td><td>'I had finished' → He said he had finished.</td></tr><tr><td><strong>Past Perfect Continuous</strong></td><td>Duration before past point</td><td><code>→ No change</code></td><td>'I had been waiting' → She said she had been waiting.</td></tr></tbody></table><p><em>Fun fact: Past Perfect is the 'past of the past'—it can't backshift further! 🎯</em></p><p>   <strong>Decision point:</strong> Is the original tense already Past Perfect? → Keep it. Is it Past Simple? → Backshift to Past Perfect.</p>",
+      "examples": [
+        "With <strong>Past Simple</strong>: 'I bought a car' → He said he had bought a car.",
+        "With <strong>Past Continuous</strong>: 'I was talking to Bob' → Tom said he had been talking to Bob.",
+        "No change: <strong>'I had read the book.'</strong> → Julie said she had read the book."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_past_backshift.mp3",
+      "functions": [
+        "Backshifting past tenses correctly",
+        "Identifying when past tenses don't change"
+      ],
+      "tips": "   <strong>Decision point:</strong> Is the original tense already Past Perfect? → Keep it. Is it Past Simple? → Backshift to Past Perfect."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Contrast: When to Backshift vs. When Not To ⚖️",
+      "content": "<p>Here's where it gets interesting! ⚖️ Many learners backshift <strong>every time</strong>, but sometimes we keep the original tense. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Context</th><th>Backshift?</th><th>Example</th><th>Why?</th></tr></thead><tbody><tr><td><strong>General Truth</strong></td><td>Optional</td><td>'Water boils at 100°C' → He said water boils/boiled at 100°C.</td><td>Fact is always true</td></tr><tr><td><strong>Still True Now</strong></td><td>Optional</td><td>'I am 25' (said yesterday) → She said she is/was 25.</td><td>Age hasn't changed</td></tr><tr><td><strong>Reporting Verb Present</strong></td><td>No</td><td>'I'm tired' → He says he is tired.</td><td>Same time frame</td></tr><tr><td><strong>Specific Past Event</strong></td><td>Yes</td><td>'I was tired yesterday' → He said he had been tired.</td><td>Completed past action</td></tr></tbody></table><p><strong>The secret:</strong> Ask: 'Is this still true now?' If yes, backshift is optional. If no, backshift is required.</p><p><strong>Common mistake:</strong> 'She said the Earth was round' × (implies it changed!) → <strong>'She said the Earth is round'</strong> ✓</p><p><em>Fun fact: In formal/academic writing, backshifting is often preferred even for general truths for consistency! 📚</em></p><p>   <strong>Pro tip:</strong> When in doubt, backshift—it's never grammatically wrong. Keep present tense only when clarity demands it.</p>",
+      "examples": [
+        "General truth: <strong>'The sun rises in the east.'</strong> → He said the sun rises/rose in the east.",
+        "Still true: <strong>'I live in London.'</strong> → She said she lives/lived in London.",
+        "Wrong vs Right: 'She said Paris was in France' × → <strong>'She said Paris is in France'</strong> ✓"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_contrast.mp3",
+      "functions": [
+        "Choosing correctly when to backshift",
+        "Avoiding over-backshifting general truths"
+      ],
+      "tips": "   <strong>Pro tip:</strong> When in doubt, backshift—it's never grammatically wrong. Keep present tense only when clarity demands it."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Advanced: Perfect Continuous Backshift Patterns ⏳",
+      "content": "<p>Ready for the next level? ⏳ Reporting <strong>perfect continuous tenses</strong> requires careful backshift to show duration up to a past point.</p><p><strong>Formation:</strong> [Subject] + <strong>said</strong> + (that) + [subject] + <strong>had been + -ing</strong> + [complement]. <em>Example: 'I have been waiting' → She said she had been waiting.</em></p><p><strong>Use this when:</strong></p><table class='lesson-table table-orange'><thead><tr><th>Direct Tense</th><th>Reported Tense</th><th>Emphasis</th><th>Example</th></tr></thead><tbody><tr><td><strong>Present Perfect Continuous</strong></td><td><code>→ Past Perfect Continuous</code></td><td>Duration up to reporting time</td><td>'I've been studying' → He said he had been studying.</td></tr><tr><td><strong>Past Continuous</strong></td><td><code>→ Past Perfect Continuous</code></td><td>Duration before past reference</td><td>'I was working' → She said she had been working.</td></tr><tr><td><strong>Future Continuous</strong></td><td><code>→ Would be + -ing</code></td><td>Future action in progress</td><td>'I'll be waiting' → He said he would be waiting.</td></tr><tr><td><strong>Future Perfect Continuous</strong></td><td><code>→ Would have been + -ing</code></td><td>Duration up to future point</td><td>'I'll have been waiting' → She said she would have been waiting.</td></tr></tbody></table><p><em>Fun fact: Perfect Continuous tenses emphasize the process, not just completion—this nuance carries into reported speech! 🔄</em></p><p>   <strong>When to use:</strong> If you want to show ongoing duration up to a point in the past, use Past Perfect Continuous.</p>",
+      "examples": [
+        "At a specific time: <strong>'I have been waiting for an hour.'</strong> → She said she had been waiting for an hour.",
+        "Duration focus: <strong>'I was studying all day.'</strong> → He said he had been studying all day.",
+        "Interrupted action: <strong>'I had been working when...'</strong> → She said she had been working when..."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_perfect_continuous.mp3",
+      "functions": [
+        "Expressing duration in reported speech",
+        "Using perfect continuous forms correctly"
+      ],
+      "tips": "   <strong>When to use:</strong> If you want to show ongoing duration up to a point in the past, use Past Perfect Continuous."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Negative Backshift: Don't Forget the Auxiliary ❌",
+      "content": "<p>Let's master the full picture! ❌ Knowing how to backshift <strong>negative statements</strong> completes your control of tense transformations.</p><p><strong>Negative Formation:</strong> [Subject] + <strong>said/told</strong> + (that) + [subject] + <strong>didn't/wasn't/hadn't</strong> + [rest]. <em>Example: 'I don't like coffee' → He said he didn't like coffee.</em></p><table class='lesson-table table-pink'><thead><tr><th>Direct Negative</th><th>Structure Pattern</th><th>Reported Form</th><th>Key Change</th></tr></thead><tbody><tr><td><strong>Present Simple Neg</strong></td><td><code>don't/doesn't + verb</code></td><td><code>didn't + verb</code></td><td>do/does → did</td></tr><tr><td><strong>Present Continuous Neg</strong></td><td><code>am/is/are + not + -ing</code></td><td><code>was/were + not + -ing</code></td><td>am/is/are → was/were</td></tr><tr><td><strong>Present Perfect Neg</strong></td><td><code>haven't/hasn't + past participle</code></td><td><code>hadn't + past participle</code></td><td>have/has → had</td></tr><tr><td><strong>Will Neg</strong></td><td><code>won't + verb</code></td><td><code>wouldn't + verb</code></td><td>will → would</td></tr></tbody></table><p><em>Fun fact: The auxiliary verb (do/does/is/have/will) backshifts just like the main verb—don't forget it! 🔄</em></p><p><strong>Common mistake:</strong> 'She said she don't like it' × → <strong>'She said she didn't like it'</strong> ✓</p><p>   <strong>Remember:</strong> In negatives, the auxiliary verb backshifts: don't→didn't, isn't→wasn't, haven't→hadn't, won't→wouldn't.</p>",
+      "examples": [
+        "Negative statement: <strong>'I don't know.'</strong> → He said he didn't know.",
+        "Negative continuous: <strong>'I'm not working.'</strong> → She said she wasn't working.",
+        "Negative perfect: <strong>'I haven't seen it.'</strong> → He said he hadn't seen it."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_negative_backshift.mp3",
+      "functions": [
+        "Backshifting negative auxiliaries correctly",
+        "Maintaining negation in reported speech"
+      ],
+      "tips": "   <strong>Remember:</strong> In negatives, the auxiliary verb backshifts: don't→didn't, isn't→wasn't, haven't→hadn't, won't→wouldn't."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Backshift with Time Clauses: The Double Shift 🕐",
+      "content": "<p>Here's a crucial rule! 🕐 When you use <strong>time clauses</strong> in reported speech like [when/before/after], both the main clause AND the time clause may backshift!</p><p><strong>The Rule:</strong> Apply backshift rules to both clauses separately. <em>Example: 'I'll call when I arrive' → She said she would call when she arrived.</em></p><table class='lesson-table table-gray'><thead><tr><th>Time Starter</th><th>Direct Speech</th><th>Reported Speech</th><th>Both Clauses Backshift?</th></tr></thead><tbody><tr><td><strong>when</strong></td><td>'I'll call when I arrive.'</td><td>She said she would call when she arrived.</td><td>Yes: will→would, arrive→arrived</td></tr><tr><td><strong>before</strong></td><td>'Finish before you leave.'</td><td>He told me to finish before I left.</td><td>Yes: leave→left</td></tr><tr><td><strong>after</strong></td><td>'I'll call after I've eaten.'</td><td>She said she would call after she had eaten.</td><td>Yes: will→would, have→had</td></tr><tr><td><strong>while</strong></td><td>'Don't talk while I'm speaking.'</td><td>He told me not to talk while he was speaking.</td><td>Yes: am→was</td></tr></tbody></table><p><strong>Common mistake:</strong> 'She said she would call when she will arrive' × → <strong>'She said she would call when she arrived'</strong> ✓</p><p><em>Fun fact: Time clauses follow the same backshift rules as the main clause—just apply them to each part! 🔄</em></p><p>   <strong>Never forget:</strong> After [time words], backshift the tense just like in the main clause. Main clause = [tense], time clause = [backshifted tense].</p>",
+      "examples": [
+        "With 'when': <strong>'I'll call when I arrive.'</strong> → She said she would call when she arrived.",
+        "With 'before': <strong>'Finish before you leave.'</strong> → He told me to finish before I left.",
+        "With 'after': <strong>'I'll call after I've eaten.'</strong> → She said she would call after she had eaten.",
+        "Combined clauses: <strong>'When I finish, I'll call.'</strong> → He said that when he finished, he would call."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_time_clauses.mp3",
+      "functions": [
+        "Applying backshift to time clauses correctly",
+        "Managing double backshift in complex sentences"
+      ],
+      "tips": "   <strong>Never forget:</strong> After [time words], backshift the tense just like in the main clause. Main clause = [tense], time clause = [backshifted tense]."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Advanced Backshift Nuances 🎯",
+      "content": "<p>You've come so far! 🎯 Let's tackle the <strong>advanced nuances</strong> that separate good from great in tense backshift.</p><p><strong>Special Case 1: Mixed Time References</strong></p><p>Sometimes one sentence has multiple time references. <em>Example: 'I was tired yesterday, but I'll be fine tomorrow' → He said he had been tired the day before, but he would be fine the next day.</em></p><p><strong>Special Case 2: Conditional Backshift</strong></p><p>Conditionals have special backshift patterns. <em>Example: 'If I have time, I'll help' → He said that if he had time, he would help.</em></p><table class='lesson-table table-yellow'><thead><tr><th>Context / Register</th><th>Preferred Backshift</th><th>Rhetorical Effect</th><th>Exemplar</th></tr></thead><tbody><tr><td><strong>Casual Speech</strong></td><td>Flexible, clarity-focused</td><td>Natural, conversational</td><td><em>He said he'd call when he got home.</em></td></tr><tr><td><strong>Formal Writing</strong></td><td>Consistent backshift</td><td>Precise, professional</td><td><em>He stated that he would contact me upon his arrival.</em></td></tr><tr><td><strong>Academic Reporting</strong></td><td>Backshift with hedging</td><td>Objective, cautious</td><td><em>The author reported that the data appeared to support the hypothesis.</em></td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✓ Identify all tenses in direct speech ✓ Apply backshift to each ✓ Check time/place expressions ✓ Adjust for register ✓ Verify clarity</p><p><em>Fun fact: Native speakers often simplify backshift in casual speech—focus on clarity first! 💬</em></p><p>   <strong>Master level:</strong> In formal writing, apply backshift consistently. In speech, prioritize clarity: if the meaning is clear, small variations are acceptable!</p>",
+      "examples": [
+        "Mixed times: <strong>'I was tired yesterday, but I'll be fine tomorrow.'</strong> → He said he had been tired the day before, but he would be fine the next day.",
+        "Conditional: <strong>'If I have time, I'll help.'</strong> → He said that if he had time, he would help.",
+        "Idiomatic usage: <strong>'It's been raining cats and dogs!'</strong> → She exclaimed that it had been raining heavily.",
+        "Academic writing: <strong>'The results have indicated a correlation.'</strong> → The paper stated that the results had indicated a correlation."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Using backshift in sophisticated ways",
+        "Adapting to different registers and contexts",
+        "Handling mixed time references and conditionals"
+      ],
+      "tips": "   <strong>Master level:</strong> In formal writing, apply backshift consistently. In speech, prioritize clarity: if the meaning is clear, small variations are acceptable!"
     }
   ],
   "writingActivities": [
@@ -29,6 +149,78 @@
       "expectedKeywords": ["said/told", "past tense verb", "backshift pattern", "pronoun change"],
       "sentenceStarters": ["He said that...", "She mentioned that..."],
       "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Convert this direct statement to reported speech with modal backshift: 'I can help you tomorrow.'",
+      "hint": "Use <strong>said/told</strong> + backshift 'can' to 'could' and 'tomorrow' to 'the next day'. Example: <em>He said he could help me the next day.</em>",
+      "expectedKeywords": ["said/told", "could", "the next day", "pronoun shift"],
+      "sentenceStarters": ["He said that...", "She told me that..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Tell a short story about what your friend said about their past experiences. Use reported speech with past perfect at least twice.",
+      "hint": "Begin with 'My friend said that he had...'. Add details with <strong>had been</strong> for continuous actions.",
+      "expectedKeywords": ["had + past participle", "had been + -ing", "time marker", "pronoun shift", "said/told"],
+      "sentenceStarters": ["First, my friend said that he had...", "Then, he mentioned that he had been..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Describe a conversation where someone gave you advice using modal verbs. Report the advice with correct modal backshift.",
+      "hint": "Remember: <strong>should/ought to</strong> often don't change. <strong>must</strong> → <strong>had to</strong>. Example: <em>She advised me to study, saying I should focus on grammar.</em>",
+      "expectedKeywords": ["advised/suggested", "modal verb (should/could/might/had to)", "infinitive (to + verb)", "pronoun adjustment", "transition word"],
+      "sentenceStarters": ["My friend advised me to...", "She suggested that I should...", "He told me I had to..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Compare what two different people said about the same past event using reported speech. Show how their tense backshifts differed.",
+      "hint": "Use <strong>however/although</strong> to show contrast between their statements. Add <strong>similarly/both</strong> if they agreed on something.",
+      "expectedKeywords": ["contrast marker", "comparison marker", "said/told/explained", "backshifted verb", "pronoun consistency"],
+      "sentenceStarters": ["Both John and Mary said that..., but John added...", "While Sarah claimed..., Tom insisted..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write a paragraph reporting a news announcement about future plans. Use cause-effect markers and correct future backshift.",
+      "hint": "Start with the cause: <strong>because/since/as</strong>. Then show the result with <strong>would</strong> for backshifted future.",
+      "expectedKeywords": ["cause marker", "effect marker", "would + verb", "result phrase", "time expression shift"],
+      "sentenceStarters": ["The mayor announced that... because...", "This would lead to... since..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Express an opinion about a rule. Report what someone said about it with correct backshift, then give your view.",
+      "hint": "State your view with <strong>I believe/In my opinion</strong>. Support it with <strong>for example/this is because</strong>. Report others with backshifted tenses.",
+      "expectedKeywords": ["opinion marker", "evidence marker", "reporting verb", "backshifted tense", "supporting detail"],
+      "sentenceStarters": ["In my opinion,... because my teacher said that...", "I believe that... as my colleague explained..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Describe a hypothetical situation using reported conditional speech with correct backshift. Include what someone said would happen if a condition were met.",
+      "hint": "Use <strong>If + past simple, would + base verb</strong> in reported form. Example: <em>She said that if it rained, she would stay home.</em>",
+      "expectedKeywords": ["conditional marker (if)", "would/could/might", "consequence phrase", "backshifted verb form", "time expression"],
+      "sentenceStarters": ["If I had enough time, I would... he said.", "She mentioned that if..., she would..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Report a complex conversation involving a statement with past perfect, a negative backshift, and a general truth. Show mastery by using correct structures for each.",
+      "hint": "This requires 3 different approaches: backshift for past perfect, handle negatives correctly, keep present for general truths. Pay attention to pronoun shifts.",
+      "expectedKeywords": ["past perfect marker", "negative auxiliary", "no-change marker", "connecting phrase", "complex verb form"],
+      "sentenceStarters": ["Although she said..., he explained that...", "When I asked..., she replied that..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a formal email summarizing a meeting. Use reported speech with correct backshift to convey what colleagues said, with hedging language and polite conclusions.",
+      "hint": "Maintain formal register: avoid contractions, use <strong>passive voice/formal connectors</strong>, end with <strong>polite closing</strong>. Report speech with consistent backshift.",
+      "expectedKeywords": ["formal connector", "hedging phrase", "passive construction", "polite closing", "consistent backshift"],
+      "sentenceStarters": ["It was stated that...", "One colleague suggested that, given the circumstances..."],
+      "difficulty": 3
     }
   ],
   "gameActivities": [
@@ -36,23 +228,482 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Choose the correct backshifted form:",
-      "sentence": "Direct: 'I can swim 500 meters.' → Reported: He said he ______ swim 500 meters.",
+      "sentence": "Direct: 'I like ice cream.' → Reported: She said ____.",
+      "options": ["that she liked ice cream", "that she likes ice cream", "that she will like ice cream", "that she had liked ice cream"],
+      "correctAnswer": ["that she liked ice cream"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Present Simple in direct speech → Past Simple in reported speech when the reporting verb is past.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Select the correct modal backshift:",
+      "sentence": "Direct: 'I can swim 500 meters.' → Reported: He said he ____ swim 500 meters.",
       "options": ["could", "can", "would", "might"],
       "correctAnswer": ["could"],
-      "audio": "game_1_sentence.mp3",
+      "audio": "game_2_sentence.mp3",
       "hint": "'Can' changes to 'could' in reported speech when the reporting verb is past.",
       "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct past tense backshift:",
+      "sentence": "Direct: 'I visited Paris.' → Reported: He said he ____ Paris.",
+      "options": ["had visited", "visited", "was visiting", "would visit"],
+      "correctAnswer": ["had visited"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "Past Simple often backshifts to Past Perfect in reported speech.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the correct negative backshift:",
+      "sentence": "Direct: 'I don't like coffee.' → Reported: He said he ____ coffee.",
+      "options": ["didn't like", "don't like", "doesn't like", "hadn't liked"],
+      "correctAnswer": ["didn't like"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "Present Simple negative 'don't' backshifts to Past Simple negative 'didn't' in reported speech.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the correct future backshift:",
+      "sentence": "Direct: 'I will call you.' → Reported: She said she ____ me.",
+      "options": ["would call", "will call", "had called", "called"],
+      "correctAnswer": ["would call"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "'Will' changes to 'would' in reported speech when the reporting verb is past.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which modal does NOT change in reported speech?",
+      "sentence": "Direct: 'You should study.' → Reported: She said I ____ study.",
+      "options": ["should", "would", "could", "might"],
+      "correctAnswer": ["should"],
+      "audio": "game_6_sentence.mp3",
+      "hint": "Modal verbs of advice (should, ought to) often don't change in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Choose the correct perfect continuous backshift:",
+      "sentence": "Direct: 'I have been waiting.' → Reported: She said she ____.",
+      "options": ["had been waiting", "has been waiting", "was waiting", "would be waiting"],
+      "correctAnswer": ["had been waiting"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "Present Perfect Continuous backshifts to Past Perfect Continuous.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Select the appropriate form for a general truth:",
+      "sentence": "Direct: 'Water boils at 100°C.' → Reported: He said water ____ at 100°C.",
+      "options": ["boils", "boiled", "had boiled", "would boil"],
+      "correctAnswer": ["boils"],
+      "audio": "game_8_sentence.mp3",
+      "hint": "General truths/scientific facts can keep present tense in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Pick the correct backshift for past continuous:",
+      "sentence": "Direct: 'I was working.' → Reported: He said he ____.",
+      "options": ["had been working", "was working", "worked", "would be working"],
+      "correctAnswer": ["had been working"],
+      "audio": "game_9_sentence.mp3",
+      "hint": "Past Continuous often backshifts to Past Perfect Continuous in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Choose the correct form when the reporting verb is present:",
+      "sentence": "Direct: 'I am tired.' → Reported (immediate): He says he ____ tired.",
+      "options": ["is", "was", "had been", "would be"],
+      "correctAnswer": ["is"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "If the reporting verb is present (says), don't backshift the tense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Select the correct modal for obligation in reported speech:",
+      "sentence": "Direct: 'I must finish this.' → Reported: She said she ____ finish it.",
+      "options": ["had to", "must", "would have to", "should"],
+      "correctAnswer": ["had to"],
+      "audio": "game_11_sentence.mp3",
+      "hint": "'Must' for obligation usually changes to 'had to' in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the most precise backshift for mixed time references:",
+      "sentence": "Direct: 'I was tired yesterday, but I'll be fine tomorrow.' → Reported: ____",
+      "options": ["He said he had been tired the day before, but he would be fine the next day.", "He said he was tired yesterday, but he will be fine tomorrow.", "He said he had been tired yesterday, but he would be fine tomorrow.", "He said he was tired the day before, but he will be fine the next day."],
+      "correctAnswer": ["He said he had been tired the day before, but he would be fine the next day."],
+      "audio": "game_12_sentence.mp3",
+      "hint": "Check: past simple→past perfect, tomorrow→next day, will→would.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Choose the correct backshift for conditional reported speech:",
+      "sentence": "Direct: 'If I have time, I'll help.' → Reported: He said that if he ____ time, he ____ help.",
+      "options": ["had / would", "has / will", "had / will", "has / would"],
+      "correctAnswer": ["had / would"],
+      "audio": "game_13_sentence.mp3",
+      "hint": "Reported conditionals: if + past simple, would + base verb.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Select the appropriate form showing no backshift for immediacy:",
+      "sentence": "Direct: 'I am leaving now.' (said 2 minutes ago) → Reported: She says she ____ now.",
+      "options": ["is leaving", "was leaving", "had been leaving", "would leave"],
+      "correctAnswer": ["is leaving"],
+      "audio": "game_14_sentence.mp3",
+      "hint": "If reporting immediately or the situation is still current, backshift may not be needed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Choose the correct complete backshift transformation:",
+      "sentence": "Direct: 'I have been studying all day, but I haven't finished yet.' → Reported: ____",
+      "options": ["She said she had been studying all day, but she hadn't finished yet.", "She said she has been studying all day, but she hasn't finished yet.", "She said she was studying all day, but she didn't finish yet.", "She said she had studied all day, but she hadn't finished yet."],
+      "correctAnswer": ["She said she had been studying all day, but she hadn't finished yet."],
+      "audio": "game_15_sentence.mp3",
+      "hint": "Check: present perfect continuous→past perfect continuous, present perfect negative→past perfect negative.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What happens to Present Simple tense in reported speech when the reporting verb is in the past?",
+      "sentence": "Direct: 'I work here.' → Reported: She said ____.",
+      "options": ["that she worked here", "that she works here", "that she had worked here", "that she will work here"],
+      "correctAnswer": "that she worked here",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Present Simple backshifts to Past Simple when the reporting verb is past.",
+      "difficulty": "easy",
+      "explanation": "When the reporting verb (said/told) is in the past tense, Present Simple in direct speech becomes Past Simple in reported speech. 'I work' → 'she worked'."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses modal backshift?",
+      "sentence": "Choose the correct option: 'I can help.'",
+      "options": ["He said he could help.", "He said he can help.", "He said he would help.", "He said he had helped."],
+      "correctAnswer": "He said he could help.",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "'Can' changes to 'could' in reported speech with past reporting verb.",
+      "difficulty": "easy",
+      "explanation": "Modal 'can' backshifts to 'could' when the reporting verb is in the past tense. Options B, C, and D have incorrect modal transformations."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Identify the correct past tense backshift:",
+      "sentence": "Direct: 'I visited Paris.' → Reported: He said he ____ Paris.",
+      "options": ["had visited", "visited", "was visiting", "would visit"],
+      "correctAnswer": "had visited",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "Past Simple often backshifts to Past Perfect in reported speech.",
+      "difficulty": "easy",
+      "explanation": "Past Simple ('visited') often backshifts to Past Perfect ('had visited') in reported speech to show the action was completed before the reporting time."
+    },
+    {
+      "id": "quiz-4",
+      "question": "What is the correct reported form for this negative statement?",
+      "sentence": "Direct: 'I don't like coffee.'",
+      "options": ["He said he didn't like coffee.", "He said he don't like coffee.", "He said he doesn't like coffee.", "He said he hadn't liked coffee."],
+      "correctAnswer": "He said he didn't like coffee.",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "Present Simple negative 'don't' backshifts to Past Simple negative 'didn't'.",
+      "difficulty": "easy",
+      "explanation": "Present Simple negative 'don't' backshifts to Past Simple negative 'didn't' in reported speech. The auxiliary 'do' changes to 'did'."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which modal verb does NOT change in reported speech?",
+      "sentence": "Direct: 'You should rest.' → Reported: She said I ____ rest.",
+      "options": ["should", "would", "could", "might"],
+      "correctAnswer": "should",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Modal verbs of advice (should, ought to) often don't change.",
+      "difficulty": "easy",
+      "explanation": "Modal verbs expressing advice ('should', 'ought to') and some modals ('might', 'could', 'would') typically don't change in reported speech."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which sentence correctly uses backshift for a general truth?",
+      "sentence": "Choose the correct option: 'Water boils at 100°C.'",
+      "options": ["He said water boils at 100°C.", "He said water boiled at 100°C.", "He said water had boiled at 100°C.", "He said water would boil at 100°C."],
+      "correctAnswer": "He said water boils at 100°C.",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "General truths can keep present tense in reported speech.",
+      "difficulty": "medium",
+      "explanation": "General truths and scientific facts can keep present tense in reported speech because they are always true. Option B is also grammatically acceptable but less precise for timeless facts."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct tense sequence for this reported narrative:",
+      "sentence": "When I arrived, she said she ____ already left.",
+      "options": ["had", "has", "would have", "was having"],
+      "correctAnswer": "had",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Which action happened first? Use past perfect for the earlier action.",
+      "difficulty": "medium",
+      "explanation": "Past perfect (had + past participle) shows an action completed before another past action. She left BEFORE I arrived, so 'had already left' is correct in reported speech."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Select the appropriate backshift for present perfect continuous:",
+      "sentence": "Direct: 'I have been waiting.' → Reported: She said she ____.",
+      "options": ["had been waiting", "has been waiting", "was waiting", "would be waiting"],
+      "correctAnswer": "had been waiting",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "Present Perfect Continuous backshifts to Past Perfect Continuous.",
+      "difficulty": "medium",
+      "explanation": "Present Perfect Continuous ('have been waiting') backshifts to Past Perfect Continuous ('had been waiting') when the reporting verb is in the past."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which form correctly shows no backshift for immediacy?",
+      "sentence": "Direct: 'I am leaving now.' (said 2 minutes ago) → Reported: She says she ____ now.",
+      "options": ["is leaving", "was leaving", "had been leaving", "would leave"],
+      "correctAnswer": "is leaving",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "If the reporting verb is present, don't backshift.",
+      "difficulty": "medium",
+      "explanation": "When the reporting verb is present ('says'), the tense in the reported clause doesn't backshift. 'Am leaving' stays 'is leaving'."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Choose the correct backshift for this conditional:",
+      "sentence": "Direct: 'If I have time, I'll help.' → Reported: He said that if he ____ time, he ____ help.",
+      "options": ["had / would", "has / will", "had / will", "has / would"],
+      "correctAnswer": "had / would",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Reported conditionals: if + past simple, would + base verb.",
+      "difficulty": "medium",
+      "explanation": "Reported conditionals follow: if + past simple ('had'), would + base verb ('would help'). This is the backshifted form of the second conditional."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Identify the error in this backshift sentence:",
+      "sentence": "She said that she don't like coffee, but she drinks tea everyday.",
+      "options": ["don't → didn't", "everyday → every day", "Both A and B", "No error"],
+      "correctAnswer": "Both A and B",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "Check subject-verb agreement AND backshift.",
+      "difficulty": "medium",
+      "explanation": "Two errors: (1) 'She' (third person) needs 'didn't' for backshifted negation, not 'don't'. (2) 'Everyday' is an adjective; 'every day' (two words) is the adverbial phrase meaning 'each day'."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Choose the best form to complete the sentence:",
+      "sentence": "He said that if he ____ enough money, he would travel.",
+      "options": ["had", "has", "will have", "would have"],
+      "correctAnswer": "had",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "This tests reported conditional backshift.",
+      "difficulty": "hard",
+      "explanation": "This is a reported second conditional. Direct: 'If I have enough money, I will travel' → Reported: 'He said that if he had enough money, he would travel.' 'Had' (past simple) is correct after 'if' in reported conditionals."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which sentence demonstrates correct advanced backshift usage?",
+      "sentence": "Select the most sophisticated option:",
+      "options": ["The researcher stated that the data appeared to support the hypothesis, though further analysis was warranted.", "The researcher said the data supports the hypothesis.", "The researcher stated that the data supported the hypothesis.", "The researcher says that the data supports the hypothesis."],
+      "correctAnswer": "The researcher stated that the data appeared to support the hypothesis, though further analysis was warranted.",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "Look for appropriate register, precise vocabulary, and structural complexity.",
+      "difficulty": "hard",
+      "explanation": "Advanced usage requires not just grammatical correctness but appropriate register and contextual fit. Option A demonstrates hedging ('appeared to'), formal vocabulary ('warranted'), and nuanced reporting."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the stylistic issue in this formal backshift:",
+      "sentence": "The committee said they can't approve the proposal 'cause it's too expensive.",
+      "options": ["Informal contractions in formal context", "Correct formal usage", "Overly complex syntax", "Missing hedging language"],
+      "correctAnswer": "Informal contractions in formal context",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Formal writing avoids contractions and colloquialisms.",
+      "difficulty": "hard",
+      "explanation": "In formal/academic writing, contractions (can't, 'cause, it's) should be expanded (cannot, because, it is). This maintains professional register and clarity."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Choose the most precise hedging expression for academic backshift:",
+      "sentence": "The study ____ suggest a correlation, though further research is needed.",
+      "options": ["appeared to", "definitely", "might possibly maybe", "is proven to"],
+      "correctAnswer": "appeared to",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Academic writing uses hedging to show caution with claims.",
+      "difficulty": "hard",
+      "explanation": "'Appeared to' provides appropriate hedging for academic claims—confident but not absolute. 'Definitely' and 'is proven to' are too strong without conclusive evidence; 'might possibly maybe' is redundant and weakens the argument."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "although",
+      "hint": "Subordinating conjunction - shows contrast in reported clauses",
+      "clue": "a_l_ou_h",
+      "audio": "spell_although.mp3",
+      "sentence": "____ it was raining, she said she would go out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "because",
+      "hint": "Subordinating conjunction - shows reason in reported explanations",
+      "clue": "b_c_u_e",
+      "audio": "spell_because.mp3",
+      "sentence": "He explained that he was late ____ the traffic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "however",
+      "hint": "Transition word - shows contrast between reported statements",
+      "clue": "h_w_v_r",
+      "audio": "spell_however.mp3",
+      "sentence": "She said she was tired. ____, she finished her work.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "therefore",
+      "hint": "Transition word - shows result in reported conclusions",
+      "clue": "t_e_e_o_e",
+      "audio": "spell_therefore.mp3",
+      "sentence": "She studied hard; ____, she passed the exam, he reported.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "despite",
+      "hint": "Preposition - shows contrast with noun/gerund in reported clauses",
+      "clue": "d_s_ite",
+      "audio": "spell_despite.mp3",
+      "sentence": "____ the rain, she said she would go hiking.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "furthermore",
+      "hint": "Formal transition - adds supporting information in reported speech",
+      "clue": "f_r_h_r_o_e",
+      "audio": "spell_furthermore.mp3",
+      "sentence": "The report stated the plan was efficient. ____, it was cost-effective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "nevertheless",
+      "hint": "Formal contrast marker - acknowledges but persists in reported context",
+      "clue": "n_v_r_h_l_ss",
+      "audio": "spell_nevertheless.mp3",
+      "sentence": "The odds were against us. ____, we succeeded, she said.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "consequently",
+      "hint": "Formal result marker - shows logical outcome in reported explanations",
+      "clue": "c_n_s_q_u_ntly",
+      "audio": "spell_consequently.mp3",
+      "sentence": "Funding was cut. ____, the project halted, they reported.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "notwithstanding",
+      "hint": "Advanced preposition - formal contrast with noun phrase in reported speech",
+      "clue": "n_t_w_ih_t_nd_ng",
+      "audio": "spell_notwithstanding.mp3",
+      "sentence": "____ the challenges, the team delivered excellent results, he stated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "heretofore",
+      "hint": "Advanced adverb - formal time reference meaning 'until now' in reported context",
+      "clue": "h_r_t_f_r",
+      "audio": "spell_heretofore.mp3",
+      "sentence": "The data, ____ unavailable, now supports the hypothesis, the researcher reported.",
+      "difficulty": "hard"
     }
   ],
   "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
     "badges": [
       {
-        "id": "tense-backshift-champion",
-        "name": "Tense Backshift Champion",
-        "condition": "Score 100% on 3 tense conversion activities",
+        "id": "backshift-basics-master",
+        "name": "Backshift Basics Master",
+        "condition": "Complete all basic backshift activities with no mistakes",
         "icon": "⏪",
         "points": 20,
-        "message": "You've got the tense shifts down perfectly!"
+        "message": "You've got the basic tense shifts down perfectly!"
+      },
+      {
+        "id": "modal-transformation-pro",
+        "name": "Modal Transformation Pro",
+        "condition": "Correctly identify all modal verb changes in quizzes",
+        "icon": "🔑",
+        "points": 25,
+        "message": "You know exactly when modals change and when they don't!"
+      },
+      {
+        "id": "past-perfect-champion",
+        "name": "Past Perfect Champion",
+        "condition": "Score 100% on past tense backshift activities",
+        "icon": "🔄",
+        "points": 25,
+        "message": "You never mix up Past Simple and Past Perfect in reported speech!"
+      },
+      {
+        "id": "general-truth-expert",
+        "name": "General Truth Expert",
+        "condition": "Identify all exceptions to backshift rules correctly",
+        "icon": "✨",
+        "points": 25,
+        "message": "You know when to backshift and when to keep present tense!"
+      },
+      {
+        "id": "conditional-backshift-master",
+        "name": "Conditional Backshift Master",
+        "condition": "Complete all conditional backshift games with no mistakes",
+        "icon": "🎯",
+        "points": 30,
+        "message": "You can backshift any conditional structure like a pro!"
+      },
+      {
+        "id": "backshift-perfectionist",
+        "name": "Backshift Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Flawless backshift mastery! You're ready to report any tense!"
       }
     ]
   }

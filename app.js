@@ -107,137 +107,130 @@ const App = {
         // Define groups here. Add new groups or modify existing ones as needed.
         // Format: "Group Name": ["module-id-1", "module-id-2", ...]
         const groups = {
-  "ARTICLES & DETERMINERS": [
-    'a-an-the', 
-    'a-lot-of-much-many', 
-    'some-any-a-little-a-few', 
-    'few-little', 
-    'each-every', 
-    'other-another', 
-    'this-that-these-those', 
-    'everyone-vs-every-one', 
-    'each-other-one-another-ourselves',
-    'countable-vs-uncountable-nouns'
-  ],
-  "NOUNS & PLURALS": [
-    'adjectives-as-nouns', 
-    'nouns-countable-plural', 
-    'nouns-compound-collective'
-  ],
-  "ADJECTIVES MASTERY": [
-    'adjective-order', 
-    'comparatives-superlatives', 
-    'compound-adjectives', 
-    'descriptive-adjectives', 
-    'ing-ed-adjectives'
-  ],
-  "ADVERBS & FREQUENCY": [
-    'adverbs-formation-position', 
-    'already-still-yet-always', 
-    'also-too-as-well'
-  ],
-  "VERB TENSES – PRESENT": [
-    'present-tenses', 
-    'present-perfect'
-  ],
-  "VERB TENSES – PAST": [
-    'past-tenses', 
-    'past-perfect'
-  ],
-  "FUTURE TENSES": [
-    'future-tenses', 
-    'future-perfect'
-  ],
-  "MODAL VERBS": [
-    'can-could-be-able-to', 
-    'must-have-to-have-got-to', 
-    'shall-will-would-had-better', 
-    'should-ought-to', 
-    'may-might'
-  ],
-  "CONDITIONALS & WISH": [
-    'conditional-structures', 
-    'wish-if-if-only', 
-    'if-alternatives', 
-    'subjunctive-mood'
-  ],
-  "GERUNDS & INFINITIVES": [
-    'gerund-vs-infinitive', 
-    'after-certain-verbs', 
-    'bare-infinitive'
-  ],
-  "PASSIVE VOICE & CAUSATIVE": [
-    'passive-voice', 
-    'causative-verbs'
-  ],
-  "PREPOSITIONS & PHRASAL EXPRESSIONS": [
-    'time-prepositions', 
-    'position-direction-location-prepositions', 
-    'prepositional-phrases', 
-    'of-from-prepositions'
-  ],
-  "CONNECTORS & LINKING WORDS": [
-  'conjunctions',
-  'although-despite',
-  'as-when-while',
-  'linking-words'
-  ],
-  "RELATIVE CLAUSES & PRONOUNS": [
-    'relative-clauses',
-    'relative-pronouns',
-    'defining-non-defining-clauses',
-    'who-whom-which-that'
-  ],
-  "QUESTION FORMATION": [
-    'question-tags',
-    'whether-if'
-  ],
-  "REPORTED SPEECH": [
-    'reported-speech',
-    'indirect-speech',
-    'backshift-tenses',
-    'reported-time-place'
-  ],
-  "CONFUSING WORDS & FALSE FRIENDS": [
-    // 'look-see-watch',
-    // 'say-tell',
-    // 'make-do',
-    // 'like-as',
-    // 'job-work',
-    // 'raise-rise-arise',
-    // 'lay-lie',
-    // 'rob-steal',
-    // 'remember-remind',
-    // 'affect-effect',
-    // 'false-friends'
-  ],
-  "WORD FORMATION": [
-    // 'prefixes',
-    // 'negative-prefixes',
-    // 'suffixes',
-    // 'compound-words',
-    // 'word-forms'
-  ],
-  "MISCELLANEOUS GRAMMAR": [
-    // 'inversion',
-    // 'apostrophes',
-    // 'possessives',
-    // 'there-their-theyre',
-    // 'i-or-me',
-    // 'subject-verb-agreement',
-    // 'silent-letters'
-  ],
-  "STYLE & EXPRESSION": [
-    // 'double-comparatives',
-    // 'similes-metaphors',
-    // 'rather-prefer-had-better',
-    // 'whatever-whenever-wherever',
-    // 'even-though-if-so-when'
-  ],
-  "SPORTS & ACTIVITIES VERBS": [
-    // 'play-go-do'
-  ]
-};
+            "ARTICLES & DETERMINERS": [
+                'a-an-the',
+                'a-lot-of-much-many',
+                'some-any-a-little-a-few',
+                'few-little',
+                'each-every',
+                'other-another',
+                'this-that-these-those',
+                'everyone-vs-every-one',
+                'each-other-one-another-ourselves',
+                'countable-vs-uncountable-nouns'
+            ],
+            "NOUNS & PLURALS": [
+                'adjectives-as-nouns',
+                'nouns-countable-plural',
+                'nouns-compound-collective'
+            ],
+            "ADJECTIVES MASTERY": [
+                'adjective-order',
+                'comparatives-superlatives',
+                'compound-adjectives',
+                'descriptive-adjectives',
+                'ing-ed-adjectives'
+            ],
+            "ADVERBS & FREQUENCY": [
+                'adverbs-formation-position',
+                'already-still-yet-always',
+                'also-too-as-well'
+            ],
+            "VERB TENSES – PRESENT": [
+                'present-tenses',
+                'present-perfect'
+            ],
+            "VERB TENSES – PAST": [
+                'past-tenses',
+                'past-perfect'
+            ],
+            "FUTURE TENSES": [
+                'future-tenses',
+                'future-perfect'
+            ],
+            "MODAL VERBS": [
+                'can-could-be-able-to',
+                'must-have-to-have-got-to',
+                'shall-will-would-had-better',
+                'should-ought-to',
+                'may-might'
+            ],
+            "CONDITIONALS & WISH": [
+                'conditional-structures',
+                'wish-if-if-only',
+                'if-alternatives',
+                'subjunctive-mood'
+            ],
+            "GERUNDS & INFINITIVES": [
+                'gerund-vs-infinitive',
+                'after-certain-verbs',
+                'bare-infinitive'
+            ],
+            "PASSIVE VOICE & CAUSATIVE": [
+                'passive-voice',
+                'causative-verbs'
+            ],
+            "PREPOSITIONS & PHRASAL EXPRESSIONS": [
+                'time-prepositions',
+                'position-direction-location-prepositions',
+                'prepositional-phrases',
+                'of-from-prepositions'
+            ],
+            "CONNECTORS & LINKING WORDS": [
+                'conjunctions',
+                'although-despite',
+                'as-when-while',
+                'linking-words'
+            ],
+            "RELATIVE CLAUSES & PRONOUNS": [
+                'relative-clauses',
+                'relative-pronouns',
+                'defining-non-defining-clauses',
+                'who-whom-which-that'
+            ],
+            "QUESTION FORMATION": [
+                'question-tags',
+                'whether-if'
+            ],
+            "REPORTED SPEECH": [
+                'reported-speech',
+                'indirect-speech',
+                'backshift-tenses',
+                'reported-time-place'
+            ],
+            "CONFUSING WORDS & FALSE FRIENDS": [
+                'confusable-pairs',
+                'confused-action-verbs',
+                'confused-descriptive-words',
+                'confused-nouns-phrases'
+            ],
+            "WORD FORMATION": [
+                // 'prefixes',
+                // 'negative-prefixes',
+                // 'suffixes',
+                // 'compound-words',
+                // 'word-forms'
+            ],
+            "MISCELLANEOUS GRAMMAR": [
+                // 'inversion',
+                // 'apostrophes',
+                // 'possessives',
+                // 'there-their-theyre',
+                // 'i-or-me',
+                // 'subject-verb-agreement',
+                // 'silent-letters'
+            ],
+            "STYLE & EXPRESSION": [
+                // 'double-comparatives',
+                // 'similes-metaphors',
+                // 'rather-prefer-had-better',
+                // 'whatever-whenever-wherever',
+                // 'even-though-if-so-when'
+            ],
+            "SPORTS & ACTIVITIES VERBS": [
+                // 'play-go-do'
+            ]
+        };
 
         for (const [group, modules] of Object.entries(groups)) {
             if (modules.includes(moduleName)) return group;
@@ -252,139 +245,132 @@ const App = {
         // MAKE SURE TO ALSO CREATE A CORRESPONDING 
         // CONFIG JSON FILE IN THE config/ FOLDER WITH 
         // THE SAME NAME.
-const moduleNames = [
-  /* ============ ARTICLES & DETERMINERS ============ */
-  'a-an-the', 
-  'a-lot-of-much-many', 
-  'some-any-a-little-a-few', 
-  'few-little', 
-  'each-every', 
-  'other-another', 
-  'this-that-these-those', 
-  'everyone-vs-every-one', 
-  'each-other-one-another-ourselves',
-  'countable-vs-uncountable-nouns',
-  
-  /* ============ NOUNS & PLURALS ============ */
-  'adjectives-as-nouns', 
-  'nouns-countable-plural', 
-  'nouns-compound-collective',
-  
-  /* ============ ADJECTIVES MASTERY ============ */
-  'adjective-order', 
-  'comparatives-superlatives', 
-  'compound-adjectives', 
-  'descriptive-adjectives', 
-  'ing-ed-adjectives',
-  
-  /* ============ ADVERBS & FREQUENCY ============ */
-  'adverbs-formation-position', 
-  'already-still-yet-always', 
-  'also-too-as-well',
-  
-  /* ============ VERB TENSES – PRESENT ============ */
-  'present-tenses', 
-  'present-perfect',
-  
-  /* ============ VERB TENSES – PAST ============ */
-  'past-tenses', 
-  'past-perfect',
-  
-  /* ============ FUTURE TENSES ============ */
-  'future-tenses', 
-  'future-perfect',
-  
-  /* ============ MODAL VERBS ============ */
-  'can-could-be-able-to', 
-  'must-have-to-have-got-to', 
-  'shall-will-would-had-better', 
-  'should-ought-to', 
-  'may-might',
-  
-  /* ============ CONDITIONALS & WISH ============ */
-  'conditional-structures', 
-  'wish-if-if-only', 
-  'if-alternatives', 
-  'subjunctive-mood',
-  
-  /* ============ GERUNDS & INFINITIVES ============ */
-  'gerund-vs-infinitive', 
-  'after-certain-verbs', 
-  'bare-infinitive',
-  
-  /* ============ PASSIVE VOICE & CAUSATIVE ============ */
-  'passive-voice', 
-  'causative-verbs',
-  
-  /* ============ PREPOSITIONS & PHRASAL EXPRESSIONS ============ */
-  'time-prepositions', 
-  'position-direction-location-prepositions', 
-  'prepositional-phrases', 
-  'of-from-prepositions',
-  
-  /* ============ NEW MODULES (COMMENTED - NO CONTENT YET) ============ */
-  
-  // CONNECTORS & LINKING WORDS
-  'conjunctions',
-  'although-despite',
-  'as-when-while',
-  'linking-words',
-  
-  // RELATIVE CLAUSES & PRONOUNS
-  'relative-clauses',
-  'relative-pronouns',
-  'defining-non-defining-clauses',
-  'who-whom-which-that',
-  
-  // QUESTION FORMATION
-  'question-tags',
-  'whether-if',
-  
-  // REPORTED SPEECH
-  'reported-speech',
-  'indirect-speech',
-  'backshift-tenses',
-  'reported-time-place'
-  
-  // CONFUSING WORDS & FALSE FRIENDS
-  // 'look-see-watch',
-  // 'say-tell',
-  // 'make-do',
-  // 'like-as',
-  // 'job-work',
-  // 'raise-rise-arise',
-  // 'lay-lie',
-  // 'rob-steal',
-  // 'remember-remind',
-  // 'affect-effect',
-  // 'false-friends',
-  
-  // WORD FORMATION
-  // 'prefixes',
-  // 'negative-prefixes',
-  // 'suffixes',
-  // 'compound-words',
-  // 'word-forms',
-  
-  // MISCELLANEOUS GRAMMAR
-  // 'inversion',
-  // 'apostrophes',
-  // 'possessives',
-  // 'there-their-theyre',
-  // 'i-or-me',
-  // 'subject-verb-agreement',
-  // 'silent-letters',
-  
-  // STYLE & EXPRESSION
-  // 'double-comparatives',
-  // 'similes-metaphors',
-  // 'rather-prefer-had-better',
-  // 'whatever-whenever-wherever',
-  // 'even-though-if-so-when',
-  
-  // SPORTS & ACTIVITIES VERBS
-  // 'play-go-do'
-];
+        const moduleNames = [
+            /* ============ ARTICLES & DETERMINERS ============ */
+            'a-an-the',
+            'a-lot-of-much-many',
+            'some-any-a-little-a-few',
+            'few-little',
+            'each-every',
+            'other-another',
+            'this-that-these-those',
+            'everyone-vs-every-one',
+            'each-other-one-another-ourselves',
+            'countable-vs-uncountable-nouns',
+
+            /* ============ NOUNS & PLURALS ============ */
+            'adjectives-as-nouns',
+            'nouns-countable-plural',
+            'nouns-compound-collective',
+
+            /* ============ ADJECTIVES MASTERY ============ */
+            'adjective-order',
+            'comparatives-superlatives',
+            'compound-adjectives',
+            'descriptive-adjectives',
+            'ing-ed-adjectives',
+
+            /* ============ ADVERBS & FREQUENCY ============ */
+            'adverbs-formation-position',
+            'already-still-yet-always',
+            'also-too-as-well',
+
+            /* ============ VERB TENSES – PRESENT ============ */
+            'present-tenses',
+            'present-perfect',
+
+            /* ============ VERB TENSES – PAST ============ */
+            'past-tenses',
+            'past-perfect',
+
+            /* ============ FUTURE TENSES ============ */
+            'future-tenses',
+            'future-perfect',
+
+            /* ============ MODAL VERBS ============ */
+            'can-could-be-able-to',
+            'must-have-to-have-got-to',
+            'shall-will-would-had-better',
+            'should-ought-to',
+            'may-might',
+
+            /* ============ CONDITIONALS & WISH ============ */
+            'conditional-structures',
+            'wish-if-if-only',
+            'if-alternatives',
+            'subjunctive-mood',
+
+            /* ============ GERUNDS & INFINITIVES ============ */
+            'gerund-vs-infinitive',
+            'after-certain-verbs',
+            'bare-infinitive',
+
+            /* ============ PASSIVE VOICE & CAUSATIVE ============ */
+            'passive-voice',
+            'causative-verbs',
+
+            /* ============ PREPOSITIONS & PHRASAL EXPRESSIONS ============ */
+            'time-prepositions',
+            'position-direction-location-prepositions',
+            'prepositional-phrases',
+            'of-from-prepositions',
+
+            /* ============ NEW MODULES (COMMENTED - NO CONTENT YET) ============ */
+
+            // CONNECTORS & LINKING WORDS
+            'conjunctions',
+            'although-despite',
+            'as-when-while',
+            'linking-words',
+
+            // RELATIVE CLAUSES & PRONOUNS
+            'relative-clauses',
+            'relative-pronouns',
+            'defining-non-defining-clauses',
+            'who-whom-which-that',
+
+            // QUESTION FORMATION
+            'question-tags',
+            'whether-if',
+
+            // REPORTED SPEECH
+            'reported-speech',
+            'indirect-speech',
+            'backshift-tenses',
+            'reported-time-place',
+
+            // CONFUSING WORDS & FALSE FRIENDS
+            'confusable-pairs',
+            'confused-action-verbs',
+            'confused-descriptive-words',
+            'confused-nouns-phrases'
+
+            // WORD FORMATION
+            // 'prefixes',
+            // 'negative-prefixes',
+            // 'suffixes',
+            // 'compound-words',
+            // 'word-forms',
+
+            // MISCELLANEOUS GRAMMAR
+            // 'inversion',
+            // 'apostrophes',
+            // 'possessives',
+            // 'there-their-theyre',
+            // 'i-or-me',
+            // 'subject-verb-agreement',
+            // 'silent-letters',
+
+            // STYLE & EXPRESSION
+            // 'double-comparatives',
+            // 'similes-metaphors',
+            // 'rather-prefer-had-better',
+            // 'whatever-whenever-wherever',
+            // 'even-though-if-so-when',
+
+            // SPORTS & ACTIVITIES VERBS
+            // 'play-go-do'
+        ];
 
         const promises = moduleNames.map(name => {
             const configPath = `config/${name}.json`;

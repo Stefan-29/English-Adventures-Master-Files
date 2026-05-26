@@ -1,0 +1,94 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Confused Descriptive Words",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Like/As, Job/Work, Travel/Trip & False Friends",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Descriptive Word Comparisons",
+        "instructions": "Master the differences between like/as/look like/be like, job/work, travel/trip/journey/tour/voyage, and common false friends. Understand when to use each word based on function, countability, and contextual meaning."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Descriptive Word Writing Practice",
+        "instructions": "Write sentences using confused descriptive words correctly. Apply the right word based on grammatical function, countable/uncountable usage, and communicative purpose."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Word Choice Games",
+        "instructions": "Play games to practice choosing between like/as, job/work, and travel/trip/journey. Recognize key signal words, prepositions, and contextual clues."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Descriptive Words Challenge",
+        "instructions": "Apply confused descriptive words correctly in sentences. Master spelling, pronunciation, and usage distinctions for clear, professional communication."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Like/As/Look like/Be like Patterns",
+        "words": ["like (preposition)", "as (conjunction)", "look like", "be like", "such as", "as if", "as though", "like + noun", "as + clause"]
+      },
+      {
+        "title": "Job vs Work Usage",
+        "words": ["a job", "jobs", "work (uncountable)", "at work", "get a job", "do work", "full-time job", "part-time work", "out of work"]
+      },
+      {
+        "title": "Travel/Trip/Journey/Tour/Voyage",
+        "words": ["travel (verb/noun)", "a trip", "a journey", "a tour", "a voyage", "business trip", "long journey", "round-the-world tour", "sea voyage"]
+      },
+      {
+        "title": "False Friends (French-English)",
+        "words": ["actually/actuellement", "attend/assister", "library/librairie", "sensible/sensible", "demand/demander", "eventually/eventuellement"]
+      },
+      {
+        "title": "Countable vs Uncountable Markers",
+        "words": ["a/an", "some", "much", "many", "a lot of", "few", "little", "a piece of", "an item of"]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "It looks like...",
+          "He works as...",
+          "I like...",
+          "She is like...",
+          "I have a job...",
+          "I do work...",
+          "We traveled to...",
+          "We took a trip...",
+          "The journey was...",
+          "Actually, I...",
+          "I attended...",
+          "Eventually, we..."
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/confused-descriptive-words.json",
+  "grammarChecker": "confusedDescriptiveWords.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

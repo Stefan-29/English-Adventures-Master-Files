@@ -2,8 +2,8 @@
 const LessonModule = {
     data: [],
     currentLessonIndex: 0,
-    speechSynthesis: window.speechSynthesis || null,
-    currentUtterance: null,
+    speechSynthesis: window.speechSynthesis || null, // Legacy, kept for compatibility
+    currentUtterance: null, // Legacy, kept for compatibility
 
     init: function (lessonData) {
         this.data = lessonData || [];
@@ -138,47 +138,36 @@ const LessonModule = {
         }
     },
 playLessonAudio: function () {
-    if (!this.speechSynthesis) return;
-
-    this.stopAudio(); // Cancel any existing
-
+    // Use the new TextToSpeechService which supports ElevenLabs + Web Speech API fallback
     const lesson = this.data[this.currentLessonIndex];
     if (!lesson) return;
 
+    // Build the text to speak
     let text = `${lesson.title}. ${lesson.content.replace(/<\/?[^>]+>/g, ' ')}`;
     if (lesson.functions?.length) text += ' What you can do with this: ' + lesson.functions.join('. ');
     if (lesson.tips) text += ` Pro tip: ${lesson.tips}`;
     if (lesson.examples?.length) text += ' Examples: ' + lesson.examples.map(e => e.replace(/<\/?strong>/g, '')).join('. ');
 
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'en-US';
-    utterance.rate = 0.9;
+    // Speak using the new service
+    TextToSpeechService.speak(text, {
+        rate: 0.95,
+        pitch: 1.0,
+        volume: 1.0
+    });
 
-    const voices = this.speechSynthesis.getVoices();
-    const voice = voices.find(v => v.lang === 'en-US' && v.name.includes('Google')) ||
-                  voices.find(v => v.lang === 'en-US') ||
-                  voices[0];
-    if (voice) utterance.voice = voice;
-
-    utterance.onend = () => this.resetAudioButtons();
-    utterance.onerror = () => this.resetAudioButtons();
-
-    this.currentUtterance = utterance;
-    this.speechSynthesis.speak(utterance);
-
-    // FIXED: Use closest container to find buttons
+    // Update UI
     const container = document.querySelector('#lesson-module-activities .current-lesson-container');
     if (container) {
         container.querySelector('.play-audio')?.style.setProperty('display', 'none');
         container.querySelector('.pause-audio')?.style.removeProperty('display');
     }
-},
 
-stopAudio: function () {
-    if (this.speechSynthesis?.speaking || this.speechSynthesis?.pending) {
-        this.speechSynthesis.cancel();
-    }
-    this.resetAudioButtons();
+    // Listen for TTS end event to update buttons
+    const handleTTSEnd = () => {
+        this.resetAudioButtons();
+        document.removeEventListener('tts-ended', handleTTSEnd);
+    };
+    document.addEventListener('tts-ended', handleTTSEnd);
 },
 
 resetAudioButtons: function () {
@@ -190,13 +179,10 @@ resetAudioButtons: function () {
     this.currentUtterance = null;
 },
 
-    stopAudio: function () {
-        if (this.speechSynthesis?.speaking) {
-            this.speechSynthesis.cancel();
-        }
-        document.querySelector('.play-audio')?.style.removeProperty('display');
-        document.querySelector('.pause-audio')?.style.setProperty('display', 'none');
-    },
+stopAudio: function () {
+    TextToSpeechService.stop();
+    this.resetAudioButtons();
+},
 
     goToPractice: function (lessonId) {
         const map = {

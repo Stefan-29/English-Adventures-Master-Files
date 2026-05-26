@@ -3,22 +3,145 @@
     {
       "id": "lesson-1",
       "title": "Reported Questions: Word Order Changes ❓",
-      "content": "<p>Ready for the next level? ❓ Reporting <strong>questions</strong> requires a special change: the word order becomes like a statement, not a question!</p><p><strong>Formation:</strong> [Subject] + <strong>asked/wanted to know</strong> + [question word/if] + [subject + verb in backshifted tense]. <em>Example: 'Where do you live?' → She asked where I lived.</em></p><table class='lesson-table table-orange'><thead><tr><th>Question Type</th><th>Direct Speech</th><th>Reported Structure</th><th>Key Change</th></tr></thead><tbody><tr><td><strong>Wh- Question</strong></td><td>'What is your name?'</td><td><em>She asked what my name was.</em></td><td>Keep question word; statement order</td></tr><tr><td><strong>Yes/No Question</strong></td><td>'Are you tired?'</td><td><em>He asked if I was tired.</em></td><td>Add 'if/whether'; statement order</td></tr><tr><td><strong>Present Simple Q</strong></td><td>'Do you like coffee?'</td><td><em>She asked if I liked coffee.</em></td><td>Remove 'do/does'; backshift verb</td></tr></tbody></table><p><em>Fun fact: 'Whether' is a more formal alternative to 'if' in reported yes/no questions! ✨</em></p><p>   <strong>When to use:</strong> If the original was a question, use <strong>asked/wanted to know</strong> + statement word order. Never use question marks in reported questions!</p>",
-      "examples": ["At a specific time: <strong>'When are you leaving?'</strong> → She asked when I was leaving.", "Yes/No focus: <strong>'Do you understand?'</strong> → He asked if I understood."],
+      "content": "<p>Ready for the next level? ❓ Reporting <strong>questions</strong> requires a special change: the word order becomes like a statement, not a question!</p><p><strong>Formation:</strong> [Subject] + <strong>asked/wanted to know</strong> + [question word/if] + [subject + verb in backshifted tense]. <em>Example: 'Where do you live?' → She asked where I lived.</em></p><table class='lesson-table table-orange'><thead><tr><th>Question Type</th><th>Direct Speech</th><th>Reported Structure</th><th>Key Change</th></tr></thead><tbody><tr><td><strong>Wh- Question</strong></td><td>'What is your name?'</td><td><em>She asked what my name was.</em></td><td>Keep question word; statement order</td></tr><tr><td><strong>Yes/No Question</strong></td><td>'Are you tired?'</td><td><em>He asked if I was tired.</em></td><td>Add 'if/whether'; statement order</td></tr><tr><td><strong>Present Simple Q</strong></td><td>'Do you like coffee?'</td><td><em>She asked if I liked coffee.</em></td><td>Remove 'do/does'; backshift verb</td></tr><tr><td><strong>Present Continuous Q</strong></td><td>'Are you working?'</td><td><em>He asked if I was working.</em></td><td>Invert subject/verb back; backshift</td></tr></tbody></table><p><em>Fun fact: 'Whether' is a more formal alternative to 'if' in reported yes/no questions! ✨</em></p><p>   <strong>When to use:</strong> If the original was a question, use <strong>asked/wanted to know</strong> + statement word order. Never use question marks in reported questions!</p>",
+      "examples": [
+        "At a specific time: <strong>'When are you leaving?'</strong> → She asked when I was leaving.",
+        "Yes/No focus: <strong>'Do you understand?'</strong> → He asked if I understood.",
+        "Question form: <strong>'Why were you crying?'</strong> → She asked why I had been crying."
+      ],
       "difficulty": 2,
       "audio": "lesson_1_questions.mp3",
-      "functions": ["Converting direct questions to reported form", "Using 'if/whether' for yes/no questions correctly"],
+      "functions": [
+        "Converting direct questions to reported form",
+        "Using 'if/whether' for yes/no questions correctly"
+      ],
       "tips": "   <strong>When to use:</strong> If the original was a question, use <strong>asked/wanted to know</strong> + statement word order. Never use question marks in reported questions!"
     },
     {
       "id": "lesson-2",
       "title": "Orders, Requests & Advice: Using the Infinitive 📋",
-      "content": "<p>Let's master the full picture! 📋 Knowing how to report <strong>orders, requests, and advice</strong> completes your control of indirect speech. These use the infinitive!</p><p><strong>Formation for Orders/Requests:</strong> [Subject] + <strong>told/asked</strong> + [person] + <strong>(not) to + base verb</strong>. <em>Example: 'Close the door!' → She told me to close the door.</em></p><table class='lesson-table table-pink'><thead><tr><th>Direct Type</th><th>Reporting Verb</th><th>Structure Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>Order</strong></td><td>told / ordered</td><td><code>told + person + to + verb</code></td><td>'Sit down!' → He told me to sit down.</td></tr><tr><td><strong>Negative Order</strong></td><td>told / warned</td><td><code>told + person + not to + verb</code></td><td>'Don't touch!' → She told me not to touch.</td></tr><tr><td><strong>Polite Request</strong></td><td>asked / requested</td><td><code>asked + person + to + verb</code></td><td>'Could you help?' → He asked me to help.</td></tr><tr><td><strong>Advice</strong></td><td>advised / suggested</td><td><code>advised + person + to + verb</code></td><td>'You should rest' → She advised me to rest.</td></tr></tbody></table><p><em>Fun fact: 'Suggest' can also take 'that + subject + (should) + verb'! 'She suggested that I (should) study.' 🎓</em></p><p>   <strong>Remember:</strong> For orders/requests, use <strong>told/asked + to + verb</strong>. For advice, <strong>advised/suggested + to + verb</strong> OR <strong>that + clause</strong>.</p>",
-      "examples": ["Negative statement: <strong>'Don't be late!'</strong> → She told me not to be late.", "Yes/No request: <strong>'Could you pass the salt?'</strong> → He asked me to pass the salt."],
+      "content": "<p>Let's master the full picture! 📋 Knowing how to report <strong>orders, requests, and advice</strong> completes your control of indirect speech. These use the infinitive!</p><p><strong>Formation for Orders/Requests:</strong> [Subject] + <strong>told/asked</strong> + [person] + <strong>(not) to + base verb</strong>. <em>Example: 'Close the door!' → She told me to close the door.</em></p><p><strong>Formation for Advice/Suggestions:</strong> [Subject] + <strong>advised/suggested</strong> + [person] + <strong>(not) to + base verb</strong> OR <strong>that + clause</strong>. <em>Example: 'You should rest' → He advised me to rest.</em></p><table class='lesson-table table-pink'><thead><tr><th>Direct Type</th><th>Reporting Verb</th><th>Structure Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>Order</strong></td><td>told / ordered</td><td><code>told + person + to + verb</code></td><td>'Sit down!' → He told me to sit down.</td></tr><tr><td><strong>Negative Order</strong></td><td>told / warned</td><td><code>told + person + not to + verb</code></td><td>'Don't touch!' → She told me not to touch.</td></tr><tr><td><strong>Polite Request</strong></td><td>asked / requested</td><td><code>asked + person + to + verb</code></td><td>'Could you help?' → He asked me to help.</td></tr><tr><td><strong>Advice</strong></td><td>advised / suggested</td><td><code>advised + person + to + verb</code></td><td>'You should rest' → She advised me to rest.</td></tr></tbody></table><p><em>Fun fact: 'Suggest' can also take 'that + subject + (should) + verb'! 'She suggested that I (should) study.' 🎓</em></p><p>   <strong>Remember:</strong> For orders/requests, use <strong>told/asked + to + verb</strong>. For advice, <strong>advised/suggested + to + verb</strong> OR <strong>that + clause</strong>.</p>",
+      "examples": [
+        "Negative statement: <strong>'Don't be late!'</strong> → She told me not to be late.",
+        "Yes/No request: <strong>'Could you pass the salt?'</strong> → He asked me to pass the salt.",
+        "Wh-request: <strong>'Please explain the rule.'</strong> → She asked him to explain the rule.",
+        "Short answer: <em>'Will you help?'</em> → <strong>She asked if I would help.</strong>"
+      ],
       "difficulty": 2,
       "audio": "lesson_2_requests.mp3",
-      "functions": ["Reporting commands and polite requests", "Using infinitive structure correctly"],
+      "functions": [
+        "Reporting commands and polite requests",
+        "Using infinitive structure correctly"
+      ],
       "tips": "   <strong>Remember:</strong> For orders/requests, use <strong>told/asked + to + verb</strong>. For advice, <strong>advised/suggested + to + verb</strong> OR <strong>that + clause</strong>."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Modal Verbs in Indirect Speech: What Changes? 🔑",
+      "content": "<p>Here's a crucial rule! 🔑 When you report speech with <strong>modal verbs</strong>, some change and some don't! This trips up many learners.</p><p><strong>The Rule:</strong> After a past reporting verb, <strong>will→would, can→could, may→might, must→had to</strong>. But <strong>might/could/would/should/ought to</strong> stay the same! <em>Example: 'I must go' → He said he had to go.</em></p><table class='lesson-table table-gray'><thead><tr><th>Modal in Direct</th><th>Meaning</th><th>Reported Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>will</strong></td><td>future intention</td><td><code>would</code></td><td><em>'I'll help' → She said she would help.</em></td></tr><tr><td><strong>can</strong></td><td>ability/permission</td><td><code>could</code></td><td><em>'I can swim' → He said he could swim.</em></td></tr><tr><td><strong>may</strong></td><td>possibility/permission</td><td><code>might</code></td><td><em>'It may rain' → She said it might rain.</em></td></tr><tr><td><strong>must</strong></td><td>obligation</td><td><code>had to</code></td><td><em>'I must study' → He said he had to study.</em></td></tr><tr><td><strong>should</strong></td><td>advice (NO CHANGE)</td><td><code>should</code></td><td><em>'You should rest' → She said I should rest.</em></td></tr></tbody></table><p><em>Fun fact: 'Must' for logical deduction ('He must be tired') often stays 'must' in reported speech! 🤔</em></p><p>   <strong>Never forget:</strong> Modals of deduction (must/can't) and advice (should) often don't change. Modals of future/ability/permission usually do!</p>",
+      "examples": [
+        "With <strong>'will'</strong>: <strong>'I will call'</strong> → She said she would call.",
+        "With <strong>'can'</strong>: <strong>'I can help'</strong> → He said he could help.",
+        "With <strong>'must'</strong>: <strong>'I must leave'</strong> → She said she had to leave.",
+        "No change: <strong>'You should try'</strong> → He said I should try."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_modals.mp3",
+      "functions": [
+        "Identifying which modals change in reported speech",
+        "Using 'had to' vs 'must' correctly"
+      ],
+      "tips": "   <strong>Never forget:</strong> Modals of deduction (must/can't) and advice (should) often don't change. Modals of future/ability/permission usually do!"
+    },
+    {
+      "id": "lesson-4",
+      "title": "Contrast: Reported Statements vs. Questions vs. Requests 🔄",
+      "content": "<p>Here's where it gets interesting! 🔄 Many learners confuse <strong>reported statements, questions, and requests</strong>. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Feature</th><th>Reported Statement</th><th>Reported Question</th><th>Reported Request</th></tr></thead><tbody><tr><td><strong>Reporting Verb</strong></td><td>said/told/explained</td><td>asked/wanted to know</td><td>asked/told/advised</td></tr><tr><td><strong>Structure</strong></td><td>that + clause</td><td>if/whether/wh- + statement order</td><td>person + (not) to + verb</td></tr><tr><td><strong>Example</strong></td><td><em>He said that he was tired.</em></td><td><em>She asked if I was tired.</em></td><td><em>He told me to rest.</em></td></tr><tr><td><strong>Punctuation</strong></td><td>Period</td><td>Period (not ?)</td><td>Period</td></tr></tbody></table><p><strong>The secret:</strong> Look at the original speech type. Statement? → that-clause. Question? → if/wh- + statement. Order/Request? → to + verb.</p><p><strong>Common mistake:</strong> 'She asked me that I was tired' × → <strong>'She asked if I was tired'</strong> ✓</p><p><em>Fun fact: Native speakers often drop 'that' in statements but never in questions—clarity matters! 💬</em></p><p>   <strong>Pro tip:</strong> Look for the original speech type first. Then choose the correct reporting structure.</p>",
+      "examples": [
+        "Statement example: <strong>'I like coffee.'</strong> → He said he liked coffee.",
+        "Question example: <strong>'Do you like coffee?'</strong> → He asked if I liked coffee.",
+        "Request example: <strong>'Please make coffee.'</strong> → He asked me to make coffee.",
+        "Wrong vs Right: 'She asked that I was tired' × → <strong>'She asked if I was tired'</strong> ✓"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_contrast.mp3",
+      "functions": [
+        "Choosing correctly between statement/question/request structures",
+        "Avoiding common confusion points"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Look for the original speech type first. Then choose the correct reporting structure."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Advanced: Reported Questions with Complex Tenses ⏳",
+      "content": "<p>Ready for the next level? ⏳ Reporting <strong>questions with complex tenses</strong> requires careful backshift and word order changes.</p><p><strong>Formation:</strong> [Subject] + <strong>asked</strong> + [question word/if] + [subject + backshifted complex verb]. <em>Example: 'Have you been waiting?' → She asked if I had been waiting.</em></p><p><strong>Use this when:</strong></p><table class='lesson-table table-orange'><thead><tr><th>Direct Question</th><th>Reported Question</th><th>Backshift Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>Present Perfect Q</strong></td><td><code>asked + if + had + past participle</code></td><td>have/has → had</td><td>'Have you seen it?' → She asked if I had seen it.</td></tr><tr><td><strong>Present Perfect Continuous Q</strong></td><td><code>asked + if + had been + -ing</code></td><td>have been → had been</td><td>'Have you been waiting?' → He asked if I had been waiting.</td></tr><tr><td><strong>Past Simple Q</strong></td><td><code>asked + wh- + had + past participle</code></td><td>did → had (optional)</td><td>'Where did you go?' → She asked where I had gone.</td></tr><tr><td><strong>Future Question</strong></td><td><code>asked + if + would + verb</code></td><td>will → would</td><td>'Will you come?' → He asked if I would come.</td></tr></tbody></table><p><em>Fun fact: Past Simple questions can keep simple past or backshift to past perfect—both are acceptable! 🎯</em></p><p>   <strong>When to use:</strong> If you want to emphasize the sequence of past events, use past perfect. For general past reference, simple past is fine.</p>",
+      "examples": [
+        "At a specific time: <strong>'When had you arrived?'</strong> → She asked when I had arrived.",
+        "Duration focus: <strong>'How long have you been studying?'</strong> → He asked how long I had been studying.",
+        "Interrupted action: <strong>'What were you doing when...?'</strong> → She asked what I had been doing when..."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_complex_questions.mp3",
+      "functions": [
+        "Reporting questions with perfect and continuous tenses",
+        "Choosing between past simple and past perfect in reported questions"
+      ],
+      "tips": "   <strong>When to use:</strong> If you want to emphasize the sequence of past events, use past perfect. For general past reference, simple past is fine."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Negative Requests & Orders in Indirect Speech ❌",
+      "content": "<p>Let's master the full picture! ❌ Knowing how to report <strong>negative requests and orders</strong> completes your control of indirect speech with infinitives.</p><p><strong>Negative Formation:</strong> [Subject] + <strong>told/asked</strong> + [person] + <strong>not to + base verb</strong>. <em>Example: 'Don't be late!' → She told me not to be late.</em></p><table class='lesson-table table-pink'><thead><tr><th>Direct Negative</th><th>Structure Pattern</th><th>Reported Form</th><th>Key Note</th></tr></thead><tbody><tr><td><strong>Negative Order</strong></td><td><code>Don't + verb!</code></td><td><code>told + person + not to + verb</code></td><td>'Not' comes before 'to'</td></tr><tr><td><strong>Negative Request</strong></td><td><code>Please don't + verb</code></td><td><code>asked + person + not to + verb</code></td><td>Polite verb: asked</td></tr><tr><td><strong>Negative Advice</strong></td><td><code>You shouldn't + verb</code></td><td><code>advised + person + not to + verb</code></td><td>Or: advised that + subject + shouldn't</td></tr><tr><td><strong>Negative Warning</strong></td><td><code>Be careful not to...</code></td><td><code>warned + person + not to + verb</code></td><td>Stronger than 'asked'</td></tr></tbody></table><p><em>Fun fact: 'Not' always comes immediately before 'to' in negative infinitives—never 'to not'! 🚫</em></p><p><strong>Common mistake:</strong> 'She told me to not worry' × → <strong>'She told me not to worry'</strong> ✓</p><p>   <strong>Remember:</strong> In negative infinitives, <strong>not</strong> goes <strong>before</strong> <strong>to</strong>: not to worry, not to be late, not to forget.</p>",
+      "examples": [
+        "Negative statement: <strong>'Don't touch that!'</strong> → He told me not to touch that.",
+        "Yes/No request: <strong>'Please don't tell anyone.'</strong> → She asked me not to tell anyone.",
+        "Wh-request: <strong>'Don't forget to call.'</strong> → He reminded me not to forget to call.",
+        "Short answer: <em>'Should I worry?'</em> → <strong>She advised me not to worry.</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_negative_requests.mp3",
+      "functions": [
+        "Reporting negative commands and requests",
+        "Using 'not to + verb' structure correctly"
+      ],
+      "tips": "   <strong>Remember:</strong> In negative infinitives, <strong>not</strong> goes <strong>before</strong> <strong>to</strong>: not to worry, not to be late, not to forget."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Indirect Speech with Time Clauses 🕐",
+      "content": "<p>Here's a crucial rule! 🕐 When you use <strong>time clauses</strong> in reported speech like [when/before/after/while], the tense in the time clause may not backshift!</p><p><strong>The Rule:</strong> In reported speech, time clauses often keep their original tense even when the main clause backshifts. <em>Example: 'I'll call when I arrive' → She said she would call when she arrived.</em></p><table class='lesson-table table-gray'><thead><tr><th>Time Starter</th><th>Direct Speech</th><th>Reported Speech</th><th>Tense in Time Clause</th></tr></thead><tbody><tr><td><strong>when</strong></td><td>'I'll call when I arrive.'</td><td>She said she would call when she arrived.</td><td>Present → Past (backshift)</td></tr><tr><td><strong>before</strong></td><td>'Finish before you leave.'</td><td>He told me to finish before I left.</td><td>Present → Past (backshift)</td></tr><tr><td><strong>after</strong></td><td>'I'll call after I've eaten.'</td><td>She said she would call after she had eaten.</td><td>Present Perfect → Past Perfect</td></tr><tr><td><strong>while</strong></td><td>'Don't talk while I'm speaking.'</td><td>He told me not to talk while he was speaking.</td><td>Present Continuous → Past Continuous</td></tr></tbody></table><p><strong>Common mistake:</strong> 'She said she would call when she will arrive' × → <strong>'She said she would call when she arrived'</strong> ✓</p><p><em>Fun fact: Time clauses follow the same backshift rules as the main clause—just apply them separately! 🔄</em></p><p>   <strong>Never forget:</strong> After [time words], backshift the tense just like in the main clause. Main clause = [tense], time clause = [backshifted tense].</p>",
+      "examples": [
+        "With 'when': <strong>'I'll call when I arrive.'</strong> → She said she would call when she arrived.",
+        "With 'before': <strong>'Finish before you leave.'</strong> → He told me to finish before I left.",
+        "With 'after': <strong>'I'll call after I've eaten.'</strong> → She said she would call after she had eaten.",
+        "Combined clauses: <strong>'When I finish, I'll call.'</strong> → He said that when he finished, he would call."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_time_clauses.mp3",
+      "functions": [
+        "Linking actions in time sequences in reported speech",
+        "Applying backshift rules to time clauses correctly"
+      ],
+      "tips": "   <strong>Never forget:</strong> After [time words], backshift the tense just like in the main clause. Main clause = [tense], time clause = [backshifted tense]."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Advanced Indirect Speech Nuances 🎯",
+      "content": "<p>You've come so far! 🎯 Let's tackle the <strong>advanced nuances</strong> that separate good from great in indirect speech.</p><p><strong>Special Case 1: Mixed Reporting</strong></p><p>Sometimes one sentence reports multiple speech types. <em>Example: 'Can you help me because I'm tired?' → She asked if I could help her because she was tired.</em></p><p><strong>Special Case 2: Formal vs. Informal Register</strong></p><p>In formal contexts, use precise reporting verbs and full structures. In casual speech, simplify. <em>Formal: 'He inquired whether I would be available.' Casual: 'He asked if I'd be free.'</em></p><table class='lesson-table table-yellow'><thead><tr><th>Context / Register</th><th>Preferred Form</th><th>Rhetorical Effect</th><th>Exemplar</th></tr></thead><tbody><tr><td><strong>Casual Speech</strong></td><td>Dropped 'that', contractions</td><td>Natural, conversational</td><td><em>He said he'd call later.</em></td></tr><tr><td><strong>Formal Writing</strong></td><td>Full structures, precise verbs</td><td>Professional, precise</td><td><em>He stated that he would contact me subsequently.</em></td></tr><tr><td><strong>Academic Reporting</strong></td><td>Passive voice, hedging</td><td>Objective, cautious</td><td><em>It was reported that the data appeared to support the hypothesis.</em></td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✓ Identify speech type ✓ Choose appropriate reporting verb ✓ Apply correct structure ✓ Adjust for register ✓ Check time/place expressions</p><p><em>Fun fact: Native speakers often mix rules in casual speech—focus on clarity first! 💬</em></p><p>   <strong>Master level:</strong> In formal writing, be consistent with structures. In speech, prioritize clarity: if the meaning is clear, small variations are acceptable!</p>",
+      "examples": [
+        "Formal context: <strong>'The experiment proves the hypothesis.'</strong> → The researcher stated that the experiment proves the hypothesis.",
+        "Mixed speech: <strong>'Can you help because I'm busy?'</strong> → She asked if I could help because she was busy.",
+        "Idiomatic usage: <strong>'It's raining cats and dogs!'</strong> → She exclaimed that it was raining heavily.",
+        "Academic writing: <strong>'The results indicate a correlation.'</strong> → The paper states that the results indicate a correlation."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Using indirect speech in sophisticated ways",
+        "Adapting to different registers and contexts",
+        "Handling mixed speech types and complex sentences"
+      ],
+      "tips": "   <strong>Master level:</strong> In formal writing, be consistent with structures. In speech, prioritize clarity: if the meaning is clear, small variations are acceptable!"
     }
   ],
   "writingActivities": [
@@ -37,6 +160,70 @@
       "expectedKeywords": ["asked", "to help", "pronoun change", "polite structure"],
       "sentenceStarters": ["She asked me to...", "He requested that I..."],
       "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Tell a short story about what your teacher ordered the class to do. Use reported speech with infinitives at least twice.",
+      "hint": "Begin with 'The teacher told us to...'. Add details with <strong>not to</strong> for negative orders.",
+      "expectedKeywords": ["told/ordered", "to + verb", "not to + verb", "pronoun shift", "time marker"],
+      "sentenceStarters": ["First, the teacher told us to...", "Then, she ordered us not to..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Describe a conversation where someone asked you a question and gave you advice. Use reported speech for both.",
+      "hint": "Remember: <strong>asked + if/wh-</strong> for questions, <strong>advised + to + verb</strong> for advice. Example: <em>She asked if I was tired and advised me to rest.</em>",
+      "expectedKeywords": ["asked", "advised", "if/whether", "to + verb", "pronoun adjustment"],
+      "sentenceStarters": ["She asked me if... and advised me to...", "He wanted to know... and suggested that I..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Compare what two different people asked you using reported questions. Show how their questions differed.",
+      "hint": "Use <strong>however/although</strong> to show contrast between their questions. Add <strong>similarly/both</strong> if they asked similar things.",
+      "expectedKeywords": ["contrast marker", "comparison marker", "asked/wanted to know", "question word/if", "pronoun consistency"],
+      "sentenceStarters": ["Both John and Mary asked if..., but John also wanted to know...", "While Sarah asked where..., Tom inquired whether..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write a paragraph reporting a series of requests you received. Use cause-effect markers to explain why each request was made.",
+      "hint": "Start with the cause: <strong>because/since/as</strong>. Then show the request: <strong>asked me to</strong>.",
+      "expectedKeywords": ["cause marker", "asked/told", "to + verb", "result phrase", "time expression shift"],
+      "sentenceStarters": ["Because it was late, she asked me to...", "Since the project was urgent, he told me to..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Express an opinion about a rule. Report what someone asked you about it, then give your view.",
+      "hint": "State your view with <strong>I believe/In my opinion</strong>. Support it with <strong>for example/this is because</strong>. Report questions with <strong>asked if/whether</strong>.",
+      "expectedKeywords": ["opinion marker", "evidence marker", "asked/wanted to know", "supporting detail", "tense backshift"],
+      "sentenceStarters": ["In my opinion,... because my teacher asked if...", "I believe that... as my colleague inquired whether..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Describe a hypothetical situation using reported conditional questions. Include what someone asked you would happen if a condition were met.",
+      "hint": "Use <strong>asked what would happen if + past simple</strong> in reported form. Example: <em>She asked what would happen if it rained.</em>",
+      "expectedKeywords": ["asked", "conditional marker (if)", "would/could/might", "consequence phrase", "reported verb form"],
+      "sentenceStarters": ["She asked what would happen if...", "He wanted to know whether I would... if..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Report a complex conversation involving a question, an order, and a piece of advice. Show mastery by using correct structures for each.",
+      "hint": "This requires 3 different structures: <strong>asked + if/wh-</strong> for questions, <strong>told + to + verb</strong> for orders, <strong>advised + to + verb</strong> for advice. Pay attention to pronoun shifts.",
+      "expectedKeywords": ["asked/wanted to know", "told/ordered", "advised/suggested", "connecting phrase", "complex verb form"],
+      "sentenceStarters": ["Although she asked..., he told her to...", "When I asked..., she advised me to..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a formal email summarizing a meeting. Use reported speech to convey questions colleagues asked and requests they made, with hedging language and polite conclusions.",
+      "hint": "Maintain formal register: avoid contractions, use <strong>passive voice/formal connectors</strong>, end with <strong>polite closing</strong>. Report speech with <strong>inquired/requested/suggested</strong>.",
+      "expectedKeywords": ["formal connector", "hedging phrase", "passive construction", "polite closing", "professional vocabulary"],
+      "sentenceStarters": ["It was inquired whether...", "One colleague requested that, given the circumstances..."],
+      "difficulty": 3
     }
   ],
   "gameActivities": [
@@ -44,15 +231,434 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Select the correct reported form for this question:",
-      "sentence": "Direct: 'Do you like coffee?' → Reported: She asked ______.",
+      "sentence": "Direct: 'Do you like coffee?' → Reported: She asked ____.",
       "options": ["if I liked coffee", "do I like coffee", "if I like coffee", "that I liked coffee"],
       "correctAnswer": ["if I liked coffee"],
       "audio": "game_1_sentence.mp3",
       "hint": "Yes/no questions use 'if/whether' + statement word order + backshifted verb.",
       "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Choose the appropriate reporting verb for this request:",
+      "sentence": "Direct: 'Please close the window.' → Reported: She ____ me to close the window.",
+      "options": ["asked", "told", "wondered", "explained"],
+      "correctAnswer": ["asked"],
+      "audio": "game_2_sentence.mp3",
+      "hint": "Polite requests use 'asked + person + to + verb'. Orders use 'told'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct word order for this reported question:",
+      "sentence": "Direct: 'Where is the station?' → Reported: He asked ____.",
+      "options": ["where the station was", "where was the station", "where is the station", "where the station is"],
+      "correctAnswer": ["where the station was"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "Reported questions use statement word order: question word + subject + verb.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Select the correct modal transformation:",
+      "sentence": "Direct: 'I can swim 500 meters.' → Reported: He said he ____ swim 500 meters.",
+      "options": ["could", "can", "would", "might"],
+      "correctAnswer": ["could"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "'Can' changes to 'could' in reported speech when the reporting verb is past.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Choose the correct form for this negative request:",
+      "sentence": "Direct: 'Don't be late!' → Reported: She told me ____.",
+      "options": ["not to be late", "to not be late", "don't be late", "that I not be late"],
+      "correctAnswer": ["not to be late"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "Negative orders: 'told + person + not to + base verb'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which modal verb does NOT change in reported speech?",
+      "sentence": "Direct: 'You should study.' → Reported: She said I ____ study.",
+      "options": ["should", "would", "could", "might"],
+      "correctAnswer": ["should"],
+      "audio": "game_6_sentence.mp3",
+      "hint": "Modal verbs of advice (should, ought to) and some modals (might, could, would) often don't change.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Select the correct reported form for this wh-question:",
+      "sentence": "Direct: 'Why were you crying?' → Reported: She asked ____.",
+      "options": ["why I had been crying", "why was I crying", "why I was crying", "why had I been crying"],
+      "correctAnswer": ["why I had been crying"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "Past Continuous in direct questions → Past Perfect Continuous in reported: 'were crying' → 'had been crying'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Choose the appropriate structure for reported advice:",
+      "sentence": "Direct: 'You should rest.' → Reported: He advised me ____.",
+      "options": ["to rest", "resting", "that I rest", "should rest"],
+      "correctAnswer": ["to rest"],
+      "audio": "game_8_sentence.mp3",
+      "hint": "Advice with 'should' can be reported as 'advised + person + to + verb' OR 'advised that + subject + should + verb'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Pick the correct reported form with time clause:",
+      "sentence": "Direct: 'I will call you when I arrive.' → Reported: She said she would call me when she ____.",
+      "options": ["arrived", "would arrive", "arrives", "had arrived"],
+      "correctAnswer": ["arrived"],
+      "audio": "game_9_sentence.mp3",
+      "hint": "In reported speech, time clauses also backshift: 'when I arrive' → 'when she arrived'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Select the correct form for this complex reported question:",
+      "sentence": "Direct: 'Have you been waiting long?' → Reported: She asked if I ____ long.",
+      "options": ["had been waiting", "have been waiting", "was waiting", "would be waiting"],
+      "correctAnswer": ["had been waiting"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "Present Perfect Continuous backshifts to Past Perfect Continuous in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Choose the correct modal for obligation in reported speech:",
+      "sentence": "Direct: 'I must finish this.' → Reported: She said she ____ finish it.",
+      "options": ["had to", "must", "would have to", "should"],
+      "correctAnswer": ["had to"],
+      "audio": "game_11_sentence.mp3",
+      "hint": "'Must' for obligation usually changes to 'had to' in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Complete with the most precise reported form for mixed speech:",
+      "sentence": "Direct: 'Can you help me because I'm tired?' → Reported: She asked if I could help her ____ she was tired.",
+      "options": ["because", "if", "that", "when"],
+      "correctAnswer": ["because"],
+      "audio": "game_12_sentence.mp3",
+      "hint": "In mixed reported speech, keep logical connectors like 'because' unchanged.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Choose the correct reported form for a formal request:",
+      "sentence": "Direct: 'Might I suggest an alternative?' → Reported: He ____ whether he might suggest an alternative.",
+      "options": ["asked", "told", "wondered", "ordered"],
+      "correctAnswer": ["asked"],
+      "audio": "game_13_sentence.mp3",
+      "hint": "Formal polite questions still use 'asked' + 'whether/if' in reported speech.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Select the appropriate form showing no backshift for modal advice:",
+      "sentence": "Direct: 'You should call your mother.' → Reported: She said I ____ call my mother.",
+      "options": ["should", "would", "could", "might"],
+      "correctAnswer": ["should"],
+      "audio": "game_14_sentence.mp3",
+      "hint": "Modal verbs of advice (should, ought to) often don't change in reported speech.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Choose the correct complete transformation for complex indirect speech:",
+      "sentence": "Direct: 'Could you tell me where you were yesterday and if you can help tomorrow?' → Reported: ____",
+      "options": ["She asked me to tell her where I had been the day before and if I could help the next day.", "She asked me to tell her where I was yesterday and if I can help tomorrow.", "She asked me to tell her where I had been yesterday and if I could help tomorrow.", "She asked me to tell her where I was the day before and if I can help the next day."],
+      "correctAnswer": ["She asked me to tell her where I had been the day before and if I could help the next day."],
+      "audio": "game_15_sentence.mp3",
+      "hint": "Check: pronouns, tense backshift, time expressions, and modal changes all applied correctly.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What structure is used for reported yes/no questions?",
+      "sentence": "Direct: 'Are you tired?' → Reported: She asked ____.",
+      "options": ["if I was tired", "am I tired", "that I was tired", "was I tired"],
+      "correctAnswer": "if I was tired",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Yes/no questions use 'if/whether' + statement word order.",
+      "difficulty": "easy",
+      "explanation": "Reported yes/no questions use 'if' or 'whether' followed by statement word order (subject + verb), not question order."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses reported speech for a request?",
+      "sentence": "Choose the correct option: 'Please help me.'",
+      "options": ["She asked me to help her.", "She asked me help her.", "She told me help her.", "She said me to help her."],
+      "correctAnswer": "She asked me to help her.",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Requests use 'asked + person + to + verb'.",
+      "difficulty": "easy",
+      "explanation": "Polite requests are reported with 'asked + person + to + base verb'. Options B, C, and D have incorrect structures."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Identify the correct modal transformation:",
+      "sentence": "Direct: 'I can swim.' → Reported: He said he ____ swim.",
+      "options": ["could", "can", "would", "might"],
+      "correctAnswer": "could",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "'Can' changes to 'could' when the reporting verb is past.",
+      "difficulty": "easy",
+      "explanation": "Modal 'can' backshifts to 'could' in reported speech when the reporting verb is in the past tense."
+    },
+    {
+      "id": "quiz-4",
+      "question": "What is the correct reported form for this negative order?",
+      "sentence": "Direct: 'Don't touch that!'",
+      "options": ["He told me not to touch that.", "He told me to not touch that.", "He said me not to touch that.", "He told me don't touch that."],
+      "correctAnswer": "He told me not to touch that.",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "Negative orders: 'told + person + not to + verb'.",
+      "difficulty": "easy",
+      "explanation": "Negative orders use 'told + person + not to + base verb'. 'Not' comes immediately before 'to', not after."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which word best introduces a reported wh-question?",
+      "sentence": "Direct: 'Where do you live?' → Reported: She asked ____ I lived.",
+      "options": ["where", "if", "that", "when"],
+      "correctAnswer": "where",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Wh-questions keep the question word in reported speech.",
+      "difficulty": "easy",
+      "explanation": "Reported wh-questions keep the original question word (where/when/what/etc.) followed by statement word order."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which sentence correctly uses 'asked' vs 'told' for reported speech?",
+      "sentence": "Choose the correct option:",
+      "options": ["She asked me to be quiet.", "She told me if I was quiet.", "She asked me that I be quiet.", "She told me to if I was quiet."],
+      "correctAnswer": "She asked me to be quiet.",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Pay attention to the structure for reporting requests vs statements.",
+      "difficulty": "medium",
+      "explanation": "'Asked + person + to + verb' is for requests. 'Told + person + that + clause' is for statements. Only option A follows the correct request structure."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct tense sequence for this reported question:",
+      "sentence": "Direct: 'Have you finished?' → Reported: She asked if I ____.",
+      "options": ["had finished", "have finished", "finished", "would finish"],
+      "correctAnswer": "had finished",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Present Perfect backshifts to Past Perfect in reported speech.",
+      "difficulty": "medium",
+      "explanation": "Present Perfect ('have finished') backshifts to Past Perfect ('had finished') when the reporting verb is in the past."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Select the appropriate modal that does NOT change:",
+      "sentence": "Direct: 'You should rest.' → Reported: He said I ____ rest.",
+      "options": ["should", "would", "could", "might"],
+      "correctAnswer": "should",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "Modal verbs of advice (should, ought to) often don't change in reported speech.",
+      "difficulty": "medium",
+      "explanation": "Modal verbs expressing advice ('should', 'ought to') and some modals ('might', 'could', 'would') typically don't change in reported speech."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which time expression correctly completes this reported question?",
+      "sentence": "Direct: 'When will you arrive tomorrow?' → Reported: He asked when I would arrive ____.",
+      "options": ["the next day", "tomorrow", "yesterday", "today"],
+      "correctAnswer": "the next day",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "'Tomorrow' in direct speech usually becomes 'the next day' in reported speech.",
+      "difficulty": "medium",
+      "explanation": "'Tomorrow' in direct speech usually becomes 'the next day' or 'the following day' in reported speech when the reporting context has changed."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Choose the correct word order for this reported question:",
+      "sentence": "Direct: 'What did you buy?' → Reported: She asked ____.",
+      "options": ["what I had bought", "what did I buy", "what had I bought", "what I bought"],
+      "correctAnswer": "what I had bought",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Question word + subject + backshifted verb (statement order).",
+      "difficulty": "medium",
+      "explanation": "Reported questions use statement word order: question word + subject + verb. Past Simple 'did buy' can backshift to Past Perfect 'had bought'."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Identify the error in this reported request:",
+      "sentence": "She asked me to not worry about it.",
+      "options": ["to not → not to", "worry → worried", "Both A and B", "No error"],
+      "correctAnswer": "to not → not to",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "Check the position of 'not' in negative infinitives.",
+      "difficulty": "medium",
+      "explanation": "In negative infinitives, 'not' comes immediately before 'to': 'not to worry', not 'to not worry'. This is a fixed word order rule."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Choose the best form to complete the sentence:",
+      "sentence": "He asked what I ____ if I won the lottery.",
+      "options": ["would do", "will do", "did", "had done"],
+      "correctAnswer": "would do",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "This tests reported conditional questions.",
+      "difficulty": "hard",
+      "explanation": "Reported conditional questions follow: asked + what + subject + would + base verb. 'Will' backshifts to 'would' in reported speech."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which sentence demonstrates correct advanced indirect speech usage?",
+      "sentence": "Select the most sophisticated option:",
+      "options": ["The researcher inquired whether the data appeared to support the hypothesis, though further analysis was warranted.", "The researcher asked if the data supports the hypothesis.", "The researcher inquired whether the data supported the hypothesis.", "The researcher asks if the data supports the hypothesis."],
+      "correctAnswer": "The researcher inquired whether the data appeared to support the hypothesis, though further analysis was warranted.",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "Look for appropriate register, precise vocabulary, and structural complexity.",
+      "difficulty": "hard",
+      "explanation": "Advanced usage requires appropriate register and contextual fit. Option A demonstrates formal vocabulary ('inquired', 'warranted'), hedging ('appeared to'), and complex structure."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the stylistic issue in this formal reported request:",
+      "sentence": "The committee asked if they can't approve the proposal 'cause it's too expensive.",
+      "options": ["Informal contractions in formal context", "Correct formal usage", "Overly complex syntax", "Missing hedging language"],
+      "correctAnswer": "Informal contractions in formal context",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Formal writing avoids contractions and colloquialisms.",
+      "difficulty": "hard",
+      "explanation": "In formal/academic writing, contractions (can't, 'cause, it's) should be expanded (cannot, because, it is). This maintains professional register."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Choose the most precise hedging expression for academic reported questions:",
+      "sentence": "The study ____ suggest a correlation, the researcher inquired.",
+      "options": ["appeared to", "definitely", "might possibly maybe", "is proven to"],
+      "correctAnswer": "appeared to",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Academic writing uses hedging to show caution with claims.",
+      "difficulty": "hard",
+      "explanation": "'Appeared to' provides appropriate hedging for academic claims—confident but not absolute. 'Definitely' and 'is proven to' are too strong without conclusive evidence."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "although",
+      "hint": "Subordinating conjunction - shows contrast in reported clauses",
+      "clue": "a_l_ou_h",
+      "audio": "spell_although.mp3",
+      "sentence": "____ it was raining, she asked if I would go out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "whether",
+      "hint": "Formal alternative to 'if' in reported yes/no questions",
+      "clue": "w_e_h_r",
+      "audio": "spell_whether.mp3",
+      "sentence": "He asked ____ I was coming or not.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "however",
+      "hint": "Transition word - shows contrast between reported statements",
+      "clue": "h_w_v_r",
+      "audio": "spell_however.mp3",
+      "sentence": "She asked if I was tired. ____, I said I was fine.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "therefore",
+      "hint": "Transition word - shows result in reported conclusions",
+      "clue": "t_e_e_o_e",
+      "audio": "spell_therefore.mp3",
+      "sentence": "He was busy; ____, he asked me to help, she reported.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "nevertheless",
+      "hint": "Formal contrast marker - acknowledges but persists in reported context",
+      "clue": "n_v_r_h_l_ss",
+      "audio": "spell_nevertheless.mp3",
+      "sentence": "The task was difficult. ____, he asked me to try, she said.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "furthermore",
+      "hint": "Formal transition - adds supporting information in reported speech",
+      "clue": "f_r_h_r_o_e",
+      "audio": "spell_furthermore.mp3",
+      "sentence": "The plan was efficient. ____, he asked if it was cost-effective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "consequently",
+      "hint": "Formal result marker - shows logical outcome in reported explanations",
+      "clue": "c_n_s_q_u_ntly",
+      "audio": "spell_consequently.mp3",
+      "sentence": "Funding was cut. ____, he asked if the project would continue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "notwithstanding",
+      "hint": "Advanced preposition - formal contrast with noun phrase in reported speech",
+      "clue": "n_t_w_ih_t_nd_ng",
+      "audio": "spell_notwithstanding.mp3",
+      "sentence": "____ the challenges, he asked if we would proceed, she reported.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-9",
+      "word": "heretofore",
+      "hint": "Advanced adverb - formal time reference meaning 'until now' in reported context",
+      "clue": "h_r_t_f_r",
+      "audio": "spell_heretofore.mp3",
+      "sentence": "The data, ____ unavailable, now supports the hypothesis, he inquired.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "notwithstanding",
+      "hint": "Advanced preposition - formal contrast in reported clauses",
+      "clue": "n_t_w_ih_t_nd_ng",
+      "audio": "spell_notwithstanding.mp3",
+      "sentence": "____ the difficulties, she asked whether we should continue.",
+      "difficulty": "hard"
     }
   ],
   "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
     "badges": [
       {
         "id": "indirect-questions-master",
@@ -61,6 +667,46 @@
         "icon": "❓",
         "points": 25,
         "message": "You can convert any question to indirect form like a pro!"
+      },
+      {
+        "id": "request-reporting-pro",
+        "name": "Request Reporting Pro",
+        "condition": "Score 100% on infinitive structure activities",
+        "icon": "📋",
+        "points": 20,
+        "message": "You never mix up 'asked to' and 'told to' again!"
+      },
+      {
+        "id": "modal-transformation-champion",
+        "name": "Modal Transformation Champion",
+        "condition": "Correctly identify all modal verb changes in quizzes",
+        "icon": "🔑",
+        "points": 25,
+        "message": "You know exactly when modals change and when they don't!"
+      },
+      {
+        "id": "negative-infinitive-expert",
+        "name": "Negative Infinitive Expert",
+        "condition": "Spell all 'not to' structures correctly on first try",
+        "icon": "❌",
+        "points": 20,
+        "message": "You always put 'not' before 'to' in negative infinitives!"
+      },
+      {
+        "id": "formal-register-master",
+        "name": "Formal Register Master",
+        "condition": "Complete all advanced indirect speech activities with hedging",
+        "icon": "🎓",
+        "points": 30,
+        "message": "You can report speech in any register with perfect precision!"
+      },
+      {
+        "id": "indirect-speech-perfectionist",
+        "name": "Indirect Speech Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Flawless indirect speech! You're ready to report anything!"
       }
     ]
   }

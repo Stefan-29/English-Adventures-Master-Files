@@ -3,22 +3,219 @@
     {
       "id": "lesson-1",
       "title": "What Is Reported Speech? 🗣️",
-      "content": "<p>When someone shares an idea and you want to tell another person about it later, you use <strong>reported (indirect) speech</strong>! Instead of quoting exact words, you report the meaning.</p><p><strong>Direct Speech</strong> = exact words in quotation marks. <em>Example: Tom said, 'I like football.'</em></p><p><strong>Reported Speech</strong> = meaning without quotes. <em>Example: Tom said (that) he liked football.</em></p><table class='lesson-table table-blue'><thead><tr><th>Element</th><th>Direct</th><th>Reported</th><th>Change</th></tr></thead><tbody><tr><td><strong>Reporting Verb</strong></td><td>said/told</td><td>said/told</td><td>Same verb, different structure</td></tr><tr><td><strong>Pronouns</strong></td><td>I, you, my</td><td>he/she, I, his/her</td><td>Shift to match reporter's perspective</td></tr><tr><td><strong>Quotes</strong></td><td>Yes</td><td>No</td><td>Remove quotation marks</td></tr></tbody></table><p><em>Fun fact: The word 'that' is optional after reporting verbs! ✨</em></p><p>   <strong>Quick Rule:</strong> If the reporting verb is past (said/told), prepare to backshift. If present (says/tells), keep original tense.</p>",
-      "examples": ["Direct: 'I want to go home.' → Reported: She said (that) she wanted to go home.", "Direct: 'Can you help me?' → Reported: She asked if I could help her."],
+      "content": "<p>When someone shares an idea and you want to tell another person about it later, you use <strong>reported (indirect) speech</strong>! Instead of quoting exact words, you report the meaning.</p><p><strong>Direct Speech</strong> = exact words in quotation marks. <em>Example: Tom said, 'I like football.'</em></p><p><strong>Reported Speech</strong> = meaning without quotes. <em>Example: Tom said (that) he liked football.</em></p><table class='lesson-table table-blue'><thead><tr><th>Element</th><th>Direct Speech</th><th>Reported Speech</th><th>Change</th></tr></thead><tbody><tr><td><strong>Reporting Verb</strong></td><td>said / told</td><td>said / told</td><td>Same verb, different structure</td></tr><tr><td><strong>Pronouns</strong></td><td>I, you, my</td><td>he/she, I, his/her</td><td>Shift to match reporter's perspective</td></tr><tr><td><strong>Quotes</strong></td><td>Yes</td><td>No</td><td>Remove quotation marks</td></tr><tr><td><strong>'That'</strong></td><td>N/A</td><td>Optional</td><td>Can be omitted after reporting verbs</td></tr></tbody></table><p><em>Fun fact: The word 'that' is optional after reporting verbs—native speakers often drop it! ✨</em></p><p>   <strong>Quick Rule:</strong> If the reporting verb is past (said/told), prepare to backshift. If present (says/tells), keep original tense.</p>",
+      "examples": [
+        "Direct: <strong>'I want to go home.'</strong> → Reported: She said (that) she wanted to go home.",
+        "Direct: <strong>'Can you help me?'</strong> → Reported: She asked if I could help her."
+      ],
       "difficulty": 1,
       "audio": "lesson_1_intro.mp3",
-      "functions": ["Reporting statements someone made", "Changing pronouns to match perspective"],
+      "functions": [
+        "Reporting statements someone made",
+        "Changing pronouns to match perspective"
+      ],
       "tips": "   <strong>Quick Rule:</strong> If the reporting verb is past (said/told), prepare to backshift. If present (says/tells), keep original tense."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Reporting Verbs: Say vs. Tell vs. Ask 🎯",
+      "content": "<p>Now let's level up! 🎯 Not all reporting verbs work the same way. <strong>Say, tell, and ask</strong> have different patterns that you must master.</p><p><strong>Formation:</strong> [Subject] + <strong>[reporting verb]</strong> + [object/person] + (that) + [clause]. <em>Example: She told me (that) she was tired.</em></p><table class='lesson-table table-green'><thead><tr><th>Verb</th><th>Pattern</th><th>Example</th><th>Key Note</th></tr></thead><tbody><tr><td><strong>say</strong></td><td><code>say + (that) + clause</code></td><td>He said (that) he was busy.</td><td>No person object needed</td></tr><tr><td><strong>tell</strong></td><td><code>tell + person + (that) + clause</code></td><td>She told me (that) she was busy.</td><td>Requires person object</td></tr><tr><td><strong>ask</strong></td><td><code>ask + (person) + if/wh- + clause</code></td><td>He asked if I was busy.</td><td>For questions only</td></tr><tr><td><strong>explain</strong></td><td><code>explain + (to person) + (that) + clause</code></td><td>She explained (to me) that it was late.</td><td>'To' optional before person</td></tr></tbody></table><p><em>Fun fact: You can't say 'She said me'—it must be 'She told me' or 'She said to me'! 🚫</em></p><p>   <strong>Memory trick:</strong> SAY = no person needed. TELL = person required. ASK = for questions only.</p>",
+      "examples": [
+        "Correct: <strong>He said he was tired.</strong> / <strong>He told me he was tired.</strong>",
+        "Wrong: <strong>He said me he was tired.</strong> × → <strong>He told me he was tired.</strong> ✓",
+        "Question: <strong>'Are you tired?'</strong> → He asked if I was tired."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_reporting_verbs.mp3",
+      "functions": [
+        "Choosing the correct reporting verb for context",
+        "Using proper verb + object patterns"
+      ],
+      "tips": "   <strong>Memory trick:</strong> SAY = no person needed. TELL = person required. ASK = for questions only."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Pronoun Shifts in Reported Speech 👥",
+      "content": "<p>Time to explore another way! 👥 When reporting speech, <strong>pronouns</strong> must shift to match who is speaking and who is being addressed. This keeps your reported speech clear and logical.</p><p><strong>Pattern:</strong> [Subject of reporting verb] + <strong>said/told</strong> + (that) + [pronoun-adjusted clause]. <em>Example: Jane said, 'I need help' → Jane said she needed help.</em></p><table class='lesson-table table-teal'><thead><tr><th>Direct Speech</th><th>Context</th><th>Reported Speech</th><th>Pronoun Change</th></tr></thead><tbody><tr><td><strong>'I am tired.'</strong></td><td>Tom speaking</td><td><em>Tom said he was tired.</em></td><td>I → he</td></tr><tr><td><strong>'You are late.'</strong></td><td>Teacher to student</td><td><em>The teacher told me I was late.</em></td><td>You → I</td></tr><tr><td><strong>'We will win.'</strong></td><td>Team captain</td><td><em>He said they would win.</em></td><td>We → they</td></tr><tr><td><strong>'My car is broken.'</strong></td><td>Friend speaking</td><td><em>She said her car was broken.</em></td><td>My → her</td></tr></tbody></table><p><em>Fun fact: Possessive adjectives (my/your/our) change just like pronouns! 🔄</em></p><p>   <strong>Decision point:</strong> Who said it? → Use their pronoun (he/she/they). Who were they talking to? → Adjust 'you' accordingly.</p>",
+      "examples": [
+        "With <strong>first person</strong>: 'I love music' → He said he loved music.",
+        "With <strong>second person</strong>: 'You should rest' → She told me I should rest.",
+        "In questions: <strong>'Are you coming?'</strong> → He asked if I was coming."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_pronouns.mp3",
+      "functions": [
+        "Adjusting pronouns for clear perspective",
+        "Handling possessive adjectives in reported speech"
+      ],
+      "tips": "   <strong>Decision point:</strong> Who said it? → Use their pronoun (he/she/they). Who were they talking to? → Adjust 'you' accordingly."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Basic Tense Backshift: Present → Past ⏪",
+      "content": "<p>Here's where it gets interesting! ⏪ When the reporting verb is in the past, most present tenses shift 'back' to past. This is called <strong>tense backshift</strong>.</p><p><strong>The Rule:</strong> After past reporting verbs (said/told), present tenses usually become past tenses. <em>Example: 'I like coffee' → She said she liked coffee.</em></p><table class='lesson-table table-purple'><thead><tr><th>Direct Tense</th><th>Reported Tense</th><th>Example</th><th>Signal</th></tr></thead><tbody><tr><td><strong>Present Simple</strong></td><td><code>→ Past Simple</code></td><td>'I work here' → He said he worked here</td><td>General facts, habits</td></tr><tr><td><strong>Present Continuous</strong></td><td><code>→ Past Continuous</code></td><td>'I'm working' → She said she was working</td><td>Actions in progress</td></tr><tr><td><strong>Present Perfect</strong></td><td><code>→ Past Perfect</code></td><td>'I have finished' → He said he had finished</td><td>Completed with relevance</td></tr><tr><td><strong>Will</strong></td><td><code>→ Would</code></td><td>'I'll call' → She said she would call</td><td>Future intentions</td></tr></tbody></table><p><em>Fun fact: Past Perfect doesn't change—it's already as 'past' as it gets! 🎉</em></p><p><strong>Common mistake:</strong> 'She said she is coming' × → <strong>'She said she was coming'</strong> ✓</p><p>   <strong>Pro tip:</strong> Look for the reporting verb first. If it's past (said/told), backshift the tense in the reported clause.</p>",
+      "examples": [
+        "Positive: <strong>'I have finished'</strong> → She said she had finished.",
+        "Negative: <strong>'I don't know'</strong> → He said he didn't know.",
+        "Question form: <strong>'Do you understand?'</strong> → She asked if I understood."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_backshift.mp3",
+      "functions": [
+        "Applying basic tense backshift rules",
+        "Identifying when backshift is required"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Look for the reporting verb first. If it's past (said/told), backshift the tense in the reported clause."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Removing Quotation Marks & Punctuation 📝",
+      "content": "<p>Ready for the next level? 📝 One of the simplest but most important changes in reported speech is removing quotation marks and adjusting punctuation.</p><p><strong>Formation:</strong> Remove quotes, change capitalization, adjust punctuation. <em>Example: 'I am tired.' → He said he was tired.</em></p><table class='lesson-table table-orange'><thead><tr><th>Element</th><th>Direct Speech</th><th>Reported Speech</th><th>Change</th></tr></thead><tbody><tr><td><strong>Quotation Marks</strong></td><td>Yes: \"I'm busy.\"</td><td>No: He said he was busy.</td><td>Remove all quotes</td></tr><tr><td><strong>Capitalization</strong></td><td>Starts with capital</td><td>Continues sentence</td><td>Lowercase after 'that'</td></tr><tr><td><strong>Question Mark</strong></td><td>Yes: \"Are you OK?\"</td><td>No: He asked if I was OK.</td><td>Use period, not question mark</td></tr><tr><td><strong>Exclamation</strong></td><td>Yes: \"Great!\"</td><td>No: She said it was great.</td><td>Use period, adjust verb</td></tr></tbody></table><p><em>Fun fact: Reported questions never use question marks—they become statements! ❓→.</em></p><p><strong>Common mistake:</strong> She said, \"that she was tired\" × → <strong>She said that she was tired.</strong> ✓</p><p>   <strong>When to use:</strong> Always remove quotes in reported speech. Keep punctuation simple: usually just a period at the end.</p>",
+      "examples": [
+        "Statement: <strong>'I like pizza.'</strong> → He said he liked pizza.",
+        "Question: <strong>'Do you like pizza?'</strong> → She asked if I liked pizza.",
+        "Exclamation: <strong>'What a great day!'</strong> → He exclaimed that it was a great day."
+      ],
+      "difficulty": 1,
+      "audio": "lesson_5_punctuation.mp3",
+      "functions": [
+        "Converting direct punctuation to reported form",
+        "Adjusting capitalization and sentence structure"
+      ],
+      "tips": "   <strong>When to use:</strong> Always remove quotes in reported speech. Keep punctuation simple: usually just a period at the end."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Negative Statements in Reported Speech ❌",
+      "content": "<p>Let's master the full picture! ❌ Knowing how to report <strong>negative statements</strong> completes your control of basic reported speech.</p><p><strong>Negative Formation:</strong> [Subject] + <strong>said/told</strong> + (that) + [subject] + <strong>didn't/wasn't/hadn't</strong> + [rest]. <em>Example: 'I don't like coffee' → He said he didn't like coffee.</em></p><table class='lesson-table table-pink'><thead><tr><th>Direct Negative</th><th>Structure Pattern</th><th>Reported Form</th><th>Key Change</th></tr></thead><tbody><tr><td><strong>Present Simple Neg</strong></td><td><code>don't/doesn't + verb</code></td><td><code>didn't + verb</code></td><td>do/does → did</td></tr><tr><td><strong>Present Continuous Neg</strong></td><td><code>am/is/are + not + -ing</code></td><td><code>was/were + not + -ing</code></td><td>am/is/are → was/were</td></tr><tr><td><strong>Present Perfect Neg</strong></td><td><code>haven't/hasn't + past participle</code></td><td><code>hadn't + past participle</code></td><td>have/has → had</td></tr><tr><td><strong>Will Neg</strong></td><td><code>won't + verb</code></td><td><code>wouldn't + verb</code></td><td>will → would</td></tr></tbody></table><p><em>Fun fact: 'Don't' becomes 'didn't' in reported speech, not 'don't'—the auxiliary shifts too! 🔄</em></p><p><strong>Common mistake:</strong> 'She said she don't like it' × → <strong>'She said she didn't like it'</strong> ✓</p><p>   <strong>Remember:</strong> In negatives, the auxiliary verb (do/does/is/have/will) backshifts just like the main verb.</p>",
+      "examples": [
+        "Negative statement: <strong>'I don't know.'</strong> → He said he didn't know.",
+        "Negative continuous: <strong>'I'm not working.'</strong> → She said she wasn't working.",
+        "Negative perfect: <strong>'I haven't seen it.'</strong> → He said he hadn't seen it."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_negatives.mp3",
+      "functions": [
+        "Reporting negative statements correctly",
+        "Backshifting negative auxiliaries"
+      ],
+      "tips": "   <strong>Remember:</strong> In negatives, the auxiliary verb (do/does/is/have/will) backshifts just like the main verb."
+    },
+    {
+      "id": "lesson-7",
+      "title": "When NOT to Backshift: General Truths ✨",
+      "content": "<p>Here's a crucial rule! ✨ Sometimes we <strong>don't backshift</strong> tenses in reported speech. This happens with general truths, scientific facts, and permanent situations.</p><p><strong>The Exception:</strong> If the statement is always true or still true now, you can keep the present tense. <em>Example: 'The Earth orbits the Sun' → She said the Earth orbits the Sun.</em></p><table class='lesson-table table-gray'><thead><tr><th>Context</th><th>Backshift?</th><th>Example</th><th>Why?</th></tr></thead><tbody><tr><td><strong>General Truth</strong></td><td>Optional</td><td>'Water boils at 100°C' → He said water boils/boiled at 100°C.</td><td>Fact is always true</td></tr><tr><td><strong>Still True Now</strong></td><td>Optional</td><td>'I am 25' (said yesterday) → She said she is/was 25.</td><td>Age hasn't changed</td></tr><tr><td><strong>Reporting Verb Present</strong></td><td>No</td><td>'I'm tired' → He says he is tired.</td><td>Same time frame</td></tr><tr><td><strong>Specific Past Event</strong></td><td>Yes</td><td>'I was tired yesterday' → He said he had been tired.</td><td>Completed past action</td></tr></tbody></table><p><em>Fun fact: In formal/academic writing, backshifting is often preferred even for general truths! 📚</em></p><p><strong>Common mistake:</strong> Over-applying the exception. When in doubt, backshift—it's never wrong!</p><p>   <strong>Master level:</strong> In casual speech, keep present tense for timeless facts. In formal writing, backshift for consistency.</p>",
+      "examples": [
+        "Scientific fact: <strong>'The sun rises in the east.'</strong> → He said the sun rises/rose in the east.",
+        "Permanent situation: <strong>'Paris is in France.'</strong> → She said Paris is/was in France.",
+        "Still true: <strong>'I live in London.'</strong> → He said he lives/lived in London."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_exceptions.mp3",
+      "functions": [
+        "Identifying when backshift is optional",
+        "Adapting reported speech to context and register"
+      ],
+      "tips": "   <strong>Master level:</strong> In casual speech, keep present tense for timeless facts. In formal writing, backshift for consistency."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Putting It All Together 🏆",
+      "content": "<p>You've come so far! 🏆 Let's tackle the <strong>complete transformation</strong> from direct to reported speech, combining all the rules you've learned.</p><p><strong>Complete Checklist:</strong> 1) Choose reporting verb 2) Adjust pronouns 3) Backshift tenses (if needed) 4) Change time/place words 5) Remove quotes 6) Adjust punctuation.</p><table class='lesson-table table-yellow'><thead><tr><th>Step</th><th>Action</th><th>Example Transformation</th></tr></thead><tbody><tr><td><strong>1. Reporting Verb</strong></td><td>Select said/told/asked</td><td>Tom <strong>said</strong>...</td></tr><tr><td><strong>2. Pronouns</strong></td><td>I→he, you→I/me, my→his/her</td><td>...'I like my car' → ...he liked <strong>his</strong> car</td></tr><tr><td><strong>3. Tense Backshift</strong></td><td>Present→Past, will→would, etc.</td><td>...'like' → <strong>liked</strong></td></tr><tr><td><strong>4. Time/Place</strong></td><td>today→that day, here→there</td><td>...'today' → <strong>that day</strong></td></tr><tr><td><strong>5. Remove Quotes</strong></td><td>Delete quotation marks</td><td>Remove \" \" around the clause</td></tr><tr><td><strong>6. Punctuation</strong></td><td>Use period, not question mark</td><td>End with <strong>.</strong> not ?</td></tr></tbody></table><p><em>Fun fact: Native speakers often skip 'that' in casual speech—'He said he was tired' sounds more natural than 'He said that he was tired'! 💬</em></p><p><strong>Mastery checklist:</strong> ✓ Reporting verb chosen ✓ Pronouns shifted ✓ Tenses backshifted (if needed) ✓ Time/place adjusted ✓ Quotes removed ✓ Punctuation fixed</p><p>   <strong>Pro tip:</strong> Practice the full transformation step-by-step at first. With time, it becomes automatic!</p>",
+      "examples": [
+        "Full example: <strong>'I will call you tomorrow.'</strong> → He said he would call me the next day.",
+        "Complex: <strong>'I can't come today because I'm busy.'</strong> → She said she couldn't come that day because she was busy.",
+        "Question: <strong>'Where did you go yesterday?'</strong> → He asked where I had gone the day before."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Combining all reported speech rules in complex transformations",
+        "Achieving natural, fluent reported speech"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Practice the full transformation step-by-step at first. With time, it becomes automatic!"
     }
   ],
   "writingActivities": [
     {
       "id": "writing-1",
-      "question": "Report what your friend said about their day using basic reported speech. Include: a statement with said/told, a pronoun change, and remove quotation marks.",
+      "question": "Report what your friend said about their weekend using basic reported speech. Include: a statement with said/told, a pronoun change, and remove quotation marks.",
       "hint": "Start with 'My friend said (that)...'. Change I→he/she, my→his/her. Example: <em>My friend said that she was tired after work.</em>",
       "expectedKeywords": ["said/told", "pronoun change", "past tense verb", "that (optional)", "no quotes"],
       "sentenceStarters": ["My friend said that...", "He/She told me that..."],
       "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Convert this direct statement to reported speech: 'I like playing football on Saturdays.'",
+      "hint": "Use <strong>said/told</strong> + backshift present simple to past simple. Example: <em>He said he liked playing football on Saturdays.</em>",
+      "expectedKeywords": ["said/told", "liked", "pronoun shift", "that (optional)"],
+      "sentenceStarters": ["He said that...", "She told me that..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Tell a short story about what your teacher announced in class today. Use reported speech at least twice.",
+      "hint": "Begin with 'The teacher announced that...'. Add details with time markers like <strong>that day</strong> or <strong>the next day</strong>.",
+      "expectedKeywords": ["announced/said", "time marker", "descriptive adjective", "action verb", "pronoun shift"],
+      "sentenceStarters": ["Today, the teacher said that...", "First, she announced... Then, she explained..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Describe a conversation where someone gave you advice. Use reported speech for the advice and include a modal verb (should/could/might).",
+      "hint": "Remember: <strong>advised/suggested</strong> for advice. Modal verbs like 'should' often don't change in reported speech. Example: <em>She advised me to study more, saying I should focus on grammar.</em>",
+      "expectedKeywords": ["advised/suggested", "modal verb (should/could/might)", "infinitive (to + verb)", "pronoun adjustment", "transition word"],
+      "sentenceStarters": ["My friend advised me to...", "She suggested that I should...", "He told me I could..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Compare what two different people said about the same event using reported speech. Show how their perspectives differed.",
+      "hint": "Use <strong>however/although</strong> to show contrast between their statements. Add <strong>similarly/both</strong> if they agreed on something.",
+      "expectedKeywords": ["contrast marker", "comparison marker", "said/told/explained", "example detail", "pronoun consistency"],
+      "sentenceStarters": ["Both John and Mary said that..., but John added...", "While Sarah claimed..., Tom insisted..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write a paragraph reporting a news announcement. Use cause-effect markers to explain why the announcement was made.",
+      "hint": "Start with the cause: <strong>because/since/as</strong>. Then show the result: <strong>therefore/so/consequently</strong>.",
+      "expectedKeywords": ["cause marker", "effect marker", "announced/stated", "result phrase", "time expression shift"],
+      "sentenceStarters": ["The mayor announced that... because...", "This led to... since..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Express an opinion about a rule at school/work. Report what someone else said about it, then give your view.",
+      "hint": "State your view with <strong>I believe/In my opinion</strong>. Support it with <strong>for example/this is because</strong>. Report others with <strong>said/told</strong>.",
+      "expectedKeywords": ["opinion marker", "evidence marker", "reporting verb", "supporting detail", "tense backshift"],
+      "sentenceStarters": ["In my opinion,... because my teacher said that...", "I believe that... as my colleague explained..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Describe a hypothetical situation using reported conditional speech. Include what someone said they would do if a condition were met.",
+      "hint": "Use <strong>If + past simple, would + base verb</strong> in reported form. Example: <em>She said that if it rained, she would stay home.</em>",
+      "expectedKeywords": ["conditional marker (if)", "would/could/might", "consequence phrase", "reported verb form", "time expression"],
+      "sentenceStarters": ["If I had enough time, I would... he said.", "She mentioned that if..., she would..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Report a complex conversation involving a statement, a negative, and a general truth. Show mastery by using correct structures for each.",
+      "hint": "This requires 3 different approaches: backshift for past statements, keep present for general truths, handle negatives correctly. Pay attention to pronoun shifts.",
+      "expectedKeywords": ["backshift marker", "no-change marker", "negative auxiliary", "connecting phrase", "complex verb form"],
+      "sentenceStarters": ["Although she said..., he explained that...", "When I asked..., she replied that..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a formal email summarizing a meeting. Use reported speech to convey what colleagues said, with hedging language and polite conclusions.",
+      "hint": "Maintain formal register: avoid contractions, use <strong>passive voice/formal connectors</strong>, end with <strong>polite closing</strong>. Report speech with <strong>stated/indicated/suggested</strong>.",
+      "expectedKeywords": ["formal connector", "hedging phrase", "passive construction", "polite closing", "professional vocabulary"],
+      "sentenceStarters": ["It was stated that...", "One colleague suggested that, given the circumstances..."],
+      "difficulty": 3
     }
   ],
   "gameActivities": [
@@ -26,25 +223,333 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Choose the correct reported speech form:",
-      "sentence": "Direct: 'I like ice cream.' → Reported: She said ______.",
+      "sentence": "Direct: 'I like ice cream.' → Reported: She said ____.",
       "options": ["that she liked ice cream", "that she likes ice cream", "that she will like ice cream", "that she had liked ice cream"],
       "correctAnswer": ["that she liked ice cream"],
       "audio": "game_1_sentence.mp3",
-      "hint": "Present Simple in direct speech often becomes Past Simple in reported speech.",
+      "hint": "Present Simple in direct speech → Past Simple in reported speech when the reporting verb is past.",
       "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Select the right pronoun for reported speech:",
+      "sentence": "Tom said: '____ am tired.' → Tom said that ____ was tired.",
+      "options": ["I / he", "You / I", "He / he", "She / she"],
+      "correctAnswer": ["I / he"],
+      "audio": "game_2_sentence.mp3",
+      "hint": "First person 'I' in direct speech becomes third person (he/she) when reporting what someone else said.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct reporting verb:",
+      "sentence": "Direct: 'I'm busy.' → She ____ me that she was busy.",
+      "options": ["told", "said", "asked", "explained"],
+      "correctAnswer": ["told"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "Use 'told' when there's a person object (me/him/her). Use 'said' without a person object.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose whether to keep or remove quotation marks:",
+      "sentence": "Reported speech: He said ____ he was tired.",
+      "options": ["\"that", "that", "'that", "that\""],
+      "correctAnswer": ["that"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "Reported speech does not use quotation marks. Remove them when converting from direct speech.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the correct negative form in reported speech:",
+      "sentence": "Direct: 'I don't like coffee.' → Reported: He said he ____ coffee.",
+      "options": ["didn't like", "don't like", "doesn't like", "hadn't liked"],
+      "correctAnswer": ["didn't like"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "Present Simple negative 'don't' backshifts to Past Simple negative 'didn't' in reported speech.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which sentence correctly uses 'say' vs 'tell'?",
+      "sentence": "Choose the correct option:",
+      "options": ["She said me she was tired.", "She told me she was tired.", "She told she was tired.", "She said to me that she was tired."],
+      "correctAnswer": ["She told me she was tired."],
+      "audio": "game_6_sentence.mp3",
+      "hint": "'Tell' requires a person object (me/him/her). 'Say' does not, or uses 'to + person'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Choose the correct tense backshift:",
+      "sentence": "Direct: 'I am working now.' → Reported: She said she ____ then.",
+      "options": ["was working", "is working", "had been working", "would be working"],
+      "correctAnswer": ["was working"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "Present Continuous backshifts to Past Continuous in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Select the appropriate form for a general truth:",
+      "sentence": "Direct: 'Water boils at 100°C.' → Reported: He said water ____ at 100°C.",
+      "options": ["boils", "boiled", "had boiled", "would boil"],
+      "correctAnswer": ["boils"],
+      "audio": "game_8_sentence.mp3",
+      "hint": "General truths/scientific facts can keep present tense in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Pick the correct punctuation for reported speech:",
+      "sentence": "Direct: 'Are you coming?' → Reported: She asked if I was coming ____",
+      "options": [".", "?", "!", ";"],
+      "correctAnswer": ["."],
+      "audio": "game_9_sentence.mp3",
+      "hint": "Reported questions use statement punctuation (period), not question marks.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Choose the correct pronoun shift for possessive adjectives:",
+      "sentence": "Direct: 'My car is broken.' → Reported: She said ____ car was broken.",
+      "options": ["her", "my", "his", "their"],
+      "correctAnswer": ["her"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "Possessive adjectives shift like pronouns: my→his/her, your→my/our, our→their.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Select the correct form when the reporting verb is present:",
+      "sentence": "Direct: 'I am tired.' → Reported (immediate): He says he ____ tired.",
+      "options": ["is", "was", "had been", "would be"],
+      "correctAnswer": ["is"],
+      "audio": "game_11_sentence.mp3",
+      "hint": "If the reporting verb is present (says), don't backshift the tense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the most precise reported form:",
+      "sentence": "Direct: 'I have been waiting for an hour.' → Reported: She said she ____ for an hour.",
+      "options": ["had been waiting", "has been waiting", "was waiting", "would be waiting"],
+      "correctAnswer": ["had been waiting"],
+      "audio": "game_12_sentence.mp3",
+      "hint": "Present Perfect Continuous backshifts to Past Perfect Continuous.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Choose the correct form for reported speech with 'will':",
+      "sentence": "Direct: 'I will help you.' → Reported: He said he ____ me.",
+      "options": ["would help", "will help", "had helped", "helped"],
+      "correctAnswer": ["would help"],
+      "audio": "game_13_sentence.mp3",
+      "hint": "'Will' changes to 'would' in reported speech when the reporting verb is past.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Select the appropriate form showing no backshift for immediacy:",
+      "sentence": "Direct: 'I am leaving now.' (said 2 minutes ago) → Reported: She says she ____ now.",
+      "options": ["is leaving", "was leaving", "had been leaving", "would leave"],
+      "correctAnswer": ["is leaving"],
+      "audio": "game_14_sentence.mp3",
+      "hint": "If reporting immediately or the situation is still current, backshift may not be needed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Choose the correct complete transformation:",
+      "sentence": "Direct: 'I can't come tomorrow because I'm busy.' → Reported: ____",
+      "options": ["She said she couldn't come the next day because she was busy.", "She said she can't come tomorrow because she's busy.", "She said she couldn't come tomorrow because she was busy.", "She said she can't come the next day because she's busy."],
+      "correctAnswer": ["She said she couldn't come the next day because she was busy."],
+      "audio": "game_15_sentence.mp3",
+      "hint": "Check: pronouns, tense backshift, time expression, and negation all changed correctly.",
+      "difficulty": "hard"
     }
   ],
   "quizActivities": [
     {
       "id": "quiz-1",
       "question": "What is the main difference between direct and reported speech?",
-      "sentence": "Direct: 'I am happy.' → Reported: She said ______.",
+      "sentence": "Direct: 'I am happy.' → Reported: She said ____.",
       "options": ["that she was happy", "that she is happy", "that she had been happy", "that she will be happy"],
       "correctAnswer": "that she was happy",
       "audio": "quiz_1_sentence.mp3",
       "hint": "Reported speech usually removes quotes and may change pronouns/tense.",
       "difficulty": "easy",
       "explanation": "Reported speech reports the meaning without quotation marks. Pronouns and tenses often shift to match the reporting context."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses reported speech for a statement?",
+      "sentence": "Choose the correct option: Tom said, 'I am happy.'",
+      "options": ["Tom said that he was happy.", "Tom said that he is happy.", "Tom said that he had been happy.", "Tom said that he will be happy."],
+      "correctAnswer": "Tom said that he was happy.",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Check subject-verb agreement and tense consistency.",
+      "difficulty": "easy",
+      "explanation": "This question tests basic reported speech usage. The correct answer follows the backshift rule: Present Continuous 'am' → Past Continuous 'was'."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Identify the reporting verb in this sentence:",
+      "sentence": "She told me that she would call later.",
+      "options": ["told", "would call", "that", "later"],
+      "correctAnswer": "told",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "Look for the verb that introduces what someone said.",
+      "difficulty": "easy",
+      "explanation": "'Told' is the reporting verb—it introduces the reported clause 'that she would call later'. 'Would call' is the reported action, not the reporting verb."
+    },
+    {
+      "id": "quiz-4",
+      "question": "What is the correct reported form for this everyday statement?",
+      "sentence": "Direct: 'I need a break.' (casual conversation)",
+      "options": ["He said he needed a break.", "He said he needs a break.", "He said he had needed a break.", "He said he would need a break."],
+      "correctAnswer": "He said he needed a break.",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "Consider the register: is this formal or informal?",
+      "difficulty": "easy",
+      "explanation": "In everyday contexts with past reporting verb, we backshift: 'need' → 'needed'. Option B keeps present tense (acceptable only if reporting verb is present or fact is timeless)."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which word best completes this reported statement?",
+      "sentence": "Direct: 'I like coffee.' → Reported: She said ____ she liked coffee.",
+      "options": ["that", "if", "what", "when"],
+      "correctAnswer": "that",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Do the ideas agree, contrast, or show cause-effect?",
+      "difficulty": "easy",
+      "explanation": "'That' introduces reported statements. 'If/whether' are for reported yes/no questions. 'What/when' are for reported wh-questions."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which sentence correctly uses 'say' vs 'tell'?",
+      "sentence": "Choose the correct option:",
+      "options": ["She said me she was tired.", "She told me she was tired.", "She told she was tired.", "She said to me that she was tired."],
+      "correctAnswer": "She told me she was tired.",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Pay attention to the structure for reporting statements.",
+      "difficulty": "medium",
+      "explanation": "'Tell' requires a person object (me/him/her). 'Say' does not, or uses 'to + person'. Only options B and D are grammatically possible; B is more natural."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct tense sequence for this reported narrative:",
+      "sentence": "When I arrived, she said she ____ already left.",
+      "options": ["had", "has", "would have", "was having"],
+      "correctAnswer": "had",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Which action happened first? Use past perfect for the earlier action.",
+      "difficulty": "medium",
+      "explanation": "Past perfect (had + past participle) shows an action completed before another past action. She left BEFORE I arrived, so 'had already left' is correct in reported speech."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Select the appropriate pronoun change for reported speech:",
+      "sentence": "Jane said: 'My brother is visiting.' → Jane said ____ brother was visiting.",
+      "options": ["her", "my", "his", "their"],
+      "correctAnswer": "her",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "Whose brother is it? Adjust possessive to match the speaker.",
+      "difficulty": "medium",
+      "explanation": "When Jane speaks, 'my brother' refers to her brother. In reported speech, we shift to third person: 'her brother'. 'His' would refer to a male's brother; 'my' keeps first person incorrectly."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which time expression correctly completes this reported sentence?",
+      "sentence": "Direct: 'I'll see you tomorrow.' → Reported: He said he would see me ____.",
+      "options": ["the next day", "tomorrow", "yesterday", "today"],
+      "correctAnswer": "the next day",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "Which preposition pairs with 'look' to mean 'search for information'?",
+      "difficulty": "medium",
+      "explanation": "'Tomorrow' in direct speech usually becomes 'the next day' or 'the following day' in reported speech. 'Tomorrow' can stay only if reporting on the same day; 'yesterday/today' are incorrect shifts."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Choose the correct word order for this reported statement:",
+      "sentence": "Direct: 'I don't understand.' → Reported: She said ____.",
+      "options": ["that she didn't understand", "that she don't understand", "that she doesn't understand", "that she hadn't understand"],
+      "correctAnswer": "that she didn't understand",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Question word + subject + backshifted verb (statement order).",
+      "difficulty": "medium",
+      "explanation": "Reported statements use statement word order. Present Simple negative 'don't' backshifts to Past Simple negative 'didn't'. Options B, C, D violate backshift or agreement rules."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Identify the error in this reported speech sentence:",
+      "sentence": "She said that she don't like coffee, but she drinks tea everyday.",
+      "options": ["don't → doesn't", "everyday → every day", "Both A and B", "No error"],
+      "correctAnswer": "Both A and B",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "Check subject-verb agreement AND word choice.",
+      "difficulty": "medium",
+      "explanation": "Two errors: (1) 'She' (third person) needs 'doesn't', not 'don't'. (2) 'Everyday' is an adjective; 'every day' (two words) is the adverbial phrase meaning 'each day'. Both need correction."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Choose the best form to complete the sentence:",
+      "sentence": "He said that if he ____ enough money, he would travel.",
+      "options": ["had", "has", "will have", "would have"],
+      "correctAnswer": "had",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "This tests the difference between conditional forms in reported speech.",
+      "difficulty": "hard",
+      "explanation": "This is a reported second conditional. Direct: 'If I have enough money, I will travel' → Reported: 'He said that if he had enough money, he would travel.' 'Had' (past simple) is correct after 'if' in reported conditionals."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which sentence demonstrates correct advanced reported speech usage?",
+      "sentence": "Select the most sophisticated option:",
+      "options": ["The researcher stated that the data appears to support the hypothesis, though further analysis is warranted.", "The researcher said the data supports the hypothesis.", "The researcher stated that the data supported the hypothesis.", "The researcher says that the data supports the hypothesis."],
+      "correctAnswer": "The researcher stated that the data appears to support the hypothesis, though further analysis is warranted.",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "Look for appropriate register, precise vocabulary, and structural complexity.",
+      "difficulty": "hard",
+      "explanation": "Advanced usage requires not just grammatical correctness but appropriate register and contextual fit. Option A demonstrates hedging ('appears to'), formal vocabulary ('warranted'), and nuanced reporting."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the stylistic issue in this formal reported speech:",
+      "sentence": "The committee said they can't approve the proposal 'cause it's too expensive.",
+      "options": ["Informal contractions in formal context", "Correct formal usage", "Overly complex syntax", "Missing hedging language"],
+      "correctAnswer": "Informal contractions in formal context",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Formal writing avoids contractions and colloquialisms.",
+      "difficulty": "hard",
+      "explanation": "In formal/academic writing, contractions (can't, 'cause, it's) should be expanded (cannot, because, it is). This maintains professional register and clarity."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Choose the most precise hedging expression for academic reported speech:",
+      "sentence": "The study ____ suggest a correlation, though further research is needed.",
+      "options": ["appears to", "definitely", "might possibly maybe", "is proven to"],
+      "correctAnswer": "appears to",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Academic writing uses hedging to show caution with claims.",
+      "difficulty": "hard",
+      "explanation": "'Appears to' provides appropriate hedging for academic claims—confident but not absolute. 'Definitely' and 'is proven to' are too strong without conclusive evidence; 'might possibly maybe' is redundant and weakens the argument."
     }
   ],
   "spellingActivities": [
@@ -54,12 +559,98 @@
       "hint": "Subordinating conjunction - shows contrast in reported clauses",
       "clue": "a_l_ou_h",
       "audio": "spell_although.mp3",
-      "sentence": "______ it was raining, she said she would go out.",
+      "sentence": "____ it was raining, she said she would go out.",
       "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "because",
+      "hint": "Subordinating conjunction - shows reason in reported explanations",
+      "clue": "b_c_u_e",
+      "audio": "spell_because.mp3",
+      "sentence": "He explained that he was late ____ the traffic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "however",
+      "hint": "Transition word - shows contrast between reported statements",
+      "clue": "h_w_v_r",
+      "audio": "spell_however.mp3",
+      "sentence": "She said she was tired. ____, she finished her work.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "therefore",
+      "hint": "Transition word - shows result in reported conclusions",
+      "clue": "t_e_e_o_e",
+      "audio": "spell_therefore.mp3",
+      "sentence": "She studied hard; ____, she passed the exam, he reported.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "despite",
+      "hint": "Preposition - shows contrast with noun/gerund in reported clauses",
+      "clue": "d_s_ite",
+      "audio": "spell_despite.mp3",
+      "sentence": "____ the rain, she said she would go hiking.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "furthermore",
+      "hint": "Formal transition - adds supporting information in reported speech",
+      "clue": "f_r_h_r_o_e",
+      "audio": "spell_furthermore.mp3",
+      "sentence": "The report stated the plan was efficient. ____, it was cost-effective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "nevertheless",
+      "hint": "Formal contrast marker - acknowledges but persists in reported context",
+      "clue": "n_v_r_h_l_ss",
+      "audio": "spell_nevertheless.mp3",
+      "sentence": "The odds were against us. ____, we succeeded, she said.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "consequently",
+      "hint": "Formal result marker - shows logical outcome in reported explanations",
+      "clue": "c_n_s_q_u_ntly",
+      "audio": "spell_consequently.mp3",
+      "sentence": "Funding was cut. ____, the project halted, they reported.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "notwithstanding",
+      "hint": "Advanced preposition - formal contrast with noun phrase in reported speech",
+      "clue": "n_t_w_ih_t_nd_ng",
+      "audio": "spell_notwithstanding.mp3",
+      "sentence": "____ the challenges, the team delivered excellent results, he stated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "heretofore",
+      "hint": "Advanced adverb - formal time reference meaning 'until now' in reported context",
+      "clue": "h_r_t_f_r",
+      "audio": "spell_heretofore.mp3",
+      "sentence": "The data, ____ unavailable, now supports the hypothesis, the researcher reported.",
+      "difficulty": "hard"
     }
   ],
   "rewards": {
-    "stars": {"bronze": 10, "silver": 25, "gold": 40, "platinum": 60},
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
     "badges": [
       {
         "id": "reported-speech-explorer",
@@ -68,6 +659,46 @@
         "icon": "🗣️",
         "points": 15,
         "message": "You've mastered the basics of reporting what others say!"
+      },
+      {
+        "id": "pronoun-shift-pro",
+        "name": "Pronoun Shift Pro",
+        "condition": "Score 100% on pronoun change activities",
+        "icon": "👥",
+        "points": 20,
+        "message": "You never mix up I/he/she in reported speech again!"
+      },
+      {
+        "id": "backshift-champion",
+        "name": "Backshift Champion",
+        "condition": "Complete all tense backshift games with no mistakes",
+        "icon": "⏪",
+        "points": 25,
+        "message": "You've got the tense shifts down perfectly!"
+      },
+      {
+        "id": "say-tell-master",
+        "name": "Say/Tell Master",
+        "condition": "Correctly use say vs tell in 5 consecutive activities",
+        "icon": "🎯",
+        "points": 20,
+        "message": "You know exactly when to use say and when to use tell!"
+      },
+      {
+        "id": "general-truth-expert",
+        "name": "General Truth Expert",
+        "condition": "Identify all exceptions to backshift rules correctly",
+        "icon": "✨",
+        "points": 25,
+        "message": "You know when to backshift and when to keep present tense!"
+      },
+      {
+        "id": "reported-speech-perfectionist",
+        "name": "Reported Speech Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Flawless reported speech! You're ready to report anything!"
       }
     ]
   }

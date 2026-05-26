@@ -1,0 +1,726 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Look vs See vs Watch: Intention & Attention 👁️",
+      "content": "<p>Here's where it gets interesting! 👁️ Many learners confuse <strong>look</strong>, <strong>see</strong>, and <strong>watch</strong>. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Verb</th><th>Meaning</th><th>Intention</th><th>Duration</th><th>Example</th></tr></thead><tbody><tr><td><strong>look</strong></td><td>direct eyes intentionally</td><td>Deliberate</td><td>Short/focused</td><td><em>Look at that bird!</em></td></tr><tr><td><strong>see</strong></td><td>perceive with eyes</td><td>Often accidental</td><td>Instant</td><td><em>I saw a fox in the garden.</em></td></tr><tr><td><strong>watch</strong></td><td>observe attentively</td><td>Deliberate</td><td>Extended</td><td><em>We watched the film.</em></td></tr></tbody></table><p><strong>The secret:</strong> <strong>Look</strong> = intentional direction. <strong>See</strong> = perception (may be accidental). <strong>Watch</strong> = focused observation over time.</p><p><em>Fun fact: We 'see' a film at the cinema, but 'watch' it on TV at home! 🎬</em></p><p>   <strong>Pro tip:</strong> Ask: 'Am I intentionally looking?' → look. 'Did I just notice it?' → see. 'Am I observing over time?' → watch.</p>",
+      "examples": [
+        "<strong>Look</strong> example: 'Look at that house!' (intentional)",
+        "<strong>See</strong> example: 'I saw a fox.' (noticed accidentally)",
+        "<strong>Watch</strong> example: 'We watched the parade.' (focused observation)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_look_see_watch.mp3",
+      "functions": [
+        "Choosing correctly between look/see/watch",
+        "Using proper prepositions with each verb"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Ask: 'Am I intentionally looking?' → look. 'Did I just notice it?' → see. 'Am I observing over time?' → watch."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Raise vs Rise vs Arise: Who Does the Action? ⬆️",
+      "content": "<p>Ready for the next level? ⬆️ The verbs <strong>raise</strong>, <strong>rise</strong>, and <strong>arise</strong> confuse even native speakers. Let's master them.</p><p><strong>Key Difference:</strong> <strong>Raise</strong> = you lift something (transitive). <strong>Rise</strong> = something goes up by itself (intransitive). <strong>Arise</strong> = a situation begins (abstract).</p><table class='lesson-table table-green'><thead><tr><th>Verb</th><th>Type</th><th>Meaning</th><th>Conjugation</th><th>Example</th></tr></thead><tbody><tr><td><strong>raise</strong></td><td>Transitive</td><td>lift, increase, collect</td><td>raise/raised/raised</td><td><em>She raised her hand.</em></td></tr><tr><td><strong>rise</strong></td><td>Intransitive</td><td>go up, get up</td><td>rise/rose/risen</td><td><em>The sun rises in the east.</em></td></tr><tr><td><strong>arise</strong></td><td>Intransitive</td><td>begin, occur (abstract)</td><td>arise/arose/arisen</td><td><em>A problem arose.</em></td></tr></tbody></table><p><em>Fun fact: 'Rise' is irregular (rise/rose/risen) but 'raise' is regular (raise/raised/raised)! 🔄</em></p><p><strong>Common mistake:</strong> 'The sun raises in the east' × → <strong>'The sun rises in the east'</strong> ✓</p><p>   <strong>Decision point:</strong> Is there a direct object? → Use <strong>raise</strong>. No object, physical movement? → <strong>rise</strong>. No object, abstract situation? → <strong>arise</strong>.</p>",
+      "examples": [
+        "With object: <strong>'Raise your hand.'</strong> (you lift it)",
+        "No object, physical: <strong>'Prices rise.'</strong> (they go up)",
+        "No object, abstract: <strong>'A question arose.'</strong> (it occurred)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_raise_rise_arise.mp3",
+      "functions": [
+        "Distinguishing transitive vs intransitive usage",
+        "Using correct conjugations for each verb"
+      ],
+      "tips": "   <strong>Decision point:</strong> Is there a direct object? → Use <strong>raise</strong>. No object, physical movement? → <strong>rise</strong>. No object, abstract situation? → <strong>arise</strong>."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Rob vs Burgle vs Steal: Who/What Is Affected? 🔐",
+      "content": "<p>Time to explore another way! 🔐 The verbs <strong>rob</strong>, <strong>burgle</strong>, and <strong>steal</strong> all involve taking things illegally, but they focus on different parts of the crime.</p><p><strong>Key Difference:</strong> <strong>Rob</strong> = target is person/place. <strong>Steal</strong> = target is the thing taken. <strong>Burgle</strong> = break into a building to steal.</p><table class='lesson-table table-teal'><thead><tr><th>Verb</th><th>Target</th><th>Structure</th><th>Example</th></tr></thead><tbody><tr><td><strong>rob</strong></td><td>person or place</td><td>rob + person/place + (of + thing)</td><td><em>They robbed the bank.</em></td></tr><tr><td><strong>steal</strong></td><td>the thing taken</td><td>steal + thing + from + person/place</td><td><em>They stole money from the bank.</em></td></tr><tr><td><strong>burgle</strong></td><td>building/house</td><td>burgle + building</td><td><em>Someone burgled our house.</em></td></tr></tbody></table><p><em>Fun fact: 'Burgle' is mainly British English; Americans say 'burglarize'! 🇬🇧🇺🇸</em></p><p><strong>Common mistake:</strong> 'They stole the bank' × → <strong>'They robbed the bank'</strong> ✓</p><p>   <strong>Memory trick:</strong> Rob the PLACE/PERSON. Steal the THING. Burgle the BUILDING.</p>",
+      "examples": [
+        "<strong>Rob</strong>: 'The gang robbed the jewelry store.'",
+        "<strong>Steal</strong>: 'The gang stole jewelry from the store.'",
+        "<strong>Burgle</strong>: 'Someone burgled the house while we were away.'"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_rob_burgle_steal.mp3",
+      "functions": [
+        "Choosing the correct verb based on target",
+        "Using proper prepositions with each verb"
+      ],
+      "tips": "   <strong>Memory trick:</strong> Rob the PLACE/PERSON. Steal the THING. Burgle the BUILDING."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Mistake vs Error vs Fault: What Went Wrong? ❌",
+      "content": "<p>Here's where it gets interesting! ❌ The words <strong>mistake</strong>, <strong>error</strong>, and <strong>fault</strong> all describe something wrong, but they have different nuances.</p><table class='lesson-table table-purple'><thead><tr><th>Word</th><th>Typical Cause</th><th>Common Context</th><th>Example</th></tr></thead><tbody><tr><td><strong>mistake</strong></td><td>carelessness, poor judgment</td><td>everyday actions, decisions</td><td><em>I made a mistake in the address.</em></td></tr><tr><td><strong>error</strong></td><td>lack of knowledge, system issue</td><td>technical, academic, computing</td><td><em>The brochure contains factual errors.</em></td></tr><tr><td><strong>fault</strong></td><td>blame, responsibility, defect</td><td>assigning responsibility, machine defects</td><td><em>It's my fault we're late.</em></td></tr></tbody></table><p><strong>The secret:</strong> <strong>Mistake</strong> = human slip-up. <strong>Error</strong> = technical/academic inaccuracy. <strong>Fault</strong> = blame or mechanical defect.</p><p><em>Fun fact: Machines make 'errors', not 'mistakes'—only humans make mistakes! 🤖</em></p><p><strong>Common mistake:</strong> 'It was my error we missed the train' × → <strong>'It was my fault we missed the train'</strong> ✓</p><p>   <strong>Pro tip:</strong> If you can say 'I messed up' → mistake. If it's a technical issue → error. If assigning blame → fault.</p>",
+      "examples": [
+        "Everyday: <strong>'I made a spelling mistake.'</strong>",
+        "Technical: <strong>'The program has a coding error.'</strong>",
+        "Blame: <strong>'It's not your fault.'</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_mistake_error_fault.mp3",
+      "functions": [
+        "Choosing the correct word based on context",
+        "Using appropriate collocations with each word"
+      ],
+      "tips": "   <strong>Pro tip:</strong> If you can say 'I messed up' → mistake. If it's a technical issue → error. If assigning blame → fault."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Quit vs Quite vs Quiet: Sound-Alike Confusion 🔇",
+      "content": "<p>Ready for the next level? 🔇 The words <strong>quit</strong>, <strong>quite</strong>, and <strong>quiet</strong> sound similar but have completely different meanings and functions.</p><table class='lesson-table table-orange'><thead><tr><th>Word</th><th>Part of Speech</th><th>Meaning</th><th>Pronunciation</th><th>Example</th></tr></thead><tbody><tr><td><strong>quit</strong></td><td>Verb</td><td>stop, leave, discontinue</td><td>/kwɪt/</td><td><em>He quit his job.</em></td></tr><tr><td><strong>quite</strong></td><td>Adverb</td><td>fairly, completely, to some degree</td><td>/kwaɪt/</td><td><em>It's quite warm today.</em></td></tr><tr><td><strong>quiet</strong></td><td>Adjective</td><td>not noisy, calm, discreet</td><td>/ˈkwaɪ.ət/</td><td><em>Please be quiet.</em></td></tr></tbody></table><p><em>Fun fact: 'Quite' can mean 'fairly' (quite good = pretty good) OR 'completely' (quite right = absolutely right)—context matters! 🎯</em></p><p><strong>Common mistake:</strong> 'It's quit cold' × → <strong>'It's quite cold'</strong> ✓</p><p>   <strong>Memory trick:</strong> <strong>Quit</strong> = stop (both end in 't'). <strong>Quite</strong> = degree (has 'e' like 'very'). <strong>Quiet</strong> = silent (has 'e' and 't' like 'silent').</p>",
+      "examples": [
+        "Verb: <strong>'She quit smoking.'</strong> (stopped)",
+        "Adverb: <strong>'The movie was quite interesting.'</strong> (fairly)",
+        "Adjective: <strong>'The library is very quiet.'</strong> (not noisy)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_5_quit_quite_quiet.mp3",
+      "functions": [
+        "Distinguishing homophones by spelling and meaning",
+        "Using correct part of speech in context"
+      ],
+      "tips": "   <strong>Memory trick:</strong> <strong>Quit</strong> = stop (both end in 't'). <strong>Quite</strong> = degree (has 'e' like 'very'). <strong>Quiet</strong> = silent (has 'e' and 't' like 'silent')."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Contrast: Transitive vs Intransitive Patterns 🔄",
+      "content": "<p>Let's master the full picture! 🔄 Understanding <strong>transitive</strong> (needs object) vs <strong>intransitive</strong> (no object) verbs helps you choose correctly across multiple verb pairs.</p><table class='lesson-table table-pink'><thead><tr><th>Pair</th><th>Transitive Verb</th><th>Intransitive Verb</th><th>Quick Test</th><th>Example</th></tr></thead><tbody><tr><td><strong>Raise/Rise</strong></td><td>raise (needs object)</td><td>rise (no object)</td><td>Can you add 'something' after? → raise</td><td>'Raise your hand' ✓ / 'The sun rises' ✓</td></tr><tr><td><strong>Lay/Lie</strong></td><td>lay (place something)</td><td>lie (rest/recline)</td><td>Is there a direct object? → lay</td><td>'Lay the book down' ✓ / 'Lie down' ✓</td></tr><tr><td><strong>Rob/Steal</strong></td><td>rob (person/place)</td><td>steal (thing)</td><td>What's the target? → choose verb</td><td>'Rob the bank' ✓ / 'Steal money' ✓</td></tr><tr><td><strong>Look/See</strong></td><td>look at (intentional)</td><td>see (perception)</td><td>Are you directing your eyes? → look</td><td>'Look at that!' ✓ / 'I see a bird' ✓</td></tr></tbody></table><p><strong>The secret:</strong> Each pair has a structural clue. Find the clue → choose the right verb.</p><p><em>Fun fact: Some verbs can be both transitive AND intransitive with different meanings—'run' is a famous example! 🏃</em></p><p>   <strong>Pro tip:</strong> When unsure, ask: 'Can I add a direct object here?' If yes → transitive verb. If no → intransitive.</p>",
+      "examples": [
+        "Transitive test: <strong>'She ___ the flag.'</strong> → needs object → <strong>raised</strong>",
+        "Intransitive test: <strong>'The flag ___.'</strong> → no object → <strong>rose</strong>",
+        "Context clue: <strong>'He ___ down to rest.'</strong> → no object, resting → <strong>lay</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_transitive_intransitive.mp3",
+      "functions": [
+        "Applying transitive/intransitive tests to choose correct verbs",
+        "Avoiding common confusion points across verb pairs"
+      ],
+      "tips": "   <strong>Pro tip:</strong> When unsure, ask: 'Can I add a direct object here?' If yes → transitive verb. If no → intransitive."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Advanced: Register & Formality Nuances 🎓",
+      "content": "<p>Here's a crucial rule! 🎓 In formal writing, verb choices matter even more. Let's master register for confused action verbs.</p><p><strong>Formal vs Informal Preferences:</strong></p><table class='lesson-table table-gray'><thead><tr><th>Context</th><th>Preferred Choice</th><th>Why</th><th>Example</th></tr></thead><tbody><tr><td><strong>Academic Writing</strong></td><td>error (not mistake), arise (not come up)</td><td>Precision and formality</td><td><em>A methodological error arose.</em></td></tr><tr><td><strong>Legal/Police Reports</strong></td><td>rob, burgle, steal (precise terms)</td><td>Technical accuracy</td><td><em>The suspect burgled the premises.</em></td></tr><tr><td><strong>Casual Speech</strong></td><td>quit, quite, quiet (colloquial usage)</td><td>Natural flow</td><td><em>I'm quite tired. Let's quit for today. It's quiet now.</em></td></tr><tr><td><strong>News Reporting</strong></td><td>rise (prices), raise (salaries)</td><td>Clarity in cause/effect</td><td><em>Prices rose; the company raised wages.</em></td></tr></tbody></table><p><strong>Common mistake in formal writing:</strong> Using casual forms where precision is required.</p><p><em>Fun fact: In British English, 'rise' is used for salary increases; in American English, 'raise' is preferred! 🇬🇧🇺🇸</em></p><p>   <strong>Master level:</strong> In formal contexts, prefer precise, technical verbs. In speech, prioritize naturalness—but never sacrifice clarity.</p>",
+      "examples": [
+        "Formal: <strong>'A significant error arose in the data.'</strong>",
+        "Casual: <strong>'There was a mistake in the numbers.'</strong>",
+        "News: <strong>'Unemployment rose; the government raised benefits.'</strong>"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_register.mp3",
+      "functions": [
+        "Adapting verb choices to register and context",
+        "Using formal vs informal variants appropriately"
+      ],
+      "tips": "   <strong>Master level:</strong> In formal contexts, prefer precise, technical verbs. In speech, prioritize naturalness—but never sacrifice clarity."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Quick Decision Flowchart 🎯",
+      "content": "<p>You've come so far! 🎯 Let's create a <strong>mental flowchart</strong> to choose confused action verbs instantly.</p><p><strong>Step-by-Step Decision Tree:</strong></p><table class='lesson-table table-yellow'><thead><tr><th>Question</th><th>If YES →</th><th>If NO →</th><th>Example</th></tr></thead><tbody><tr><td><strong>Is there a direct object?</strong></td><td>Use transitive: raise, rob, lay</td><td>Use intransitive: rise, arise, lie</td><td>'___ the flag' → raised ✓</td></tr><tr><td><strong>Is the target a person/place or a thing?</strong></td><td>Person/place → rob<br>Thing → steal</td><td></td><td>'___ the bank' → robbed ✓</td></tr><tr><td><strong>Are you intentionally directing your eyes?</strong></td><td>Use look (at)</td><td>Use see (perception)</td><td>'___ at that!' → Look ✓</td></tr><tr><td><strong>Is it about stopping, degree, or silence?</strong></td><td>Stopping → quit<br>Degree → quite<br>Silence → quiet</td><td></td><td>'___ smoking' → quit ✓</td></tr><tr><td><strong>Is it a human slip-up or technical issue?</strong></td><td>Human → mistake<br>Technical → error</td><td></td><td>'spelling ___' → mistake ✓</td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✓ Identify structural clue ✓ Apply decision rule ✓ Check register ✓ Verify meaning</p><p><em>Fun fact: With practice, these choices become automatic—just like riding a bike! 🚴</em></p><p>   <strong>Pro tip:</strong> Print this flowchart or save it. Review before writing tasks until it becomes second nature!</p>",
+      "examples": [
+        "Quick test: <strong>'The sun ___ in the east.'</strong> → no object, physical → <strong>rises</strong> ✓",
+        "Register check: <strong>'A problem ___ during testing.'</strong> → formal → <strong>arose</strong> ✓",
+        "Object test: <strong>'Please ___ down.'</strong> → no object, resting → <strong>lie</strong> ✓"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Applying decision rules under time pressure",
+        "Achieving automaticity in verb pair selection"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Print this flowchart or save it. Review before writing tasks until it becomes second nature!"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about something you saw today. Use 'look', 'see', or 'watch' correctly at least twice.",
+      "hint": "Remember: <strong>look at</strong> = intentional direction. <strong>see</strong> = perception. <strong>watch</strong> = focused observation. Example: <em>I looked at the sky and saw a bird. I watched it fly away.</em>",
+      "expectedKeywords": ["looked at", "saw", "watched", "look for", "see if"],
+      "sentenceStarters": ["Today I looked at...", "I saw...", "I watched..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe a situation where something went up or increased. Use 'raise' or 'rise' correctly.",
+      "hint": "<strong>Raise</strong> needs an object (you raise something). <strong>Rise</strong> has no object (something rises). Example: <em>The company raised prices. Prices rose quickly.</em>",
+      "expectedKeywords": ["raised", "rose", "rise", "raise", "arose"],
+      "sentenceStarters": ["The government raised...", "Prices rose...", "A problem arose..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Tell a short story about a mistake you made. Use 'mistake', 'error', or 'fault' correctly at least once.",
+      "hint": "<strong>Mistake</strong> = human slip-up. <strong>Error</strong> = technical inaccuracy. <strong>Fault</strong> = blame. Example: <em>I made a spelling mistake. It was my fault.</em>",
+      "expectedKeywords": ["mistake", "error", "fault", "by mistake", "my fault"],
+      "sentenceStarters": ["I made a mistake when...", "It was an error because...", "It's my fault that..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Write about a time you quit something or decided to be quiet. Use 'quit', 'quite', or 'quiet' correctly.",
+      "hint": "<strong>Quit</strong> = stop (verb). <strong>Quite</strong> = fairly (adverb). <strong>Quiet</strong> = not noisy (adjective). Example: <em>I quit smoking. It's quite difficult. Please be quiet.</em>",
+      "expectedKeywords": ["quit", "quite", "quiet", "quit smoking", "quite good", "quiet place"],
+      "sentenceStarters": ["I decided to quit...", "It was quite...", "Please be quiet because..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Describe a news story involving a crime. Use 'rob', 'steal', or 'burgle' correctly.",
+      "hint": "<strong>Rob</strong> + person/place. <strong>Steal</strong> + thing. <strong>Burgle</strong> + building. Example: <em>Thieves robbed the bank. They stole money. Someone burgled a house.</em>",
+      "expectedKeywords": ["robbed", "stole", "burgled", "rob a bank", "steal from", "burgle a house"],
+      "sentenceStarters": ["The gang robbed...", "They stole...", "Someone burgled..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Compare two similar situations using different confused verbs. Show how the meaning changes with each choice.",
+      "hint": "Use <strong>however/although</strong> to contrast. Example: <em>I looked at the sky but didn't see anything. However, when I watched carefully, I saw a star.</em>",
+      "expectedKeywords": ["contrast marker", "look/see/watch", "raise/rise", "mistake/error", "pronoun consistency"],
+      "sentenceStarters": ["In the first case, I looked... In the second, I saw...", "While X rose, Y was raised..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Write instructions for a task. Use 'look', 'watch', and 'see' correctly to guide the reader.",
+      "hint": "Start with <strong>Look at</strong> for intentional direction. Use <strong>Watch</strong> for focused observation. Use <strong>See</strong> for checking results.",
+      "expectedKeywords": ["look at", "watch", "see", "look for", "see if"],
+      "sentenceStarters": ["First, look at...", "Then, watch for...", "Finally, see if..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Describe a hypothetical scenario using 'raise/rise/arise' correctly. Include all three verbs.",
+      "hint": "<strong>Raise</strong> + object. <strong>Rise</strong> = go up (no object). <strong>Arise</strong> = begin (abstract). Example: <em>If I raise my hand, the sun will rise, and a question may arise.</em>",
+      "expectedKeywords": ["raise + object", "rise (no object)", "arise (abstract)", "correct conjugation", "context clue"],
+      "sentenceStarters": ["If I raise..., ...will rise, and...may arise.", "When they raised..., prices rose, and problems arose..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Write a formal report about an incident. Use at least three different confused verb pairs correctly. Show register awareness.",
+      "hint": "Maintain formal register: prefer precise verbs. Use <strong>error</strong> (not mistake), <strong>arise</strong> (not come up), <strong>burgle</strong> (not break into).",
+      "expectedKeywords": ["formal connector", "precise verb choice", "error/arise/burgle", "professional vocabulary", "passive voice"],
+      "sentenceStarters": ["It was reported that...", "An error arose during...", "The premises were burgled..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a reflective paragraph about learning these confused verbs. Use all five verb groups at least once each.",
+      "hint": "This requires mastery: look/see/watch, raise/rise/arise, rob/steal/burgle, mistake/error/fault, quit/quite/quiet. Pay attention to structures and meanings.",
+      "expectedKeywords": ["all five groups", "correct structures", "contextual usage", "self-reflection", "metacognition"],
+      "sentenceStarters": ["Learning these verbs has affected my writing...", "I now remember to check..."],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct verb:",
+      "sentence": "I ____ at the sky and saw a bird.",
+      "options": ["looked", "saw", "watched", "raised"],
+      "correctAnswer": ["looked"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Intentional direction → 'look at'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Select the right verb for no object:",
+      "sentence": "The sun ____ in the east.",
+      "options": ["raises", "rises", "arises", "raised"],
+      "correctAnswer": ["rises"],
+      "audio": "game_2_sentence.mp3",
+      "hint": "No object, physical movement → 'rise'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct verb for the thing taken:",
+      "sentence": "They ____ money from the bank.",
+      "options": ["robbed", "stole", "burgled", "raised"],
+      "correctAnswer": ["stole"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "Thing taken → 'steal'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the word meaning 'fairly':",
+      "sentence": "It's ____ warm today.",
+      "options": ["quit", "quite", "quiet", "quitely"],
+      "correctAnswer": ["quite"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "Adverb meaning 'fairly' → 'quite'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the word for a human slip-up:",
+      "sentence": "I made a spelling ____.",
+      "options": ["error", "fault", "mistake", "raise"],
+      "correctAnswer": ["mistake"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "Human slip-up → 'mistake'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which verb fits this structure?",
+      "sentence": "She ____ her hand to ask a question.",
+      "options": ["rose", "raised", "arose", "stole"],
+      "correctAnswer": ["raised"],
+      "audio": "game_6_sentence.mp3",
+      "hint": "Direct object ('her hand') → 'raise'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Choose the correct past tense:",
+      "sentence": "Yesterday, a problem ____ during the meeting.",
+      "options": ["raised", "rose", "arose", "stole"],
+      "correctAnswer": ["arose"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "Abstract situation beginning → 'arise' (past: arose).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Select the verb for breaking into a building:",
+      "sentence": "Someone ____ our house while we were away.",
+      "options": ["robbed", "stole", "burgled", "raised"],
+      "correctAnswer": ["burgled"],
+      "audio": "game_8_sentence.mp3",
+      "hint": "Breaking into a building → 'burgle'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Pick the adjective meaning 'not noisy':",
+      "sentence": "Please be ____ in the library.",
+      "options": ["quit", "quite", "quiet", "quitely"],
+      "correctAnswer": ["quiet"],
+      "audio": "game_9_sentence.mp3",
+      "hint": "Adjective meaning 'not noisy' → 'quiet'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Choose the correct word for assigning blame:",
+      "sentence": "It's my ____ that we're late.",
+      "options": ["mistake", "error", "fault", "quit"],
+      "correctAnswer": ["fault"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "Assigning blame → 'fault'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Select the formal verb for 'begin to exist':",
+      "sentence": "A new opportunity ____ when the project started.",
+      "options": ["raised", "rose", "arose", "stole"],
+      "correctAnswer": ["arose"],
+      "audio": "game_11_sentence.mp3",
+      "hint": "Abstract situation beginning → 'arise'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the most precise verb:",
+      "sentence": "The researcher ____ that the data supported the hypothesis.",
+      "options": ["saw", "watched", "looked", "raised"],
+      "correctAnswer": ["saw"],
+      "audio": "game_12_sentence.mp3",
+      "hint": "Perception/realization → 'see'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Choose the correct conjugation for 'rise' in past perfect:",
+      "sentence": "Prices had ____ significantly before the crisis.",
+      "options": ["raised", "rose", "risen", "arisen"],
+      "correctAnswer": ["risen"],
+      "audio": "game_13_sentence.mp3",
+      "hint": "Past participle of 'rise' = 'risen'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Select the appropriate word showing degree:",
+      "sentence": "The results were ____ surprising.",
+      "options": ["quit", "quite", "quiet", "quitely"],
+      "correctAnswer": ["quite"],
+      "audio": "game_14_sentence.mp3",
+      "hint": "Adverb meaning 'fairly/completely' → 'quite'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Choose the complete correct sentence:",
+      "sentence": "Which is correct?",
+      "options": [
+        "They robbed money from the bank.",
+        "They stole the bank.",
+        "They stole money from the bank.",
+        "They burgled money from the bank."
+      ],
+      "correctAnswer": ["They stole money from the bank."],
+      "audio": "game_15_sentence.mp3",
+      "hint": "Steal + thing + from + place. Rob + place.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Which verb is used for intentional looking?",
+      "sentence": "____ at that bird!",
+      "options": ["See", "Look", "Watch", "Raise"],
+      "correctAnswer": "Look",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Intentional direction → 'look at'.",
+      "difficulty": "easy",
+      "explanation": "'Look' is used when you intentionally direct your eyes toward something. 'See' is perception; 'watch' is extended observation."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which verb needs a direct object?",
+      "sentence": "She ____ her hand.",
+      "options": ["rose", "raised", "arose", "stole"],
+      "correctAnswer": "raised",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Transitive verb needs object → 'raise'.",
+      "difficulty": "easy",
+      "explanation": "'Raise' is transitive and requires a direct object ('her hand'). 'Rise' and 'arise' are intransitive."
+    },
+    {
+      "id": "quiz-3",
+      "question": "What is the past tense of 'rise'?",
+      "sentence": "Yesterday, the sun ____ at 6 AM.",
+      "options": ["raise", "raised", "rose", "risen"],
+      "correctAnswer": "rose",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "Rise is irregular: rise/rose/risen.",
+      "difficulty": "easy",
+      "explanation": "The irregular verb 'rise' conjugates: rise (present) / rose (past) / risen (past participle)."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which word means 'to stop doing something'?",
+      "sentence": "He decided to ____ smoking.",
+      "options": ["quite", "quiet", "quit", "quitely"],
+      "correctAnswer": "quit",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "Verb meaning 'stop' → 'quit'.",
+      "difficulty": "easy",
+      "explanation": "'Quit' is a verb meaning 'to stop or discontinue'. 'Quite' is an adverb; 'quiet' is an adjective."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which word is used for a technical inaccuracy?",
+      "sentence": "The program has a coding ____.",
+      "options": ["mistake", "error", "fault", "quit"],
+      "correctAnswer": "error",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Technical/academic inaccuracy → 'error'.",
+      "difficulty": "easy",
+      "explanation": "'Error' is typically used for technical, academic, or system-related inaccuracies. 'Mistake' is for everyday human slip-ups."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which sentence correctly uses 'rob' vs 'steal'?",
+      "sentence": "Choose the correct option:",
+      "options": [
+        "They stole the bank.",
+        "They robbed money from the bank.",
+        "They stole money from the bank.",
+        "They burgled the money."
+      ],
+      "correctAnswer": "They stole money from the bank.",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Rob + place/person. Steal + thing.",
+      "difficulty": "medium",
+      "explanation": "'Rob' takes a person or place as object. 'Steal' takes the thing taken. Only option C follows this pattern correctly."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct structure for 'arise':",
+      "sentence": "A new problem ____ when we started the project.",
+      "options": ["raised", "rose", "arose", "stole"],
+      "correctAnswer": "arose",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Abstract situation beginning → 'arise'.",
+      "difficulty": "medium",
+      "explanation": "'Arise' means 'to begin to exist or occur', typically with abstract subjects like 'problem', 'question', or 'opportunity'."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Select the correct word for 'not noisy':",
+      "sentence": "The library is very ____.",
+      "options": ["quit", "quite", "quiet", "quitely"],
+      "correctAnswer": "quiet",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "Adjective meaning 'not noisy' → 'quiet'.",
+      "difficulty": "medium",
+      "explanation": "'Quiet' is an adjective meaning 'not making noise'. 'Quite' is an adverb; 'quit' is a verb."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which word correctly completes this formal sentence?",
+      "sentence": "A methodological ____ was detected in the study.",
+      "options": ["mistake", "error", "fault", "quit"],
+      "correctAnswer": "error",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "Formal/academic context → 'error'.",
+      "difficulty": "medium",
+      "explanation": "In formal/academic writing, 'error' is preferred for technical or methodological inaccuracies. 'Mistake' is more casual."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Choose the correct word order for this sentence:",
+      "sentence": "I ____ a bird while I ____ at the sky.",
+      "options": [
+        "saw / was looking",
+        "looked / was seeing",
+        "watched / was looking",
+        "saw / was watching"
+      ],
+      "correctAnswer": "saw / was looking",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Perception (see) + intentional action (look).",
+      "difficulty": "medium",
+      "explanation": "'See' is perception (often accidental); 'look at' is intentional. You 'look at' the sky intentionally, and 'see' a bird as a result."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Identify the error in this sentence:",
+      "sentence": "They robbed money from the bank.",
+      "options": ["robbed → stole", "money → the money", "Both A and B", "No error"],
+      "correctAnswer": "robbed → stole",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "Check verb + object pattern.",
+      "difficulty": "medium",
+      "explanation": "'Rob' takes a person or place as object, not the thing taken. Correct: 'They robbed the bank' or 'They stole money from the bank'."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Choose the best form for formal writing:",
+      "sentence": "A significant ____ arose during the analysis.",
+      "options": ["mistake", "error", "fault", "quit"],
+      "correctAnswer": "error",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "Formal context → 'error'.",
+      "difficulty": "hard",
+      "explanation": "In formal/academic writing, 'error' is the precise term for methodological or analytical inaccuracies. 'Mistake' is too informal."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which sentence demonstrates correct advanced usage?",
+      "sentence": "Select the most sophisticated option:",
+      "options": [
+        "I saw the data supports the hypothesis.",
+        "I looked at the data and saw it supported the hypothesis.",
+        "I watched the data to see if it supported the hypothesis.",
+        "I raised the data to support the hypothesis."
+      ],
+      "correctAnswer": "I looked at the data and saw it supported the hypothesis.",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "Look for correct verb usage + logical sequence.",
+      "difficulty": "hard",
+      "explanation": "Option B correctly uses 'look at' (intentional examination) followed by 'saw' (perception/realization). Other options misuse the verbs."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the register issue:",
+      "sentence": "There was a big mistake in the methodology.",
+      "options": ["'Mistake' is too informal for academic context", "'Mistake' is correct formal usage", "'Error' would be better", "No issue"],
+      "correctAnswer": "'Error' would be better",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Academic writing prefers precise terminology.",
+      "difficulty": "hard",
+      "explanation": "In academic writing, 'error' is the preferred term for methodological inaccuracies. 'Mistake' is acceptable but less precise."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Choose the most precise expression for academic writing:",
+      "sentence": "The results ____ a strong relationship.",
+      "options": ["saw", "watched", "showed", "raised"],
+      "correctAnswer": "showed",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Academic writing prefers precise, neutral verbs.",
+      "difficulty": "hard",
+      "explanation": "'Showed' is precise and neutral for academic writing. 'Saw/watched' imply human perception; 'raised' implies causation."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "although",
+      "hint": "Subordinating conjunction - shows contrast",
+      "clue": "a_l_ou_h",
+      "audio": "spell_although.mp3",
+      "sentence": "____ it was raining, we went out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "because",
+      "hint": "Subordinating conjunction - shows reason",
+      "clue": "b_c_u_e",
+      "audio": "spell_because.mp3",
+      "sentence": "We stayed home ____ it was cold.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "however",
+      "hint": "Transition word - shows contrast between sentences",
+      "clue": "h_w_v_r",
+      "audio": "spell_however.mp3",
+      "sentence": "The task was difficult. ____, we completed it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "therefore",
+      "hint": "Transition word - shows result",
+      "clue": "t_e_e_o_e",
+      "audio": "spell_therefore.mp3",
+      "sentence": "She studied hard; ____, she passed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "despite",
+      "hint": "Preposition - shows contrast with noun",
+      "clue": "d_s_ite",
+      "audio": "spell_despite.mp3",
+      "sentence": "____ the rain, we went hiking.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "furthermore",
+      "hint": "Formal transition - adds information",
+      "clue": "f_r_h_r_o_e",
+      "audio": "spell_furthermore.mp3",
+      "sentence": "The plan is efficient. ____, it is cost-effective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "nevertheless",
+      "hint": "Formal contrast marker",
+      "clue": "n_v_r_h_l_ss",
+      "audio": "spell_nevertheless.mp3",
+      "sentence": "The odds were against us. ____, we succeeded.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "consequently",
+      "hint": "Formal result marker",
+      "clue": "c_n_s_q_u_ntly",
+      "audio": "spell_consequently.mp3",
+      "sentence": "Funding was cut. ____, the project halted.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "notwithstanding",
+      "hint": "Advanced preposition - formal contrast",
+      "clue": "n_t_w_ih_t_nd_ng",
+      "audio": "spell_notwithstanding.mp3",
+      "sentence": "____ the challenges, we succeeded.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "heretofore",
+      "hint": "Advanced adverb - formal time reference",
+      "clue": "h_r_t_f_r",
+      "audio": "spell_heretofore.mp3",
+      "sentence": "The data, ____ unavailable, now supports the hypothesis.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "action-verb-explorer",
+        "name": "Action Verb Explorer",
+        "condition": "Complete all confused action verb lessons",
+        "icon": "👁️",
+        "points": 15,
+        "message": "You've mastered the basics of confused action verbs!"
+      },
+      {
+        "id": "look-see-watch-pro",
+        "name": "Look/See/Watch Pro",
+        "condition": "Score 100% on look/see/watch activities",
+        "icon": "🔍",
+        "points": 20,
+        "message": "You never mix up look, see, and watch again!"
+      },
+      {
+        "id": "raise-rise-champion",
+        "name": "Raise/Rise Champion",
+        "condition": "Complete all raise/rise/arise games with no mistakes",
+        "icon": "⬆️",
+        "points": 25,
+        "message": "You know exactly when to raise and when to rise!"
+      },
+      {
+        "id": "rob-steal-master",
+        "name": "Rob/Steal Master",
+        "condition": "Correctly use rob/steal/burgle in 5 consecutive activities",
+        "icon": "🔐",
+        "points": 25,
+        "message": "You've got the target-verb distinction down perfectly!"
+      },
+      {
+        "id": "register-awareness-expert",
+        "name": "Register Awareness Expert",
+        "condition": "Complete all advanced register activities correctly",
+        "icon": "🎓",
+        "points": 30,
+        "message": "You can adapt verb choices to any context!"
+      },
+      {
+        "id": "action-verbs-perfectionist",
+        "name": "Action Verbs Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Flawless confused verb mastery! You're ready for any context!"
+      }
+    ]
+  }
+}

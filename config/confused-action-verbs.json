@@ -1,0 +1,94 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Confused Action Verbs",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Look/See/Watch, Raise/Rise/Arise & More",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Confused Action Verbs Lessons",
+        "instructions": "Master the differences between look/see/watch, raise/rise/arise, rob/burgle/steal, mistake/error/fault, and quit/quite/quiet. Understand when to use each verb based on intention, object, and context."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Action Verb Writing Practice",
+        "instructions": "Write sentences using confused action verbs correctly. Apply the right verb based on meaning, object type, and communicative purpose."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Verb Choice Games",
+        "instructions": "Play games to practice choosing between look/see/watch, raise/rise/arise, and rob/steal. Recognize key signal words and contextual clues."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Action Verbs Challenge",
+        "instructions": "Apply confused action verbs correctly in sentences. Master spelling and usage distinctions for clear, professional communication."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Look/See/Watch Patterns",
+        "words": ["look at", "see", "watch", "look for", "see if", "watch out", "look like", "see through", "watch over"]
+      },
+      {
+        "title": "Raise/Rise/Arise Forms",
+        "words": ["raise/raised/raised", "rise/rose/risen", "arise/arose/arisen", "raising", "rising", "arising", "raised", "risen"]
+      },
+      {
+        "title": "Rob/Burgle/Steal Usage",
+        "words": ["rob a person", "rob a place", "burgle a house", "steal from", "steal something", "rob of", "burglar", "thief"]
+      },
+      {
+        "title": "Mistake/Error/Fault Contexts",
+        "words": ["make a mistake", "an error", "my fault", "by mistake", "human error", "design fault", "grammatical error", "spelling mistake"]
+      },
+      {
+        "title": "Quit/Quite/Quiet Distinctions",
+        "words": ["quit (verb)", "quite (adverb)", "quiet (adjective)", "quit smoking", "quite good", "quiet place", "quit job", "quite a lot"]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "Look at that...",
+          "I can see...",
+          "We watched...",
+          "The sun rises...",
+          "They raised...",
+          "Someone robbed...",
+          "It was a mistake...",
+          "I quit...",
+          "It's quite...",
+          "Please be quiet...",
+          "A problem arose...",
+          "He rose from his chair..."
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/confused-action-verbs.json",
+  "grammarChecker": "confusedActionVerbs.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

@@ -1,0 +1,726 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Job vs Work: Countable vs Uncountable 💼",
+      "content": "<p>Here's where it gets interesting! 💼 The words <strong>job</strong> and <strong>work</strong> both relate to employment, but they have different grammatical properties.</p><p><strong>Key Difference:</strong> <strong>Job</strong> = countable noun (a specific position). <strong>Work</strong> = uncountable noun (activity) OR verb (to labor).</p><table class='lesson-table table-purple'><thead><tr><th>Word</th><th>Part of Speech</th><th>Countable?</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>job</strong></td><td>Noun only</td><td>Yes (a job, two jobs)</td><td>Specific position/role</td><td><em>She has a new job.</em></td></tr><tr><td><strong>work</strong></td><td>Noun</td><td>No (uncountable)</td><td>Activity, effort, tasks</td><td><em>She has a lot of work.</em></td></tr><tr><td><strong>work</strong></td><td>Verb</td><td>N/A</td><td>To labor, to function</td><td><em>She works in London.</em></td></tr></tbody></table><p><em>Fun fact: You can say 'I'm at work' (place) but NOT 'I'm at a job'! 🏢</em></p><p><strong>Common mistake:</strong> 'I have much works' × → <strong>'I have a lot of work'</strong> ✓ (uncountable) OR <strong>'I have many jobs'</strong> ✓ (countable)</p><p>   <strong>Decision point:</strong> Can you put 'a/an' or make it plural? → <strong>job</strong>. Does it refer to general activity? → <strong>work</strong>.</p>",
+      "examples": [
+        "Countable: <strong>'He applied for three jobs.'</strong>",
+        "Uncountable: <strong>'He has too much work.'</strong>",
+        "Verb: <strong>'He works hard.'</strong>"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_job_work.mp3",
+      "functions": [
+        "Distinguishing countable vs uncountable usage",
+        "Using proper quantifiers with each word"
+      ],
+      "tips": "   <strong>Decision point:</strong> Can you put 'a/an' or make it plural? → <strong>job</strong>. Does it refer to general activity? → <strong>work</strong>."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Travel vs Trip vs Journey: Purpose vs Distance 🌍",
+      "content": "<p>Ready for the next level? 🌍 The words <strong>travel</strong>, <strong>trip</strong>, and <strong>journey</strong> all relate to going places, but they have distinct meanings.</p><p><strong>Key Difference:</strong> <strong>Travel</strong> = general concept. <strong>Trip</strong> = short journey for purpose. <strong>Journey</strong> = distance/time of traveling.</p><table class='lesson-table table-green'><thead><tr><th>Word</th><th>Part of Speech</th><th>Key Meaning</th><th>Typical Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>travel</strong></td><td>Verb / Uncountable noun</td><td>General activity of moving</td><td>Abstract concept</td><td><em>I love to travel. / Travel is expensive.</em></td></tr><tr><td><strong>trip</strong></td><td>Countable noun</td><td>Short journey for purpose</td><td>Business, pleasure, day out</td><td><em>We took a trip to the coast.</em></td></tr><tr><td><strong>journey</strong></td><td>Countable noun</td><td>Distance/time of traveling</td><td>Focus on the travel itself</td><td><em>The journey took five hours.</em></td></tr></tbody></table><p><em>Fun fact: In British English, 'holiday' is common; in American English, 'vacation' is preferred—but both pair with 'trip'! 🇬🇧🇺🇸</em></p><p><strong>Common mistake:</strong> 'I made a long travel' × → <strong>'I took a long journey'</strong> ✓ OR <strong>'I traveled for a long time'</strong> ✓</p><p>   <strong>Pro tip:</strong> Ask: 'Is it the general concept?' → travel. 'A specific short outing?' → trip. 'The distance/time covered?' → journey.</p>",
+      "examples": [
+        "General: <strong>'I love travel.'</strong> (uncountable concept)",
+        "Specific short: <strong>'We took a weekend trip.'</strong>",
+        "Distance focus: <strong>'The journey was exhausting.'</strong>"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_travel_trip_journey.mp3",
+      "functions": [
+        "Choosing the correct word based on travel context",
+        "Using proper collocations with each word"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Ask: 'Is it the general concept?' → travel. 'A specific short outing?' → trip. 'The distance/time covered?' → journey."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Tour vs Voyage: Multiple Stops vs Sea/Space 🚢",
+      "content": "<p>Time to explore another way! 🚢 The words <strong>tour</strong> and <strong>voyage</strong> both describe travel, but they have very specific uses.</p><p><strong>Key Difference:</strong> <strong>Tour</strong> = visiting multiple places (often guided). <strong>Voyage</strong> = long journey by sea or in space (formal/literary).</p><table class='lesson-table table-teal'><thead><tr><th>Word</th><th>Part of Speech</th><th>Key Meaning</th><th>Typical Context</th><th>Example</th></tr></thead><tbody><tr><td><strong>tour</strong></td><td>Noun / Verb</td><td>Visiting multiple places</td><td>Holiday, sightseeing, guided, musical</td><td><em>We went on a tour of Italy.</em></td></tr><tr><td><strong>voyage</strong></td><td>Countable noun</td><td>Long journey by sea/space</td><td>Formal, historical, literary, scientific</td><td><em>The voyage across the Atlantic.</em></td></tr><tr><td><strong>tour</strong></td><td>Verb</td><td>To visit places systematically</td><td>Travel writing, business, entertainment</td><td><em>They toured the north of India.</em></td></tr></tbody></table><p><em>Fun fact: 'Voyage' is rare in everyday English but common in literary/historical contexts—choose your register wisely! 📚</em></p><p><strong>Common mistake:</strong> 'We took a voyage to the beach' × → <strong>'We took a trip to the beach'</strong> ✓</p><p>   <strong>Memory trick:</strong> <strong>Tour</strong> = multiple stops (think 'tourist'). <strong>Voyage</strong> = sea/space (think 'voyager').</p>",
+      "examples": [
+        "Multiple stops: <strong>'We went on a guided tour of the museum.'</strong>",
+        "Sea journey: <strong>'The voyage lasted three months.'</strong>",
+        "Verb use: <strong>'The band toured Europe last year.'</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_tour_voyage.mp3",
+      "functions": [
+        "Distinguishing tour (multiple places) from voyage (sea/space)",
+        "Using appropriate register for each word"
+      ],
+      "tips": "   <strong>Memory trick:</strong> <strong>Tour</strong> = multiple stops (think 'tourist'). <strong>Voyage</strong> = sea/space (think 'voyager')."
+    },
+    {
+      "id": "lesson-4",
+      "title": "False Friends: French-English Traps 🚫",
+      "content": "<p>Here's where it gets interesting! 🚫 <strong>False friends</strong> (faux amis) are words that look similar in French and English but have different meanings. These trap even advanced learners!</p><table class='lesson-table table-purple'><thead><tr><th>French Word</th><th>Looks Like English</th><th>Actual English Meaning</th><th>Correct English Equivalent</th><th>Example</th></tr></thead><tbody><tr><td><strong>actuellement</strong></td><td>actually</td><td>currently, at present</td><td>currently, at the moment</td><td><em>Actuellement, je travaille à Paris.</em> → <em>Currently, I work in Paris.</em></td></tr><tr><td><strong>assister à</strong></td><td>assist</td><td>to attend, to be present at</td><td>attend, go to</td><td><em>J'ai assisté à la réunion.</em> → <em>I attended the meeting.</em></td></tr><tr><td><strong>librairie</strong></td><td>library</td><td>bookshop</td><td>bookstore, bookshop</td><td><em>Je vais à la librairie.</em> → <em>I'm going to the bookstore.</em></td></tr><tr><td><strong>sensible</strong></td><td>sensible</td><td>sensitive</td><td>sensitive</td><td><em>Il est très sensible.</em> → <em>He is very sensitive.</em></td></tr><tr><td><strong>demander</strong></td><td>demand</td><td>to ask, to request</td><td>ask, request</td><td><em>Je demande de l'aide.</em> → <em>I'm asking for help.</em></td></tr><tr><td><strong>éventuellement</strong></td><td>eventually</td><td>possibly, perhaps</td><td>possibly, perhaps</td><td><em>Éventuellement, je viendrai.</em> → <em>Possibly, I will come.</em></td></tr></tbody></table><p><em>Fun fact: 'Actually' in English means 'in fact/really', NOT 'currently'—a classic false friend trap! 🎯</em></p><p><strong>Common mistake:</strong> 'Actually, I live in Paris' (meaning 'currently') × → <strong>'Currently, I live in Paris'</strong> ✓</p><p>   <strong>Memory trick:</strong> When you see a French-looking word in English, pause and verify. If in doubt, use a synonym you're sure of!</p>",
+      "examples": [
+        "Actually vs Currently: <strong>'Actually, I disagree.'</strong> (in fact) vs <strong>'Currently, I'm busy.'</strong> (now)",
+        "Attend vs Assist: <strong>'I attended the conference.'</strong> vs <strong>'She assisted me with the project.'</strong>",
+        "Library vs Bookstore: <strong>'I borrowed a book from the library.'</strong> vs <strong>'I bought a book at the bookstore.'</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_false_friends.mp3",
+      "functions": [
+        "Identifying and avoiding false friend traps",
+        "Using correct English equivalents for French-looking words"
+      ],
+      "tips": "   <strong>Memory trick:</strong> When you see a French-looking word in English, pause and verify. If in doubt, use a synonym you're sure of!"
+    },
+    {
+      "id": "lesson-5",
+      "title": "Countable vs Uncountable: The Quantifier Test 🔢",
+      "content": "<p>Ready for the next level? 🔢 Understanding <strong>countable</strong> vs <strong>uncountable</strong> nouns helps you choose correctly across multiple word pairs.</p><p><strong>The Rule:</strong> Countable nouns can be pluralized and take 'a/an'. Uncountable nouns cannot be pluralized and take 'much' not 'many'.</p><table class='lesson-table table-orange'><thead><tr><th>Test</th><th>Countable (job, trip, journey)</th><th>Uncountable (work, travel)</th><th>Example</th></tr></thead><tbody><tr><td><strong>Can you use 'a/an'?</strong></td><td>Yes: a job, a trip</td><td>No: ✗ a work, ✗ a travel</td><td>'She has <strong>a</strong> new job' ✓</td></tr><tr><td><strong>Can you make it plural?</strong></td><td>Yes: jobs, trips, journeys</td><td>No: ✗ works, ✗ travels</td><td>'He applied for three <strong>jobs</strong>' ✓</td></tr><tr><td><strong>Use 'many' or 'much'?</strong></td><td>Many: many jobs, many trips</td><td>Much: much work, much travel</td><td>'She has <strong>much</strong> work' ✓</td></tr><tr><td><strong>Use 'few' or 'little'?</strong></td><td>Few: few jobs, few trips</td><td>Little: little work, little travel</td><td>'There is <strong>little</strong> travel these days' ✓</td></tr></tbody></table><p><em>Fun fact: Some words can be BOTH countable and uncountable with different meanings—'experience' is a famous example! 🔄</em></p><p><strong>Common mistake:</strong> 'I have many works' × → <strong>'I have a lot of work'</strong> ✓</p><p>   <strong>Pro tip:</strong> When unsure, try the quantifier test: Can you say 'many ___' or 'a ___'? If yes → countable. If 'much ___' → uncountable.</p>",
+      "examples": [
+        "Countable test: <strong>'She has three ___.'</strong> → needs countable → <strong>jobs</strong>",
+        "Uncountable test: <strong>'She has too much ___.'</strong> → needs uncountable → <strong>work</strong>",
+        "Context clue: <strong>'I love ___.'</strong> → general concept → <strong>travel</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_countable_uncountable.mp3",
+      "functions": [
+        "Applying countable/uncountable tests to choose correct words",
+        "Avoiding common quantifier errors across word pairs"
+      ],
+      "tips": "   <strong>Pro tip:</strong> When unsure, try the quantifier test: Can you say 'many ___' or 'a ___'? If yes → countable. If 'much ___' → uncountable."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Contrast: Job/Work vs Travel/Trip/Journey 🔄",
+      "content": "<p>Let's master the full picture! 🔄 Understanding how these noun pairs differ in usage completes your control.</p><table class='lesson-table table-pink'><thead><tr><th>Pair</th><th>Key Grammatical Difference</th><th>Quick Test</th><th>Example</th></tr></thead><tbody><tr><td><strong>Job vs Work</strong></td><td>Job = countable; Work = uncountable/verb</td><td>Can you pluralize it? → job</td><td>'three jobs' ✓ / 'much work' ✓</td></tr><tr><td><strong>Trip vs Journey</strong></td><td>Trip = short + purpose; Journey = distance/time</td><td>Focus on purpose or distance? → choose</td><td>'weekend trip' ✓ / 'long journey' ✓</td></tr><tr><td><strong>Travel vs Trip</strong></td><td>Travel = general concept; Trip = specific outing</td><td>Abstract or concrete? → choose</td><td>'I love travel' ✓ / 'We took a trip' ✓</td></tr><tr><td><strong>False Friends</strong></td><td>Look similar but mean different things</td><td>Verify meaning, don't assume!</td><td>'actually' ≠ 'currently' ✓</td></tr></tbody></table><p><strong>The secret:</strong> Each pair has a grammatical or contextual clue. Find the clue → choose the right word.</p><p><em>Fun fact: Native speakers sometimes mix these in casual speech—but in writing, precision matters! ✍️</em></p><p>   <strong>Pro tip:</strong> When unsure, apply the quick test. If it passes → you've got the right word.</p>",
+      "examples": [
+        "Job/Work test: <strong>'She has three ___.'</strong> → countable → <strong>jobs</strong>",
+        "Trip/Journey test: <strong>'The ___ was long.'</strong> → distance focus → <strong>journey</strong>",
+        "False friend check: <strong>'___, I live in London.'</strong> (meaning 'now') → <strong>Currently</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_contrast.mp3",
+      "functions": [
+        "Applying grammatical tests to choose correct nouns",
+        "Avoiding common confusion points across noun pairs"
+      ],
+      "tips": "   <strong>Pro tip:</strong> When unsure, apply the quick test. If it passes → you've got the right word."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Advanced: Register & Formality Nuances 🎓",
+      "content": "<p>Here's a crucial rule! 🎓 In formal writing, noun choices matter even more. Let's master register for confused nouns and phrases.</p><p><strong>Formal vs Informal Preferences:</strong></p><table class='lesson-table table-gray'><thead><tr><th>Context</th><th>Preferred Choice</th><th>Why</th><th>Example</th></tr></thead><tbody><tr><td><strong>Academic Writing</strong></td><td>journey (not trip), currently (not actually)</td><td>Precision and formality</td><td><em>The research journey spanned five years.</em></td></tr><tr><td><strong>Business Reports</strong></td><td>work (uncountable), attend (not assist)</td><td>Clarity in professional contexts</td><td><em>The team has considerable work. I attended the meeting.</em></td></tr><tr><td><strong>Casual Speech</strong></td><td>trip, job, actually (colloquial)</td><td>Natural flow</td><td><em>We took a trip. I love my job. Actually, I disagree.</em></td></tr><tr><td><strong>Travel Writing</strong></td><td>voyage (literary), tour (guided)</td><td>Evocative, precise vocabulary</td><td><em>The voyage was transformative. We toured the ancient sites.</em></td></tr></tbody></table><p><strong>Common mistake in formal writing:</strong> Using casual forms where precision is required.</p><p><em>Fun fact: 'Voyage' is rare in everyday English but common in literary/historical contexts—choose your register wisely! 📚</em></p><p>   <strong>Master level:</strong> In formal contexts, prefer precise, technical words. In speech, prioritize naturalness—but never sacrifice clarity.</p>",
+      "examples": [
+        "Formal: <strong>'The research journey revealed significant findings.'</strong>",
+        "Casual: <strong>'The trip was amazing!'</strong>",
+        "Literary: <strong>'Their voyage across the ocean changed them forever.'</strong>"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_register.mp3",
+      "functions": [
+        "Adapting noun choices to register and context",
+        "Using formal vs informal variants appropriately"
+      ],
+      "tips": "   <strong>Master level:</strong> In formal contexts, prefer precise, technical words. In speech, prioritize naturalness—but never sacrifice clarity."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Quick Decision Flowchart 🎯",
+      "content": "<p>You've come so far! 🎯 Let's create a <strong>mental flowchart</strong> to choose confused nouns and phrases instantly.</p><p><strong>Step-by-Step Decision Tree:</strong></p><table class='lesson-table table-yellow'><thead><tr><th>Question</th><th>If YES →</th><th>If NO →</th><th>Example</th></tr></thead><tbody><tr><td><strong>Can I put 'a/an' or make it plural?</strong></td><td>Use countable: job, trip, journey</td><td>Use uncountable: work, travel</td><td>'three ___' → jobs ✓ / 'much ___' → work ✓</td></tr><tr><td><strong>Is it about purpose or distance?</strong></td><td>Purpose → trip<br>Distance/time → journey</td><td></td><td>'weekend ___' → trip ✓</td></tr><tr><td><strong>Is it a general concept or specific outing?</strong></td><td>General → travel<br>Specific → trip/journey</td><td></td><td>'I love ___' → travel ✓</td></tr><tr><td><strong>Does the word look French?</strong></td><td>Verify meaning—don't assume!</td><td>Proceed normally</td><td>'actually' ≠ 'currently' ✓</td></tr><tr><td><strong>Is the context formal or casual?</strong></td><td>Formal → journey/voyage/attend<br>Casual → trip/actually</td><td></td><td>Academic: 'journey' ✓</td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✓ Identify grammatical clue ✓ Apply decision rule ✓ Check register ✓ Verify meaning</p><p><em>Fun fact: With practice, these choices become automatic—just like riding a bike! 🚴</em></p><p>   <strong>Pro tip:</strong> Print this flowchart or save it. Review before writing tasks until it becomes second nature!</p>",
+      "examples": [
+        "Quick test: <strong>'She has a new ___.'</strong> → countable → <strong>job</strong> ✓",
+        "Register check: <strong>'The ___ across the Atlantic.'</strong> → formal/literary → <strong>voyage</strong> ✓",
+        "False friend check: <strong>'___, I live in London.'</strong> (meaning 'now') → <strong>Currently</strong> ✓"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Applying decision rules under time pressure",
+        "Achieving automaticity in noun/phrase selection"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Print this flowchart or save it. Review before writing tasks until it becomes second nature!"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about your job or studies. Use 'job' or 'work' correctly at least three times.",
+      "hint": "<strong>Job</strong> = countable (a job, jobs). <strong>Work</strong> = uncountable (no plural) OR verb. Example: <em>I have a new job. I have a lot of work to do. I work hard.</em>",
+      "expectedKeywords": ["job", "jobs", "work", "at work", "a job"],
+      "sentenceStarters": ["I have a job...", "My work involves...", "I work as..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Tell a short story about a trip you took. Use 'trip', 'journey', or 'travel' correctly at least twice.",
+      "hint": "<strong>Trip</strong> = short + purpose. <strong>Journey</strong> = distance/time. <strong>Travel</strong> = general concept. Example: <em>We took a trip to Paris. The journey was long. I love to travel.</em>",
+      "expectedKeywords": ["trip", "journey", "travel", "took a trip", "the journey"],
+      "sentenceStarters": ["Last year, I took a trip...", "The journey was...", "I love to travel because..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a sentence avoiding a false friend trap. Use 'actually', 'currently', 'attend', or 'assist' correctly.",
+      "hint": "<strong>Actually</strong> = in fact. <strong>Currently</strong> = now. <strong>Attend</strong> = be present at. <strong>Assist</strong> = help. Example: <em>Currently, I attend university. Actually, I prefer online classes.</em>",
+      "expectedKeywords": ["actually", "currently", "attend", "assist", "in fact", "at the moment"],
+      "sentenceStarters": ["Actually, I...", "Currently, I...", "I attended...", "She assisted me..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Describe a travel experience using 'tour' or 'voyage' correctly. Include context clues for your choice.",
+      "hint": "<strong>Tour</strong> = visiting multiple places. <strong>Voyage</strong> = long sea/space journey. Example: <em>We went on a tour of Italy. The voyage across the ocean was unforgettable.</em>",
+      "expectedKeywords": ["tour", "voyage", "toured", "voyaged", "guided tour", "sea voyage"],
+      "sentenceStarters": ["We went on a tour of...", "The voyage was...", "We toured..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Compare two similar situations using different nouns. Show how the meaning changes with each choice.",
+      "hint": "Use <strong>however/although</strong> to contrast. Example: <em>She has a job as a teacher. However, her work involves much travel.</em>",
+      "expectedKeywords": ["contrast marker", "job/work", "trip/journey", "travel", "pronoun consistency"],
+      "sentenceStarters": ["In the first case, she has a job... In the second, her work...", "While the trip was short, the journey felt long..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write instructions for planning a trip. Use 'trip', 'journey', and 'travel' correctly to guide the reader.",
+      "hint": "Start with <strong>Plan a trip</strong> for the outing. Use <strong>the journey</strong> for the travel time. Use <strong>travel</strong> for the general activity.",
+      "expectedKeywords": ["trip", "journey", "travel", "plan a trip", "the journey", "love to travel"],
+      "sentenceStarters": ["First, plan your trip by...", "Consider the journey time...", "If you love to travel..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Express an opinion about a work-related topic. Use 'job' and 'work' correctly, and include a false friend correction.",
+      "hint": "State your view with <strong>I believe</strong>. Use <strong>job</strong> (countable) and <strong>work</strong> (uncountable) correctly. Avoid false friends like 'actually' meaning 'currently'.",
+      "expectedKeywords": ["opinion marker", "job", "work", "actually/currently", "supporting detail"],
+      "sentenceStarters": ["In my opinion, my job... because my work...", "I believe that... Actually, I mean currently..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Describe a hypothetical scenario using countable/uncountable distinctions correctly. Include 'job/work' and 'trip/travel'.",
+      "hint": "<strong>Job</strong> = countable. <strong>Work</strong> = uncountable. <strong>Trip</strong> = countable. <strong>Travel</strong> = uncountable. Example: <em>If I had a new job, I would take a trip. But I have too much work and not enough money for travel.</em>",
+      "expectedKeywords": ["a job", "much work", "a trip", "much travel", "countable/uncountable markers"],
+      "sentenceStarters": ["If I had a new job, I would...", "But I have too much work...", "I don't have time for travel..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Write a formal email about a business trip. Use at least three different noun/phrase pairs correctly. Show register awareness.",
+      "hint": "Maintain formal register: prefer precise words. Use <strong>currently</strong> (not actually), <strong>journey</strong> (not trip), <strong>attend</strong> (not assist for 'be present').",
+      "expectedKeywords": ["formal connector", "precise word choice", "currently/journey/attend", "professional vocabulary", "uncountable usage"],
+      "sentenceStarters": ["I am currently attending...", "The journey to the conference...", "I would like to assist with..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a reflective paragraph about learning these nouns and phrases. Use all four word groups at least once each.",
+      "hint": "This requires mastery: job/work, travel/trip/journey/tour/voyage, false friends, countable/uncountable. Pay attention to structures and meanings.",
+      "expectedKeywords": ["all four groups", "correct structures", "contextual usage", "self-reflection", "metacognition"],
+      "sentenceStarters": ["Learning these words has affected my writing...", "I now remember to check..."],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct countable noun:",
+      "sentence": "I have a new ____.",
+      "options": ["job", "work", "travel", "voyage"],
+      "correctAnswer": ["job"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Countable noun after 'a' → 'job'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Select the word for a short outing:",
+      "sentence": "We took a weekend ____ to the coast.",
+      "options": ["travel", "trip", "journey", "voyage"],
+      "correctAnswer": ["trip"],
+      "audio": "game_2_sentence.mp3",
+      "hint": "Short journey for pleasure → 'trip'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct uncountable noun:",
+      "sentence": "I have too much ____ to do.",
+      "options": ["job", "work", "trip", "tour"],
+      "correctAnswer": ["work"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "Uncountable noun after 'much' → 'work'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the word for distance/time of traveling:",
+      "sentence": "The ____ took five hours.",
+      "options": ["travel", "trip", "journey", "voyage"],
+      "correctAnswer": ["journey"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "Focus on distance/time → 'journey'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the correct word meaning 'in fact':",
+      "sentence": "____, I disagree with that point.",
+      "options": ["Currently", "Actually", "Eventually", "Assisting"],
+      "correctAnswer": ["Actually"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "'Actually' = in fact/really.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which word fits this structure?",
+      "sentence": "She has three ____.",
+      "options": ["job", "jobs", "work", "works"],
+      "correctAnswer": ["jobs"],
+      "audio": "game_6_sentence.mp3",
+      "hint": "Countable noun after number → plural form.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Choose the correct word for visiting multiple places:",
+      "sentence": "We went on a ____ of Europe.",
+      "options": ["trip", "journey", "tour", "voyage"],
+      "correctAnswer": ["tour"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "Visiting multiple places → 'tour'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Select the appropriate word meaning 'to be present at':",
+      "sentence": "I ____ the conference last week.",
+      "options": ["assisted", "attended", "assisted to", "attended to"],
+      "correctAnswer": ["attended"],
+      "audio": "game_8_sentence.mp3",
+      "hint": "False friend: 'assister à' = 'attend'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Pick the correct word meaning 'currently':",
+      "sentence": "____, I am studying English.",
+      "options": ["Actually", "Currently", "Eventually", "Assisting"],
+      "correctAnswer": ["Currently"],
+      "audio": "game_9_sentence.mp3",
+      "hint": "'Currently' = at the moment/now.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Choose the correct word for a long sea journey:",
+      "sentence": "The ____ across the Atlantic was historic.",
+      "options": ["trip", "journey", "tour", "voyage"],
+      "correctAnswer": ["voyage"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "Long journey by sea → 'voyage'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Select the formal word for a research process:",
+      "sentence": "The research ____ spanned five years.",
+      "options": ["trip", "journey", "travel", "voyage"],
+      "correctAnswer": ["journey"],
+      "audio": "game_11_sentence.mp3",
+      "hint": "Metaphorical distance/time → 'journey'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the most precise word:",
+      "sentence": "The data ____ suggest a correlation.",
+      "options": ["appears to", "definitely", "might possibly maybe", "is proven to"],
+      "correctAnswer": ["appears to"],
+      "audio": "game_12_sentence.mp3",
+      "hint": "Academic hedging → 'appears to'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Choose the correct false friend correction:",
+      "sentence": "____ (meaning 'now'), I live in Paris.",
+      "options": ["Actually", "Currently", "Eventually", "Assisting"],
+      "correctAnswer": ["Currently"],
+      "audio": "game_13_sentence.mp3",
+      "hint": "False friend: 'actuellement' ≠ 'actually'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Select the appropriate quantifier for uncountable noun:",
+      "sentence": "She has too ____ work to finish today.",
+      "options": ["many", "much", "few", "a few"],
+      "correctAnswer": ["much"],
+      "audio": "game_14_sentence.mp3",
+      "hint": "Uncountable noun → 'much', not 'many'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Choose the complete correct sentence:",
+      "sentence": "Which is correct?",
+      "options": [
+        "I have many works to do.",
+        "I have much job to do.",
+        "I have a lot of work to do.",
+        "I have many work to do."
+      ],
+      "correctAnswer": ["I have a lot of work to do."],
+      "audio": "game_15_sentence.mp3",
+      "hint": "Work is uncountable: 'a lot of work' or 'much work'.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Which word is countable?",
+      "sentence": "I have a new ____.",
+      "options": ["job", "work", "travel", "information"],
+      "correctAnswer": "job",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Can you put 'a/an' before it?",
+      "difficulty": "easy",
+      "explanation": "'Job' is countable (a job, two jobs). 'Work', 'travel', and 'information' are uncountable."
+    },
+    {
+      "id": "quiz-2",
+      "question": "What is the correct word for a short journey for pleasure?",
+      "sentence": "We took a weekend ____ to the mountains.",
+      "options": ["travel", "trip", "journey", "voyage"],
+      "correctAnswer": "trip",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Short + purpose → 'trip'.",
+      "difficulty": "easy",
+      "explanation": "'Trip' refers to a short journey for a specific purpose like pleasure or business."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Which word means 'in fact' or 'really'?",
+      "sentence": "____, I think you're right.",
+      "options": ["Currently", "Actually", "Eventually", "Assisting"],
+      "correctAnswer": "Actually",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "'Actually' = in fact.",
+      "difficulty": "easy",
+      "explanation": "'Actually' means 'in fact' or 'really'. 'Currently' means 'at the moment'."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which word is uncountable?",
+      "sentence": "I have too much ____.",
+      "options": ["job", "work", "trip", "tour"],
+      "correctAnswer": "work",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "Uncountable nouns take 'much', not 'many'.",
+      "difficulty": "easy",
+      "explanation": "'Work' is uncountable, so we say 'much work' or 'a lot of work', not 'many works'."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which word correctly completes this sentence?",
+      "sentence": "The ____ was long and tiring.",
+      "options": ["travel", "trip", "journey", "voyage"],
+      "correctAnswer": "journey",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Focus on distance/time → 'journey'.",
+      "difficulty": "easy",
+      "explanation": "'Journey' emphasizes the distance or time spent traveling. 'Trip' emphasizes the purpose/outing."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which sentence correctly uses 'job' vs 'work'?",
+      "sentence": "Choose the correct option:",
+      "options": [
+        "I have much jobs.",
+        "I have many work.",
+        "I have a lot of work.",
+        "I have many works."
+      ],
+      "correctAnswer": "I have a lot of work.",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Work is uncountable.",
+      "difficulty": "medium",
+      "explanation": "'Work' is uncountable, so we say 'a lot of work' or 'much work', not 'many works'. 'Job' is countable: 'many jobs'."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct word for visiting multiple places:",
+      "sentence": "We went on a ____ of Italy.",
+      "options": ["trip", "journey", "tour", "voyage"],
+      "correctAnswer": "tour",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Visiting multiple places → 'tour'.",
+      "difficulty": "medium",
+      "explanation": "'Tour' refers to visiting multiple places, often in a systematic or guided way."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Select the correct word meaning 'to be present at':",
+      "sentence": "I ____ the meeting yesterday.",
+      "options": ["assisted", "attended", "assisted to", "attended to"],
+      "correctAnswer": "attended",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "False friend: 'assister à' = 'attend'.",
+      "difficulty": "medium",
+      "explanation": "'Attend' means 'to be present at'. 'Assist' means 'to help'. This is a classic false friend trap for French speakers."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which word correctly completes this formal sentence?",
+      "sentence": "The research ____ revealed significant findings.",
+      "options": ["trip", "journey", "travel", "voyage"],
+      "correctAnswer": "journey",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "Metaphorical distance/time → 'journey'.",
+      "difficulty": "medium",
+      "explanation": "In formal/academic writing, 'journey' is often used metaphorically for a process spanning time. 'Trip' is too casual."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Choose the correct quantifier for this sentence:",
+      "sentence": "She has too ____ jobs to apply for.",
+      "options": ["much", "many", "little", "a little"],
+      "correctAnswer": "many",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Countable noun → 'many', not 'much'.",
+      "difficulty": "medium",
+      "explanation": "'Jobs' is countable, so we use 'many jobs', not 'much jobs'."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Identify the error in this sentence:",
+      "sentence": "I have much jobs and too many work.",
+      "options": ["much → many", "many → much", "Both A and B", "No error"],
+      "correctAnswer": "Both A and B",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "Check countable vs uncountable quantifiers.",
+      "difficulty": "medium",
+      "explanation": "Two errors: (1) 'Jobs' is countable → 'many jobs', not 'much jobs'. (2) 'Work' is uncountable → 'much work', not 'many work'."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Choose the best form for formal writing:",
+      "sentence": "The ____ across the ocean changed them forever.",
+      "options": ["trip", "journey", "travel", "voyage"],
+      "correctAnswer": "voyage",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "Formal/literary sea journey → 'voyage'.",
+      "difficulty": "hard",
+      "explanation": "In formal/literary contexts, 'voyage' is the precise term for a long journey by sea. 'Trip' and 'journey' are less evocative."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which sentence demonstrates correct advanced usage?",
+      "sentence": "Select the most sophisticated option:",
+      "options": [
+        "She has a job as a teacher.",
+        "She has work as a teacher.",
+        "She has a work as a teacher.",
+        "She has job as a teacher."
+      ],
+      "correctAnswer": "She has a job as a teacher.",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "Look for correct countable usage with article.",
+      "difficulty": "hard",
+      "explanation": "Option A correctly uses 'a job' (countable) with the article 'a'. 'Work' is uncountable and cannot take 'a' in this context."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the register issue:",
+      "sentence": "We took a voyage to the beach last weekend.",
+      "options": ["'Voyage' is too formal for casual context", "'Voyage' is correct formal usage", "'Trip' would be better", "No issue"],
+      "correctAnswer": "'Trip' would be better",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Match word choice to context.",
+      "difficulty": "hard",
+      "explanation": "'Voyage' is formal/literary and typically for long sea journeys. For a casual beach outing, 'trip' is more appropriate."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Choose the most precise expression for academic writing:",
+      "sentence": "The data ____ suggest a correlation, though further research is needed.",
+      "options": [
+        "appears to",
+        "definitely",
+        "might possibly maybe",
+        "is proven to"
+      ],
+      "correctAnswer": "appears to",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Academic writing uses hedging to show caution with claims.",
+      "difficulty": "hard",
+      "explanation": "'Appears to' provides appropriate hedging for academic claims—confident but not absolute. 'Definitely' and 'is proven to' are too strong without conclusive evidence."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "although",
+      "hint": "Subordinating conjunction - shows contrast",
+      "clue": "a_l_ou_h",
+      "audio": "spell_although.mp3",
+      "sentence": "____ it was raining, we went out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "because",
+      "hint": "Subordinating conjunction - shows reason",
+      "clue": "b_c_u_e",
+      "audio": "spell_because.mp3",
+      "sentence": "We stayed home ____ it was cold.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "however",
+      "hint": "Transition word - shows contrast between sentences",
+      "clue": "h_w_v_r",
+      "audio": "spell_however.mp3",
+      "sentence": "The task was difficult. ____, we completed it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "therefore",
+      "hint": "Transition word - shows result",
+      "clue": "t_e_e_o_e",
+      "audio": "spell_therefore.mp3",
+      "sentence": "She studied hard; ____, she passed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "despite",
+      "hint": "Preposition - shows contrast with noun",
+      "clue": "d_s_ite",
+      "audio": "spell_despite.mp3",
+      "sentence": "____ the rain, we went hiking.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "furthermore",
+      "hint": "Formal transition - adds information",
+      "clue": "f_r_h_r_o_e",
+      "audio": "spell_furthermore.mp3",
+      "sentence": "The plan is efficient. ____, it is cost-effective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "nevertheless",
+      "hint": "Formal contrast marker",
+      "clue": "n_v_r_h_l_ss",
+      "audio": "spell_nevertheless.mp3",
+      "sentence": "The odds were against us. ____, we succeeded.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "consequently",
+      "hint": "Formal result marker",
+      "clue": "c_n_s_q_u_ntly",
+      "audio": "spell_consequently.mp3",
+      "sentence": "Funding was cut. ____, the project halted.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "notwithstanding",
+      "hint": "Advanced preposition - formal contrast",
+      "clue": "n_t_w_ih_t_nd_ng",
+      "audio": "spell_notwithstanding.mp3",
+      "sentence": "____ the challenges, we succeeded.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "heretofore",
+      "hint": "Advanced adverb - formal time reference",
+      "clue": "h_r_t_f_r",
+      "audio": "spell_heretofore.mp3",
+      "sentence": "The data, ____ unavailable, now supports the hypothesis.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "nouns-phrases-explorer",
+        "name": "Nouns & Phrases Explorer",
+        "condition": "Complete all confused nouns & phrases lessons",
+        "icon": "📚",
+        "points": 15,
+        "message": "You've mastered the basics of confused nouns and phrases!"
+      },
+      {
+        "id": "job-work-pro",
+        "name": "Job/Work Pro",
+        "condition": "Score 100% on job/work activities",
+        "icon": "💼",
+        "points": 20,
+        "message": "You never mix up job and work again!"
+      },
+      {
+        "id": "travel-vocab-champion",
+        "name": "Travel Vocabulary Champion",
+        "condition": "Complete all travel/trip/journey games with no mistakes",
+        "icon": "🌍",
+        "points": 25,
+        "message": "You know exactly when to use trip, journey, or travel!"
+      },
+      {
+        "id": "false-friends-master",
+        "name": "False Friends Master",
+        "condition": "Correctly identify all false friend traps in 5 consecutive activities",
+        "icon": "🚫",
+        "points": 25,
+        "message": "You can spot false friends from a mile away!"
+      },
+      {
+        "id": "countable-uncountable-expert",
+        "name": "Countable/Uncountable Expert",
+        "condition": "Apply quantifier rules correctly in all advanced activities",
+        "icon": "🔢",
+        "points": 30,
+        "message": "You've got the countable/uncountable distinction down perfectly!"
+      },
+      {
+        "id": "nouns-phrases-perfectionist",
+        "name": "Nouns & Phrases Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Flawless noun/phrase mastery! You're ready for any context!"
+      }
+    ]
+  }
+}

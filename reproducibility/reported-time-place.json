@@ -2,23 +2,140 @@
   "lessonActivities": [
     {
       "id": "lesson-1",
-      "title": "Time & Place Expression Changes 🕐📍",
-      "content": "<p>Here's where it gets interesting! 🌍 Many learners forget that <strong>time and place words</strong> also change in reported speech. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Feature</th><th>Direct Speech</th><th>Reported Speech</th></tr></thead><tbody><tr><td><strong>Time: Now</strong></td><td>'I'm busy now.'</td><td>She said she was busy <strong>then</strong>.</td></tr><tr><td><strong>Time: Today</strong></td><td>'I'll call today.'</td><td>He said he would call <strong>that day</strong>.</td></tr><tr><td><strong>Time: Yesterday</strong></td><td>'I saw her yesterday.'</td><td>She said she had seen her <strong>the day before</strong>.</td></tr><tr><td><strong>Time: Tomorrow</strong></td><td>'We leave tomorrow.'</td><td>They said they left <strong>the next day</strong>.</td></tr><tr><td><strong>Place: Here</strong></td><td>'Sit here.'</td><td>She told me to sit <strong>there</strong>.</td></tr><tr><td><strong>Place: This</strong></td><td>'I like this book.'</td><td>He said he liked <strong>that</strong> book.</td></tr></tbody></table><p><strong>The secret:</strong> Imagine you're reporting the conversation from a different time or place. Words like 'here' and 'today' no longer make sense! 🗺️</p><p><strong>Common mistake:</strong> 'He said he is coming tomorrow' × → <strong>Correct:</strong> 'He said he was coming the next day' ✓</p><p><em>Fun fact: If you report speech on the same day, 'today' can sometimes stay 'today'! Context matters! 📅</em></p><p>   <strong>Pro tip:</strong> Look for time/place words in direct speech. If the reporting context has changed, shift them: today→that day, here→there.</p>",
-      "examples": ["<strong>Time change</strong>: 'I finished yesterday' → She said she had finished <strong>the day before</strong>.", "<strong>Place change</strong>: 'Meet me here' → He told me to meet him <strong>there</strong>.", "Wrong vs Right: 'She said she is leaving tomorrow' × → <strong>'She said she was leaving the next day'</strong> ✓"],
+      "title": "Time Expression Changes 🕐",
+      "content": "<p>Here's where it gets interesting! 🕐 Many learners forget that <strong>time words</strong> also change in reported speech. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Direct Speech</th><th>Reported Speech</th><th>Example</th></tr></thead><tbody><tr><td><strong>now</strong></td><td>then / at that time</td><td>'I'm busy now.' → She said she was busy <strong>then</strong>.</td></tr><tr><td><strong>today</strong></td><td>that day</td><td>'I'll call today.' → He said he would call <strong>that day</strong>.</td></tr><tr><td><strong>yesterday</strong></td><td>the day before / the previous day</td><td>'I saw her yesterday.' → She said she had seen her <strong>the day before</strong>.</td></tr><tr><td><strong>tomorrow</strong></td><td>the next day / the following day</td><td>'We leave tomorrow.' → They said they left <strong>the next day</strong>.</td></tr><tr><td><strong>ago</strong></td><td>before / previously</td><td>'I did it ago.' → He said he had done it <strong>before</strong>.</td></tr><tr><td><strong>last week</strong></td><td>the week before / the previous week</td><td>'I traveled last week.' → She said she had traveled <strong>the week before</strong>.</td></tr></tbody></table><p><strong>The secret:</strong> Imagine you're reporting the conversation from a different time. Words like 'today' and 'yesterday' no longer make sense! 🗓️</p><p><em>Fun fact: If you report speech on the same day, 'today' can sometimes stay 'today'! Context matters! 📅</em></p><p>   <strong>Pro tip:</strong> Look for time words in direct speech. If the reporting context has changed, shift them: today→that day, yesterday→the day before.</p>",
+      "examples": [
+        "<strong>Time change</strong>: 'I finished yesterday' → She said she had finished <strong>the day before</strong>.",
+        "Wrong vs Right: 'She said she is leaving tomorrow' × → <strong>'She said she was leaving the next day'</strong> ✓",
+        "Same-day exception: 'I'm busy today' (reported same day) → He said he's busy <strong>today</strong>."
+      ],
       "difficulty": 2,
-      "audio": "lesson_1_time_place.mp3",
-      "functions": ["Adjusting time expressions for reported context", "Shifting place references accurately"],
-      "tips": "   <strong>Pro tip:</strong> Look for time/place words in direct speech. If the reporting context has changed, shift them: today→that day, here→there."
+      "audio": "lesson_1_time_expressions.mp3",
+      "functions": [
+        "Adjusting time expressions for reported context",
+        "Identifying when time expressions change vs. stay"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Look for time words in direct speech. If the reporting context has changed, shift them: today→that day, yesterday→the day before."
     },
     {
       "id": "lesson-2",
-      "title": "Contextual Reporting: When Expressions Don't Change 🎯",
-      "content": "<p>Advanced insight! 🎯 Sometimes time/place expressions <strong>don't change</strong> in reported speech. It depends on <strong>when and where you're reporting</strong>.</p><p><strong>Rule:</strong> If the time/place reference is still accurate when you report, keep the original word.</p><table class='lesson-table table-yellow'><thead><tr><th>Scenario</th><th>Direct Speech</th><th>Reported (Same Day)</th><th>Reported (Later)</th></tr></thead><tbody><tr><td><strong>Today (reported same day)</strong></td><td>'I'm busy today.'</td><td>She said she's busy <strong>today</strong>.</td><td>She said she was busy <strong>that day</strong>.</td></tr><tr><td><strong>Here (same location)</strong></td><td>'Meet me here.'</td><td>He told me to meet him <strong>here</strong>.</td><td>He told me to meet him <strong>there</strong>.</td></tr><tr><td><strong>Now (immediate reporting)</strong></td><td>'I'm leaving now.'</td><td>She says she's leaving <strong>now</strong>.</td><td>She said she was leaving <strong>then</strong>.</td></tr></tbody></table><p><em>Fun fact: Native speakers often mix rules in casual speech—focus on clarity first! 💬</em></p><p>   <strong>Master level:</strong> In formal writing, be consistent with shift rules. In speech, prioritize clarity: if the meaning is clear, small variations are acceptable!</p>",
-      "examples": ["Same-day reporting: <strong>'I'll call today'</strong> → He said he'll call <strong>today</strong> (if still today).", "Different location: <strong>'This is my office'</strong> → She said that was <strong>her</strong> office.", "Immediate context: <strong>'It's raining now'</strong> → She says it's raining <strong>now</strong> (if still raining)."],
+      "title": "Place Expression Changes 📍",
+      "content": "<p>Time to explore another way! 📍 Just like time words, <strong>place words</strong> also shift in reported speech when the location changes.</p><p><strong>Pattern:</strong> [Subject] + <strong>said/told</strong> + (that) + [place-adjusted clause]. <em>Example: 'Sit here' → She told me to sit there.</em></p><p><strong>Compare these:</strong></p><table class='lesson-table table-teal'><thead><tr><th>Direct Speech</th><th>Reported Speech</th><th>Context Change</th></tr></thead><tbody><tr><td><strong>here</strong></td><td>there</td><td>Reporting from different location</td></tr><tr><td><strong>this</strong></td><td>that</td><td>Object is no longer 'this close'</td></tr><tr><td><strong>these</strong></td><td>those</td><td>Plural objects shift similarly</td></tr><tr><td><strong>in this room</strong></td><td>in that room</td><td>Specific location reference changes</td></tr><tr><td><strong>at this table</strong></td><td>at that table</td><td>Proximity indicator shifts</td></tr></tbody></table><p><em>Fun fact: If you're reporting from the same location, place words may not change! 'Meet me here' → He told me to meet him here (if still here). 🗺️</em></p><p>   <strong>Decision point:</strong> Are you in the same place as the original speaker? → Keep 'here/this'. Different place? → Shift to 'there/that'.</p>",
+      "examples": [
+        "<strong>Place change</strong>: 'Meet me here' → He told me to meet him <strong>there</strong>.",
+        "Same location: <strong>'This is my office.'</strong> (reported in office) → She said this was her office.",
+        "Different location: <strong>'This is my office.'</strong> (reported elsewhere) → She said that was her office."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_2_place_expressions.mp3",
+      "functions": [
+        "Shifting place references accurately",
+        "Determining when place expressions change vs. stay"
+      ],
+      "tips": "   <strong>Decision point:</strong> Are you in the same place as the original speaker? → Keep 'here/this'. Different place? → Shift to 'there/that'."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Combined Time & Place Shifts 🕐📍",
+      "content": "<p>Ready for the next level? 🕐📍 Reporting speech often requires changing <strong>both time and place expressions</strong> together.</p><p><strong>Formation:</strong> [Subject] + <strong>said/told</strong> + (that) + [time-shifted] + [place-shifted] + [clause]. <em>Example: 'I'll meet you here tomorrow' → She said she would meet me there the next day.</em></p><p><strong>Use this when:</strong></p><table class='lesson-table table-orange'><thead><tr><th>Direct Speech</th><th>Reported Speech</th><th>Changes Applied</th></tr></thead><tbody><tr><td><strong>'I'm busy here now.'</strong></td><td>She said she was busy <strong>there then</strong>.</td><td>here→there, now→then</td></tr><tr><td><strong>'We'll finish this today.'</strong></td><td>He said they would finish <strong>that that day</strong>.</td><td>this→that, today→that day</td></tr><tr><td><strong>'Come here yesterday.'</strong></td><td>She told me to come <strong>there the day before</strong>.</td><td>here→there, yesterday→the day before</td></tr><tr><td><strong>'I saw her here last week.'</strong></td><td>He said he had seen her <strong>there the week before</strong>.</td><td>here→there, last week→the week before</td></tr></tbody></table><p><em>Fun fact: Native speakers often simplify multiple shifts in casual speech—focus on clarity first! 💬</em></p><p>   <strong>When to use:</strong> Always check for both time AND place words. If either context has changed, shift accordingly.</p>",
+      "examples": [
+        "Combined shift: <strong>'I'll call you here tomorrow.'</strong> → He said he would call me <strong>there the next day</strong>.",
+        "Triple shift: <strong>'I saw this yesterday here.'</strong> → She said she had seen <strong>that the day before there</strong>.",
+        "Context exception: <strong>'I'm here now.'</strong> (reported same place/time) → He said he's <strong>here now</strong>."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_combined_shifts.mp3",
+      "functions": [
+        "Applying multiple expression shifts together",
+        "Prioritizing clarity when contexts overlap"
+      ],
+      "tips": "   <strong>When to use:</strong> Always check for both time AND place words. If either context has changed, shift accordingly."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Contrast: When Expressions Change vs. Stay ⚖️",
+      "content": "<p>Here's where it gets interesting! ⚖️ Many learners shift <strong>every time/place word</strong>, but sometimes we keep the original. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Expression</th><th>Change?</th><th>Example</th><th>Why?</th></tr></thead><tbody><tr><td><strong>today</strong></td><td>Optional</td><td>'I'm busy today' → He said he was busy <strong>today/that day</strong>.</td><td>Same day = keep; different day = shift</td></tr><tr><td><strong>here</strong></td><td>Optional</td><td>'Meet me here' → She told me to meet her <strong>here/there</strong>.</td><td>Same place = keep; different place = shift</td></tr><tr><td><strong>now</strong></td><td>Optional</td><td>'I'm leaving now' → He said he was leaving <strong>now/then</strong>.</td><td>Immediate reporting = keep; later = shift</td></tr><tr><td><strong>yesterday</strong></td><td>Usually</td><td>'I saw her yesterday' → She said she had seen her <strong>the day before</strong>.</td><td>Always shifts unless reporting same day</td></tr></tbody></table><p><strong>The secret:</strong> Ask: 'Am I reporting from the same time/place?' If yes, keep the word. If no, shift it.</p><p><strong>Common mistake:</strong> 'He said he was coming tomorrow' (reported next day) × → <strong>'He said he was coming today'</strong> ✓</p><p><em>Fun fact: In formal writing, consistent shifting is often preferred even when context allows flexibility! 📚</em></p><p>   <strong>Pro tip:</strong> When in doubt, shift—it's usually safer. Keep original words only when clarity demands it.</p>",
+      "examples": [
+        "Same-day reporting: <strong>'I'll call today'</strong> → He said he would call <strong>today</strong> (if still today).",
+        "Same-location: <strong>'This is my office'</strong> → She said <strong>this</strong> was her office (if still in office).",
+        "Wrong vs Right: 'She said she is leaving tomorrow' (reported next day) × → <strong>'She said she was leaving today'</strong> ✓"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_contrast.mp3",
+      "functions": [
+        "Choosing correctly when expressions change vs. stay",
+        "Avoiding over-shifting in same-context reporting"
+      ],
+      "tips": "   <strong>Pro tip:</strong> When in doubt, shift—it's usually safer. Keep original words only when clarity demands it."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Advanced: Complex Time References 🗓️",
+      "content": "<p>Ready for the next level? 🗓️ Reporting speech with <strong>complex time references</strong> requires careful adjustment of multi-word expressions.</p><p><strong>Formation:</strong> [Subject] + <strong>said</strong> + (that) + [complex time-shifted clause]. <em>Example: 'I saw her the day before yesterday' → He said he had seen her two days before.</em></p><p><strong>Use this when:</strong></p><table class='lesson-table table-orange'><thead><tr><th>Direct Expression</th><th>Reported Expression</th><th>Pattern</th></tr></thead><tbody><tr><td><strong>the day after tomorrow</strong></td><td>in two days' time / two days later</td><td>Specific future reference</td></tr><tr><td><strong>the day before yesterday</strong></td><td>two days before / two days earlier</td><td>Specific past reference</td></tr><tr><td><strong>next week/month/year</strong></td><td>the following week/month/year</td><td>Relative future period</td></tr><tr><td><strong>last night/week/month</strong></td><td>the previous night/week/month / the night/week/month before</td><td>Relative past period</td></tr><tr><td><strong>this morning/afternoon</strong></td><td>that morning/afternoon</td><td>Same-day reference shift</td></tr></tbody></table><p><em>Fun fact: 'The day after tomorrow' becomes 'in two days' time'—not 'the day after the day after'! Keep it simple! 🎯</em></p><p>   <strong>When to use:</strong> For multi-word time expressions, shift the entire phrase, not just individual words.</p>",
+      "examples": [
+        "Complex past: <strong>'I saw her the day before yesterday.'</strong> → He said he had seen her <strong>two days before</strong>.",
+        "Complex future: <strong>'We'll finish the day after tomorrow.'</strong> → She said they would finish <strong>in two days' time</strong>.",
+        "Period reference: <strong>'I traveled last month.'</strong> → He said he had traveled <strong>the month before</strong>."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_complex_time.mp3",
+      "functions": [
+        "Shifting multi-word time expressions correctly",
+        "Simplifying complex references for clarity"
+      ],
+      "tips": "   <strong>When to use:</strong> For multi-word time expressions, shift the entire phrase, not just individual words."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Negative Time/Place Shifts ❌",
+      "content": "<p>Let's master the full picture! ❌ Knowing how to report <strong>negative statements with time/place expressions</strong> completes your control of contextual shifts.</p><p><strong>Negative Formation:</strong> [Subject] + <strong>said/told</strong> + (that) + [subject] + <strong>didn't/wasn't</strong> + [time/place-shifted rest]. <em>Example: 'I'm not here today' → He said he wasn't there that day.</em></p><table class='lesson-table table-pink'><thead><tr><th>Direct Negative</th><th>Structure Pattern</th><th>Reported Form</th><th>Shift Applied</th></tr></thead><tbody><tr><td><strong>Present Simple Neg + Time</strong></td><td><code>don't/doesn't + verb + time</code></td><td><code>didn't + verb + shifted time</code></td><td>today→that day, now→then</td></tr><tr><td><strong>Present Continuous Neg + Place</strong></td><td><code>am/is/are + not + -ing + place</code></td><td><code>was/were + not + -ing + shifted place</code></td><td>here→there, this→that</td></tr><tr><td><strong>Will Neg + Time/Place</strong></td><td><code>won't + verb + time/place</code></td><td><code>wouldn't + verb + shifted time/place</code></td><td>tomorrow→next day, here→there</td></tr><tr><td><strong>Can Neg + Context</strong></td><td><code>can't + verb + context</code></td><td><code>couldn't + verb + shifted context</code></td><td>now→then, here→there</td></tr></tbody></table><p><em>Fun fact: The negation doesn't affect the time/place shift—apply both rules independently! 🔄</em></p><p><strong>Common mistake:</strong> 'She said she wasn't here yesterday' × → <strong>'She said she wasn't there the day before'</strong> ✓</p><p>   <strong>Remember:</strong> In negatives, apply backshift AND time/place shifts: don't→didn't + today→that day, isn't→wasn't + here→there.</p>",
+      "examples": [
+        "Negative + time: <strong>'I don't work here today.'</strong> → He said he didn't work <strong>there that day</strong>.",
+        "Negative + place: <strong>'I'm not staying here.'</strong> → She said she wasn't staying <strong>there</strong>.",
+        "Negative + future: <strong>'I won't be there tomorrow.'</strong> → He said he wouldn't be <strong>there the next day</strong>."
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_negative_shifts.mp3",
+      "functions": [
+        "Combining negation with time/place shifts",
+        "Applying multiple transformation rules together"
+      ],
+      "tips": "   <strong>Remember:</strong> In negatives, apply backshift AND time/place shifts: don't→didn't + today→that day, isn't→wasn't + here→there."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Time/Place Shifts with Time Clauses 🕐⏱️",
+      "content": "<p>Here's a crucial rule! 🕐⏱️ When you use <strong>time clauses</strong> with time/place expressions in reported speech, both the clause AND the expression may shift!</p><p><strong>The Rule:</strong> Apply shift rules to time expressions within time clauses just like in main clauses. <em>Example: 'I'll call when I get here tomorrow' → She said she would call when she got there the next day.</em></p><table class='lesson-table table-gray'><thead><tr><th>Time Starter</th><th>Direct Speech</th><th>Reported Speech</th><th>Shifts Applied</th></tr></thead><tbody><tr><td><strong>when</strong></td><td>'I'll call when I arrive tomorrow.'</td><td>She said she would call when she arrived <strong>the next day</strong>.</td><td>tomorrow→the next day</td></tr><tr><td><strong>before</strong></td><td>'Finish before you leave here.'</td><td>He told me to finish before I left <strong>there</strong>.</td><td>here→there</td></tr><tr><td><strong>after</strong></td><td>'I'll call after I get home today.'</td><td>She said she would call after she got home <strong>that day</strong>.</td><td>today→that day</td></tr><tr><td><strong>while</strong></td><td>'Don't talk while I'm speaking here.'</td><td>He told me not to talk while he was speaking <strong>there</strong>.</td><td>here→there</td></tr></tbody></table><p><strong>Common mistake:</strong> 'She said she would call when she arrives tomorrow' × → <strong>'She said she would call when she arrived the next day'</strong> ✓</p><p><em>Fun fact: Time expressions in time clauses follow the same shift rules as in main clauses—just apply them to each part! 🔄</em></p><p>   <strong>Never forget:</strong> After [time words], shift time/place expressions just like in the main clause. Main clause = [shifted], time clause = [shifted].</p>",
+      "examples": [
+        "With 'when': <strong>'I'll call when I arrive here tomorrow.'</strong> → She said she would call when she arrived <strong>there the next day</strong>.",
+        "With 'before': <strong>'Finish before you leave today.'</strong> → He told me to finish before I left <strong>that day</strong>.",
+        "With 'after': <strong>'I'll call after I get home.'</strong> → She said she would call after she got home. (no shift if context unchanged)"
+      ],
       "difficulty": 3,
-      "audio": "lesson_2_context.mp3",
-      "functions": ["Determining when expressions change vs. stay", "Adapting to reporting context"],
-      "tips": "   <strong>Master level:</strong> In formal writing, be consistent with shift rules. In speech, prioritize clarity: if the meaning is clear, small variations are acceptable!"
+      "audio": "lesson_7_time_clauses.mp3",
+      "functions": [
+        "Applying shifts to time expressions within time clauses",
+        "Managing multiple shifts in complex sentences"
+      ],
+      "tips": "   <strong>Never forget:</strong> After [time words], shift time/place expressions just like in the main clause. Main clause = [shifted], time clause = [shifted]."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Advanced Contextual Nuances 🎯",
+      "content": "<p>You've come so far! 🎯 Let's tackle the <strong>advanced nuances</strong> that separate good from great in time/place reporting.</p><p><strong>Special Case 1: Mixed Context Reporting</strong></p><p>Sometimes one sentence has multiple time/place references from different contexts. <em>Example: 'I was here yesterday, but I'll be there tomorrow' → He said he had been there the day before, but he would be here the next day.</em></p><p><strong>Special Case 2: Formal vs. Informal Register</strong></p><p>In formal contexts, use precise shifted expressions. In casual speech, simplify. <em>Formal: 'He stated that he would arrive on the following day.' Casual: 'He said he'd get there tomorrow.'</em></p><table class='lesson-table table-yellow'><thead><tr><th>Context / Register</th><th>Preferred Shift</th><th>Rhetorical Effect</th><th>Exemplar</th></tr></thead><tbody><tr><td><strong>Casual Speech</strong></td><td>Flexible, clarity-focused</td><td>Natural, conversational</td><td><em>He said he'd call tomorrow.</em></td></tr><tr><td><strong>Formal Writing</strong></td><td>Consistent shifting</td><td>Precise, professional</td><td><em>He stated that he would contact me on the following day.</em></td></tr><tr><td><strong>Academic Reporting</strong></td><td>Shifting with hedging</td><td>Objective, cautious</td><td><em>The author reported that the data appeared to support the hypothesis at that time.</em></td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✓ Identify all time/place expressions ✓ Apply shifts to each ✓ Check context for exceptions ✓ Adjust for register ✓ Verify clarity</p><p><em>Fun fact: Native speakers often simplify shifts in casual speech—focus on clarity first! 💬</em></p><p>   <strong>Master level:</strong> In formal writing, apply shifts consistently. In speech, prioritize clarity: if the meaning is clear, small variations are acceptable!</p>",
+      "examples": [
+        "Mixed contexts: <strong>'I was here yesterday, but I'll be there tomorrow.'</strong> → He said he had been <strong>there the day before</strong>, but he would be <strong>here the next day</strong>.",
+        "Formal shift: <strong>'I'll finish this today.'</strong> → He stated that he would complete <strong>that task that day</strong>.",
+        "Casual simplification: <strong>'I saw her here yesterday.'</strong> → He said he saw her <strong>here yesterday</strong> (if context clear)."
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Using time/place shifts in sophisticated ways",
+        "Adapting to different registers and contexts",
+        "Handling mixed context references"
+      ],
+      "tips": "   <strong>Master level:</strong> In formal writing, apply shifts consistently. In speech, prioritize clarity: if the meaning is clear, small variations are acceptable!"
     }
   ],
   "writingActivities": [
@@ -29,30 +146,561 @@
       "expectedKeywords": ["that day", "the day before", "there", "then", "pronoun shift"],
       "sentenceStarters": ["He said that...", "She mentioned that..."],
       "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Convert this direct statement to reported speech with time shift: 'I am busy here now.'",
+      "hint": "Use <strong>said/told</strong> + backshift 'am' to 'was' and shift 'here' to 'there', 'now' to 'then'. Example: <em>He said he was busy there then.</em>",
+      "expectedKeywords": ["said/told", "was", "there", "then", "pronoun shift"],
+      "sentenceStarters": ["He said that...", "She told me that..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Tell a short story about what your teacher said about an event last week. Use reported speech with time/place shifts at least twice.",
+      "hint": "Begin with 'The teacher said that last week...'. Add details with <strong>the week before</strong> and <strong>there</strong>.",
+      "expectedKeywords": ["the week before", "the day before", "there", "then", "pronoun shift", "said/told"],
+      "sentenceStarters": ["First, the teacher said that last week...", "Then, she mentioned that the day before..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Describe a conversation where someone talked about future plans. Report the plans with correct time expression shifts.",
+      "hint": "Remember: <strong>tomorrow→the next day</strong>, <strong>next week→the following week</strong>. Example: <em>She said she would travel the following week.</em>",
+      "expectedKeywords": ["the next day", "the following week", "would + verb", "pronoun adjustment", "transition word"],
+      "sentenceStarters": ["My friend said that...", "She mentioned that she would...", "He told me he would..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Compare what two different people said about the same event using reported speech. Show how their time/place references differed.",
+      "hint": "Use <strong>however/although</strong> to show contrast between their statements. Add <strong>similarly/both</strong> if they agreed on something.",
+      "expectedKeywords": ["contrast marker", "comparison marker", "said/told/explained", "time/place shift", "pronoun consistency"],
+      "sentenceStarters": ["Both John and Mary said that..., but John added...", "While Sarah claimed..., Tom insisted..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write a paragraph reporting a news announcement about an event. Use cause-effect markers and correct time/place shifts.",
+      "hint": "Start with the cause: <strong>because/since/as</strong>. Then show the result with shifted time/place: <strong>that day/there</strong>.",
+      "expectedKeywords": ["cause marker", "effect marker", "that day/there", "result phrase", "time expression shift"],
+      "sentenceStarters": ["The mayor announced that... because...", "This would happen... since..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Express an opinion about a rule. Report what someone said about it with correct time/place shifts, then give your view.",
+      "hint": "State your view with <strong>I believe/In my opinion</strong>. Support it with <strong>for example/this is because</strong>. Report others with shifted expressions.",
+      "expectedKeywords": ["opinion marker", "evidence marker", "reporting verb", "time/place shift", "supporting detail"],
+      "sentenceStarters": ["In my opinion,... because my teacher said that...", "I believe that... as my colleague explained..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Describe a hypothetical situation using reported conditional speech with correct time/place shifts. Include what someone said would happen if a condition were met.",
+      "hint": "Use <strong>If + past simple, would + base verb</strong> in reported form with shifted expressions. Example: <em>She said that if it rained tomorrow, she would stay home.</em>",
+      "expectedKeywords": ["conditional marker (if)", "would/could/might", "consequence phrase", "shifted time expression", "pronoun shift"],
+      "sentenceStarters": ["If it rained the next day, I would... he said.", "She mentioned that if..., she would..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Report a complex conversation involving a statement with past time reference, a future plan, and a place change. Show mastery by using correct shifts for each.",
+      "hint": "This requires 3 different shifts: past time→earlier reference, future→would + shifted time, here→there. Pay attention to pronoun shifts.",
+      "expectedKeywords": ["past time shift", "future shift", "place shift", "connecting phrase", "complex verb form"],
+      "sentenceStarters": ["Although she said..., he explained that...", "When I asked..., she replied that..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a formal email summarizing a meeting. Use reported speech with correct time/place shifts to convey what colleagues said, with hedging language and polite conclusions.",
+      "hint": "Maintain formal register: avoid contractions, use <strong>passive voice/formal connectors</strong>, end with <strong>polite closing</strong>. Report speech with consistent shifts.",
+      "expectedKeywords": ["formal connector", "hedging phrase", "passive construction", "polite closing", "consistent time/place shifts"],
+      "sentenceStarters": ["It was stated that...", "One colleague suggested that, given the circumstances..."],
+      "difficulty": 3
     }
   ],
   "gameActivities": [
     {
       "id": "game-1",
       "type": "drag-drop",
-      "question": "Choose the correct time expression change:",
-      "sentence": "Direct: 'I saw her yesterday.' → Reported: He said he had seen her ______.",
+      "question": "Choose the correct time expression shift:",
+      "sentence": "Direct: 'I saw her yesterday.' → Reported: He said he had seen her ____.",
       "options": ["the day before", "yesterday", "tomorrow", "last week"],
       "correctAnswer": ["the day before"],
       "audio": "game_1_sentence.mp3",
       "hint": "'Yesterday' in direct speech usually becomes 'the day before' in reported speech.",
       "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Select the correct place expression shift:",
+      "sentence": "Direct: 'Sit here.' → Reported: She told me to sit ____.",
+      "options": ["there", "here", "everywhere", "anywhere"],
+      "correctAnswer": ["there"],
+      "audio": "game_2_sentence.mp3",
+      "hint": "'Here' in direct speech usually becomes 'there' in reported speech when location changes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct 'now' shift:",
+      "sentence": "Direct: 'I'm busy now.' → Reported: He said he was busy ____.",
+      "options": ["then", "now", "later", "soon"],
+      "correctAnswer": ["then"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "'Now' in direct speech usually becomes 'then' in reported speech.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the correct 'tomorrow' shift:",
+      "sentence": "Direct: 'I'll call tomorrow.' → Reported: She said she would call ____.",
+      "options": ["the next day", "tomorrow", "yesterday", "today"],
+      "correctAnswer": ["the next day"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "'Tomorrow' in direct speech usually becomes 'the next day' in reported speech.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the correct 'this' shift:",
+      "sentence": "Direct: 'I like this book.' → Reported: He said he liked ____ book.",
+      "options": ["that", "this", "these", "those"],
+      "correctAnswer": ["that"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "'This' in direct speech usually becomes 'that' in reported speech.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which expression does NOT change in same-context reporting?",
+      "sentence": "Direct: 'I'm busy today.' (reported same day) → Reported: He said he was busy ____.",
+      "options": ["today", "that day", "yesterday", "tomorrow"],
+      "correctAnswer": ["today"],
+      "audio": "game_6_sentence.mp3",
+      "hint": "If reporting on the same day, 'today' can stay 'today'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Choose the correct complex time shift:",
+      "sentence": "Direct: 'I saw her the day before yesterday.' → Reported: He said he had seen her ____.",
+      "options": ["two days before", "the day before yesterday", "yesterday", "three days ago"],
+      "correctAnswer": ["two days before"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "'The day before yesterday' → 'two days before' in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Select the appropriate shift for 'last week':",
+      "sentence": "Direct: 'I traveled last week.' → Reported: She said she had traveled ____.",
+      "options": ["the week before", "last week", "next week", "this week"],
+      "correctAnswer": ["the week before"],
+      "audio": "game_8_sentence.mp3",
+      "hint": "'Last week' usually becomes 'the week before' in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Pick the correct combined time/place shift:",
+      "sentence": "Direct: 'I'll meet you here tomorrow.' → Reported: He said he would meet me ____ ____.",
+      "options": ["there / the next day", "here / tomorrow", "there / tomorrow", "here / the next day"],
+      "correctAnswer": ["there / the next day"],
+      "audio": "game_9_sentence.mp3",
+      "hint": "Both place and time shift: here→there, tomorrow→the next day.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Choose the correct shift for 'next year':",
+      "sentence": "Direct: 'We'll finish next year.' → Reported: They said they would finish ____.",
+      "options": ["the following year", "next year", "last year", "this year"],
+      "correctAnswer": ["the following year"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "'Next year' usually becomes 'the following year' in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Select the correct shift for negative time expression:",
+      "sentence": "Direct: 'I'm not here today.' → Reported: He said he wasn't ____ ____.",
+      "options": ["there / that day", "here / today", "there / today", "here / that day"],
+      "correctAnswer": ["there / that day"],
+      "audio": "game_11_sentence.mp3",
+      "hint": "Apply both negation and shifts: isn't→wasn't, here→there, today→that day.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the most precise shift for mixed context:",
+      "sentence": "Direct: 'I was here yesterday, but I'll be there tomorrow.' → Reported: ____",
+      "options": ["He said he had been there the day before, but he would be here the next day.", "He said he was here yesterday, but he will be there tomorrow.", "He said he had been here the day before, but he would be there tomorrow.", "He said he was there yesterday, but he will be here the next day."],
+      "correctAnswer": ["He said he had been there the day before, but he would be here the next day."],
+      "audio": "game_12_sentence.mp3",
+      "hint": "Check: past→past perfect, here→there, yesterday→day before, will→would, tomorrow→next day.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Choose the correct shift for time clause expression:",
+      "sentence": "Direct: 'I'll call when I arrive here tomorrow.' → Reported: She said she would call when she arrived ____ ____.",
+      "options": ["there / the next day", "here / tomorrow", "there / tomorrow", "here / the next day"],
+      "correctAnswer": ["there / the next day"],
+      "audio": "game_13_sentence.mp3",
+      "hint": "Time expressions in time clauses shift too: here→there, tomorrow→the next day.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Select the appropriate form showing no shift for same context:",
+      "sentence": "Direct: 'I'm here now.' (reported same place/time) → Reported: He says he's ____ ____.",
+      "options": ["here / now", "there / then", "here / then", "there / now"],
+      "correctAnswer": ["here / now"],
+      "audio": "game_14_sentence.mp3",
+      "hint": "If reporting from same place/time, expressions may not shift.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Choose the correct complete transformation with multiple shifts:",
+      "sentence": "Direct: 'I saw this yesterday here, and I'll show that tomorrow there.' → Reported: ____",
+      "options": ["He said he had seen that the day before there, and he would show that the next day there.", "He said he saw this yesterday here, and he will show that tomorrow there.", "He said he had seen this the day before here, and he would show that tomorrow there.", "He said he saw that yesterday there, and he will show this tomorrow here."],
+      "correctAnswer": ["He said he had seen that the day before there, and he would show that the next day there."],
+      "audio": "game_15_sentence.mp3",
+      "hint": "Check: this→that, yesterday→day before, here→there, will→would, tomorrow→next day.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What happens to 'yesterday' in reported speech?",
+      "sentence": "Direct: 'I saw her yesterday.' → Reported: He said he had seen her ____.",
+      "options": ["the day before", "yesterday", "tomorrow", "last week"],
+      "correctAnswer": "the day before",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "'Yesterday' usually becomes 'the day before' in reported speech.",
+      "difficulty": "easy",
+      "explanation": "Time expressions shift in reported speech: 'yesterday' → 'the day before' or 'the previous day'."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses place expression shift?",
+      "sentence": "Choose the correct option: 'Meet me here.'",
+      "options": ["She told me to meet her there.", "She told me to meet her here.", "She said me to meet her there.", "She told me meet her there."],
+      "correctAnswer": "She told me to meet her there.",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "'Here' usually becomes 'there' in reported speech when location changes.",
+      "difficulty": "easy",
+      "explanation": "Place expressions shift in reported speech: 'here' → 'there' when the reporting location is different."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Identify the correct 'now' shift:",
+      "sentence": "Direct: 'I'm busy now.' → Reported: He said he was busy ____.",
+      "options": ["then", "now", "later", "soon"],
+      "correctAnswer": "then",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "'Now' usually becomes 'then' in reported speech.",
+      "difficulty": "easy",
+      "explanation": "'Now' shifts to 'then' or 'at that time' in reported speech to reflect the temporal distance."
+    },
+    {
+      "id": "quiz-4",
+      "question": "What is the correct reported form for 'tomorrow'?",
+      "sentence": "Direct: 'I'll call tomorrow.'",
+      "options": ["He said he would call the next day.", "He said he would call tomorrow.", "He said he will call tomorrow.", "He said he called the next day."],
+      "correctAnswer": "He said he would call the next day.",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "'Tomorrow' usually becomes 'the next day' in reported speech.",
+      "difficulty": "easy",
+      "explanation": "'Tomorrow' shifts to 'the next day' or 'the following day' in reported speech. Also, 'will' backshifts to 'would'."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which expression does NOT change in same-context reporting?",
+      "sentence": "Direct: 'I'm busy today.' (reported same day) → Reported: He said he was busy ____.",
+      "options": ["today", "that day", "yesterday", "tomorrow"],
+      "correctAnswer": "today",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "If reporting on the same day, 'today' can stay 'today'.",
+      "difficulty": "easy",
+      "explanation": "When the reporting context is the same (same day), time expressions like 'today' may not shift."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which sentence correctly uses combined time/place shift?",
+      "sentence": "Choose the correct option: 'I'll meet you here tomorrow.'",
+      "options": ["He said he would meet me there the next day.", "He said he would meet me here tomorrow.", "He said he will meet me there tomorrow.", "He said he would meet me there tomorrow."],
+      "correctAnswer": "He said he would meet me there the next day.",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Both place and time shift: here→there, tomorrow→the next day.",
+      "difficulty": "medium",
+      "explanation": "Combined shifts apply: 'here' → 'there', 'tomorrow' → 'the next day', and 'will' → 'would'."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct shift for 'the day before yesterday':",
+      "sentence": "Direct: 'I saw her the day before yesterday.' → Reported: He said he had seen her ____.",
+      "options": ["two days before", "the day before yesterday", "yesterday", "three days ago"],
+      "correctAnswer": "two days before",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "'The day before yesterday' becomes 'two days before' in reported speech.",
+      "difficulty": "medium",
+      "explanation": "Complex time expressions shift as a unit: 'the day before yesterday' → 'two days before' or 'two days earlier'."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Select the appropriate shift for 'last week':",
+      "sentence": "Direct: 'I traveled last week.' → Reported: She said she had traveled ____.",
+      "options": ["the week before", "last week", "next week", "this week"],
+      "correctAnswer": "the week before",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "'Last week' usually becomes 'the week before' in reported speech.",
+      "difficulty": "medium",
+      "explanation": "'Last week' shifts to 'the week before' or 'the previous week' in reported speech."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which form correctly shows no shift for same context?",
+      "sentence": "Direct: 'I'm here now.' (reported same place/time) → Reported: He says he's ____ ____.",
+      "options": ["here / now", "there / then", "here / then", "there / now"],
+      "correctAnswer": "here / now",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "If reporting from same place/time, expressions may not shift.",
+      "difficulty": "medium",
+      "explanation": "When the reporting context is identical (same place and time), expressions like 'here' and 'now' may not shift."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Choose the correct shift for negative time expression:",
+      "sentence": "Direct: 'I'm not here today.' → Reported: He said he wasn't ____ ____.",
+      "options": ["there / that day", "here / today", "there / today", "here / that day"],
+      "correctAnswer": "there / that day",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Apply both negation and shifts: isn't→wasn't, here→there, today→that day.",
+      "difficulty": "medium",
+      "explanation": "Multiple transformations apply: negation (isn't→wasn't), place shift (here→there), and time shift (today→that day)."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Identify the error in this time/place shift sentence:",
+      "sentence": "She said that she wasn't here yesterday, but she is there today.",
+      "options": ["here → there", "yesterday → the day before", "Both A and B", "No error"],
+      "correctAnswer": "Both A and B",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "Check both place AND time shifts in reported speech.",
+      "difficulty": "medium",
+      "explanation": "Two errors: (1) 'here' should shift to 'there' in reported speech. (2) 'yesterday' should shift to 'the day before' or 'the previous day'."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Choose the best form to complete the sentence:",
+      "sentence": "He said that if he ____ enough time, he would travel ____.",
+      "options": ["had / the next day", "has / tomorrow", "had / tomorrow", "has / the next day"],
+      "correctAnswer": "had / the next day",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "This tests reported conditional with time shift.",
+      "difficulty": "hard",
+      "explanation": "Reported conditionals: if + past simple ('had'), would + base verb. Time expressions also shift: 'tomorrow' → 'the next day'."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which sentence demonstrates correct advanced time/place shift usage?",
+      "sentence": "Select the most sophisticated option:",
+      "options": ["The researcher stated that the data appeared to support the hypothesis at that time, though further analysis was warranted.", "The researcher said the data supports the hypothesis now.", "The researcher stated that the data supported the hypothesis then.", "The researcher says that the data supports the hypothesis now."],
+      "correctAnswer": "The researcher stated that the data appeared to support the hypothesis at that time, though further analysis was warranted.",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "Look for appropriate register, precise vocabulary, and structural complexity.",
+      "difficulty": "hard",
+      "explanation": "Advanced usage requires appropriate register and contextual fit. Option A demonstrates hedging ('appeared to'), formal vocabulary ('warranted'), and precise time reference ('at that time')."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the stylistic issue in this formal time/place report:",
+      "sentence": "The committee said they can't approve the proposal here 'cause it's too expensive today.",
+      "options": ["Informal contractions in formal context", "Correct formal usage", "Overly complex syntax", "Missing hedging language"],
+      "correctAnswer": "Informal contractions in formal context",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Formal writing avoids contractions and colloquialisms.",
+      "difficulty": "hard",
+      "explanation": "In formal/academic writing, contractions (can't, 'cause, it's) should be expanded (cannot, because, it is). This maintains professional register and clarity."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Choose the most precise hedging expression for academic time/place reporting:",
+      "sentence": "The study ____ suggest a correlation at that time, though further research is needed.",
+      "options": ["appeared to", "definitely", "might possibly maybe", "is proven to"],
+      "correctAnswer": "appeared to",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Academic writing uses hedging to show caution with claims.",
+      "difficulty": "hard",
+      "explanation": "'Appeared to' provides appropriate hedging for academic claims—confident but not absolute. 'Definitely' and 'is proven to' are too strong without conclusive evidence."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "although",
+      "hint": "Subordinating conjunction - shows contrast in reported clauses",
+      "clue": "a_l_ou_h",
+      "audio": "spell_although.mp3",
+      "sentence": "____ it was raining, she said she would go out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "because",
+      "hint": "Subordinating conjunction - shows reason in reported explanations",
+      "clue": "b_c_u_e",
+      "audio": "spell_because.mp3",
+      "sentence": "He explained that he was late ____ the traffic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "however",
+      "hint": "Transition word - shows contrast between reported statements",
+      "clue": "h_w_v_r",
+      "audio": "spell_however.mp3",
+      "sentence": "She said she was tired. ____, she finished her work.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "therefore",
+      "hint": "Transition word - shows result in reported conclusions",
+      "clue": "t_e_e_o_e",
+      "audio": "spell_therefore.mp3",
+      "sentence": "She studied hard; ____, she passed the exam, he reported.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "despite",
+      "hint": "Preposition - shows contrast with noun/gerund in reported clauses",
+      "clue": "d_s_ite",
+      "audio": "spell_despite.mp3",
+      "sentence": "____ the rain, she said she would go hiking.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "furthermore",
+      "hint": "Formal transition - adds supporting information in reported speech",
+      "clue": "f_r_h_r_o_e",
+      "audio": "spell_furthermore.mp3",
+      "sentence": "The report stated the plan was efficient. ____, it was cost-effective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "nevertheless",
+      "hint": "Formal contrast marker - acknowledges but persists in reported context",
+      "clue": "n_v_r_h_l_ss",
+      "audio": "spell_nevertheless.mp3",
+      "sentence": "The odds were against us. ____, we succeeded, she said.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "consequently",
+      "hint": "Formal result marker - shows logical outcome in reported explanations",
+      "clue": "c_n_s_q_u_ntly",
+      "audio": "spell_consequently.mp3",
+      "sentence": "Funding was cut. ____, the project halted, they reported.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "notwithstanding",
+      "hint": "Advanced preposition - formal contrast with noun phrase in reported speech",
+      "clue": "n_t_w_ih_t_nd_ng",
+      "audio": "spell_notwithstanding.mp3",
+      "sentence": "____ the challenges, the team delivered excellent results, he stated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "heretofore",
+      "hint": "Advanced adverb - formal time reference meaning 'until now' in reported context",
+      "clue": "h_r_t_f_r",
+      "audio": "spell_heretofore.mp3",
+      "sentence": "The data, ____ unavailable, now supports the hypothesis, the researcher reported.",
+      "difficulty": "hard"
     }
   ],
   "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
     "badges": [
       {
-        "id": "time-place-pro",
-        "name": "Time & Place Expression Pro",
-        "condition": "Spell all time/place words correctly on first try",
-        "icon": "🕐📍",
+        "id": "time-shift-explorer",
+        "name": "Time Shift Explorer",
+        "condition": "Complete all time expression activities with no mistakes",
+        "icon": "🕐",
         "points": 20,
         "message": "You never mix up 'yesterday' and 'the day before' again!"
+      },
+      {
+        "id": "place-shift-pro",
+        "name": "Place Shift Pro",
+        "condition": "Score 100% on place expression activities",
+        "icon": "📍",
+        "points": 20,
+        "message": "You always know when to use 'here' vs 'there' in reported speech!"
+      },
+      {
+        "id": "combined-shift-champion",
+        "name": "Combined Shift Champion",
+        "condition": "Correctly apply both time AND place shifts in 5 consecutive activities",
+        "icon": "🕐📍",
+        "points": 25,
+        "message": "You can handle multiple contextual shifts like a pro!"
+      },
+      {
+        "id": "context-awareness-expert",
+        "name": "Context Awareness Expert",
+        "condition": "Identify all same-context exceptions correctly",
+        "icon": "⚖️",
+        "points": 25,
+        "message": "You know when expressions change and when they don't!"
+      },
+      {
+        "id": "complex-time-master",
+        "name": "Complex Time Master",
+        "condition": "Complete all complex time reference activities with no mistakes",
+        "icon": "🗓️",
+        "points": 30,
+        "message": "You can shift any time expression, no matter how complex!"
+      },
+      {
+        "id": "time-place-perfectionist",
+        "name": "Time & Place Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Flawless contextual mastery! You're ready to report from any time or place!"
       }
     ]
   }

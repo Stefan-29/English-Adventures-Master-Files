@@ -1,0 +1,716 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "Say vs Tell: Who Gets the Message? 🗣️",
+      "content": "<p>Here's where it gets interesting! 🗣️ Many learners confuse <strong>say</strong> and <strong>tell</strong>. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Feature</th><th>Say</th><th>Tell</th></tr></thead><tbody><tr><td><strong>Object Pattern</strong></td><td>say + (that) + clause<br>say + to + person</td><td>tell + person + (that) + clause<br>tell + person + to + verb</td></tr><tr><td><strong>Example</strong></td><td><em>She said (that) she was tired.</em><br><em>He said to me, 'Hello.'</em></td><td><em>She told me (that) she was tired.</em><br><em>He told me to wait.</em></td></tr><tr><td><strong>Common Uses</strong></td><td>say hello/goodbye/thank you<br>say a word/phrase in a language</td><td>tell a story/joke/secret<br>tell the time/the truth/the difference</td></tr><tr><td><strong>Common Error</strong></td><td>× She said me she was tired.</td><td>× She told that she was tired.</td></tr></tbody></table><p><strong>The secret:</strong> <strong>Tell</strong> always needs a person object. <strong>Say</strong> does not—or uses 'to + person'.</p><p><strong>Common mistake:</strong> 'She said me the news' × → <strong>'She told me the news'</strong> ✓</p><p><em>Fun fact: In reported speech, 'say' often becomes 'tell' when adding a person object! ✨</em></p><p>   <strong>Pro tip:</strong> Ask: 'Is there a person right after the verb?' If yes → use <strong>tell</strong>. If no → use <strong>say</strong> (or say + to + person).</p>",
+      "examples": [
+        "<strong>Say</strong> example: 'I'm hungry' → He <strong>said</strong> he was hungry.",
+        "<strong>Tell</strong> example: 'I'm hungry' → He <strong>told me</strong> he was hungry.",
+        "Wrong vs Right: 'She said me to go' × → <strong>'She told me to go'</strong> ✓"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_say_tell.mp3",
+      "functions": [
+        "Choosing correctly between say and tell",
+        "Using proper object patterns for each verb"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Ask: 'Is there a person right after the verb?' If yes → use <strong>tell</strong>. If no → use <strong>say</strong> (or say + to + person)."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Make vs Do: Creating vs Acting 🛠️",
+      "content": "<p>Ready for the next level? 🛠️ Knowing when to use <strong>make</strong> vs <strong>do</strong> completes your control of common verb pairs.</p><p><strong>General Rule:</strong> <strong>Make</strong> = create/produce something new. <strong>Do</strong> = perform tasks/activities.</p><table class='lesson-table table-green'><thead><tr><th>Category</th><th>Make (Create)</th><th>Do (Perform)</th></tr></thead><tbody><tr><td><strong>Food/Objects</strong></td><td>make a cake, make coffee, make furniture</td><td>do the dishes, do the shopping</td></tr><tr><td><strong>Plans/Ideas</strong></td><td>make a plan, make a decision, make a suggestion</td><td>do homework, do a project, do research</td></tr><tr><td><strong>Actions/Sounds</strong></td><td>make a noise, make a phone call, make a speech</td><td>do exercise, do yoga, do your best</td></tr><tr><td><strong>Abstract</strong></td><td>make progress, make money, make a difference</td><td>do good, do harm, do nothing</td></tr></tbody></table><p><em>Fun fact: Some expressions are fixed—you just have to memorize them! 'Make a mistake' not 'do a mistake'! 🎯</em></p><p><strong>Common mistake:</strong> 'I did a cake' × → <strong>'I made a cake'</strong> ✓</p><p>   <strong>Memory trick:</strong> If you can hold the result in your hands → probably <strong>make</strong>. If it's an activity → probably <strong>do</strong>.</p>",
+      "examples": [
+        "<strong>Make</strong>: She <strong>made</strong> a reservation for dinner.",
+        "<strong>Do</strong>: He <strong>does</strong> his homework every evening.",
+        "Fixed expression: <strong>'make a mistake'</strong> (never 'do a mistake')"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_make_do.mp3",
+      "functions": [
+        "Choosing between make and do based on meaning",
+        "Using fixed collocations correctly"
+      ],
+      "tips": "   <strong>Memory trick:</strong> If you can hold the result in your hands → probably <strong>make</strong>. If it's an activity → probably <strong>do</strong>."
+    },
+    {
+      "id": "lesson-3",
+      "title": "Lay vs Lie: Position vs Placement 🛏️",
+      "content": "<p>Time to explore another way! 🛏️ The verbs <strong>lay</strong> and <strong>lie</strong> confuse even native speakers. Let's master them.</p><p><strong>Key Difference:</strong> <strong>Lay</strong> = put something down (needs object). <strong>Lie</strong> = rest/recline (no object).</p><table class='lesson-table table-teal'><thead><tr><th>Verb</th><th>Meaning</th><th>Transitive?</th><th>Present/Past/Participle</th><th>Example</th></tr></thead><tbody><tr><td><strong>lay</strong></td><td>place, put down</td><td>Yes (needs object)</td><td>lay / laid / laid</td><td><em>She laid the book on the table.</em></td></tr><tr><td><strong>lie</strong> (rest)</td><td>recline, be flat</td><td>No (no object)</td><td>lie / lay / lain</td><td><em>The cat lies in the sun.</em></td></tr><tr><td><strong>lie</strong> (untruth)</td><td>say something false</td><td>No</td><td>lie / lied / lied</td><td><em>He lied about his age.</em></td></tr></tbody></table><p><em>Fun fact: The past tense of 'lie' (rest) is 'lay'—same as present tense of 'lay' (place)! That's why it's so confusing! 🔄</em></p><p><strong>Common mistake:</strong> 'I'm going to lay down' × → <strong>'I'm going to lie down'</strong> ✓ (no object = lie)</p><p>   <strong>Decision point:</strong> Is there a direct object after the verb? → Use <strong>lay</strong>. No object? → Use <strong>lie</strong> (for resting).</p>",
+      "examples": [
+        "With object: <strong>'Lay the baby in the crib.'</strong> (you place the baby)",
+        "No object: <strong>'The baby lies in the crib.'</strong> (baby rests)",
+        "Past tense trap: <strong>'Yesterday I lay down.'</strong> (past of lie = lay)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_lay_lie.mp3",
+      "functions": [
+        "Distinguishing lay (transitive) from lie (intransitive)",
+        "Using correct conjugations for each verb"
+      ],
+      "tips": "   <strong>Decision point:</strong> Is there a direct object after the verb? → Use <strong>lay</strong>. No object? → Use <strong>lie</strong> (for resting)."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Remember vs Remind: Memory vs Prompt 🧠",
+      "content": "<p>Here's where it gets interesting! 🧠 Many learners confuse <strong>remember</strong> and <strong>remind</strong>. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Feature</th><th>Remember</th><th>Remind</th></tr></thead><tbody><tr><td><strong>Who Acts</strong></td><td>You do it yourself</td><td>Someone/something helps you</td></tr><tr><td><strong>Structure</strong></td><td>remember + to + verb (future)<br>remember + -ing (past)</td><td>remind + person + to + verb<br>remind + person + of + noun</td></tr><tr><td><strong>Example</strong></td><td><em>I remember locking the door.</em> (past)<br><em>Remember to lock the door.</em> (future)</td><td><em>Remind me to lock the door.</em><br><em>This song reminds me of Paris.</em></td></tr><tr><td><strong>Meaning</strong></td><td>Keep in mind / recall</td><td>Help someone not forget / bring to mind</td></tr></tbody></table><p><strong>The secret:</strong> <strong>Remember</strong> = internal memory. <strong>Remind</strong> = external prompt.</p><p><strong>Common mistake:</strong> 'Remember me to call' × → <strong>'Remind me to call'</strong> ✓</p><p><em>Fun fact: 'Remember me to your parents' is an old-fashioned way to say 'Say hello to your parents for me'! 👋</em></p><p>   <strong>Pro tip:</strong> If YOU are doing the remembering → <strong>remember</strong>. If SOMEONE ELSE helps you remember → <strong>remind</strong>.</p>",
+      "examples": [
+        "Internal: <strong>'I remember meeting her.'</strong> (my memory)",
+        "External: <strong>'She reminded me to call.'</strong> (her prompt)",
+        "Trigger: <strong>'This photo reminds me of summer.'</strong> (external trigger)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_remember_remind.mp3",
+      "functions": [
+        "Choosing between internal memory and external prompts",
+        "Using correct structures with to/-ing/of"
+      ],
+      "tips": "   <strong>Pro tip:</strong> If YOU are doing the remembering → <strong>remember</strong>. If SOMEONE ELSE helps you remember → <strong>remind</strong>."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Affect vs Effect: Action vs Result ⚡",
+      "content": "<p>Ready for the next level? ⚡ The words <strong>affect</strong> and <strong>effect</strong> are often confused. Here's the key:</p><p><strong>General Rule:</strong> <strong>Affect</strong> = verb (to influence). <strong>Effect</strong> = noun (a result).</p><table class='lesson-table table-orange'><thead><tr><th>Word</th><th>Part of Speech</th><th>Meaning</th><th>Example</th><th>Test</th></tr></thead><tbody><tr><td><strong>affect</strong></td><td>Verb (usually)</td><td>to influence, to change</td><td><em>The rain affected our plans.</em></td><td>Can you replace with 'influence'?</td></tr><tr><td><strong>effect</strong></td><td>Noun (usually)</td><td>a result, a consequence</td><td><em>The rain had an effect on our plans.</em></td><td>Can you replace with 'result'?</td></tr><tr><td><strong>effect</strong></td><td>Verb (formal)</td><td>to bring about, to cause</td><td><em>The new law effected change.</em></td><td>Formal contexts only</td></tr></tbody></table><p><em>Fun fact: 'Affect' as a noun exists in psychology (emotional expression), but that's advanced usage! 🧠</em></p><p><strong>Common mistake:</strong> 'The medicine had a good affect' × → <strong>'The medicine had a good effect'</strong> ✓</p><p>   <strong>Memory trick:</strong> <strong>A</strong>ffect = <strong>A</strong>ction (verb). <strong>E</strong>ffect = <strong>E</strong>nd result (noun).</p>",
+      "examples": [
+        "Verb: <strong>'Stress can affect your health.'</strong> (action)",
+        "Noun: <strong>'Stress has a negative effect on health.'</strong> (result)",
+        "Formal verb: <strong>'The policy effected major changes.'</strong> (brought about)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_affect_effect.mp3",
+      "functions": [
+        "Distinguishing verb vs noun usage",
+        "Using affect/effect in formal vs informal contexts"
+      ],
+      "tips": "   <strong>Memory trick:</strong> <strong>A</strong>ffect = <strong>A</strong>ction (verb). <strong>E</strong>ffect = <strong>E</strong>nd result (noun)."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Contrast: Say/Tell vs Make/Do Patterns 🔄",
+      "content": "<p>Let's master the full picture! 🔄 Knowing how these verb pairs differ in structure completes your control.</p><table class='lesson-table table-pink'><thead><tr><th>Pair</th><th>Key Structural Difference</th><th>Quick Test</th><th>Example</th></tr></thead><tbody><tr><td><strong>Say vs Tell</strong></td><td>Tell needs person object; Say doesn't</td><td>Is there a person right after? → tell</td><td>'She told me' ✓ / 'She said me' ×</td></tr><tr><td><strong>Make vs Do</strong></td><td>Make = create result; Do = perform action</td><td>Can you hold the result? → make</td><td>'make a cake' ✓ / 'do a cake' ×</td></tr><tr><td><strong>Lay vs Lie</strong></td><td>Lay needs object; Lie doesn't (for resting)</td><td>Is there a direct object? → lay</td><td>'lay the book' ✓ / 'lie down' ✓</td></tr><tr><td><strong>Remember vs Remind</strong></td><td>Remember = internal; Remind = external prompt</td><td>Who initiates the memory? → choose verb</td><td>'I remember' / 'She reminded me'</td></tr><tr><td><strong>Affect vs Effect</strong></td><td>Affect = verb (action); Effect = noun (result)</td><td>Replace with 'influence' or 'result'?</td><td>'affect plans' / 'have an effect'</td></tr></tbody></table><p><strong>The secret:</strong> Each pair has a structural clue. Find the clue → choose the right verb.</p><p><em>Fun fact: Native speakers sometimes mix these in casual speech—but in writing, precision matters! ✍️</em></p><p>   <strong>Pro tip:</strong> When unsure, test with the 'quick test' column. If it passes → you've got the right verb.</p>",
+      "examples": [
+        "Say/Tell test: <strong>'He ___ me the news.'</strong> → person object → <strong>told</strong>",
+        "Make/Do test: <strong>'She ___ a decision.'</strong> → result you 'create' → <strong>made</strong>",
+        "Affect/Effect test: <strong>'This will ___ the outcome.'</strong> → action → <strong>affect</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_contrast.mp3",
+      "functions": [
+        "Applying structural tests to choose correct verbs",
+        "Avoiding common confusion points across pairs"
+      ],
+      "tips": "   <strong>Pro tip:</strong> When unsure, test with the 'quick test' column. If it passes → you've got the right verb."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Advanced: Register & Formality Nuances 🎓",
+      "content": "<p>Here's a crucial rule! 🎓 In formal writing, verb pair choices matter even more. Let's master register.</p><p><strong>Formal vs Informal Preferences:</strong></p><table class='lesson-table table-gray'><thead><tr><th>Context</th><th>Preferred Choice</th><th>Why</th><th>Example</th></tr></thead><tbody><tr><td><strong>Academic Writing</strong></td><td>affect (verb), effect (noun)</td><td>Precision in cause/result</td><td><em>The intervention affected outcomes.</em></td></tr><tr><td><strong>Business Reports</strong></td><td>tell + person, make + result</td><td>Clarity in instructions</td><td><em>Please tell the team. We made progress.</em></td></tr><tr><td><strong>Casual Speech</strong></td><td>say, do, lie (colloquial)</td><td>Natural flow</td><td><em>She said she'd do it. I'm gonna lie down.</em></td></tr><tr><td><strong>Legal/Formal</strong></td><td>effect (verb), lay (precise)</td><td>Technical accuracy</td><td><em>The treaty effected change. Lay the document here.</em></td></tr></tbody></table><p><strong>Common mistake in formal writing:</strong> Using casual forms where precision is required.</p><p><em>Fun fact: In legal English, 'effect' as a verb is common ('to effect a transfer'), but rare in everyday speech! ⚖️</em></p><p>   <strong>Master level:</strong> In formal contexts, prefer precise verbs. In speech, prioritize naturalness—but never sacrifice clarity.</p>",
+      "examples": [
+        "Formal: <strong>'The policy effected significant changes.'</strong> (brought about)",
+        "Casual: <strong>'The policy made big changes.'</strong> (natural)",
+        "Academic: <strong>'Stress affects cognitive performance.'</strong> (precise verb)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_register.mp3",
+      "functions": [
+        "Adapting verb choices to register and context",
+        "Using formal vs informal variants appropriately"
+      ],
+      "tips": "   <strong>Master level:</strong> In formal contexts, prefer precise verbs. In speech, prioritize naturalness—but never sacrifice clarity."
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Quick Decision Flowchart 🎯",
+      "content": "<p>You've come so far! 🎯 Let's create a <strong>mental flowchart</strong> to choose confusable verbs instantly.</p><p><strong>Step-by-Step Decision Tree:</strong></p><table class='lesson-table table-yellow'><thead><tr><th>Question</th><th>If YES →</th><th>If NO →</th><th>Example</th></tr></thead><tbody><tr><td><strong>Is there a person object right after?</strong></td><td>Use <strong>tell</strong></td><td>Use <strong>say</strong> (or say + to + person)</td><td>'She ___ me' → told ✓</td></tr><tr><td><strong>Can you hold the result?</strong></td><td>Use <strong>make</strong></td><td>Use <strong>do</strong></td><td>'___ a cake' → made ✓</td></tr><tr><td><strong>Is there a direct object?</strong></td><td>Use <strong>lay</strong> (place)</td><td>Use <strong>lie</strong> (rest)</td><td>'___ the book down' → lay ✓</td></tr><tr><td><strong>Who initiates the memory?</strong></td><td>You → <strong>remember</strong><br>Other → <strong>remind</strong></td><td></td><td>'___ me to call' → remind ✓</td></tr><tr><td><strong>Is it an action or result?</strong></td><td>Action → <strong>affect</strong><br>Result → <strong>effect</strong></td><td></td><td>'___ the outcome' → affect ✓</td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✓ Identify structural clue ✓ Apply decision rule ✓ Check register ✓ Verify meaning</p><p><em>Fun fact: With practice, these choices become automatic—just like riding a bike! 🚴</em></p><p>   <strong>Pro tip:</strong> Print this flowchart or save it. Review before writing tasks until it becomes second nature!</p>",
+      "examples": [
+        "Quick test: <strong>'She ___ a mistake.'</strong> → result you 'create' → <strong>made</strong> ✓",
+        "Register check: <strong>'The law ___ change.'</strong> → formal → <strong>effected</strong> ✓",
+        "Object test: <strong>'Please ___ down.'</strong> → no object → <strong>lie</strong> ✓"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Applying decision rules under time pressure",
+        "Achieving automaticity in verb pair selection"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Print this flowchart or save it. Review before writing tasks until it becomes second nature!"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about a time someone gave you advice. Use 'say' or 'tell' correctly at least twice.",
+      "hint": "Remember: <strong>tell + person</strong>, <strong>say + (that)</strong> or <strong>say + to + person</strong>. Example: <em>My friend told me to study harder. She said that exams were important.</em>",
+      "expectedKeywords": ["told me", "said that", "said to", "person object", "that-clause"],
+      "sentenceStarters": ["My friend told me that...", "She said to me..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe a task you completed today. Use 'make' or 'do' correctly at least three times.",
+      "hint": "<strong>Make</strong> = create results. <strong>Do</strong> = perform actions. Example: <em>I did my homework and made a sandwich for lunch.</em>",
+      "expectedKeywords": ["made", "did", "collocation", "result vs action"],
+      "sentenceStarters": ["Today I did...", "I also made..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Tell a short story using 'remember' or 'remind' correctly. Include one example of each.",
+      "hint": "<strong>Remember</strong> = your memory. <strong>Remind</strong> = someone helps you remember. Example: <em>I remembered to call Mom. My friend reminded me about the meeting.</em>",
+      "expectedKeywords": ["remembered", "reminded", "to + verb", "-ing form", "of + noun"],
+      "sentenceStarters": ["I remember...", "Someone reminded me to..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Write a paragraph about a project. Use 'affect' and 'effect' correctly, showing the difference.",
+      "hint": "<strong>Affect</strong> = verb (action). <strong>Effect</strong> = noun (result). Example: <em>The weather affected our plans. The effect was a delay.</em>",
+      "expectedKeywords": ["affected", "effect", "have an effect on", "verb vs noun"],
+      "sentenceStarters": ["This decision affected...", "The effect was..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Compare two similar situations using different verb pairs. Show how the meaning changes with each choice.",
+      "hint": "Use <strong>however/although</strong> to contrast. Example: <em>She said she was tired. However, she told me to continue working.</em>",
+      "expectedKeywords": ["contrast marker", "say/tell", "make/do", "affect/effect", "pronoun consistency"],
+      "sentenceStarters": ["In the first case, she said... In the second, she told...", "While X affected..., Y had the effect of..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Write instructions for a simple task. Use 'tell' for direct instructions and 'remind' for memory prompts.",
+      "hint": "Start with <strong>tell + person + to + verb</strong> for steps. Use <strong>remind + person + to + verb</strong> for important notes.",
+      "expectedKeywords": ["tell me to", "remind me to", "imperative structure", "memory prompt"],
+      "sentenceStarters": ["First, tell yourself to...", "Remind yourself to check..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Express an opinion about a rule. Use 'affect' to discuss impact and 'effect' to discuss results.",
+      "hint": "State your view with <strong>I believe</strong>. Use <strong>affect</strong> for actions, <strong>effect</strong> for outcomes.",
+      "expectedKeywords": ["opinion marker", "affected", "effect", "cause vs result", "supporting detail"],
+      "sentenceStarters": ["I believe this rule affects... The effect is...", "In my opinion, the main effect is..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Describe a hypothetical scenario using 'lay/lie' correctly. Include both the transitive and intransitive forms.",
+      "hint": "<strong>Lay</strong> needs an object. <strong>Lie</strong> (rest) doesn't. Example: <em>I will lay the book down, then lie on the sofa.</em>",
+      "expectedKeywords": ["lay + object", "lie (no object)", "correct conjugation", "context clue"],
+      "sentenceStarters": ["If I had time, I would lay... and then lie...", "She would lay the items down before lying..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Write a formal email using at least three different verb pairs correctly. Show register awareness.",
+      "hint": "Maintain formal register: prefer precise verbs. Use <strong>effect</strong> (verb) for formal 'bring about', <strong>tell</strong> for clear instructions.",
+      "expectedKeywords": ["formal connector", "precise verb choice", "effect (verb)", "tell + person", "professional vocabulary"],
+      "sentenceStarters": ["I would like to inform you that...", "Please be reminded that..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a reflective paragraph about learning these verb pairs. Use all five pairs at least once each.",
+      "hint": "This requires mastery: say/tell, make/do, lay/lie, remember/remind, affect/effect. Pay attention to structures and meanings.",
+      "expectedKeywords": ["all five pairs", "correct structures", "contextual usage", "self-reflection", "metacognition"],
+      "sentenceStarters": ["Learning these pairs has affected my writing...", "I now remember to check..."],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct verb:",
+      "sentence": "She ____ me that she was leaving.",
+      "options": ["said", "told", "made", "did"],
+      "correctAnswer": ["told"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Person object after verb? → Use 'tell'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Select the right collocation:",
+      "sentence": "I need to ____ my homework.",
+      "options": ["make", "do", "lay", "lie"],
+      "correctAnswer": ["do"],
+      "audio": "game_2_sentence.mp3",
+      "hint": "Tasks/activities → usually 'do'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct form for resting:",
+      "sentence": "I'm tired. I'm going to ____ down.",
+      "options": ["lay", "lie", "laid", "lain"],
+      "correctAnswer": ["lie"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "No object = 'lie' (rest).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the memory verb:",
+      "sentence": "Please ____ me to call Mom.",
+      "options": ["remember", "remind", "affect", "effect"],
+      "correctAnswer": ["remind"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "Someone helping you remember → 'remind'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the correct word for 'result':",
+      "sentence": "The new policy had a positive ____.",
+      "options": ["affect", "effect", "affects", "effects"],
+      "correctAnswer": ["effect"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "Noun = result → 'effect'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which verb fits this structure?",
+      "sentence": "He ____ a great cake for the party.",
+      "options": ["did", "made", "lay", "lied"],
+      "correctAnswer": ["made"],
+      "audio": "game_6_sentence.mp3",
+      "hint": "Creating something → 'make'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Choose the correct past tense:",
+      "sentence": "Yesterday, I ____ the book on the table.",
+      "options": ["lay", "laid", "lain", "lied"],
+      "correctAnswer": ["laid"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "Past of 'lay' (place) = 'laid'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Select the verb for internal memory:",
+      "sentence": "I ____ locking the door this morning.",
+      "options": ["remember", "remind", "affect", "effect"],
+      "correctAnswer": ["remember"],
+      "audio": "game_8_sentence.mp3",
+      "hint": "Your own memory → 'remember' + -ing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Pick the verb meaning 'to influence':",
+      "sentence": "Stress can ____ your health.",
+      "options": ["affect", "effect", "affects", "effects"],
+      "correctAnswer": ["affect"],
+      "audio": "game_9_sentence.mp3",
+      "hint": "Action/verb = 'affect'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Choose the correct structure for reported speech:",
+      "sentence": "She ____ hello to everyone.",
+      "options": ["told", "said", "made", "did"],
+      "correctAnswer": ["said"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "Say + greeting (no person object needed).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Select the formal verb for 'bring about':",
+      "sentence": "The new law ____ significant changes.",
+      "options": ["affected", "effected", "made", "did"],
+      "correctAnswer": ["effected"],
+      "audio": "game_11_sentence.mp3",
+      "hint": "Formal verb meaning 'bring about' → 'effect'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the most precise verb:",
+      "sentence": "The researcher ____ that the data supported the hypothesis.",
+      "options": ["said", "told", "made", "did"],
+      "correctAnswer": ["said"],
+      "audio": "game_12_sentence.mp3",
+      "hint": "Reporting speech without person object → 'said'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Choose the correct conjugation for 'lie' (rest) in past perfect:",
+      "sentence": "The cat had ____ in the sun all morning.",
+      "options": ["lay", "laid", "lain", "lied"],
+      "correctAnswer": ["lain"],
+      "audio": "game_13_sentence.mp3",
+      "hint": "Past participle of 'lie' (rest) = 'lain'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Select the verb showing external prompt:",
+      "sentence": "This song ____ me of our first date.",
+      "options": ["remembers", "reminds", "affects", "effects"],
+      "correctAnswer": ["reminds"],
+      "audio": "game_14_sentence.mp3",
+      "hint": "External trigger bringing back memory → 'remind of'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Choose the complete correct sentence:",
+      "sentence": "Which is correct?",
+      "options": [
+        "She told that she was tired.",
+        "She said me she was tired.",
+        "She told me she was tired.",
+        "She said to me that she was tired."
+      ],
+      "correctAnswer": ["She told me she was tired."],
+      "audio": "game_15_sentence.mp3",
+      "hint": "Tell + person + clause. Say + (to + person) + clause.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "Which verb needs a person object directly after it?",
+      "sentence": "She ____ me the news.",
+      "options": ["said", "told", "made", "did"],
+      "correctAnswer": "told",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Tell + person. Say + to + person.",
+      "difficulty": "easy",
+      "explanation": "'Tell' requires a person object directly after it. 'Say' uses 'to + person' or no person object."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which collocation is correct?",
+      "sentence": "Choose the correct option:",
+      "options": ["make homework", "do homework", "lay homework", "lie homework"],
+      "correctAnswer": "do homework",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Tasks/activities → 'do'.",
+      "difficulty": "easy",
+      "explanation": "'Do' is used for tasks and activities like homework. 'Make' is for creating things."
+    },
+    {
+      "id": "quiz-3",
+      "question": "What is the past tense of 'lie' (to rest)?",
+      "sentence": "Yesterday, I ____ down for a nap.",
+      "options": ["lay", "laid", "lain", "lied"],
+      "correctAnswer": "lay",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "Lie (rest): lie/lay/lain.",
+      "difficulty": "easy",
+      "explanation": "The irregular verb 'lie' (to rest) conjugates: lie (present) / lay (past) / lain (past participle)."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which word means 'to help someone remember'?",
+      "sentence": "Please ____ me to call the doctor.",
+      "options": ["remember", "remind", "affect", "effect"],
+      "correctAnswer": "remind",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "External prompt → 'remind'.",
+      "difficulty": "easy",
+      "explanation": "'Remind' means to help someone not forget. 'Remember' is internal memory."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which word is usually a noun meaning 'result'?",
+      "sentence": "The medicine had a good ____.",
+      "options": ["affect", "effect", "affects", "effects"],
+      "correctAnswer": "effect",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Noun = result → 'effect'.",
+      "difficulty": "easy",
+      "explanation": "'Effect' is usually a noun meaning 'result'. 'Affect' is usually a verb meaning 'to influence'."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which sentence correctly uses 'make' vs 'do'?",
+      "sentence": "Choose the correct option:",
+      "options": ["I did a cake.", "I made a cake.", "I lay a cake.", "I lied a cake."],
+      "correctAnswer": "I made a cake.",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Creating something → 'make'.",
+      "difficulty": "medium",
+      "explanation": "'Make' is used for creating or producing something. You 'make a cake', not 'do a cake'."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct structure for 'lay':",
+      "sentence": "Please ____ the documents on my desk.",
+      "options": ["lay", "lie", "laid", "lain"],
+      "correctAnswer": "lay",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Lay = place (needs object).",
+      "difficulty": "medium",
+      "explanation": "'Lay' is transitive and means 'to place'. It needs a direct object: 'lay the documents'."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Select the correct form for recalling a past action:",
+      "sentence": "I remember ____ the door.",
+      "options": ["to lock", "locking", "lock", "locked"],
+      "correctAnswer": "locking",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "Remember + -ing = recall past action.",
+      "difficulty": "medium",
+      "explanation": "'Remember + -ing' is used to recall a past action. 'Remember + to + verb' is for not forgetting future actions."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which word correctly completes this formal sentence?",
+      "sentence": "The new policy ____ major changes.",
+      "options": ["affected", "effected", "made", "did"],
+      "correctAnswer": "effected",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "Formal verb 'bring about' → 'effect'.",
+      "difficulty": "medium",
+      "explanation": "In formal contexts, 'effect' as a verb means 'to bring about'. 'Affect' means 'to influence'."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Choose the correct word order for reported speech:",
+      "sentence": "She ____.",
+      "options": ["told me that she was tired", "said me that she was tired", "told that she was tired", "said to me she was tired"],
+      "correctAnswer": "told me that she was tired",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Tell + person + that-clause.",
+      "difficulty": "medium",
+      "explanation": "'Tell' requires a person object: 'told me that...'. 'Say' uses 'said that...' or 'said to me that...'."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Identify the error in this sentence:",
+      "sentence": "She said me to remember the meeting.",
+      "options": ["said → told", "remember → remind", "Both A and B", "No error"],
+      "correctAnswer": "Both A and B",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "Check verb patterns and meaning.",
+      "difficulty": "medium",
+      "explanation": "Two errors: (1) 'said me' → should be 'told me' (person object). (2) 'remember' → should be 'remind' (external prompt)."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Choose the best form for formal writing:",
+      "sentence": "The intervention ____ a positive change.",
+      "options": ["affected", "effected", "made", "did"],
+      "correctAnswer": "effected",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "Formal 'bring about' → 'effect'.",
+      "difficulty": "hard",
+      "explanation": "In formal/academic writing, 'effect' as a verb means 'to bring about'. 'Affected' would mean 'influenced', which changes the meaning."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which sentence demonstrates correct advanced usage?",
+      "sentence": "Select the most sophisticated option:",
+      "options": [
+        "She said the data supports the hypothesis.",
+        "She told that the data supports the hypothesis.",
+        "She said to the team that the data supported the hypothesis.",
+        "She told the team that the data supported the hypothesis."
+      ],
+      "correctAnswer": "She told the team that the data supported the hypothesis.",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "Look for correct structure + backshift + person object.",
+      "difficulty": "hard",
+      "explanation": "Option D has all elements correct: 'told + person + that-clause', proper backshift ('supported'), and clear reference."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the register issue:",
+      "sentence": "The study effected a significant correlation.",
+      "options": ["'Effected' is too formal for this context", "'Effected' is correct formal usage", "'Affected' would be better", "No issue"],
+      "correctAnswer": "'Effected' is correct formal usage",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Formal verb 'bring about' → 'effect'.",
+      "difficulty": "hard",
+      "explanation": "In academic writing, 'effected' (brought about) is precise. 'Affected' (influenced) would change the meaning."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Choose the most precise expression for academic writing:",
+      "sentence": "The results ____ a strong relationship.",
+      "options": ["made", "did", "showed", "effected"],
+      "correctAnswer": "showed",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Academic writing prefers precise, neutral verbs.",
+      "difficulty": "hard",
+      "explanation": "'Showed' is precise and neutral for academic writing. 'Made/did' are too informal; 'effected' implies causation, which may not be intended."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "although",
+      "hint": "Subordinating conjunction - shows contrast",
+      "clue": "a_l_ou_h",
+      "audio": "spell_although.mp3",
+      "sentence": "____ it was raining, we went out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "because",
+      "hint": "Subordinating conjunction - shows reason",
+      "clue": "b_c_u_e",
+      "audio": "spell_because.mp3",
+      "sentence": "We stayed home ____ it was cold.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "however",
+      "hint": "Transition word - shows contrast between sentences",
+      "clue": "h_w_v_r",
+      "audio": "spell_however.mp3",
+      "sentence": "The task was difficult. ____, we completed it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "therefore",
+      "hint": "Transition word - shows result",
+      "clue": "t_e_e_o_e",
+      "audio": "spell_therefore.mp3",
+      "sentence": "She studied hard; ____, she passed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-5",
+      "word": "despite",
+      "hint": "Preposition - shows contrast with noun",
+      "clue": "d_s_ite",
+      "audio": "spell_despite.mp3",
+      "sentence": "____ the rain, we went hiking.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "furthermore",
+      "hint": "Formal transition - adds information",
+      "clue": "f_r_h_r_o_e",
+      "audio": "spell_furthermore.mp3",
+      "sentence": "The plan is efficient. ____, it is cost-effective.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "nevertheless",
+      "hint": "Formal contrast marker",
+      "clue": "n_v_r_h_l_ss",
+      "audio": "spell_nevertheless.mp3",
+      "sentence": "The odds were against us. ____, we succeeded.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "consequently",
+      "hint": "Formal result marker",
+      "clue": "c_n_s_q_u_ntly",
+      "audio": "spell_consequently.mp3",
+      "sentence": "Funding was cut. ____, the project halted.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "notwithstanding",
+      "hint": "Advanced preposition - formal contrast",
+      "clue": "n_t_w_ih_t_nd_ng",
+      "audio": "spell_notwithstanding.mp3",
+      "sentence": "____ the challenges, we succeeded.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "heretofore",
+      "hint": "Advanced adverb - formal time reference",
+      "clue": "h_r_t_f_r",
+      "audio": "spell_heretofore.mp3",
+      "sentence": "The data, ____ unavailable, now supports the hypothesis.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "verb-pair-explorer",
+        "name": "Verb Pair Explorer",
+        "condition": "Complete all confusable verb pair lessons",
+        "icon": "🗣️",
+        "points": 15,
+        "message": "You've mastered the basics of confusable verb pairs!"
+      },
+      {
+        "id": "say-tell-pro",
+        "name": "Say/Tell Pro",
+        "condition": "Score 100% on say/tell activities",
+        "icon": "💬",
+        "points": 20,
+        "message": "You never mix up say and tell again!"
+      },
+      {
+        "id": "make-do-champion",
+        "name": "Make/Do Champion",
+        "condition": "Complete all make/do games with no mistakes",
+        "icon": "🛠️",
+        "points": 25,
+        "message": "You know exactly when to make and when to do!"
+      },
+      {
+        "id": "affect-effect-master",
+        "name": "Affect/Effect Master",
+        "condition": "Correctly use affect/effect in 5 consecutive activities",
+        "icon": "⚡",
+        "points": 25,
+        "message": "You've got the verb/noun distinction down perfectly!"
+      },
+      {
+        "id": "register-awareness-expert",
+        "name": "Register Awareness Expert",
+        "condition": "Complete all advanced register activities correctly",
+        "icon": "🎓",
+        "points": 30,
+        "message": "You can adapt verb choices to any context!"
+      },
+      {
+        "id": "confusable-pairs-perfectionist",
+        "name": "Confusable Pairs Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Flawless verb pair mastery! You're ready for any context!"
+      }
+    ]
+  }
+}
