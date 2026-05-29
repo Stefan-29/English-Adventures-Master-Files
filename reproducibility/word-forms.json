@@ -1,0 +1,757 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Are Word Forms? 🔄",
+      "content": "<p>Just like a chameleon changes colors 🦎, many English words change their <strong>form</strong> to serve different grammatical functions!</p><p><strong>Word Forms</strong> = the verb, noun, adjective, and adverb versions of a root word. <em>Example: create (verb) → creation (noun) → creative (adjective) → creatively (adverb)</em></p><p><strong>Why it matters:</strong> Using the correct form makes your English precise and natural. Wrong form = confusing or unnatural sentences!</p><table class='lesson-table table-blue'><thead><tr><th>Word Class</th><th>Function</th><th>Example with 'act'</th><th>Common Suffixes</th></tr></thead><tbody><tr><td><strong>Verb</strong></td><td>shows action/state</td><td><em>She acts confidently.</em></td><td>(base form)</td></tr><tr><td><strong>Noun</strong></td><td>names person/thing/idea</td><td><em>Her action was brave.</em></td><td>-ion, -tion, -ment, -ness</td></tr><tr><td><strong>Adjective</strong></td><td>describes nouns</td><td><em>She is an active person.</em></td><td>-ive, -al, -ful, -ous</td></tr><tr><td><strong>Adverb</strong></td><td>describes verbs/adjectives</td><td><em>She acts actively.</em></td><td>-ly, -ily, -ally</td></tr></tbody></table><p><em>Fun fact: Not all words have all four forms! 'Fun' is only a noun; 'sing' has no adjective form! 🎵</em></p>",
+      "examples": [
+        "Verb→Noun: <strong>decide → decision</strong> (add -sion)",
+        "Noun→Adjective: <strong>beauty → beautiful</strong> (add -ful, y→i)",
+        "Adjective→Adverb: <strong>quick → quickly</strong> (add -ly)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": [
+        "Identifying the four basic word forms",
+        "Understanding why word forms matter for clarity"
+      ],
+      "tips": "   <strong>Quick Rule:</strong> Ask: Does this word show ACTION (verb), NAME something (noun), DESCRIBE (adjective), or tell HOW (adverb)?"
+    },
+    {
+      "id": "lesson-2",
+      "title": "Noun-Forming Suffixes: -tion, -ment, -ness 📦",
+      "content": "<p>Now let's level up! 🚀 <strong>Noun-forming suffixes</strong> help you turn verbs and adjectives into names of actions, states, or qualities.</p><p><strong>Formation:</strong> [Verb/Adjective] + <strong>[suffix]</strong> = [Noun]. <em>Example: create + -tion = creation</em></p><p><strong>Common Patterns:</strong></p><table class='lesson-table table-green'><thead><tr><th>Suffix</th><th>Added To</th><th>Example</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>-tion/-sion</strong></td><td>verbs ending -ate/-de/-se</td><td>create→creation, decide→decision</td><td>action or result</td></tr><tr><td><strong>-ment</strong></td><td>verbs</td><td>develop→development, enjoy→enjoyment</td><td>process or result</td></tr><tr><td><strong>-ness</strong></td><td>adjectives</td><td>happy→happiness, kind→kindness</td><td>state or quality</td></tr><tr><td><strong>-ity/-ty</strong></td><td>adjectives ending -able/-ic</td><td>possible→possibility, active→activity</td><td>abstract quality</td></tr></tbody></table><p><em>Fun fact: '-tion' comes from Latin and is one of the most productive noun suffixes in English! 🌍</em></p>",
+      "examples": [
+        "Action noun: <strong>act → action</strong>",
+        "State noun: <strong>happy → happiness</strong> (y→i)",
+        "Abstract quality: <strong>valid → validity</strong>"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_noun_suffixes.mp3",
+      "functions": [
+        "Forming nouns from verbs using -tion/-ment",
+        "Forming nouns from adjectives using -ness/-ity"
+      ],
+      "tips": "   <strong>Memory trick:</strong> -tion = ACTION, -ness = STATE, -ment = RESULT. Picture: create→creation (the act), happy→happiness (the feeling), develop→development (the outcome)!"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Adjective-Forming Suffixes: -ful, -ive, -al 🎨",
+      "content": "<p>Time to explore another way! 🔄 <strong>Adjective-forming suffixes</strong> help you describe things with precision and variety.</p><p><strong>Pattern:</strong> [Noun/Verb] + <strong>[suffix]</strong> = [Adjective]. <em>Example: care + -ful = careful</em></p><p><strong>Compare these:</strong></p><table class='lesson-table table-teal'><thead><tr><th>Suffix</th><th>Meaning</th><th>Example</th><th>Usage Note</th></tr></thead><tbody><tr><td><strong>-ful</strong></td><td>full of</td><td>care→careful, beauty→beautiful</td><td>positive quality</td></tr><tr><td><strong>-less</strong></td><td>without</td><td>care→careless, hope→hopeless</td><td>absence of quality</td></tr><tr><td><strong>-ive</strong></td><td>tending to</td><td>act→active, create→creative</td><td>action tendency</td></tr><tr><td><strong>-al</strong></td><td>relating to</td><td>nation→national, music→musical</td><td>often after -tion words</td></tr></tbody></table><p><em>Fun fact: '-ful' and '-less' are opposites! Careful = full of care; careless = without care. 🎯</em></p>",
+      "examples": [
+        "Positive: <strong>help → helpful</strong> (full of help)",
+        "Negative: <strong>hope → hopeless</strong> (without hope)",
+        "Relating to: <strong>music → musical</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_adjective_suffixes.mp3",
+      "functions": [
+        "Creating descriptive adjectives with -ful/-less",
+        "Choosing -ive for action-related descriptions"
+      ],
+      "tips": "   <strong>Decision point:</strong> Does it describe a POSITIVE quality? Try -ful. ABSENCE of quality? Try -less. TENDENCY to act? Try -ive."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Adverb Formation: The -ly Rule & Exceptions ⚡",
+      "content": "<p>Here's where it gets interesting! 🎨 Many learners think 'just add -ly', but there are <strong>important exceptions</strong>. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Adjective Ending</th><th>Adverb Rule</th><th>Example</th><th>Note</th></tr></thead><tbody><tr><td><strong>Most adjectives</strong></td><td>Add -ly</td><td>quick→quickly, careful→carefully</td><td>standard rule</td></tr><tr><td><strong>-y</strong></td><td>Change y→i, add -ly</td><td>happy→happily, easy→easily</td><td>spelling change!</td></tr><tr><td><strong>-le</strong></td><td>Drop -e, add -y</td><td>gentle→gently, simple→simply</td><td>special case</td></tr><tr><td><strong>-ic</strong></td><td>Add -ally</td><td>basic→basically, tragic→tragically</td><td>not -icly!</td></tr></tbody></table><p><strong>⚠️ Irregular Adverbs:</strong> good→well, fast→fast, hard→hard (no change!)</p><p><em>Fun fact: Some -ly words are adjectives, not adverbs! 'Friendly', 'lovely', 'lonely' describe nouns, not actions! 😊</em></p>",
+      "examples": [
+        "Standard: <strong>slow → slowly</strong>",
+        "y→i: <strong>happy → happily</strong>",
+        "Irregular: <strong>good → well</strong> (not 'goodly'!)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_adverbs.mp3",
+      "functions": [
+        "Forming regular adverbs with -ly",
+        "Recognizing irregular adverb forms"
+      ],
+      "tips": "   <strong>Pro tip:</strong> If the adjective ends in -y, change to -i first: happy→happily. If it ends in -ic, add -ally: basic→basically."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Spelling Rules When Adding Suffixes 🔤",
+      "content": "<p>Ready for the next level? 🏆 <strong>Spelling changes</strong> happen when we add suffixes. Master these rules to avoid errors!</p><p><strong>Key Rules:</strong></p><table class='lesson-table table-orange'><thead><tr><th>Root Ending</th><th>Suffix Starts With</th><th>Change</th><th>Example</th></tr></thead><tbody><tr><td><strong>Silent -e</strong></td><td>Vowel (-ion, -able)</td><td>Drop -e</td><td>create→creation, use→usable</td></tr><tr><td><strong>Consonant + y</strong></td><td>Any except -ing</td><td>y → i</td><td>happy→happiness, carry→carried</td></tr><tr><td><strong>1 vowel + 1 consonant</strong></td><td>Vowel (-ed, -er)</td><td>Double consonant</td><td>big→bigger, stop→stopped</td></tr><tr><td><strong>-ic</strong></td><td>-ally</td><td>Add -ally</td><td>basic→basically, tragic→tragically</td></tr></tbody></table><p><strong>Exception:</strong> Keep -e before -ing: hope→hoping (not hopping = different meaning!)</p><p><em>Fun fact: British English often keeps -ise (realise), American uses -ize (realize) – both are correct! 🌍</em></p>",
+      "examples": [
+        "Drop -e: <strong>create + -ion = creation</strong>",
+        "y→i: <strong>beauty + -ful = beautiful</strong>",
+        "Double consonant: <strong>big + -er = bigger</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_spelling_rules.mp3",
+      "functions": [
+        "Applying spelling rules consistently",
+        "Avoiding common suffix spelling errors"
+      ],
+      "tips": "   <strong>Remember:</strong> Vowel suffix? Check for silent -e or -y. Consonant suffix? Usually no change. When in doubt, check a dictionary!"
+    },
+    {
+      "id": "lesson-6",
+      "title": "Words with Missing Forms: Gaps & Alternatives 🧩",
+      "content": "<p>Let's master the full picture! 🧩 Not every word has all four forms. Knowing the <strong>gaps</strong> helps you choose better alternatives.</p><p><strong>Common Gaps:</strong></p><ul><li><strong>'Fun'</strong>: only a noun → use 'funny' (adj) or 'enjoy' (verb)</li><li><strong>'Sing'</strong>: verb & noun (singer) → no standard adjective</li><li><strong>'Knowledge'</strong>: noun only → use 'know' (verb), 'knowledgeable' (adj)</li></ul><table class='lesson-table table-pink'><thead><tr><th>Word</th><th>Missing Form</th><th>Workaround</th><th>Example</th></tr></thead><tbody><tr><td><strong>fun</strong></td><td>no verb form</td><td>use 'enjoy' or 'have fun'</td><td><em>We enjoyed the party</em> (not 'we funned')</td></tr><tr><td><strong>sing</strong></td><td>no adjective</td><td>use 'musical' or 'vocal'</td><td><em>She has a musical voice</em></td></tr><tr><td><strong>danger</strong></td><td>no verb</td><td>use 'endanger' or 'risk'</td><td><em>This endangers the project</em></td></tr><tr><td><strong>beauty</strong></td><td>no verb</td><td>use 'beautify'</td><td><em>They beautified the park</em></td></tr></tbody></table><p><em>Fun fact: Language evolves! 'Google' was only a noun, now 'to google' is a verb. New forms emerge! 🚀</em></p>",
+      "examples": [
+        "Gap: <strong>fun</strong> has no verb → use <strong>enjoy</strong>",
+        "Alternative: <strong>sing</strong> has no adj → use <strong>musical</strong>",
+        "New form: <strong>email</strong> (noun) → <strong>to email</strong> (verb)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_missing_forms.mp3",
+      "functions": [
+        "Identifying words with incomplete form sets",
+        "Choosing appropriate alternatives for missing forms"
+      ],
+      "tips": "   <strong>Strategy:</strong> When a form is missing, ask: What word class do I need? Then find a synonym that HAS that form."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Register & Style: Formal vs Informal Word Forms ⚖️",
+      "content": "<p>Here's a crucial rule! 🎯 The <strong>word form you choose</strong> affects formality and tone. This is key for academic and professional writing!</p><p><strong>The Rule:</strong> Noun forms are often more formal than verb forms. Adverbs add precision in formal contexts.</p><table class='lesson-table table-gray'><thead><tr><th>Informal (Verb-focused)</th><th>Formal (Noun-focused)</th><th>Context</th><th>Example Shift</th></tr></thead><tbody><tr><td><strong>We decided to...</strong></td><td><strong>The decision was made to...</strong></td><td>Academic report</td><td><em>Verb → Passive noun phrase</em></td></tr><tr><td><strong>This helps improve...</strong></td><td><strong>This facilitates improvement in...</strong></td><td>Research paper</td><td><em>Verb → Noun + formal verb</em></td></tr><tr><td><strong>People think differently...</strong></td><td><strong>There is variation in perspectives...</strong></td><td>Formal essay</td><td><em>Adverb → Abstract noun</em></td></tr><tr><td><strong>It's really important...</strong></td><td><strong>It is of considerable importance...</strong></td><td>Professional email</td><td><em>Adjective → Noun phrase</em></td></tr></tbody></table><p><strong>Common mistake:</strong> Using informal verb forms in formal writing → <strong>Correct:</strong> Prefer nominalization (noun forms) for objectivity.</p><p><em>Fun fact: Academic writing uses 3× more noun forms than casual speech! This creates density and precision. 📚</em></p>",
+      "examples": [
+        "Informal: <strong>We need to analyze the data</strong>",
+        "Formal: <strong>The analysis of the data is required</strong>",
+        "Register shift: <em>It's important</em> (casual) vs <em>It is of importance</em> (formal)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_register.mp3",
+      "functions": [
+        "Adapting word form choice to context",
+        "Elevating informal forms for formal writing"
+      ],
+      "tips": "   <strong>Never forget:</strong> Academic writing? Prefer noun forms (analysis, decision) over verbs (analyze, decide). This shows scholarly register!"
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Transforming Words Across All Four Forms 🚀",
+      "content": "<p>You've come so far! 🌟 Let's tackle the <strong>advanced nuances</strong> that separate good from great word-form users.</p><p><strong>Special Case 1: Multiple Transformations</strong></p><p>Some words transform through multiple steps: <em>beauty (n) → beautiful (adj) → beautifully (adv) → beautify (v)</em>. Each step changes meaning slightly!</p><p><strong>Special Case 2: Context Determines Form</strong></p><p>The same root can yield different forms for different contexts: <em>act → action (result), activity (process), actor (person), active (state)</em>.</p><table class='lesson-table table-yellow'><thead><tr><th>Context</th><th>Preferred Form</th><th>Rhetorical Effect</th><th>Exemplar</th></tr></thead><tbody><tr><td><strong>Academic Writing</strong></td><td>Noun forms (-tion, -ment)</td><td>Objectivity, abstraction</td><td><em>The implementation of policies...</em></td></tr><tr><td><strong>Creative Writing</strong></td><td>Verb/Adjective forms</td><td>Vividness, immediacy</td><td><em>She acted creatively and boldly...</em></td></tr><tr><td><strong>Technical Writing</strong></td><td>Precise adverbs (-ly)</td><td>Clarity, precision</td><td><em>The system operates efficiently...</em></td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✓ Identify root word ✓ Apply correct suffix ✓ Follow spelling rules ✓ Match form to context</p><p><em>Fun fact: The suffix '-ize' (realize, organize) comes from Greek via Latin – it's one of English's most versatile verb-formers! 🔬</em></p>",
+      "examples": [
+        "Layered transformation: <strong>create → creation → creative → creatively</strong>",
+        "Context choice: <strong>act → action</strong> (result) vs <strong>activity</strong> (process)",
+        "Register shift: <em>He decided quickly</em> (casual) vs <em>His decision was prompt</em> (formal)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Transforming words through multiple form changes",
+        "Selecting the optimal form for rhetorical purpose",
+        "Adapting word forms to genre/register demands"
+      ],
+      "tips": "   <strong>Master level:</strong> In academic writing, nominalize (use nouns). In storytelling, use vivid verbs/adjectives. In instructions, use clear adverbs. This shows true linguistic agility! 🎯"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 3 sentences about a hobby using the word 'create' in three different forms (verb, noun, adjective). Include one adverb form if possible.",
+      "hint": "Start with 'I enjoy...'. Use <strong>create</strong> (verb), <strong>creation</strong> (noun), <strong>creative</strong> (adjective). Example: <em>I create art; my creation is unique; I am creative</em>.",
+      "expectedKeywords": ["create", "creation", "creative", "creatively", "hobby vocabulary"],
+      "sentenceStarters": ["I enjoy ____ because it allows me to ____...", "My latest ____ is ____ because I used ____..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe a helpful person using the word 'care' in at least three forms (verb, noun, adjective). Explain how they help others.",
+      "hint": "Use <strong>care</strong> (verb: to look after), <strong>care</strong> (noun: attention), <strong>careful</strong> (adjective: cautious). Example: <em>She cares deeply; her care is evident; she is careful</em>.",
+      "expectedKeywords": ["care", "careful", "carefully", "help", "descriptive adjective"],
+      "sentenceStarters": ["____ cares about ____ by...", "Their ____ ensures that..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a short paragraph about learning something new. Use the word 'decide' in at least two forms (verb, noun) and include one adverb.",
+      "hint": "Begin with 'When I decided to...'. Add details with time markers and the noun form 'decision'.",
+      "expectedKeywords": ["decide", "decision", "decisive", "decisively", "learning", "time marker"],
+      "sentenceStarters": ["When I decided to learn ____, my decision was...", "I acted ____ because..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Compare two approaches to a problem using the word 'differ' in multiple forms (verb, noun, adjective, adverb). Explain which you prefer and why.",
+      "hint": "Remember: differ (v) → difference (n) → different (adj) → differently (adv). Example: <em>The approaches differ; the difference is clear; they are different; they work differently</em>.",
+      "expectedKeywords": ["differ", "difference", "different", "differently", "comparison", "preference"],
+      "sentenceStarters": ["Approach A and B differ in ____; the key difference is...", "Because they are ____, they work ____..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Write about a goal you achieved. Use the word 'hope' in at least three forms (noun, adjective, adverb) and include correct spelling changes (y→i if needed).",
+      "hint": "Use <strong>hope</strong> (noun), <strong>hopeful</strong> (adjective), <strong>hopefully</strong> (adverb). Watch spelling: happy→happily (y→i), but hope→hopefully (no change).",
+      "expectedKeywords": ["hope", "hopeful", "hopefully", "achievement", "spelling rule"],
+      "sentenceStarters": ["I remained ____ that I could ____...", "____, I achieved my goal because..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Explain why a project succeeded. Use cause-effect language with the word 'act' in multiple forms (verb, noun, adjective) and include logical connectors.",
+      "hint": "Start with the cause: <strong>Because</strong> the team acted... Then show the result: <strong>Therefore</strong>, their action led to...",
+      "expectedKeywords": ["act", "action", "active", "actively", "because", "therefore", "success"],
+      "sentenceStarters": ["Because the team acted ____, their ____ led to...", "This active approach ____-ly resulted in..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Express your opinion: Should schools encourage creativity? Use the word 'interest' in multiple forms (verb, noun, adjective, adverb) and support with evidence.",
+      "hint": "State your view with <strong>In my opinion</strong>. Use <strong>interest</strong> (v/n), <strong>interesting</strong> (adj), <strong>interestingly</strong> (adv) to build your argument.",
+      "expectedKeywords": ["interest", "interesting", "interestingly", "opinion", "evidence", "creativity"],
+      "sentenceStarters": ["In my opinion, schools should ____ because...", "Interestingly, research shows that..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Imagine a future innovation. Describe it using at least four word forms from one root word (e.g., create/creation/creative/creatively). Explain its value.",
+      "hint": "Use <strong>If + condition</strong> to introduce your invention. Transform one root word through all four forms to show mastery.",
+      "expectedKeywords": ["verb form", "noun form", "adjective form", "adverb form", "invention", "future", "value"],
+      "sentenceStarters": ["If I could create ____, this creation would be ____...", "It would ____-ly transform how we..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Write a formal paragraph arguing for educational reform. Use noun forms (-tion, -ment) instead of verbs, formal connectors, and hedging language.",
+      "hint": "This requires nominalization: prefer 'the implementation of policies' over 'we implement policies'. Use formal register and precise vocabulary.",
+      "expectedKeywords": ["-tion noun", "-ment noun", "formal connector", "hedging phrase", "educational reform", "nominalization"],
+      "sentenceStarters": ["The implementation of educational reforms...", "Consequently, student outcomes may be enhanced through..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a product description for a new 'smart learning' tool. Use precise word forms (adverbs for precision, nouns for formality), maintain professional tone, and apply spelling rules correctly.",
+      "hint": "Maintain formal register: avoid contractions, use <strong>may enhance / appears to improve</strong>, end with <strong>polite closing</strong>. Apply y→i, drop -e rules correctly.",
+      "expectedKeywords": ["precise adverb", "formal noun", "hedging phrase", "professional vocabulary", "spelling rule applied"],
+      "sentenceStarters": ["This tool is designed to ____-ly enhance learning...", "Its ____-based approach may improve..."],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct noun form of 'create':",
+      "sentence": "Her latest ____ won an award.",
+      "options": ["create", "creation", "creative", "creatively"],
+      "correctAnswer": ["creation"],
+      "audio": "game_1_wordform.mp3",
+      "hint": "Which form names the thing that was made?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Select the adjective form of 'care':",
+      "sentence": "She is a very ____ driver.",
+      "options": ["care", "caring", "careful", "carefully"],
+      "correctAnswer": ["careful"],
+      "audio": "game_2_wordform.mp3",
+      "hint": "Which word describes the noun 'driver'?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the adverb form of 'quick':",
+      "sentence": "He finished the task ____.",
+      "options": ["quick", "quicken", "quickly", "quickness"],
+      "correctAnswer": ["quickly"],
+      "audio": "game_3_wordform.mp3",
+      "hint": "Adverbs often end in -ly and answer 'how?'",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the correct spelling: happy + -ness =",
+      "sentence": "Her ____ was evident to everyone.",
+      "options": ["happyness", "happiness", "happyiness", "happyness"],
+      "correctAnswer": ["happiness"],
+      "audio": "game_4_wordform.mp3",
+      "hint": "When adding suffix to consonant+y, change y→i.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the verb form of 'decision':",
+      "sentence": "We need to ____ by Friday.",
+      "options": ["decision", "decisive", "decide", "decidedly"],
+      "correctAnswer": ["decide"],
+      "audio": "game_5_wordform.mp3",
+      "hint": "Which form shows the action of making a choice?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Choose the correct adverb form of 'basic':",
+      "sentence": "The system works ____ efficiently.",
+      "options": ["basic", "basically", "basicly", "basical"],
+      "correctAnswer": ["basically"],
+      "audio": "game_6_wordform.mp3",
+      "hint": "Adjectives ending in -ic add -ally, not -ly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Select the noun form of 'active':",
+      "sentence": "Physical ____ is important for health.",
+      "options": ["act", "action", "activity", "activate"],
+      "correctAnswer": ["activity"],
+      "audio": "game_7_wordform.mp3",
+      "hint": "Which noun describes the state of being active?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Choose the correct form after silent -e: create + -ion =",
+      "sentence": "The ____ of art requires skill.",
+      "options": ["createion", "creasion", "creation", "creetion"],
+      "correctAnswer": ["creation"],
+      "audio": "game_8_wordform.mp3",
+      "hint": "Drop silent -e before vowel-starting suffixes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Identify the irregular adverb:",
+      "sentence": "She sings ____.",
+      "options": ["goodly", "well", "good", "better"],
+      "correctAnswer": ["well"],
+      "audio": "game_9_wordform.mp3",
+      "hint": "Good→well is irregular; not 'goodly'!",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Select the word with missing form:",
+      "sentence": "Which word has NO standard verb form?",
+      "options": ["beauty", "create", "act", "decide"],
+      "correctAnswer": ["beauty"],
+      "audio": "game_10_wordform.mp3",
+      "hint": "Beauty is a noun; the verb is 'beautify', not 'beauty'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Choose the formal alternative:",
+      "sentence": "In academic writing, prefer ____ over 'we decided'.",
+      "options": ["the decision was made", "we decide", "deciding", "decidedly"],
+      "correctAnswer": ["the decision was made"],
+      "audio": "game_11_wordform.mp3",
+      "hint": "Formal writing prefers noun forms (nominalization) over verbs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Select the correct transformation chain:",
+      "sentence": "Which shows verb→noun→adjective→adverb?",
+      "options": [
+        "create/creation/creative/creatively",
+        "create/creative/creation/creatively",
+        "creation/create/creative/creatively",
+        "creatively/creative/creation/create"
+      ],
+      "correctAnswer": ["create/creation/creative/creatively"],
+      "audio": "game_12_wordform.mp3",
+      "hint": "Track the logical progression: action→result→describing word→how it's done.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Identify the register-appropriate form:",
+      "sentence": "In a research paper, prefer ____ over 'people think differently'.",
+      "options": [
+        "there is variation in perspectives",
+        "people think different",
+        "people thinks differently",
+        "different thinking people"
+      ],
+      "correctAnswer": ["there is variation in perspectives"],
+      "audio": "game_13_wordform.mp3",
+      "hint": "Academic writing prefers abstract nouns over informal adverbs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Choose the form that follows spelling rule y→i:",
+      "sentence": "beauty + -ful = ____",
+      "options": ["beautyful", "beautifull", "beautiful", "beautifuly"],
+      "correctAnswer": ["beautiful"],
+      "audio": "game_14_wordform.mp3",
+      "hint": "Consonant+y → change y to i before adding suffix (except -ing).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Select the most precise expression for academic hedging:",
+      "sentence": "The results ____ suggest a correlation.",
+      "options": [
+        "appear to",
+        "are decision-wise",
+        "are decision-ly",
+        "are decision-worthy"
+      ],
+      "correctAnswer": ["appear to"],
+      "audio": "game_15_wordform.mp3",
+      "hint": "Academic writing uses hedging verbs, not invented suffix compounds.",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What is the noun form of 'create'?",
+      "sentence": "Her latest ____ won an award.",
+      "options": ["create", "creation", "creative", "creatively"],
+      "correctAnswer": "creation",
+      "audio": "quiz_1_wordform.mp3",
+      "hint": "Which suffix forms nouns from verbs ending in -ate?",
+      "difficulty": "easy",
+      "explanation": "'Creation' is the noun form of 'create', formed by adding -tion (with silent -e dropped). 'Creative' is an adjective; 'creatively' is an adverb."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses the adjective form of 'care'?",
+      "sentence": "Choose the correct option:",
+      "options": [
+        "She is a careful driver.",
+        "She is a care driver.",
+        "She is a carefully driver.",
+        "She is a caring driver."
+      ],
+      "correctAnswer": "She is a careful driver.",
+      "audio": "quiz_2_wordform.mp3",
+      "hint": "Adjectives describe nouns. Which word describes 'driver'?",
+      "difficulty": "easy",
+      "explanation": "'Careful' is the adjective form meaning 'full of care'. 'Care' is a noun/verb; 'carefully' is an adverb (describes verbs, not nouns)."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Identify the correct adverb form:",
+      "sentence": "He completed the task ____.",
+      "options": ["quick", "quicken", "quickly", "quickness"],
+      "correctAnswer": "quickly",
+      "audio": "quiz_3_wordform.mp3",
+      "hint": "Adverbs answer 'how?' and often end in -ly.",
+      "difficulty": "easy",
+      "explanation": "'Quickly' is the adverb form of 'quick', describing HOW he completed the task. 'Quick' is an adjective; 'quicken' is a verb; 'quickness' is a noun."
+    },
+    {
+      "id": "quiz-4",
+      "question": "What spelling rule applies to 'happy + -ness'?",
+      "sentence": "happy + -ness = ____",
+      "options": ["happyness", "happiness", "happyiness", "happyness"],
+      "correctAnswer": "happiness",
+      "audio": "quiz_4_wordform.mp3",
+      "hint": "What happens to final -y when adding a suffix?",
+      "difficulty": "easy",
+      "explanation": "When a word ends in consonant + y, change y→i before adding suffixes (except -ing). Happy → happiness, beauty → beautiful."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which word has NO standard adjective form?",
+      "sentence": "Select the word with a missing form:",
+      "options": ["fun", "create", "act", "decide"],
+      "correctAnswer": "fun",
+      "audio": "quiz_5_wordform.mp3",
+      "hint": "Which word is only a noun in standard English?",
+      "difficulty": "easy",
+      "explanation": "'Fun' is primarily a noun; the adjective is 'funny' (which has a different meaning). 'Create', 'act', and 'decide' all have standard adjective forms (creative, active, decisive)."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Choose the correct adverb form of 'basic':",
+      "sentence": "The system works ____ efficiently.",
+      "options": ["basic", "basically", "basicly", "basical"],
+      "correctAnswer": "basically",
+      "audio": "quiz_6_wordform.mp3",
+      "hint": "Adjectives ending in -ic add -ally, not -ly.",
+      "difficulty": "medium",
+      "explanation": "Adjectives ending in -ic form adverbs by adding -ally: basic→basically, tragic→tragically. 'Basicly' is a common misspelling."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Which sentence demonstrates formal register using word forms?",
+      "sentence": "In academic writing, prefer:",
+      "options": [
+        "The decision was made to implement reforms.",
+        "We decided to change things.",
+        "Deciding to change was good.",
+        "They decide changes."
+      ],
+      "correctAnswer": "The decision was made to implement reforms.",
+      "audio": "quiz_7_wordform.mp3",
+      "hint": "Formal writing prefers noun forms (nominalization) and passive voice.",
+      "difficulty": "medium",
+      "explanation": "Academic writing favors nominalization (decision instead of decide) and passive constructions for objectivity. Options B-D use informal verb-focused structures."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Identify the irregular adverb:",
+      "sentence": "She sings ____.",
+      "options": ["goodly", "well", "good", "better"],
+      "correctAnswer": "well",
+      "audio": "quiz_8_wordform.mp3",
+      "hint": "Good→well is an irregular transformation.",
+      "difficulty": "medium",
+      "explanation": "'Well' is the irregular adverb form of 'good'. 'Goodly' is archaic/rare; 'good' is an adjective; 'better' is comparative, not the base adverb."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which transformation follows the 'drop silent -e' rule?",
+      "sentence": "create + -ion = ____",
+      "options": ["createion", "creasion", "creation", "creetion"],
+      "correctAnswer": "creation",
+      "audio": "quiz_9_wordform.mp3",
+      "hint": "What happens to silent -e before vowel-starting suffixes?",
+      "difficulty": "medium",
+      "explanation": "When adding a suffix starting with a vowel (-ion, -able, -ous) to a word ending in silent -e, drop the -e: create→creation, use→usable, hope→hopeful."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Choose the word form appropriate for academic hedging:",
+      "sentence": "The data ____ suggest a correlation.",
+      "options": ["appear to", "definitely", "might possibly maybe", "is proven to"],
+      "correctAnswer": "appear to",
+      "audio": "quiz_10_wordform.mp3",
+      "hint": "Academic writing uses cautious language to show scholarly precision.",
+      "difficulty": "medium",
+      "explanation": "'Appear to' provides appropriate hedging for academic claims—confident but not absolute. 'Definitely' and 'is proven to' are too strong; 'might possibly maybe' is redundant and weakens the argument."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Which sentence shows correct multiple-form usage?",
+      "sentence": "Select the option using create/creation/creative/creatively correctly:",
+      "options": [
+        "Her creative creation was created creatively.",
+        "Her creation creative was create creatively.",
+        "Creatively her create creation was creative.",
+        "Creative she creation create creatively."
+      ],
+      "correctAnswer": "Her creative creation was created creatively.",
+      "audio": "quiz_11_wordform.mp3",
+      "hint": "Check: adjective describes noun, adverb describes verb.",
+      "difficulty": "hard",
+      "explanation": "Option A correctly uses: creative (adj) modifies creation (n); created (v) is modified by creatively (adv). Word order and form-function alignment are correct."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Identify the error in word form usage:",
+      "sentence": "She is a happily person.",
+      "options": [
+        "happily → happy",
+        "happily → happiness",
+        "No error",
+        "happily → happier"
+      ],
+      "correctAnswer": "happily → happy",
+      "audio": "quiz_12_wordform.mp3",
+      "hint": "What word class describes a noun like 'person'?",
+      "difficulty": "hard",
+      "explanation": "'Happily' is an adverb (describes verbs/adjectives). To describe the noun 'person', use the adjective 'happy': 'She is a happy person'."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Choose the most precise expression for technical writing:",
+      "sentence": "The system operates ____.",
+      "options": [
+        "efficiently",
+        "with efficiency",
+        "in an efficient manner",
+        "efficiency-wise"
+      ],
+      "correctAnswer": "efficiently",
+      "audio": "quiz_13_wordform.mp3",
+      "hint": "Technical writing values concise, precise adverbs.",
+      "difficulty": "hard",
+      "explanation": "'Efficiently' is the precise adverb form, ideal for technical documentation. 'With efficiency' and 'in an efficient manner' are wordy; 'efficiency-wise' is informal and imprecise."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the stylistic issue in this formal sentence:",
+      "sentence": "The fun of learning is that it's really interesting.",
+      "options": [
+        "'fun' is informal; prefer 'enjoyment'",
+        "'really' is informal; prefer 'considerably'",
+        "Both A and B",
+        "No error"
+      ],
+      "correctAnswer": "Both A and B",
+      "audio": "quiz_14_wordform.mp3",
+      "hint": "Formal writing avoids colloquial nouns and intensifiers.",
+      "difficulty": "hard",
+      "explanation": "In formal contexts, 'fun' (colloquial noun) should be 'enjoyment' or 'pleasure'; 'really' (informal intensifier) should be 'considerably', 'significantly', or 'notably'."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Select the transformation demonstrating mastery of spelling rules:",
+      "sentence": "Which shows correct application of y→i AND drop -e?",
+      "options": [
+        "beauty→beautiful→beautifully",
+        "create→creation→creative→creatively",
+        "happy→happiness→happily",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "audio": "quiz_15_wordform.mp3",
+      "hint": "Check each transformation for spelling rule compliance.",
+      "difficulty": "hard",
+      "explanation": "All options correctly apply spelling rules: beauty→beautiful (y→i), create→creation (drop -e), happy→happiness (y→i). Mastery requires consistent application across multiple transformations."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "beautiful",
+      "hint": "Adjective: beauty + -ful (note: y→i)",
+      "clue": "b_au_iful",
+      "audio": "spell_beautiful.mp3",
+      "sentence": "She has a ____ voice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "carefully",
+      "hint": "Adverb: careful + -ly",
+      "clue": "c_r_f_lly",
+      "audio": "spell_carefully.mp3",
+      "sentence": "He drove ____ through the rain.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "decision",
+      "hint": "Noun: decide + -sion (drop -e)",
+      "clue": "d_c_s__n",
+      "audio": "spell_decision.mp3",
+      "sentence": "Making a ____ is not always easy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "happiness",
+      "hint": "Noun: happy + -ness (y→i)",
+      "clue": "h_pp_n_ss",
+      "audio": "spell_happiness.mp3",
+      "sentence": "The news brought her great ____.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-5",
+      "word": "creatively",
+      "hint": "Adverb: creative + -ly",
+      "clue": "cr__t_v_ly",
+      "audio": "spell_creatively.mp3",
+      "sentence": "She solved the problem ____.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "basically",
+      "hint": "Adverb: basic + -ally (not -ly)",
+      "clue": "b_s_c_lly",
+      "audio": "spell_basically.mp3",
+      "sentence": "The system works ____ efficiently.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "implementation",
+      "hint": "Noun: implement + -ation (formal register)",
+      "clue": "impl_m_nt_t__n",
+      "audio": "spell_implementation.mp3",
+      "sentence": "The ____ of the policy was successful.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "differently",
+      "hint": "Adverb: different + -ly",
+      "clue": "d_ff_r_ntly",
+      "audio": "spell_differently.mp3",
+      "sentence": "They approached the task ____.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "considerably",
+      "hint": "Adverb: considerable + -ly (formal alternative to 'really')",
+      "clue": "c_ns_d_r_bly",
+      "audio": "spell_considerably.mp3",
+      "sentence": "The results improved ____ after the change.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "nominalization",
+      "hint": "Noun: the process of forming nouns from other word classes (advanced term)",
+      "clue": "n_m_n_l_z_t__n",
+      "audio": "spell_nominalization.mp3",
+      "sentence": "Academic writing often uses ____ for objectivity.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "form-explorer",
+        "name": "Word Form Explorer",
+        "condition": "Complete all Word Forms lessons",
+        "icon": "🔄",
+        "points": 15,
+        "message": "You've unlocked the power of word transformation! 🎉"
+      },
+      {
+        "id": "suffix-master",
+        "name": "Suffix Mastery Champion",
+        "condition": "Score 100% on 3 suffix activities",
+        "icon": "✨",
+        "points": 20,
+        "message": "You master -tion, -ful, -ly, and more! ✨"
+      },
+      {
+        "id": "spelling-pro",
+        "name": "Word Form Spelling Pro",
+        "condition": "Spell all word form words correctly on first try",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your spelling precision is form-perfect! 🌟"
+      },
+      {
+        "id": "register-ranger",
+        "name": "Register Ranger",
+        "condition": "Complete all advanced register activities",
+        "icon": "🎭",
+        "points": 25,
+        "message": "You know when to use formal vs. informal word forms! 🎯"
+      },
+      {
+        "id": "transformer",
+        "name": "Word Transformation Master",
+        "condition": "Score 100% on all writing activities",
+        "icon": "🚀",
+        "points": 30,
+        "message": "You don't just use words—you transform them! 💫"
+      },
+      {
+        "id": "form-perfectionist",
+        "name": "Word Form Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Flawless word form mastery! You're a linguistic legend! 🌈"
+      }
+    ]
+  }
+}

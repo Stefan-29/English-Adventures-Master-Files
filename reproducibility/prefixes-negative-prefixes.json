@@ -1,0 +1,707 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Are Prefixes? 🔤",
+      "content": "<p>🎯 When you see a word like <strong>unhappy</strong> or <strong>preview</strong>, you're looking at <strong>prefixes</strong> in action!</p><p><strong>Prefix</strong> = a group of letters added to the <em>beginning</em> of a word to create a new meaning. <em>Example: pre- + view = preview (to see before).</em></p><p><strong>Key Rule</strong>: Prefixes change meaning, not word class. Think of them like word 'modifiers' 🛠️:</p><table class='lesson-table table-blue'><thead><tr><th>Prefix</th><th>Meaning</th><th>Root Word</th><th>New Word</th></tr></thead><tbody><tr><td>pre-</td><td>before</td><td>view</td><td><em>preview</em></td></tr><tr><td>un-</td><td>not/opposite</td><td>happy</td><td><em>unhappy</em></td></tr><tr><td>re-</td><td>again</td><td>write</td><td><em>rewrite</em></td></tr><tr><td>dis-</td><td>opposite</td><td>agree</td><td><em>disagree</em></td></tr></tbody></table><p><em>Fun fact: The prefix 'auto-' means 'self' - that's why 'autobiography' means writing about yourself! ✍️</em></p>",
+      "examples": [
+        "Example with <strong>semi-</strong>: semicircle = half a circle (semi- + circle)",
+        "Second example showing <strong>anti-</strong>: antibiotic = against life/bacteria (anti- + biotic)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": [
+        "Identifying prefixes in unfamiliar words",
+        "Predicting word meanings from prefix knowledge"
+      ],
+      "tips": "   <strong>Quick Rule:</strong> If you see a familiar word part at the start, check if it's a prefix! Look up its meaning to unlock the whole word."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Common Prefixes & Meanings 📚",
+      "content": "<p>Now let's level up! 🚀 Learn the most useful prefixes to decode hundreds of English words.</p><p><strong>Formation:</strong> <strong>[Prefix]</strong> + <strong>[Root Word]</strong> = New Meaning</p><p><strong>Top Prefix Groups:</strong></p><table class='lesson-table table-green'><thead><tr><th>Prefix Group</th><th>Meaning</th><th>Examples</th><th>Signal Context</th></tr></thead><tbody><tr><td><strong>Time/Order</strong></td><td>before/after</td><td><code>pre-, post-, ante-</code></td><td>schedules, history</td></tr><tr><td><strong>Quantity</strong></td><td>one/many/half</td><td><code>uni-, multi-, semi-</code></td><td>measurements, groups</td></tr><tr><td><strong>Position</strong></td><td>above/below/between</td><td><code>super-, sub-, inter-</code></td><td>location, relationships</td></tr><tr><td><strong>Attitude</strong></td><td>for/against/self</td><td><code>pro-, anti-, auto-</code></td><td>opinions, identity</td></tr></tbody></table><p><em>Fun fact: 'Micro-' means tiny (microscope), while 'macro-' means large (macroeconomics) - they're opposites! 🔬🌍</em></p>",
+      "examples": [
+        "Positive form: <strong>multinational</strong> (multi- = many nations)",
+        "Negative form: <strong>inactive</strong> (in- = not active)",
+        "Question form: <strong>Is 'preview' about seeing before or after?</strong>"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_common_prefixes.mp3",
+      "functions": [
+        "Categorizing prefixes by meaning",
+        "Applying prefix knowledge to reading comprehension"
+      ],
+      "tips": "   <strong>Memory trick:</strong> Group prefixes by theme (time, size, position) - it's easier to remember related words together!"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Negative Prefixes: Making Words Opposite 🔄",
+      "content": "<p>Time to explore the power of negation! ✋ <strong>Negative prefixes</strong> flip a word's meaning to its opposite or add 'wrong/bad'.</p><p><strong>Pattern:</strong> <strong>[Negative Prefix]</strong> + <strong>[Positive Root]</strong> = Opposite Meaning</p><p><strong>Compare these negative prefixes:</strong></p><table class='lesson-table table-teal'><thead><tr><th>Prefix</th><th>Best Used With</th><th>Example</th><th>Why This Prefix?</th></tr></thead><tbody><tr><td><strong>un-</strong></td><td>Common adjectives/verbs</td><td><em>unhappy, undo</em></td><td>Most versatile negative prefix</td></tr><tr><td><strong>in-/im-/il-/ir-</strong></td><td>Latin-root words</td><td><em>inactive, impossible, illegal, irregular</em></td><td>Changes spelling to match root's first letter</td></tr><tr><td><strong>dis-</strong></td><td>Verbs & some adjectives</td><td><em>disagree, dishonest</em></td><td>Often implies reversal or removal</td></tr><tr><td><strong>mis-</strong></td><td>Actions done wrongly</td><td><em>miscalculate, misspell</em></td><td>Means 'badly' or 'incorrectly'</td></tr></tbody></table><p><em>Fun fact: 'Non-' is neutral (non-smoker), while 'un-' often feels more negative (unhappy)! 😊➡️😞</em></p>",
+      "examples": [
+        "With <strong>un-</strong>: <strong>unable</strong> = not able",
+        "With <strong>im-</strong>: <strong>impolite</strong> = not polite (im- before p/m)",
+        "In questions: <strong>Is 'irrelevant' spelled with ir- or in-?</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_negative_prefixes.mp3",
+      "functions": [
+        "Choosing the correct negative prefix for a root word",
+        "Understanding nuance between negative prefixes"
+      ],
+      "tips": "   <strong>Decision point:</strong> Does the root start with p/m? Try im-. With l? Try il-. With r? Try ir-. Otherwise, try un- or in-."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Prefix Pairs: Avoiding Confusion ⚠️",
+      "content": "<p>Here's where it gets interesting! 🔍 Many learners confuse similar prefixes. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Feature</th><th>pre- (before)</th><th>pro- (in favor of)</th></tr></thead><tbody><tr><td><strong>Core Meaning</strong></td><td>time: earlier</td><td>attitude: supporting</td></tr><tr><td><strong>Example</strong></td><td><em>preview (see before)</em></td><td><em>pro-government (supporting government)</em></td></tr><tr><td><strong>Common Error</strong></td><td>❌ pro-view</td><td>❌ pre-government</td></tr><tr><td><strong>Memory Hook</strong></td><td>pre = previous</td><td>pro = promote</td></tr></tbody></table><p><strong>The secret:</strong> Ask: Is this about TIME or ATTITUDE? 🕐 vs 💭</p><p><strong>Another tricky pair:</strong> <em>in-</em> (not) vs <em>inter-</em> (between)</p><p><strong>Common mistake:</strong> 'interdependent' misspelled as 'independent' ×. <strong>Correct:</strong> 'interdependent' = mutually dependent √</p><p><em>Fun fact: 'Anti-' and 'ante-' look similar but mean opposite things: against vs before! 🎭</em></p>",
+      "examples": [
+        "<strong>pre-</strong> example: <strong>preheat</strong> → heat before cooking",
+        "<strong>pro-</strong> example: <strong>pro-environment</strong> → supporting the environment",
+        "Wrong vs Right: <strong>invaluable</strong> (very valuable) ≠ <strong>not valuable</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_prefix_confusion.mp3",
+      "functions": [
+        "Distinguishing between similar-sounding prefixes",
+        "Avoiding common spelling/meaning errors"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Look at the root word's meaning first. If it's about time/order, think pre-/post-. If about support/opposition, think pro-/anti-."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Hyphenation Rules with Prefixes 🔗",
+      "content": "<p>Ready for precision? ✨ <strong>Hyphenation</strong> with prefixes follows patterns, not absolute rules!</p><p><strong>General Guidelines:</strong></p><table class='lesson-table table-orange'><thead><tr><th>When to Hyphenate</th><th>Why</th><th>Example</th><th>Exception</th></tr></thead><tbody><tr><td><strong>Before capital letters</strong></td><td>Avoid confusion</td><td><em>anti-American, pro-Obama</em></td><td>None</td></tr><tr><td><strong>Before same vowel</strong></td><td>Improve readability</td><td><em>co-operate, re-enter</em></td><td>cooperate (also accepted)</td></tr><tr><td><strong>With ex- meaning 'former'</strong></td><td>Clarity</td><td><em>ex-president, ex-member</em></td><td>None</td></tr><tr><td><strong>With self-, all-, half-</strong></td><td>Standard convention</td><td><em>self-confident, all-inclusive</em></td><td>None</td></tr></tbody></table><p><em>Fun fact: Many hyphenated words lose their hyphen over time as they become common (email vs e-mail)! 📧</em></p>",
+      "examples": [
+        "With capital: <strong>trans-Atlantic</strong> (not transatlantic in formal writing)",
+        "Same vowel: <strong>semi-independent</strong> (easier to read than semiindependent)",
+        "Former role: <strong>ex-wife</strong> (always hyphenated)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_hyphenation.mp3",
+      "functions": [
+        "Applying hyphenation rules in writing",
+        "Recognizing when hyphens are optional"
+      ],
+      "tips": "   <strong>When in doubt:</strong> If the word looks confusing without a hyphen, add one! Clarity beats strict rules."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Prefixes in Context: Reading Strategies 📖",
+      "content": "<p>Let's master real-world application! 🌍 Knowing prefixes helps you understand unfamiliar words while reading.</p><p><strong>Strategy:</strong> Break the word → Identify prefix → Recall meaning → Guess definition</p><p><strong>Practice with this sentence:</strong></p><table class='lesson-table table-pink'><thead><tr><th>Unfamiliar Word</th><th>Breakdown</th><th>Prefix Meaning</th><th>Guessed Definition</th></tr></thead><tbody><tr><td><strong>extracurricular</strong></td><td>extra- + curricular</td><td>beyond</td><td>activities beyond regular classes</td></tr><tr><td><strong>microbiology</strong></td><td>micro- + biology</td><td>very small</td><td>study of tiny living things</td></tr><tr><td><strong>nonrestrictive</strong></td><td>non- + restrictive</td><td>not</td><td>not limiting or restricting</td></tr><tr><td><strong>hyperactive</strong></td><td>hyper- + active</td><td>extremely</td><td>extremely active</td></tr></tbody></table><p><em>Fun fact: Prefix knowledge can help you understand 60%+ of new academic words! 🎓</em></p>",
+      "examples": [
+        "Negative statement: <strong>He was uncooperative</strong> (not cooperative)",
+        "Yes/No question: <strong>Is 'multilingual' about many languages?</strong>",
+        "Wh-question: <strong>What does 'submarine' literally mean?</strong>",
+        "Short answer: <em>Under the sea</em> → <strong>sub- (under) + marine (sea)</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_context_clues.mp3",
+      "functions": [
+        "Using prefix knowledge for reading comprehension",
+        "Inferring meanings of technical vocabulary"
+      ],
+      "tips": "   <strong>Remember:</strong> Even if you don't know the root word, the prefix gives you a clue about direction (positive/negative, size, time, etc.)."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Advanced: Multiple Prefixes & Word Families 🌳",
+      "content": "<p>Here's a crucial insight! 🧩 Some words can take multiple prefixes, creating word families.</p><p><strong>Example Family: 'form'</strong></p><table class='lesson-table table-gray'><thead><tr><th>Prefix + form</th><th>Meaning</th><th>Part of Speech</th><th>Example Sentence</th></tr></thead><tbody><tr><td><strong>reform</strong></td><td>form again/improve</td><td>verb/noun</td><td><em>The government plans to reform education.</em></td></tr><tr><td><strong>transform</strong></td><td>change form completely</td><td>verb</td><td><em>Caterpillars transform into butterflies.</em></td></tr><tr><td><strong>deform</strong></td><td>damage the form</td><td>verb</td><td><em>Heat can deform plastic.</em></td></tr><tr><td><strong>conform</strong></td><td>form together/agree</td><td>verb</td><td><em>Students must conform to rules.</em></td></tr></tbody></table><p><strong>Key insight:</strong> The same root + different prefixes = related but distinct meanings!</p><p><em>Fun fact: 'Dis-' can mean 'apart' (dissect) or 'opposite' (disagree) - context decides! 🎯</em></p>",
+      "examples": [
+        "With 'view': <strong>preview</strong> (before), <strong>review</strong> (again), <strong>interview</strong> (between people)",
+        "With 'port': <strong>export</strong> (out), <strong>import</strong> (in), <strong>transport</strong> (across)",
+        "Combined: <strong>unpredictable</strong> = un- (not) + pre- (before) + dict (say) + able"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_word_families.mp3",
+      "functions": [
+        "Analyzing complex prefixed words",
+        "Building vocabulary through word families"
+      ],
+      "tips": "   <strong>Master tip:</strong> Learn one root word deeply, then explore its prefixed variants. This multiplies your vocabulary efficiently!"
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Register & Stylistic Choices 🎨",
+      "content": "<p>You've come so far! 🏆 Let's tackle advanced nuances that separate good from great.</p><p><strong>Stylistic Choice 1: Formality</strong></p><p><em>non-</em> is neutral/formal (non-compliance), while <em>un-</em> is more common (unhappy). In academic writing, prefer <em>non-</em> for objectivity.</p><p><strong>Stylistic Choice 2: Emphasis</strong></p><p><em>hyper-</em> adds intensity (hypercritical = overly critical), while <em>over-</em> can imply excess (overcritical = too critical). Subtle but important!</p><table class='lesson-table table-yellow'><thead><tr><th>Context</th><th>Preferred Prefix</th><th>Effect</th><th>Example</th></tr></thead><tbody><tr><td><strong>Academic Writing</strong></td><td>non-, in-, un-</td><td>Neutral, precise</td><td><em>non-significant results</em></td></tr><tr><td><strong>Creative Writing</strong></td><td>hyper-, ultra-, mega-</td><td>Vivid, emphatic</td><td><em>hyper-realistic description</em></td></tr><tr><td><strong>Technical Writing</strong></td><td>micro-, macro-, auto-</td><td>Specific, standardized</td><td><em>auto-correct function</em></td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✓ Identify prefix meaning ✓ Choose appropriate prefix ✓ Apply hyphenation rules ✓ Adapt to register</p><p><em>Fun fact: Some prefixes come from Greek (micro-, macro-), others from Latin (in-, ex-) - knowing origins helps with spelling! 🌐</em></p>",
+      "examples": [
+        "Formal context: <strong>non-essential</strong> (academic report)",
+        "Exception case: <strong>uninterested</strong> ≠ <strong>disinterested</strong> (bored vs impartial)",
+        "Idiomatic usage: <strong>over the moon</strong> (prefix-like phrase meaning very happy)",
+        "Academic writing: <strong>hypothesize</strong> (hypo- = under, as in 'underlying assumption')"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Selecting prefixes for rhetorical effect",
+        "Adapting prefix usage to different writing contexts"
+      ],
+      "tips": "   <strong>Master level:</strong> In formal writing, prefer Latinate prefixes (in-, ex-) for precision. In creative writing, use expressive prefixes (hyper-, mega-) for impact."
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write about your daily routine using at least 3 words with common prefixes (e.g., pre-, re-, un-). Include: a time marker, a prefixed verb, and a prefixed adjective.",
+      "hint": "Start with 'Every morning, I...'. Make sure to use <strong>pre-, re-, or un-</strong> at least 3 times. Example: <em>I preview my schedule before breakfast.</em>.",
+      "expectedKeywords": ["pre-", "re-", "un-", "before", "again", "not", "daily", "routine"],
+      "sentenceStarters": ["Every morning, I ___ before...", "I always ___ again because...", "Unlike yesterday, today I feel ___ because..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe a hobby using words with quantity prefixes (multi-, uni-, semi-). Include at least 2 prefixed words and explain their meanings.",
+      "hint": "Use <strong>multi-, uni-, or semi-</strong> to describe your hobby. Example: <em>I play in a multilingual band (multi- = many languages).</em>.",
+      "expectedKeywords": ["multi-", "uni-", "semi-", "many", "one", "half", "hobby", "activity"],
+      "sentenceStarters": ["My hobby involves ___ because...", "I enjoy ___ which means...", "This activity is ___ (prefix meaning)..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Tell a short story about a misunderstanding using negative prefixes (un-, dis-, mis-). Use at least 2 negative prefixed words.",
+      "hint": "Begin with 'It all started when...'. Add details with <strong>un-, dis-, or mis-</strong> to show the problem.",
+      "expectedKeywords": ["un-", "dis-", "mis-", "not", "opposite", "wrongly", "mistake", "confusion"],
+      "sentenceStarters": ["It all started when I misunderstood...", "Unfortunately, the situation became...", "I realized I had misjudged..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Compare two learning strategies using position prefixes (inter-, intra-, sub-, super-). Use one prefix for each strategy and explain the difference.",
+      "hint": "Remember: <strong>inter-</strong> = between groups, <strong>intra-</strong> = within one group. Example: <em>International study (inter-) vs intramural sports (intra-).</em>.",
+      "expectedKeywords": ["inter-", "intra-", "sub-", "super-", "between", "within", "below", "above", "compare"],
+      "sentenceStarters": ["Strategy A focuses on ___ (inter-), while Strategy B emphasizes ___ (intra-)...", "The key difference is that ___ involves..., whereas ___ requires..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Write a product review using attitude prefixes (pro-, anti-, auto-). Explain how the prefix affects the product's purpose.",
+      "hint": "Use <strong>pro-, anti-, or auto-</strong> to describe the product's stance. Example: <em>This anti-virus software protects against threats (anti- = against).</em>.",
+      "expectedKeywords": ["pro-", "anti-", "auto-", "supporting", "against", "self", "product", "purpose"],
+      "sentenceStarters": ["This pro-environment product...", "The anti-theft feature works by...", "Auto-save means the program..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Explain a scientific concept using size prefixes (micro-, macro-, mega-, mini-). Show how the prefix clarifies the concept's scale.",
+      "hint": "Start with the scale: <strong>micro-</strong> = tiny, <strong>macro-</strong> = large. Then show the concept. Example: <em>Microbiology studies micro-organisms (very small life forms).</em>.",
+      "expectedKeywords": ["micro-", "macro-", "mega-", "mini-", "small", "large", "tiny", "huge", "scale"],
+      "sentenceStarters": ["The prefix micro- helps us understand...", "When scientists study macro-economics, they...", "A megabyte is mega- (very big) because..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Express an opinion about technology using time prefixes (pre-, post-, ante-). Argue whether 'before' or 'after' perspectives are more valuable.",
+      "hint": "State your view with <strong>In my opinion</strong>. Support it with prefixed words like <strong>preview, postgraduate, antecedent</strong>.",
+      "expectedKeywords": ["pre-", "post-", "ante-", "before", "after", "earlier", "later", "opinion", "technology"],
+      "sentenceStarters": ["In my opinion, pre-planning is crucial because...", "Post-technology society will...", "I believe ante-cedent research shows..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Describe a hypothetical scenario using multiple negative prefixes. Show how changing prefixes alters the scenario's outcome.",
+      "hint": "Use <strong>If + [condition]</strong>, then <strong>[consequence with prefixed words]</strong>. Try different negative prefixes to show contrast.",
+      "expectedKeywords": ["un-", "dis-", "mis-", "non-", "im-", "in-", "not", "opposite", "wrongly", "hypothetical"],
+      "sentenceStarters": ["If the plan were unworkable, then...", "Supposing the data was misinterpreted, the result would...", "A non-compliant approach might lead to..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Analyze a complex word with multiple prefixes (e.g., 'unpredictable', 'interdependent'). Break down each prefix and explain the cumulative meaning.",
+      "hint": "This requires identifying 2+ prefixes in one word. Pay attention to order: outer prefix modifies the inner prefixed word. Model: <em>un- (not) + pre- (before) + dict (say) = cannot be said before = unpredictable</em>.",
+      "expectedKeywords": ["un-", "pre-", "inter-", "de-", "multiple prefixes", "word breakdown", "cumulative meaning", "morphology"],
+      "sentenceStarters": ["The word ___ contains ___ and ___, which together mean...", "Breaking down ___, we see that ___ modifies..., resulting in..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a formal academic paragraph about language evolution using precise prefixed terminology. Include hedging language and passive constructions.",
+      "hint": "Maintain formal register: use <strong>non-, in-, ex-</strong> for neutrality; avoid contractions; use passive voice like <strong>is formed, has been adopted</strong>.",
+      "expectedKeywords": ["non-", "in-", "ex-", "prefixation", "morphological", "is formed", "has been adopted", "academic", "formal"],
+      "sentenceStarters": ["It is observed that prefixation...", "One might argue that non-standard forms...", "The term has been redefined to include..."],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct prefix to complete the word:",
+      "sentence": "____view means to see before.",
+      "options": ["pre-", "post-", "re-", "un-"],
+      "correctAnswer": ["pre-"],
+      "audio": "game_1_sentence.mp3",
+      "hint": "Think: which prefix means 'before'?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Select the negative prefix that means 'not':",
+      "sentence": "____happy means not happy.",
+      "options": ["un-", "re-", "pre-", "multi-"],
+      "correctAnswer": ["un-"],
+      "audio": "game_2_sentence.mp3",
+      "hint": "Which prefix is most common for making adjectives negative?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the prefix meaning 'many':",
+      "sentence": "____national companies operate in many countries.",
+      "options": ["multi-", "uni-", "semi-", "mono-"],
+      "correctAnswer": ["multi-"],
+      "audio": "game_3_sentence.mp3",
+      "hint": "Multi- sounds like 'multiple'!",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the prefix for 'against':",
+      "sentence": "____biotic medicines fight bacteria.",
+      "options": ["anti-", "pro-", "auto-", "pre-"],
+      "correctAnswer": ["anti-"],
+      "audio": "game_4_sentence.mp3",
+      "hint": "Anti- is in 'antibody' and 'antivirus'!",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the prefix meaning 'self':",
+      "sentence": "____biography is writing about oneself.",
+      "options": ["auto-", "anti-", "de-", "dis-"],
+      "correctAnswer": ["auto-"],
+      "audio": "game_5_sentence.mp3",
+      "hint": "Auto- is in 'automatic' (works by itself)!",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which prefix fits? (Negative meaning)",
+      "sentence": "He was ____able to attend the meeting.",
+      "options": ["un-", "re-", "pre-", "inter-"],
+      "correctAnswer": ["un-"],
+      "audio": "game_6_sentence.mp3",
+      "hint": "Un- + able = not able!",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Choose the prefix for 'below':",
+      "sentence": "A ____marine vessel travels under the sea.",
+      "options": ["sub-", "super-", "inter-", "trans-"],
+      "correctAnswer": ["sub-"],
+      "audio": "game_7_sentence.mp3",
+      "hint": "Sub- is in 'subway' (underground train)!",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Select the prefix meaning 'again':",
+      "sentence": "Please ____write your essay with corrections.",
+      "options": ["re-", "pre-", "de-", "dis-"],
+      "correctAnswer": ["re-"],
+      "audio": "game_8_sentence.mp3",
+      "hint": "Re- is in 'redo' and 'replay'!",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Pick the prefix for 'extremely':",
+      "sentence": "She is ____active and never sits still.",
+      "options": ["hyper-", "micro-", "semi-", "mini-"],
+      "correctAnswer": ["hyper-"],
+      "audio": "game_9_sentence.mp3",
+      "hint": "Hyper- means 'over' or 'extreme'!",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Choose the prefix meaning 'half':",
+      "sentence": "A ____circle is half of a circle.",
+      "options": ["semi-", "uni-", "multi-", "omni-"],
+      "correctAnswer": ["semi-"],
+      "audio": "game_10_sentence.mp3",
+      "hint": "Semi- is in 'semifinal' (halfway to the final)!",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Select the correct negative prefix (spelling rule):",
+      "sentence": "It is ____possible to finish in one day.",
+      "options": ["im-", "in-", "un-", "dis-"],
+      "correctAnswer": ["im-"],
+      "audio": "game_11_sentence.mp3",
+      "hint": "Before p/m, use im- instead of in-!",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the prefix that means 'between':",
+      "sentence": "____national cooperation involves multiple countries.",
+      "options": ["inter-", "intra-", "extra-", "ultra-"],
+      "correctAnswer": ["inter-"],
+      "audio": "game_12_sentence.mp3",
+      "hint": "Inter- is in 'internet' (network between computers)!",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Select the prefix meaning 'former':",
+      "sentence": "The ____president gave a speech yesterday.",
+      "options": ["ex-", "pre-", "post-", "re-"],
+      "correctAnswer": ["ex-"],
+      "audio": "game_13_sentence.mp3",
+      "hint": "Ex- always hyphenated when meaning 'former'!",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Choose the prefix for 'very small':",
+      "sentence": "A ____scope lets us see tiny organisms.",
+      "options": ["micro-", "macro-", "mega-", "mini-"],
+      "correctAnswer": ["micro-"],
+      "audio": "game_14_sentence.mp3",
+      "hint": "Micro- is in 'microphone' (amplifies small sounds)!",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Advanced: Identify the prefix meaning 'beyond':",
+      "sentence": "____terrestrial life would come from outside Earth.",
+      "options": ["extra-", "intra-", "inter-", "ultra-"],
+      "correctAnswer": ["extra-"],
+      "audio": "game_15_sentence.mp3",
+      "hint": "Extra- is in 'extraordinary' (beyond ordinary)!",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What does the prefix 'pre-' mean?",
+      "sentence": "In the word 'preview', pre- indicates:",
+      "options": ["before", "after", "again", "not"],
+      "correctAnswer": "before",
+      "audio": "quiz_1_sentence.mp3",
+      "hint": "Pre- is in 'previous' and 'prepare'!",
+      "difficulty": "easy",
+      "explanation": "Pre- means 'before' in time or order. Preview = see before; prepare = make ready before."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly uses a negative prefix?",
+      "sentence": "Choose the correct option:",
+      "options": ["She was uninterested in the boring lecture.", "He was disinterested in the debate (meaning impartial).", "Both A and B are correct.", "Neither is correct."],
+      "correctAnswer": "Both A and B are correct.",
+      "audio": "quiz_2_sentence.mp3",
+      "hint": "Un- = not; dis- can mean impartial in formal contexts.",
+      "difficulty": "easy",
+      "explanation": "Uninterested = not interested (bored). Disinterested = impartial (fair judge). Both are correct with different meanings!"
+    },
+    {
+      "id": "quiz-3",
+      "question": "Identify the prefix in 'multinational':",
+      "sentence": "What prefix appears at the start of 'multinational'?",
+      "options": ["multi-", "national", "multi", "nation"],
+      "correctAnswer": "multi-",
+      "audio": "quiz_3_sentence.mp3",
+      "hint": "Look for the word part added to the beginning!",
+      "difficulty": "easy",
+      "explanation": "Multi- is the prefix meaning 'many'. National is the root word. Multi- + national = operating in many nations."
+    },
+    {
+      "id": "quiz-4",
+      "question": "What is the correct prefix for 'not polite'?",
+      "sentence": "To say someone is not polite, use:",
+      "options": ["impolite", "unpolite", "dispolite", "nonpolite"],
+      "correctAnswer": "impolite",
+      "audio": "quiz_4_sentence.mp3",
+      "hint": "Before p/m, use im- instead of in-!",
+      "difficulty": "easy",
+      "explanation": "Impolite uses im- (variant of in-) because the root 'polite' starts with p. Unpolite is non-standard."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which prefix best links 'form' to mean 'form again'?",
+      "sentence": "To express 'form again', use:",
+      "options": ["reform", "preform", "deform", "conform"],
+      "correctAnswer": "reform",
+      "audio": "quiz_5_sentence.mp3",
+      "hint": "Re- means 'again'!",
+      "difficulty": "easy",
+      "explanation": "Re- + form = reform (to form again or improve). Pre- = before, de- = reverse, con- = together."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which sentence correctly uses 'sub-'?",
+      "sentence": "Choose the option with correct sub- usage:",
+      "options": ["The submarine traveled above the waves.", "Subtitles appear below the video.", "He gave a superordinate answer.", "The macro-economy is sub-ordinate."],
+      "correctAnswer": "Subtitles appear below the video.",
+      "audio": "quiz_6_sentence.mp3",
+      "hint": "Sub- means 'under' or 'below'!",
+      "difficulty": "medium",
+      "explanation": "Sub- means below/under. Subtitles = text below the video. Submarine = vessel under the sea. Super- means above."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the correct prefix sequence for this meaning:",
+      "sentence": "To express 'not able to be predicted before':",
+      "options": ["unpredictable", "impredictable", "dispredictable", "nonpredictable"],
+      "correctAnswer": "unpredictable",
+      "audio": "quiz_7_sentence.mp3",
+      "hint": "Un- is the most common negative prefix for adjectives!",
+      "difficulty": "medium",
+      "explanation": "Unpredictable = un- (not) + pre- (before) + dict (say) + able. It's the standard form; other options are non-standard."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Select the appropriate prefix for 'within one country':",
+      "sentence": "Trade happening inside one nation is ___national.",
+      "options": ["intra-", "inter-", "extra-", "trans-"],
+      "correctAnswer": "intra-",
+      "audio": "quiz_8_sentence.mp3",
+      "hint": "Intra- = within; inter- = between!",
+      "difficulty": "medium",
+      "explanation": "Intra- means 'within' (intramural = within the school walls). Inter- means 'between' (international = between nations)."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which prefix correctly completes this phrasal concept?",
+      "sentence": "To '___load' means to load again.",
+      "options": ["re-", "pre-", "de-", "un-"],
+      "correctAnswer": "re-",
+      "audio": "quiz_9_sentence.mp3",
+      "hint": "Re- means 'again'!",
+      "difficulty": "medium",
+      "explanation": "Reload = load again. Preload = load before; de- = reverse (decompress); un- = not/opposite."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Choose the correct hyphenation for this prefixed word:",
+      "sentence": "The ___American policy was debated.",
+      "options": ["anti-American", "antiamerican", "anti american", "anti_American"],
+      "correctAnswer": "anti-American",
+      "audio": "quiz_10_sentence.mp3",
+      "hint": "Hyphenate before capital letters!",
+      "difficulty": "medium",
+      "explanation": "Prefixes are hyphenated before capital letters (anti-American, pro-Obama) for clarity. No hyphen before lowercase (antibiotic)."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Identify the error in this sentence:",
+      "sentence": "The inorganic compound was misidentified as organic.",
+      "options": ["inorganic → unorganic", "misidentified → disidentified", "Both are correct", "No error"],
+      "correctAnswer": "No error",
+      "audio": "quiz_11_sentence.mp3",
+      "hint": "Check if prefixes match standard usage!",
+      "difficulty": "medium",
+      "explanation": "Both prefixes are correct: in- (not) for scientific term 'inorganic'; mis- (wrongly) for 'misidentified'. No error!"
+    },
+    {
+      "id": "quiz-12",
+      "question": "Choose the best prefix to complete the sentence:",
+      "sentence": "The ___dependent variables affect each other.",
+      "options": ["inter-", "intra-", "un-", "non-"],
+      "correctAnswer": "inter-",
+      "audio": "quiz_12_sentence.mp3",
+      "hint": "Which prefix means 'mutually' or 'between'?",
+      "difficulty": "hard",
+      "explanation": "Interdependent = inter- (between) + dependent = mutually dependent. Intra- = within one; un-/non- = not."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which sentence demonstrates correct advanced prefix usage?",
+      "sentence": "Select the most precise option:",
+      "options": ["The non-significant result suggests caution.", "The insignificant result suggests caution.", "The unsignificant result suggests caution.", "All are equally correct."],
+      "correctAnswer": "The non-significant result suggests caution.",
+      "audio": "quiz_13_sentence.mp3",
+      "hint": "In academic writing, non- is preferred for neutrality!",
+      "difficulty": "hard",
+      "explanation": "Non-significant is the standard statistical term (neutral). Insignificant implies 'unimportant' (evaluative). Unsignificant is non-standard."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the stylistic issue in this formal writing:",
+      "sentence": "The unscientific approach led to unreliable data.",
+      "options": ["un- is too informal for academic writing", "Correct formal usage", "Should use non- instead of un-", "Both A and C"],
+      "correctAnswer": "Both A and C",
+      "audio": "quiz_14_sentence.mp3",
+      "hint": "Formal writing prefers Latinate prefixes for precision!",
+      "difficulty": "hard",
+      "explanation": "In academic contexts, non-scientific is preferred over unscientific for neutrality. Un- can carry emotional weight; non- is objective."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Choose the most precise prefix for this academic context:",
+      "sentence": "The ___standardized test may not reflect true ability.",
+      "options": ["non-", "un-", "dis-", "mis-"],
+      "correctAnswer": "non-",
+      "audio": "quiz_15_sentence.mp3",
+      "hint": "Academic writing uses non- for neutral negation!",
+      "difficulty": "hard",
+      "explanation": "Non-standardized is the neutral, technical term. Unstandardized implies criticism; dis-/mis- don't fit the context. Precision matters in research writing!"
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "preview",
+      "hint": "Prefix pre- meaning 'before' + view",
+      "clue": "p_e_i_w",
+      "audio": "spell_preview.mp3",
+      "sentence": "We watched a ___ of the movie before release.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "unhappy",
+      "hint": "Negative prefix un- + happy",
+      "clue": "u_h_p_y",
+      "audio": "spell_unhappy.mp3",
+      "sentence": "She felt ___ after losing the game.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "multinational",
+      "hint": "Prefix multi- meaning 'many' + national",
+      "clue": "m_l_i_a_i_a",
+      "audio": "spell_multinational.mp3",
+      "sentence": "A ___ corporation operates in many countries.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "submarine",
+      "hint": "Prefix sub- meaning 'under' + marine",
+      "clue": "s_b_a_i_e",
+      "audio": "spell_submarine.mp3",
+      "sentence": "The ___ traveled deep under the ocean.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-5",
+      "word": "impossible",
+      "hint": "Negative prefix im- (before p) + possible",
+      "clue": "i_p_s_b_e",
+      "audio": "spell_impossible.mp3",
+      "sentence": "It seemed ___ to finish on time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "interdependent",
+      "hint": "Prefix inter- meaning 'between' + dependent",
+      "clue": "i_t_r_e_e_d_n",
+      "audio": "spell_interdependent.mp3",
+      "sentence": "The two countries are ___ on each other.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "hyperactive",
+      "hint": "Prefix hyper- meaning 'extremely' + active",
+      "clue": "h_p_r_c_i_e",
+      "audio": "spell_hyperactive.mp3",
+      "sentence": "The child was ___ and couldn't sit still.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "nonrestrictive",
+      "hint": "Negative prefix non- + restrictive (formal)",
+      "clue": "n_n_e_t_i_t_v",
+      "audio": "spell_nonrestrictive.mp3",
+      "sentence": "The clause was ___, so it didn't limit meaning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "extracurricular",
+      "hint": "Prefix extra- meaning 'beyond' + curricular",
+      "clue": "e_t_a_c_r_i_u_a",
+      "audio": "spell_extracurricular.mp3",
+      "sentence": "She joined ___ activities like drama club.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "unpredictable",
+      "hint": "Multiple prefixes: un- + pre- + dict + able",
+      "clue": "u_p_e_i_t_b_e",
+      "audio": "spell_unpredictable.mp3",
+      "sentence": "The weather in April is often ___.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "prefix-explorer",
+        "name": "Prefix Explorer",
+        "condition": "Complete all prefix lessons",
+        "icon": "🔤",
+        "points": 15,
+        "message": "You've unlocked the power of word building! 🎉"
+      },
+      {
+        "id": "negative-master",
+        "name": "Negative Prefix Pro",
+        "condition": "Score 100% on 3 negative prefix activities",
+        "icon": "🔄",
+        "points": 20,
+        "message": "You've mastered flipping meanings like a pro! ✨"
+      },
+      {
+        "id": "hyphen-hero",
+        "name": "Hyphenation Hero",
+        "condition": "Complete all hyphenation games with no mistakes",
+        "icon": "🔗",
+        "points": 25,
+        "message": "Your punctuation precision is perfect! 🏆"
+      },
+      {
+        "id": "vocab-builder",
+        "name": "Vocabulary Architect",
+        "condition": "Use 10+ prefixed words correctly in writing",
+        "icon": "🏗️",
+        "points": 20,
+        "message": "You're building an impressive word library! 📚"
+      },
+      {
+        "id": "speed-decoder",
+        "name": "Word Decoder",
+        "condition": "Complete 5 activities in under 10 minutes each",
+        "icon": "⚡",
+        "points": 30,
+        "message": "You decode words at lightning speed! 🌩️"
+      },
+      {
+        "id": "prefix-perfectionist",
+        "name": "Prefix Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "⭐",
+        "points": 50,
+        "message": "Absolute mastery! You're a prefix expert! 🎓"
+      }
+    ]
+  }
+}

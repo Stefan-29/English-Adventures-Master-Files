@@ -1,0 +1,720 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Are Suffixes? 🔤",
+      "content": "<p>Just like adding toppings to pizza changes its flavor 🍕, adding a <strong>suffix</strong> to a word changes its meaning or grammatical function!</p><p><strong>Suffix</strong> = letters added to the <em>end</em> of a root word. <em>Example: rain + -y = rainy (adjective)</em></p><p><strong>Key Rule</strong>: Suffixes can transform verbs→nouns, nouns→adjectives, or adjectives→adverbs:</p><table class='lesson-table table-blue'><thead><tr><th>Root Word</th><th>Suffix</th><th>New Word</th><th>Function Change</th></tr></thead><tbody><tr><td>beauty (noun)</td><td>-ful</td><td>beautiful</td><td>noun → adjective</td></tr><tr><td>slow (adjective)</td><td>-ly</td><td>slowly</td><td>adjective → adverb</td></tr><tr><td>help (verb)</td><td>-ful</td><td>helpful</td><td>verb → adjective</td></tr></tbody></table><p><em>Fun fact: The suffix '-hood' comes from Old English 'hād' meaning 'state or condition'! 🌟</em></p>",
+      "examples": [
+        "care + <strong>-ful</strong> = careful (adjective: full of care)",
+        "home + <strong>-less</strong> = homeless (adjective: without a home)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": [
+        "Identifying suffixes in words",
+        "Understanding basic word transformation"
+      ],
+      "tips": "   <strong>Quick Rule:</strong> If you see -ful, think 'full of'. If you see -less, think 'without'."
+    },
+    {
+      "id": "lesson-2",
+      "title": "Adjective-Making Suffixes ✨",
+      "content": "<p>Now let's level up! 🚀 <strong>Adjective-forming suffixes</strong> help you describe things more precisely.</p><p><strong>Formation:</strong> [Root] + <strong>[suffix]</strong> = [Adjective]. <em>Example: music + -al = musical</em></p><p><strong>Common Patterns:</strong></p><table class='lesson-table table-green'><thead><tr><th>Suffix</th><th>Meaning</th><th>Example</th><th>Signal</th></tr></thead><tbody><tr><td><strong>-al</strong></td><td>relating to</td><td>nation → national</td><td>often after -tion words</td></tr><tr><td><strong>-ful</strong></td><td>full of</td><td>grace → graceful</td><td>positive quality</td></tr><tr><td><strong>-less</strong></td><td>without</td><td>fear → fearless</td><td>absence of quality</td></tr><tr><td><strong>-ive</strong></td><td>tending to</td><td>act → active</td><td>action tendency</td></tr></tbody></table><p><em>Fun fact: '-ish' can mean 'somewhat' – 'tallish' means 'somewhat tall'! 📏</em></p>",
+      "examples": [
+        "Positive: <strong>helpful</strong> (full of help)",
+        "Negative: <strong>hopeless</strong> (without hope)",
+        "Neutral: <strong>musical</strong> (relating to music)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_adjective_suffixes.mp3",
+      "functions": [
+        "Creating descriptive adjectives",
+        "Choosing -ful vs -less for opposite meanings"
+      ],
+      "tips": "   <strong>Memory trick:</strong> -ful = FULL, -less = LESS (empty). Picture a full cup vs empty cup! ☕"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Adverbs & Noun Suffixes 🎯",
+      "content": "<p>Time to explore another way! 🔄 <strong>-ly</strong> turns adjectives into adverbs (how something is done), while <strong>-hood/-ship</strong> create nouns showing states or relationships.</p><p><strong>Pattern:</strong> [Adjective] + <strong>-ly</strong> = [Adverb]. <em>Example: quick → quickly</em></p><p><strong>Compare these:</strong></p><table class='lesson-table table-teal'><thead><tr><th>Suffix</th><th>Creates</th><th>Example</th><th>Usage Note</th></tr></thead><tbody><tr><td><strong>-ly</strong></td><td>Adverb (manner)</td><td>bad → badly</td><td>answers 'how?'</td></tr><tr><td><strong>-hood</strong></td><td>Noun (state)</td><td>child → childhood</td><td>life stage/condition</td></tr><tr><td><strong>-ship</strong></td><td>Noun (relationship)</td><td>friend → friendship</td><td>social connection</td></tr><tr><td><strong>-ity</strong></td><td>Noun (quality)</td><td>valid → validity</td><td>abstract quality</td></tr></tbody></table><p><em>Fun fact: Not all -ly words are adverbs! 'Friendly' and 'lovely' are adjectives! 😊</em></p>",
+      "examples": [
+        "With -ly: <strong>anxiously</strong> (how someone waits)",
+        "With -hood: <strong>adulthood</strong> (state of being adult)",
+        "With -ship: <strong>leadership</strong> (role of a leader)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_adverb_noun.mp3",
+      "functions": [
+        "Distinguishing adjectives from adverbs",
+        "Forming abstract nouns from concrete roots"
+      ],
+      "tips": "   <strong>Decision point:</strong> Does it describe HOW? → use -ly. Does it name a STATE? → use -hood/-ship."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Compound Suffixes: -free, -proof, -friendly 🔗",
+      "content": "<p>Here's where it gets interesting! 🎨 Many learners confuse <strong>hyphenated compound suffixes</strong>. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Feature</th><th>-free</th><th>-proof</th></tr></thead><tbody><tr><td><strong>Meaning</strong></td><td>without, not containing</td><td>resistant to, protected from</td></tr><tr><td><strong>Common With</strong></td><td>substances, fees</td><td>elements, problems</td></tr><tr><td><strong>Example</strong></td><td><em>sugar-free</em></td><td><em>waterproof</em></td></tr><tr><td><strong>Common Error</strong></td><td>× 'sugar free cake' (needs hyphen before noun)</td><td>× 'water proof jacket'</td></tr></tbody></table><p><strong>The secret:</strong> Hyphenate when the compound comes BEFORE a noun: <em>a user-friendly website</em>. Often no hyphen after: <em>The website is user friendly</em>.</p><p><em>Fun fact: '-aholic' comes from 'alcoholic' – now we say 'workaholic', 'shopaholic'! 🛍️</em></p>",
+      "examples": [
+        "-free example: <strong>tax-free</strong> → no tax included",
+        "-proof example: <strong>fireproof</strong> → resistant to fire",
+        "Hyphen rule: <em>a child-friendly park</em> vs <em>The park is child friendly</em>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_compound_suffixes.mp3",
+      "functions": [
+        "Choosing correct hyphenation",
+        "Understanding protective vs absent meanings"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Before a noun? Hyphenate! After a verb? Often no hyphen. When in doubt, check a dictionary! 📚"
+    },
+    {
+      "id": "lesson-5",
+      "title": "Advanced Compound Suffixes: -worthy, -wise, -ridden 🎓",
+      "content": "<p>Ready for the next level? 🏆 <strong>Advanced compound suffixes</strong> add nuance and sophistication to your vocabulary.</p><p><strong>Formation:</strong> [Noun] + <strong>[suffix]</strong> = [Adjective/Noun]. <em>Example: news + -worthy = newsworthy</em></p><p><strong>Use these when:</strong></p><table class='lesson-table table-orange'><thead><tr><th>Suffix</th><th>Meaning</th><th>Example</th><th>Emphasis</th></tr></thead><tbody><tr><td><strong>-worthy</strong></td><td>deserving of</td><td>praise → praiseworthy</td><td>value judgment</td></tr><tr><td><strong>-wise</strong></td><td>concerning / direction</td><td>health → health-wise</td><td>perspective marker</td></tr><tr><td><strong>-ridden</strong></td><td>full of (negative)</td><td>debt → debt-ridden</td><td>overwhelmed by</td></tr><tr><td><strong>-stricken</strong></td><td>affected by (emotional)</td><td>grief → grief-stricken</td><td>emotional impact</td></tr></tbody></table><p><em>Fun fact: '-wise' for 'concerning' (price-wise) is informal – avoid in academic writing! ✍️</em></p>",
+      "examples": [
+        "Value: <strong>trustworthy</strong> (deserving trust)",
+        "Perspective: <strong>weather-wise</strong> (regarding weather)",
+        "Negative state: <strong>disease-ridden</strong> (full of disease)"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_advanced_compounds.mp3",
+      "functions": [
+        "Expressing nuanced evaluations",
+        "Marking perspective or domain"
+      ],
+      "tips": "   <strong>When to use:</strong> Formal writing? Prefer 'regarding price' over 'price-wise'. Emotional context? '-stricken' adds power."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Suffix Spelling Rules & Variations 🔤",
+      "content": "<p>Let's master the full picture! 🧩 Knowing <strong>spelling changes</strong> when adding suffixes completes your word-building skills.</p><p><strong>Key Rules:</strong></p><ul><li>Drop silent -e: <em>hope + -ful = hopeful</em> (not hopefull)</li><li>Double final consonant: <em>big + -er = bigger</em></li><li>Change -y to -i: <em>happy + -ness = happiness</em></li></ul><table class='lesson-table table-pink'><thead><tr><th>Root Ending</th><th>Suffix Starting With</th><th>Change</th><th>Example</th></tr></thead><tbody><tr><td><strong>Silent -e</strong></td><td>Vowel (-al, -ous)</td><td>Drop -e</td><td>create → creation</td></tr><tr><td><strong>Consonant + y</strong></td><td>Any except -ing</td><td>y → i</td><td>happy → happiness</td></tr><tr><td><strong>1 vowel + 1 consonant</strong></td><td>Vowel (-ed, -ing)</td><td>Double consonant</td><td>stop → stopped</td></tr><tr><td><strong>-ic</strong></td><td>-ally</td><td>Add -ally</td><td>basic → basically</td></tr></tbody></table><p><em>Fun fact: British English often keeps -ise (realise), American uses -ize (realize)! 🌍</em></p>",
+      "examples": [
+        "Drop -e: <strong>use + -less = useless</strong>",
+        "y→i: <strong>beauty + -ful = beautiful</strong>",
+        "Double consonant: <strong>big + -ish = biggish</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_spelling_rules.mp3",
+      "functions": [
+        "Applying spelling rules consistently",
+        "Avoiding common suffix spelling errors"
+      ],
+      "tips": "   <strong>Remember:</strong> Vowel suffix? Check if root ends in silent -e or -y. Consonant suffix? Usually no change!"
+    },
+    {
+      "id": "lesson-7",
+      "title": "Suffixes in Context: Register & Style 🎭",
+      "content": "<p>Here's a crucial rule! 🎯 When you use <strong>suffixes in different contexts</strong>, the formality changes! This trips up many learners.</p><p><strong>The Rule:</strong> Compound suffixes like -friendly, -wise are often <strong>informal</strong>. Prefer formal alternatives in academic writing.</p><table class='lesson-table table-gray'><thead><tr><th>Informal Suffix Form</th><th>Formal Alternative</th><th>Context</th><th>Example</th></tr></thead><tbody><tr><td><strong>-wise</strong> (price-wise)</td><td>regarding price</td><td>Academic</td><td><em>Price-wise → Regarding pricing</em></td></tr><tr><td><strong>-friendly</strong> (user-friendly)</td><td>easy to use</td><td>Formal report</td><td><em>User-friendly → Intuitive interface</em></td></tr><tr><td><strong>-aholic</strong> (workaholic)</td><td>compulsively dedicated</td><td>Professional</td><td><em>Workaholic → Overcommitted professional</em></td></tr><tr><td><strong>-proof</strong> (foolproof)</td><td>error-resistant</td><td>Technical writing</td><td><em>Foolproof → Fail-safe design</em></td></tr></tbody></table><p><strong>Common mistake:</strong> Using -wise in essays → <strong>Correct:</strong> Use 'regarding', 'concerning', 'in terms of'.</p><p><em>Fun fact: '-esque' (picturesque) comes from French – it adds an artistic flair! 🎨</em></p>",
+      "examples": [
+        "Informal: <strong>health-wise</strong> → Formal: <strong>regarding health</strong>",
+        "Casual: <strong>eco-friendly</strong> → Academic: <strong>environmentally sustainable</strong>",
+        "Register shift: <em>That's newsworthy</em> vs <em>That merits media attention</em>"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_register.mp3",
+      "functions": [
+        "Adapting suffix choice to context",
+        "Elevating informal forms for formal writing"
+      ],
+      "tips": "   <strong>Never forget:</strong> Academic writing? Avoid -wise, -aholic. Prefer full phrases. Creative writing? Compound suffixes add flavor! ✨"
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Creating New Words with Suffixes 🚀",
+      "content": "<p>You've come so far! 🌟 Let's tackle the <strong>advanced nuances</strong> that separate good from great word-builders.</p><p><strong>Special Case 1: Productive Suffixes</strong></p><p>Some suffixes actively create new words: <em>selfie, selfie-stick, selfie-culture</em>. These show language evolution! <em>Example: blog → blogger → blogging → bloggable</em></p><p><strong>Special Case 2: Multiple Suffixes</strong></p><p>Words can take multiple suffixes: <em>beauty → beautiful → beautifully</em>. Each adds a layer of meaning.</p><table class='lesson-table table-yellow'><thead><tr><th>Context</th><th>Preferred Form</th><th>Rhetorical Effect</th><th>Exemplar</th></tr></thead><tbody><tr><td><strong>Marketing</strong></td><td>-friendly, -proof</td><td>Reassuring, accessible</td><td><em>user-friendly design</em></td></tr><tr><td><strong>Academic</strong></td><td>-ity, -ness, -tion</td><td>Precise, abstract</td><td><em>validity of the hypothesis</em></td></tr><tr><td><strong>Creative Writing</strong></td><td>-ish, -like, -esque</td><td>Vivid, evocative</td><td><em>childlike wonder</em></td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✓ Identify root + suffix ✓ Apply spelling rules ✓ Match register to context</p><p><em>Fun fact: The suffix '-tron' (from electron) now appears in 'cyclotron', 'mellotron' – science fuels word creation! 🔬</em></p>",
+      "examples": [
+        "Innovation: <strong>selfie</strong> → <strong>selfie-stick</strong> (compound + suffix)",
+        "Layering: <strong>create → creative → creativity</strong>",
+        "Register shift: <em>kid-friendly</em> (casual) vs <em>appropriate for children</em> (formal)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Coining appropriate new words",
+        "Analyzing suffix productivity in language change"
+      ],
+      "tips": "   <strong>Master level:</strong> In tech/marketing, embrace -friendly/-proof. In academia, prefer -ity/-ness. This shows true linguistic agility! 🎯"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 3 sentences describing your ideal room using adjectives with -ful or -less suffixes. Include: one -ful word, one -less word, and one compound adjective.",
+      "hint": "Start with 'My ideal room is...'. Use <strong>-ful</strong> for positive qualities and <strong>-less</strong> for absence. Example: <em>a peaceful, clutter-free space</em>.",
+      "expectedKeywords": ["-ful", "-less", "compound adjective", "descriptive vocabulary"],
+      "sentenceStarters": ["My ideal room is ____ and ____ because...", "I would include ____-free areas for..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe a helpful person using at least two -ful adjectives and one -ly adverb. Explain how they help others.",
+      "hint": "Use <strong>-ful</strong> to describe their qualities and <strong>-ly</strong> to show how they act. Example: <em>She is thoughtful and carefully listens...</em>.",
+      "expectedKeywords": ["-ful", "-ly", "help", "descriptive adjective"],
+      "sentenceStarters": ["____ is a ____ person because...", "They ____-fully help others by..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a short paragraph about childhood memories. Use at least two words with -hood or -ship suffixes.",
+      "hint": "Begin with 'During my childhood...'. Add details with time markers.",
+      "expectedKeywords": ["-hood", "-ship", "childhood", "memory", "time marker"],
+      "sentenceStarters": ["During my childhood, I...", "The friendship I had with..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Compare two products (e.g., phones, bags) using compound suffixes: one -friendly, one -proof, and one -free. Explain which you prefer and why.",
+      "hint": "Remember: -friendly = easy to use, -proof = resistant to damage, -free = without something. Example: <em>The eco-friendly bag is also waterproof...</em>.",
+      "expectedKeywords": ["-friendly", "-proof", "-free", "comparison", "preference"],
+      "sentenceStarters": ["Product A is ____-friendly while Product B is...", "I prefer ____ because it is both ____ and ____..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Write about a challenge you overcame. Use -less to describe the problem and -ful to describe the solution. Include one -ly adverb.",
+      "hint": "Use <strong>-less</strong> for the difficulty (hopeless, helpless) and <strong>-ful</strong> for the positive outcome (hopeful, successful).",
+      "expectedKeywords": ["-less", "-ful", "-ly", "challenge", "solution"],
+      "sentenceStarters": ["At first, I felt ____-less because...", "But then I ____-fully managed to..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Explain why a community park should be family-friendly and eco-friendly. Use cause-effect language with -ly adverbs.",
+      "hint": "Start with the cause: <strong>Because</strong> families need safe spaces. Then show the result: <strong>Therefore</strong>, the park should be...",
+      "expectedKeywords": ["-friendly", "-ly", "because", "therefore", "community"],
+      "sentenceStarters": ["Because families need..., the park should be...", "This would ____-ly benefit the community by..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Express your opinion: Should schools be technology-friendly? Use -wise to discuss different perspectives (education-wise, cost-wise).",
+      "hint": "State your view with <strong>In my opinion</strong>. Support it with <strong>-wise</strong> phrases for different angles.",
+      "expectedKeywords": ["-wise", "opinion", "technology", "education", "perspective"],
+      "sentenceStarters": ["In my opinion, schools should be technology-friendly because...", "Education-wise, ____; cost-wise, ____..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Imagine a future invention. Describe it using at least three compound suffixes (-proof, -friendly, -worthy, etc.). Explain why it's valuable.",
+      "hint": "Use <strong>If + condition</strong> to introduce your invention. Pair suffixes with clear benefits.",
+      "expectedKeywords": ["compound suffix", "-proof", "-worthy", "invention", "future"],
+      "sentenceStarters": ["If I could invent..., it would be ____-proof and ____-friendly...", "This invention is ____-worthy because..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Write a formal paragraph arguing for eco-friendly policies. Use -ity/-ness nouns (sustainability, awareness), formal connectors, and avoid informal suffixes like -wise.",
+      "hint": "This requires abstract nouns, formal register, and precise vocabulary. Model: <em>The implementation of sustainability measures enhances environmental awareness...</em>.",
+      "expectedKeywords": ["-ity", "-ness", "formal connector", "sustainability", "policy"],
+      "sentenceStarters": ["The promotion of environmental sustainability...", "Consequently, public awareness of..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a product description for a new 'smart home' device. Use -friendly, -proof, and -worthy appropriately. Maintain professional tone with hedging language.",
+      "hint": "Maintain formal register: avoid contractions, use <strong>may enhance / appears to improve</strong>, end with <strong>polite closing</strong>.",
+      "expectedKeywords": ["-friendly", "-proof", "-worthy", "hedging phrase", "professional vocabulary"],
+      "sentenceStarters": ["This device is designed to be user-friendly and...", "It may prove worthy of consideration because..."],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct suffix to complete the word:",
+      "sentence": "care + _____ = careful (full of care)",
+      "options": ["-ful", "-less", "-ly", "-ness"],
+      "correctAnswer": ["-ful"],
+      "audio": "game_1_suffix.mp3",
+      "hint": "Which suffix means 'full of'?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Select the right suffix to show 'without':",
+      "sentence": "hope + _____ = hopeless (without hope)",
+      "options": ["-ful", "-less", "-ly", "-hood"],
+      "correctAnswer": ["-less"],
+      "audio": "game_2_suffix.mp3",
+      "hint": "Think: LESS = without!",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the suffix that makes an adverb:",
+      "sentence": "quick + _____ = quickly (in a quick manner)",
+      "options": ["-ful", "-ness", "-ly", "-hood"],
+      "correctAnswer": ["-ly"],
+      "audio": "game_3_suffix.mp3",
+      "hint": "Adverbs often answer 'how?' and end in -ly.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the compound suffix meaning 'resistant to':",
+      "sentence": "water + _____ = waterproof",
+      "options": ["-free", "-proof", "-friendly", "-worthy"],
+      "correctAnswer": ["-proof"],
+      "audio": "game_4_suffix.mp3",
+      "hint": "Which suffix means 'protected from'?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the suffix that creates a noun meaning 'state of being':",
+      "sentence": "child + _____ = childhood",
+      "options": ["-hood", "-ship", "-ly", "-ful"],
+      "correctAnswer": ["-hood"],
+      "audio": "game_5_suffix.mp3",
+      "hint": "-hood and -ship both create state nouns. Which fits 'child'?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Which suffix completes this adjective meaning 'relating to'?",
+      "sentence": "music + _____ = musical",
+      "options": ["-al", "-ic", "-ish", "-y"],
+      "correctAnswer": ["-al"],
+      "audio": "game_6_suffix.mp3",
+      "hint": "-al often follows words ending in -ic or -tion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Choose the correct compound suffix for 'deserving of praise':",
+      "sentence": "praise + _____ = praiseworthy",
+      "options": ["-worthy", "-wise", "-free", "-ridden"],
+      "correctAnswer": ["-worthy"],
+      "audio": "game_7_suffix.mp3",
+      "hint": "-worthy = deserving of. What deserves praise?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Select the suffix that means 'concerning' (informal):",
+      "sentence": "health + _____ = health-wise (regarding health)",
+      "options": ["-wise", "-ly", "-hood", "-ship"],
+      "correctAnswer": ["-wise"],
+      "audio": "game_8_suffix.mp3",
+      "hint": "-wise for 'regarding' is informal. Use carefully!",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Pick the suffix showing negative state 'full of debt':",
+      "sentence": "debt + _____ = debt-ridden",
+      "options": ["-ridden", "-free", "-proof", "-friendly"],
+      "correctAnswer": ["-ridden"],
+      "audio": "game_9_suffix.mp3",
+      "hint": "-ridden = overwhelmed by (usually negative).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Choose the suffix that creates an abstract noun from 'valid':",
+      "sentence": "valid + _____ = validity",
+      "options": ["-ity", "-ness", "-hood", "-ship"],
+      "correctAnswer": ["-ity"],
+      "audio": "game_10_suffix.mp3",
+      "hint": "-ity often follows adjectives ending in -id or -able.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Select the correct spelling rule application:",
+      "sentence": "happy + -ness = _____",
+      "options": ["happiness", "happyness", "happyiness", "happyness"],
+      "correctAnswer": ["happiness"],
+      "audio": "game_11_suffix.mp3",
+      "hint": "When adding suffix to word ending in consonant+y, change y→i.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Choose the most precise suffix for formal writing:",
+      "sentence": "We need to discuss this issue price-_____.",
+      "options": ["wise", "regarding price", "price-related", "in terms of price"],
+      "correctAnswer": ["in terms of price"],
+      "audio": "game_12_suffix.mp3",
+      "hint": "-wise is informal. What's the formal alternative?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Identify the register-appropriate suffix choice:",
+      "sentence": "The ____ design ensures accessibility for all users.",
+      "options": ["user-friendly", "intuitive", "easy-to-use", "people-liking"],
+      "correctAnswer": ["intuitive"],
+      "audio": "game_13_suffix.mp3",
+      "hint": "In formal/technical writing, prefer precise terms over compound suffixes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Select the word with correct hyphenation before a noun:",
+      "sentence": "We need a ____ solution.",
+      "options": ["eco friendly", "eco-friendly", "ecofriendly", "eco friendly-"],
+      "correctAnswer": ["eco-friendly"],
+      "audio": "game_14_suffix.mp3",
+      "hint": "Hyphenate compound adjectives BEFORE the noun they modify.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Choose the word demonstrating multiple suffix application:",
+      "sentence": "Which shows root + suffix + suffix? ____",
+      "options": ["beauty", "beautiful", "beautifully", "beautify"],
+      "correctAnswer": ["beautifully"],
+      "audio": "game_15_suffix.mp3",
+      "hint": "beauty (noun) + -ful (adj) + -ly (adv) = beautifully",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What does the suffix -less mean?",
+      "sentence": "home + _____ = homeless",
+      "options": ["full of", "without", "relating to", "tending to"],
+      "correctAnswer": "without",
+      "audio": "quiz_1_suffix.mp3",
+      "hint": "Think: LESS = not having.",
+      "difficulty": "easy",
+      "explanation": "-less means 'without' or 'lacking'. Homeless = without a home. Contrast with -ful = 'full of'."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which suffix turns an adjective into an adverb?",
+      "sentence": "quick → _____",
+      "options": ["-ness", "-ly", "-ful", "-hood"],
+      "correctAnswer": "-ly",
+      "audio": "quiz_2_suffix.mp3",
+      "hint": "Adverbs often answer 'how?' and end in -ly.",
+      "difficulty": "easy",
+      "explanation": "-ly is the primary adverb-forming suffix in English. Quick (adj) → quickly (adv: in a quick manner)."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Identify the suffix in 'friendship':",
+      "sentence": "friend + _____ = friendship",
+      "options": ["-ship", "-hood", "-ful", "-less"],
+      "correctAnswer": "-ship",
+      "audio": "quiz_3_suffix.mp3",
+      "hint": "-ship and -hood both create nouns about states/relationships.",
+      "difficulty": "easy",
+      "explanation": "-ship creates nouns denoting relationships or roles (friendship, leadership). -hood denotes states (childhood)."
+    },
+    {
+      "id": "quiz-4",
+      "question": "Which word uses a compound suffix correctly before a noun?",
+      "sentence": "Choose the correctly hyphenated option:",
+      "options": ["a user friendly interface", "a user-friendly interface", "a userfriendly interface", "a user friendly-interface"],
+      "correctAnswer": "a user-friendly interface",
+      "audio": "quiz_4_suffix.mp3",
+      "hint": "Hyphenate compound adjectives BEFORE the noun.",
+      "difficulty": "easy",
+      "explanation": "When a compound adjective (user-friendly) comes before a noun (interface), hyphenate it. After the noun, often no hyphen: 'The interface is user friendly'."
+    },
+    {
+      "id": "quiz-5",
+      "question": "What does -worthy mean?",
+      "sentence": "praise + _____ = praiseworthy",
+      "options": ["without", "full of", "deserving of", "resistant to"],
+      "correctAnswer": "deserving of",
+      "audio": "quiz_5_suffix.mp3",
+      "hint": "If something is 'trustworthy', is it deserving of trust?",
+      "difficulty": "easy",
+      "explanation": "-worthy means 'deserving of' or 'fit for'. Praiseworthy = deserving praise. Similarly: noteworthy, seaworthy."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Which spelling rule applies to 'happy + -ness'?",
+      "sentence": "happy + -ness = _____",
+      "options": ["happyness", "happiness", "happyiness", "happyness"],
+      "correctAnswer": "happiness",
+      "audio": "quiz_6_suffix.mp3",
+      "hint": "What happens to final -y when adding a suffix?",
+      "difficulty": "medium",
+      "explanation": "When a word ends in consonant + y, change y→i before adding suffixes (except -ing). Happy → happiness, beauty → beautiful."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Choose the formal alternative to 'price-wise':",
+      "sentence": "_____, this option is more economical.",
+      "options": ["Price-wise", "Regarding price", "Price-ly", "In price-hood"],
+      "correctAnswer": "Regarding price",
+      "audio": "quiz_7_suffix.mp3",
+      "hint": "-wise for 'concerning' is informal. What's formal?",
+      "difficulty": "medium",
+      "explanation": "In formal/academic writing, avoid informal -wise. Prefer 'regarding', 'concerning', or 'in terms of' for precision and register appropriateness."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Which suffix creates an abstract noun from 'able'?",
+      "sentence": "able + _____ = ability",
+      "options": ["-ity", "-ness", "-hood", "-ship"],
+      "correctAnswer": "-ity",
+      "audio": "quiz_8_suffix.mp3",
+      "hint": "Listen: /əˈbɪlɪti/ – which suffix matches the sound?",
+      "difficulty": "medium",
+      "explanation": "-ity forms abstract nouns from adjectives, especially those ending in -able/-ible: able→ability, possible→possibility, visible→visibility."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which compound suffix means 'without sugar'?",
+      "sentence": "This drink is sugar-_____.",
+      "options": ["-proof", "-friendly", "-free", "-worthy"],
+      "correctAnswer": "-free",
+      "audio": "quiz_9_suffix.mp3",
+      "hint": "Which suffix indicates absence of a substance?",
+      "difficulty": "medium",
+      "explanation": "-free means 'without' or 'not containing': sugar-free, fat-free, tax-free. Contrast with -proof = 'resistant to'."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Identify the error in suffix application:",
+      "sentence": "She is hope-ful-ly waiting.",
+      "options": ["hope-ful-ly is correct", "should be hopefully (no hyphens)", "should be hopefull-ly", "should be hope-fully"],
+      "correctAnswer": "should be hopefully (no hyphens)",
+      "audio": "quiz_10_suffix.mp3",
+      "hint": "When do we hyphenate suffixes?",
+      "difficulty": "medium",
+      "explanation": "Standard suffixes (-ful, -ly) don't take hyphens: hopeful → hopefully. Hyphens are for compound adjectives before nouns (user-friendly design), not for standard suffixation."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Which word demonstrates correct register for academic writing?",
+      "sentence": "The study's _____ was rigorously tested.",
+      "options": ["validity", "valid-wise", "valid-proof", "valid-friendly"],
+      "correctAnswer": "validity",
+      "audio": "quiz_11_suffix.mp3",
+      "hint": "Academic writing prefers precise abstract nouns over informal compounds.",
+      "difficulty": "medium",
+      "explanation": "Validity (-ity suffix) is the formal abstract noun from 'valid'. Informal compounds like -wise/-proof are inappropriate in scholarly contexts."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Choose the word with correct multiple suffix application:",
+      "sentence": "Which shows noun → adjective → adverb?",
+      "options": ["beauty", "beautiful", "beautifully", "beautify"],
+      "correctAnswer": "beautifully",
+      "audio": "quiz_12_suffix.mp3",
+      "hint": "Track the transformations: beauty (n) → ? (adj) → ? (adv)",
+      "difficulty": "hard",
+      "explanation": "Beauty (noun) + -ful = beautiful (adjective) + -ly = beautifully (adverb). This demonstrates layered suffixation changing word class twice."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which option shows appropriate hyphenation in all contexts?",
+      "sentence": "Select the correctly punctuated pair:",
+      "options": [
+        "a child-friendly park / The park is child friendly",
+        "a child friendly park / The park is child-friendly",
+        "a child-friendly park / The park is child-friendly",
+        "a child friendly park / The park is child friendly"
+      ],
+      "correctAnswer": "a child-friendly park / The park is child friendly",
+      "audio": "quiz_13_suffix.mp3",
+      "hint": "Hyphenate compound adjectives BEFORE nouns; often omit after linking verbs.",
+      "difficulty": "hard",
+      "explanation": "Style guides generally recommend hyphenating compound adjectives before nouns (child-friendly park) but often omitting the hyphen after linking verbs (The park is child friendly) to reduce visual clutter."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the stylistic issue in this formal sentence:",
+      "sentence": "The policy is eco-friendly and cost-wise beneficial.",
+      "options": [
+        "-friendly is too informal",
+        "-wise is informal; prefer 'regarding cost'",
+        "Both A and B are acceptable",
+        "No error"
+      ],
+      "correctAnswer": "-wise is informal; prefer 'regarding cost'",
+      "audio": "quiz_14_suffix.mp3",
+      "hint": "Which compound suffix is marked informal in style guides?",
+      "difficulty": "hard",
+      "explanation": "While -friendly is widely accepted even in semi-formal contexts, -wise meaning 'concerning' (cost-wise) is consistently marked informal. Prefer 'regarding cost' or 'in terms of cost' in formal writing."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Choose the most precise expression for academic hedging:",
+      "sentence": "The results _____ suggest a correlation.",
+      "options": [
+        "appear to",
+        "are proof-wise",
+        "are proof-ly",
+        "are proof-worthy"
+      ],
+      "correctAnswer": "appear to",
+      "audio": "quiz_15_suffix.mp3",
+      "hint": "Academic writing uses hedging verbs, not informal suffix compounds.",
+      "difficulty": "hard",
+      "explanation": "'Appear to' provides appropriate academic hedging. Informal compounds like '-wise' or invented forms like '-proof-ly' violate register conventions. Precision and caution trump creative suffixation in scholarly work."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "beautiful",
+      "hint": "Adjective suffix -ful added to 'beauty' (note: y→i)",
+      "clue": "b_au_iful",
+      "audio": "spell_beautiful.mp3",
+      "sentence": "She has a _____ voice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "carefully",
+      "hint": "Adverb: careful + -ly",
+      "clue": "c_r_f_lly",
+      "audio": "spell_carefully.mp3",
+      "sentence": "He drove _____ through the rain.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "childhood",
+      "hint": "Noun suffix -hood meaning 'state of being a child'",
+      "clue": "ch_ldh__d",
+      "audio": "spell_childhood.mp3",
+      "sentence": "My _____ was full of adventures.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "waterproof",
+      "hint": "Compound suffix -proof = resistant to water",
+      "clue": "w_t_rpr__f",
+      "audio": "spell_waterproof.mp3",
+      "sentence": "This jacket is completely _____.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-5",
+      "word": "friendship",
+      "hint": "Noun suffix -ship denoting relationship",
+      "clue": "fr__ndsh_p",
+      "audio": "spell_friendship.mp3",
+      "sentence": "Their _____ lasted a lifetime.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "user-friendly",
+      "hint": "Compound adjective: easy for users (hyphenated before noun)",
+      "clue": "us_r-fr__ndly",
+      "audio": "spell_userfriendly.mp3",
+      "sentence": "The app has a _____ interface.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "praiseworthy",
+      "hint": "Compound suffix -worthy = deserving of praise",
+      "clue": "pr__s_w_rthy",
+      "audio": "spell_praiseworthy.mp3",
+      "sentence": "Her dedication was truly _____.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "happiness",
+      "hint": "Noun from happy + -ness (note: y→i)",
+      "clue": "h_pp_n_ss",
+      "audio": "spell_happiness.mp3",
+      "sentence": "The news brought her great _____.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "debt-ridden",
+      "hint": "Compound suffix -ridden = overwhelmed by debt (hyphenated)",
+      "clue": "d_bt-r_dd_n",
+      "audio": "spell_debtridden.mp3",
+      "sentence": "The _____ company sought financial advice.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "environmentally",
+      "hint": "Adverb: environmental + -ly (formal alternative to eco-wise)",
+      "clue": "env_r_nm_nt_lly",
+      "audio": "spell_environmentally.mp3",
+      "sentence": "The policy was designed _____ sustainable.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "suffix-explorer",
+        "name": "Suffix Explorer",
+        "condition": "Complete all Suffixes lessons",
+        "icon": "🔤",
+        "points": 15,
+        "message": "You've unlocked the power of word-building! 🎉"
+      },
+      {
+        "id": "compound-master",
+        "name": "Compound Suffix Champion",
+        "condition": "Score 100% on 3 compound suffix activities",
+        "icon": "🔗",
+        "points": 20,
+        "message": "You master hyphens and compound forms! ✨"
+      },
+      {
+        "id": "spelling-pro",
+        "name": "Suffix Spelling Pro",
+        "condition": "Spell all suffix words correctly on first try",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your spelling precision is suffix-perfect! 🌟"
+      },
+      {
+        "id": "register-aware",
+        "name": "Register Ranger",
+        "condition": "Complete all advanced register activities",
+        "icon": "🎭",
+        "points": 25,
+        "message": "You know when to use formal vs. informal suffixes! 🎯"
+      },
+      {
+        "id": "word-creator",
+        "name": "Word Creation Master",
+        "condition": "Score 100% on all writing activities",
+        "icon": "🚀",
+        "points": 30,
+        "message": "You don't just use words—you create them! 💫"
+      },
+      {
+        "id": "suffix-perfectionist",
+        "name": "Suffix Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Flawless suffix mastery! You're a word-building legend! 🌈"
+      }
+    ]
+  }
+}

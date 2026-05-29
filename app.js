@@ -205,11 +205,10 @@ const App = {
                 'confused-nouns-phrases'
             ],
             "WORD FORMATION": [
-                // 'prefixes',
-                // 'negative-prefixes',
-                // 'suffixes',
-                // 'compound-words',
-                // 'word-forms'
+                'prefixes-negative-prefixes',
+                'suffixes',
+                'compound-words',
+                'word-forms'
             ],
             "MISCELLANEOUS GRAMMAR": [
                 // 'inversion',
@@ -343,14 +342,13 @@ const App = {
             'confusable-pairs',
             'confused-action-verbs',
             'confused-descriptive-words',
-            'confused-nouns-phrases'
+            'confused-nouns-phrases',
 
             // WORD FORMATION
-            // 'prefixes',
-            // 'negative-prefixes',
-            // 'suffixes',
-            // 'compound-words',
-            // 'word-forms',
+            "prefixes-negative-prefixes",            
+            'suffixes',
+            'compound-words',
+            'word-forms'
 
             // MISCELLANEOUS GRAMMAR
             // 'inversion',

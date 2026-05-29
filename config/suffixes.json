@@ -1,0 +1,87 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Suffixes",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Word-Building Suffixes & Compound Forms",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Suffixes Lessons",
+        "instructions": "Master -al, -ful, -less, -ive, and compound suffixes to understand how words change meaning. Understand how suffixes transform root words into nouns, adjectives, or adverbs."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using -ful/-less contrasts, -ly adverbs, and compound suffixes like -friendly or -proof to express precise meanings. Apply suffix rules in real contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Suffix Games",
+        "instructions": "Play games to practice choosing between -al/-ic, -ful/-less, and compound suffixes in context. Recognize word formation patterns."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Suffixes Challenge",
+        "instructions": "Apply -hood, -ship, -wise, and -worthy correctly in sentences. Master hyphenation rules for compound suffixes."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Adjective-Forming Suffixes",
+        "words": ["-al", "-ful", "-less", "-ive", "-ic", "-ical", "-ish", "-y"]
+      },
+      {
+        "title": "Adverb & Noun Suffixes",
+        "words": ["-ly", "-ity", "-ty", "-hood", "-ship", "-ware", "-wise"]
+      },
+      {
+        "title": "Compound Suffixes",
+        "words": ["-free", "-friendly", "-proof", "-like", "-ridden", "-stricken", "-worthy", "-aholic"]
+      },
+      {
+        "title": "Meaning Markers",
+        "words": ["relating to", "without", "full of", "tending to", "state of", "direction", "deserving of"]
+      },
+      {
+        "title": "Common Root Words",
+        "words": ["beauty", "care", "help", "power", "home", "fear", "use", "grace", "friend", "water", "child", "world"]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "The word ___ becomes ___ when we add...",
+          "Adding the suffix ___ changes the meaning to...",
+          "Notice how ___-ful means ___ while ___-less means...",
+          "In compound forms like ___, the suffix indicates...",
+          "This suffix is commonly used with ___ to show..."
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/suffixes.json",
+  "grammarChecker": "suffixes.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

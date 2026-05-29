@@ -1,0 +1,781 @@
+{
+  "lessonActivities": [
+    {
+      "id": "lesson-1",
+      "title": "What Are Compound Words? 🔗",
+      "content": "<p>Just like LEGO bricks snap together to build something new 🧱, <strong>compound words</strong> combine two (or more) words to create fresh meanings!</p><p><strong>Compound Word</strong> = two+ words joined as one unit. <em>Example: baby + sit = babysit (to look after children)</em></p><p><strong>Three Forms:</strong></p><table class='lesson-table table-blue'><thead><tr><th>Form Type</th><th>Structure</th><th>Example</th><th>Usage Note</th></tr></thead><tbody><tr><td><strong>Closed</strong></td><td>word+word</td><td>blackmail, proofread</td><td>most common for verbs</td></tr><tr><td><strong>Hyphenated</strong></td><td>word-word</td><td>double-click, house-hunt</td><td>often before nouns</td></tr><tr><td><strong>Open</strong></td><td>word word</td><td>day dream → daydream</td><td>evolves over time</td></tr></tbody></table><p><em>Fun fact: 'Blackmail' originally meant 'black rent' paid to border raiders in medieval Scotland! ⚔️</em></p>",
+      "examples": [
+        "Closed compound verb: <strong>proofread</strong> (find and correct errors)",
+        "Hyphenated compound verb: <strong>double-click</strong> (press mouse button twice)"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_1_intro.mp3",
+      "functions": [
+        "Identifying compound word types",
+        "Understanding basic formation patterns"
+      ],
+      "tips": "   <strong>Quick Rule:</strong> If two words act as ONE idea, they may form a compound. Check a dictionary for current spelling!"
+    },
+    {
+      "id": "lesson-2",
+      "title": "Compound Verbs in Action 🎬",
+      "content": "<p>Now let's level up! 🚀 <strong>Compound verbs</strong> let you express specific actions concisely.</p><p><strong>Formation:</strong> [Word 1] + <strong>[Word 2]</strong> = [Compound Verb]. <em>Example: spring + clean = spring-clean</em></p><p><strong>Common Patterns:</strong></p><table class='lesson-table table-green'><thead><tr><th>Compound Verb</th><th>Meaning</th><th>Example Sentence</th><th>Context</th></tr></thead><tbody><tr><td><strong>babysit</strong></td><td>care for children</td><td>Can you <em>babysit</em> tonight?</td><td>family/friends</td></tr><tr><td><strong>proofread</strong></td><td>check for errors</td><td>Please <em>proofread</em> this report.</td><td>work/academic</td></tr><tr><td><strong>sidestep</strong></td><td>avoid an issue</td><td>He <em>sidestepped</em> the question.</td><td>conversation/politics</td></tr><tr><td><strong>waterproof</strong></td><td>make water-resistant</td><td><em>Waterproof</em> your boots first.</td><td>outdoor/preparation</td></tr></tbody></table><p><em>Fun fact: 'Brainwash' entered English in the 1950s during the Korean War – language evolves with history! 🌍</em></p>",
+      "examples": [
+        "Professional: <strong>proofread</strong> the document before submitting",
+        "Everyday: Let's <strong>spring-clean</strong> the garage this weekend",
+        "Tech: <strong>Double-click</strong> the icon to open"
+      ],
+      "difficulty": 1,
+      "audio": "lesson_2_compound_verbs.mp3",
+      "functions": [
+        "Using compound verbs for precise actions",
+        "Choosing context-appropriate compounds"
+      ],
+      "tips": "   <strong>Memory trick:</strong> Many compound verbs describe actions you DO. If you can 'do' it, it might be a compound verb!"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Compound Adjectives: Formation Patterns ✨",
+      "content": "<p>Time to explore another way! 🔄 <strong>Compound adjectives</strong> combine words to create vivid, precise descriptions.</p><p><strong>Key Pattern:</strong> [Element 1] + <strong>[Element 2]</strong> = [Descriptive Adjective]. <em>Example: world + famous = world-famous</em></p><p><strong>Eight Formation Types:</strong></p><table class='lesson-table table-teal'><thead><tr><th>Pattern</th><th>Example</th><th>Meaning</th><th>Hyphen?</th></tr></thead><tbody><tr><td><strong>Adj + Noun</strong></td><td>full-length portrait</td><td>complete size</td><td>✓ before noun</td></tr><tr><td><strong>Noun + Adj</strong></td><td>smoke-free area</td><td>without smoke</td><td>✓ before noun</td></tr><tr><td><strong>Adj + -ing</strong></td><td>good-looking person</td><td>attractive</td><td>✓ before noun</td></tr><tr><td><strong>Noun + -ing</strong></td><td>mouth-watering food</td><td>very appetizing</td><td>✓ before noun</td></tr></tbody></table><p><em>Fun fact: Hyphens prevent ambiguity! 'Man eating shark' vs 'man-eating shark' changes everything! 🦈</em></p>",
+      "examples": [
+        "Before noun (hyphenated): <strong>a well-known author</strong>",
+        "After verb (often open): <strong>The author is well known</strong>",
+        "Number compound: <strong>a ten-minute break</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_3_adj_patterns.mp3",
+      "functions": [
+        "Recognizing compound adjective patterns",
+        "Applying hyphenation before nouns"
+      ],
+      "tips": "   <strong>Decision point:</strong> Does the compound come BEFORE a noun? → Hyphenate! After a linking verb? → Often no hyphen."
+    },
+    {
+      "id": "lesson-4",
+      "title": "Hyphenation Rules: When & Why 🔍",
+      "content": "<p>Here's where it gets interesting! 🎨 Many learners confuse <strong>when to hyphenate</strong> compound adjectives. Let's clarify:</p><table class='lesson-table table-purple'><thead><tr><th>Position</th><th>Rule</th><th>Example (Correct)</th><th>Common Error</th></tr></thead><tbody><tr><td><strong>Before noun</strong></td><td>Hyphenate compound adjectives</td><td><em>a user-friendly app</em></td><td>× a user friendly app</td></tr><tr><td><strong>After linking verb</strong></td><td>Often NO hyphen</td><td><em>The app is user friendly</em></td><td>× The app is user-friendly</td></tr><tr><td><strong>With adverb ending -ly</strong></td><td>NO hyphen ever</td><td><em>a beautifully written poem</em></td><td>× a beautifully-written poem</td></tr><tr><td><strong>Number + noun</strong></td><td>Always hyphenate</td><td><em>a five-star hotel</em></td><td>× a five star hotel</td></tr></tbody></table><p><strong>The secret:</strong> Hyphens link words that work TOGETHER as a single descriptor. No hyphen = separate ideas.</p><p><em>Fun fact: Style guides differ! AP style hyphenates more; Chicago is more flexible. When in doubt, consult your style guide! 📚</em></p>",
+      "examples": [
+        "Hyphenated before noun: <strong>a last-minute decision</strong>",
+        "Open after verb: <strong>The decision was last minute</strong>",
+        "Never hyphenate -ly adverbs: <strong>a highly respected scholar</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_4_hyphenation.mp3",
+      "functions": [
+        "Applying position-based hyphenation rules",
+        "Avoiding common punctuation errors"
+      ],
+      "tips": "   <strong>Pro tip:</strong> Read it aloud. If the words flow as ONE idea describing the noun, hyphenate. If they feel separate, don't."
+    },
+    {
+      "id": "lesson-5",
+      "title": "Number + Noun Compounds 🔢",
+      "content": "<p>Ready for the next level? 🏆 <strong>Number + noun compounds</strong> are essential for precise descriptions of time, size, and quantity.</p><p><strong>Formation:</strong> [Number] + <strong>[Noun (singular!)]</strong> = [Compound Adjective]. <em>Example: three + hour = three-hour</em></p><p><strong>Key Rules:</strong></p><table class='lesson-table table-orange'><thead><tr><th>Structure</th><th>Correct Form</th><th>Why?</th><th>Example</th></tr></thead><tbody><tr><td><strong>Number + time unit</strong></td><td>ten-minute (singular)</td><td>acts as adjective, not noun</td><td><em>a ten-minute walk</em></td></tr><tr><td><strong>Number + measurement</strong></td><td>five-foot (singular)</td><td>modifies the following noun</td><td><em>a five-foot shelf</em></td></tr><tr><td><strong>Number + countable noun</strong></td><td>three-page (singular)</td><td>compound adjective rule</td><td><em>a three-page essay</em></td></tr><tr><td><strong>As predicate adjective</strong></td><td>The walk was ten minutes</td><td>no hyphen after verb</td><td><em>The essay is three pages</em></td></tr></tbody></table><p><em>Fun fact: We say 'a two-year-old child' but 'The child is two years old' – the hyphen follows the word's job in the sentence! 👶</em></p>",
+      "examples": [
+        "Before noun: <strong>a twenty-storey building</strong>",
+        "After verb: <strong>The building has twenty storeys</strong>",
+        "Idiomatic: <strong>a once-in-a-lifetime opportunity</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_5_number_compounds.mp3",
+      "functions": [
+        "Forming number-based compound adjectives",
+        "Using singular nouns in compound modifiers"
+      ],
+      "tips": "   <strong>When to use:</strong> If the number+noun describes ANOTHER noun that follows, hyphenate and use singular: <em>a five-day trip</em>."
+    },
+    {
+      "id": "lesson-6",
+      "title": "Idiomatic & Complex Compounds 🎭",
+      "content": "<p>Let's master the full picture! 🧩 <strong>Idiomatic compound adjectives</strong> add color and nuance to your English.</p><p><strong>Pattern:</strong> [Phrase] + <strong>[Hyphen]</strong> = [Expressive Adjective]. <em>Example: middle + of + the + road = middle-of-the-road</em></p><p><strong>Common Idiomatic Compounds:</strong></p><table class='lesson-table table-pink'><thead><tr><th>Compound</th><th>Meaning</th><th>Example</th><th>Register</th></tr></thead><tbody><tr><td><strong>off-the-rack</strong></td><td>ready-made (clothing)</td><td><em>off-the-rack suits</em></td><td>neutral</td></tr><tr><td><strong>over-the-counter</strong></td><td>no prescription needed</td><td><em>over-the-counter medicine</em></td><td>formal/medical</td></tr><tr><td><strong>middle-of-the-road</strong></td><td>moderate, not extreme</td><td><em>middle-of-the-road politics</em></td><td>informal</td></tr><tr><td><strong>one-of-a-kind</strong></td><td>unique, special</td><td><em>a one-of-a-kind gift</em></td><td>positive/emphatic</td></tr></tbody></table><p><strong>Spelling note:</strong> These ALWAYS keep hyphens, even after verbs, because the phrase functions as a single unit.</p><p><em>Fun fact: 'Gut-wrenching' combines body part + verb to create powerful emotional imagery – English loves visceral metaphors! 💥</em></p>",
+      "examples": [
+        "Always hyphenated: <strong>an all-too-common mistake</strong>",
+        "Emphatic: <strong>a gut-wrenching story</strong>",
+        "Descriptive: <strong>a never-ending journey</strong>"
+      ],
+      "difficulty": 2,
+      "audio": "lesson_6_idiomatic.mp3",
+      "functions": [
+        "Using idiomatic compounds for expressive language",
+        "Maintaining hyphens in multi-word compounds"
+      ],
+      "tips": "   <strong>Remember:</strong> If the compound is a fixed phrase (like 'middle-of-the-road'), keep ALL hyphens regardless of position."
+    },
+    {
+      "id": "lesson-7",
+      "title": "Register & Style: Formal vs Informal ⚖️",
+      "content": "<p>Here's a crucial rule! 🎯 When you use <strong>compound words in different contexts</strong>, the formality and hyphenation can change!</p><p><strong>The Rule:</strong> Some compounds are informal/colloquial; prefer formal alternatives in academic writing.</p><table class='lesson-table table-gray'><thead><tr><th>Informal Compound</th><th>Formal Alternative</th><th>Context</th><th>Example Shift</th></tr></thead><tbody><tr><td><strong>user-friendly</strong></td><td>intuitive, accessible</td><td>Academic report</td><td><em>user-friendly → intuitive interface</em></td></tr><tr><td><strong>eco-friendly</strong></td><td>environmentally sustainable</td><td>Research paper</td><td><em>eco-friendly → sustainable practices</em></td></tr><tr><td><strong>high-tech</strong></td><td>technologically advanced</td><td>Formal proposal</td><td><em>high-tech → advanced technological solutions</em></td></tr><tr><td><strong>low-key</strong></td><td>modest, understated</td><td>Professional email</td><td><em>low-key → understated approach</em></td></tr></tbody></table><p><strong>Common mistake:</strong> Using informal compounds in formal writing → <strong>Correct:</strong> Choose precise, formal vocabulary.</p><p><em>Fun fact: 'Well-known' is acceptable in most registers, but 'super-duper' is firmly informal – know your audience! 🎯</em></p>",
+      "examples": [
+        "Informal: <strong>That's a cool, high-tech gadget</strong>",
+        "Formal: <strong>This technologically advanced device offers innovative features</strong>",
+        "Register shift: <em>It's a well-known fact</em> (acceptable) vs <em>It's a super-duper fact</em> (avoid)"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_7_register.mp3",
+      "functions": [
+        "Adapting compound choice to context",
+        "Elevating informal compounds for formal writing"
+      ],
+      "tips": "   <strong>Never forget:</strong> Academic writing? Prefer precise terms over catchy compounds. Marketing? Compounds add punch and memorability!"
+    },
+    {
+      "id": "lesson-8",
+      "title": "Mastery: Creating & Analyzing Compounds 🚀",
+      "content": "<p>You've come so far! 🌟 Let's tackle the <strong>advanced nuances</strong> that separate good from great compound-word users.</p><p><strong>Special Case 1: Evolving Forms</strong></p><p>Compounds evolve: <em>email</em> was once <em>e-mail</em>, now often closed. Dictionaries track these changes! <em>Example: web site → web-site → website</em></p><p><strong>Special Case 2: Ambiguity Prevention</strong></p><p>Hyphens clarify meaning: <em>small-business owner</em> (owner of a small business) vs <em>small business owner</em> (a short owner of a business).</p><table class='lesson-table table-yellow'><thead><tr><th>Context</th><th>Preferred Form</th><th>Rhetorical Effect</th><th>Exemplar</th></tr></thead><tbody><tr><td><strong>Technical Writing</strong></td><td>precise, hyphenated</td><td>Clarity, unambiguity</td><td><em>user-input field</em></td></tr><tr><td><strong>Creative Writing</strong></td><td>expressive, idiomatic</td><td>Vivid imagery, voice</td><td><em>heart-stopping moment</em></td></tr><tr><td><strong>Academic Writing</strong></td><td>formal alternatives</td><td>Precision, objectivity</td><td><em>environmentally sustainable</em></td></tr></tbody></table><p><strong>Mastery checklist:</strong> ✓ Identify compound type ✓ Apply hyphenation rules ✓ Match register to context ✓ Prevent ambiguity</p><p><em>Fun fact: The Oxford English Dictionary adds ~1,000 new words yearly – many are compounds! Language is alive! 🌱</em></p>",
+      "examples": [
+        "Ambiguity fix: <strong>high-school student</strong> (not 'high school student' which could mean a tall student)",
+        "Creative: <strong>a nerve-racking, gut-wrenching experience</strong>",
+        "Technical: <strong>a read-only, write-protected file</strong>"
+      ],
+      "difficulty": 3,
+      "audio": "lesson_8_mastery.mp3",
+      "functions": [
+        "Analyzing compound word evolution",
+        "Using hyphens to prevent misreading",
+        "Adapting compounds to genre/register"
+      ],
+      "tips": "   <strong>Master level:</strong> In technical docs, hyphenate for clarity. In creative work, use compounds for voice. In academia, prefer formal precision. This shows true linguistic agility! 🎯"
+    }
+  ],
+  "writingActivities": [
+    {
+      "id": "writing-1",
+      "question": "Write 3 sentences describing your favorite gadget using compound adjectives. Include: one hyphenated compound before a noun, one number+noun compound, and one compound verb.",
+      "hint": "Start with 'My favorite gadget is...'. Use <strong>hyphenated compounds</strong> before nouns (e.g., user-friendly). Example: <em>a long-lasting, high-quality device</em>.",
+      "expectedKeywords": ["hyphenated compound", "number+noun", "compound verb", "descriptive vocabulary"],
+      "sentenceStarters": ["My favorite gadget is a ___-___ device because...", "It has a ___-minute battery life and can ___..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-2",
+      "question": "Describe a helpful person using at least two compound adjectives (e.g., quick-thinking, level-headed). Explain how they help others.",
+      "hint": "Use <strong>compound adjectives</strong> to show their qualities. Example: <em>She is a quick-thinking, well-prepared advisor</em>.",
+      "expectedKeywords": ["compound adjective", "quick-thinking", "level-headed", "help", "descriptive"],
+      "sentenceStarters": ["___ is a ___-___ person because...", "Their ___-___ approach helps others by..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-3",
+      "question": "Write a short paragraph about a weekend activity. Use at least two compound verbs (e.g., spring-clean, house-hunt, proofread).",
+      "hint": "Begin with 'Last weekend, I...'. Add details with time markers.",
+      "expectedKeywords": ["compound verb", "spring-clean", "proofread", "weekend", "time marker"],
+      "sentenceStarters": ["Last weekend, I decided to ___ the...", "First, I had to ___, then I could ___..."],
+      "difficulty": 1
+    },
+    {
+      "id": "writing-4",
+      "question": "Compare two products (e.g., phones, laptops) using compound adjectives: one with adj+noun pattern, one with noun+adj pattern, and one number+noun compound. Explain which you prefer.",
+      "hint": "Remember: adj+noun = <strong>full-length</strong>, noun+adj = <strong>smoke-free</strong>, number+noun = <strong>ten-minute</strong>. Example: <em>The eco-friendly, long-lasting model...</em>.",
+      "expectedKeywords": ["adj+noun compound", "noun+adj compound", "number+noun", "comparison", "preference"],
+      "sentenceStarters": ["Product A is ___-___ while Product B offers ___-___...", "I prefer ___ because it is both ___ and ___..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-5",
+      "question": "Write about a challenge you overcame. Use a compound verb to describe your action and a compound adjective to describe the outcome. Include correct hyphenation.",
+      "hint": "Use <strong>compound verbs</strong> for actions (sidestep, jump-start) and <strong>compound adjectives</strong> for results (well-deserved, long-awaited).",
+      "expectedKeywords": ["compound verb", "compound adjective", "hyphenation", "challenge", "outcome"],
+      "sentenceStarters": ["At first, the problem seemed ___, but I decided to ___...", "The ___-___ result was worth the effort because..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-6",
+      "question": "Explain why a community project should be eco-friendly and user-friendly. Use cause-effect language and at least one idiomatic compound adjective (e.g., middle-of-the-road, one-of-a-kind).",
+      "hint": "Start with the cause: <strong>Because</strong> the community needs... Then show the result: <strong>Therefore</strong>, the project should be...",
+      "expectedKeywords": ["eco-friendly", "user-friendly", "idiomatic compound", "because", "therefore", "community"],
+      "sentenceStarters": ["Because families need..., the project should be ___-___ and ___-___...", "This would create a ___-___ solution that..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-7",
+      "question": "Express your opinion: Should schools adopt more high-tech tools? Use compound adjectives to describe benefits and drawbacks. Apply hyphenation rules correctly.",
+      "hint": "State your view with <strong>In my opinion</strong>. Support it with compound adjectives like <em>time-saving</em> or <em>cost-effective</em>.",
+      "expectedKeywords": ["compound adjective", "high-tech", "hyphenation", "opinion", "benefit", "drawback"],
+      "sentenceStarters": ["In my opinion, schools should adopt ___-___ tools because...", "While ___-___ solutions offer advantages, ___-___ concerns remain..."],
+      "difficulty": 2
+    },
+    {
+      "id": "writing-8",
+      "question": "Imagine a future invention. Describe it using at least three compound adjectives with different patterns (e.g., adj+-ing, noun+-ing, number+noun). Explain why it's valuable.",
+      "hint": "Use <strong>If + condition</strong> to introduce your invention. Pair compound patterns with clear benefits.",
+      "expectedKeywords": ["adj+-ing compound", "noun+-ing compound", "number+noun", "invention", "future", "valuable"],
+      "sentenceStarters": ["If I could invent..., it would be a ___-___, ___-___ device with ___-___ capacity...", "This invention is ___-___ because it..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-9",
+      "question": "Write a formal paragraph arguing for sustainable urban planning. Use formal alternatives to informal compounds (e.g., 'environmentally sustainable' instead of 'eco-friendly'), precise vocabulary, and hedging language.",
+      "hint": "This requires abstract nouns, formal register, and precise vocabulary. Model: <em>Environmentally sustainable urban design enhances community well-being...</em>.",
+      "expectedKeywords": ["formal alternative", "environmentally sustainable", "hedging phrase", "urban planning", "precise vocabulary"],
+      "sentenceStarters": ["The implementation of environmentally sustainable practices...", "Consequently, community well-being may be enhanced through..."],
+      "difficulty": 3
+    },
+    {
+      "id": "writing-10",
+      "question": "Write a product description for a new 'smart home' device. Use compound adjectives appropriately, maintain professional tone with hedging language, and apply hyphenation rules consistently.",
+      "hint": "Maintain formal register: avoid contractions, use <strong>may enhance / appears to improve</strong>, end with <strong>polite closing</strong>. Hyphenate compounds before nouns.",
+      "expectedKeywords": ["compound adjective", "hyphenation", "hedging phrase", "professional vocabulary", "product description"],
+      "sentenceStarters": ["This device is designed to be ___-___ and ___-___...", "It may prove ___-___ because it..."],
+      "difficulty": 3
+    }
+  ],
+  "gameActivities": [
+    {
+      "id": "game-1",
+      "type": "drag-drop",
+      "question": "Choose the correct compound verb:",
+      "sentence": "I need to ____ this document before submitting it.",
+      "options": ["proofread", "proof read", "proof-read", "proofreading"],
+      "correctAnswer": ["proofread"],
+      "audio": "game_1_compound.mp3",
+      "hint": "Which form is the closed compound verb meaning 'check for errors'?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-2",
+      "type": "drag-drop",
+      "question": "Select the correctly hyphenated compound adjective before a noun:",
+      "sentence": "She bought a ____ watch.",
+      "options": ["water proof", "waterproof", "water-proof", "water proofed"],
+      "correctAnswer": ["waterproof"],
+      "audio": "game_2_compound.mp3",
+      "hint": "Is this compound closed, hyphenated, or open? Check the dictionary pattern!",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-3",
+      "type": "drag-drop",
+      "question": "Pick the correct form for a number+noun compound:",
+      "sentence": "We took a ____ break.",
+      "options": ["ten minute", "ten-minute", "ten minutes", "tens-minute"],
+      "correctAnswer": ["ten-minute"],
+      "audio": "game_3_compound.mp3",
+      "hint": "Number + noun compounds before a noun are hyphenated and use singular noun.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-4",
+      "type": "drag-drop",
+      "question": "Choose the compound adjective with correct hyphenation:",
+      "sentence": "He is a ____ person.",
+      "options": ["well known", "well-known", "wellknown", "well known-"],
+      "correctAnswer": ["well-known"],
+      "audio": "game_4_compound.mp3",
+      "hint": "Compound adjectives before nouns need hyphens to link the words.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-5",
+      "type": "drag-drop",
+      "question": "Select the correct compound verb meaning 'to avoid a question':",
+      "sentence": "The politician tried to ____ the controversial question.",
+      "options": ["side step", "sidestep", "side-step", "siding step"],
+      "correctAnswer": ["sidestep"],
+      "audio": "game_5_compound.mp3",
+      "hint": "Which form is the standard closed compound verb?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "game-6",
+      "type": "drag-drop",
+      "question": "Choose the correctly punctuated sentence:",
+      "sentence": "Which sentence uses hyphenation correctly?",
+      "options": [
+        "The app is user-friendly.",
+        "The app is user friendly.",
+        "The app is user-friendly.",
+        "The app is user friendly."
+      ],
+      "correctAnswer": ["The app is user friendly."],
+      "audio": "game_6_compound.mp3",
+      "hint": "After a linking verb (is), compound adjectives often don't need hyphens.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-7",
+      "type": "drag-drop",
+      "question": "Select the compound adjective that follows the noun+-ing pattern:",
+      "sentence": "The chef served ____ food.",
+      "options": ["mouth watering", "mouth-watering", "mouthwatering", "mouths-watering"],
+      "correctAnswer": ["mouth-watering"],
+      "audio": "game_7_compound.mp3",
+      "hint": "Noun + present participle compounds are hyphenated before nouns.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-8",
+      "type": "drag-drop",
+      "question": "Choose the correct form for this idiomatic compound:",
+      "sentence": "It was a ____ experience.",
+      "options": ["once in a lifetime", "once-in-a-lifetime", "onceinlifetime", "once-in lifetime"],
+      "correctAnswer": ["once-in-a-lifetime"],
+      "audio": "game_8_compound.mp3",
+      "hint": "Multi-word idiomatic compounds keep ALL hyphens.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-9",
+      "type": "drag-drop",
+      "question": "Identify the error in hyphenation:",
+      "sentence": "She gave a beautifully-written speech.",
+      "options": [
+        "Correct as is",
+        "Remove hyphen: beautifully written",
+        "Add hyphen after -ly: beautifully-written",
+        "Capitalize: Beautifully-Written"
+      ],
+      "correctAnswer": ["Remove hyphen: beautifully written"],
+      "audio": "game_9_compound.mp3",
+      "hint": "Adverbs ending in -ly are NEVER hyphenated to the adjective they modify.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-10",
+      "type": "drag-drop",
+      "question": "Select the compound that prevents ambiguity:",
+      "sentence": "We need a ____ solution.",
+      "options": [
+        "small business",
+        "small-business",
+        "small businesses",
+        "smaller business"
+      ],
+      "correctAnswer": ["small-business"],
+      "audio": "game_10_compound.mp3",
+      "hint": "Hyphenate to show 'business of small size' vs 'business owner who is small'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-11",
+      "type": "drag-drop",
+      "question": "Choose the formal alternative to an informal compound:",
+      "sentence": "In academic writing, prefer ____ over 'eco-friendly'.",
+      "options": ["eco friendly", "environmentally sustainable", "eco-friendly", "green"],
+      "correctAnswer": ["environmentally sustainable"],
+      "audio": "game_11_compound.mp3",
+      "hint": "Formal writing prefers precise phrases over catchy informal compounds.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "game-12",
+      "type": "drag-drop",
+      "question": "Advanced: Select the correctly hyphenated complex compound:",
+      "sentence": "It was a ____ decision.",
+      "options": [
+        "middle of the road",
+        "middle-of-the-road",
+        "middle of-the-road",
+        "middle-of the-road"
+      ],
+      "correctAnswer": ["middle-of-the-road"],
+      "audio": "game_12_compound.mp3",
+      "hint": "Idiomatic phrase compounds keep hyphens between ALL words.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-13",
+      "type": "drag-drop",
+      "question": "Identify the register-appropriate compound choice:",
+      "sentence": "The ____ interface enhances accessibility.",
+      "options": ["user friendly", "user-friendly", "intuitive", "easy to use"],
+      "correctAnswer": ["intuitive"],
+      "audio": "game_13_compound.mp3",
+      "hint": "In formal/technical writing, prefer precise terms over informal compounds.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-14",
+      "type": "drag-drop",
+      "question": "Choose the form that prevents misreading:",
+      "sentence": "She is a ____ owner.",
+      "options": [
+        "small business",
+        "small-business",
+        "small businesses",
+        "smaller business"
+      ],
+      "correctAnswer": ["small-business"],
+      "audio": "game_14_compound.mp3",
+      "hint": "Hyphenate to clarify: owner of a small business (not a short business owner).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "game-15",
+      "type": "drag-drop",
+      "question": "Select the evolutionarily current form:",
+      "sentence": "I'll send you an ____ with the details.",
+      "options": ["e-mail", "e mail", "email", "eMail"],
+      "correctAnswer": ["email"],
+      "audio": "game_15_compound.mp3",
+      "hint": "Many compounds evolve from hyphenated to closed forms over time. Check current usage!",
+      "difficulty": "hard"
+    }
+  ],
+  "quizActivities": [
+    {
+      "id": "quiz-1",
+      "question": "What is the correct closed compound verb for 'checking a document for errors'?",
+      "sentence": "Please ____ the report before submission.",
+      "options": ["proof read", "proofread", "proof-read", "proofreading"],
+      "correctAnswer": "proofread",
+      "audio": "quiz_1_compound.mp3",
+      "hint": "Many compound verbs are closed (no space, no hyphen).",
+      "difficulty": "easy",
+      "explanation": "'Proofread' is a closed compound verb. While 'proof-read' was once common, modern usage favors the closed form. 'Proof read' (two words) is incorrect as a verb."
+    },
+    {
+      "id": "quiz-2",
+      "question": "Which sentence correctly hyphenates a compound adjective before a noun?",
+      "sentence": "Choose the correct option:",
+      "options": [
+        "a user friendly interface",
+        "a user-friendly interface",
+        "a userfriendly interface",
+        "a user friendly-interface"
+      ],
+      "correctAnswer": "a user-friendly interface",
+      "audio": "quiz_2_compound.mp3",
+      "hint": "Hyphenate compound adjectives BEFORE the noun they modify.",
+      "difficulty": "easy",
+      "explanation": "When a compound adjective (user-friendly) comes before a noun (interface), hyphenate it to show the words work together as a single descriptor."
+    },
+    {
+      "id": "quiz-3",
+      "question": "Identify the correct number+noun compound form:",
+      "sentence": "We have a ____ meeting.",
+      "options": ["ten minute", "ten-minute", "ten minutes", "tens-minute"],
+      "correctAnswer": "ten-minute",
+      "audio": "quiz_3_compound.mp3",
+      "hint": "Number + noun compounds before a noun use singular noun and hyphen.",
+      "difficulty": "easy",
+      "explanation": "In 'ten-minute meeting', 'ten-minute' is a compound adjective modifying 'meeting'. The noun in the compound stays singular, and the whole phrase is hyphenated."
+    },
+    {
+      "id": "quiz-4",
+      "question": "When is a hyphen NOT needed in a compound adjective?",
+      "sentence": "Select the correctly punctuated sentence:",
+      "options": [
+        "The interface is user-friendly.",
+        "The interface is user friendly.",
+        "The interface is user-friendly.",
+        "The interface is user friendly."
+      ],
+      "correctAnswer": "The interface is user friendly.",
+      "audio": "quiz_4_compound.mp3",
+      "hint": "After linking verbs (is, seems, appears), compound adjectives often don't need hyphens.",
+      "difficulty": "easy",
+      "explanation": "Style guides generally recommend omitting hyphens in compound adjectives after linking verbs to reduce visual clutter: 'The interface is user friendly' (not 'user-friendly')."
+    },
+    {
+      "id": "quiz-5",
+      "question": "Which compound adjective follows the adj+-ing pattern?",
+      "sentence": "She has a ____ personality.",
+      "options": ["easy going", "easy-going", "easygoing", "easily-going"],
+      "correctAnswer": "easy-going",
+      "audio": "quiz_5_compound.mp3",
+      "hint": "Adjective + present participle compounds are hyphenated before nouns.",
+      "difficulty": "easy",
+      "explanation": "'Easy-going' combines the adjective 'easy' with the present participle 'going'. Before a noun, this pattern requires a hyphen: 'an easy-going personality'."
+    },
+    {
+      "id": "quiz-6",
+      "question": "Choose the correct form for this idiomatic compound:",
+      "sentence": "It was a ____ opportunity.",
+      "options": [
+        "once in a lifetime",
+        "once-in-a-lifetime",
+        "onceinlifetime",
+        "once-in lifetime"
+      ],
+      "correctAnswer": "once-in-a-lifetime",
+      "audio": "quiz_6_compound.mp3",
+      "hint": "Multi-word idiomatic compounds keep hyphens between all words.",
+      "difficulty": "medium",
+      "explanation": "Idiomatic phrase compounds like 'once-in-a-lifetime' maintain hyphens between all component words, regardless of position in the sentence, because the entire phrase functions as a single adjective."
+    },
+    {
+      "id": "quiz-7",
+      "question": "Which sentence avoids ambiguity through hyphenation?",
+      "sentence": "Select the clearest option:",
+      "options": [
+        "She is a small business owner.",
+        "She is a small-business owner.",
+        "She is a small businesses owner.",
+        "She is a smaller business owner."
+      ],
+      "correctAnswer": "She is a small-business owner.",
+      "audio": "quiz_7_compound.mp3",
+      "hint": "Hyphenate to show the words work together as a single modifier.",
+      "difficulty": "medium",
+      "explanation": "'Small-business owner' (hyphenated) clearly means 'owner of a small business'. Without the hyphen, 'small business owner' could ambiguously mean 'a short person who owns a business'."
+    },
+    {
+      "id": "quiz-8",
+      "question": "Identify the error: 'She gave a beautifully-written speech.'",
+      "sentence": "What's wrong with this hyphenation?",
+      "options": [
+        "Nothing – it's correct",
+        "Remove hyphen: beautifully written",
+        "Add another hyphen: beautifully-written",
+        "Capitalize: Beautifully-Written"
+      ],
+      "correctAnswer": "Remove hyphen: beautifully written",
+      "audio": "quiz_8_compound.mp3",
+      "hint": "Adverbs ending in -ly are never hyphenated to the adjective they modify.",
+      "difficulty": "medium",
+      "explanation": "Adverbs ending in -ly (beautifully, quickly, highly) are NEVER hyphenated to the adjective they modify. The correct form is 'a beautifully written speech'."
+    },
+    {
+      "id": "quiz-9",
+      "question": "Which is the formal alternative to 'eco-friendly' in academic writing?",
+      "sentence": "In a research paper, prefer ____.",
+      "options": ["eco friendly", "environmentally sustainable", "eco-friendly", "green"],
+      "correctAnswer": "environmentally sustainable",
+      "audio": "quiz_9_compound.mp3",
+      "hint": "Formal writing prefers precise phrases over catchy informal compounds.",
+      "difficulty": "medium",
+      "explanation": "While 'eco-friendly' is widely understood, academic writing prefers precise, formal vocabulary like 'environmentally sustainable' to maintain scholarly register and avoid colloquialism."
+    },
+    {
+      "id": "quiz-10",
+      "question": "Choose the evolutionarily current form of this compound:",
+      "sentence": "I'll send the details via ____.",
+      "options": ["e-mail", "e mail", "email", "eMail"],
+      "correctAnswer": "email",
+      "audio": "quiz_10_compound.mp3",
+      "hint": "Many compounds evolve from hyphenated to closed forms. Check current dictionary usage!",
+      "difficulty": "medium",
+      "explanation": "Language evolves! 'E-mail' was standard in the 1990s, but major dictionaries now list 'email' as the primary spelling. Always check current usage guides for evolving compounds."
+    },
+    {
+      "id": "quiz-11",
+      "question": "Which compound adjective pattern is 'mouth-watering'?",
+      "sentence": "Identify the formation pattern:",
+      "options": [
+        "Adjective + Noun",
+        "Noun + Present Participle",
+        "Adverb + Past Participle",
+        "Number + Noun"
+      ],
+      "correctAnswer": "Noun + Present Participle",
+      "audio": "quiz_11_compound.mp3",
+      "hint": "Break it down: 'mouth' (noun) + 'watering' (present participle of 'water').",
+      "difficulty": "medium",
+      "explanation": "'Mouth-watering' follows the Noun + Present Participle pattern: 'mouth' (noun) + 'watering' (verb+-ing). This pattern creates vivid sensory adjectives and is hyphenated before nouns."
+    },
+    {
+      "id": "quiz-12",
+      "question": "Select the correctly punctuated complex sentence:",
+      "sentence": "Choose the option with proper hyphenation:",
+      "options": [
+        "The middle-of-the-road policy was well-received.",
+        "The middle of the road policy was well received.",
+        "The middle-of-the-road policy was well received.",
+        "The middle of the road policy was well-received."
+      ],
+      "correctAnswer": "The middle-of-the-road policy was well received.",
+      "audio": "quiz_12_compound.mp3",
+      "hint": "Idiomatic compounds keep hyphens; compounds after linking verbs often drop them.",
+      "difficulty": "hard",
+      "explanation": "'Middle-of-the-road' is an idiomatic compound adjective and keeps all hyphens before the noun 'policy'. 'Well received' follows the linking verb 'was', so the hyphen is typically omitted per style guide recommendations."
+    },
+    {
+      "id": "quiz-13",
+      "question": "Which option demonstrates register-appropriate compound usage?",
+      "sentence": "In a formal report, prefer:",
+      "options": [
+        "a user-friendly design",
+        "an intuitive design",
+        "a easy-to-use design",
+        "a people-liking design"
+      ],
+      "correctAnswer": "an intuitive design",
+      "audio": "quiz_13_compound.mp3",
+      "hint": "Formal writing prefers precise, formal vocabulary over informal compounds.",
+      "difficulty": "hard",
+      "explanation": "While 'user-friendly' is widely accepted, formal/academic writing often prefers precise terms like 'intuitive', 'accessible', or 'ergonomic' to maintain scholarly register and avoid colloquial compound adjectives."
+    },
+    {
+      "id": "quiz-14",
+      "question": "Identify the stylistic issue in this formal sentence:",
+      "sentence": "The eco-friendly, high-tech solution is super-duper effective.",
+      "options": [
+        "All compounds are acceptable",
+        "'eco-friendly' is too informal",
+        "'super-duper' is inappropriately informal",
+        "Hyphens are missing"
+      ],
+      "correctAnswer": "'super-duper' is inappropriately informal",
+      "audio": "quiz_14_compound.mp3",
+      "hint": "Which compound is firmly colloquial and unsuitable for formal contexts?",
+      "difficulty": "hard",
+      "explanation": "While 'eco-friendly' and 'high-tech' are widely accepted in semi-formal contexts, 'super-duper' is firmly informal/colloquial and inappropriate for formal writing. Prefer 'highly effective' or 'exceptionally effective'."
+    },
+    {
+      "id": "quiz-15",
+      "question": "Choose the most precise expression for academic hedging:",
+      "sentence": "The data ____ suggest a correlation, though further research is needed.",
+      "options": [
+        "appear to",
+        "are proof-wise",
+        "are proof-ly",
+        "are proof-worthy"
+      ],
+      "correctAnswer": "appear to",
+      "audio": "quiz_15_compound.mp3",
+      "hint": "Academic writing uses hedging verbs, not informal suffix compounds.",
+      "difficulty": "hard",
+      "explanation": "'Appear to' provides appropriate academic hedging. Invented or informal compounds like '-proof-wise' violate register conventions. Precision and caution trump creative word formation in scholarly work."
+    }
+  ],
+  "spellingActivities": [
+    {
+      "id": "spelling-1",
+      "word": "proofread",
+      "hint": "Compound verb: check for errors (closed form)",
+      "clue": "pr__fr__d",
+      "audio": "spell_proofread.mp3",
+      "sentence": "Please ____ the document before submitting it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-2",
+      "word": "user-friendly",
+      "hint": "Compound adjective: easy to use (hyphenated before noun)",
+      "clue": "us_r-fr__ndly",
+      "audio": "spell_userfriendly.mp3",
+      "sentence": "The app has a ____ interface.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-3",
+      "word": "ten-minute",
+      "hint": "Number+noun compound: use singular noun, hyphenate",
+      "clue": "t_n-m_n_t_",
+      "audio": "spell_tenminute.mp3",
+      "sentence": "We took a ____ break.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-4",
+      "word": "well-known",
+      "hint": "Adverb+past participle compound (hyphenated before noun)",
+      "clue": "w_ll-kn_wn",
+      "audio": "spell_wellknown.mp3",
+      "sentence": "She is a ____ author.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "spelling-5",
+      "word": "mouth-watering",
+      "hint": "Noun+present participle compound (hyphenated)",
+      "clue": "m__th-w_t_r_ng",
+      "audio": "spell_mouthwatering.mp3",
+      "sentence": "The chef served ____ food.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-6",
+      "word": "middle-of-the-road",
+      "hint": "Idiomatic phrase compound (keep all hyphens)",
+      "clue": "m_ddl_-_-th_-r__d",
+      "audio": "spell_middleoftheroad.mp3",
+      "sentence": "He has a ____ political stance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-7",
+      "word": "environmentally",
+      "hint": "Formal alternative to 'eco-' compounds (adverb form)",
+      "clue": "env_r_nm_nt_lly",
+      "audio": "spell_environmentally.mp3",
+      "sentence": "The policy was designed ____ sustainable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-8",
+      "word": "once-in-a-lifetime",
+      "hint": "Multi-word idiomatic compound (all hyphens)",
+      "clue": "onc_-_-_-l_f_t_m_",
+      "audio": "spell_onceinalifetime.mp3",
+      "sentence": "It was a ____ opportunity.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "spelling-9",
+      "word": "small-business",
+      "hint": "Hyphenate to prevent ambiguity (before noun)",
+      "clue": "sm_ll-b_s_n_ss",
+      "audio": "spell_smallbusiness.mp3",
+      "sentence": "She is a ____ owner.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "spelling-10",
+      "word": "intuitive",
+      "hint": "Formal alternative to 'user-friendly' (no hyphen)",
+      "clue": "int__t_ve",
+      "audio": "spell_intuitive.mp3",
+      "sentence": "The ____ design enhances accessibility.",
+      "difficulty": "hard"
+    }
+  ],
+  "rewards": {
+    "stars": {
+      "bronze": 10,
+      "silver": 25,
+      "gold": 40,
+      "platinum": 60
+    },
+    "badges": [
+      {
+        "id": "compound-explorer",
+        "name": "Compound Word Explorer",
+        "condition": "Complete all Compound Words lessons",
+        "icon": "🔗",
+        "points": 15,
+        "message": "You've unlocked the power of word combinations! 🎉"
+      },
+      {
+        "id": "hyphen-hero",
+        "name": "Hyphenation Hero",
+        "condition": "Score 100% on 3 hyphenation activities",
+        "icon": "✏️",
+        "points": 20,
+        "message": "You master the art of the hyphen! ✨"
+      },
+      {
+        "id": "spelling-pro",
+        "name": "Compound Spelling Pro",
+        "condition": "Spell all compound words correctly on first try",
+        "icon": "✍️",
+        "points": 20,
+        "message": "Your spelling precision is compound-perfect! 🌟"
+      },
+      {
+        "id": "register-ranger",
+        "name": "Register Ranger",
+        "condition": "Complete all advanced register activities",
+        "icon": "🎭",
+        "points": 25,
+        "message": "You know when to use formal vs. informal compounds! 🎯"
+      },
+      {
+        "id": "word-creator",
+        "name": "Word Creation Master",
+        "condition": "Score 100% on all writing activities",
+        "icon": "🚀",
+        "points": 30,
+        "message": "You don't just use words—you combine them brilliantly! 💫"
+      },
+      {
+        "id": "compound-perfectionist",
+        "name": "Compound Perfectionist",
+        "condition": "Score 100% on all activities in this module",
+        "icon": "🏆",
+        "points": 50,
+        "message": "Flawless compound word mastery! You're a word-building legend! 🌈"
+      }
+    ]
+  }
+}

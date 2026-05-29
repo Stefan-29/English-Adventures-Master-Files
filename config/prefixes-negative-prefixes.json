@@ -1,0 +1,81 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Prefixes & Negative Prefixes",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Word Building: Prefixes & Negative Prefixes",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Prefix Lessons",
+        "instructions": "Master prefix meanings, negative prefix usage, and word formation rules to expand your vocabulary. Understand how prefixes change word meanings."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using prefixed words, negative forms, and context clues to demonstrate vocabulary mastery. Apply prefix knowledge in real contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Prefix Games",
+        "instructions": "Play games to practice choosing between prefix options, identifying meanings, and forming new words. Recognize prefix patterns."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Prefix Challenge",
+        "instructions": "Apply prefix rules, hyphenation conventions, and spelling patterns correctly. Master advanced word formation."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Common Prefixes",
+        "words": ["ante-", "anti-", "auto-", "de-", "dis-", "extra-", "hyper-", "inter-", "intra-", "macro-", "mega-", "micro-", "mini-", "mis-", "mono-", "multi-", "omni-", "over-", "out-", "poly-", "post-", "pre-", "pro-", "semi-", "sub-", "super-", "trans-", "un-", "under-", "uni-", "up-"]
+      },
+      {
+        "title": "Negative Prefixes",
+        "words": ["dis-", "de-", "mis-", "un-", "im-", "in-", "il-", "ir-", "a-", "anti-", "non-", "ex-"]
+      },
+      {
+        "title": "Prefix Meanings",
+        "words": ["before", "against", "self", "reverse", "opposite", "beyond", "extreme", "not", "between", "within", "large", "very big", "very small", "incorrect", "one", "many", "all", "too much", "half", "below", "above", "across"]
+      },
+      {
+        "title": "Example Prefixed Words",
+        "words": ["antecedent", "antibiotic", "autobiography", "deactivate", "disagree", "extracurricular", "hyperactive", "illegal", "international", "introspection", "macroeconomics", "megabyte", "microscope", "minibus", "miscalculate", "monologue", "multinational", "omnipotent", "overcharge", "postgraduate", "preheat", "semicircle", "submarine", "superstar", "transatlantic", "unable", "underestimate", "unicycle", "upgrade"]
+      },
+      {
+        "title": "Hyphenation Patterns",
+        "words": ["anti-pollution", "extra-terrestrial", "semi-detached", "well-known", "user-friendly", "self-confident", "ex-member", "non-essential", "re-enter", "co-operate"]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": ["The prefix ___ means...", "When we add ___ to a word...", "This creates a negative meaning because...", "Unlike the root word, the prefixed word...", "A good example is...", "Notice how ___ changes the meaning to...", "This prefix is commonly used with..."]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/prefixes-negative-prefixes.json",
+  "grammarChecker": "prefixesNegativePrefixes.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

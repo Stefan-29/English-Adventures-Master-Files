@@ -1,0 +1,87 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Word Forms",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Word Forms Mastery: Verbs, Nouns, Adjectives & Adverbs",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Word Forms Lessons",
+        "instructions": "Master verb, noun, adjective, and adverb forms of English words. Understand how suffixes transform word classes and when to use each form correctly."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using all four word forms (verb/noun/adjective/adverb) of target words. Apply word form rules in descriptive and analytical contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Word Form Games",
+        "instructions": "Play games to practice identifying word forms, choosing correct suffixes, and transforming words across grammatical categories."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Word Forms Challenge",
+        "instructions": "Apply suffix rules (-able, -ment, -ly, -tion) correctly. Master spelling changes when transforming words between forms."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Core Word Families (4 Forms)",
+        "words": ["act/action/active/actively", "beauty/beautiful/beautifully", "care/careful/carefully", "create/creation/creative/creatively", "decide/decision/decisive/decisively", "differ/difference/different/differently", "hope/hopeful/hopefully", "interest/interest/interesting/interestingly"]
+      },
+      {
+        "title": "Adjective-Forming Suffixes",
+        "words": ["-able", "-al", "-ful", "-ic", "-ical", "-ive", "-less", "-ous", "-y"]
+      },
+      {
+        "title": "Noun-Forming Suffixes",
+        "words": ["-ance/-ence", "-ation/-tion/-sion", "-ity/-ty", "-ment", "-ness", "-er/-or", "-hood", "-ship"]
+      },
+      {
+        "title": "Adverb-Forming Patterns",
+        "words": ["-ly", "-ily", "-ally", "-fully", "-lessly", "-ically", "-atively", "-ently"]
+      },
+      {
+        "title": "Spelling Change Rules",
+        "words": ["y→i (happy→happiness)", "drop -e (create→creation)", "double consonant (big→bigger)", "consonant+y (carry→carried)", "ie→y (die→dying)"]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "The verb ___ becomes the noun ___ when we add...",
+          "To form the adjective, we use the suffix ___ on ___...",
+          "The adverb form ___ modifies the verb/adjective ___...",
+          "Notice how ___ changes meaning across its four forms...",
+          "In formal writing, prefer the noun form ___ over the verb ___..."
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/word-forms.json",
+  "grammarChecker": "wordForms.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

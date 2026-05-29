@@ -161,8 +161,8 @@
         "limit_word"
       ],
       "sentenceStarters": [
-        "I think ___ is so/such ___.",
-        "It's ___ enough to ___, but it's too ___ to ___."
+        "I think ____ is so/such ____.",
+        "It's ____ enough to ____, but it's too ____ to ____."
       ],
       "difficulty": 1
     },
@@ -179,8 +179,8 @@
         "capability_word"
       ],
       "sentenceStarters": [
-        "I would be so ___ that ___.",
-        "It would be such a ___ that ___."
+        "I would be so ____ that ____.",
+        "It would be such a ____ that ____."
       ],
       "difficulty": 2
     },
@@ -198,8 +198,8 @@
         "value_word"
       ],
       "sentenceStarters": [
-        "This is so/such ___ that ___.",
-        "The price is too/enough ___ to ___."
+        "This is so/such ____ that ____.",
+        "The price is too/enough ____ to ____."
       ],
       "difficulty": 3
     }
@@ -209,7 +209,7 @@
       "id": "game-1",
       "type": "drag-drop",
       "question": "Choose the correct intensity marker (no noun after the adjective):",
-      "sentence": "This weather is ___ cold!",
+      "sentence": "This weather is ____ cold!",
       "options": [
         "so",
         "such",
@@ -225,7 +225,7 @@
       "id": "game-2",
       "type": "drag-drop",
       "question": "Which suffix marker shows this is EXCESSIVE?",
-      "sentence": "This coffee is ___ hot to drink immediately.",
+      "sentence": "This coffee is ____ hot to drink immediately.",
       "options": [
         "so",
         "such",
@@ -241,7 +241,7 @@
       "id": "game-3",
       "type": "drag-drop",
       "question": "Advanced: Complete with the most precise marker pair:",
-      "sentence": "The book is ___ interesting ___ I finished it in one day.",
+      "sentence": "The book is ____ interesting ____ I finished it in one day.",
       "options": [
         "so / that",
         "such / that",
@@ -311,7 +311,7 @@
       "hint": "The quality that so/such express—degree of extreme feeling or quality",
       "clue": "int_n_ity",
       "audio": "spell_intensity.mp3",
-      "sentence": "The ___ of his enthusiasm was remarkable.",
+      "sentence": "The ____ of his enthusiasm was remarkable.",
       "difficulty": "easy"
     },
     {
@@ -320,7 +320,7 @@
       "hint": "The state of being enough—what enough expresses",
       "clue": "_uffici_ncy",
       "audio": "spell_sufficiency.mp3",
-      "sentence": "The ___ of the resources allowed the project to proceed.",
+      "sentence": "The ____ of the resources allowed the project to proceed.",
       "difficulty": "medium"
     },
     {
@@ -329,7 +329,7 @@
       "hint": "Advanced adverb meaning too much or beyond normal—related to too",
       "clue": "_xc_ss_v_ly",
       "audio": "spell_excessively.mp3",
-      "sentence": "He spoke ___ about the topic.",
+      "sentence": "He spoke ____ about the topic.",
       "difficulty": "hard"
     }
   ],

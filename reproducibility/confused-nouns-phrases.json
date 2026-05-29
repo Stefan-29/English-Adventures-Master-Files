@@ -378,7 +378,7 @@
       "id": "game-15",
       "type": "drag-drop",
       "question": "Choose the complete correct sentence:",
-      "sentence": "Which is correct?",
+      "sentence": "Which is correct? ____",
       "options": [
         "I have many works to do.",
         "I have much job to do.",

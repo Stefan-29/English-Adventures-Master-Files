@@ -1,0 +1,87 @@
+{
+  "siteSettings": {
+    "title": "English Adventures: Compound Words",
+    "favicon": "favicon.ico"
+  },
+  "lesson": {
+    "title": "Compound Verbs & Adjectives Mastery",
+    "modules": [
+      {
+        "id": "lesson-module",
+        "name": "Learn",
+        "title": "Compound Words Lessons",
+        "instructions": "Master compound verbs (babysit, proofread) and compound adjectives (well-known, user-friendly). Understand hyphenation rules and formation patterns."
+      },
+      {
+        "id": "writing-module",
+        "name": "Write",
+        "title": "Writing Practice",
+        "instructions": "Write sentences using compound verbs and hyphenated adjectives. Apply compound word rules in descriptive and narrative contexts."
+      },
+      {
+        "id": "game-module",
+        "name": "Play",
+        "title": "Compound Word Games",
+        "instructions": "Play games to practice identifying compound structures, choosing correct hyphenation, and matching word combinations."
+      },
+      {
+        "id": "spelling-module",
+        "name": "Apply",
+        "title": "Compound Words Challenge",
+        "instructions": "Apply hyphenation rules correctly. Master spelling of closed, hyphenated, and open compound forms."
+      }
+    ]
+  },
+  "wordBank": {
+    "categories": [
+      {
+        "title": "Compound Verbs",
+        "words": ["babysit", "backslide", "blackmail", "brainwash", "daydream", "double-click", "dry-clean", "house-hunt", "jump-start", "proofread", "sidestep", "spring-clean", "waterproof"]
+      },
+      {
+        "title": "Compound Adjective Patterns",
+        "words": ["adj+noun", "noun+adj", "adj+present-participle", "noun+present-participle", "adj+past-participle", "noun+past-participle", "adverb+past-participle", "noun+noun"]
+      },
+      {
+        "title": "Common Compound Adjectives",
+        "words": ["well-known", "high-quality", "user-friendly", "eco-friendly", "long-lasting", "quick-thinking", "mouth-watering", "old-fashioned", "middle-aged", "bullet-proof"]
+      },
+      {
+        "title": "Hyphenation Markers",
+        "words": ["before-noun", "after-verb", "open-form", "closed-form", "number-hyphen", "idiomatic-phrase"]
+      },
+      {
+        "title": "Number + Noun Compounds",
+        "words": ["ten-minute", "five-day", "twenty-storey", "three-hour", "five-star", "two-way", "one-of-a-kind"]
+      },
+      {
+        "title": "Sentence Starters / Useful Phrases",
+        "words": [
+          "The compound word ___ is formed by combining...",
+          "When ___ precedes a noun, it requires a hyphen because...",
+          "Notice the difference between ___ (closed) and ___ (hyphenated)...",
+          "This compound adjective follows the ___ + ___ pattern...",
+          "In formal writing, we prefer ___ over the informal compound..."
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "backgroundMusic": "assets/sounds/background-music.mp3",
+    "soundEffects": {
+      "correctSound": "assets/sounds/correct.mp3",
+      "wrongSound": "assets/sounds/wrong.mp3",
+      "victorySound": "assets/sounds/victory.mp3",
+      "gameStartSound": "assets/sounds/game-start.mp3",
+      "hintSound": "assets/sounds/hint.mp3"
+    }
+  },
+  "dataFile": "reproducibility/compound-words.json",
+  "grammarChecker": "compoundWords.js",
+  "gameSettings": {
+    "timeLimit": 30,
+    "pointsPerCorrect": 10,
+    "bonusMultiplier": 2,
+    "difficultyLevels": ["beginner", "intermediate", "advanced"]
+  }
+}

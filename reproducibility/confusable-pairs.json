@@ -378,7 +378,7 @@
       "id": "game-15",
       "type": "drag-drop",
       "question": "Choose the complete correct sentence:",
-      "sentence": "Which is correct?",
+      "sentence": "Which is correct? ____",
       "options": [
         "She told that she was tired.",
         "She said me she was tired.",

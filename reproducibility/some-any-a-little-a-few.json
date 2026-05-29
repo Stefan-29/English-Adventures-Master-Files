@@ -143,10 +143,10 @@
                 "food"
             ],
             "sentenceStarters": [
-                "I have ___",
-                "She brought ___",
-                "We need ___",
-                "They bought ___"
+                "I have ____",
+                "She brought ____",
+                "We need ____",
+                "They bought ____"
             ],
             "difficulty": 1
         },
@@ -167,10 +167,10 @@
                 "problems"
             ],
             "sentenceStarters": [
-                "I don't have ___",
-                "She doesn't want ___",
-                "We haven't got ___",
-                "They aren't ___"
+                "I don't have ____",
+                "She doesn't want ____",
+                "We haven't got ____",
+                "They aren't ____"
             ],
             "difficulty": 2
         },
@@ -193,10 +193,10 @@
                 "help"
             ],
             "sentenceStarters": [
-                "Do you have ___?",
-                "Would you like ___?",
-                "Can I have ___?",
-                "Is there ___?"
+                "Do you have ____?",
+                "Would you like ____?",
+                "Can I have ____?",
+                "Is there ____?"
             ],
             "difficulty": 2
         },
@@ -216,10 +216,10 @@
                 "hope"
             ],
             "sentenceStarters": [
-                "I have ___ time",
-                "She has ___ friends",
-                "We need ___ money",
-                "They have ___ experience"
+                "I have ____ time",
+                "She has ____ friends",
+                "We need ____ money",
+                "They have ____ experience"
             ],
             "difficulty": 3
         },
@@ -239,10 +239,10 @@
                 "people"
             ],
             "sentenceStarters": [
-                "There is ___ time left",
-                "She has ___ friends",
-                "He showed ___ interest",
-                "There are ___ people here"
+                "There is ____ time left",
+                "She has ____ friends",
+                "He showed ____ interest",
+                "There are ____ people here"
             ],
             "difficulty": 3
         },
@@ -266,11 +266,11 @@
                 "help"
             ],
             "sentenceStarters": [
-                "Would you like ___?",
-                "Do you have ___?",
-                "I have ___ time",
-                "There are ___ people",
-                "Can I have ___?"
+                "Would you like ____?",
+                "Do you have ____?",
+                "I have ____ time",
+                "There are ____ people",
+                "Can I have ____?"
             ],
             "difficulty": 4
         },
@@ -317,10 +317,10 @@
                 "advice"
             ],
             "sentenceStarters": [
-                "Would you like ___?",
-                "Can I have ___?",
-                "Do you need ___?",
-                "May I offer you ___?"
+                "Would you like ____?",
+                "Can I have ____?",
+                "Do you need ____?",
+                "May I offer you ____?"
             ],
             "difficulty": 3
         }

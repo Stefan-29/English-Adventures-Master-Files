@@ -592,7 +592,7 @@
             "id": "spelling-3",
             "word": "would",
             "hint": "Conditionals and past habits.",
-            "clue": "w___d",
+            "clue": "w____d",
             "sentence": "If I could, I _____ help.",
             "difficulty": "medium"
         },
@@ -608,7 +608,7 @@
             "id": "spelling-5",
             "word": "suggestion",
             "hint": "A proposal for consideration.",
-            "clue": "__gg__t___",
+            "clue": "__gg__t____",
             "sentence": "That's a good ____.",
             "difficulty": "medium"
         },
@@ -624,7 +624,7 @@
             "id": "spelling-7",
             "word": "conditional",
             "hint": "Related to 'if' sentences.",
-            "clue": "__nd___o_a_",
+            "clue": "__nd____o_a_",
             "sentence": "This is a second-_____ sentence.",
             "difficulty": "hard"
         },
@@ -632,7 +632,7 @@
             "id": "spelling-8",
             "word": "warning",
             "hint": "A notice of danger or risk.",
-            "clue": "___n__g",
+            "clue": "____n__g",
             "sentence": "He gave a clear ____.",
             "difficulty": "easy"
         },
@@ -640,7 +640,7 @@
             "id": "spelling-9",
             "word": "promise",
             "hint": "A pledge to do something.",
-            "clue": "___m_se",
+            "clue": "____m_se",
             "sentence": "She made a ____.",
             "difficulty": "medium"
         },
