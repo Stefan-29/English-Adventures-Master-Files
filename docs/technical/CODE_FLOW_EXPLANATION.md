@@ -1,220 +1,74 @@
-# Code Flow: How Production Features Work
+# Code flow: contextual writing images
 
-## 🔄 Image Loading & Attribution Flow
+Writing activity images are requested from Wikimedia Commons directly by the
+browser. The API is free to query and requires no API key.
 
-```
-User loads Writing Activity
-    ↓
-WritingModule.renderActivities()
-    ↓
-Creates activity card with placeholder image
-    ↓
-WritingModule.preloadActivityImages()
-    ↓
-For each activity: ImageService.getImageData(activity)
-    ↓
-    ├─ Check cache? → Return cached data
-    │
-    └─ No cache → Fetch from Unsplash API
-        ↓
-        ├─ Extract keywords from question
-        ├─ Query: /search/photos?query=...&client_id=KEY
-        │
-        └─ Response includes:
-            ├─ photo.urls.regular (image URL)
-            ├─ photo.user.name (photographer)
-            ├─ photo.user.portfolio_url (photographer link)
-            ├─ photo.links.html (hotlink to photo)
-            ├─ photo.links.download_location (tracking URL)
-            └─ photo.id (for reference)
-        ↓
-        Save to cache (localStorage)
-        ↓
-        Return imageData object:
-        {
-          imageUrl: "https://images.unsplash.com/photo-...",
-          credit: "John Smith",
-          photographerUrl: "https://unsplash.com/@johnsmith",
-          photoUrl: "https://unsplash.com/photos/abc123",
-          downloadUrl: "https://api.unsplash.com/downloads/abc123",
-          unsplashId: "abc123"
-        }
-    ↓
-WritingModule updates card with real image
-    ↓
-HTML rendered:
-<a href="https://unsplash.com/photos/abc123" target="_blank">
-  <img src="https://images.unsplash.com/photo-..." 
-       class="activity-image">
-</a>
-<div class="image-attribution">
-  Photo by <a href="https://unsplash.com/@johnsmith">John Smith</a> 
-  on <a href="https://unsplash.com/photos/abc123">Unsplash</a>
-</div>
-    ↓
-✅ Image is hotlinked
-✅ Photographer is credited with working link
-✅ "Unsplash" links to original photo
-```
+## Image request lifecycle
 
----
+1. `App.init()` loads the local `config/imageMapping.json` before it loads the
+   selected grammar module.
+2. `WritingModule.preloadActivityImages()` requests an image for each writing
+   activity without blocking the activity cards.
+3. `ImageService.getImageData(activity, moduleId)` uses an explicit activity
+   image when configured, then checks the module-and-activity cache.
+4. The service searches Commons with the activity's `imageQuery`, or derives a
+   short query from its question.
+5. A result is cached for 30 days. If the API has no result or is unavailable,
+   the service checks a local mapping scoped to the module, then uses
+   `assets/fallback.jpg`.
+6. The image appears on the matching activity card. Its link opens the Commons
+   file page, and its caption shows available creator and license information.
 
-## 📥 Download Tracking Flow
+## Curating an image match
 
-```
-Image loads on page
-    ↓
-Image 'load' event fires
-    ↓
-ImageService.trackDownload(downloadUrl)
-    ↓
-Build URL: https://api.unsplash.com/downloads/photo-id?client_id=KEY
-    ↓
-fetch(url) — Fire and forget (non-blocking)
-    ↓
-Unsplash registers 1 download
-    ↓
-✅ Download count incremented
-✅ Quota usage tracked
+In the corresponding `reproducibility/*.json` writing activity, use a concise
+search phrase that describes a visible subject rather than grammar
+instructions:
 
-
-Alternative trigger: User clicks hotlink
-    ↓
-'click' event on image link
-    ↓
-ImageService.trackDownload(downloadUrl)
-    ↓
-[Same as above]
-    ↓
-✅ Download tracked again
-```
-
----
-
-## 🎨 Styling & Visual Hierarchy
-
-```
-Activity Card
-├─ Header (Activity 1, Status)
-├─ Question Text
-├─ [IMAGE SECTION] ← NEW: Wrapped in hotlink
-│  ├─ <a href="unsplash-photo">
-│  │  └─ <img class="activity-image">
-│  └─ </a>
-│  └─ <div class="image-attribution">
-│     └─ Photo by <a>Name</a> on <a>Unsplash</a>
-├─ Textarea (user writes answer)
-├─ Show Hint button
-└─ Check / Skip buttons
-```
-
-CSS applied:
-- `.image-link` - Hover effect on image
-- `.image-attribution` - Small gray text below image
-- `.activity-image` - Max height 250px, responsive
-- Links styled as primary color with underline on hover
-
----
-
-## 💾 Data Persistence
-
-### LocalStorage Structure
-
-**Key**: `grammar101_img_[activity-id]`
-**Value**: JSON object
 ```json
 {
-  "imageUrl": "https://images.unsplash.com/...",
-  "credit": "Jane Photographer",
-  "photographerUrl": "https://unsplash.com/@janephoto",
-  "photoUrl": "https://unsplash.com/photos/xyz789",
-  "downloadUrl": "https://api.unsplash.com/downloads/xyz789",
-  "unsplashId": "xyz789",
-  "timestamp": 1673456789000
+  "id": "writing-1",
+  "question": "Plan a weekend trip to Jakarta.",
+  "imageQuery": "Jakarta city weekend travel",
+  "imageAlt": "A view of Jakarta for a weekend travel plan"
 }
 ```
 
-**Duration**: 30 days
-- After 30 days: Cache expires, new fetch from API
-- Benefit: Save API quota for repeat users
+`imageQuery` and `imageAlt` are optional. If omitted, the image service uses
+the question for its search and alt text.
 
----
+## API details
 
-## 🔐 Security Measures
+The service uses the public MediaWiki endpoint:
 
-1. **Link Security**
-   - `target="_blank"` - Opens in new tab
-   - `rel="noopener noreferrer"` - Prevents security exploits
-   - Photographer URLs validated by Unsplash API
-
-2. **API Key**
-   - Public key (not secret) - safe to expose
-   - Can only read public photos
-   - Secret key never exposed in client code
-
-3. **CORS**
-   - Unsplash API allows direct client-side requests
-   - No backend proxy needed
-   - Rate limits per client_id (your API key)
-
----
-
-## 📊 Quota Usage
-
-### Per-hour Requests
-
-Each activity card that loads makes requests:
-1. Image fetch from Unsplash (cached, only first load)
-2. Download tracking (lightweight, cached)
-
-**Example**: 
-- 10 students viewing 5 activities = 50 requests
-- Current limit: 50/hour ✓ (tight fit)
-- **After production**: 5,000/hour (100x more capacity!)
-
----
-
-## 🧬 Backward Compatibility
-
-### Old Code (still works!)
-```javascript
-// This still works - returns just the image URL
-const imageUrl = await ImageService.getImageUrl(activity);
-// Returns: "https://images.unsplash.com/..."
+```text
+https://commons.wikimedia.org/w/api.php
 ```
 
-### New Code (enhanced!)
-```javascript
-// New method - returns full photo data
-const imageData = await ImageService.getImageData(activity);
-// Returns: { imageUrl, credit, photographerUrl, photoUrl, downloadUrl }
+It requests a bitmap result, thumbnail URL, file description page, and
+available license metadata with cross-origin access enabled. Returned URLs
+must use HTTPS. External attribution values are rendered as escaped text, and
+source/license links open with `noopener noreferrer`.
+
+The image cache key includes the grammar module, activity ID, and search query.
+This avoids cross-module image reuse and refreshes a result when its curated
+query changes.
+
+## Local development and verification
+
+Run the app over HTTP so local JSON files can load and the browser can make the
+Commons request:
+
+```bash
+npm start
 ```
 
-Both work together - no breaking changes!
+Run the project QA checks with:
 
----
+```bash
+npm test
+```
 
-## 🚨 Error Handling
-
-If Unsplash API fails:
-1. Returns cached image (if available)
-2. Falls back to generated placeholder (colorful canvas)
-3. Console warning logged
-4. User still gets content (no broken page)
-5. Can retry on next page load
-
----
-
-## ✅ Unsplash Compliance Checklist
-
-| Requirement | Implementation | Status |
-|---|---|---|
-| Hotlink photos | `<a href="photoUrl">` wrapper | ✅ |
-| Trigger downloads | `trackDownload()` on load & click | ✅ |
-| Proper attribution | "Photo by X on Unsplash" with links | ✅ |
-| Visual distinction | "Fetch Auto Images" not "Unsplash" | ✅ |
-| Photographer credit | Links to `photographer.portfolio_url` | ✅ |
-| Credit to Unsplash | Links to photo on `unsplash.com` | ✅ |
-
-All requirements met! 🎉
-
+No API key, `.env` value, download tracking request, or third-party package is
+needed. When the network is unavailable, writing activities remain usable
+with local or fallback images.

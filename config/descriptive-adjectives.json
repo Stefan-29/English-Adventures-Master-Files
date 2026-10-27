@@ -154,7 +154,7 @@
   },
 
   "dataFile": "reproducibility/descriptive-adjectives.json",
-  "grammarChecker": "descriptiveAdjectives.js",
+  "grammarChecker": "openWritingChecker.js",
 
   "gameSettings": {
     "timeLimit": 30,

@@ -3,14 +3,15 @@
   "version": "2.0.0",
   "description": "Professional web-based learning platform for English modal verbs with interactive lessons, quizzes, and games",
   "type": "module",
-  "main": "src/app.js",
+  "main": "app.js",
   "scripts": {
-    "start": "npx http-server src -p 8001",
-    "serve": "npx http-server src -p 8001 -c-1",
-    "dev": "npx http-server src -p 8001 -o",
-    "build": "echo 'No build step required for vanilla JS'",
-    "test": "echo 'Tests not yet configured'",
-    "lint": "eslint src --fix",
+    "start": "http-server dist -p ${PORT:-8001} -c-1",
+    "serve": "npm start",
+    "dev": "http-server . -p ${PORT:-8001} -c-1",
+    "build": "node scripts/build-static-site.js",
+    "export:content": "node scripts/supabase/export-content.js",
+    "test": "node scripts/qa/verify-project.js",
+    "lint": "eslint app.js modules",
     "clean": "rm -rf node_modules package-lock.json"
   },
   "keywords": [

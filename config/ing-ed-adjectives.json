@@ -134,7 +134,7 @@
   },
 
   "dataFile": "reproducibility/ing-ed-adjectives.json",
-  "grammarChecker": "ingEdAdjectives.js",
+  "grammarChecker": "openWritingChecker.js",
 
   "gameSettings": {
     "timeLimit": 30,

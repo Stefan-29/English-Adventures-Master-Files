@@ -1,50 +1,39 @@
 #!/bin/bash
 
 # Grammar101 - Development Server Startup Script
-# This script starts a proper web server from the src/ directory
+# Serve the application from the repository root.
 
-cd "$(dirname "$0")" || exit 1
+cd "$(dirname "$0")/../.." || exit 1
 
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "  Grammar101 - Development Server"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 
-# Check if we're in the right directory
-if [ ! -d "src" ]; then
-    echo "❌ Error: src/ directory not found!"
-    echo "   Please run this script from the project root directory"
+if [ ! -f "index.html" ]; then
+    echo "❌ Error: index.html not found in the project root!"
     exit 1
 fi
 
-PORT=8001
+PORT="${PORT:-8001}"
 
-echo "📁 Project Structure:"
-echo "   Root: $(pwd)"
-echo "   Source: $(pwd)/src"
+echo "📁 Project Root: $(pwd)"
+echo "🚀 Starting Grammar101 on http://localhost:$PORT"
+echo "   In Codespaces, open port $PORT from the Ports panel."
+echo ""
+echo "📝 To stop the server, press Ctrl+C"
 echo ""
 
-# Try different server options
-if command -v python3 &> /dev/null; then
-    echo "🚀 Starting Python HTTP Server on http://localhost:$PORT"
-    echo "   (serving from src/ directory)"
-    echo ""
-    echo "📝 To stop the server, press Ctrl+C"
-    echo ""
-    cd src && python3 -m http.server $PORT
-    
+if command -v http-server &> /dev/null; then
+    http-server . -p "$PORT" -c-1
+elif command -v python3 &> /dev/null; then
+    python3 -m http.server "$PORT" --bind 0.0.0.0
 elif command -v python &> /dev/null; then
-    echo "🚀 Starting Python HTTP Server on http://localhost:$PORT"
-    cd src && python -m http.server $PORT
-    
+    python -m http.server "$PORT" --bind 0.0.0.0
 elif command -v npx &> /dev/null; then
-    echo "🚀 Starting Node HTTP Server on http://localhost:$PORT"
-    cd src && npx http-server -p $PORT
-    
+    npx http-server . -p "$PORT" -c-1
 else
     echo "❌ Error: No server found!"
-    echo "   Please install one of:"
-    echo "   - Python 3 (recommended): python3 -m http.server"
-    echo "   - Node.js: npm install -g http-server"
+    echo "   Install the project dependencies with npm install, or install Python 3."
     exit 1
 fi

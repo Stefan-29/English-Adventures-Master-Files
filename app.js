@@ -1,5 +1,7 @@
 "use strict";
 
+import { syncLocalProgressToSupabase } from './modules/progressSync.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM fully loaded, initializing App');
     App.init();
@@ -7,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const App = {
     state: {
-        activeModule: 'writing-module',
+        activeModule: 'learn',
         activeGrammarModule: null,  // Track which grammar module is active
         currentGrammarFilter: 'All', // Track current filter
         overallProgress: 0,
@@ -34,70 +36,35 @@ const App = {
     },
 
     config: null,
-    currentDataFile: null,
     grammarModules: [],
+    contentService: null,
     currentGrammarModuleId: null,  // Tracks current grammar module ID
     feedbackQueue: [],  // Queue for feedback messages
     feedbackActive: false,  // Track if feedback is currently showing
+    feedbackReturnFocus: null,
 
     // ———————————————————— INIT ————————————————————
     init: function () {
         console.log('Initializing App');
 
-        // Initialize ImageService with local image mapping
-        ImageService.init().then(() => {
-            console.log('[Image] ImageService ready with local mappings');
-        }).catch(error => {
-            console.warn('[Image] Could not initialize image mappings:', error);
-        });
-
-        // Initialize API key if available
-        const unsplashKey = localStorage.getItem('unsplash_api_key');
-        if (unsplashKey) {
-            ImageService.setApiKey(unsplashKey);
-        }
-
-        this.loadGrammarModules()
-            .then(modules => {
-                console.log('Grammar modules loaded:', modules.length, 'modules');
-                this.grammarModules = modules;
-
-                // Determine which grammar module to load first (restore last-used if available)
-                const savedGrammarModuleId = localStorage.getItem('englishAdventuresCurrentGrammarModule');
-                let defaultModule = modules[0];
-                if (savedGrammarModuleId) {
-                    const savedModule = modules.find(m => m.id === savedGrammarModuleId);
-                    if (savedModule) {
-                        defaultModule = savedModule;
-                        console.log('📌 Restoring last-used grammar module:', savedModule.id);
-                    } else {
-                        console.warn('Saved grammar module not found in current module list:', savedGrammarModuleId);
-                    }
-                }
-                if (!defaultModule) throw new Error('No grammar modules found');
-
-                // Set the current grammar module ID
-                this.currentGrammarModuleId = defaultModule.id;
-
-                // Render grammar selector now that modules are loaded
-                this.renderGrammarSelector();
-
-                return this.loadConfigAndData(defaultModule);
-            })
+        ImageService.init()
             .then(() => {
-                this.initializePage();
+                console.log('[Image] Image service ready');
+                return this.loadGrammarModules();
+            })
+            .then(modules => {
+                this.grammarModules = modules;
+                this.renderGrammarSelector();
+                this.prepareTopicLanding();
                 this.loadState();
                 this.loadSoundPreference();
                 this.setupEventListeners();
-                this.createStickyCheckAllButton();
-                this.initSoundControl();
                 this.updateUI();
-                // renderGrammarSelector is now called earlier
-
+                void syncLocalProgressToSupabase();
             })
             .catch(err => {
-                console.error('Init failed:', err);
-                alert('Failed to load app. Check console (F12). Error: ' + err.message);
+                console.error('Topic index initialization failed:', err?.message || 'unknown');
+                this.renderTopicIndexError();
             });
     },
 
@@ -237,13 +204,9 @@ const App = {
         return 'Other'; // Default group for new modules
     },
 
-    // ———————————————————— LOAD ALL GRAMMAR MODULES ————————————————————
-    loadGrammarModules: function () {
-        //ADD NEW MODULES TO THIS ARRAY TO HAVE THEM AUTOMATICALLY 
-        // LOADED AND APPEAR IN THE UI. 
-        // MAKE SURE TO ALSO CREATE A CORRESPONDING 
-        // CONFIG JSON FILE IN THE config/ FOLDER WITH 
-        // THE SAME NAME.
+    // ———————————————————— LOAD PUBLIC TOPIC INDEX ————————————————————
+    loadGrammarModules: async function () {
+        // Keep the familiar curated topic order; Postgres remains the source of visibility.
         const moduleNames = [
             /* ============ ARTICLES & DETERMINERS ============ */
             'a-an-the',
@@ -370,23 +333,139 @@ const App = {
             // 'play-go-do'
         ];
 
-        const promises = moduleNames.map(name => {
-            const configPath = `config/${name}.json`;
-            return fetch(configPath)
-                .then(res => {
-                    if (!res.ok) throw new Error(`Config not found: ${configPath}`);
-                    return res.json();
-                })
-                .then(config => ({
-                    id: name,
-                    name: config.siteSettings.title.replace('English Adventures: ', ''),
-                    configPath,
-                    dataFile: config.dataFile,
-                    grammarChecker: config.grammarChecker,
-                    group: this.getGroup(name)
-                }));
-        });
-        return Promise.all(promises);
+        const { ContentService } = await import('./modules/contentService.js');
+        const { WHATSAPP_NUMBER } = await import('./supabase-config.js');
+        this.contentService = ContentService;
+        this.whatsappNumber = WHATSAPP_NUMBER;
+        const topics = await ContentService.listTopics();
+        const topicOrder = new Map(moduleNames.map((id, index) => [id, index]));
+        return topics
+            .sort((left, right) => (topicOrder.get(left.id) ?? Number.MAX_SAFE_INTEGER)
+                - (topicOrder.get(right.id) ?? Number.MAX_SAFE_INTEGER))
+            .map(topic => ({
+            id: topic.id,
+            name: topic.title,
+            description: topic.description,
+            is_free: topic.is_free,
+            group: topic.tense_group && topic.tense_group !== 'other'
+                ? topic.tense_group
+                : this.getGroup(topic.id)
+            }));
+    },
+
+    setLearningVisibility: function (visible) {
+        for (const selector of [
+            '.progress-container',
+            '.rewards-wrapper',
+            '.module-navigation',
+            '.modules-wrapper',
+            '.word-bank-container',
+            '.control-panel-wrapper'
+        ]) {
+            const element = document.querySelector(selector);
+            if (element) element.hidden = !visible;
+        }
+        if (!visible) document.getElementById('check-all-button')?.remove();
+    },
+
+    prepareTopicLanding: function () {
+        this.currentGrammarModuleId = null;
+        this.config = null;
+        this.setLearningVisibility(false);
+        document.getElementById('site-title').textContent = 'English Adventures';
+        document.getElementById('lesson-title').textContent = 'Pilih topik untuk melihat akses dan mulai belajar.';
+        document.title = 'English Adventures — Pilih topik';
+    },
+
+    renderTopicIndexError: function () {
+        this.prepareTopicLanding();
+        const container = document.getElementById('grammar-buttons');
+        if (!container) return;
+        container.replaceChildren();
+        const message = document.createElement('p');
+        message.className = 'topic-state-message';
+        message.textContent = 'Daftar topik belum dapat dimuat. Periksa konfigurasi layanan, lalu muat ulang halaman.';
+        container.appendChild(message);
+    },
+
+    renderTopicAccessState: function (topic, error) {
+        this.setLearningVisibility(false);
+        document.querySelector('.modules-wrapper').hidden = false;
+        const container = document.getElementById('modules-container');
+        container.replaceChildren();
+
+        const card = document.createElement('section');
+        card.className = 'topic-access-card';
+        card.setAttribute('aria-live', 'polite');
+        const title = document.createElement('h2');
+        title.textContent = topic.name;
+        const message = document.createElement('p');
+        const code = error?.code;
+        let nextAction = 'retry';
+        const authenticationRequired = error?.status === 401
+            || code === 'VERIFIED_ACCOUNT_REQUIRED'
+            || code === 'ACCOUNT_NOT_ACTIVE';
+
+        if (code === 'OWNER_MFA_REQUIRED') {
+            message.textContent = 'Akun pemilik harus menyelesaikan verifikasi dua langkah sebelum membuka materi.';
+            nextAction = 'login';
+        } else if (authenticationRequired && topic.is_free) {
+            message.textContent = 'Masuk dengan akun yang aktif dan terverifikasi untuk membuka topik gratis ini.';
+            nextAction = 'login';
+        } else if (error?.status === 403 || code === 'TOPIC_LOCKED' || (authenticationRequired && !topic.is_free)) {
+            message.textContent = 'Topik ini terkunci. Upgrade akses atau hubungi guru untuk daftar.';
+            nextAction = 'upgrade';
+        } else if (code === 'RATE_LIMITED' || error?.status === 429) {
+            message.textContent = 'Terlalu banyak permintaan. Tunggu sebentar, lalu coba lagi.';
+        } else {
+            message.textContent = 'Materi belum dapat dimuat. Silakan coba lagi nanti.';
+        }
+
+        const actions = document.createElement('div');
+        actions.className = 'topic-access-card__actions';
+        if (nextAction === 'login') {
+            const login = document.createElement('a');
+            login.className = 'topic-access-card__button';
+            login.href = 'auth.html';
+            login.textContent = 'Masuk / Daftar';
+            actions.appendChild(login);
+        } else if (nextAction === 'upgrade') {
+            if (authenticationRequired) {
+                const login = document.createElement('a');
+                login.href = 'auth.html';
+                login.textContent = 'Masuk / Daftar';
+                actions.appendChild(login);
+            }
+            const upgrade = document.createElement('a');
+            upgrade.className = 'topic-access-card__button';
+            upgrade.href = `auth.html?upgrade=${encodeURIComponent(topic.id)}`;
+            upgrade.textContent = 'Upgrade';
+            actions.appendChild(upgrade);
+
+            const phone = String(this.whatsappNumber || '').replace(/\D/g, '');
+            if (phone.length >= 8 && phone.length <= 15) {
+                const contact = document.createElement('a');
+                contact.href = `https://wa.me/${phone}`;
+                contact.target = '_blank';
+                contact.rel = 'noopener noreferrer';
+                contact.textContent = 'Hubungi guru untuk daftar';
+                actions.appendChild(contact);
+            } else {
+                const contact = document.createElement('span');
+                contact.textContent = 'Hubungi guru untuk daftar';
+                actions.appendChild(contact);
+            }
+        } else {
+            const retry = document.createElement('button');
+            retry.type = 'button';
+            retry.className = 'topic-access-card__button';
+            retry.textContent = 'Coba lagi';
+            retry.addEventListener('click', () => this.switchGrammar(topic));
+            actions.appendChild(retry);
+        }
+
+        card.append(title, message, actions);
+        container.appendChild(card);
     },
 
     // ———————————————————— RENDER GRAMMAR SELECTOR ————————————————————
@@ -433,18 +512,34 @@ const App = {
             ? this.grammarModules
             : grouped[this.state.currentGrammarFilter] || [];
 
+        if (modulesToShow.length === 0) {
+            const empty = document.createElement('p');
+            empty.className = 'topic-state-message';
+            empty.textContent = 'Belum ada topik yang tersedia.';
+            buttonsContainer.appendChild(empty);
+        }
+
         modulesToShow.forEach((mod, i) => {
             const btn = document.createElement('button');
             btn.className = 'grammar-btn';
-            // Set active if this module is currently selected
             if (mod.id === this.currentGrammarModuleId) btn.classList.add('active');
-            btn.textContent = mod.name;
             btn.dataset.id = mod.id;
+            btn.setAttribute('aria-label', `${mod.name}, ${mod.is_free ? 'topik gratis' : 'topik terkunci'}`);
+
+            const title = document.createElement('span');
+            title.className = 'topic-card__title';
+            title.textContent = mod.name;
+            const description = document.createElement('span');
+            description.className = 'topic-card__description';
+            description.textContent = mod.description;
+            const access = document.createElement('span');
+            access.className = `topic-card__access${mod.is_free ? ' is-free' : ''}`;
+            access.textContent = mod.is_free ? 'Gratis' : 'Terkunci';
+            btn.append(title, description, access);
 
             btn.onclick = (e) => {
                 e.stopPropagation();
                 e.preventDefault();
-                console.log('Grammar button clicked:', mod.name);
                 this.switchGrammar(mod);
             };
 
@@ -471,8 +566,6 @@ const App = {
     },
     // ———————————————————— SWITCH GRAMMAR ————————————————————
     switchGrammar: function (moduleInfo) {
-        console.log('switchGrammar called for:', moduleInfo.name); // ← CRITICAL DEBUG LINE
-
         // Store the new grammar module ID (persist across refreshes)
         this.currentGrammarModuleId = moduleInfo.id;
         this.state.activeGrammarModule = moduleInfo.id;
@@ -496,19 +589,20 @@ const App = {
 
         this.loadConfigAndData(moduleInfo)
             .then(() => {
+                this.setLearningVisibility(true);
                 this.initializePage();
+                this.createStickyCheckAllButton();
+                this.initSoundControl();
                 this.setupNavigationListeners();
                 this.setupModeButtons();
                 setTimeout(() => this.refreshModules(), 100);
-                // Recalculate proportional stars for this module
                 this.recalculateModuleStars();
                 this.updateUI();
-                this.initSoundControl();
                 this.renderGrammarSelector(); // Re-render to update active states
             })
             .catch(err => {
-                console.error('Switch failed:', err);
-                alert('Failed to load module: ' + err.message);
+                console.error('Topic content request failed:', err?.code || err?.status || 'unknown');
+                this.renderTopicAccessState(moduleInfo, err);
             })
             .finally(() => {
                 const loading = document.getElementById('loading-screen');
@@ -516,72 +610,48 @@ const App = {
             });
     },
     // ———————————————————— LOAD CONFIG + DATA ————————————————————
-    loadConfigAndData: function (moduleInfo) {
-        return fetch(moduleInfo.configPath)
-            .then(res => {
-                if (!res.ok) throw new Error(`Config not found: ${moduleInfo.configPath}`);
-                return res.json();
-            })
-            .then(config => {
-                this.config = config;
-                this.currentDataFile = config.dataFile;
-                document.title = config.siteSettings.title;
-                document.getElementById('favicon').href = config.siteSettings.favicon || 'favicon.ico';
-                return this.loadData();
-            });
+    loadConfigAndData: async function (moduleInfo) {
+        const content = await this.contentService.getLesson(moduleInfo.id);
+        this.config = content.config;
+        document.title = content.config.siteSettings.title;
+        document.getElementById('favicon').href = content.config.siteSettings.favicon || 'favicon.ico';
+        await this.loadData(content.data);
     },
 
     // ———————————————————— LOAD ACTUAL ACTIVITIES ————————————————————
-    loadData: function () {
-        if (!this.currentDataFile) {
-            console.error('No data file specified');
-            return Promise.reject('No data file');
-        }
-
-        console.log('Loading data from:', this.currentDataFile);
-        return fetch(this.currentDataFile)
-            .then(res => {
-                if (!res.ok) throw new Error(`Data not found: ${this.currentDataFile}`);
-                return res.json();
-            })
-            .then(data => {
-                WritingModule.init(data.writingActivities || []);
-                GameModule.init(data.gameActivities || []);
-                QuizModule.init(data.quizActivities || []);
-                SpellingHelper.init(data.spellingActivities || []);
-                LessonModule.init(data.lessonActivities || []);
-                RewardSystem.init(data.rewards || {});
-
-                // Reload grammar checker for this topic
-                WritingModule.loadGrammarChecker();
-
-                this.calculateProgress();
-            })
-            .catch(err => {
-                console.error('Failed to load data:', err);
-                this.loadSampleData();
-            });
-    },
-
-    loadSampleData: function () {
-        console.warn('Using fallback sample data');
-        const sample = { /* your sample data here */ };
-        WritingModule.init(sample.writingActivities || []);
-        GameModule.init(sample.gameActivities || []);
-        QuizModule.init(sample.quizActivities || []);
-        SpellingHelper.init(sample.spellingActivities || []);
-        LessonModule.init(sample.lessonActivities || []);
-        RewardSystem.init(sample.rewards || {});
-        WritingModule.loadGrammarChecker();
+    loadData: async function (data) {
+        if (!data || typeof data !== 'object') throw new Error('Invalid topic content response.');
+        WritingModule.init(data.writingActivities || []);
+        GameModule.init(data.gameActivities || []);
+        QuizModule.init(data.quizActivities || []);
+        SpellingHelper.init(data.spellingActivities || []);
+        LessonModule.init(data.lessonActivities || []);
+        RewardSystem.init(data.rewards || {});
         this.calculateProgress();
     },
 
     // ———————————————————— PAGE SETUP ————————————————————
+    // Strip emoji characters and tidy whitespace from a string.
+    // Used to keep displayed titles clean (lesson data may contain emojis).
+    stripEmojis: function (str) {
+        if (!str) return str;
+        // Remove emoji pictographs, modifiers, variation selectors, and ZWJ sequences
+        const cleaned = String(str)
+            // Emoji + symbols + pictographs
+            .replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2190}-\u{21FF}\u{2B00}-\u{2BFF}\u{1F1E6}-\u{1F1FF}]/gu, '')
+            // Variation selectors and ZWJ
+            .replace(/[\uFE0F\u200D\uFE0E]/g, '')
+            // Collapse double spaces / leading-trailing whitespace
+            .replace(/\s+/g, ' ')
+            .trim();
+        return cleaned;
+    },
+
     initializePage: function () {
         if (!this.config) return console.error('Config missing');
 
         document.getElementById('site-title').textContent = this.config.siteSettings.title.split(':')[0].trim();
-        document.getElementById('lesson-title').textContent = this.config.lesson.title;
+        document.getElementById('lesson-title').textContent = this.stripEmojis(this.config.lesson.title);
 
         this.createModuleNavigation();
         this.createModuleSections();
@@ -604,18 +674,29 @@ const App = {
         const nav = document.getElementById('module-navigation');
         nav.innerHTML = '';
 
+        // Inline SVG icons (Lucide-style, 1.5px stroke) — no emojis
+        const svg = {
+            learn: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>',
+            play: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.152A4 4 0 0 0 17.32 5z"/></svg>',
+            write: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/></svg>',
+            quiz: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>',
+            game: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="22"/></svg>',
+            writing: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a1 1 0 0 1-.326.214L4 20l.6-2.455a1 1 0 0 1 .214-.326z"/></svg>',
+            spelling: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" x2="15" y1="20" y2="20"/><line x1="12" x2="12" y1="4" y2="20"/></svg>'
+        };
+
         // Create main navigation buttons: Learn, Play, Write
         const mainModules = [
-            { id: 'learn', name: '📖 Learn', icon: '📖' },
-            { id: 'play', name: '🎮 Play', icon: '🎮' },
-            { id: 'write', name: '✍️ Write', icon: '✍️' }
+            { id: 'learn', name: 'Learn', icon: svg.learn },
+            { id: 'play', name: 'Play', icon: svg.play },
+            { id: 'write', name: 'Write', icon: svg.write }
         ];
 
         mainModules.forEach((m, i) => {
             const btn = document.createElement('button');
             btn.className = 'nav-btn' + (i === 0 ? ' active' : '');
             btn.dataset.section = m.id;
-            btn.textContent = m.name;
+            btn.innerHTML = `<span class="nav-icon" aria-hidden="true">${m.icon}</span><span>${m.name}</span>`;
 
             btn.addEventListener('click', () => this.switchModule(m.id));
             nav.appendChild(btn);
@@ -629,22 +710,34 @@ const App = {
         container.innerHTML = '';
 
         // Define simplified module structure: Learn, Play (with sub-modes), Write
+        const moduleIcons = {
+            learn: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>',
+            play: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.152A4 4 0 0 0 17.32 5z"/></svg>',
+            write: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/></svg>',
+            quiz: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>',
+            game: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="22"/></svg>',
+            writing: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a1 1 0 0 1-.326.214L4 20l.6-2.455a1 1 0 0 1 .214-.326z"/></svg>',
+            spelling: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" x2="15" y1="20" y2="20"/><line x1="12" x2="12" y1="4" y2="20"/></svg>'
+        };
+
         const simplifiedModules = [
             {
                 mainId: 'learn',
-                mainTitle: '📖 Learn',
-                mainInstructions: 'Master the grammar rules and concepts.',
+                mainTitle: 'Learn',
+                mainIcon: moduleIcons.learn,
+                mainInstructions: 'Master the grammar rules and concepts through clear, structured lessons.',
                 subModules: [
                     { id: 'lesson-module', internalTitle: 'Lessons' }
                 ]
             },
             {
                 mainId: 'play',
-                mainTitle: '🎮 Play',
-                mainInstructions: 'Learn through interactive games and quizzes. Choose your preferred game mode:',
+                mainTitle: 'Play',
+                mainIcon: moduleIcons.play,
+                mainInstructions: 'Learn through interactive games and quizzes. Pick a mode to begin.',
                 gameModes: [
-                    { id: 'quiz', icon: '❓', label: 'Multiple Choice', description: 'Test your knowledge' },
-                    { id: 'game', icon: '🎯', label: 'Drag & Drop', description: 'Interactive drag activities' }
+                    { id: 'quiz', icon: moduleIcons.quiz, label: 'Multiple Choice', description: 'Test your knowledge' },
+                    { id: 'game', icon: moduleIcons.game, label: 'Drag & Drop', description: 'Interactive drag activities' }
                 ],
                 subModules: [
                     { id: 'quiz-module', internalTitle: 'Multiple Choice' },
@@ -653,11 +746,12 @@ const App = {
             },
             {
                 mainId: 'write',
-                mainTitle: '✍️ Write',
-                mainInstructions: 'Practice writing with guided activities. Choose your preferred writing mode:',
+                mainTitle: 'Write',
+                mainIcon: moduleIcons.write,
+                mainInstructions: 'Practice writing with guided activities. Pick a mode to begin.',
                 writingModes: [
-                    { id: 'writing', icon: '📝', label: 'Sentence Building', description: 'Write complete sentences' },
-                    { id: 'spelling', icon: '🔤', label: 'Spelling Practice', description: 'Practice spelling words' }
+                    { id: 'writing', icon: moduleIcons.writing, label: 'Sentence Building', description: 'Write complete sentences' },
+                    { id: 'spelling', icon: moduleIcons.spelling, label: 'Spelling Practice', description: 'Practice spelling words' }
                 ],
                 subModules: [
                     { id: 'writing-module', internalTitle: 'Sentence Building' },
@@ -673,17 +767,22 @@ const App = {
             mainSection.className = 'module' + (mainIdx === 0 ? ' active' : '');
 
             let htmlContent = `
-                <h3>${main.mainTitle}</h3>
-                <div class="module-instructions">${main.mainInstructions}</div>
+                <div class="module__head">
+                    <span class="module__icon" aria-hidden="true">${main.mainIcon}</span>
+                    <div class="module__heading">
+                        <h3>${main.mainTitle}</h3>
+                        <div class="module-instructions">${main.mainInstructions}</div>
+                    </div>
+                </div>
             `;
 
             // Add game mode buttons for Play section
             if (main.gameModes) {
-                htmlContent += `<div class="game-modes-container">`;
+                htmlContent += `<div class="module-modes">`;
                 main.gameModes.forEach(mode => {
                     htmlContent += `
                         <button class="game-mode-tag" data-game-mode="${mode.id}" title="${mode.description}">
-                            <span class="mode-icon">${mode.icon}</span>
+                            <span class="mode-icon" aria-hidden="true">${mode.icon}</span>
                             <span class="mode-label">${mode.label}</span>
                         </button>
                     `;
@@ -693,11 +792,11 @@ const App = {
 
             // Add writing mode buttons for Write section
             if (main.writingModes) {
-                htmlContent += `<div class="writing-modes-container">`;
+                htmlContent += `<div class="module-modes">`;
                 main.writingModes.forEach(mode => {
                     htmlContent += `
                         <button class="writing-mode-tag" data-writing-mode="${mode.id}" title="${mode.description}">
-                            <span class="mode-icon">${mode.icon}</span>
+                            <span class="mode-icon" aria-hidden="true">${mode.icon}</span>
                             <span class="mode-label">${mode.label}</span>
                         </button>
                     `;
@@ -805,134 +904,12 @@ const App = {
         console.log('Audio elements created safely');
     },
 
-    loadSampleData: function () {
-        const sampleData = {
-            lessonActivities: [
-                {
-                    id: 'lesson-1',
-                    title: 'Introduction to Past Simple Tense',
-                    content: '<p>The <strong>past simple tense</strong> is used to describe actions or events that started and completed in the past. It helps you share stories, experiences, or facts about past events. Common time expressions include <em>yesterday</em>, <em>last week</em>, <em>two days ago</em>, or specific years like <em>in 2020</em>. This tense is foundational for narrating past experiences clearly.</p>',
-                    examples: [
-                        'I <strong>walked</strong> to school yesterday.',
-                        'She <strong>played</strong> soccer with her friends last Saturday.',
-                        'They <strong>visited</strong> the museum two weeks ago.',
-                        'We <strong>watched</strong> a movie last night.',
-                        'He <strong>finished</strong> his homework before dinner.'
-                    ],
-                    difficulty: 1,
-                    audio: 'introduction.mp3'
-                }
-            ],
-            writingActivities: [
-                {
-                    id: 'writing-1',
-                    question: 'What did you do yesterday after school?',
-                    image: 'assets/after_school.jpg',
-                    hint: 'Use the <strong>past simple</strong> to describe completed activities you did after school. Include at least two activities for a full response.',
-                    expectedKeywords: ['played', 'went', 'did', 'watched', 'ate', 'studied'],
-                    sentenceStarters: ['Yesterday after school, I __.', 'After school, I __ and then I __.'],
-                    difficulty: 1
-                },
-                {
-                    id: 'writing-2',
-                    question: 'Where did you go last weekend?',
-                    image: 'assets/weekend_trip.jpg',
-                    hint: 'Use the <strong>past simple</strong> to describe places you visited last weekend. Mention who you were with and what you did there.',
-                    expectedKeywords: ['went', 'visited', 'saw', 'had', 'enjoyed'],
-                    sentenceStarters: ['Last weekend, I went to __.', 'I visited __ with my __ and we __.'],
-                    difficulty: 1
-                }
-            ],
-            gameActivities: [
-                {
-                    id: 'game-1',
-                    type: 'drag-drop',
-                    question: 'Complete with the correct past simple form:',
-                    sentence: 'Yesterday, I ____ to the park with my friends.',
-                    options: ['went', 'go', 'going', 'goes'],
-                    correctAnswer: ['went'],
-                    audio: 'past_simple_go.mp3',
-                    hint: 'Use the past simple form of "go". It’s an irregular verb!'
-                },
-                {
-                    id: 'game-2',
-                    type: 'drag-drop',
-                    question: 'Complete with the correct past simple form:',
-                    sentence: 'She ____ her homework last night.',
-                    options: ['did', 'do', 'does', 'doing'],
-                    correctAnswer: ['did'],
-                    audio: 'past_simple_do.mp3',
-                    hint: 'Use the past simple form of "do". It’s an irregular verb!'
-                }
-            ],
-            spellingActivities: [
-                {
-                    id: 'spelling-1',
-                    word: 'played',
-                    hint: 'Past simple of \'play\', a regular verb formed by adding -ed.',
-                    clue: 'p _ a _ e _',
-                    audio: 'played.mp3',
-                    sentence: 'I ____ football with my friends yesterday.'
-                },
-                {
-                    id: 'spelling-2',
-                    word: 'went',
-                    hint: 'Past simple of \'go\', an irregular verb with a unique form.',
-                    clue: '_ e _ t',
-                    audio: 'went.mp3',
-                    sentence: 'She ____ to the library last week.'
-                }
-            ],
-            rewards: {
-                stars: {
-                    bronze: 10,
-                    silver: 20,
-                    gold: 30
-                },
-                badges: [
-                    {
-                        id: 'past-master',
-                        name: 'Past Tense Master',
-                        condition: 'Complete all learning activities',
-                        icon: '📚',
-                        points: 10
-                    },
-                    {
-                        id: 'story-writer',
-                        name: 'Story Writer',
-                        condition: 'Complete all writing activities',
-                        icon: '✍️',
-                        points: 15
-                    },
-                    {
-                        id: 'grammar-champion',
-                        name: 'Grammar Champion',
-                        condition: 'Complete all grammar games',
-                        icon: '🏆',
-                        points: 20
-                    },
-                    {
-                        id: 'spelling-expert',
-                        name: 'Spelling Expert',
-                        condition: 'Score 100% on all spelling activities',
-                        icon: '⭐',
-                        points: 25
-                    }
-                ]
-            }
-        };
-        WritingModule.init(sampleData.writingActivities);
-        GameModule.init(sampleData.gameActivities);
-        SpellingHelper.init(sampleData.spellingActivities);
-        RewardSystem.init(sampleData.rewards);
-        LessonModule.init(sampleData.lessonActivities);
-    },
-
     createStickyCheckAllButton: function () {
+        document.getElementById('check-all-button')?.remove();
         const checkAllButton = document.createElement('button');
         checkAllButton.id = 'check-all-button';
         checkAllButton.className = 'sticky-check-all-btn';
-        checkAllButton.innerHTML = '✅ Check All Answers';
+        checkAllButton.innerHTML = ' Check All Answers';
         checkAllButton.title = 'Check all activities in the current module';
         checkAllButton.style.cssText = `
             position: fixed;
@@ -973,7 +950,7 @@ const App = {
         // });
         const resetBtn = document.getElementById('reset-progress');
         if (resetBtn) {
-            console.log('✅ Found reset-progress button, attaching listener');
+            console.log(' Found reset-progress button, attaching listener');
             resetBtn.replaceWith(resetBtn.cloneNode(true));
             const newResetBtn = document.getElementById('reset-progress');
             newResetBtn.disabled = false;
@@ -983,20 +960,20 @@ const App = {
                 e.stopPropagation();
                 e.preventDefault();
                 if (confirm('Are you sure you want to reset ALL progress? This cannot be undone.')) {
-                    console.log('✅ Reset confirmed');
+                    console.log(' Reset confirmed');
                     this.resetProgress();
                 } else {
                     console.log('🚫 Reset cancelled');
                 }
             }, { capture: false });
         } else {
-            console.error('❌ Reset Progress button not found in DOM');
+            console.error(' Reset Progress button not found in DOM');
         }
 
         const feedbackModal = document.getElementById('feedback-modal');
         const closeModalBtn = document.querySelector('.modal-close-btn');
         const feedbackContinue = document.getElementById('feedback-continue');
-        const modalBackdrop = document.querySelector('.modal-backdrop');
+        const modalBackdrop = feedbackModal?.querySelector('.feedback-modal__backdrop');
 
         if (closeModalBtn) {
             closeModalBtn.removeEventListener('click', this.closeModalHandler);
@@ -1008,7 +985,7 @@ const App = {
         }
 
         if (feedbackContinue) {
-            console.log('✅ Found feedback-continue button, attaching listener');
+            console.log(' Found feedback-continue button, attaching listener');
             feedbackContinue.removeEventListener('click', this.feedbackContinueHandler);
             feedbackContinue.disabled = false;
             feedbackContinue.style.pointerEvents = 'auto';
@@ -1018,7 +995,7 @@ const App = {
                 this.closeFeedback();
             }, { capture: false });
         } else {
-            console.error('❌ feedback-continue button not found in DOM');
+            console.error(' feedback-continue button not found in DOM');
         }
 
         if (modalBackdrop) {
@@ -1030,31 +1007,62 @@ const App = {
             }, { capture: false });
         }
 
+        if (feedbackModal) {
+            feedbackModal.removeEventListener('keydown', this.feedbackKeydownHandler);
+            feedbackModal.addEventListener('keydown', this.feedbackKeydownHandler = (e) => {
+                if (e.key === 'Escape') {
+                    e.preventDefault();
+                    this.closeFeedback();
+                    return;
+                }
+
+                if (e.key !== 'Tab') return;
+                const focusable = Array.from(feedbackModal.querySelectorAll(
+                    'button:not(:disabled), [href], input:not(:disabled), select:not(:disabled), textarea:not(:disabled), [tabindex]:not([tabindex="-1"])'
+                )).filter(element => element.getAttribute('aria-hidden') !== 'true');
+                if (!focusable.length) {
+                    e.preventDefault();
+                    feedbackModal.focus();
+                    return;
+                }
+
+                const first = focusable[0];
+                const last = focusable[focusable.length - 1];
+                if (e.shiftKey && document.activeElement === first) {
+                    e.preventDefault();
+                    last.focus();
+                } else if (!e.shiftKey && document.activeElement === last) {
+                    e.preventDefault();
+                    first.focus();
+                }
+            });
+        }
+
         const toggleSoundEffectsBtn = document.getElementById('toggleSoundEffects');
         if (toggleSoundEffectsBtn) {
-            console.log('✅ Found toggleSoundEffects button, attaching listener');
+            console.log(' Found toggleSoundEffects button, attaching listener');
             toggleSoundEffectsBtn.removeEventListener('click', this.soundEffectsToggleHandler);
             toggleSoundEffectsBtn.addEventListener('click', this.soundEffectsToggleHandler = (e) => {
                 e.stopPropagation();
                 console.log('🎛️ toggleSoundEffects clicked:', toggleSoundEffectsBtn.outerHTML);
                 this.state.soundEffectsEnabled = !this.state.soundEffectsEnabled;
-                console.log('🔊 Sound effects toggle:', this.state.soundEffectsEnabled ? 'Enabled' : 'Disabled');
+                console.log(' Sound effects toggle:', this.state.soundEffectsEnabled ? 'Enabled' : 'Disabled');
                 const soundEffectIcon = document.getElementById('soundEffectIcon');
                 if (soundEffectIcon) {
                     soundEffectIcon.className = this.state.soundEffectsEnabled ? 'fas fa-volume-up' : 'fas fa-volume-mute';
-                    console.log('✅ Updated soundEffectIcon to:', soundEffectIcon.className);
+                    console.log(' Updated soundEffectIcon to:', soundEffectIcon.className);
                 } else {
-                    console.error('❌ soundEffectIcon not found');
+                    console.error(' soundEffectIcon not found');
                 }
                 this.saveState();
                 // Test sound effect on toggle (if enabled)
                 if (this.state.soundEffectsEnabled) {
-                    console.log('🎵 Testing sound effect on toggle');
+                    console.log(' Testing sound effect on toggle');
                     this.playSound('correctSound');
                 }
             }, { capture: false });
         } else {
-            console.error('❌ toggleSoundEffects button not found in DOM');
+            // toggleSoundEffects button not present in this build — skipping silently.
         }
 
         // ===== NEW: Control Panel Button & Settings =====
@@ -1165,14 +1173,17 @@ const App = {
         console.log('🔍 DEBUG - toggleRewardsBtn parent z-index:', toggleRewardsBtn?.parentElement ? window.getComputedStyle(toggleRewardsBtn.parentElement).zIndex : 'N/A');
 
         if (toggleRewardsBtn && rewardsContainer) {
-            console.log('✅ Elements found, setting up toggle');
+            console.log(' Elements found, setting up toggle');
 
             // Load saved state from localStorage
             const rewardsCollapsed = localStorage.getItem('rewardsCollapsed') === 'true';
             if (rewardsCollapsed) {
                 rewardsContainer.classList.add('collapsed');
                 toggleRewardsBtn.classList.add('collapsed');
-                console.log('📌 Restored collapsed state from localStorage');
+                toggleRewardsBtn.setAttribute('aria-expanded', 'false');
+                console.log(' Restored collapsed state from localStorage');
+            } else {
+                toggleRewardsBtn.setAttribute('aria-expanded', 'true');
             }
 
             // Define the toggle handler function
@@ -1182,19 +1193,15 @@ const App = {
                 console.log('🖱️ Event currentTarget:', e.currentTarget);
                 const isCollapsed = rewardsContainer.classList.toggle('collapsed');
                 toggleRewardsBtn.classList.toggle('collapsed', isCollapsed);
+                toggleRewardsBtn.setAttribute('aria-expanded', String(!isCollapsed));
                 localStorage.setItem('rewardsCollapsed', isCollapsed);
-                console.log('✨ Rewards toggled. Collapsed:', isCollapsed);
+                console.log(' Rewards toggled. Collapsed:', isCollapsed);
             };
 
-            // Use capture phase to ensure we catch the click
-            toggleRewardsBtn.addEventListener('click', handleToggleClick, { capture: true });
-            console.log('✅ Click listener attached to toggle button (capture phase)');
-
-            // Also attach as direct onclick for maximum compatibility
-            toggleRewardsBtn.onclick = handleToggleClick;
-            console.log('✅ Also attached direct onclick handler');
+            toggleRewardsBtn.removeEventListener('click', this.toggleRewardsHandler);
+            toggleRewardsBtn.addEventListener('click', this.toggleRewardsHandler = handleToggleClick);
         } else {
-            console.log('❌ Elements not found - toggleRewardsBtn:', !!toggleRewardsBtn, 'rewardsContainer:', !!rewardsContainer);
+            console.log(' Elements not found - toggleRewardsBtn:', !!toggleRewardsBtn, 'rewardsContainer:', !!rewardsContainer);
         }
 
         // Toggle Modules (Learning Activities) - Same pattern as rewards
@@ -1207,14 +1214,17 @@ const App = {
         console.log('🔍 DEBUG - toggleModulesBtn z-index:', toggleModulesBtn ? window.getComputedStyle(toggleModulesBtn).zIndex : 'N/A');
 
         if (toggleModulesBtn && modulesContainer) {
-            console.log('✅ Modules elements found, setting up toggle');
+            console.log(' Modules elements found, setting up toggle');
 
             // Load saved state from localStorage
             const modulesCollapsed = localStorage.getItem('modulesCollapsed') === 'true';
             if (modulesCollapsed) {
                 modulesContainer.classList.add('collapsed');
                 toggleModulesBtn.classList.add('collapsed');
-                console.log('📌 Restored collapsed state for modules from localStorage');
+                toggleModulesBtn.setAttribute('aria-expanded', 'false');
+                console.log(' Restored collapsed state for modules from localStorage');
+            } else {
+                toggleModulesBtn.setAttribute('aria-expanded', 'true');
             }
 
             // Define the toggle handler function
@@ -1224,19 +1234,15 @@ const App = {
                 console.log('🖱️ Event currentTarget:', e.currentTarget);
                 const isCollapsed = modulesContainer.classList.toggle('collapsed');
                 toggleModulesBtn.classList.toggle('collapsed', isCollapsed);
+                toggleModulesBtn.setAttribute('aria-expanded', String(!isCollapsed));
                 localStorage.setItem('modulesCollapsed', isCollapsed);
-                console.log('✨ Modules toggled. Collapsed:', isCollapsed);
+                console.log(' Modules toggled. Collapsed:', isCollapsed);
             };
 
-            // Use capture phase to ensure we catch the click
-            toggleModulesBtn.addEventListener('click', handleModulesToggleClick, { capture: true });
-            console.log('✅ Click listener attached to modules toggle button (capture phase)');
-
-            // Also attach as direct onclick for maximum compatibility
-            toggleModulesBtn.onclick = handleModulesToggleClick;
-            console.log('✅ Also attached direct onclick handler for modules');
+            toggleModulesBtn.removeEventListener('click', this.toggleModulesHandler);
+            toggleModulesBtn.addEventListener('click', this.toggleModulesHandler = handleModulesToggleClick);
         } else {
-            console.log('❌ Modules elements not found - toggleModulesBtn:', !!toggleModulesBtn, 'modulesContainer:', !!modulesContainer);
+            console.log(' Modules elements not found - toggleModulesBtn:', !!toggleModulesBtn, 'modulesContainer:', !!modulesContainer);
         }
 
         const checkAllButton = document.getElementById('check-all-button');
@@ -1335,6 +1341,7 @@ const App = {
             if (gameSection) gameSection.classList.add('active');
             if (quizSection) quizSection.classList.remove('active');
         }
+        this.updateCheckAllButton();
     },
 
     switchWritingMode: function (moduleId, writingMode) {
@@ -1352,6 +1359,7 @@ const App = {
             if (spellingSection) spellingSection.classList.add('active');
             if (writingSection) writingSection.classList.remove('active');
         }
+        this.updateCheckAllButton();
     },
 
     switchModule: function (moduleId) {
@@ -1375,21 +1383,23 @@ const App = {
 
         // Show check-all button only for non-lesson modules
         const checkAllButton = document.getElementById('check-all-button');
+        const activeSubModule = section.querySelector('.sub-module.active');
         if (checkAllButton) {
-            const isLessonModule = moduleId === 'lesson-module';
-            checkAllButton.style.display = isLessonModule ? 'none' : 'flex';
+            checkAllButton.style.display = activeSubModule && activeSubModule.id !== 'lesson-module' ? 'flex' : 'none';
         }
 
         this.saveState();
         this.updateUI();
+        this.updateCheckAllButton();
     },
 
-    showFeedback: function (title, message, icon = null) {
+    showFeedback: function (title, message, _icon = null, type = 'info', returnFocus = document.activeElement) {
         // Add to queue
-        this.feedbackQueue.push({ title, message, icon });
+        this.feedbackQueue.push({ title, message, type });
 
         // Process queue if not already processing
         if (!this.feedbackActive) {
+            this.feedbackReturnFocus = returnFocus;
             this.processFeedbackQueue();
         }
     },
@@ -1397,46 +1407,53 @@ const App = {
     processFeedbackQueue: function () {
         if (this.feedbackQueue.length === 0) {
             this.feedbackActive = false;
+            const returnFocus = this.feedbackReturnFocus;
+            this.feedbackReturnFocus = null;
+            if (returnFocus?.isConnected && !returnFocus.disabled && returnFocus.matches?.('button, a[href], input, select, textarea, [tabindex]:not([tabindex="-1"])')) {
+                returnFocus.focus();
+            } else {
+                const activityCard = returnFocus?.matches?.('.activity-card')
+                    ? returnFocus
+                    : returnFocus?.closest?.('.activity-card');
+                if (activityCard?.isConnected) {
+                    activityCard.tabIndex = -1;
+                    activityCard.focus();
+                }
+            }
             return;
         }
 
         this.feedbackActive = true;
-        const { title, message, icon } = this.feedbackQueue.shift();
+        const { title, message, type } = this.feedbackQueue.shift();
 
         const feedbackModal = document.getElementById('feedback-modal');
         const feedbackTitle = document.getElementById('feedback-title');
         const feedbackMessage = document.getElementById('feedback-message');
-        const feedbackReward = document.getElementById('feedback-reward');
+        const feedbackStateIcon = document.getElementById('feedback-state-icon');
         const feedbackContinue = document.getElementById('feedback-continue');
+
+        if (!feedbackModal || !feedbackTitle || !feedbackMessage || !feedbackContinue || !feedbackStateIcon) {
+            throw new Error('Feedback dialog markup is incomplete.');
+        }
 
         // RENDER HTML (bold, italic, etc.)
         feedbackTitle.innerHTML = title;
         feedbackMessage.innerHTML = message;
 
-        // Add current rewards info
-        const moduleId = this.currentGrammarModuleId;
-        const moduleStars = this.state.moduleStars[moduleId] || 0;
-        const earnedBadges = (this.state.rewards.badges || []).filter(b => b.moduleId === moduleId);
-        const rewardsInfo = `
-            <div class="feedback-rewards-info">
-                <div class="feedback-stars">⭐ ${moduleStars} stars earned</div>
-                <div class="feedback-badges">🏆 ${earnedBadges.length} badges earned</div>
-            </div>
-        `;
-        feedbackMessage.innerHTML += rewardsInfo;
-
-        // Play sound based on icon (emoji indicates success/failure)
-        const successEmojis = ['⭐', '🎉', '✓', '✅', '🏆', '💯', 'Excellent', 'Great', 'Perfect', 'Success'];
-        const isSuccess = successEmojis.some(emoji => title.includes(emoji) || message.includes(emoji) || icon === emoji);
-        const soundId = isSuccess ? 'correctSound' : 'wrongSound';
-        this.playSound(soundId);
-
-        // Show icon (real emoji)
-        if (icon) {
-            feedbackReward.textContent = icon;
-            feedbackReward.style.display = 'block';
-        } else {
-            feedbackReward.style.display = 'none';
+        const feedbackType = ['success', 'error', 'info'].includes(type) ? type : 'info';
+        feedbackModal.dataset.feedbackType = feedbackType;
+        if (feedbackType === 'success') {
+            const moduleId = this.currentGrammarModuleId
+                || localStorage.getItem('englishAdventuresCurrentGrammarModule')
+                || 'legacy';
+            const moduleStars = this.state.moduleStars[moduleId] || 0;
+            const earnedBadges = (this.state.rewards.badges || []).filter(b => b.moduleId === moduleId);
+            feedbackMessage.insertAdjacentHTML('beforeend', `
+                <div class="feedback-rewards-info">
+                    <div class="feedback-stars">${moduleStars} stars earned</div>
+                    <div class="feedback-badges">${earnedBadges.length} badges earned</div>
+                </div>
+            `);
         }
 
         // Enable continue
@@ -1444,17 +1461,22 @@ const App = {
         feedbackContinue.style.pointerEvents = 'auto';
 
         // Show modal with animation
+        feedbackModal.setAttribute('aria-hidden', 'false');
         feedbackModal.classList.add('show');
+        feedbackContinue.focus();
     },
 
     closeFeedback: function () {
         const feedbackModal = document.getElementById('feedback-modal');
+        if (!feedbackModal?.classList.contains('show')) return;
         feedbackModal.classList.remove('show');
+        feedbackModal.setAttribute('aria-hidden', 'true');
 
-        // Process next feedback in queue after a small delay
-        setTimeout(() => {
+        if (this.feedbackQueue.length) {
+            setTimeout(() => this.processFeedbackQueue(), 300);
+        } else {
             this.processFeedbackQueue();
-        }, 300);
+        }
     },
 
     updateUI: function () {
@@ -1468,13 +1490,13 @@ const App = {
     },
 
     initSoundControl: function () {
-        console.log('✅ Sound control initialized (background music control now integrated in control panel)');
+        console.log(' Sound control initialized (background music control now integrated in control panel)');
     },
 
     playSound: function (soundId) {
-        console.log(`🎵 Attempting to play sound: ${soundId}`);
+        console.log(` Attempting to play sound: ${soundId}`);
         if (!this.state.soundEffectsEnabled && soundId !== 'backgroundMusic') {
-            console.log(`🔇 Sound effect ${soundId} muted`);
+            console.log(` Sound effect ${soundId} muted`);
             return;
         }
         const sound = document.getElementById(soundId);
@@ -1483,16 +1505,16 @@ const App = {
             // Set sound effects volume
             sound.volume = (this.state.soundVolume || 70) / 100;
             sound.play().catch(e => {
-                console.warn(`❌ Failed to play sound ${soundId}:`, e);
+                console.warn(` Failed to play sound ${soundId}:`, e);
             });
         } else {
-            console.error(`❌ Audio element with ID ${soundId} not found`);
+            console.error(` Audio element with ID ${soundId} not found`);
         }
     },
 
     updateHint: function (hintText) {
         const hintElement = document.getElementById('hint-text');
-        hintElement.innerHTML = `<strong>💡 Hint:</strong> ${hintText || 'No hint available'}`;
+        hintElement.innerHTML = `<strong> Hint:</strong> ${hintText || 'No hint available'}`;
     },
 
     recalculateModuleStars: function () {
@@ -1541,8 +1563,8 @@ const App = {
             this.state.completedActivities[moduleId] = {};
         }
 
-        // Check if already completed in this module
-        if (this.state.completedActivities[moduleId][id]) return;
+        // Prevent duplicate rewards for activities that are already complete.
+        if (this.state.completedActivities[moduleId][id] === 'completed') return;
 
         // Mark as completed in this module with status
         this.state.completedActivities[moduleId][id] = status;
@@ -1550,10 +1572,11 @@ const App = {
 
         // Only award stars for correct answers
         if (status === 'completed') {
-            RewardSystem.awardStar(id);
+            RewardSystem.awardStar();
         }
 
         this.updateUI();
+        this.updateCheckAllButton();
         this.saveState();
     },
 
@@ -1571,11 +1594,12 @@ const App = {
             };
             if (Object.keys(stateToSave.completedActivities).length === 0 &&
                 (WritingModule.activities?.length || GameModule.activities?.length || SpellingHelper.activities?.length)) {
-                console.warn('⚠️ Attempted to save empty completedActivities, skipping save');
+                console.warn(' Attempted to save empty completedActivities, skipping save');
                 return;
             }
             console.log('🔍 SAVING - completedActivities:', JSON.stringify(stateToSave.completedActivities));
             localStorage.setItem('englishAdventuresState', JSON.stringify(stateToSave));
+            void syncLocalProgressToSupabase();
             console.log('State saved successfully:', stateToSave.overallProgress);
         } catch (e) {
             console.error('Error saving state to localStorage:', e);
@@ -1647,32 +1671,34 @@ const App = {
                     const savedActiveModule = localStorage.getItem('englishAdventuresActiveModule');
                     if (savedActiveModule) {
                         this.state.activeModule = savedActiveModule;
-                        console.log('📌 Restored active module from localStorage:', savedActiveModule);
+                        console.log(' Restored active module from localStorage:', savedActiveModule);
                     }
 
-                    this.switchModule(this.state.activeModule || 'writing-module');
+                    if (this.config) this.switchModule(this.state.activeModule || 'writing-module');
 
                     // Restore the last selected grammar filter (All / Advanced Grammar / etc.)
                     const savedGrammarFilter = localStorage.getItem('englishAdventuresGrammarFilter') || parsedState.currentGrammarFilter;
                     if (savedGrammarFilter) {
                         this.state.currentGrammarFilter = savedGrammarFilter;
-                        console.log('📌 Restored grammar filter from localStorage:', savedGrammarFilter);
+                        console.log(' Restored grammar filter from localStorage:', savedGrammarFilter);
                         this.setGrammarFilter(savedGrammarFilter);
                     }
 
                     // Restore the last selected grammar module if saved
                     const savedGrammarModule = parsedState.activeGrammarModule || localStorage.getItem('englishAdventuresCurrentGrammarModule');
-                    if (savedGrammarModule && savedGrammarModule !== this.currentGrammarModuleId) {
+                    if (this.config && savedGrammarModule && savedGrammarModule !== this.currentGrammarModuleId) {
                         const moduleInfo = this.grammarModules.find(m => m.id === savedGrammarModule);
                         if (moduleInfo) {
-                            console.log('📌 Restoring saved grammar module:', savedGrammarModule);
+                            console.log(' Restoring saved grammar module:', savedGrammarModule);
                             this.switchGrammar(moduleInfo);
                         }
                     }
 
-                    this.calculateProgress();
-                    this.refreshModules();
-                    RewardSystem.checkAllBadgeConditions();
+                    if (this.config) {
+                        this.calculateProgress();
+                        this.refreshModules();
+                        RewardSystem.checkAllBadgeConditions();
+                    }
                     return;
                 } else {
                     console.warn('Invalid rewards data in localStorage, using default state');
@@ -1705,24 +1731,26 @@ const App = {
         const savedActiveModule = localStorage.getItem('englishAdventuresActiveModule');
         if (savedActiveModule) {
             this.state.activeModule = savedActiveModule;
-            console.log('📌 Restoring active module from localStorage (fallback path):', savedActiveModule);
+            console.log(' Restoring active module from localStorage (fallback path):', savedActiveModule);
         }
 
-        this.switchModule(this.state.activeModule || 'writing-module');
+        if (this.config) this.switchModule(this.state.activeModule || 'writing-module');
 
         // Restore saved grammar module if present (fallback path)
         const savedGrammarModule = localStorage.getItem('englishAdventuresCurrentGrammarModule');
-        if (savedGrammarModule && savedGrammarModule !== this.currentGrammarModuleId) {
+        if (this.config && savedGrammarModule && savedGrammarModule !== this.currentGrammarModuleId) {
             const moduleInfo = this.grammarModules.find(m => m.id === savedGrammarModule);
             if (moduleInfo) {
-                console.log('📌 Restoring saved grammar module (fallback path):', savedGrammarModule);
+                console.log(' Restoring saved grammar module (fallback path):', savedGrammarModule);
                 this.switchGrammar(moduleInfo);
             }
         }
 
         this.saveState();
-        this.refreshModules();
-        RewardSystem.checkAllBadgeConditions();
+        if (this.config) {
+            this.refreshModules();
+            RewardSystem.checkAllBadgeConditions();
+        }
 
         // Load theme preference
         this.applyThemePreference();
@@ -1764,14 +1792,14 @@ const App = {
 
         this.state.soundEffectsEnabled = isSoundEnabled;
 
-        console.log('🔊 Sound preference loaded:', isSoundEnabled ? 'Enabled' : 'Disabled');
+        console.log(' Sound preference loaded:', isSoundEnabled ? 'Enabled' : 'Disabled');
 
         // Update control panel after preferences are loaded
         setTimeout(() => this.updateControlPanelState(), 100);
     },
 
     resetProgress: function () {
-        console.log('🔄 RESETTING PROGRESS FOR MODULE:', this.currentGrammarModuleId);
+        console.log(' RESETTING PROGRESS FOR MODULE:', this.currentGrammarModuleId);
 
         const moduleId = this.currentGrammarModuleId;
         if (!moduleId) {
@@ -1788,6 +1816,7 @@ const App = {
         if (!this.state.completedActivities[moduleId]) {
             this.state.completedActivities[moduleId] = {};
         }
+        const modulePoints = Number(this.state.modulePoints?.[moduleId]) || 0;
         this.state.completedActivities[moduleId] = {};
         this.state.overallProgress = 0;
 
@@ -1795,6 +1824,8 @@ const App = {
         const moduleStars = this.state.moduleStars[moduleId] || 0;
         this.state.rewards.stars -= moduleStars;  // Deduct module stars from total
         this.state.moduleStars[moduleId] = 0;     // Reset module stars to 0
+        this.state.rewards.points = Math.max(0, (Number(this.state.rewards.points) || 0) - modulePoints);
+        if (this.state.modulePoints) delete this.state.modulePoints[moduleId];
 
         // Remove badges earned in this module
         this.state.rewards.badges = this.state.rewards.badges.filter(badge => badge.moduleId !== moduleId);
@@ -1816,106 +1847,79 @@ const App = {
             }
             this.updateUI();
             this.refreshModules();
-            console.log('✅ Progress reset complete for module:', moduleId);
+            console.log(' Progress reset complete for module:', moduleId);
             this.showFeedback('Progress Reset', `All progress for this module has been reset successfully.`);
         });
     },
 
-    checkAllAnswers: function () {
-        const activeModule = this.state.activeModule;
+    checkAllAnswers: async function () {
+        const activeModule = document.querySelector('.module.active .sub-module.active')?.id;
         const moduleId = this.currentGrammarModuleId;
         const moduleCompletions = this.state.completedActivities[moduleId] || {};
-        let results = {
-            correct: [],
-            incorrect: [],
-            incomplete: []
+        const results = { correct: [], incorrect: [], incomplete: [] };
+        const activitySets = {
+            'writing-module': WritingModule.activities,
+            'spelling-module': SpellingHelper.activities,
+            'game-module': GameModule.activities
         };
-        let moduleActivities;
+        const moduleActivities = activitySets[activeModule];
+        if (!moduleActivities) {
+            this.showFeedback('One at a Time', 'Choose a writing, spelling, or game trail to check its answers.', '');
+            return;
+        }
 
-        switch (activeModule) {
-            case 'writing-module':
-                moduleActivities = WritingModule.activities;
-                moduleActivities.forEach(activity => {
-                    if (!moduleCompletions[activity.id]) {
-                        const activityCard = document.getElementById(activity.id);
-                        const textarea = activityCard.querySelector('.activity-input');
-                        const result = WritingModule.checkAnswer(activity, textarea.value, true);
-                        if (result.status === 'correct') {
-                            results.correct.push(activity.id);
-                            this.markActivityCompleted(activity.id);
-                            activityCard.querySelector('.activity-status').textContent = 'Completed';
-                            activityCard.querySelector('.activity-status').classList.add('completed');
-                            textarea.disabled = true;
-                            activityCard.querySelectorAll('.btn').forEach(button => button.disabled = true);
-                        } else if (result.status === 'incomplete') {
-                            results.incomplete.push(activity.id);
-                        } else {
-                            results.incorrect.push(activity.id);
-                        }
-                    }
+        for (const activity of moduleActivities) {
+            if (moduleCompletions[activity.id] === 'completed') continue;
+            const card = document.getElementById(activity.id);
+            if (!card) {
+                results.incomplete.push(activity.id);
+                continue;
+            }
+
+            let result;
+            if (activeModule === 'writing-module') {
+                const textarea = card.querySelector('.activity-input');
+                if (!textarea?.value.trim()) {
+                    results.incomplete.push(activity.id);
+                    continue;
+                }
+                result = await WritingModule.checkAnswer(activity, textarea.value);
+            } else if (activeModule === 'spelling-module') {
+                result = SpellingHelper.checkSpelling(activity, true);
+            } else {
+                result = GameModule.checkAnswer(activity, true);
+            }
+
+            if (result.status === 'correct') {
+                results.correct.push(activity.id);
+                this.markActivityCompleted(activity.id);
+                const status = card.querySelector('.activity-status');
+                if (status) {
+                    status.textContent = 'Trail cleared';
+                    status.classList.add('completed');
+                }
+                card.querySelectorAll('.btn').forEach(button => button.disabled = true);
+                card.querySelectorAll('.spelling-input').forEach(input => {
+                    input.disabled = true;
+                    input.style.color = 'green';
                 });
-                break;
-            case 'spelling-module':
-                moduleActivities = SpellingHelper.activities;
-                moduleActivities.forEach(activity => {
-                    if (!moduleCompletions[activity.id]) {
-                        const result = SpellingHelper.checkSpelling(activity, true);
-                        if (result.status === 'correct') {
-                            results.correct.push(activity.id);
-                            this.markActivityCompleted(activity.id);
-                            const activityCard = document.getElementById(activity.id);
-                            activityCard.querySelector('.activity-status').textContent = 'Completed';
-                            activityCard.querySelector('.activity-status').classList.add('completed');
-                            activityCard.querySelectorAll('.spelling-input').forEach(input => {
-                                input.disabled = true;
-                                input.style.color = 'green';
-                            });
-                            activityCard.querySelectorAll('.btn').forEach(button => button.disabled = true);
-                        } else if (result.status === 'incomplete') {
-                            results.incomplete.push(activity.id);
-                        } else {
-                            results.incorrect.push(activity.id);
-                        }
-                    }
+                card.querySelectorAll('.draggable').forEach(option => {
+                    option.style.pointerEvents = 'none';
+                    option.style.opacity = '0.5';
                 });
-                break;
-            case 'game-module':
-                moduleActivities = GameModule.activities;
-                moduleActivities.forEach(activity => {
-                    if (!moduleCompletions[activity.id]) {
-                        const result = GameModule.checkAnswer(activity, true);
-                        if (result.status === 'correct') {
-                            results.correct.push(activity.id);
-                            this.markActivityCompleted(activity.id);
-                            const activityCard = document.getElementById(activity.id);
-                            activityCard.querySelector('.activity-status').textContent = 'Completed';
-                            activityCard.querySelector('.activity-status').classList.add('completed');
-                            activityCard.querySelectorAll('.btn').forEach(button => button.disabled = true);
-                            activityCard.querySelectorAll('.draggable').forEach(option => {
-                                option.style.pointerEvents = 'none';
-                                option.style.opacity = '0.5';
-                            });
-                            activityCard.querySelectorAll('.drop-zone').forEach(zone => {
-                                zone.style.pointerEvents = 'none';
-                            });
-                        } else if (result.status === 'incomplete') {
-                            results.incomplete.push(activity.id);
-                        } else {
-                            results.incorrect.push(activity.id);
-                        }
-                    }
+                card.querySelectorAll('.drop-zone').forEach(zone => {
+                    zone.style.pointerEvents = 'none';
                 });
-                break;
-            case 'quiz-module':
-                moduleActivities = QuizModule.activities;
-                // Quiz activities are already handled individually, no bulk checking needed
-                results.incomplete.push(...moduleActivities.filter(activity => !moduleCompletions[activity.id]).map(a => a.id));
-                break;
+            } else if (result.status === 'incomplete' || result.status === 'too-short') {
+                results.incomplete.push(activity.id);
+            } else {
+                results.incorrect.push(activity.id);
+            }
         }
 
         let message = '';
         if (results.correct.length > 0) {
-            message += `Correct: ${results.correct.length} activities completed successfully!\n`;
+            message += `Trail cleared: ${results.correct.length} activities!\n`;
         }
         if (results.incorrect.length > 0) {
             message += `Incorrect: ${results.incorrect.length} activities need corrections.\n`;
@@ -1927,24 +1931,28 @@ const App = {
             message = 'All activities in this module are already completed!';
         }
 
-        const allCorrect = results.incorrect.length === 0 && results.incomplete.length === 0 && results.correct.length > 0;
+        const allCorrect = results.incorrect.length === 0 && results.incomplete.length === 0;
         this.showFeedback(
             allCorrect ? 'Success' : 'Check Results',
             message,
-            allCorrect ? '⭐' : '📋'
+            allCorrect ? '' : ''
         );
         this.playSound(allCorrect ? 'correctSound' : 'wrongSound');
         this.updateUI();
+        this.updateCheckAllButton();
     },
 
     updateCheckAllButton: function () {
         const checkAllButton = document.getElementById('check-all-button');
         if (checkAllButton) {
-            const activeModule = this.state.activeModule;
+            const activeModule = document.querySelector('.module.active .sub-module.active')?.id;
             const moduleActivities = activeModule === 'writing-module' ? WritingModule.activities :
                 activeModule === 'spelling-module' ? SpellingHelper.activities :
-                    GameModule.activities;
-            const allCompleted = moduleActivities.every(activity => this.state.completedActivities[activity.id]);
+                    activeModule === 'game-module' ? GameModule.activities : [];
+            const moduleCompletions = this.state.completedActivities[this.currentGrammarModuleId] || {};
+            const allCompleted = moduleActivities.length > 0
+                && moduleActivities.every(activity => moduleCompletions[activity.id] === 'completed');
+            checkAllButton.style.display = moduleActivities.length ? 'flex' : 'none';
             checkAllButton.disabled = allCompleted;
             checkAllButton.style.opacity = allCompleted ? '0.5' : '1';
             checkAllButton.title = allCompleted ? 'All activities completed' : 'Check all activities in the current module';
@@ -1966,7 +1974,7 @@ const App = {
     toggleSound: function () {
         this.state.soundEffectsEnabled = !this.state.soundEffectsEnabled;
 
-        console.log('🔊 Sound effects:', this.state.soundEffectsEnabled ? 'Enabled' : 'Disabled');
+        console.log(' Sound effects:', this.state.soundEffectsEnabled ? 'Enabled' : 'Disabled');
 
         // Play a test sound if enabling
         if (this.state.soundEffectsEnabled) {
@@ -2031,7 +2039,7 @@ const App = {
             controlPanelBtn.removeEventListener('click', this.controlPanelHandler);
             controlPanelBtn.addEventListener('click', this.controlPanelHandler = (e) => {
                 e.stopPropagation();
-                console.log('⚙️ Settings panel toggled');
+                console.log(' Settings panel toggled');
                 controlPanelMenu.classList.toggle('active');
             });
 
@@ -2078,7 +2086,7 @@ const App = {
                 const size = e.target.value;
                 document.documentElement.style.fontSize = size + 'px';
                 this.state.textSize = size;
-                console.log('📝 Text size changed to:', size + 'px');
+                console.log(' Text size changed to:', size + 'px');
                 this.saveState();
             });
             // Apply saved text size
@@ -2091,7 +2099,7 @@ const App = {
             musicToggle.removeEventListener('change', this.musicToggleHandler);
             musicToggle.addEventListener('change', this.musicToggleHandler = (e) => {
                 this.state.audioEnabled = e.target.checked;
-                console.log('🎵 Background music toggled:', e.target.checked ? 'On' : 'Off');
+                console.log(' Background music toggled:', e.target.checked ? 'On' : 'Off');
 
                 const backgroundMusic = document.getElementById('backgroundMusic');
                 if (backgroundMusic) {
@@ -2120,7 +2128,7 @@ const App = {
                 if (backgroundMusic) {
                     backgroundMusic.volume = volume / 100;
                 }
-                console.log('🔊 Music volume changed to:', volume + '%');
+                console.log(' Music volume changed to:', volume + '%');
                 this.saveState();
             });
         }
@@ -2131,7 +2139,7 @@ const App = {
             soundToggle.removeEventListener('change', this.soundToggleHandler);
             soundToggle.addEventListener('change', this.soundToggleHandler = (e) => {
                 this.state.soundEffectsEnabled = e.target.checked;
-                console.log('🔔 Sound effects toggled:', e.target.checked ? 'On' : 'Off');
+                console.log(' Sound effects toggled:', e.target.checked ? 'On' : 'Off');
 
                 if (e.target.checked) {
                     this.playSound('correctSound');
@@ -2149,7 +2157,7 @@ const App = {
                 const volume = e.target.value;
                 this.state.soundVolume = volume;
                 soundVolumeDisplay.textContent = volume + '%';
-                console.log('🔊 Sound effects volume changed to:', volume + '%');
+                console.log(' Sound effects volume changed to:', volume + '%');
                 this.saveState();
             });
         }
@@ -2161,7 +2169,7 @@ const App = {
             animationToggle.addEventListener('change', this.animationToggleHandler = (e) => {
                 this.state.animationsEnabled = e.target.checked;
                 document.body.style.animation = e.target.checked ? 'auto' : 'none';
-                console.log('✨ Animations toggled:', e.target.checked ? 'On' : 'Off');
+                console.log(' Animations toggled:', e.target.checked ? 'On' : 'Off');
                 this.saveState();
             });
         }
@@ -2172,7 +2180,7 @@ const App = {
             hintsToggle.removeEventListener('change', this.hintsToggleHandler);
             hintsToggle.addEventListener('change', this.hintsToggleHandler = (e) => {
                 this.state.autoShowHints = e.target.checked;
-                console.log('💡 Auto-show hints toggled:', e.target.checked ? 'On' : 'Off');
+                console.log(' Auto-show hints toggled:', e.target.checked ? 'On' : 'Off');
                 this.saveState();
             });
         }
@@ -2188,7 +2196,7 @@ const App = {
                 } else {
                     document.body.classList.remove('high-contrast');
                 }
-                console.log('👁️ High contrast toggled:', e.target.checked ? 'On' : 'Off');
+                console.log(' High contrast toggled:', e.target.checked ? 'On' : 'Off');
                 this.saveState();
             });
             // Apply saved high contrast
@@ -2208,7 +2216,7 @@ const App = {
                 } else {
                     document.body.classList.remove('reduce-motion');
                 }
-                console.log('⚡ Reduce motion toggled:', e.target.checked ? 'On' : 'Off');
+                console.log(' Reduce motion toggled:', e.target.checked ? 'On' : 'Off');
                 this.saveState();
             });
             // Apply saved reduce motion
@@ -2224,7 +2232,7 @@ const App = {
             resetBtn.addEventListener('click', this.resetSettingsHandler = (e) => {
                 e.stopPropagation();
                 if (confirm('Are you sure you want to reset all settings to default?')) {
-                    console.log('🔄 Resetting settings to default');
+                    console.log(' Resetting settings to default');
                     // Reset to defaults
                     document.body.classList.remove('dark-mode', 'high-contrast', 'reduce-motion');
                     document.documentElement.style.fontSize = '14px';
@@ -2248,12 +2256,12 @@ const App = {
                     this.saveState();
 
                     this.playSound('correctSound');
-                    console.log('✅ Settings reset to default');
+                    console.log(' Settings reset to default');
                 }
             });
         }
 
-        console.log('✅ Settings panel initialized successfully');
+        console.log(' Settings panel initialized successfully');
     },
 };
 

@@ -1,92 +1,30 @@
-# 🔑 API Key Setup Reminder
+# Contextual writing images
 
-## For Production/Testing
+Writing activity banners use the public Wikimedia Commons MediaWiki API. It is free to query and does not require an API key or a server-side secret.
 
-### Option 1: Browser Console (Temporary)
-**When to use**: Testing, one-time setup
-**How long it lasts**: Until page refresh
+## How image matching works
 
-```javascript
-// Open DevTools: F12 → Console tab → Paste:
-ImageService.setApiKey('YOUR_UNSPLASH_ACCESS_KEY')
-localStorage.setItem('unsplash_api_key', 'YOUR_UNSPLASH_ACCESS_KEY')
-```
+Each writing card requests an image using its own `imageQuery`, when provided, or terms extracted from its question. The image is displayed on that same activity card and links to the Commons file page. The image cache is scoped by grammar module and activity ID so activities with reused IDs cannot receive another module's image.
 
----
+Add a curated search phrase and accessible alt text to a writing activity when the prompt has a clear visual subject:
 
-### Option 2: LocalStorage (Persistent)
-**When to use**: Development
-**How long it lasts**: Until you clear localStorage
-
-Already configured! Just get your key:
-1. Register: https://unsplash.com/developers
-2. Create Application
-3. Copy **Access Key**
-4. Paste into console (see Option 1)
-
----
-
-### Option 3: Environment Variable (Production)
-**When to use**: Deployment
-**How long it lasts**: Permanent (until changed)
-
-Create `.env` file:
-```
-VITE_UNSPLASH_KEY=YOUR_KEY_HERE
-```
-
-Or add to server startup:
-```bash
-UNSPLASH_API_KEY=YOUR_KEY_HERE npm start
-```
-
----
-
-### Option 4: Admin Panel (Future)
-Add settings page where users can:
-- Enter their own API key
-- Clear cache
-- View image stats
-- Choose image sources (Unsplash/Pixabay/Pexels)
-
----
-
-## Current Implementation
-
-✅ **Auto-loads from localStorage** on app startup:
-```javascript
-const unsplashKey = localStorage.getItem('unsplash_api_key');
-if (unsplashKey) {
-    ImageService.setApiKey(unsplashKey);
+```json
+{
+  "id": "writing-1",
+  "question": "Plan a weekend trip to Jakarta.",
+  "imageQuery": "Jakarta city weekend travel",
+  "imageAlt": "A view of Jakarta for a weekend travel plan"
 }
 ```
 
-✅ **Falls back gracefully** if no key:
-- Uses canvas placeholders
-- Never breaks the app
-- Works offline
+The image service tries the free Commons API, then a module-matched local image mapping, then `assets/fallback.jpg`. Results are cached in local storage for 30 days. Attribution and the image's available license are shown below each banner.
 
----
+## Running locally
 
-## Testing Without API Key
+Serve the project over HTTP so the app can load its local activity data and make the cross-origin Commons request:
 
-The app **works perfectly** without Unsplash API:
-```javascript
-// Test placeholder generation
-ImageService.generatePlaceholder({
-    id: 'writing-1',
-    question: 'Tell a story'
-})
-// Returns: colorful canvas image data URL
+```bash
+npm start
 ```
 
----
-
-## Production Checklist
-
-- [ ] Get Unsplash API key
-- [ ] Add to localStorage or .env
-- [ ] Test in console: `ImageService.UNSPLASH_API_KEY`
-- [ ] Verify images load on app refresh
-- [ ] Check browser console for "[Image]" logs
-- [ ] Monitor API rate limits (50/hour)
+No `.env` file, API key, or browser-console setup is needed. If Commons is unavailable, writing activities continue to work with local or fallback images.

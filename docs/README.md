@@ -30,8 +30,8 @@ docs/
 ### Need to set up the server?
 👉 **Read this**: [setup/SERVER.md](setup/SERVER.md)
 
-### Need to download images?
-👉 **Follow this**: [images/QUICK_START_IMAGES.md](images/QUICK_START_IMAGES.md)
+### Need prompt-matched writing images?
+👉 **Read this**: [images/README_IMAGES.md](images/README_IMAGES.md)
 
 ---
 
@@ -45,21 +45,16 @@ docs/
 
 ### ⚙️ Setup (setup/)
 - **SERVER.md** - How to start the development server
-- **API_KEY_SETUP.md** - API configuration guide
+- **API_KEY_SETUP.md** - Writing image API setup (no key required)
+- **TTS_SETUP.md** - Free lesson listening voices and controls
+- **AUTH_SETUP.md** - Supabase auth UI configuration and security notes
+- **CONTENT_ACCESS_SETUP.md** - Private content storage, function, and production build
 - **SETTINGS_QUICK_START.md** - Settings panel quick start
 - **SETTINGS_UI_UX_GUIDE.md** - Settings UI/UX documentation
 - **SETTINGS_PANEL_UPGRADE.md** - Settings panel updates
 
 ### 🎨 Images (images/)
-- **QUICK_START_IMAGES.md** - 5-minute image system setup
-- **IMAGE_SYSTEM_COMPLETE.md** - Full image system overview
-- **IMAGE_MANAGEMENT.md** - Detailed image management guide
-- **IMAGE_SYSTEM_SETUP.md** - Image setup implementation
-- **IMAGE_ARCHITECTURE.md** - Technical image architecture
-- **IMAGE_IMPLEMENTATION_CHECKLIST.md** - Verification guide
-- **IMAGE_INTEGRATION_STATUS.md** - Integration status
-- **README_IMAGES.md** - Image system documentation
-- **UNSPLASH_PRODUCTION_READY.md** - Production image setup
+- **README_IMAGES.md** - Current API matching, caching, fallback, and attribution
 
 ### 🔧 Technical (technical/)
 - **CODE_FLOW_EXPLANATION.md** - Detailed code flow explanation
@@ -99,14 +94,17 @@ docs/
 **Setup the development server**
 → [setup/SERVER.md](setup/SERVER.md)
 
-**Configure API keys**
+**Configure prompt-matched writing images**
 → [setup/API_KEY_SETUP.md](setup/API_KEY_SETUP.md)
+
+**Use lesson listening**
+→ [setup/TTS_SETUP.md](setup/TTS_SETUP.md)
 
 **Understand the code flow**
 → [technical/CODE_FLOW_EXPLANATION.md](technical/CODE_FLOW_EXPLANATION.md)
 
 **Set up the image system**
-→ [images/QUICK_START_IMAGES.md](images/QUICK_START_IMAGES.md)
+→ [images/README_IMAGES.md](images/README_IMAGES.md)
 
 **Review what was delivered**
 → [project-management/00_DELIVERABLES.md](project-management/00_DELIVERABLES.md)

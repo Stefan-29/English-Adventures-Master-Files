@@ -116,6 +116,8 @@
         {
             "id": "writing-1",
             "question": "You're at a café with friends. It starts clouding over. Write 4 sentences: 1 will prediction, 1 be going to evidence, 1 spontaneous offer, 1 promise.",
+            "imageQuery": "friends at an outdoor cafe under cloudy skies",
+            "imageAlt": "Friends talking at an outdoor cafe as clouds gather",
             "hint": "Will: guess/offer. Be going to: signs. Promise: I will + verb.",
             "expectedKeywords": [
                 "will",
@@ -135,6 +137,8 @@
         {
             "id": "writing-2",
             "question": "Plan your dream weekend in Jakarta. Use be going to (2 plans), future continuous (2 specific times), and 1 time clause.",
+            "imageQuery": "Jakarta city weekend travel",
+            "imageAlt": "A view of Jakarta for a weekend travel plan",
             "hint": "Be going to = intention. Continuous = at X time. Clause = when/after + present.",
             "expectedKeywords": [
                 "going to",
@@ -153,6 +157,8 @@
         {
             "id": "writing-3",
             "question": "Write a short message to your teacher explaining why you missed class. Use was/were going to + 2 excuses and 1 future promise.",
+            "imageQuery": "student writing a message in a notebook",
+            "imageAlt": "A student writing a message in a notebook",
             "hint": "Was going to = past plan. Promise = I will...",
             "expectedKeywords": [
                 "was going to",
@@ -169,6 +175,8 @@
         {
             "id": "writing-4",
             "question": "You're a weather reporter. Write a 5-sentence forecast for tomorrow using will (general), be going to (evidence), and future continuous (specific time).",
+            "imageQuery": "weather reporter pointing at forecast map",
+            "imageAlt": "A weather forecast map",
             "hint": "Will = likely. Be going to = radar shows. Continuous = at 3 PM.",
             "expectedKeywords": [
                 "will",
@@ -186,6 +194,8 @@
         {
             "id": "writing-5",
             "question": "Write a diary entry about next year. Use be going to (3 plans), will (2 predictions), and 1 time clause with after.",
+            "imageQuery": "open diary planner calendar goals",
+            "imageAlt": "An open planner for writing future goals",
             "hint": "Plans = decided. Predictions = think. After + present.",
             "expectedKeywords": [
                 "going to",
@@ -204,6 +214,8 @@
         {
             "id": "writing-6",
             "question": "Your friend is moving to Bali. Write a goodbye card with 2 promises (will), 1 future continuous scene, and 1 time clause with as soon as.",
+            "imageQuery": "Bali beach tropical island",
+            "imageAlt": "A beach in Bali",
             "hint": "Promise = I will. Continuous = you will be + ing. As soon as + present.",
             "expectedKeywords": [
                 "will",
@@ -221,6 +233,8 @@
         {
             "id": "writing-7",
             "question": "You're organizing a school event. Write 5 instructions using future continuous (ongoing tasks) and time clauses (sequence).",
+            "imageQuery": "students preparing a school event decorations",
+            "imageAlt": "Students preparing decorations for a school event",
             "hint": "Continuous = will be + ing during event. When/before + present.",
             "expectedKeywords": [
                 "will be",
@@ -238,6 +252,8 @@
         {
             "id": "writing-8",
             "question": "Write a short story beginning: 'Tomorrow was the big exam...'. Use will (nervous prediction), be going to (plan), future continuous (night before), and 1 time clause.",
+            "imageQuery": "student studying for an exam at night",
+            "imageAlt": "A student studying at a desk for an exam",
             "hint": "Nervous = will. Plan = going to. Night = will be studying. Clause = before I sleep.",
             "expectedKeywords": [
                 "will",
@@ -255,6 +271,8 @@
         {
             "id": "writing-9",
             "question": "Your flight is delayed. Write a text to family with 2 be going to (new plans), 1 future continuous (during wait), and 1 time clause with until.",
+            "imageQuery": "airport departure board delayed flight waiting area",
+            "imageAlt": "A flight information board in an airport",
             "hint": "New plan = going to. During = will be + ing. Until + present.",
             "expectedKeywords": [
                 "going to",
@@ -272,6 +290,8 @@
         {
             "id": "writing-10",
             "question": "Imagine you're 10 years older. Write a letter to your younger self with 3 pieces of advice using will (prediction), be going to (plan), and was going to (past regret).",
+            "imageQuery": "person writing a reflective letter at a desk",
+            "imageAlt": "A person writing a reflective letter",
             "hint": "Advice = you will. Plan = you should be going to. Regret = I was going to.",
             "expectedKeywords": [
                 "will",

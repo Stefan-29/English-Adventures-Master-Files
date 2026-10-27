@@ -104,7 +104,7 @@
       ],
       "difficulty": 4,
       "audio": "lesson_6_mastery.mp3",
-      "functions": ["Choose passive for style", "Use passive in reports", "Improve sentence focus"],
+      "functions": ["Choose passive for style", "Use passive in reports", "Improve sentence focus"]
     },
     {
       "id": "lesson-7",
@@ -170,7 +170,7 @@
       "question": "Describe a scientific process using passive verbs.",
       "hint": "Start with the object or the action. Use 'is', 'are', or 'has been'.",
       "expectedKeywords": ["is placed", "are measured", "has been recorded", "by scientists", "entered"],
-      "sentenceStarters": ["The sample is...", "The data are..."] ,
+      "sentenceStarters": ["The sample is...", "The data are..."]
     },
     {
       "id": "writing-7",
@@ -237,7 +237,7 @@
       "sentence": "The road ____ repaired.",
       "options": ["is being", "was being", "has been", "will be", "is", "are"],
       "correctAnswer": ["is being"],
-      "hint": "Use the present continuous passive for actions happening now.",
+      "hint": "Use the present continuous passive for actions happening now."
     },
     {
       "id": "game-6",
@@ -312,7 +312,7 @@
       "options": ["My bike has been stolen.", "My bike has been stolen by someone.", "Someone has stolen my bike.", "My bike has been stolen by me."],
       "correctAnswer": "My bike has been stolen.",
       "audio": "quiz_5_master.mp3",
-      "hint": "Omit 'by' when the agent is unknown or unimportant.",
+      "hint": "Omit 'by' when the agent is unknown or unimportant."
     },
     {
       "id": "quiz-6",

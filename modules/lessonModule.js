@@ -57,14 +57,28 @@ const LessonModule = {
             <div class="lesson-card active-lesson">
                 <h3 class="lesson-title">${lesson.title}</h3>
 
-                <!-- Audio Controls -->
                 <div class="audio-control">
-                    <button class="play-audio btn">
-                        Listen to Lesson
-                    </button>
-                    <button class="pause-audio btn" style="display:none">
-                        Pause
-                    </button>
+                    <label class="lesson-voice-control">
+                        <span>Listening voice</span>
+                        <select class="lesson-voice-select" aria-label="Choose an English lesson voice">
+                            <option value="">Best available voice</option>
+                        </select>
+                    </label>
+                    <div class="lesson-audio-buttons">
+                        <button class="play-audio btn btn--secondary" type="button">
+                            Listen to Lesson
+                        </button>
+                        <button class="pause-audio btn btn--secondary" type="button" hidden>
+                            Pause
+                        </button>
+                        <button class="resume-audio btn btn--secondary" type="button" hidden>
+                            Resume
+                        </button>
+                        <button class="stop-audio btn btn--ghost" type="button" hidden>
+                            Stop
+                        </button>
+                    </div>
+                    <p class="lesson-audio-status" role="status" aria-live="polite"></p>
                 </div>
 
                 <!-- Main Content -->
@@ -111,6 +125,7 @@ const LessonModule = {
 
         this.markLessonSeen(lesson.id);
         this.updateNavigationButtons();
+        this.updateVoiceSelector();
     },
 
     updateNavigationButtons: function () {
@@ -137,52 +152,106 @@ const LessonModule = {
             this.stopAudio();
         }
     },
-playLessonAudio: function () {
-    // Use the new TextToSpeechService which supports ElevenLabs + Web Speech API fallback
-    const lesson = this.data[this.currentLessonIndex];
-    if (!lesson) return;
+    getLessonSpeechText: function (lesson) {
+        const content = new DOMParser().parseFromString(lesson.content || '', 'text/html').body.textContent;
+        const sections = [lesson.title, content];
+        if (lesson.functions?.length) sections.push(`What you can do with this: ${lesson.functions.join('. ')}`);
+        if (lesson.tips) {
+            const tip = new DOMParser().parseFromString(lesson.tips, 'text/html').body.textContent;
+            sections.push(`Pro tip: ${tip}`);
+        }
+        if (lesson.examples?.length) {
+            const examples = lesson.examples.map(example =>
+                new DOMParser().parseFromString(example, 'text/html').body.textContent
+            );
+            sections.push(`Examples: ${examples.join('. ')}`);
+        }
+        return sections.filter(Boolean).join('. ').replace(/\s+/g, ' ').trim();
+    },
 
-    // Build the text to speak
-    let text = `${lesson.title}. ${lesson.content.replace(/<\/?[^>]+>/g, ' ')}`;
-    if (lesson.functions?.length) text += ' What you can do with this: ' + lesson.functions.join('. ');
-    if (lesson.tips) text += ` Pro tip: ${lesson.tips}`;
-    if (lesson.examples?.length) text += ' Examples: ' + lesson.examples.map(e => e.replace(/<\/?strong>/g, '')).join('. ');
+    updateVoiceSelector: function () {
+        const selector = document.querySelector('#lesson-module-activities .lesson-voice-select');
+        if (!selector) return;
 
-    // Speak using the new service
-    TextToSpeechService.speak(text, {
-        rate: 0.95,
-        pitch: 1.0,
-        volume: 1.0
-    });
+        const voices = TextToSpeechService.getAvailableVoices();
+        const preferredVoice = TextToSpeechService.getPreferredVoice();
+        const selectedVoiceURI = TextToSpeechService.selectedVoiceURI;
+        selector.replaceChildren();
+        const automaticOption = document.createElement('option');
+        automaticOption.value = '';
+        automaticOption.textContent = 'Best available voice';
+        selector.appendChild(automaticOption);
 
-    // Update UI
-    const container = document.querySelector('#lesson-module-activities .current-lesson-container');
-    if (container) {
-        container.querySelector('.play-audio')?.style.setProperty('display', 'none');
-        container.querySelector('.pause-audio')?.style.removeProperty('display');
-    }
+        voices.forEach(voice => {
+            const option = document.createElement('option');
+            option.value = voice.voiceURI;
+            option.textContent = `${voice.name} (${voice.lang})`;
+            selector.appendChild(option);
+        });
 
-    // Listen for TTS end event to update buttons
-    const handleTTSEnd = () => {
+        selector.value = selectedVoiceURI || '';
+        selector.disabled = voices.length === 0;
+        this.setAudioStatus(voices.length
+            ? `Using ${selectedVoiceURI
+                ? voices.find(voice => voice.voiceURI === selectedVoiceURI)?.name || 'selected voice'
+                : preferredVoice?.name || 'your browser voice'}.`
+            : 'Speech voices are not available in this browser.');
+    },
+
+    setAudioStatus: function (message) {
+        const status = document.querySelector('#lesson-module-activities .lesson-audio-status');
+        if (status) status.textContent = message;
+    },
+
+    updateAudioControls: function (state) {
+        const container = document.querySelector('#lesson-module-activities .current-lesson-container');
+        if (!container) return;
+        const isPlaying = state === 'playing';
+        const isPaused = state === 'paused';
+        container.querySelector('.play-audio').hidden = isPlaying || isPaused;
+        container.querySelector('.pause-audio').hidden = !isPlaying;
+        container.querySelector('.resume-audio').hidden = !isPaused;
+        container.querySelector('.stop-audio').hidden = !isPlaying && !isPaused;
+    },
+
+    playLessonAudio: function () {
+        const lesson = this.data[this.currentLessonIndex];
+        if (!lesson) return;
+
+        const started = TextToSpeechService.speak(this.getLessonSpeechText(lesson), {
+            rate: 0.9,
+            pitch: 1,
+            volume: 1
+        });
+        if (!started) return;
+
+        this.updateAudioControls('playing');
+        const voice = TextToSpeechService.getPreferredVoice();
+        this.setAudioStatus(`Playing lesson with ${voice?.name || 'your browser voice'}.`);
+    },
+
+    pauseLessonAudio: function () {
+        TextToSpeechService.pause();
+        this.updateAudioControls('paused');
+        this.setAudioStatus('Lesson paused.');
+    },
+
+    resumeLessonAudio: function () {
+        TextToSpeechService.resume();
+        this.updateAudioControls('playing');
+        this.setAudioStatus('Lesson resumed.');
+    },
+
+    resetAudioButtons: function () {
+        this.updateAudioControls('stopped');
+        this.currentUtterance = null;
+    },
+
+    stopAudio: function () {
+        TextToSpeechService.stop();
         this.resetAudioButtons();
-        document.removeEventListener('tts-ended', handleTTSEnd);
-    };
-    document.addEventListener('tts-ended', handleTTSEnd);
-},
-
-resetAudioButtons: function () {
-    const container = document.querySelector('#lesson-module-activities .current-lesson-container');
-    if (container) {
-        container.querySelector('.play-audio')?.style.removeProperty('display');
-        container.querySelector('.pause-audio')?.style.setProperty('display', 'none');
-    }
-    this.currentUtterance = null;
-},
-
-stopAudio: function () {
-    TextToSpeechService.stop();
-    this.resetAudioButtons();
-},
+        this.setAudioStatus('');
+    },
 
     goToPractice: function (lessonId) {
         const map = {
@@ -196,7 +265,13 @@ stopAudio: function () {
 
         const target = map[lessonId] || { module: 'writing-module' };
 
-        App.switchModule?.(target.module);
+        if (target.module === 'game-module') {
+            App.switchGameMode?.('play', 'game');
+        } else if (target.module === 'spelling-module') {
+            App.switchWritingMode?.('write', 'spelling');
+        } else {
+            App.switchWritingMode?.('write', 'writing');
+        }
 
         if (target.activity) {
             setTimeout(() => {
@@ -215,7 +290,7 @@ stopAudio: function () {
     markLessonSeen: function (lessonId) {
         if (!App.state.seenLessons) App.state.seenLessons = {};
         App.state.seenLessons[lessonId] = true;
-        App.saveState?.();
+        App.markActivityCompleted?.(lessonId);
     },
 
 setupEventListeners: function () {
@@ -223,6 +298,27 @@ setupEventListeners: function () {
     if (this._lessonClickHandler) {
         document.removeEventListener('click', this._lessonClickHandler);
     }
+    if (this._lessonChangeHandler) {
+        document.removeEventListener('change', this._lessonChangeHandler);
+    }
+
+    if (this._ttsEndedHandler) {
+        document.removeEventListener('tts-ended', this._ttsEndedHandler);
+        document.removeEventListener('tts-error', this._ttsErrorHandler);
+        document.removeEventListener('tts-voices-changed', this._ttsVoicesChangedHandler);
+    }
+    this._ttsEndedHandler = () => {
+        this.resetAudioButtons();
+        this.setAudioStatus('Lesson finished.');
+    };
+    this._ttsErrorHandler = event => {
+        this.resetAudioButtons();
+        this.setAudioStatus(event.detail?.message || 'Speech could not start. Try another voice or browser.');
+    };
+    this._ttsVoicesChangedHandler = () => this.updateVoiceSelector();
+    document.addEventListener('tts-ended', this._ttsEndedHandler);
+    document.addEventListener('tts-error', this._ttsErrorHandler);
+    document.addEventListener('tts-voices-changed', this._ttsVoicesChangedHandler);
 
     this._lessonClickHandler = (e) => {
         const btn = e.target.closest.bind(e.target);
@@ -243,6 +339,14 @@ setupEventListeners: function () {
         }
         else if (btn('.pause-audio')) {
             e.preventDefault();
+            this.pauseLessonAudio();
+        }
+        else if (btn('.resume-audio')) {
+            e.preventDefault();
+            this.resumeLessonAudio();
+        }
+        else if (btn('.stop-audio')) {
+            e.preventDefault();
             this.stopAudio();
         }
         else if (btn('.check-btn')) {
@@ -252,7 +356,18 @@ setupEventListeners: function () {
         }
     };
 
+    this._lessonChangeHandler = event => {
+        const selector = event.target.closest?.('.lesson-voice-select');
+        if (!selector) return;
+        const voiceURI = selector.value;
+        if (TextToSpeechService.setVoice(voiceURI)) {
+            this.stopAudio();
+            this.setAudioStatus(voiceURI ? 'Listening voice updated.' : 'Using the best available voice.');
+        }
+    };
+
     document.addEventListener('click', this._lessonClickHandler);
+    document.addEventListener('change', this._lessonChangeHandler);
 },
 
     reset: function () {

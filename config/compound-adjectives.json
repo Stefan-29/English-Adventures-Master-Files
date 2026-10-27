@@ -133,7 +133,7 @@
   },
 
   "dataFile": "reproducibility/compound-adjectives.json",
-  "grammarChecker": "compoundAdjectives.js",
+  "grammarChecker": "openWritingChecker.js",
 
   "gameSettings": {
     "timeLimit": 30,

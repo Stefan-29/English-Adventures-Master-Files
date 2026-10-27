@@ -139,7 +139,7 @@
   },
 
   "dataFile": "reproducibility/comparatives-superlatives.json",
-  "grammarChecker": "comparativesSuperlatives.js",
+  "grammarChecker": "openWritingChecker.js",
 
   "gameSettings": {
     "timeLimit": 30,

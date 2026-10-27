@@ -133,7 +133,7 @@
   },
   
   "dataFile": "reproducibility/so-such-too-enough.json",
-  "grammarChecker": "degreeMarkers.js",
+  "grammarChecker": "openWritingChecker.js",
   
   "gameSettings": {
     "timeLimit": 30,

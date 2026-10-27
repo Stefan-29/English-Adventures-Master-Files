@@ -241,7 +241,4 @@ const subjunctiveMoodGrammarChecker = {
     }
 };
 
-// Export for use in the main application
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = subjunctiveMoodGrammarChecker;
-}
+export default subjunctiveMoodGrammarChecker;

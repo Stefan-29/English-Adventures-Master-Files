@@ -49,10 +49,10 @@ const QuizModule = {
             status.className = 'activity-status';
             
             if (isCompleted) {
-                status.textContent = '✓ Completed';
+                status.textContent = 'Completed';
                 status.classList.add('completed');
             } else if (isIncorrect) {
-                status.textContent = '❌ Incorrect';
+                status.textContent = 'Incorrect';
                 status.classList.add('incorrect');
             } else {
                 status.textContent = 'Pending';
@@ -77,6 +77,8 @@ const QuizModule = {
             // Options - randomize order
             const optionsContainer = document.createElement('div');
             optionsContainer.className = 'quiz-options';
+            optionsContainer.setAttribute('role', 'group');
+            optionsContainer.setAttribute('aria-label', `Answer choices for question ${index + 1}`);
 
             // Create shuffled options array
             const shuffledOptions = [...activity.options].sort(() => Math.random() - 0.5);
@@ -84,12 +86,13 @@ const QuizModule = {
 
             shuffledOptions.forEach((option, idx) => {
                 const optionBtn = document.createElement('button');
+                optionBtn.type = 'button';
                 optionBtn.className = 'quiz-option-btn';
                 optionBtn.textContent = option;
                 optionBtn.dataset.optionIndex = idx;
                 optionBtn.dataset.activityId = activity.id;
 
-                // ✅ Re-apply styling for previously answered questions
+                //  Re-apply styling for previously answered questions
                 if (isAttempted && selectedAnswer) {
                     optionBtn.disabled = true;
                     
@@ -121,13 +124,12 @@ const QuizModule = {
             // Hint - Only render and show after incorrect answer
             if (activity.hint && isIncorrect) {
                 const hintBtn = document.createElement('button');
-                hintBtn.className = 'hint-btn';
+                hintBtn.className = 'btn hint-btn';
                 const hintCount = this.hintCounts[activity.id] || 0;
                 const hintLimit = this.hintLimits[activity.id] || 2;
-                hintBtn.textContent = hintCount >= hintLimit ? '💡 Hints Exhausted' : `💡 Show Hint (${hintCount}/${hintLimit})`;
+                hintBtn.textContent = hintCount >= hintLimit ? ' Hints Exhausted' : ` Show Hint (${hintCount}/${hintLimit})`;
                 // Button disabled only if hints are exhausted
                 hintBtn.disabled = hintCount >= hintLimit;
-                hintBtn.style.background = hintCount >= hintLimit ? '#6c757d' : '#4ecdc4';
                 hintBtn.addEventListener('click', () => {
                     this.toggleHint(activity, hintBtn);
                 });
@@ -138,7 +140,7 @@ const QuizModule = {
             if (isIncorrect) {
                 const resetBtn = document.createElement('button');
                 resetBtn.className = 'btn reset-btn';
-                resetBtn.textContent = '🔄 Try Again';
+                resetBtn.textContent = ' Try Again';
                 resetBtn.addEventListener('click', () => {
                     this.resetQuizActivity(activity);
                 });
@@ -148,7 +150,7 @@ const QuizModule = {
             container.appendChild(activityCard);
         });
 
-        console.log('✅ Quiz activities rendered');
+        console.log(' Quiz activities rendered');
     },
 
     checkAnswer: function (activity, selectedAnswer, buttonElement, correctAnswer) {
@@ -175,10 +177,10 @@ const QuizModule = {
             App.playSound('correctSound');
 
             const message = `
-                <strong>🎉 Correct!</strong><br>
-                <em>"${selectedAnswer}"</em> is the right answer!
+                <p>Correct answer</p>
+                <div class="feedback-answer">${this.escapeHtml(selectedAnswer)}</div>
             `;
-            App.showFeedback('Great Job!', message, '⭐');
+            App.showFeedback('Great job!', message, '', 'success', buttonElement);
         } else {
             buttonElement.classList.add('incorrect');
             allButtons.forEach(btn => {
@@ -191,12 +193,19 @@ const QuizModule = {
             App.playSound('wrongSound');
 
             const message = `
-                <strong>Not quite right!</strong><br>
-                Your answer: <em>"${selectedAnswer}"</em><br>
-                Correct answer: <em>"${correctAnswer}"</em><br><br>
-                <strong>💡 Hint:</strong> ${activity.hint || 'Try again!'}
-            `;
-            App.showFeedback('Oops!', message, '📚');
+                    <div class="feedback-answer-list">
+                        <div class="feedback-answer-item feedback-answer-item--incorrect">
+                            <span>Your answer</span>
+                            <strong>${this.escapeHtml(selectedAnswer)}</strong>
+                        </div>
+                        <div class="feedback-answer-item feedback-answer-item--correct">
+                            <span>Correct answer</span>
+                            <strong>${this.escapeHtml(correctAnswer)}</strong>
+                        </div>
+                    </div>
+                    ${activity.hint ? `<p class="feedback-hint"><strong>Hint:</strong> ${this.escapeHtml(activity.hint)}</p>` : ''}
+                `;
+            App.showFeedback('Not quite yet', message, '', 'error', buttonElement);
         }
 
         this.perfectCompletes[activity.id] = isCorrect;
@@ -209,28 +218,27 @@ const QuizModule = {
 
         // Check if hints are exhausted
         if (hintCount >= hintLimit) {
-            App.showFeedback('Hints Exhausted', 'You\'ve used all available hints for this question. Try solving it yourself!', '❌');
+            App.showFeedback('Hints Exhausted', 'You\'ve used all available hints for this question. Try solving it yourself!', '');
             App.playSound('wrongSound');
             return;
         }
 
         // Show hint in a modal instead of alert
-        App.showFeedback('💡 Hint', activity.hint || 'No hint available', '💡');
+        App.showFeedback(' Hint', activity.hint || 'No hint available', '');
         this.hintCounts[activity.id] = hintCount + 1;
         App.playSound('hintSound');
 
         // Update button text
         const newCount = this.hintCounts[activity.id];
-        hintBtn.textContent = newCount >= hintLimit ? '💡 Hints Exhausted' : `💡 Show Hint (${newCount}/${hintLimit})`;
+        hintBtn.textContent = newCount >= hintLimit ? ' Hints Exhausted' : ` Show Hint (${newCount}/${hintLimit})`;
         if (newCount >= hintLimit) {
             hintBtn.disabled = true;
-            hintBtn.style.background = '#6c757d';
         }
 
         // If this is the last hint, show warning
         if (newCount >= hintLimit) {
             setTimeout(() => {
-                App.showFeedback('Last Hint Used', 'This was your final hint. Answer the question carefully!', '⚠️');
+                App.showFeedback('Last Hint Used', 'This was your final hint. Answer the question carefully!', '');
             }, 1500);
         }
     },
@@ -253,12 +261,12 @@ const QuizModule = {
         // Re-render quiz activities
         this.renderActivities();
         
-        App.showFeedback('Activity Reset', 'This question has been reset. Try again!', '🔄');
+        App.showFeedback('Activity Reset', 'This question has been reset. Try again!', '', 'info', document.getElementById(activity.id));
         App.playSound('correctSound');
     },
 
     reset: function () {
-        console.log('🔄 Resetting Quiz Module');
+        console.log(' Resetting Quiz Module');
         this.activities.forEach(activity => {
             const activityCard = document.getElementById(activity.id);
             if (activityCard) {
@@ -277,7 +285,17 @@ const QuizModule = {
         this.hasFailed = {};
         this.perfectCompletes = {};
         this.renderActivities();
-        console.log('✅ Quiz Module reset');
+        console.log(' Quiz Module reset');
         return Promise.resolve();
+    },
+
+    escapeHtml: function (value) {
+        return String(value).replace(/[&<>"']/g, character => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+        })[character]);
     }
 };

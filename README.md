@@ -4,28 +4,53 @@ A comprehensive, interactive web-based learning platform for English grammar wit
 
 ## 🚀 Quick Start
 
-### 1. Start the Server
+### 1. Start the Preview
 ```bash
-# Windows
-bash scripts/server/start-dev-server.sh
-# or
-powershell -ExecutionPolicy Bypass -File scripts/server/server.ps1
+npm run dev
+```
 
-# Mac/Linux
+This serves the app from the repository root on port **8001** (or the port set
+in the `PORT` environment variable). This development server exposes source
+files and must not be used as the production content boundary. In a Codespace, open the **Ports** panel,
+find port **8001**, and choose **Open in Browser** to preview it.
+
+To use the startup script instead:
+```bash
 bash scripts/server/start-dev-server.sh
 ```
+
+Stop the server with **Ctrl+C**. Run `npm run dev` again whenever you want to
+preview the app.
 
 ### 2. Open in Browser
 ```
 http://localhost:8001
 ```
 
-### 3. (Optional) Download Images
+### 3. Contextual Writing Images
+
+Writing activity banners are matched to each prompt through the free Wikimedia
+Commons API. No API key or image-download setup is required. Add an optional
+`imageQuery` and descriptive `imageAlt` to a writing activity to tune its image.
+Images link to their source page and show available attribution and license
+details. See [the image setup guide](docs/setup/API_KEY_SETUP.md).
+
+### 4. Configure account sign-in
+
+See [the Supabase auth setup guide](docs/setup/AUTH_SETUP.md) to configure the
+public browser URL/key, verified email sign-up, Google OAuth, and server-side
+rate limits. Never publish a Supabase service-role key.
+
+### 5. Build the production static site
+
 ```bash
-node scripts/utilities/DOWNLOAD_IMAGES.js
+npm run build
 ```
 
-✅ **Done!** Your app is running.
+Deploy **`dist/`**, not the repository root. The build intentionally excludes
+topic configuration and activity JSON; private content is uploaded separately
+to Supabase Storage. See
+[the content access setup guide](docs/setup/CONTENT_ACCESS_SETUP.md).
 
 ---
 
@@ -36,71 +61,34 @@ node scripts/utilities/DOWNLOAD_IMAGES.js
 - **Quick Start**: [docs/guides/START_HERE.md](docs/guides/START_HERE.md)
 - **Documentation Hub**: [docs/README.md](docs/README.md)
 - **Setup Guide**: [docs/setup/SERVER.md](docs/setup/SERVER.md)
-- **Image System**: [docs/images/QUICK_START_IMAGES.md](docs/images/QUICK_START_IMAGES.md)
+- **Lesson listening**: [docs/setup/TTS_SETUP.md](docs/setup/TTS_SETUP.md)
+- **Private content deployment**: [docs/setup/CONTENT_ACCESS_SETUP.md](docs/setup/CONTENT_ACCESS_SETUP.md)
+- **Image System**: [docs/images/README_IMAGES.md](docs/images/README_IMAGES.md)
 
 ---
 
 ## 🗂️ Project Structure
 
+The static application is served from the repository root. `src/` is not the
+web root; it currently contains legacy copies of the legal pages only.
+
+```text
+/
+├── index.html                  App page and root-relative CSS/script references
+├── app.js                      Vanilla JS app entry point
+├── config/                     Topic configuration JSON
+├── reproducibility/            Activity data referenced by topic configs
+├── modules/                    Lesson, quiz, game, spelling, image, and audio code
+├── css/                        Application stylesheets
+├── assets/                     Public images and sounds
+├── legal/                      Privacy and terms pages linked by the app
+├── src/pages/                  Legacy copies of the legal pages
+├── docs/                       Guides, setup, and technical documentation
+└── scripts/                    QA, utilities, and development-server scripts
 ```
-English-Adventures-Master-Files/
-│
-├── src/                           ⭐ APPLICATION CODE
-│   ├── app.js                     Main application logic
-│   ├── index.html                 HTML template
-│   ├── modules/                   Feature modules (quizzes, games, etc.)
-│   ├── assets/                    Images and sounds
-│   │   ├── images/                Grammar topic images (by tense)
-│   │   └── sounds/                Audio files
-│   ├── config/                    Grammar topic configurations
-│   ├── css/                       Application styles
-│   └── pages/                     HTML pages (privacy, terms, etc.)
-│
-├── docs/                          📚 DOCUMENTATION (ORGANIZED BY CATEGORY)
-│   ├── guides/                    📖 User guides & tutorials
-│   ├── setup/                     ⚙️  Installation & configuration
-│   ├── images/                    🎨 Image system documentation
-│   ├── technical/                 🔧 Technical & implementation details
-│   ├── project-management/        📊 Project planning & deliverables
-│   ├── FILE_REFERENCE_GUIDE.md    🔍 Find specific files
-│   └── README.md                  📖 Documentation hub
-│
-├── scripts/                       🔧 UTILITY & SERVER SCRIPTS
-│   ├── server/                    Server startup scripts
-│   │   ├── start-dev-server.sh    Linux/Mac server starter
-│   │   ├── start-server.cmd       Windows batch starter
-│   │   └── server.ps1             Windows PowerShell starter
-│   └── utilities/                 Helper scripts
-│       ├── DOWNLOAD_IMAGES.js     Image downloader
-│       ├── TEST_IMAGE_SERVICE.js  Image service tester
-│       └── convert_lists_to_tables.py  Data converter
-│
-├── config/                        ⚙️  CONFIGURATION FILES
-│   ├── grammar topic files        JSON files for each grammar topic
-│   └── imageMapping.json          Auto-generated image database
-│
-├── reproducibility/               🔄 DATA REPRODUCIBILITY
-│   └── Grammar topic configs      Copy of configurations for reproducibility
-│
-├── css/                           🎨 STYLESHEETS
-│   ├── styles.css                 Main application styles
-│   └── lesson-module.css          Lesson-specific styles
-│
-├── assets/                        📦 MEDIA FILES
-│   ├── images/                    Grammar topic images (organized by tense)
-│   └── sounds/                    Audio files for lessons
-│
-├── modules/                       📦 LEGACY FEATURE MODULES
-│   └── [various feature modules]  Legacy module organization
-│
-├── legal/                         ⚖️  LEGAL DOCUMENTS
-│   ├── privacy-policy.html        Privacy policy
-│   └── terms-of-service.html      Terms of service
-│
-├── package.json                   📋 NPM dependencies & scripts
-├── .gitignore                     Git ignore rules
-└── [config files]                 Root-level configuration files
-```
+
+See [the architecture summary](docs/technical/ARCHITECTURE.md) for the static
+request flow, canonical paths, and content-visibility constraints.
 
 ---
 
@@ -114,13 +102,11 @@ English-Adventures-Master-Files/
 
 ### ⚙️ Setup (docs/setup/)
 - **SERVER.md** - How to start the development server
-- **API_KEY_SETUP.md** - API configuration guide
+- **API_KEY_SETUP.md** - Writing image API setup (no key required)
 - **SETTINGS_QUICK_START.md** - Settings panel setup
 
 ### 🎨 Images (docs/images/)
-- **QUICK_START_IMAGES.md** - Image system quick start
-- **IMAGE_SYSTEM_COMPLETE.md** - Complete image system overview
-- **IMAGE_MANAGEMENT.md** - Detailed management guide
+- **[README_IMAGES.md](docs/images/README_IMAGES.md)** - Current image matching, fallback, and attribution flow
 
 ### 🔧 Technical (docs/technical/)
 - **CODE_FLOW_EXPLANATION.md** - Code flow and architecture
@@ -140,14 +126,9 @@ English-Adventures-Master-Files/
 bash scripts/server/start-dev-server.sh
 ```
 
-### Download Images
+### Verify the Image Service
 ```bash
-node scripts/utilities/DOWNLOAD_IMAGES.js
-```
-
-### Test Image Service
-```bash
-node scripts/utilities/TEST_IMAGE_SERVICE.js
+npm test
 ```
 
 ### View Documentation
@@ -170,8 +151,8 @@ node scripts/utilities/TEST_IMAGE_SERVICE.js
 
 - All documentation is in `docs/` - organized by category for easy navigation
 - All scripts are in `scripts/` - organized for different purposes
-- Grammar topics are in `config/` and `src/config/` 
-- Application code is in `src/` - start here to understand the app
+- Grammar topics are in `config/`; their activity data is under `reproducibility/`
+- Application entry points are `index.html` and `app.js` at the repository root
 - Use [docs/guides/START_HERE.md](docs/guides/START_HERE.md) for a complete walkthrough
 
 ---

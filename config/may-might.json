@@ -77,7 +77,7 @@
     }
   },
   "dataFile": "reproducibility/may-might.json",
-  "grammarChecker": "mayMight.js",
+  "grammarChecker": "openWritingChecker.js",
   "gameSettings": {
     "timeLimit": 30,
     "pointsPerCorrect": 10,

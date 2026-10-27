@@ -209,7 +209,4 @@ const wishIfIfOnlyGrammarChecker = {
     }
 };
 
-// Export for use in the main application
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = wishIfIfOnlyGrammarChecker;
-}
+export default wishIfIfOnlyGrammarChecker;

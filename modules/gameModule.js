@@ -13,6 +13,8 @@ const GameModule = {
         this.perfectCompletes = {};
         this.hintCounts = {};
         this.hintLimits = {};
+        this.orderedAnswers = {};
+        this.selectedAnswers = {};
         this.renderActivities();
     },
 
@@ -70,13 +72,22 @@ const GameModule = {
             gameContent.className = 'game-content';
             switch (activity.type) {
                 case 'drag-drop':
-                    this.renderDragDropActivity(gameContent, activity, isCompleted);
-                    break;
-                case 'matching':
-                    this.renderMatchingActivity(gameContent, activity, isCompleted);
+                    if (this.getDropZoneCount(activity) > 0) {
+                        this.renderDragDropActivity(gameContent, activity, isCompleted);
+                    } else {
+                        this.renderChoiceActivity(gameContent, activity, isCompleted);
+                    }
                     break;
                 case 'ordering':
+                case 'reorder':
                     this.renderOrderingActivity(gameContent, activity, isCompleted);
+                    break;
+                case 'roleplay':
+                case 'simulator':
+                    this.renderChoiceActivity(gameContent, activity, isCompleted);
+                    break;
+                case 'writing':
+                    this.renderWritingActivity(gameContent, activity, isCompleted);
                     break;
                 default:
                     gameContent.textContent = 'Unsupported activity type';
@@ -86,20 +97,22 @@ const GameModule = {
             const btns = document.createElement('div');
             btns.className = 'activity-buttons';
             const checkBtn = document.createElement('button');
-            checkBtn.className = 'btn submit-btn';
+            checkBtn.type = 'button';
+            checkBtn.className = 'btn btn--primary submit-btn';
             checkBtn.textContent = 'Check Answer';
             checkBtn.disabled = isCompleted;
             const resetBtn = document.createElement('button');
-            resetBtn.className = 'btn skip-btn';
+            resetBtn.type = 'button';
+            resetBtn.className = 'btn btn--secondary skip-btn';
             resetBtn.textContent = 'Reset';
             resetBtn.disabled = isCompleted;
             const hintBtn = document.createElement('button');
+            hintBtn.type = 'button';
             hintBtn.className = 'btn hint-btn';
             const hintCount = this.hintCounts[activity.id] || 0;
             const hintLimit = this.hintLimits[activity.id] || 3;
             hintBtn.textContent = hintCount >= hintLimit ? 'Hints Exhausted' : `Show Hint (${hintCount}/${hintLimit})`;
             hintBtn.disabled = isCompleted || hintCount >= hintLimit;
-            hintBtn.style.background = hintCount >= hintLimit ? '#6c757d' : '#4ecdc4';
             btns.append(checkBtn, resetBtn, hintBtn);
 
             checkBtn.onclick = () => this.checkAnswer(activity);
@@ -119,7 +132,7 @@ const GameModule = {
 
         // Check if hints are exhausted
         if (hintCount >= hintLimit) {
-            App.showFeedback('Hints Exhausted', 'You\'ve used all available hints for this activity. Try solving it yourself!', '❌');
+            App.showFeedback('Hints Exhausted', 'You\'ve used all available hints for this activity. Try solving it yourself!', '');
             App.playSound('wrongSound');
             return;
         }
@@ -127,20 +140,18 @@ const GameModule = {
         if (container.style.display === 'none') {
             container.style.display = 'block';
             btn.textContent = `Hide Hint (${hintCount + 1}/${hintLimit})`;
-            btn.style.background = '#ff6b6b';
             this.hintCounts[activity.id] = hintCount + 1;
             App.playSound('hintSound');
 
             // If this is the last hint, show warning
             if (hintCount + 1 >= hintLimit) {
                 setTimeout(() => {
-                    App.showFeedback('Last Hint Used', 'This was your final hint. Complete the activity without further help!', '⚠️');
+                    App.showFeedback('Last Hint Used', 'This was your final hint. Complete the activity without further help!', '');
                 }, 1000);
             }
         } else {
             container.style.display = 'none';
             btn.textContent = `Show Hint (${hintCount}/${hintLimit})`;
-            btn.style.background = '#4ecdc4';
         }
     },
 
@@ -150,6 +161,10 @@ const GameModule = {
     renderDragDropActivity: function (container, activity, isCompleted) {
         const sentenceWrap = document.createElement('div');
         sentenceWrap.className = 'sentence-container';
+        const instructions = document.createElement('p');
+        instructions.className = 'game-instructions';
+        instructions.textContent = 'Select a blank, then select a word to fill it. Use Enter or Space.';
+        sentenceWrap.appendChild(instructions);
         const sentenceEl = document.createElement('div');
         sentenceEl.className = 'sentence';
 
@@ -163,14 +178,20 @@ const GameModule = {
             sentenceEl.appendChild(txtSpan);
 
             if (i < parts.length - 1) {               // blank needed
-                const zone = document.createElement('div');
+                const zone = document.createElement('button');
+                zone.type = 'button';
                 zone.className = 'drop-zone';
                 zone.dataset.index = i;
+                zone.setAttribute('aria-pressed', 'false');
                 if (isCompleted) {
-                    zone.textContent = activity.correctAnswer[i] || '';
+                    const answers = this.getDropAnswerSets(activity, parts.length - 1)[0] || [];
+                    zone.textContent = answers[i] || '';
+                    zone.setAttribute('aria-label', `Blank ${i + 1}: ${answers[i] || ''}`);
                     zone.classList.add('correct');
+                    zone.disabled = true;
                 } else {
                     zone.textContent = 'Click to fill';
+                    zone.setAttribute('aria-label', `Blank ${i + 1}: unfilled`);
                     zone.addEventListener('click', e => this.handleDropZoneClick(e, activity));
                 }
                 dropZones.push(zone);
@@ -184,28 +205,115 @@ const GameModule = {
         /* ----- options ----- */
         const optsWrap = document.createElement('div');
         optsWrap.className = 'drag-container';
-        const shuffled = [...activity.options];
+        optsWrap.setAttribute('role', 'group');
+        optsWrap.setAttribute('aria-label', 'Word bank');
+        const shuffled = [...(activity.options || [])];
         this.shuffleArray(shuffled);
         shuffled.forEach(opt => {
-            const el = document.createElement('div');
+            const el = document.createElement('button');
+            el.type = 'button';
             el.className = 'draggable';
             el.textContent = opt;
+            el.disabled = isCompleted;
             if (!isCompleted) {
                 el.addEventListener('click', e => this.handleOptionClick(e, activity));
-            } else {
-                el.style.opacity = '0.5';
-                el.style.pointerEvents = 'none';
             }
             optsWrap.appendChild(el);
         });
         container.appendChild(optsWrap);
     },
 
+    renderOrderingActivity: function (container, activity, isCompleted) {
+        const words = activity.options?.length
+            ? [...activity.options]
+            : String(activity.sentence || '').split('/').map(word => word.trim()).filter(Boolean);
+        const selected = this.orderedAnswers?.[activity.id] || [];
+        const answer = Array.isArray(activity.correctAnswer) ? activity.correctAnswer[0] : activity.correctAnswer;
+
+        const sequence = document.createElement('div');
+        sequence.className = 'ordering-sequence';
+        sequence.setAttribute('role', 'status');
+        sequence.setAttribute('aria-live', 'polite');
+        sequence.textContent = isCompleted ? answer : selected.join(' ');
+        container.appendChild(sequence);
+
+        const wordButtons = document.createElement('div');
+        wordButtons.className = 'drag-container';
+        wordButtons.setAttribute('role', 'group');
+        wordButtons.setAttribute('aria-label', 'Words to build the sentence');
+        words.forEach((word, index) => {
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'draggable';
+            button.textContent = word;
+            button.disabled = isCompleted || selected.includes(word);
+            button.addEventListener('click', () => {
+                this.orderedAnswers ||= {};
+                this.orderedAnswers[activity.id] ||= [];
+                this.orderedAnswers[activity.id].push(word);
+                sequence.textContent = this.orderedAnswers[activity.id].join(' ');
+                button.disabled = true;
+            });
+            button.dataset.index = String(index);
+            wordButtons.appendChild(button);
+        });
+        container.appendChild(wordButtons);
+    },
+
+    renderChoiceActivity: function (container, activity, isCompleted) {
+        const choices = document.createElement('div');
+        choices.className = 'quiz-options';
+        choices.setAttribute('role', 'group');
+        choices.setAttribute('aria-label', 'Choose a response');
+        (activity.options || []).forEach(option => {
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'quiz-option-btn game-choice';
+            button.textContent = option;
+            button.disabled = isCompleted;
+            button.addEventListener('click', () => {
+                choices.querySelectorAll('.game-choice').forEach(choice => choice.classList.remove('selected'));
+                button.classList.add('selected');
+                this.selectedAnswers ||= {};
+                this.selectedAnswers[activity.id] = option;
+            });
+            choices.appendChild(button);
+        });
+        container.appendChild(choices);
+    },
+
+    renderWritingActivity: function (container, activity, isCompleted) {
+        const sentence = document.createElement('p');
+        sentence.className = 'game-writing-prompt';
+        sentence.textContent = String(activity.sentence || '').replace(/_+/g, '_____');
+        container.appendChild(sentence);
+
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.className = 'game-writing-answer';
+        input.setAttribute('aria-label', 'Your answer');
+        input.disabled = isCompleted;
+        input.value = this.selectedAnswers?.[activity.id] || '';
+        input.addEventListener('input', () => {
+            this.selectedAnswers ||= {};
+            this.selectedAnswers[activity.id] = input.value;
+        });
+        container.appendChild(input);
+    },
+
     handleDropZoneClick: function (e, activity) {
         const zone = e.target;
         const card = zone.closest('.activity-card');
-        card.querySelectorAll('.drop-zone').forEach(z => z.classList.remove('selected'));
+        const previousOption = Array.from(card.querySelectorAll('.draggable'))
+            .find(option => option.textContent === zone.textContent);
+        if (previousOption) previousOption.style.display = 'block';
+        zone.classList.remove('correct', 'incorrect');
+        card.querySelectorAll('.drop-zone').forEach(z => {
+            z.classList.remove('selected');
+            z.setAttribute('aria-pressed', 'false');
+        });
         zone.classList.add('selected');
+        zone.setAttribute('aria-pressed', 'true');
         this.selectedDropZone = zone;
 
         let instr = card.querySelector('.click-instructions');
@@ -220,8 +328,30 @@ const GameModule = {
     handleOptionClick: function (e, activity) {
         const opt = e.target;
         const card = opt.closest('.activity-card');
+        if (this.isCombinedDropActivity(activity)) {
+            const zones = Array.from(card.querySelectorAll('.drop-zone'));
+            const values = this.splitDropSequence(opt.textContent, zones.length);
+            if (!values) {
+                App.showFeedback('Try another choice', 'This choice does not fit every blank.', '');
+                return;
+            }
+            zones.forEach((zone, index) => {
+                zone.textContent = values[index];
+                zone.classList.remove('selected', 'correct', 'incorrect');
+                zone.setAttribute('aria-pressed', 'false');
+                zone.setAttribute('aria-label', `Blank ${index + 1}: ${values[index]}`);
+            });
+            card.querySelectorAll('.draggable').forEach(option => option.classList.remove('selected'));
+            opt.classList.add('selected');
+            const instructions = card.querySelector('.click-instructions');
+            if (instructions) instructions.remove();
+            this.selectedDropZone = null;
+            return;
+        }
         if (this.selectedDropZone && this.selectedDropZone.closest('.activity-card') === card) {
             this.selectedDropZone.textContent = opt.textContent;
+            this.selectedDropZone.setAttribute('aria-label', `Blank ${this.selectedDropZone.dataset.index * 1 + 1}: ${opt.textContent}`);
+            this.selectedDropZone.setAttribute('aria-pressed', 'false');
             this.selectedDropZone.classList.remove('selected');
             opt.style.display = 'none';
             this.selectedDropZone = null;
@@ -248,16 +378,23 @@ const GameModule = {
 
         switch (activity.type) {
             case 'drag-drop':
-                result = this.checkDragDropAnswer(activity, card, silent);
-                break;
-            case 'matching':
-                result = this.checkMatchingAnswer(activity, card, silent);
+                result = this.getDropZoneCount(activity) > 0
+                    ? this.checkDragDropAnswer(activity, card, silent)
+                    : this.checkChoiceAnswer(activity, card);
                 break;
             case 'ordering':
+            case 'reorder':
                 result = this.checkOrderingAnswer(activity, card, silent);
                 break;
+            case 'roleplay':
+            case 'simulator':
+                result = this.checkChoiceAnswer(activity, card);
+                break;
+            case 'writing':
+                result = this.checkWritingAnswer(activity, card);
+                break;
             default:
-                if (!silent) App.showFeedback('Error', 'Unsupported activity type', '❌');
+                if (!silent) App.showFeedback('Error', 'Unsupported activity type', '');
                 return { status: 'error' };
         }
 
@@ -270,7 +407,12 @@ const GameModule = {
         if (!silent && result.status === 'correct') {
             this.handleActivityCompletion(activity, card, true);
         } else if (!silent) {
-            App.showFeedback('Oops!', result.message, '❌');
+            App.showFeedback(
+                result.status === 'incomplete' ? 'Complete the activity' : 'Not quite yet',
+                result.message,
+                '',
+                result.status === 'incomplete' ? 'info' : 'error'
+            );
             App.playSound('wrongSound');
         }
         return result;
@@ -278,8 +420,7 @@ const GameModule = {
 
     /***  DRAG-DROP CHECK – MULTI-BLANK ***/
     checkDragDropAnswer: function (activity, card, silent = false) {
-        const zones = card.querySelectorAll('.drop-zone');
-        const blanksCount = activity.correctAnswer.length;
+        const zones = Array.from(card.querySelectorAll('.drop-zone'));
 
         // ---- all filled? ----
         let allFilled = true;
@@ -287,44 +428,88 @@ const GameModule = {
             if (!z.textContent.trim() || z.textContent === 'Click to fill') allFilled = false;
         });
         if (!allFilled) {
-            if (!silent) App.showFeedback('Oops!', 'Fill every blank first.', '✏️');
-            return { status: 'incomplete', message: 'Missing answers' };
+            return { status: 'incomplete', message: 'Fill every blank first.' };
         }
 
         // ---- compare each zone with its correct answer ----
-        let allCorrect = true;
-        zones.forEach((zone, i) => {
-            const user = zone.textContent.trim();
-            const correct = (activity.correctAnswer[i] || '').trim();
-            if (user.toLowerCase() === correct.toLowerCase()) {
-                zone.classList.add('correct');
-            } else {
-                zone.classList.add('incorrect');
-                allCorrect = false;
-            }
+        const normalize = value => String(value).trim().replace(/\s+/g, ' ').toLowerCase();
+        const answerSets = this.getDropAnswerSets(activity, zones.length);
+        const allCorrect = answerSets.some(answers =>
+            zones.every((zone, index) => normalize(zone.textContent) === normalize(answers[index] || ''))
+        );
+        zones.forEach((zone, index) => {
+            const correctAtPosition = answerSets.some(answers =>
+                normalize(zone.textContent) === normalize(answers[index] || '')
+            );
+            zone.classList.toggle('correct', correctAtPosition);
+            zone.classList.toggle('incorrect', !correctAtPosition);
         });
 
-        if (!silent) {
-            if (allCorrect) {
-                const correctAnswers = activity.correctAnswer.join(', ');
-                App.showFeedback('Excellent!', `Perfect! All blanks are correct: <em>"${correctAnswers}"</em>`, '🎉');
-                App.playSound('correctSound');
-            } else {
-                // Show which ones are wrong
-                let wrongAnswers = [];
-                zones.forEach((zone, i) => {
-                    const user = zone.textContent.trim();
-                    const correct = (activity.correctAnswer[i] || '').trim();
-                    if (user.toLowerCase() !== correct.toLowerCase()) {
-                        wrongAnswers.push(`"${user}" should be "${correct}"`);
-                    }
-                });
-                const message = `Some blanks are wrong: ${wrongAnswers.join(', ')}. Try again!`;
-                App.showFeedback('Not Yet!', message, '🔄');
-                App.playSound('wrongSound');
-            }
+        return {
+            status: allCorrect ? 'correct' : 'incorrect',
+            message: allCorrect ? 'All blanks are correct.' : 'Some answers are not quite right yet. Try again.'
+        };
+    },
+
+    checkChoiceAnswer: function (activity, card) {
+        const selected = this.selectedAnswers?.[activity.id];
+        if (!selected) return { status: 'incomplete', message: 'Choose a response first.' };
+        const expectedAnswers = Array.isArray(activity.correctAnswer) ? activity.correctAnswer : [activity.correctAnswer];
+        const correct = expectedAnswers.some(answer => String(answer).trim().toLowerCase() === selected.trim().toLowerCase());
+        return { status: correct ? 'correct' : 'incorrect', message: correct ? 'That is the best response.' : 'Choose the response that best fits the situation.' };
+    },
+
+    getDropZoneCount: function (activity) {
+        return typeof activity.sentence === 'string' ? (activity.sentence.match(/____/g) || []).length : 0;
+    },
+
+    splitDropSequence: function (value, zoneCount) {
+        const parts = String(value).split(/\s*[,/]\s*/).map(part => part.trim()).filter(Boolean);
+        return parts.length === zoneCount ? parts : null;
+    },
+
+    isCombinedDropActivity: function (activity) {
+        const zoneCount = this.getDropZoneCount(activity);
+        return zoneCount > 1 &&
+            Array.isArray(activity.options) &&
+            activity.options.length > 0 &&
+            activity.options.every(option => this.splitDropSequence(option, zoneCount));
+    },
+
+    getDropAnswerSets: function (activity, zoneCount) {
+        const answers = Array.isArray(activity.correctAnswer) ? activity.correctAnswer : [activity.correctAnswer];
+        if (zoneCount === 1) return answers.map(answer => [String(answer ?? '')]);
+
+        const sequences = answers
+            .map(answer => this.splitDropSequence(answer, zoneCount))
+            .filter(Boolean);
+        if (sequences.length) return sequences;
+        if (answers.length === zoneCount) return [answers.map(answer => String(answer ?? ''))];
+
+        if (answers.length === 1) {
+            const words = String(answers[0] ?? '').trim().split(/\s+/);
+            if (words.length === zoneCount) return [words];
         }
-        return { status: allCorrect ? 'correct' : 'incorrect', message: allCorrect ? 'All correct' : 'Some wrong' };
+        return [answers.map(answer => String(answer ?? ''))];
+    },
+
+    checkWritingAnswer: function (activity, card) {
+        const input = card.querySelector('.game-writing-answer');
+        const answer = input?.value.trim();
+        if (!answer) return { status: 'incomplete', message: 'Type an answer first.' };
+        const expectedAnswers = Array.isArray(activity.correctAnswer) ? activity.correctAnswer : [activity.correctAnswer];
+        const normalize = value => String(value).trim().replace(/[.!?]+$/, '').toLowerCase();
+        const correct = expectedAnswers.some(expected => normalize(expected) === normalize(answer));
+        return { status: correct ? 'correct' : 'incorrect', message: correct ? 'You filled the blank correctly.' : 'Try another answer for the blank.' };
+    },
+
+    checkOrderingAnswer: function (activity, card) {
+        const selected = this.orderedAnswers?.[activity.id] || [];
+        if (!selected.length) return { status: 'incomplete', message: 'Put the words in order first.' };
+        const expected = Array.isArray(activity.correctAnswer) ? activity.correctAnswer[0] : activity.correctAnswer;
+        const normalize = value => String(value).replace(/[.!?]+$/, '').trim().replace(/\s+/g, ' ').toLowerCase();
+        const correct = normalize(selected.join(' ')) === normalize(expected);
+        return { status: correct ? 'correct' : 'incorrect', message: correct ? 'Your sentence is in the right order.' : 'Rearrange the words and try again.' };
     },
 
     /* ------------------------------------------------------------------ */
@@ -338,7 +523,6 @@ const GameModule = {
             const hintCount = this.hintCounts[activity.id] || 0;
             const hintLimit = this.hintLimits[activity.id] || 3;
             card.querySelector('.hint-btn').textContent = `Show Hint (${hintCount}/${hintLimit})`;
-            card.querySelector('.hint-btn').style.background = '#4ecdc4';
             card.querySelector('.hint-btn').disabled = false;
         }
 
@@ -349,11 +533,16 @@ const GameModule = {
             case 'drag-drop':
                 this.resetDragDropActivity(activity, card);
                 break;
-            case 'matching':
-                this.resetMatchingActivity(activity, card);
-                break;
             case 'ordering':
-                this.resetOrderingActivity(activity, card);
+            case 'reorder':
+                delete this.orderedAnswers?.[activity.id];
+                this.renderActivities();
+                break;
+            case 'roleplay':
+            case 'simulator':
+            case 'writing':
+                delete this.selectedAnswers?.[activity.id];
+                this.renderActivities();
                 break;
         }
     },
@@ -364,6 +553,8 @@ const GameModule = {
 
         zones.forEach(z => {
             z.textContent = 'Click to fill';
+            z.setAttribute('aria-label', `Blank ${Number(z.dataset.index) + 1}: unfilled`);
+            z.setAttribute('aria-pressed', 'false');
             z.classList.remove('correct', 'incorrect', 'selected');
             z.style.pointerEvents = 'auto';
         });
@@ -371,6 +562,7 @@ const GameModule = {
             o.style.display = 'block';
             o.style.opacity = '1';
             o.style.pointerEvents = 'auto';
+            o.classList.remove('selected');
         });
         this.selectedDropZone = null;
         const instr = card.querySelector('.click-instructions');
@@ -405,8 +597,8 @@ const GameModule = {
             card.querySelectorAll('.drop-zone').forEach(z => z.style.pointerEvents = 'none');
             const hint = card.querySelector('.hint-container');
             if (hint) hint.style.display = 'none';
-            RewardSystem.awardStar();
             RewardSystem.checkGameBadge();
+            App.showFeedback('Challenge cleared!', 'Correct! You completed this grammar challenge.', '', 'success', card);
         }
     },
 
@@ -414,20 +606,15 @@ const GameModule = {
     /*  PUBLIC RESET (called from UI)                                    */
     /* ------------------------------------------------------------------ */
     reset: function () {
-        console.log('GameModule.reset()');
         this.currentActivity = null;
         this.selectedDropZone = null;
         this.hasFailed = {};
         this.perfectCompletes = {};
-
-        fetch('reproducibility/data.json')
-            .then(r => r.json())
-            .then(data => data.gameActivities)
-            .catch(() => [] )
-            .then(acts => {
-                this.activities = acts;
-                this.renderActivities();
-            });
+        this.orderedAnswers = {};
+        this.selectedAnswers = {};
+        this.hintCounts = {};
+        this.renderActivities();
+        return Promise.resolve();
     }
 };
 

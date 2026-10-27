@@ -1,5 +1,6 @@
 const RewardSystem = {
     rewards: null,
+    ACTIVITY_POINTS: 10,
 
     // Initialize the reward system
     init: function (rewardsConfig) {
@@ -17,48 +18,48 @@ const RewardSystem = {
     },
 
     // Award stars based on proportional completion of module activities
-awardStar: function (activityId) {
-    // ---- ONLY process if we really completed a new activity in this module ----
-    const moduleId = App.currentGrammarModuleId;
-    const moduleCompletions = App.state.completedActivities[moduleId] || {};
-    const alreadyCompleted = moduleCompletions[activityId];
-    if (alreadyCompleted) return;               // <-- PREVENT DOUBLE AWARD
+    awardStar: function () {
+        const moduleId = App.currentGrammarModuleId;
+        if (!moduleId) return;
+        this.awardActivityPoints(this.ACTIVITY_POINTS);
 
-    // Ensure moduleStars exists
-    if (!App.state.moduleStars) {
-        App.state.moduleStars = {};
-    }
+        if (!App.state.moduleStars) {
+            App.state.moduleStars = {};
+        }
 
-    // Calculate NEW proportional stars for this module after this activity
-    const previousStars = App.state.moduleStars[moduleId] || 0;
-    const newProportionalStars = this.calculateModuleStars(moduleId);
+        const previousStars = App.state.moduleStars[moduleId] || 0;
+        const newProportionalStars = this.calculateModuleStars(moduleId);
+        const starsGained = Math.max(0, newProportionalStars - previousStars);
+        if (starsGained > 0) {
+            App.state.rewards.stars += starsGained;
+            App.state.moduleStars[moduleId] = newProportionalStars;
+        }
 
-    // Award difference in stars (only if increased)
-    const starsGained = Math.max(0, newProportionalStars - previousStars);
-    if (starsGained > 0) {
-        App.state.rewards.stars += starsGained;
-        App.state.moduleStars[moduleId] = newProportionalStars;
-    }
+        this.checkStarMilestones();
+        this.checkAllBadgeConditions();
 
-    // milestone / badge checks (no sound here)
-    this.checkStarMilestones();
-    this.checkAllBadgeConditions();
+        App.updateUI();
+        App.saveState();
+    },
 
-    // UI feedback + correct sound
-    if (activityId) {
-        this.showSuccessConfirmation(activityId);
-        App.playSound('correctSound');
-    }
+    awardActivityPoints: function (points) {
+        if (!App.state.rewards) {
+            App.state.rewards = { stars: 0, points: 0, badges: [] };
+        }
+        const amount = Number(points);
+        if (!Number.isFinite(amount) || amount <= 0) return;
+        App.state.rewards.points = (Number(App.state.rewards.points) || 0) + amount;
+        const moduleId = App.currentGrammarModuleId;
+        if (moduleId) {
+            App.state.modulePoints = App.state.modulePoints || {};
+            App.state.modulePoints[moduleId] = (Number(App.state.modulePoints[moduleId]) || 0) + amount;
+        }
+    },
 
-    App.updateUI();
-    App.saveState();
-},
-
-    // Mark activity as completed in state
-markActivityCompleted: function(activityId, category) {
-    App.state.completedActivities[activityId] = true; // Use flat structure
-    App.saveState();
-},
+    markActivityCompleted: function (activityId, category) {
+        App.state.completedActivities[activityId] = true;
+        App.saveState();
+    },
 
     // Show success confirmation for correct answer
     showSuccessConfirmation: function (activityId) {
@@ -66,12 +67,12 @@ markActivityCompleted: function(activityId, category) {
         if (activityElement) {
             const statusElement = activityElement.querySelector('.activity-status');
             if (statusElement) {
-                statusElement.textContent = 'Correct! ✅';
+                statusElement.textContent = 'Correct! ';
                 statusElement.className = 'activity-status completed';
             }
         }
         // Show modal feedback
-        App.showFeedback('Correct Answer!', 'Great job! You answered correctly and earned a star!', '⭐');
+        App.showFeedback('Correct Answer!', `Great job! You earned ${this.ACTIVITY_POINTS} learning points and made progress toward a module star.`, '', 'success');
     },
 
     // Check for star milestones
@@ -81,11 +82,11 @@ markActivityCompleted: function(activityId, category) {
             const currentStars = App.state.rewards.stars;
 
             if (currentStars === bronze) {
-                this.showAchievement('Bronze Star Achievement', 'You earned your first bronze star milestone!', '🥉');
+                this.showAchievement('Bronze Star Achievement', 'You earned your first bronze star milestone!', '');
             } else if (currentStars === silver) {
-                this.showAchievement('Silver Star Achievement', 'You reached the silver star milestone!', '🥈');
+                this.showAchievement('Silver Star Achievement', 'You reached the silver star milestone!', '');
             } else if (currentStars === gold) {
-                this.showAchievement('Gold Star Achievement', 'Congratulations! You reached the gold star milestone!', '🥇');
+                this.showAchievement('Gold Star Achievement', 'Congratulations! You reached the gold star milestone!', '');
             } else if (currentStars === platinum) {
                 this.showAchievement('Platinum Star Achievement', 'Amazing! You reached the platinum star milestone!', '🏅');
             }
@@ -97,6 +98,7 @@ markActivityCompleted: function(activityId, category) {
         this.checkLessonBadge();
         this.checkWritingBadge();
         this.checkGameBadge();
+        this.checkQuizBadge();
         this.checkSpellingBadge();
         this.checkTimeTravelerBadge();
     },
@@ -121,7 +123,8 @@ markActivityCompleted: function(activityId, category) {
         const categoryActivities = (category === 'writing' ? WritingModule.activities :
             category === 'game' ? GameModule.activities :
                 category === 'spelling' ? SpellingHelper.activities :
-                    category === 'lesson' ? LessonModule.data || [] : []
+                    category === 'lesson' ? LessonModule.data || [] :
+                        category === 'quiz' ? QuizModule.activities || [] : []
         ).map(activity => activity.id);
 
         // Get completions for current module
@@ -130,7 +133,7 @@ markActivityCompleted: function(activityId, category) {
 
         // Count how many activities are completed in the current module
         const completedCount = categoryActivities.reduce((count, id) => {
-            return count + (moduleCompletions[id] ? 1 : 0);
+            return count + (moduleCompletions[id] === 'completed' ? 1 : 0);
         }, 0);
 
         return completedCount >= requiredCount;
@@ -167,6 +170,21 @@ markActivityCompleted: function(activityId, category) {
             .forEach(badge => {
                 const alreadyAwarded = App.state.rewards.badges.some(b => b.id === badge.id);
                 if (!alreadyAwarded && gameCompleted / gameActivities > 0.5) {
+                    this.awardBadge(badge);
+                }
+            });
+    },
+
+    checkQuizBadge: function () {
+        const moduleId = App.currentGrammarModuleId;
+        if (!moduleId || !this.rewards?.badges || !QuizModule.activities?.length) return;
+
+        const completed = this.getCompletedCount('quiz', moduleId);
+        this.rewards.badges
+            .filter(badge => badge.moduleId === moduleId && this.getBadgeCondition(badge).includes('quiz'))
+            .forEach(badge => {
+                const alreadyAwarded = App.state.rewards.badges.some(earned => earned.id === badge.id);
+                if (!alreadyAwarded && completed / QuizModule.activities.length > 0.5) {
                     this.awardBadge(badge);
                 }
             });
@@ -213,12 +231,13 @@ markActivityCompleted: function(activityId, category) {
         const categoryActivities = (category === 'writing' ? WritingModule.activities :
             category === 'game' ? GameModule.activities :
                 category === 'spelling' ? SpellingHelper.activities :
-                    category === 'lesson' ? LessonModule.data || [] : []
+                    category === 'lesson' ? LessonModule.data || [] :
+                        category === 'quiz' ? QuizModule.activities || [] : []
         ).map(activity => activity.id);
 
         const moduleCompletions = App.state.completedActivities[moduleId] || {};
         return categoryActivities.reduce((count, id) => {
-            return count + (moduleCompletions[id] ? 1 : 0);
+            return count + (moduleCompletions[id] === 'completed' ? 1 : 0);
         }, 0);
     },
 
@@ -230,12 +249,14 @@ markActivityCompleted: function(activityId, category) {
         const totalActivities = (WritingModule.activities?.length || 0) +
             (GameModule.activities?.length || 0) +
             (SpellingHelper.activities?.length || 0) +
-            (LessonModule.data?.length || 0);
+            (LessonModule.data?.length || 0) +
+            (QuizModule.activities?.length || 0);
 
         const totalCompleted = this.getCompletedCount('writing', moduleId) +
             this.getCompletedCount('game', moduleId) +
             this.getCompletedCount('spelling', moduleId) +
-            this.getCompletedCount('lesson', moduleId);
+            this.getCompletedCount('lesson', moduleId) +
+            this.getCompletedCount('quiz', moduleId);
 
         const completionPercentage = totalCompleted / totalActivities;
 
@@ -254,16 +275,20 @@ markActivityCompleted: function(activityId, category) {
     awardBadge: function (badge) {
         const moduleId = App.currentGrammarModuleId;
         if (!moduleId) return;
+        const bonusPoints = Number.isFinite(Number(badge.points)) ? Math.max(0, Number(badge.points)) : 0;
 
         App.state.rewards.badges.push({
             id: badge.id,
             name: badge.name,
             icon: badge.icon,
             moduleId: moduleId,  // Track which module earned this badge
-            message: badge.message || badge.condition
+            message: badge.message || badge.condition,
+            points: bonusPoints
         });
 
-        this.showAchievement('New Badge Earned!', `🎉 ${badge.name}\n\n${badge.message || badge.condition}`, badge.icon);
+        this.awardActivityPoints(bonusPoints);
+        const pointsMessage = bonusPoints ? ` You also earned ${bonusPoints} bonus points.` : '';
+        this.showAchievement('New Badge Earned!', ` ${badge.name}\n\n${badge.message || badge.condition}${pointsMessage}`, badge.icon);
 
         // Check if all badges are collected for this module
         this.checkModuleBadgeCompletion(moduleId);
@@ -279,7 +304,7 @@ markActivityCompleted: function(activityId, category) {
         const earnedModuleBadges = (App.state.rewards.badges || []).filter(b => b.moduleId === moduleId);
 
         if (moduleBadges.length > 0 && earnedModuleBadges.length === moduleBadges.length) {
-            this.showAchievement('Module Mastery! 🏆', `You've unlocked all achievements for this module!`, '🏆');
+            this.showAchievement('Module Mastery! ', `You've unlocked all achievements for this module!`, '');
         }
     },
 
@@ -294,38 +319,91 @@ showAchievement: function (title, message, icon) {
         const starsContainer = document.getElementById('stars-container');
         if (!starsContainer) return;
 
-        starsContainer.innerHTML = '';
-
         const moduleId = App.currentGrammarModuleId;
-        if (!moduleId) return;
+        starsContainer.replaceChildren();
+        const summary = document.getElementById('rewards-summary');
+        const toggleStats = document.getElementById('rewards-toggle-stats');
+        if (!moduleId) {
+            if (summary) summary.textContent = 'Choose a learning adventure to see your rewards.';
+            if (toggleStats) {
+                const points = Number(App.state.rewards?.points) || 0;
+                toggleStats.textContent = `${points} pts`;
+                toggleStats.setAttribute('aria-label', `${points} learning points`);
+            }
+            return;
+        }
 
-        // Get module-specific stars
-        const moduleStars = App.state.moduleStars[moduleId] || 0;
-        
-        // Calculate max stars for this module based on total activities
         const totalActivities = (WritingModule.activities?.length || 0) +
             (GameModule.activities?.length || 0) +
             (SpellingHelper.activities?.length || 0) +
-            (LessonModule.data?.length || 0);
-
-        // Max 10 stars per module proportional to activities
+            (LessonModule.data?.length || 0) +
+            (QuizModule.activities?.length || 0);
         const maxStarsPerModule = Math.min(10, totalActivities);
+        const moduleStars = Math.min(
+            maxStarsPerModule,
+            Math.max(0, App.state.moduleStars[moduleId] || 0)
+        );
+        const moduleCompletions = App.state.completedActivities[moduleId] || {};
+        const completedCount = Object.values(moduleCompletions)
+            .filter(status => status === 'completed').length;
+        const totalPoints = Number(App.state.rewards?.points) || 0;
 
-        // Create stars based on module-specific count
-        for (let i = 0; i < moduleStars; i++) {
-            const star = document.createElement('span');
-            star.className = 'star';
-            star.textContent = '⭐';
-            starsContainer.appendChild(star);
+        if (summary) {
+            summary.textContent = `${totalPoints} learning points · ${moduleStars} of ${maxStarsPerModule} module stars`;
+        }
+        if (toggleStats) {
+            toggleStats.textContent = `${totalPoints} pts`;
+            toggleStats.setAttribute('aria-label', `${totalPoints} learning points`);
         }
 
-        // Add empty stars for remaining
-        for (let i = moduleStars; i < maxStarsPerModule; i++) {
+        const starList = document.createElement('div');
+        starList.className = 'star-list';
+        starList.setAttribute('role', 'img');
+        starList.setAttribute('aria-label', `${moduleStars} of ${maxStarsPerModule} module stars earned`);
+
+        for (let i = 0; i < maxStarsPerModule; i++) {
             const star = document.createElement('span');
-            star.className = 'star empty';
-            star.textContent = '☆';
-            starsContainer.appendChild(star);
+            const earned = i < moduleStars;
+            star.className = earned ? 'star' : 'star empty';
+            star.textContent = earned ? '★' : '☆';
+            star.setAttribute('aria-hidden', 'true');
+            starList.appendChild(star);
         }
+        starsContainer.appendChild(starList);
+
+        const progress = document.createElement('div');
+        progress.className = 'star-progress';
+        if (maxStarsPerModule === 0 || moduleStars === maxStarsPerModule) {
+            const message = document.createElement('p');
+            message.className = 'star-progress__message';
+            message.textContent = maxStarsPerModule === 0
+                ? 'Activities will appear here as you explore this module.'
+                : 'All module stars earned. Keep learning to collect more points.';
+            progress.appendChild(message);
+        } else {
+            const previousThreshold = Math.ceil(moduleStars * totalActivities / maxStarsPerModule);
+            const nextThreshold = Math.ceil((moduleStars + 1) * totalActivities / maxStarsPerModule);
+            const activitiesToNextStar = Math.max(1, nextThreshold - completedCount);
+            const segmentSize = Math.max(1, nextThreshold - previousThreshold);
+            const segmentProgress = Math.max(0, Math.min(segmentSize, completedCount - previousThreshold));
+            const percent = Math.round((segmentProgress / segmentSize) * 100);
+            const message = document.createElement('p');
+            message.className = 'star-progress__message';
+            message.textContent = `Complete ${activitiesToNextStar} more ${activitiesToNextStar === 1 ? 'activity' : 'activities'} to earn your next star.`;
+            const track = document.createElement('div');
+            track.className = 'star-progress__track';
+            track.setAttribute('role', 'progressbar');
+            track.setAttribute('aria-label', 'Progress toward your next star');
+            track.setAttribute('aria-valuemin', '0');
+            track.setAttribute('aria-valuemax', '100');
+            track.setAttribute('aria-valuenow', String(percent));
+            const fill = document.createElement('div');
+            fill.className = 'star-progress__fill';
+            fill.style.width = `${percent}%`;
+            track.appendChild(fill);
+            progress.append(message, track);
+        }
+        starsContainer.appendChild(progress);
     },
 
     // Calculate proportional stars based on module completion
@@ -333,20 +411,18 @@ showAchievement: function (title, message, icon) {
         if (!moduleId) return 0;
 
         const moduleCompletions = App.state.completedActivities[moduleId] || {};
-        const completedCount = Object.keys(moduleCompletions).length;
+        const completedCount = Object.values(moduleCompletions).filter(status => status === 'completed').length;
 
         const totalActivities = (WritingModule.activities?.length || 0) +
             (GameModule.activities?.length || 0) +
             (SpellingHelper.activities?.length || 0) +
-            (LessonModule.data?.length || 0);
+            (LessonModule.data?.length || 0) +
+            (QuizModule.activities?.length || 0);
 
         if (totalActivities === 0) return 0;
 
-        // Award up to 10 stars proportionally
-        const completionPercentage = completedCount / totalActivities;
-        const starsEarned = Math.floor(completionPercentage * 10);
-        
-        return starsEarned;
+        const maxStars = Math.min(10, totalActivities);
+        return Math.floor((completedCount / totalActivities) * maxStars);
     },
 
     // Update the badges display
@@ -391,7 +467,7 @@ showAchievement: function (title, message, icon) {
                 const badgeElement = document.createElement('div');
                 badgeElement.className = 'badge locked';
                 badgeElement.title = `Locked: ${rewardBadge.name}\n${rewardBadge.condition}`;
-                badgeElement.innerHTML = `<span class="badge-icon">🔒</span><span class="badge-label">${rewardBadge.name}</span>`;
+                badgeElement.innerHTML = `<span class="badge-icon"></span><span class="badge-label">${rewardBadge.name}</span>`;
                 badgesGrid.appendChild(badgeElement);
             }
         });
@@ -409,11 +485,13 @@ showAchievement: function (title, message, icon) {
 
     // Reset all rewards
 resetRewards: function() {
-    console.log('🔄 RewardSystem.resetRewards() - ONLY clearing rewards'); // ADD THIS
+    console.log(' RewardSystem.resetRewards() - ONLY clearing rewards'); // ADD THIS
     App.state.rewards = {
         stars: 0,
+        points: 0,
         badges: []
     };
+    App.state.modulePoints = {};
     // DO NOT clear App.state.completedActivities here!
     App.saveState();
     this.updateStarsDisplay();

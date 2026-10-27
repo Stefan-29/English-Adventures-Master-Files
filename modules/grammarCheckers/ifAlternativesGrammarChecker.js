@@ -228,7 +228,4 @@ const ifAlternativesGrammarChecker = {
     }
 };
 
-// Export for use in the main application
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = ifAlternativesGrammarChecker;
-}
+export default ifAlternativesGrammarChecker;

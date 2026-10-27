@@ -3,7 +3,7 @@ const WritingModule = {
     activities: [],
     p5Instances: [],
     currentChecker: null,
-    imageCache: {}, // Track loaded images
+    checkerLoad: Promise.resolve(),
     imageDataCache: {}, // Track full image data (credit, URLs, etc)
     hintCounts: {}, // Track hint usage per activity
     maxHints: 2, // Maximum hints per writing activity
@@ -11,65 +11,144 @@ const WritingModule = {
     init: function (activities) {
         this.activities = activities || [];
         this.p5Instances = [];
-        this.imageCache = {};
         this.imageDataCache = {};
         this.hintCounts = {};
-        this.loadGrammarChecker();
+        this.checkerLoad = this.loadGrammarChecker();
         this.preloadActivityImages(); // Start loading images async
         setTimeout(() => this.renderActivities(), 50);
     },
 
     preloadActivityImages: function () {
-        // Load images in background without blocking UI
+        const moduleId = App.currentGrammarModuleId;
         this.activities.forEach(activity => {
-            ImageService.getImageData(activity).then(imageData => {
-                this.imageCache[activity.id] = imageData.imageUrl;
+            ImageService.getImageData(activity, moduleId).then(imageData => {
                 this.imageDataCache[activity.id] = imageData;
-                // Update image if card already rendered
-                const img = document.querySelector(`#${activity.id} .activity-image`);
-                if (img && img.src !== imageData.imageUrl) {
-                    img.src = imageData.imageUrl;
+                const card = document.getElementById(activity.id);
+                const banner = card?.querySelector('.activity-banner');
+                if (banner) {
+                    banner.outerHTML = this.createImageBanner(activity, imageData);
+                    this.bindImageFallback(card.querySelector('.activity-image'));
                 }
-                // Update attribution if card already rendered
-                const attribution = document.querySelector(`#${activity.id} .image-attribution`);
-                if (attribution) {
-                    attribution.innerHTML = WritingModule.createAttributionHtml(imageData);
-                }
+            }).catch(error => {
+                console.error(`[Writing] Could not load image for ${activity.id}:`, error);
             });
         });
     },
 
-    /**
-     * Create HTML for proper Unsplash attribution
-     */
-    createAttributionHtml: function(imageData) {
-        if (!imageData.credit || imageData.credit === 'Generated Placeholder') {
+    escapeHtml: function (value) {
+        return String(value || '').replace(/[&<>"']/g, character => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+        })[character]);
+    },
+
+    createAttributionHtml: function (imageData) {
+        if (!imageData.credit && !imageData.licenseName) {
             return '';
         }
-        
-        if (!imageData.photographerUrl) {
-            return `<span class="image-credit">Photo by ${imageData.credit}</span>`;
+
+        const escape = this.escapeHtml;
+        const safeUrl = value => ImageService.getSafeHttpUrl(value);
+        const credit = escape(imageData.credit || 'Image contributor');
+        const photographerUrl = safeUrl(imageData.photographerUrl);
+        const photoUrl = safeUrl(imageData.photoUrl);
+        const licenseUrl = safeUrl(imageData.licenseUrl);
+        const sourceName = imageData.sourceName ||
+            (photoUrl?.includes('unsplash.com') ? 'Unsplash' : 'Image source');
+        const author = photographerUrl
+            ? `<a href="${escape(photographerUrl)}" target="_blank" rel="noopener noreferrer">${credit}</a>`
+            : credit;
+        let html = `<span class="image-credit">Photo by ${author}`;
+        if (photoUrl) {
+            html += ` · <a href="${escape(photoUrl)}" target="_blank" rel="noopener noreferrer">${escape(sourceName)}</a>`;
         }
-        
-        let html = `<span class="image-credit">Photo by <a href="${imageData.photographerUrl}" target="_blank" rel="noopener noreferrer">${imageData.credit}</a>`;
-        if (imageData.photoUrl) {
-            html += ` on <a href="${imageData.photoUrl}" target="_blank" rel="noopener noreferrer">Unsplash</a>`;
+        if (imageData.licenseName) {
+            const license = escape(imageData.licenseName);
+            html += licenseUrl
+                ? ` · <a href="${escape(licenseUrl)}" target="_blank" rel="noopener noreferrer">${license}</a>`
+                : ` · ${license}`;
         }
         html += '</span>';
         return html;
     },
 
+    createImageBanner: function (activity, imageData = {}) {
+        const imageUrl = ImageService.isSafeImageUrl(imageData.imageUrl)
+            ? imageData.imageUrl
+            : 'assets/fallback.jpg';
+        const photoUrl = ImageService.getSafeHttpUrl(imageData.photoUrl);
+        const alt = imageUrl === 'assets/fallback.jpg'
+            ? 'Image placeholder for this writing activity'
+            : activity.imageAlt || imageData.description ||
+                `Image related to ${activity.imageQuery || activity.question}`;
+        const image = `<img src="${this.escapeHtml(imageUrl)}" alt="${this.escapeHtml(alt)}" class="activity-image" data-activity-id="${this.escapeHtml(activity.id)}" loading="lazy" decoding="async">`;
+        const linkedImage = photoUrl
+            ? `<a href="${this.escapeHtml(photoUrl)}" target="_blank" rel="noopener noreferrer" class="image-link" aria-label="View image source for this writing activity">${image}</a>`
+            : image;
+        const attribution = this.createAttributionHtml(imageData);
+        const caption = attribution
+            ? `<figcaption class="image-attribution">${attribution}</figcaption>`
+            : '';
+
+        return `
+            <figure class="activity-banner">
+                ${linkedImage}
+                ${caption}
+            </figure>
+        `;
+    },
+
+    bindImageFallback: function (image) {
+        if (!image) return;
+        image.addEventListener('error', () => {
+            if (image.dataset.fallbackApplied) return;
+            image.dataset.fallbackApplied = 'true';
+            image.src = 'assets/fallback.jpg';
+        });
+    },
+
     loadGrammarChecker: async function () {
         const checkerFile = App.config?.grammarChecker;
-        if (!checkerFile) return console.warn('No grammarChecker in config');
+        this.currentChecker = null;
+        if (!checkerFile) {
+            console.warn('No grammarChecker in config');
+            return;
+        }
 
         try {
             const module = await import(`./grammarCheckers/${checkerFile}`);
-            this.currentChecker = Object.values(module)[0];
+            let checker = module.default?.check
+                ? module.default
+                : Object.values(module).find(value => typeof value?.check === 'function');
+            if (!checker && typeof module.default?.validateActivity === 'function') {
+                const validator = module.default;
+                checker = {
+                    name: validator.name,
+                    check: (text) => {
+                        const validation = validator.validateActivity('writing', text);
+                        return {
+                            status: validation.isValid ? 'correct' : 'missing',
+                            title: validation.isValid ? 'Trail Cleared!' : 'Keep Exploring',
+                            message: validation.isValid
+                                ? validator.getFeedback?.(validation).overall || 'Your grammar looks good!'
+                                : validator.getFeedback?.(validation).overall || 'Review the prompt and try again.'
+                        };
+                    }
+                };
+            }
+            if (!checker) {
+                throw new Error(`No checker export found in ${checkerFile}`);
+            }
+            if (App.config?.grammarChecker === checkerFile) {
+                this.currentChecker = checker;
+            }
             console.log(`Checker loaded: ${this.currentChecker?.name || checkerFile}`);
         } catch (e) {
             console.error('Failed to load checker:', checkerFile, e);
-            this.currentChecker = null;
+            if (App.config?.grammarChecker === checkerFile) this.currentChecker = null;
         }
     },
 
@@ -108,33 +187,8 @@ const WritingModule = {
             </div>
         `;
 
-        // Use cached image or placeholder while loading
-        const cachedImage = this.imageCache[activity.id];
-        const imageSrc = cachedImage || 'assets/fallback.jpg';
         const imageData = this.imageDataCache[activity.id] || {};
-        
-        // Create image with hotlink (if available)
-        let imageHtml;
-        if (imageData.photoUrl) {
-            // Hotlink to Unsplash photo
-            imageHtml = `
-                <a href="${imageData.photoUrl}" target="_blank" rel="noopener noreferrer" class="image-link">
-                    <img src="${imageSrc}" alt="Activity" class="activity-image" 
-                         data-activity-id="${activity.id}"
-                         onerror="this.src='assets/fallback.jpg'">
-                </a>
-                <div class="image-attribution">${this.createAttributionHtml(imageData)}</div>
-            `;
-        } else {
-            imageHtml = `
-                <div class="image-container">
-                    <img src="${imageSrc}" alt="Activity" class="activity-image" 
-                         data-activity-id="${activity.id}"
-                         onerror="this.src='assets/fallback.jpg'">
-                    <div class="image-attribution">${this.createAttributionHtml(imageData)}</div>
-                </div>
-            `;
-        }
+        const imageHtml = this.createImageBanner(activity, imageData);
 
         const hintHtml = activity.hint ? `
             <div class="activity-hint" id="hint-${activity.id}" style="display:none">
@@ -165,6 +219,7 @@ const WritingModule = {
                 <button class="btn skip-btn">Skip</button>
             </div>
         `;
+        this.bindImageFallback(card.querySelector('.activity-image'));
 
         // Hint button
         const hintBtn = card.querySelector('.hint-btn');
@@ -172,7 +227,7 @@ const WritingModule = {
         if (hintBtn && hintSec) {
             this.hintCounts[activity.id] = this.hintCounts[activity.id] || 0;
             const hintCount = this.hintCounts[activity.id];
-            hintBtn.textContent = hintCount >= this.maxHints ? '💡 Hints Exhausted' : `💡 Show Hint (${hintCount}/${this.maxHints})`;
+            hintBtn.textContent = hintCount >= this.maxHints ? ' Hints Exhausted' : ` Show Hint (${hintCount}/${this.maxHints})`;
             hintBtn.disabled = hintCount >= this.maxHints;
             hintBtn.style.background = hintCount >= this.maxHints ? '#6c757d' : '#4ecdc4';
 
@@ -181,7 +236,7 @@ const WritingModule = {
 
                 // Check if hints are exhausted
                 if (hintState >= this.maxHints) {
-                    App.showFeedback('Hints Exhausted', 'You\'ve used all available hints for this activity. Try solving it yourself!', '❌');
+                    App.showFeedback('Hints Exhausted', 'You\'ve used all available hints for this activity. Try solving it yourself!', '');
                     App.playSound('wrongSound');
                     return;
                 }
@@ -192,45 +247,27 @@ const WritingModule = {
                     hintSec.style.display = 'block';
                     const newCount = hintState + 1;
                     this.hintCounts[activity.id] = newCount;
-                    hintBtn.textContent = newCount >= this.maxHints ? '💡 Hints Exhausted' : `💡 Hide Hint (${newCount}/${this.maxHints})`;
+                    hintBtn.textContent = newCount >= this.maxHints ? ' Hints Exhausted' : ` Hide Hint (${newCount}/${this.maxHints})`;
                     hintBtn.style.background = newCount >= this.maxHints ? '#6c757d' : '#ff6b6b';
                     App.playSound('hintSound');
 
                     // If this is the last hint, show warning
                     if (newCount >= this.maxHints) {
                         setTimeout(() => {
-                            App.showFeedback('Last Hint Used', 'This was your final hint. Complete the activity without further help!', '⚠️');
+                            App.showFeedback('Last Hint Used', 'This was your final hint. Complete the activity without further help!', '');
                         }, 1000);
                     }
                 } else {
                     hintSec.style.display = 'none';
                     const currentCount = this.hintCounts[activity.id];
-                    hintBtn.textContent = currentCount >= this.maxHints ? '💡 Hints Exhausted' : `💡 Show Hint (${currentCount}/${this.maxHints})`;
+                    hintBtn.textContent = currentCount >= this.maxHints ? ' Hints Exhausted' : ` Show Hint (${currentCount}/${this.maxHints})`;
                     hintBtn.style.background = currentCount >= this.maxHints ? '#6c757d' : '#4ecdc4';
                 }
             };
         }
 
-        // Track image download when viewed (Unsplash requirement for production)
-        const imageLink = card.querySelector('.image-link');
-        const activityImage = card.querySelector('.activity-image');
-        if (imageData.downloadUrl) {
-            // Track when image is loaded
-            if (activityImage) {
-                activityImage.addEventListener('load', () => {
-                    ImageService.trackDownload(imageData.downloadUrl);
-                }, { once: true });
-            }
-            // Also track when hotlink is clicked
-            if (imageLink) {
-                imageLink.addEventListener('click', () => {
-                    ImageService.trackDownload(imageData.downloadUrl);
-                });
-            }
-        }
-
         // Sentence starters with p5
-        if (activity.sentenceStarters?.length) {
+        if (activity.sentenceStarters?.length && typeof window.p5 === 'function') {
             const canvasDiv = card.querySelector(`#canvas-${activity.id}`);
             const sketch = (p) => {
                 p.setup = () => {
@@ -255,6 +292,16 @@ const WritingModule = {
                 };
             };
             this.p5Instances.push(new p5(sketch));
+        } else if (activity.sentenceStarters?.length) {
+            const canvasDiv = card.querySelector(`#canvas-${activity.id}`);
+            const list = document.createElement('ul');
+            list.className = 'sentence-starters__list';
+            activity.sentenceStarters.forEach(starter => {
+                const item = document.createElement('li');
+                item.textContent = starter;
+                list.appendChild(item);
+            });
+            canvasDiv.replaceWith(list);
         }
 
         // Submit
@@ -269,7 +316,7 @@ const WritingModule = {
 
             const text = textarea.value.trim();
             if (!text) {
-                App.showFeedback('Write Something', 'Please write something first!', '✏️');
+                App.showFeedback('Write Something', 'Please write something first!', '');
                 submitting = false;
                 submitBtn.disabled = false;
                 return;
@@ -279,8 +326,8 @@ const WritingModule = {
             if (result.status === 'correct') {
                 this.completeActivity(card, textarea, activity.id, text);
             } else {
-                const icon = result.status === 'too-short' ? '✏️' : result.status === 'grammar' ? '❌' : '📝';
-                App.showFeedback(result.title || 'Try Again', result.message, icon);
+                const icon = result.status === 'too-short' ? '' : result.status === 'grammar' ? '' : '';
+                App.showFeedback(result.title || 'Try Again', result.message, icon, 'error', submitBtn);
             }
 
             submitting = false;
@@ -296,10 +343,24 @@ const WritingModule = {
     },
 
     checkAnswer: async function (activity, text) {
+        await this.checkerLoad;
         if (!this.currentChecker) {
             return { status: 'error', title: 'Checker Missing', message: 'Grammar checker not loaded.' };
         }
-        return this.currentChecker.check(text, activity);
+        const result = this.currentChecker.check(text, activity);
+        if (!result || typeof result !== 'object') {
+            return { status: 'error', title: 'Review Unavailable', message: 'The writing checker returned an invalid result. Please try again.' };
+        }
+
+        if (result.ok === true || ['correct', 'good', 'ok', 'success'].includes(result.status)) {
+            return { ...result, status: 'correct' };
+        }
+        return {
+            ...result,
+            status: result.status || 'incorrect',
+            title: result.title || 'Keep Exploring',
+            message: result.message || 'Review the prompt and try another sentence.'
+        };
     },
 
     completeActivity: function (card, textarea, id, answer) {
@@ -311,8 +372,7 @@ const WritingModule = {
         card.querySelector('.activity-hint')?.remove();
 
         App.markActivityCompleted(id);
-        RewardSystem.awardStar();
-        App.showFeedback('Excellent!', 'Great job using the correct tenses!', '🎉');
+        App.showFeedback('Excellent!', 'Great job using the correct tenses!', '', 'success', card);
     },
 
     reset: function () {

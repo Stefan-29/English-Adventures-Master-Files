@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Masuk atau buat akun English Adventures.">
+    <title>Masuk | English Adventures</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+    <main class="auth-page">
+        <header class="auth-header">
+            <a class="auth-brand" href="index.html">English Adventures</a>
+            <button class="link-btn auth-language" id="language-toggle" type="button" aria-label="Switch language">English</button>
+        </header>
+
+        <section class="auth-card" aria-labelledby="auth-title">
+            <p class="auth-eyebrow" data-i18n="eyebrow">Belajar bahasa Inggris, selangkah demi selangkah</p>
+            <h1 id="auth-title" data-i18n="title">Selamat datang</h1>
+            <p class="auth-intro" data-i18n="intro">Masuk atau buat akun untuk melanjutkan belajar.</p>
+
+            <div class="auth-tabs" role="tablist" aria-label="Autentikasi">
+                <button id="tab-login" class="auth-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-login" data-i18n="loginTab">Masuk</button>
+                <button id="tab-signup" class="auth-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-signup" data-i18n="signupTab">Buat akun</button>
+            </div>
+
+            <p id="auth-message" class="auth-message" role="status" aria-live="polite" hidden></p>
+
+            <section id="panel-login" class="auth-panel" role="tabpanel" aria-labelledby="tab-login">
+                <form id="login-form" novalidate>
+                    <label for="login-email" data-i18n="email">Email</label>
+                    <input id="login-email" name="email" type="email" autocomplete="email" required maxlength="254">
+                    <label for="login-password" data-i18n="password">Kata sandi</label>
+                    <input id="login-password" name="password" type="password" autocomplete="current-password" required minlength="10" maxlength="128">
+                    <button class="auth-submit" type="submit" data-i18n="loginButton">Masuk</button>
+                </form>
+                <button class="auth-text-button" id="show-reset" type="button" data-i18n="forgot">Lupa kata sandi?</button>
+                <div class="auth-divider"><span data-i18n="or">atau</span></div>
+                <label class="auth-check auth-adult-check">
+                    <input id="google-adult" type="checkbox">
+                    <span data-i18n="adultConfirm">Saya berusia 18 tahun atau lebih untuk menggunakan Google.</span>
+                </label>
+                <button class="auth-google" id="google-login" type="button" data-i18n="google">Lanjutkan dengan Google</button>
+            </section>
+
+            <section id="panel-signup" class="auth-panel" role="tabpanel" aria-labelledby="tab-signup" hidden>
+                <form id="signup-form" novalidate>
+                    <label for="signup-name" data-i18n="displayName">Nama tampilan</label>
+                    <input id="signup-name" name="display_name" type="text" autocomplete="name" required maxlength="100">
+                    <label for="signup-email" data-i18n="email">Email</label>
+                    <input id="signup-email" name="email" type="email" autocomplete="email" required maxlength="254">
+                    <label for="signup-password" data-i18n="password">Kata sandi</label>
+                    <input id="signup-password" name="password" type="password" autocomplete="new-password" required minlength="10" maxlength="128" aria-describedby="password-help">
+                    <small id="password-help" data-i18n="passwordHelp">Gunakan minimal 10 karakter.</small>
+                    <label class="auth-check">
+                        <input id="is-minor" name="is_minor" type="checkbox">
+                        <span data-i18n="minor">Saya berusia di bawah 18 tahun.</span>
+                    </label>
+                    <div id="guardian-fields" hidden>
+                        <label for="guardian-email" data-i18n="guardianEmail">Email wali</label>
+                        <input id="guardian-email" name="guardian_email" type="email" autocomplete="email" maxlength="254">
+                        <label class="auth-check">
+                            <input id="guardian-consent" name="guardian_consent" type="checkbox">
+                            <span data-i18n="guardianConsent">Wali saya mengetahui dan menyetujui pembuatan akun ini.</span>
+                        </label>
+                    </div>
+                    <p class="auth-privacy" data-i18n="privacyNotice">Kami hanya meminta informasi yang diperlukan. Lihat kebijakan privasi sebelum mendaftar.</p>
+                    <button class="auth-submit" type="submit" data-i18n="signupButton">Buat akun</button>
+                </form>
+                <div class="auth-divider"><span data-i18n="or">atau</span></div>
+                <p class="auth-adult-note" data-i18n="googleAdultOnly">Google hanya tersedia untuk pengguna berusia 18 tahun atau lebih. Pengguna di bawah 18 tahun harus mendaftar melalui formulir dengan persetujuan wali.</p>
+                <label class="auth-check auth-adult-check">
+                    <input id="google-signup-adult" type="checkbox">
+                    <span data-i18n="adultConfirm">Saya berusia 18 tahun atau lebih untuk menggunakan Google.</span>
+                </label>
+                <button class="auth-google" id="google-signup" type="button" data-i18n="google">Lanjutkan dengan Google (18+)</button>
+            </section>
+
+            <section id="panel-reset" class="auth-panel" role="tabpanel" aria-labelledby="auth-title" hidden>
+                <h2 data-i18n="resetTitle">Atur ulang kata sandi</h2>
+                <form id="reset-form" novalidate>
+                    <label for="reset-email" data-i18n="email">Email</label>
+                    <input id="reset-email" name="email" type="email" autocomplete="email" required maxlength="254">
+                    <button class="auth-submit" type="submit" data-i18n="resetButton">Kirim tautan pemulihan</button>
+                </form>
+                <button class="auth-text-button" id="back-to-login" type="button" data-i18n="backLogin">Kembali ke masuk</button>
+            </section>
+
+            <section id="panel-update-password" class="auth-panel" role="tabpanel" aria-labelledby="auth-title" hidden>
+                <h2 data-i18n="newPasswordTitle">Buat kata sandi baru</h2>
+                <form id="update-password-form" novalidate>
+                    <label for="new-password" data-i18n="newPassword">Kata sandi baru</label>
+                    <input id="new-password" name="password" type="password" autocomplete="new-password" required minlength="10" maxlength="128">
+                    <button class="auth-submit" type="submit" data-i18n="savePassword">Simpan kata sandi</button>
+                </form>
+            </section>
+
+            <p class="auth-terms">
+                <a href="legal/privacy-policy.html" data-i18n="privacy">Kebijakan privasi</a>
+                <span aria-hidden="true">·</span>
+                <a href="legal/terms-of-service.html" data-i18n="terms">Ketentuan layanan</a>
+            </p>
+        </section>
+    </main>
+    <script type="module" src="modules/authPage.js"></script>
+</body>
+</html>

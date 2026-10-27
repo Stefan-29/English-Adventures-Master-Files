@@ -52,4 +52,4 @@ const shallWillWouldHadBetterChecker = {
   }
 };
 
-module.exports = shallWillWouldHadBetterChecker;
+export default shallWillWouldHadBetterChecker;

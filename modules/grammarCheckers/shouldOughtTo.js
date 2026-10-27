@@ -56,4 +56,4 @@ const shouldOughtToChecker = {
   }
 };
 
-module.exports = shouldOughtToChecker;
+export default shouldOughtToChecker;

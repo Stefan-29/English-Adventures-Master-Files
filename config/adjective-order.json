@@ -142,7 +142,7 @@
   },
 
   "dataFile": "reproducibility/adjective-order.json",
-  "grammarChecker": "adjectiveOrder.js",
+  "grammarChecker": "openWritingChecker.js",
 
   "gameSettings": {
     "timeLimit": 30,

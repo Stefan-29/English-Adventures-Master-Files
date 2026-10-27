@@ -68,7 +68,7 @@ const container = document.getElementById('spelling-module-activities');
             const hintText = document.createElement('div');
             hintText.className = 'hint-text';
             hintText.style.cssText = 'color: white; font-size: 1.1rem; background: transparent; display: block; padding: 8px; margin: 5px 0; border-left: 4px solid #ef4444;';
-            hintText.innerHTML = `<strong>💡 Hint:</strong> ${activity.hint || 'No hint available'}`;
+            hintText.innerHTML = `<strong> Hint:</strong> ${activity.hint || 'No hint available'}`;
             hintContainer.appendChild(hintText);
             console.log('Created hintText with content:', hintText.innerHTML);
 
@@ -113,7 +113,7 @@ const container = document.getElementById('spelling-module-activities');
             }
             const hintsUsed = hintState.hint || 0;
             hintButton.disabled = hintsUsed >= this.maxHints;
-            hintButton.textContent = hintsUsed >= this.maxHints ? '💡 Hints Exhausted' : `💡 Show Hint`;
+            hintButton.textContent = hintsUsed >= this.maxHints ? ' Hints Exhausted' : ` Show Hint`;
             hintButton.style.background = hintsUsed >= this.maxHints ? '#6c757d' : '#4ecdc4';
             
             const revealLetterButton = document.createElement('button');
@@ -175,7 +175,7 @@ const container = document.getElementById('spelling-module-activities');
 
         // Check if hints are exhausted
         if (hintsUsed >= this.maxHints) {
-            App.showFeedback('Hints Exhausted', 'You\'ve used all available hints for this activity. Try solving it yourself!', '❌');
+            App.showFeedback('Hints Exhausted', 'You\'ve used all available hints for this activity. Try solving it yourself!', '');
             App.playSound('wrongSound');
             return;
         }
@@ -186,7 +186,7 @@ const container = document.getElementById('spelling-module-activities');
         }
 
         console.log('Activity hint:', activity.hint);
-        hintText.innerHTML = `<strong>💡 Hint:</strong> ${activity.hint || 'No hint available'}`;
+        hintText.innerHTML = `<strong> Hint:</strong> ${activity.hint || 'No hint available'}`;
         hintText.style.cssText = 'color: white; font-size: 1.1rem; background: transparent; display: block; padding: 8px; margin: 5px 0; border-left: 4px solid #ef4444;';
         console.log('Updated hintText content:', hintText.innerHTML);
 
@@ -201,14 +201,14 @@ const container = document.getElementById('spelling-module-activities');
             // If this is the last hint, show warning
             if (hintsUsed + 1 >= this.maxHints) {
                 setTimeout(() => {
-                    App.showFeedback('Last Hint Used', 'This was your final hint. Complete the activity without further help!', '⚠️');
+                    App.showFeedback('Last Hint Used', 'This was your final hint. Complete the activity without further help!', '');
                 }, 1000);
             }
         } else {
             console.log('Hiding hint container');
             hintContainer.style.display = 'none';
             const newCount = this.hintCounts[activity.id].hint || 0;
-            hintButton.textContent = newCount >= this.maxHints ? '💡 Hints Exhausted' : `💡 Show Hint (${newCount}/${this.maxHints})`;
+            hintButton.textContent = newCount >= this.maxHints ? ' Hints Exhausted' : ` Show Hint (${newCount}/${this.maxHints})`;
             hintButton.style.background = newCount >= this.maxHints ? '#6c757d' : '#4ecdc4';
         }
     },
@@ -221,7 +221,7 @@ const container = document.getElementById('spelling-module-activities');
 
         // Check if reveals are exhausted
         if (revealCount >= this.maxRevealLetters) {
-            App.showFeedback('No More Letter Reveals', 'You\'ve used all letter reveals!', '❌');
+            App.showFeedback('No More Letter Reveals', 'You\'ve used all letter reveals!', '');
             App.playSound('wrongSound');
             return;
         }
@@ -254,7 +254,7 @@ const container = document.getElementById('spelling-module-activities');
                 revealBtn.textContent = 'Letter Revealed';
                 revealBtn.style.background = '#6c757d';
                 setTimeout(() => {
-                    App.showFeedback('Letter Reveals Done', 'That\'s your only letter reveal. Try to solve it now!', '⚠️');
+                    App.showFeedback('Letter Reveals Done', 'That\'s your only letter reveal. Try to solve it now!', '');
                 }, 500);
             } else {
                 revealBtn.textContent = `Reveal Letter (${newRevealCount}/${this.maxRevealLetters})`;
@@ -266,12 +266,12 @@ const container = document.getElementById('spelling-module-activities');
                 hintBtn.classList.remove('hidden');
                 const hintsUsed = hintState.hint || 0;
                 hintBtn.disabled = hintsUsed >= this.maxHints;
-                hintBtn.textContent = hintsUsed >= this.maxHints ? '💡 Hints Exhausted' : `💡 Show Hint`;
+                hintBtn.textContent = hintsUsed >= this.maxHints ? ' Hints Exhausted' : ` Show Hint`;
                 hintBtn.style.background = hintsUsed >= this.maxHints ? '#6c757d' : '#4ecdc4';
-                App.showFeedback('Hint Available!', 'You\'ve revealed a letter. The hint is now available!', '💡');
+                App.showFeedback('Hint Available!', 'You\'ve revealed a letter. The hint is now available!', '');
             }
         } else {
-            App.showFeedback('No More Hints', 'Try checking your answer now!', '❌');
+            App.showFeedback('No More Hints', 'Try checking your answer now!', '');
             App.playSound('wrongSound');
         }
     },
@@ -288,7 +288,7 @@ const container = document.getElementById('spelling-module-activities');
 
         if (!allFilled) {
             if (!silent) {
-                App.showFeedback('Incomplete', 'Please fill in all the missing letters.', '✏️');
+                App.showFeedback('Incomplete', 'Please fill in all the missing letters.', '', 'info', activityCard);
                 App.playSound('wrongSound');
             }
             return { status: 'incomplete', message: 'Not all letters filled' };
@@ -309,7 +309,7 @@ const container = document.getElementById('spelling-module-activities');
 
         if (userAnswer === correctAnswer.toLowerCase()) {
             if (!silent) {
-                App.showFeedback('Perfect!', `Correct! The word is "${activity.word}".`, '🎉');
+                App.showFeedback('Perfect!', `Correct! The word is "${activity.word}".`, '', 'success', activityCard);
                 if (!hasPreviouslyFailed && this.hintCounts[activity.id].reveal === 0) {
                     this.perfectCompletes[activity.id] = true;
                 }
@@ -321,7 +321,6 @@ const container = document.getElementById('spelling-module-activities');
                     input.style.color = 'green';
                 });
                 activityCard.querySelectorAll('.btn').forEach(button => button.disabled = true);
-                RewardSystem.awardStar(activity.id);
                 RewardSystem.checkSpellingBadge();
             }
             return { status: 'correct', message: 'Correct spelling' };
@@ -355,14 +354,14 @@ const container = document.getElementById('spelling-module-activities');
                     revealBtn.style.background = '#f59e0b';
                     if (!silent) {
                         setTimeout(() => {
-                            App.showFeedback(`Letter Reveal Unlocked!`, `You've made ${this.attemptThreshold} attempts. You can now reveal 1 letter!`, '🔓');
+                            App.showFeedback(`Letter Reveal Unlocked!`, `You've made ${this.attemptThreshold} attempts. You can now reveal 1 letter!`, '');
                         }, 500);
                     }
                 }
             }
 
             if (!silent) {
-                App.showFeedback('Try Again', 'Some letters are incorrect. Review and try again!', '🔄');
+                App.showFeedback('Try Again', 'Some letters are incorrect. Review and try again!', '', 'error', activityCard);
                 App.playSound('wrongSound');
             }
             return { status: 'incorrect', message: 'Incorrect spelling' };
@@ -370,7 +369,7 @@ const container = document.getElementById('spelling-module-activities');
     },
 
     reset: function () {
-        console.log('🔄 SpellingHelper.reset() - NOT clearing App.state');
+        console.log(' SpellingHelper.reset() - NOT clearing App.state');
         this.hintCounts = {};
         this.hasFailed = {};
         this.perfectCompletes = {};
