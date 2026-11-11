@@ -8,7 +8,7 @@ const output = path.join(root, 'dist');
 fs.rmSync(output, { recursive: true, force: true });
 fs.mkdirSync(output, { recursive: true });
 
-for (const file of ['index.html', 'auth.html', 'app.js', 'supabase-config.js']) {
+for (const file of ['index.html', 'auth.html', 'payment-return.html', 'app.js', 'supabase-config.js']) {
     fs.copyFileSync(path.join(root, file), path.join(output, file));
 }
 
@@ -40,7 +40,7 @@ function copyDirectory(source, destination) {
     }
 }
 
-for (const directory of ['assets', 'css', 'modules', 'legal']) {
+for (const directory of ['assets', 'css', 'modules', 'legal', 'admin']) {
     copyDirectory(path.join(root, directory), path.join(output, directory));
 }
 

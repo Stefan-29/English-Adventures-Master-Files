@@ -444,6 +444,75 @@ img, svg { display: block; max-width: 100%; }
   font-weight: 600;
 }
 
+.purchase-options {
+  display: grid;
+  width: 100%;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+  text-align: left;
+}
+
+.purchase-options__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: var(--space-3);
+  width: 100%;
+}
+
+.purchase-plan {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border: var(--border-1);
+  border-radius: var(--radius-md);
+  background: var(--surface-subtle);
+}
+
+.purchase-plan h3,
+.purchase-plan p {
+  margin: 0;
+}
+
+.purchase-plan h3 {
+  color: var(--text);
+  font-size: var(--text-lg);
+}
+
+.purchase-plan p {
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+}
+
+.purchase-plan .purchase-plan__price {
+  color: var(--text);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.purchase-plan .topic-access-card__button {
+  width: 100%;
+  margin-top: auto;
+}
+
+.purchase-options__note,
+.purchase-options__error {
+  margin: 0;
+  text-align: center;
+}
+
+.purchase-options__error {
+  color: var(--error);
+}
+
+.purchase-plan button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
 .grammar-btn:hover {
   background: var(--surface-muted);
   border-color: var(--border-strong);

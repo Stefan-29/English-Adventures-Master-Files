@@ -235,6 +235,21 @@ handleForm(document.getElementById('login-form'), async client => {
     const { error } = await client.auth.signInWithPassword({ email, password });
     if (error) throw error;
     await syncLocalProgressToSupabase();
+    if (new URLSearchParams(window.location.search).get('returnTo') === 'admin') {
+        window.location.assign('admin/index.html');
+        return;
+    }
+    if (new URLSearchParams(window.location.search).get('returnTo') === 'home') {
+        window.location.assign('index.html');
+        return;
+    }
+    if (new URLSearchParams(window.location.search).get('returnTo') === 'payment') {
+        const orderId = new URLSearchParams(window.location.search).get('orderId');
+        if (orderId && orderId.length <= 255) {
+            window.location.assign(`payment-return.html?order_id=${encodeURIComponent(orderId)}`);
+            return;
+        }
+    }
     showMessage(text('loginSuccess'), 'success');
 }, 'loginError');
 
@@ -304,7 +319,9 @@ async function startGoogleSignIn() {
         const client = await getSupabaseClient();
         const { error } = await client.auth.signInWithOAuth({
             provider: 'google',
-            options: { redirectTo: `${window.location.origin}${window.location.pathname}` }
+            options: {
+                redirectTo: `${window.location.origin}${window.location.pathname}${window.location.search}`
+            }
         });
         if (error) throw error;
         await syncLocalProgressToSupabase();
@@ -342,6 +359,21 @@ withClient(async client => {
     if (error) throw error;
     if (data.session && !params.has('mode')) {
         await syncLocalProgressToSupabase();
+        if (params.get('returnTo') === 'admin') {
+            window.location.assign('admin/index.html');
+            return;
+        }
+        if (params.get('returnTo') === 'home') {
+            window.location.assign('index.html');
+            return;
+        }
+        if (params.get('returnTo') === 'payment') {
+            const orderId = params.get('orderId');
+            if (orderId && orderId.length <= 255) {
+                window.location.assign(`payment-return.html?order_id=${encodeURIComponent(orderId)}`);
+                return;
+            }
+        }
         showMessage(text('oauthSuccess'), 'success');
     }
 }, 'generalError');

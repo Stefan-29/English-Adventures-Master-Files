@@ -64,6 +64,7 @@ to Supabase Storage. See
 - **Setup Guide**: [docs/setup/SERVER.md](docs/setup/SERVER.md)
 - **Lesson listening**: [docs/setup/TTS_SETUP.md](docs/setup/TTS_SETUP.md)
 - **Private content deployment**: [docs/setup/CONTENT_ACCESS_SETUP.md](docs/setup/CONTENT_ACCESS_SETUP.md)
+- **Owner dashboard setup**: [docs/setup/OWNER_ADMIN_SETUP.md](docs/setup/OWNER_ADMIN_SETUP.md)
 - **Image System**: [docs/images/README_IMAGES.md](docs/images/README_IMAGES.md)
 
 ---

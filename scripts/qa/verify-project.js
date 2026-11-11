@@ -30,6 +30,10 @@ assert.ok(fs.existsSync(path.join(root, 'modules')), 'Application modules must r
 execFileSync(process.execPath, ['scripts/build-static-site.js'], { cwd: root, stdio: 'pipe' });
 const staticOutput = path.join(root, 'dist');
 assert.ok(fs.existsSync(path.join(staticOutput, 'index.html')), 'The production build must include the main app page.');
+assert.ok(fs.existsSync(path.join(staticOutput, 'admin/index.html')), 'The production build must include the owner dashboard shell.');
+assert.ok(fs.existsSync(path.join(staticOutput, 'admin/admin.js')), 'The production build must include the owner dashboard client.');
+assert.ok(fs.existsSync(path.join(staticOutput, 'admin/admin.css')), 'The production build must include the owner dashboard styles.');
+assert.ok(fs.existsSync(path.join(staticOutput, 'payment-return.html')), 'The production build must include the payment return page.');
 assert.deepEqual(
     fs.readdirSync(path.join(staticOutput, 'config')),
     ['imageMapping.json'],
@@ -118,11 +122,88 @@ assert.match(
     /client\.functions\.invoke\('create-order'/,
     'The browser must call the server-side order creation function.'
 );
+const ownerMigration = fs.readFileSync(
+    path.join(root, 'supabase/migrations/20261028000000_owner_identity.sql'),
+    'utf8'
+);
+assert.match(ownerMigration, /stefanustankaemingk2@gmail\.com/, 'The owner identity must be explicitly allowlisted in the migration.');
+assert.match(ownerMigration, /case when is_configured_owner then 'owner' else 'free' end/, 'Only the configured owner identity may receive the owner role at signup.');
+assert.match(ownerMigration, /u\.email_confirmed_at is not null[\s\S]*?lower\(trim\(coalesce\(u\.email, ''\)\)\) = 'stefanustankaemingk2@gmail\.com'/, 'Owner database access must require the verified allowlisted email.');
+assert.doesNotMatch(ownerMigration, /raw_user_meta_data\s*->>\s*'role'/, 'Signup metadata must not assign account roles.');
+const adminHtml = fs.readFileSync(path.join(root, 'admin/index.html'), 'utf8');
+assert.match(adminHtml, /id="admin-dashboard"/, 'The owner page must have a dashboard view.');
+assert.match(adminHtml, /id="language-toggle"/, 'The owner page must have a language toggle.');
+for (const [, assetPath] of adminHtml.matchAll(/(?:src|href)="(?![a-z][a-z\d+.-]*:|#)([^"]+)"/gi)) {
+    assert.ok(
+        fs.existsSync(path.join(root, 'admin', assetPath)),
+        `Admin page references missing local asset: ${assetPath}`
+    );
+}
+const adminSource = fs.readFileSync(path.join(root, 'admin/admin.js'), 'utf8');
+assert.match(adminSource, /profile\.role !== 'owner'/, 'The dashboard must hide itself from non-owner accounts.');
+assert.match(adminSource, /getAuthenticatorAssuranceLevel/, 'The dashboard must require MFA assurance before reading owner data.');
+assert.match(adminSource, /client\.from\('profiles'\)[\s\S]*?client\.from\('enrollments'\)[\s\S]*?client\.from\('topics'\)[\s\S]*?client\.from\('payments'\)/, 'Owner summary metrics must use the existing protected database tables.');
+assert.doesNotMatch(adminSource, /SUPABASE_SERVICE_ROLE_KEY|MIDTRANS_SERVER_KEY/, 'The dashboard must not contain backend secrets.');
+assert.match(adminHtml, /id="activity-json"[^>]*aria-describedby="content-editor-help"/, 'The activity editor must have accessible instructions.');
+assert.match(adminSource, /functions\.invoke\('admin-content'/, 'The dashboard must use the protected content management function.');
+for (const activityType of ['lesson', 'writing', 'game', 'quiz', 'spelling']) {
+    assert.match(adminSource, new RegExp(`activityTypes: \\{[^}]*${activityType}:`), `The activity editor must label ${activityType} activities.`);
+}
+const adminContentSource = fs.readFileSync(path.join(root, 'supabase/functions/admin-content/index.ts'), 'utf8');
+assert.match(adminContentSource, /requestSchema\s*=\s*z\.discriminatedUnion/, 'Activity management requests must be schema-validated.');
+assert.match(adminContentSource, /authClient\.rpc\('is_owner'\)/, 'Activity management must enforce the database owner/MFA predicate.');
+assert.match(adminContentSource, /bucket\.public !== false/, 'Activity management must reject public content buckets.');
+assert.match(adminContentSource, /activity\.upsert[\s\S]*?activity\.delete/, 'Activity mutations must be audited.');
+assert.match(adminContentSource, /ACTIVITY_ID_ALREADY_USED/, 'Activity IDs must remain unique across activity types.');
+assert.match(
+    fs.readFileSync(path.join(root, 'supabase/config.toml'), 'utf8'),
+    /\[functions\.admin-content\]\s*verify_jwt = true/,
+    'Activity management must require a Supabase JWT.'
+);
+assert.match(
+    fs.readFileSync(path.join(root, 'modules/authPage.js'), 'utf8'),
+    /returnTo'\)\s*===\s*'admin'[\s\S]*?location\.assign\('admin\/index\.html'\)/,
+    'The auth page must support the fixed admin return destination.'
+);
+assert.ok(fs.existsSync(path.join(root, 'docs/setup/OWNER_ADMIN_SETUP.md')), 'Owner dashboard deployment and MFA setup must be documented.');
+const adminPlansSource = fs.readFileSync(path.join(root, 'supabase/functions/admin-plans/index.ts'), 'utf8');
+assert.match(adminPlansSource, /requestSchema\s*=\s*z\.discriminatedUnion/, 'Owner plan management requests must be schema-validated.');
+assert.match(adminPlansSource, /authClient\.rpc\('is_owner'\)/, 'Owner plan management must enforce the database owner/MFA predicate.');
+assert.match(adminPlansSource, /admin_save_plan|admin_deactivate_plan/, 'Plan mutations must use transactional database helpers.');
+assert.doesNotMatch(adminPlansSource, /SUPABASE_SERVICE_ROLE_KEY[\s\S]*?admin\.functions/, 'The plan API must not return privileged secrets.');
+assert.match(
+    fs.readFileSync(path.join(root, 'supabase/migrations/20261028020000_admin_plan_management.sql'), 'utf8'),
+    /insert into public\.audit_log[\s\S]*?plan\.upsert[\s\S]*?plan\.deactivate/,
+    'Plan changes must be recorded in the audit log.'
+);
+assert.match(
+    fs.readFileSync(path.join(root, 'supabase/config.toml'), 'utf8'),
+    /\[functions\.midtrans-webhook\]\s*#.*?verify_jwt = false/s,
+    'The payment notification function must be reachable without a Supabase JWT and verify provider signatures itself.'
+);
+const paymentReturnSource = fs.readFileSync(path.join(root, 'modules/paymentReturnPage.js'), 'utf8');
+assert.match(paymentReturnSource, /from\('orders'\)[\s\S]*?maybeSingle/, 'Payment return status must be read from the authenticated user order row.');
+assert.doesNotMatch(paymentReturnSource, /localStorage|status_code|signature_key/, 'The payment return UI must not treat browser state as payment proof.');
 assert.match(
     fs.readFileSync(path.join(root, 'supabase/functions/midtrans-webhook/index.ts'), 'utf8'),
     /signature_key|SHA-512|INVALID_SIGNATURE/,
     'The webhook must verify the Midtrans signature before accepting payment callbacks.'
 );
+const atomicPaymentMigration = fs.readFileSync(
+    path.join(root, 'supabase/migrations/20261028010000_atomic_payment_processing.sql'),
+    'utf8'
+);
+assert.match(atomicPaymentMigration, /process_midtrans_notification/, 'Payment and enrollment processing must run through a transaction function.');
+assert.match(atomicPaymentMigration, /for update;/i, 'Payment notification processing must lock the order against duplicate webhook races.');
+assert.match(atomicPaymentMigration, /payment_order_id[\s\S]*?unique index/i, 'A payment order must grant at most one enrollment.');
+assert.match(atomicPaymentMigration, /current_status = 'paid' and p_status not in \('paid', 'refunded'\)/, 'Late non-paid notifications must not revoke a paid order.');
+const webhookSource = fs.readFileSync(path.join(root, 'supabase/functions/midtrans-webhook/index.ts'), 'utf8');
+assert.match(webhookSource, /admin\.rpc\('process_midtrans_notification'/, 'The webhook must use the atomic payment processor.');
+assert.match(webhookSource, /fraud_status\?\.toLowerCase\(\) === 'accept'/, 'Midtrans capture must not grant access unless the fraud status is accepted.');
+const paymentServiceSource = fs.readFileSync(path.join(root, 'modules/paymentService.js'), 'utf8');
+assert.match(paymentServiceSource, /from\('plans'\)[\s\S]*?functions\.invoke\('create-order'/, 'The learner UI must load configured plans and request server-created orders.');
+assert.match(paymentServiceSource, /app\.midtrans\.com[\s\S]*?app\.sandbox\.midtrans\.com/, 'Payment redirect URLs must be restricted to Midtrans hosts.');
+assert.match(fs.readFileSync(path.join(root, 'app.js'), 'utf8'), /PaymentService\.createOrder\(plan\.id\)/, 'Locked topics must offer a checkout action for configured plans.');
 assert.match(
     fs.readFileSync(path.join(root, 'supabase/migrations/20261023000000_initial_schema.sql'), 'utf8'),
     /upsert_payment_enrollment/,

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Periksa status pembayaran English Adventures.">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Status pembayaran | English Adventures</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+    <main class="auth-page">
+        <section class="auth-card" aria-labelledby="payment-title">
+            <a class="auth-brand" href="index.html">English Adventures</a>
+            <h1 id="payment-title">Memeriksa pembayaran</h1>
+            <p id="payment-status" role="status" aria-live="polite">Mohon tunggu sebentar. Pembayaran akan dikonfirmasi oleh layanan pembayaran.</p>
+            <div class="auth-terms">
+                <a id="payment-home" href="index.html">Kembali ke topik</a>
+                <span aria-hidden="true">·</span>
+                <button id="payment-refresh" class="auth-text-button" type="button">Periksa lagi</button>
+                <span aria-hidden="true">·</span>
+                <button id="language-toggle" class="auth-text-button" type="button">English</button>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="modules/paymentReturnPage.js"></script>
+</body>
+</html>

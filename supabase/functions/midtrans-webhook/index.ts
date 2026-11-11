@@ -11,14 +11,14 @@ const webhookSchema = z.object({
   fraud_status: z.string().max(32).optional()
 }).passthrough();
 
-const statusMap: Record<string, 'pending' | 'paid' | 'failed' | 'cancelled'> = {
-  capture: 'paid',
+const statusMap: Record<string, 'pending' | 'paid' | 'failed' | 'cancelled' | 'refunded'> = {
   settlement: 'paid',
   pending: 'pending',
   deny: 'failed',
   cancel: 'cancelled',
   expire: 'cancelled',
-  failure: 'failed'
+  failure: 'failed',
+  refund: 'refunded'
 };
 
 function jsonResponse(status: number, body: Record<string, unknown>): Response {
@@ -97,99 +97,58 @@ async function handleRequest(request: Request): Promise<Response> {
     return jsonResponse(400, { code: 'INVALID_WEBHOOK' });
   }
 
-  const { order_id, status_code, gross_amount, signature_key, transaction_status } = payload;
+  const { order_id, status_code, gross_amount, signature_key, transaction_status, fraud_status } = payload;
   const expectedSignature = await sha512Hex(`${order_id}${status_code}${gross_amount}${serverKey}`);
   if (!secureCompare(expectedSignature, signature_key)) {
     return jsonResponse(400, { code: 'INVALID_SIGNATURE' });
+  }
+
+  if (!/^\d+(?:\.00)?$/.test(gross_amount)) {
+    return jsonResponse(400, { code: 'INVALID_AMOUNT' });
+  }
+  const grossAmountIdr = Number(gross_amount);
+  if (!Number.isSafeInteger(grossAmountIdr) || grossAmountIdr <= 0) {
+    return jsonResponse(400, { code: 'INVALID_AMOUNT' });
+  }
+
+  const normalizedTransactionStatus = transaction_status?.toLowerCase() || 'pending';
+  if (normalizedTransactionStatus === 'partial_refund') {
+    return jsonResponse(200, { received: true, status: 'partial_refund_noted' });
+  }
+  const paymentStatus = normalizedTransactionStatus === 'capture'
+    ? (fraud_status?.toLowerCase() === 'accept' ? 'paid' : 'pending')
+    : statusMap[normalizedTransactionStatus];
+  if (!paymentStatus) {
+    return jsonResponse(400, { code: 'UNSUPPORTED_TRANSACTION_STATUS' });
   }
 
   const admin = createClient(supabaseUrl, serviceRoleKey, {
     auth: { autoRefreshToken: false, persistSession: false }
   });
 
-  const { data: order, error: orderError } = await admin
-    .from('orders')
-    .select('id,user_id,plan_id,gross_amount_idr,status,midtrans_order_id')
-    .eq('midtrans_order_id', order_id)
-    .maybeSingle();
+  const { data: savedStatus, error: persistError } = await admin.rpc('process_midtrans_notification', {
+    p_midtrans_order_id: order_id,
+    p_gross_amount_idr: grossAmountIdr,
+    p_status: paymentStatus
+  });
 
-  if (orderError) {
-    console.error('Webhook order lookup failed:', orderError.message);
-    return jsonResponse(500, { code: 'ORDER_LOOKUP_FAILED' });
-  }
-
-  if (!order) {
-    return jsonResponse(404, { code: 'ORDER_NOT_FOUND' });
-  }
-
-  if (Number(order.gross_amount_idr) !== Number(gross_amount)) {
-    return jsonResponse(400, { code: 'AMOUNT_MISMATCH' });
-  }
-
-  const normalizedStatus = statusMap[(transaction_status || '').toLowerCase() || 'pending'] || 'pending';
-  const isAlreadySettled = order.status === 'paid';
-  if (isAlreadySettled) {
-    return jsonResponse(200, { received: true, status: 'paid', orderId: order.id });
-  }
-
-  const paymentStatus = normalizedStatus === 'paid' ? 'paid' : normalizedStatus === 'pending' ? 'pending' : normalizedStatus === 'failed' ? 'failed' : 'cancelled';
-  const { error: paymentError } = await admin.from('payments').upsert({
-    order_id: order.id,
-    midtrans_order_id: order_id,
-    gross_amount_idr: Number(order.gross_amount_idr),
-    status: paymentStatus,
-    raw_signature_ok: true,
-    paid_at: paymentStatus === 'paid' ? new Date().toISOString() : null
-  }, { onConflict: 'midtrans_order_id' });
-
-  if (paymentError) {
-    console.error('Webhook persisted payment failed:', paymentError.message);
-    return jsonResponse(500, { code: 'PAYMENT_RECORD_FAILED' });
-  }
-
-  const { error: orderUpdateError } = await admin
-    .from('orders')
-    .update({ status: paymentStatus === 'paid' ? 'paid' : paymentStatus === 'pending' ? 'pending' : 'failed' })
-    .eq('id', order.id);
-
-  if (orderUpdateError) {
-    console.error('Webhook order update failed:', orderUpdateError.message);
-    return jsonResponse(500, { code: 'ORDER_UPDATE_FAILED' });
-  }
-
-  if (paymentStatus === 'paid') {
-    const { data: plan, error: planError } = await admin
-      .from('plans')
-      .select('duration_months')
-      .eq('id', order.plan_id)
-      .maybeSingle();
-
-    if (planError || !plan) {
-      return jsonResponse(500, { code: 'PLAN_LOOKUP_FAILED' });
+  if (persistError) {
+    if (persistError.message.includes('ORDER_NOT_FOUND')) {
+      return jsonResponse(404, { code: 'ORDER_NOT_FOUND' });
     }
-
-    const expiresAt = Number(plan.duration_months) > 0
-      ? new Date(Date.now() + (Number(plan.duration_months) * 30 * 24 * 60 * 60 * 1000)).toISOString()
-      : null;
-
-    const { error: enrollmentError } = await admin.rpc('upsert_payment_enrollment', {
-      p_user_id: order.user_id,
-      p_plan_id: order.plan_id,
-      p_order_id: order.id,
-      p_note: `Midtrans payment for order ${order_id}`,
-      p_expires_at: expiresAt
-    });
-
-    if (enrollmentError) {
-      console.error('Webhook enrollment update failed:', enrollmentError.message);
-      return jsonResponse(500, { code: 'ENROLLMENT_UPDATE_FAILED' });
+    if (persistError.message.includes('AMOUNT_MISMATCH')) {
+      return jsonResponse(400, { code: 'AMOUNT_MISMATCH' });
     }
+    if (persistError.message.includes('REFUND_BEFORE_SETTLEMENT')) {
+      return jsonResponse(409, { code: 'REFUND_BEFORE_SETTLEMENT' });
+    }
+    console.error('Webhook transaction failed:', persistError.code || 'database_error');
+    return jsonResponse(500, { code: 'PAYMENT_PROCESSING_FAILED' });
   }
 
   return jsonResponse(200, {
     received: true,
-    status: paymentStatus,
-    orderId: order.id,
+    status: savedStatus,
     midtransOrderId: order_id
   });
 }

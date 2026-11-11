@@ -1,0 +1,16 @@
+[functions.get-lesson]
+verify_jwt = true
+
+[functions.create-order]
+verify_jwt = true
+
+[functions.admin-plans]
+verify_jwt = true
+
+[functions.admin-content]
+verify_jwt = true
+
+[functions.midtrans-webhook]
+# Midtrans cannot attach a Supabase JWT; the function verifies Midtrans's
+# signature before processing any notification.
+verify_jwt = false

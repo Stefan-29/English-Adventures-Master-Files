@@ -200,7 +200,7 @@ async function handleRequest(request: Request): Promise<Response> {
     return jsonResponse(503, { code: 'MIDTRANS_NOT_CONFIGURED' }, origin);
   }
 
-  const midtransOrderId = `EA-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+  const midtransOrderId = `EA-${crypto.randomUUID()}`;
   const orderId = crypto.randomUUID();
   const grossAmount = Number(plan.price_idr);
 
@@ -222,44 +222,61 @@ async function handleRequest(request: Request): Promise<Response> {
   const snapEndpoint = isProduction
     ? 'https://app.midtrans.com/snap/v1/transactions'
     : 'https://app.sandbox.midtrans.com/snap/v1/transactions';
+  const paymentReturnUrl = new URL('/payment-return.html', configuredOrigin);
+  paymentReturnUrl.searchParams.set('order_id', midtransOrderId);
 
-  const tokenResponse = await fetch(snapEndpoint, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Accept: 'application/json',
-      Authorization: `Basic ${btoa(`${midtransServerKey}:`)}`
-    },
-    body: JSON.stringify({
-      transaction_details: {
-        order_id: midtransOrderId,
-        gross_amount: grossAmount
+  let tokenResponse: Response;
+  try {
+    tokenResponse = await fetch(snapEndpoint, {
+      method: 'POST',
+      redirect: 'error',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+        Authorization: `Basic ${btoa(`${midtransServerKey}:`)}`
       },
-      item_details: [{
-        id: plan.id,
-        name: plan.name,
-        price: grossAmount,
-        quantity: 1
-      }],
-      customer_details: {
-        first_name: user.email?.split('@')[0] || 'Learner',
-        email: user.email || `${user.id}@placeholder.local`,
-        phone: null
-      },
-      enabled_payments: ['gopay', 'shopeepay', 'bank_transfer', 'qris'],
-      expiry: { unit: 'minutes', duration: 30 }
-    }),
-    signal: AbortSignal.timeout(15000)
-  });
+      body: JSON.stringify({
+        transaction_details: {
+          order_id: midtransOrderId,
+          gross_amount: grossAmount
+        },
+        item_details: [{
+          id: plan.id,
+          name: plan.name,
+          price: grossAmount,
+          quantity: 1
+        }],
+        customer_details: {
+          first_name: user.email?.split('@')[0] || 'Learner',
+          email: user.email || `${user.id}@placeholder.local`
+        },
+        callbacks: { finish: paymentReturnUrl.toString() },
+        enabled_payments: ['gopay', 'shopeepay', 'bank_transfer', 'qris'],
+        expiry: { unit: 'minutes', duration: 30 }
+      }),
+      signal: AbortSignal.timeout(15000)
+    });
+  } catch (error) {
+    console.error('Midtrans request failed:', error instanceof Error ? error.name : 'unknown');
+    await admin.from('orders').update({ status: 'failed' }).eq('id', orderId);
+    return jsonResponse(502, { code: 'PAYMENT_PROVIDER_UNAVAILABLE' }, origin);
+  }
 
   if (!tokenResponse.ok) {
-    const body = await tokenResponse.text();
-    console.error('Midtrans token creation failed:', body);
+    console.error('Midtrans rejected order creation:', tokenResponse.status);
+    await admin.from('orders').update({ status: 'failed' }).eq('id', orderId);
     return jsonResponse(502, { code: 'PAYMENT_PROVIDER_ERROR' }, origin);
   }
 
-  const snapBody = await tokenResponse.json() as { token?: string; redirect_url?: string };
+  let snapBody: { token?: string; redirect_url?: string };
+  try {
+    snapBody = await tokenResponse.json() as { token?: string; redirect_url?: string };
+  } catch {
+    await admin.from('orders').update({ status: 'failed' }).eq('id', orderId);
+    return jsonResponse(502, { code: 'PAYMENT_PROVIDER_ERROR' }, origin);
+  }
   if (!snapBody.token || !snapBody.redirect_url) {
+    await admin.from('orders').update({ status: 'failed' }).eq('id', orderId);
     return jsonResponse(502, { code: 'PAYMENT_PROVIDER_ERROR' }, origin);
   }
 

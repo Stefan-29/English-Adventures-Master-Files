@@ -52,6 +52,7 @@ docs/
 - **API_KEY_SETUP.md** - Writing image API setup (no key required)
 - **TTS_SETUP.md** - Free lesson listening voices and controls
 - **AUTH_SETUP.md** - Supabase auth UI configuration and security notes
+- **OWNER_ADMIN_SETUP.md** - Owner identity, MFA, and dashboard setup
 - **CONTENT_ACCESS_SETUP.md** - Private content storage, function, and production build
 - **SETTINGS_QUICK_START.md** - Settings panel quick start
 - **SETTINGS_UI_UX_GUIDE.md** - Settings UI/UX documentation
@@ -115,6 +116,9 @@ docs/
 
 **Set up production access**
 → [technical/PRODUCTION_ACCESS_IMPLEMENTATION.md](technical/PRODUCTION_ACCESS_IMPLEMENTATION.md)
+
+**Set up the owner dashboard**
+→ [setup/OWNER_ADMIN_SETUP.md](setup/OWNER_ADMIN_SETUP.md)
 
 ---
 

@@ -1,6 +1,7 @@
 "use strict";
 
 import { syncLocalProgressToSupabase } from './modules/progressSync.js';
+import { PaymentService } from './modules/paymentService.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM fully loaded, initializing App');
@@ -413,7 +414,7 @@ const App = {
             message.textContent = 'Masuk dengan akun yang aktif dan terverifikasi untuk membuka topik gratis ini.';
             nextAction = 'login';
         } else if (error?.status === 403 || code === 'TOPIC_LOCKED' || (authenticationRequired && !topic.is_free)) {
-            message.textContent = 'Topik ini terkunci. Upgrade akses atau hubungi guru untuk daftar.';
+            message.textContent = 'Topik ini terkunci. Pilih paket akses atau hubungi guru untuk mendaftar.';
             nextAction = 'upgrade';
         } else if (code === 'RATE_LIMITED' || error?.status === 429) {
             message.textContent = 'Terlalu banyak permintaan. Tunggu sebentar, lalu coba lagi.';
@@ -436,11 +437,13 @@ const App = {
                 login.textContent = 'Masuk / Daftar';
                 actions.appendChild(login);
             }
-            const upgrade = document.createElement('a');
-            upgrade.className = 'topic-access-card__button';
-            upgrade.href = `auth.html?upgrade=${encodeURIComponent(topic.id)}`;
-            upgrade.textContent = 'Upgrade';
-            actions.appendChild(upgrade);
+
+            const purchaseOptions = document.createElement('div');
+            purchaseOptions.className = 'purchase-options';
+            purchaseOptions.setAttribute('aria-live', 'polite');
+            purchaseOptions.textContent = 'Memuat paket akses…';
+            actions.appendChild(purchaseOptions);
+            void this.loadPurchaseOptions(topic, purchaseOptions);
 
             const phone = String(this.whatsappNumber || '').replace(/\D/g, '');
             if (phone.length >= 8 && phone.length <= 15) {
@@ -466,6 +469,83 @@ const App = {
 
         card.append(title, message, actions);
         container.appendChild(card);
+    },
+
+    loadPurchaseOptions: async function (topic, container) {
+        try {
+            const { plans, canPurchase } = await PaymentService.getPurchaseOptions();
+            if (!container.isConnected || this.currentGrammarModuleId !== topic.id) return;
+            container.replaceChildren();
+
+            if (!plans.length) {
+                const note = document.createElement('p');
+                note.className = 'purchase-options__note';
+                note.textContent = 'Paket pembelian belum tersedia. Hubungi guru untuk informasi akses.';
+                container.appendChild(note);
+                return;
+            }
+
+            const planList = document.createElement('div');
+            planList.className = 'purchase-options__list';
+            for (const plan of plans) {
+                const planCard = document.createElement('article');
+                planCard.className = 'purchase-plan';
+                const heading = document.createElement('h3');
+                heading.textContent = plan.name;
+                const description = document.createElement('p');
+                description.textContent = plan.description || '';
+                const price = document.createElement('p');
+                price.className = 'purchase-plan__price';
+                price.textContent = Number(plan.price_idr).toLocaleString('id-ID', {
+                    style: 'currency',
+                    currency: 'IDR',
+                    maximumFractionDigits: 0
+                });
+                planCard.append(heading, description, price);
+
+                if (canPurchase) {
+                    const purchase = document.createElement('button');
+                    purchase.type = 'button';
+                    purchase.className = 'topic-access-card__button';
+                    purchase.textContent = 'Beli paket';
+                    purchase.addEventListener('click', async () => {
+                        purchase.disabled = true;
+                        purchase.textContent = 'Menyiapkan pembayaran…';
+                        try {
+                            const order = await PaymentService.createOrder(plan.id);
+                            window.location.assign(order.redirectUrl);
+                        } catch (error) {
+                            console.error('Payment checkout could not start:', error?.status || error?.message || 'unknown');
+                            purchase.disabled = false;
+                            purchase.textContent = 'Coba lagi';
+                            let status = container.querySelector('.purchase-options__error');
+                            if (!status) {
+                                status = document.createElement('p');
+                                status.className = 'purchase-options__error';
+                                status.setAttribute('role', 'alert');
+                                container.prepend(status);
+                            }
+                            status.textContent = error?.message === 'MIDTRANS_NOT_CONFIGURED'
+                                ? 'Pembayaran belum dikonfigurasi. Hubungi guru untuk melanjutkan.'
+                                : 'Pembayaran belum dapat dimulai. Coba lagi atau hubungi guru.';
+                        }
+                    });
+                    planCard.appendChild(purchase);
+                } else {
+                    const signIn = document.createElement('a');
+                    signIn.className = 'topic-access-card__button';
+                    signIn.href = 'auth.html?returnTo=home';
+                    signIn.textContent = 'Masuk untuk membeli';
+                    planCard.appendChild(signIn);
+                }
+                planList.appendChild(planCard);
+            }
+            container.appendChild(planList);
+        } catch (error) {
+            console.error('Purchase options could not load:', error?.message || 'unknown');
+            if (!container.isConnected || this.currentGrammarModuleId !== topic.id) return;
+            container.textContent = 'Paket belum dapat dimuat. Hubungi guru untuk informasi akses.';
+        }
     },
 
     // ———————————————————— RENDER GRAMMAR SELECTOR ————————————————————

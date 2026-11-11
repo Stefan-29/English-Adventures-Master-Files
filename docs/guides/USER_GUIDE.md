@@ -15,7 +15,7 @@ knowledge to follow it.
 | Student | Ask the teacher to enroll your account. Once enrollment is active, you can open the lessons included in your access. |
 | Paid learner | Paid access is intended to unlock the lessons included in the purchased plan. Contact the teacher for purchase instructions if no checkout option is shown on the site. |
 | Teacher / tutor | Help learners with access and study questions. There is no separate teacher account role or teacher dashboard in the current site release. |
-| Owner | The owner is responsible for accounts and enrollments. The owner-only admin dashboard is not available in the current site release; management must be handled outside the site interface using owner-managed backend tools. |
+| Owner | The configured owner account can open the owner dashboard after signing in and completing two-step verification. The dashboard shows summary counts and supports checkout-plan and topic-activity management. |
 
 Access is checked by the service when a lesson is opened. Signing in by itself
 does not unlock every topic. A free account can open only free topics; full
@@ -105,14 +105,23 @@ reader controls.
 - **Need help:** Use the contact link in the page footer or the WhatsApp link
   presented for locked topics.
 
-### Current release notes
+### Owner dashboard
 
-The site currently has the topic list, account page, lesson access checks,
-learning activities, and local progress/reward features. Payment checkout is
-not yet connected to a purchase button in the learner interface. The
-owner-only admin dashboard is also not yet part of the current release.
-Therefore, learners should contact the teacher for paid access or enrollment;
-owners should not expect an admin page in this version.
+The configured owner should sign in from **Masuk / Daftar** and use the owner
+dashboard link at `admin/`. If you are not signed in, the dashboard offers a
+sign-in link. If your account is not the owner account, the page displays a
+not-found message. The owner must set up and use a TOTP authenticator for
+two-step verification before summary data can load. Keep the authenticator
+recovery details private.
+
+The dashboard displays counts for user accounts, active enrollments, topics,
+and payment records. The owner can configure checkout plans and manage the
+lesson, writing, game, quiz, and spelling activities stored in private topic
+files. Account management, topic-index publishing, enrollment administration,
+and payment administration are not yet available. A checkout option appears
+on locked topics only after the owner has configured active plans and deployed
+the Midtrans functions. If no plan is shown, learners should contact the
+teacher for paid access or enrollment.
 
 ## Bahasa Indonesia
 
@@ -125,7 +134,7 @@ owners should not expect an admin page in this version.
 | Siswa | Meminta guru mendaftarkan akun Anda. Setelah pendaftaran aktif, Anda dapat membuka materi sesuai akses. |
 | Pelajar berbayar | Akses berbayar dirancang untuk membuka materi yang termasuk dalam paket. Jika belum ada tombol pembayaran, hubungi guru untuk petunjuk pembelian. |
 | Guru / tutor | Membantu pelajar dengan akses dan pertanyaan belajar. Versi situs saat ini belum memiliki jenis akun atau dasbor guru khusus. |
-| Pemilik | Pemilik bertanggung jawab atas akun dan pendaftaran. Dasbor admin khusus pemilik belum tersedia pada versi situs saat ini; pengelolaan harus dilakukan di luar antarmuka situs melalui alat backend yang dikelola pemilik. |
+| Pemilik | Akun pemilik yang dikonfigurasi dapat membuka dashboard setelah masuk dan menyelesaikan verifikasi dua langkah. Dashboard menampilkan ringkasan dan mendukung pengelolaan paket serta aktivitas topik. |
 
 Layanan memeriksa hak akses setiap kali materi dibuka. Masuk ke akun saja tidak
 otomatis membuka semua topik. Akun gratis hanya dapat membuka topik gratis;
@@ -217,11 +226,19 @@ teks dan fitur pembaca layar.
 - **Perlu bantuan:** Gunakan tautan kontak di bagian bawah halaman atau tautan
   WhatsApp yang ditampilkan untuk topik terkunci.
 
-### Catatan versi saat ini
+### Dashboard pemilik
 
-Situs saat ini menyediakan daftar topik, halaman akun, pemeriksaan akses
-materi, aktivitas belajar, serta fitur progres dan hadiah lokal. Pembayaran
-belum terhubung ke tombol pembelian pada antarmuka pelajar. Dasbor admin khusus
-pemilik juga belum termasuk dalam versi saat ini. Karena itu, hubungi guru
-untuk akses berbayar atau pendaftaran siswa; pemilik belum dapat menggunakan
-halaman admin pada versi ini.
+Pemilik yang sudah dikonfigurasi dapat masuk melalui **Masuk / Daftar**, lalu
+membuka dashboard pemilik di `admin/`. Jika belum masuk, halaman akan
+menampilkan tautan masuk. Jika akun bukan akun pemilik, halaman menampilkan
+pesan bahwa halaman tidak ditemukan. Pemilik harus menyiapkan dan menggunakan
+aplikasi autentikator TOTP untuk verifikasi dua langkah sebelum ringkasan data
+dapat dimuat. Simpan informasi pemulihan autentikator dengan aman.
+
+Dashboard menampilkan jumlah akun pengguna, pendaftaran aktif, topik, serta
+catatan pembayaran. Pemilik dapat mengatur paket pembayaran dan mengelola
+aktivitas lesson, writing, game, quiz, dan spelling dalam berkas topik privat.
+Pengelolaan akun, penerbitan indeks topik, pendaftaran, dan pembayaran manual
+belum tersedia. Pilihan pembayaran muncul pada topik terkunci hanya setelah
+pemilik mengatur paket aktif dan men-deploy fungsi Midtrans. Jika paket tidak
+muncul, pelajar sebaiknya menghubungi guru untuk akses berbayar atau pendaftaran.
