@@ -24,6 +24,9 @@ docs/
 ### New to the project?
 👉 **Start here**: [guides/START_HERE.md](guides/START_HERE.md)
 
+### Need instructions for using the site?
+👉 **Read this**: [guides/USER_GUIDE.md](guides/USER_GUIDE.md)
+
 ### Want a visual guide?
 👉 **Try this**: [guides/VISUAL_GUIDE.md](guides/VISUAL_GUIDE.md)
 
@@ -38,6 +41,7 @@ docs/
 ## 📚 Documentation by Category
 
 ### 📖 Guides (guides/)
+- **USER_GUIDE.md** - Bilingual guide for visitors, learners, students, and the owner
 - **START_HERE.md** - Complete overview and 3-step quick start
 - **VISUAL_GUIDE.md** - Visual explanations with diagrams
 - **INDEX.md** - Complete documentation index
@@ -83,7 +87,7 @@ docs/
 ### I want to...
 
 **Start using the app**
-→ [guides/START_HERE.md](guides/START_HERE.md)
+→ [guides/USER_GUIDE.md](guides/USER_GUIDE.md)
 
 **See how files are organized**
 → [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)

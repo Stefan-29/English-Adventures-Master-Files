@@ -58,6 +58,7 @@ to Supabase Storage. See
 
 **All documentation is organized in the `docs/` folder by category.**
 
+- **User Guide (English & Bahasa Indonesia)**: [docs/guides/USER_GUIDE.md](docs/guides/USER_GUIDE.md)
 - **Quick Start**: [docs/guides/START_HERE.md](docs/guides/START_HERE.md)
 - **Documentation Hub**: [docs/README.md](docs/README.md)
 - **Setup Guide**: [docs/setup/SERVER.md](docs/setup/SERVER.md)

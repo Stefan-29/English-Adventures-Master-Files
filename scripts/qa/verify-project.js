@@ -108,6 +108,26 @@ assert.match(appSource, /Hubungi guru untuk daftar/, 'The locked state must offe
 const contentServiceSource = fs.readFileSync(path.join(root, 'modules/contentService.js'), 'utf8');
 assert.match(contentServiceSource, /functions\.invoke\('get-lesson'/, 'ContentService must call the gated Edge Function.');
 assert.doesNotMatch(contentServiceSource, /localStorage|sessionStorage|CacheStorage/, 'Lesson JSON must not be cached in browser storage.');
+assert.match(
+    fs.readFileSync(path.join(root, '.env.example'), 'utf8'),
+    /MIDTRANS_SERVER_KEY|MIDTRANS_CLIENT_KEY/,
+    'The environment example must include Midtrans server-side keys.'
+);
+assert.match(
+    fs.readFileSync(path.join(root, 'modules/paymentService.js'), 'utf8'),
+    /client\.functions\.invoke\('create-order'/,
+    'The browser must call the server-side order creation function.'
+);
+assert.match(
+    fs.readFileSync(path.join(root, 'supabase/functions/midtrans-webhook/index.ts'), 'utf8'),
+    /signature_key|SHA-512|INVALID_SIGNATURE/,
+    'The webhook must verify the Midtrans signature before accepting payment callbacks.'
+);
+assert.match(
+    fs.readFileSync(path.join(root, 'supabase/migrations/20261023000000_initial_schema.sql'), 'utf8'),
+    /upsert_payment_enrollment/,
+    'The schema must include an enrollment helper for a single atomic payment update.'
+);
 const lessonFunctionSource = fs.readFileSync(
     path.join(root, 'supabase/functions/get-lesson/index.ts'),
     'utf8'

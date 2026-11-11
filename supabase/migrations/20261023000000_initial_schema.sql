@@ -248,12 +248,68 @@ as $$
        );
 $$;
 
+create function public.upsert_payment_enrollment(
+    p_user_id uuid,
+    p_plan_id text,
+    p_order_id uuid,
+    p_note text,
+    p_expires_at timestamptz
+)
+returns void
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+    existing_enrollment_id uuid;
+begin
+    select e.id into existing_enrollment_id
+    from public.enrollments e
+    where e.user_id = p_user_id
+      and e.plan = 'full_access'
+      and e.status = 'active'
+    order by e.granted_at desc
+    limit 1;
+
+    if existing_enrollment_id is not null then
+        update public.enrollments
+        set status = 'active',
+            source = 'payment',
+            granted_at = now(),
+            expires_at = p_expires_at,
+            note = coalesce(p_note, note)
+        where id = existing_enrollment_id;
+        return;
+    end if;
+
+    insert into public.enrollments (
+        user_id,
+        plan,
+        source,
+        status,
+        granted_at,
+        expires_at,
+        note
+    )
+    values (
+        p_user_id,
+        'full_access',
+        'payment',
+        'active',
+        now(),
+        p_expires_at,
+        p_note
+    );
+end;
+$$;
+
 revoke all on function public.handle_new_user() from public, anon, authenticated;
 revoke all on function public.set_updated_at() from public, anon, authenticated;
 revoke all on function public.is_active_user() from public, anon, authenticated;
 revoke all on function public.is_owner() from public, anon, authenticated;
 grant execute on function public.is_active_user() to authenticated;
 grant execute on function public.is_owner() to authenticated;
+grant execute on function public.upsert_payment_enrollment(uuid, text, uuid, text, timestamptz) to service_role;
 
 alter table public.profiles enable row level security;
 alter table public.profiles force row level security;
