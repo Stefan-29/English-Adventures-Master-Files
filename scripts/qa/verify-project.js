@@ -19,6 +19,8 @@ const checkedCheckers = new Set();
 let activityCount = 0;
 
 assert.ok(fs.existsSync(path.join(root, 'index.html')), 'The app entry point must exist.');
+const appHtml = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+assert.match(appHtml, /<script\s+type="module"\s+src="app\.js"><\/script>/, 'The app entry point must load as an ES module.');
 const packageManifest = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
 assert.equal(packageManifest.main, 'app.js', 'The package entry point must match the root application file.');
 assert.ok(fs.existsSync(path.join(root, packageManifest.main)), 'The package entry point must exist.');
