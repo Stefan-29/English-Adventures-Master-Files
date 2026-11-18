@@ -189,7 +189,9 @@ function redirectAfterSignIn(params) {
     }
     if (returnTo === 'topic') {
         const topicId = getSafeTopicId(params);
-        window.location.assign(`index.html?topicId=${encodeURIComponent(topicId)}`);
+        const destination = new URL('/', window.location.origin);
+        destination.searchParams.set('topicId', topicId);
+        window.location.assign(destination);
         return;
     }
     if (returnTo === 'payment') {
@@ -199,7 +201,7 @@ function redirectAfterSignIn(params) {
             return;
         }
     }
-    window.location.assign('index.html');
+    window.location.assign('/');
 }
 
 function setBusy(form, busy) {

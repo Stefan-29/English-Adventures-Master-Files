@@ -144,7 +144,7 @@ assert.match(authSource, /redirectAfterSignIn\(new URLSearchParams\(window\.loca
 assert.match(authSource, /redirectAfterSignIn\(params\)/, 'Existing OAuth sessions must navigate to the same safe destination.');
 assert.match(authSource, /returnTo === 'payment'[\s\S]*?payment-return\.html\?order_id=/, 'Payment sign-in must return to the associated order status page.');
 assert.match(authSource, /function getSafeTopicId\(params\)/, 'Topic return destinations must validate topic IDs before navigation.');
-assert.match(authSource, /returnTo === 'topic'[\s\S]*?index\.html\?topicId=/, 'Topic sign-in must return to the selected topic.');
+assert.match(authSource, /returnTo === 'topic'[\s\S]*?new URL\('\/', window\.location\.origin\)[\s\S]*?searchParams\.set\('topicId', topicId\)/, 'Topic sign-in must return to the selected topic using the site root route.');
 assert.match(authSource, /returnTo === 'topic'[\s\S]*?emailRedirect\.searchParams\.set\('topicId', topicId\)/, 'Signup confirmation must preserve the selected topic destination.');
 assert.match(authSource, /emailRedirect\.searchParams\.set\('returnTo', returnTo\)/, 'Signup verification must preserve an allowed post-auth destination.');
 assert.match(contentServiceSource, /functions\.invoke\('get-lesson'/, 'ContentService must call the gated Edge Function.');
@@ -193,6 +193,7 @@ assert.match(adminSource, /rpc\('admin_lookup_account'/, 'Learner access lookup 
 assert.match(adminSource, /rpc\('admin_grant_manual_access'/, 'Manual access grants must use the owner-only database function.');
 assert.match(adminSource, /rpc\('admin_revoke_manual_access'/, 'Manual access revocation must use the owner-only database function.');
 assert.match(adminSource, /function redirectToRequestedTopic\(\)/, 'The dashboard must return to the requested topic after owner MFA.');
+assert.match(adminSource, /new URL\('\/', window\.location\.origin\)[\s\S]*?searchParams\.set\('topicId', topicId\)/, 'The dashboard must return through the site root route after owner MFA.');
 assert.match(adminSource, /redirectToRequestedTopic\(\);/, 'The requested topic return must run after dashboard MFA.');
 assert.match(adminSource, /client\.from\('profiles'\)[\s\S]*?client\.from\('enrollments'\)[\s\S]*?client\.from\('topics'\)[\s\S]*?client\.from\('payments'\)/, 'Owner summary metrics must use the existing protected database tables.');
 assert.doesNotMatch(adminSource, /SUPABASE_SERVICE_ROLE_KEY|MIDTRANS_SERVER_KEY/, 'The dashboard must not contain backend secrets.');

@@ -536,7 +536,9 @@ function redirectToRequestedTopic() {
         return false;
     }
 
-    window.location.assign(`../index.html?topicId=${encodeURIComponent(topicId)}`);
+    const destination = new URL('/', window.location.origin);
+    destination.searchParams.set('topicId', topicId);
+    window.location.assign(destination);
     return true;
 }
 
