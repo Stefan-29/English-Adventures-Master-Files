@@ -30,8 +30,40 @@ const translations = {
         activeEnrollments: 'Pendaftaran aktif',
         topics: 'Topik',
         payments: 'Catatan pembayaran',
-        dashboardNote: 'Ringkasan metrik hanya-baca. Paket dan aktivitas topik dapat dikelola di bawah ini; pengelolaan akun, pendaftaran, dan pembayaran manual belum tersedia.',
+        dashboardNote: 'Cari akun pelajar untuk meninjau akses atau mencatat akses penuh setelah pembayaran terverifikasi di luar aplikasi.',
         metricsError: 'Ringkasan tidak dapat dimuat. Pastikan migrasi database sudah diterapkan dan sesi pemilik masih aktif.',
+        accessHeading: 'Akses pelajar',
+        accessEyebrow: 'Akun pelajar',
+        accessDescription: 'Cari email akun terverifikasi untuk meninjau akses atau mencatat pembayaran di luar aplikasi.',
+        accessEmail: 'Email pelajar',
+        findAccount: 'Cari akun',
+        searchingAccount: 'Mencari akun…',
+        accountNotFound: 'Akun terverifikasi dengan email tersebut tidak ditemukan.',
+        accountLookupError: 'Akun tidak dapat dicari. Pastikan migrasi akses manual sudah diterapkan.',
+        accountFound: 'Akun ditemukan',
+        accountSummary: 'Peran: {role} · Status: {status} · Email terverifikasi: {verified}',
+        verified: 'ya',
+        unverified: 'tidak',
+        suspended: 'Ditangguhkan',
+        accessRecords: 'Riwayat akses',
+        noAccessRecords: 'Belum ada catatan akses.',
+        accessSource: { manual: 'Manual', payment: 'Pembayaran', trial: 'Uji coba' },
+        accessStatus: { active: 'Aktif', revoked: 'Dicabut', expired: 'Kedaluwarsa' },
+        accessUntil: 'Berlaku sampai {date}',
+        accessLifetime: 'Tanpa batas waktu',
+        accessGranted: 'Diberikan {date}',
+        revokeManual: 'Cabut akses manual',
+        revokeManualConfirm: 'Cabut catatan akses manual ini? Pembayaran dan uji coba tidak akan diubah.',
+        accessRevokeSuccess: 'Akses manual dicabut.',
+        accessRevokeError: 'Akses manual tidak dapat dicabut.',
+        accessDuration: 'Durasi akses',
+        accessNote: 'Catatan pembayaran',
+        accessNoteHelp: 'Catat referensi pembayaran yang sudah diverifikasi secara manual.',
+        grantAccess: 'Berikan akses penuh',
+        grantSuccess: 'Akses penuh diberikan. Masa berbayar dimulai setelah akses aktif yang memiliki batas waktu.',
+        grantError: 'Akses tidak dapat diberikan. Pastikan akun aktif dan terverifikasi, lalu periksa catatan pembayaran.',
+        grantOwnerBlocked: 'Akun pemilik tidak dapat menerima hibah akses manual.',
+        grantAccountBlocked: 'Hanya akun pelajar aktif dengan email terverifikasi yang dapat diberi akses.',
         plansHeading: 'Paket akses',
         plansEyebrow: 'Pembelian',
         plansDescription: 'Atur paket dan harga yang akan ditampilkan kepada pelajar.',
@@ -120,8 +152,40 @@ const translations = {
         activeEnrollments: 'Active enrollments',
         topics: 'Topics',
         payments: 'Payment records',
-        dashboardNote: 'The metrics are read-only. Plans and topic activities can be managed below; account, enrollment, and manual payment management are not available yet.',
+        dashboardNote: 'Look up a learner account to review access or record full access after verified payment outside the app.',
         metricsError: 'The summary could not be loaded. Confirm the database migration is applied and the owner session is active.',
+        accessHeading: 'Learner access',
+        accessEyebrow: 'Learner accounts',
+        accessDescription: 'Look up a verified account email to review access or record an offline payment.',
+        accessEmail: 'Learner email',
+        findAccount: 'Find account',
+        searchingAccount: 'Finding account…',
+        accountNotFound: 'No verified account was found for that email.',
+        accountLookupError: 'The account could not be looked up. Confirm the manual-access migration is applied.',
+        accountFound: 'Account found',
+        accountSummary: 'Role: {role} · Status: {status} · Email verified: {verified}',
+        verified: 'yes',
+        unverified: 'no',
+        suspended: 'Suspended',
+        accessRecords: 'Access history',
+        noAccessRecords: 'No access records yet.',
+        accessSource: { manual: 'Manual', payment: 'Payment', trial: 'Trial' },
+        accessStatus: { active: 'Active', revoked: 'Revoked', expired: 'Expired' },
+        accessUntil: 'Expires {date}',
+        accessLifetime: 'No expiry',
+        accessGranted: 'Granted {date}',
+        revokeManual: 'Revoke manual access',
+        revokeManualConfirm: 'Revoke this manual access record? Payment and trial records will not be changed.',
+        accessRevokeSuccess: 'Manual access revoked.',
+        accessRevokeError: 'Manual access could not be revoked.',
+        accessDuration: 'Access duration',
+        accessNote: 'Payment note',
+        accessNoteHelp: 'Record a reference for the payment that was verified outside the app.',
+        grantAccess: 'Grant full access',
+        grantSuccess: 'Full access granted. Paid time starts after any active access with an expiry.',
+        grantError: 'Access could not be granted. Confirm the account is active and verified, and check the payment note.',
+        grantOwnerBlocked: 'Manual access cannot be granted to the owner account.',
+        grantAccountBlocked: 'Only an active learner account with a verified email can receive access.',
         plansHeading: 'Access plans',
         plansEyebrow: 'Checkout',
         plansDescription: 'Set the plans and prices learners can see.',
@@ -199,6 +263,7 @@ let isSettingUpFactor = false;
 let needsMfaSetup = false;
 let editingPlanId = null;
 let currentActivities = [];
+let selectedAccessAccount = null;
 
 function text(key) {
     return translations[language][key];
@@ -214,6 +279,7 @@ function setLanguage(nextLanguage) {
         renderDashboardShell();
         void loadPlans();
         void loadContentTopics();
+        if (selectedAccessAccount) renderAccessAccount(selectedAccessAccount);
         for (const label of metricsElement.querySelectorAll('[data-copy-key]')) {
             label.textContent = text(label.dataset.copyKey);
         }
@@ -404,6 +470,21 @@ function renderDashboardShell() {
     document.getElementById('dashboard-description').textContent = text('dashboardDescription');
     document.getElementById('refresh-dashboard').textContent = text('refresh');
     document.getElementById('dashboard-note').textContent = text('dashboardNote');
+    document.getElementById('access-eyebrow').textContent = text('accessEyebrow');
+    document.getElementById('access-heading').textContent = text('accessHeading');
+    document.getElementById('access-description').textContent = text('accessDescription');
+    document.getElementById('access-email-label').textContent = text('accessEmail');
+    document.getElementById('lookup-account').textContent = text('findAccount');
+    document.getElementById('access-records-heading').textContent = text('accessRecords');
+    document.getElementById('access-duration-label').textContent = text('accessDuration');
+    document.getElementById('access-note-label').textContent = text('accessNote');
+    document.getElementById('access-note-help').textContent = text('accessNoteHelp');
+    document.getElementById('grant-access').textContent = text('grantAccess');
+    for (const option of document.querySelectorAll('#access-duration option')) {
+        option.textContent = option.value
+            ? `${option.value} ${text('planMonth')}`
+            : text('planLifetime');
+    }
     document.getElementById('plans-eyebrow').textContent = text('plansEyebrow');
     document.getElementById('plans-heading').textContent = text('plansHeading');
     document.getElementById('plans-description').textContent = text('plansDescription');
@@ -441,6 +522,174 @@ function renderDashboardShell() {
             : text('planLifetime');
     }
     signOutButton.textContent = text('signOut');
+}
+
+function redirectToRequestedTopic() {
+    const params = new URLSearchParams(window.location.search);
+    const topicId = params.get('topicId');
+    if (
+        params.get('returnTo') !== 'topic'
+        || !topicId
+        || topicId.length > 255
+        || !/^[a-z0-9]+(?:[-_][a-z0-9]+)*$/.test(topicId)
+    ) {
+        return false;
+    }
+
+    window.location.assign(`../index.html?topicId=${encodeURIComponent(topicId)}`);
+    return true;
+}
+
+function showAccessMessage(message, isError = false) {
+    const errorElement = document.getElementById('access-error');
+    const statusElement = document.getElementById('access-status');
+    errorElement.hidden = !isError;
+    statusElement.hidden = isError || !message;
+    errorElement.textContent = isError ? message : '';
+    statusElement.textContent = isError ? '' : message;
+}
+
+function renderAccessAccount(account) {
+    const result = document.getElementById('access-result');
+    const recordList = document.getElementById('access-records');
+    const grantForm = document.getElementById('manual-access-form');
+    const grantButton = document.getElementById('grant-access');
+    const emailVerified = account.account_email_verified === true;
+    const canGrant = account.account_role !== 'owner'
+        && account.account_status === 'active'
+        && emailVerified;
+    const verifiedText = text(emailVerified ? 'verified' : 'unverified');
+    const accountStatus = text(account.account_status === 'active' ? 'active' : 'suspended');
+
+    document.getElementById('access-account-heading').textContent = text('accountFound');
+    document.getElementById('access-account-summary').textContent = text('accountSummary')
+        .replace('{role}', account.account_role)
+        .replace('{status}', accountStatus)
+        .replace('{verified}', verifiedText);
+
+    recordList.replaceChildren();
+    const records = Array.isArray(account.access_records) ? account.access_records : [];
+    if (records.length === 0) {
+        const empty = document.createElement('li');
+        empty.textContent = text('noAccessRecords');
+        recordList.appendChild(empty);
+    }
+
+    for (const record of records) {
+        const item = document.createElement('li');
+        const details = document.createElement('span');
+        const source = text('accessSource')[record.source] || record.source;
+        const currentStatus = record.status === 'active'
+            && record.expires_at
+            && new Date(record.expires_at).getTime() <= Date.now()
+            ? 'expired'
+            : record.status;
+        const status = text('accessStatus')[currentStatus] || currentStatus;
+        const expires = record.expires_at
+            ? text('accessUntil').replace('{date}', new Date(record.expires_at).toLocaleDateString(language === 'id' ? 'id-ID' : 'en-US'))
+            : text('accessLifetime');
+        const granted = text('accessGranted').replace(
+            '{date}',
+            new Date(record.granted_at).toLocaleDateString(language === 'id' ? 'id-ID' : 'en-US')
+        );
+        details.textContent = `${source} · ${status} · ${expires} · ${granted}${record.note ? ` · ${record.note}` : ''}`;
+        item.appendChild(details);
+
+        if (record.source === 'manual' && record.status === 'active') {
+            const revoke = document.createElement('button');
+            revoke.className = 'plan-action plan-action--danger';
+            revoke.type = 'button';
+            revoke.textContent = text('revokeManual');
+            revoke.addEventListener('click', () => void revokeManualAccess(record.id));
+            item.appendChild(revoke);
+        }
+        recordList.appendChild(item);
+    }
+
+    grantForm.hidden = !canGrant;
+    grantButton.disabled = !canGrant;
+    result.hidden = false;
+    if (!canGrant) {
+        showAccessMessage(
+            account.account_role === 'owner' ? text('grantOwnerBlocked') : text('grantAccountBlocked'),
+            true
+        );
+    } else {
+        showAccessMessage('');
+    }
+}
+
+async function lookupAccessAccount(email, successMessageKey = 'accountFound') {
+    const lookupButton = document.getElementById('lookup-account');
+    const errorElement = document.getElementById('access-error');
+    const result = document.getElementById('access-result');
+    errorElement.hidden = true;
+    result.hidden = true;
+    selectedAccessAccount = null;
+    lookupButton.disabled = true;
+    showAccessMessage(text('searchingAccount'));
+    try {
+        const { data, error } = await client.rpc('admin_lookup_account', { p_email: email });
+        if (error) throw error;
+        const account = Array.isArray(data) ? data[0] : null;
+        if (!account) {
+            showAccessMessage(text('accountNotFound'), true);
+            return;
+        }
+        selectedAccessAccount = account;
+        renderAccessAccount(account);
+        showAccessMessage(text(successMessageKey));
+    } catch (error) {
+        console.error('Learner access lookup failed:', error?.code || error?.name || 'unknown');
+        showAccessMessage(text('accountLookupError'), true);
+    } finally {
+        lookupButton.disabled = false;
+    }
+}
+
+async function grantManualAccess(event) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    if (!selectedAccessAccount || !form.reportValidity()) return;
+    const button = document.getElementById('grant-access');
+    const durationValue = document.getElementById('access-duration').value;
+    const note = String(new FormData(form).get('note') || '').trim();
+    button.disabled = true;
+    document.getElementById('access-error').hidden = true;
+    try {
+        const { error } = await client.rpc('admin_grant_manual_access', {
+            p_user_id: selectedAccessAccount.account_id,
+            p_duration_months: durationValue ? Number(durationValue) : null,
+            p_note: note
+        });
+        if (error) throw error;
+        const email = selectedAccessAccount.account_email;
+        form.reset();
+        await lookupAccessAccount(email, 'grantSuccess');
+    } catch (error) {
+        console.error('Manual access grant failed:', error?.code || error?.name || 'unknown');
+        showAccessMessage(text('grantError'), true);
+    } finally {
+        button.disabled = !selectedAccessAccount
+            || selectedAccessAccount.account_role === 'owner'
+            || selectedAccessAccount.account_status !== 'active'
+            || selectedAccessAccount.account_email_verified !== true;
+    }
+}
+
+async function revokeManualAccess(enrollmentId) {
+    if (!window.confirm(text('revokeManualConfirm'))) return;
+    try {
+        const { error } = await client.rpc('admin_revoke_manual_access', {
+            p_enrollment_id: enrollmentId
+        });
+        if (error) throw error;
+        const email = selectedAccessAccount?.account_email;
+        if (email) await lookupAccessAccount(email, 'accessRevokeSuccess');
+    } catch (error) {
+        console.error('Manual access revoke failed:', error?.code || error?.name || 'unknown');
+        showAccessMessage(text('accessRevokeError'), true);
+    }
 }
 
 async function requireOwner() {
@@ -547,6 +796,7 @@ async function loadDashboard() {
     document.title = `${text('dashboardTitle')} | English Adventures`;
     await loadPlans();
     await loadContentTopics();
+    redirectToRequestedTopic();
 }
 
 async function loadPlans() {
@@ -828,6 +1078,13 @@ document.getElementById('content-topic').addEventListener('change', () => loadAc
 document.getElementById('content-type').addEventListener('change', () => loadActivities());
 document.getElementById('content-activity').addEventListener('change', event => showActivity(event.currentTarget.value));
 document.getElementById('load-activities').addEventListener('click', () => loadActivities());
+document.getElementById('access-lookup-form').addEventListener('submit', event => {
+    event.preventDefault();
+    if (!event.currentTarget.reportValidity()) return;
+    const email = String(new FormData(event.currentTarget).get('email') || '').trim();
+    void lookupAccessAccount(email);
+});
+document.getElementById('manual-access-form').addEventListener('submit', grantManualAccess);
 document.getElementById('new-activity').addEventListener('click', () => {
     const type = document.getElementById('content-type').value;
     const prefix = type === 'lesson' ? 'lesson' : type;

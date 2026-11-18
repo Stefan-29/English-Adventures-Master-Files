@@ -4,11 +4,6 @@ import { syncLocalProgressToSupabase } from './modules/progressSync.js';
 import { PaymentService } from './modules/paymentService.js';
 import { TrialService } from './modules/trialService.js';
 
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM fully loaded, initializing App');
-    App.init();
-});
-
 const App = {
     state: {
         activeModule: 'learn',
@@ -391,6 +386,11 @@ const App = {
         return `auth.html?${params.toString()}`;
     },
 
+    ownerMfaUrl: function (topicId) {
+        const params = new URLSearchParams({ returnTo: 'topic', topicId });
+        return `admin/index.html?${params.toString()}`;
+    },
+
     renderTopicIndexError: function () {
         this.prepareTopicLanding();
         const container = document.getElementById('grammar-buttons');
@@ -440,8 +440,12 @@ const App = {
         if (nextAction === 'login') {
             const login = document.createElement('a');
             login.className = 'topic-access-card__button';
-            login.href = this.topicSignInUrl(topic.id);
-            login.textContent = 'Masuk / Daftar';
+            login.href = code === 'OWNER_MFA_REQUIRED'
+                ? this.ownerMfaUrl(topic.id)
+                : this.topicSignInUrl(topic.id);
+            login.textContent = code === 'OWNER_MFA_REQUIRED'
+                ? 'Selesaikan verifikasi 2 langkah'
+                : 'Masuk / Daftar';
             actions.appendChild(login);
         } else if (nextAction === 'upgrade') {
             if (authenticationRequired) {

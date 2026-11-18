@@ -128,8 +128,11 @@ assert.match(html, /id="feedback-message" class="feedback-message"/, 'Feedback c
 const appSource = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
 assert.match(appSource, /topicSignInUrl\(topic\.id\)/, 'Locked-topic sign-in links must return users to the selected topic after authentication.');
 assert.match(appSource, /topicSignInUrl: function\s*\(topicId\)/, 'Locked-topic sign-in links must carry the selected topic ID.');
+assert.match(appSource, /ownerMfaUrl: function\s*\(topicId\)/, 'Owner access failures must route to MFA rather than normal sign-in.');
+assert.match(appSource, /code === 'OWNER_MFA_REQUIRED'[\s\S]*?this\.ownerMfaUrl\(topic\.id\)/, 'The owner MFA prompt must link to the MFA dashboard and keep the selected topic.');
 assert.match(appSource, /restoreRequestedTopic: function\s*\(\)/, 'The app must reopen a topic requested after sign-in.');
 assert.match(appSource, /this\.restoreRequestedTopic\(\)/, 'The app must restore the requested topic during startup.');
+assert.equal((appSource.match(/App\.init\(\)/g) || []).length, 1, 'The app must initialize only once to avoid racing selected-topic restoration.');
 assert.match(appSource, /ContentService\.listTopics\(\)/, 'The topic list must load from the public database index.');
 assert.match(appSource, /this\.contentService\.getLesson\(moduleInfo\.id\)/, 'Topic content must load through the gated service.');
 assert.doesNotMatch(appSource, /fetch\(\s*(?:moduleInfo\.configPath|this\.currentDataFile)/, 'The app must not fetch public lesson JSON paths.');
@@ -164,9 +167,19 @@ assert.match(ownerMigration, /stefanustankaemingk2@gmail\.com/, 'The owner ident
 assert.match(ownerMigration, /case when is_configured_owner then 'owner' else 'free' end/, 'Only the configured owner identity may receive the owner role at signup.');
 assert.match(ownerMigration, /u\.email_confirmed_at is not null[\s\S]*?lower\(trim\(coalesce\(u\.email, ''\)\)\) = 'stefanustankaemingk2@gmail\.com'/, 'Owner database access must require the verified allowlisted email.');
 assert.doesNotMatch(ownerMigration, /raw_user_meta_data\s*->>\s*'role'/, 'Signup metadata must not assign account roles.');
+const manualAccessMigrationPath = path.join(root, 'supabase/migrations/20261118000000_manual_access_management.sql');
+assert.ok(fs.existsSync(manualAccessMigrationPath), 'Manual learner access must be added by a timestamped migration.');
+const manualAccessMigration = fs.readFileSync(manualAccessMigrationPath, 'utf8');
+assert.match(manualAccessMigration, /admin_lookup_account[\s\S]*?if not public\.is_owner\(\)/, 'Account lookup must enforce the MFA-backed owner predicate.');
+assert.match(manualAccessMigration, /insert into public\.enrollments \([\s\S]*?source,[\s\S]*?granted_by[\s\S]*?\)\s*values\s*\([\s\S]*?'manual'[\s\S]*?auth\.uid\(\)/i, 'Manual access grants must record their source and owner.');
+assert.match(manualAccessMigration, /admin_grant_manual_access[\s\S]*?e\.expires_at > now\(\)[\s\S]*?make_interval/, 'Fixed-duration manual access must extend after current trial or paid access.');
+assert.match(manualAccessMigration, /access\.manual_grant[\s\S]*?access\.manual_revoke/, 'Manual access changes must be written to the audit log.');
+assert.match(manualAccessMigration, /source = 'manual'[\s\S]*?status = 'active'[\s\S]*?ACTIVE_MANUAL_ACCESS_NOT_FOUND/, 'Manual revocation must not alter payment or trial access.');
 const adminHtml = fs.readFileSync(path.join(root, 'admin/index.html'), 'utf8');
 assert.match(adminHtml, /id="admin-dashboard"/, 'The owner page must have a dashboard view.');
 assert.match(adminHtml, /id="language-toggle"/, 'The owner page must have a language toggle.');
+assert.match(adminHtml, /id="access-lookup-form"/, 'The owner dashboard must provide account lookup for access management.');
+assert.match(adminHtml, /id="manual-access-form"/, 'The owner dashboard must provide manual access grant controls.');
 for (const [, assetPath] of adminHtml.matchAll(/(?:src|href)="(?![a-z][a-z\d+.-]*:|#)([^"]+)"/gi)) {
     assert.ok(
         fs.existsSync(path.join(root, 'admin', assetPath)),
@@ -176,6 +189,11 @@ for (const [, assetPath] of adminHtml.matchAll(/(?:src|href)="(?![a-z][a-z\d+.-]
 const adminSource = fs.readFileSync(path.join(root, 'admin/admin.js'), 'utf8');
 assert.match(adminSource, /profile\.role !== 'owner'/, 'The dashboard must hide itself from non-owner accounts.');
 assert.match(adminSource, /getAuthenticatorAssuranceLevel/, 'The dashboard must require MFA assurance before reading owner data.');
+assert.match(adminSource, /rpc\('admin_lookup_account'/, 'Learner access lookup must use the owner-only database function.');
+assert.match(adminSource, /rpc\('admin_grant_manual_access'/, 'Manual access grants must use the owner-only database function.');
+assert.match(adminSource, /rpc\('admin_revoke_manual_access'/, 'Manual access revocation must use the owner-only database function.');
+assert.match(adminSource, /function redirectToRequestedTopic\(\)/, 'The dashboard must return to the requested topic after owner MFA.');
+assert.match(adminSource, /redirectToRequestedTopic\(\);/, 'The requested topic return must run after dashboard MFA.');
 assert.match(adminSource, /client\.from\('profiles'\)[\s\S]*?client\.from\('enrollments'\)[\s\S]*?client\.from\('topics'\)[\s\S]*?client\.from\('payments'\)/, 'Owner summary metrics must use the existing protected database tables.');
 assert.doesNotMatch(adminSource, /SUPABASE_SERVICE_ROLE_KEY|MIDTRANS_SERVER_KEY/, 'The dashboard must not contain backend secrets.');
 assert.match(adminHtml, /id="activity-json"[^>]*aria-describedby="content-editor-help"/, 'The activity editor must have accessible instructions.');
