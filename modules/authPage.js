@@ -168,8 +168,16 @@ function errorMessage(error, fallbackKey = 'generalError') {
     return text(fallbackKey);
 }
 
+function getSafeTopicId(params) {
+    const topicId = params.get('topicId');
+    return topicId && topicId.length <= 255 && /^[a-z0-9]+(?:[-_][a-z0-9]+)*$/.test(topicId)
+        ? topicId
+        : null;
+}
+
 function getSafeReturnTo(params) {
     const returnTo = params.get('returnTo');
+    if (returnTo === 'topic' && getSafeTopicId(params)) return 'topic';
     return ['admin', 'home', 'payment'].includes(returnTo) ? returnTo : 'home';
 }
 
@@ -177,6 +185,11 @@ function redirectAfterSignIn(params) {
     const returnTo = getSafeReturnTo(params);
     if (returnTo === 'admin') {
         window.location.assign('admin/index.html');
+        return;
+    }
+    if (returnTo === 'topic') {
+        const topicId = getSafeTopicId(params);
+        window.location.assign(`index.html?topicId=${encodeURIComponent(topicId)}`);
         return;
     }
     if (returnTo === 'payment') {
@@ -269,7 +282,8 @@ handleForm(document.getElementById('signup-form'), async client => {
         return showMessage(elements.guardianConsent.checked ? text('minorError') : text('consentError'), 'error');
     }
 
-    const returnTo = new URLSearchParams(window.location.search).get('returnTo');
+    const signupParams = new URLSearchParams(window.location.search);
+    const returnTo = signupParams.get('returnTo');
     const emailRedirect = new URL(`${window.location.origin}${window.location.pathname}`);
     emailRedirect.searchParams.set('verified', '1');
     if (['admin', 'home', 'payment'].includes(returnTo)) {
@@ -277,6 +291,12 @@ handleForm(document.getElementById('signup-form'), async client => {
         const orderId = new URLSearchParams(window.location.search).get('orderId');
         if (returnTo === 'payment' && orderId && orderId.length <= 255) {
             emailRedirect.searchParams.set('orderId', orderId);
+        }
+    } else if (returnTo === 'topic') {
+        const topicId = getSafeTopicId(signupParams);
+        if (topicId) {
+            emailRedirect.searchParams.set('returnTo', 'topic');
+            emailRedirect.searchParams.set('topicId', topicId);
         }
     }
     const { error } = await client.auth.signUp({

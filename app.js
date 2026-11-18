@@ -63,6 +63,7 @@ const App = {
                 this.setupEventListeners();
                 this.updateUI();
                 void syncLocalProgressToSupabase();
+                this.restoreRequestedTopic();
             })
             .catch(err => {
                 console.error('Topic index initialization failed:', err?.message || 'unknown');
@@ -379,6 +380,17 @@ const App = {
         document.title = 'English Adventures — Pilih topik';
     },
 
+    restoreRequestedTopic: function () {
+        const topicId = new URLSearchParams(window.location.search).get('topicId');
+        const topic = this.grammarModules.find(moduleInfo => moduleInfo.id === topicId);
+        if (topic) this.switchGrammar(topic);
+    },
+
+    topicSignInUrl: function (topicId) {
+        const params = new URLSearchParams({ returnTo: 'topic', topicId });
+        return `auth.html?${params.toString()}`;
+    },
+
     renderTopicIndexError: function () {
         this.prepareTopicLanding();
         const container = document.getElementById('grammar-buttons');
@@ -428,13 +440,13 @@ const App = {
         if (nextAction === 'login') {
             const login = document.createElement('a');
             login.className = 'topic-access-card__button';
-            login.href = 'auth.html?returnTo=home';
+            login.href = this.topicSignInUrl(topic.id);
             login.textContent = 'Masuk / Daftar';
             actions.appendChild(login);
         } else if (nextAction === 'upgrade') {
             if (authenticationRequired) {
                 const login = document.createElement('a');
-                login.href = 'auth.html?returnTo=home';
+                login.href = this.topicSignInUrl(topic.id);
                 login.textContent = 'Masuk / Daftar';
                 actions.appendChild(login);
             }
@@ -546,7 +558,7 @@ const App = {
                 } else {
                     const signIn = document.createElement('a');
                     signIn.className = 'topic-access-card__button';
-                    signIn.href = 'auth.html?returnTo=home';
+                    signIn.href = this.topicSignInUrl(topic.id);
                     signIn.textContent = 'Masuk untuk membeli';
                     planCard.appendChild(signIn);
                 }
