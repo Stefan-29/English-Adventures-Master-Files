@@ -41,7 +41,9 @@ function getVerifiedTokenAssurance(token: string): string | null {
     if (!payload) return null;
     try {
         const base64 = payload.replace(/-/g, '+').replace(/_/g, '/');
-        const decoded: unknown = JSON.parse(atob(base64.padEnd(Math.ceil(base64.length / 4) * 4, '=')));
+        const binary = atob(base64.padEnd(Math.ceil(base64.length / 4) * 4, '='));
+        const bytes = Uint8Array.from(binary, character => character.charCodeAt(0));
+        const decoded: unknown = JSON.parse(new TextDecoder().decode(bytes));
         if (
             typeof decoded !== 'object'
             || decoded === null
@@ -145,18 +147,6 @@ async function handleRequest(request: Request): Promise<Response> {
                 'Access-Control-Max-Age': '600',
                 'Vary': 'Origin'
             }
-        }
-
-        Deno.serve(async (request: Request): Promise<Response> => {
-            try {
-                return await handleRequest(request);
-            } catch (error) {
-                console.error('get-lesson request failed:', error instanceof Error ? error.name : 'unknown');
-                const configuredOrigin = Deno.env.get('APP_ORIGIN');
-                const requestOrigin = request.headers.get('origin');
-                const allowedOrigin = requestOrigin === configuredOrigin ? requestOrigin : null;
-                return jsonResponse(503, { code: 'SERVICE_UNAVAILABLE' }, allowedOrigin);
-            }
         });
     }
     if (request.method !== 'POST') {
@@ -196,7 +186,11 @@ async function handleRequest(request: Request): Promise<Response> {
         .select('role,status')
         .eq('id', user.id)
         .maybeSingle();
-    if (profileError || !profile || profile.status !== 'active') {
+    if (profileError) {
+        console.error('get-lesson profile lookup failed:', profileError.code || 'database_error');
+        return jsonResponse(503, { code: 'SERVICE_UNAVAILABLE' }, origin);
+    }
+    if (!profile || profile.status !== 'active') {
         return jsonResponse(403, { code: 'ACCOUNT_NOT_ACTIVE' }, origin);
     }
 
@@ -214,7 +208,11 @@ async function handleRequest(request: Request): Promise<Response> {
         .select('id,is_free')
         .eq('id', input.topicId)
         .maybeSingle();
-    if (topicError || !topic) {
+    if (topicError) {
+        console.error('get-lesson topic lookup failed:', topicError.code || 'database_error');
+        return jsonResponse(503, { code: 'SERVICE_UNAVAILABLE' }, origin);
+    }
+    if (!topic) {
         return jsonResponse(404, { code: 'TOPIC_NOT_FOUND' }, origin);
     }
 
@@ -274,5 +272,17 @@ async function handleRequest(request: Request): Promise<Response> {
     } catch {
         console.error('get-lesson private content is invalid JSON');
         return jsonResponse(503, { code: 'CONTENT_UNAVAILABLE' }, origin);
+    }
+}
+
+Deno.serve(async (request: Request): Promise<Response> => {
+    try {
+        return await handleRequest(request);
+    } catch (error) {
+        console.error('get-lesson request failed:', error instanceof Error ? error.name : 'unknown');
+        const configuredOrigin = Deno.env.get('APP_ORIGIN');
+        const requestOrigin = request.headers.get('origin');
+        const allowedOrigin = requestOrigin === configuredOrigin ? requestOrigin : null;
+        return jsonResponse(503, { code: 'SERVICE_UNAVAILABLE' }, allowedOrigin);
     }
 });

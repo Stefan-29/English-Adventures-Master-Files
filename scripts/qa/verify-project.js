@@ -55,14 +55,32 @@ for (const entry of fs.readdirSync(staticOutput, { withFileTypes: true })) {
     );
 }
 const authHtml = fs.readFileSync(path.join(root, 'auth.html'), 'utf8');
+const authSource = fs.readFileSync(path.join(root, 'modules/authPage.js'), 'utf8');
 assert.match(authHtml, /id="login-form"/, 'The auth page must provide email/password login.');
+assert.match(authHtml, /id="login-password"[^>]*required(?![^>]*minlength)/, 'Login must accept existing passwords independent of the signup password policy.');
+assert.match(authHtml, /id="signup-password"[^>]*minlength="10"/, 'New account passwords must retain the minimum length requirement.');
 assert.match(authHtml, /id="signup-form"/, 'The auth page must provide email signup.');
 assert.match(authHtml, /id="reset-form"/, 'The auth page must provide password recovery.');
 assert.match(authHtml, /id="guardian-email"/, 'Minor signup must collect a guardian email.');
 assert.match(authHtml, /id="guardian-consent"/, 'Minor signup must require guardian consent attestation.');
 assert.match(authHtml, /id="language-toggle"/, 'The auth page must support a language toggle.');
+for (const [controlId, handler] of [
+    ['language-toggle', /getElementById\('language-toggle'\)\.addEventListener\('click'/],
+    ['tab-login', /elements\.loginTab\.addEventListener\('click'/],
+    ['tab-signup', /elements\.signupTab\.addEventListener\('click'/],
+    ['show-reset', /getElementById\('show-reset'\)\.addEventListener\('click'/],
+    ['back-to-login', /getElementById\('back-to-login'\)\.addEventListener\('click'/],
+    ['google-login', /getElementById\('google-login'\)\.addEventListener\('click'/],
+    ['google-signup', /getElementById\('google-signup'\)\.addEventListener\('click'/]
+]) {
+    assert.ok(authHtml.includes(`id="${controlId}"`), `The auth page must render the ${controlId} control.`);
+    assert.match(authSource, handler, `The auth control ${controlId} must have a click handler.`);
+}
+for (const formId of ['login-form', 'signup-form', 'reset-form', 'update-password-form']) {
+    assert.match(authSource, new RegExp(`handleForm\\(document\\.getElementById\\('${formId}'\\)`), `The auth form ${formId} must have a submit handler.`);
+}
 assert.match(
-    fs.readFileSync(path.join(root, 'modules/authPage.js'), 'utf8'),
+    authSource,
     /signInWithOAuth\(\{\s*provider:\s*'google'/,
     'The auth page must support Google OAuth.'
 );
@@ -104,12 +122,18 @@ const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 assert.match(html, /id="feedback-modal"[^>]*role="dialog"[^>]*aria-modal="true"[^>]*aria-labelledby="feedback-title"[^>]*aria-describedby="feedback-message"/, 'The feedback dialog must expose its title and description.');
 assert.match(html, /id="feedback-message" class="feedback-message"/, 'Feedback content must use a valid container for structured results.');
 const appSource = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
+assert.match(appSource, /auth\.html\?returnTo=home/, 'Learner sign-in links must return users to the app after authentication.');
 assert.match(appSource, /ContentService\.listTopics\(\)/, 'The topic list must load from the public database index.');
 assert.match(appSource, /this\.contentService\.getLesson\(moduleInfo\.id\)/, 'Topic content must load through the gated service.');
 assert.doesNotMatch(appSource, /fetch\(\s*(?:moduleInfo\.configPath|this\.currentDataFile)/, 'The app must not fetch public lesson JSON paths.');
 assert.doesNotMatch(appSource, /loadSampleData|sampleData|Introduction to Past Simple Tense/, 'Lesson examples must not be embedded in the app bundle.');
 assert.match(appSource, /Hubungi guru untuk daftar/, 'The locked state must offer teacher enrollment contact.');
 const contentServiceSource = fs.readFileSync(path.join(root, 'modules/contentService.js'), 'utf8');
+assert.match(authSource, /function redirectAfterSignIn\(params\)/, 'Password and OAuth sign-in must share a single return flow.');
+assert.match(authSource, /redirectAfterSignIn\(new URLSearchParams\(window\.location\.search\)\)/, 'Successful password sign-in must navigate to its safe destination.');
+assert.match(authSource, /redirectAfterSignIn\(params\)/, 'Existing OAuth sessions must navigate to the same safe destination.');
+assert.match(authSource, /returnTo === 'payment'[\s\S]*?payment-return\.html\?order_id=/, 'Payment sign-in must return to the associated order status page.');
+assert.match(authSource, /emailRedirect\.searchParams\.set\('returnTo', returnTo\)/, 'Signup verification must preserve an allowed post-auth destination.');
 assert.match(contentServiceSource, /functions\.invoke\('get-lesson'/, 'ContentService must call the gated Edge Function.');
 assert.doesNotMatch(contentServiceSource, /localStorage|sessionStorage|CacheStorage/, 'Lesson JSON must not be cached in browser storage.');
 assert.match(
@@ -161,10 +185,23 @@ assert.match(
     'Activity management must require a Supabase JWT.'
 );
 assert.match(
-    fs.readFileSync(path.join(root, 'modules/authPage.js'), 'utf8'),
-    /returnTo'\)\s*===\s*'admin'[\s\S]*?location\.assign\('admin\/index\.html'\)/,
+    authSource,
+    /returnTo === 'admin'[\s\S]*?location\.assign\('admin\/index\.html'\)/,
     'The auth page must support the fixed admin return destination.'
 );
+for (const [buttonId, handler] of [
+    ['language-toggle', /languageToggle\.addEventListener\('click'/],
+    ['refresh-dashboard', /getElementById\('refresh-dashboard'\)\.addEventListener\('click'/],
+    ['sign-out', /signOutButton\.addEventListener\('click'/],
+    ['load-activities', /getElementById\('load-activities'\)\.addEventListener\('click'/],
+    ['new-activity', /getElementById\('new-activity'\)\.addEventListener\('click'/],
+    ['save-activity', /getElementById\('save-activity'\)\.addEventListener\('click'/],
+    ['delete-activity', /getElementById\('delete-activity'\)\.addEventListener\('click'/]
+]) {
+    assert.ok(adminHtml.includes(`id="${buttonId}"`), `The owner page must render the ${buttonId} button.`);
+    assert.match(adminSource, handler, `The owner dashboard button ${buttonId} must have a click handler.`);
+}
+assert.match(adminSource, /getElementById\('plan-form'\)\.addEventListener\('submit'/, 'Plan saving must be connected to the plan form.');
 assert.ok(fs.existsSync(path.join(root, 'docs/setup/OWNER_ADMIN_SETUP.md')), 'Owner dashboard deployment and MFA setup must be documented.');
 const adminPlansSource = fs.readFileSync(path.join(root, 'supabase/functions/admin-plans/index.ts'), 'utf8');
 assert.match(adminPlansSource, /requestSchema\s*=\s*z\.discriminatedUnion/, 'Owner plan management requests must be schema-validated.');
@@ -182,6 +219,11 @@ assert.match(
     'The payment notification function must be reachable without a Supabase JWT and verify provider signatures itself.'
 );
 const paymentReturnSource = fs.readFileSync(path.join(root, 'modules/paymentReturnPage.js'), 'utf8');
+const paymentReturnHtml = fs.readFileSync(path.join(root, 'payment-return.html'), 'utf8');
+assert.match(paymentReturnHtml, /id="payment-refresh"/, 'The payment return page must render its refresh action.');
+assert.match(paymentReturnHtml, /id="language-toggle"/, 'The payment return page must render its language action.');
+assert.match(paymentReturnSource, /refreshButton\.addEventListener\('click', checkStatus\)/, 'The payment status refresh button must check the order again.');
+assert.match(paymentReturnSource, /languageButton\.addEventListener\('click'/, 'The payment status language button must switch languages.');
 assert.match(paymentReturnSource, /from\('orders'\)[\s\S]*?maybeSingle/, 'Payment return status must be read from the authenticated user order row.');
 assert.doesNotMatch(paymentReturnSource, /localStorage|status_code|signature_key/, 'The payment return UI must not treat browser state as payment proof.');
 assert.match(
@@ -204,11 +246,39 @@ const paymentServiceSource = fs.readFileSync(path.join(root, 'modules/paymentSer
 assert.match(paymentServiceSource, /from\('plans'\)[\s\S]*?functions\.invoke\('create-order'/, 'The learner UI must load configured plans and request server-created orders.');
 assert.match(paymentServiceSource, /app\.midtrans\.com[\s\S]*?app\.sandbox\.midtrans\.com/, 'Payment redirect URLs must be restricted to Midtrans hosts.');
 assert.match(fs.readFileSync(path.join(root, 'app.js'), 'utf8'), /PaymentService\.createOrder\(plan\.id\)/, 'Locked topics must offer a checkout action for configured plans.');
+const createOrderSource = fs.readFileSync(path.join(root, 'supabase/functions/create-order/index.ts'), 'utf8');
+assert.match(createOrderSource, /admin\.auth\.getUser\(token\)/, 'Order creation must verify the account token server-side.');
+assert.match(createOrderSource, /email_confirmed_at/, 'Order creation must require a verified account.');
+assert.match(createOrderSource, /profile\.status !== 'active'/, 'Order creation must reject suspended accounts.');
+assert.match(createOrderSource, /\.eq\('active', true\)/, 'Order creation must only accept active server-configured plans.');
+assert.match(createOrderSource, /Number\.isSafeInteger\(grossAmount\)/, 'Order creation must reject prices outside the safe integer range.');
+assert.match(createOrderSource, /gross_amount:\s*grossAmount/, 'The provider charge must use the server-stored plan amount.');
 assert.match(
     fs.readFileSync(path.join(root, 'supabase/migrations/20261023000000_initial_schema.sql'), 'utf8'),
     /upsert_payment_enrollment/,
     'The schema must include an enrollment helper for a single atomic payment update.'
 );
+const trialMigrationPath = path.join(root, 'supabase/migrations/20261111000000_free_trial_access.sql');
+assert.ok(fs.existsSync(trialMigrationPath), 'Free trial access must be added by a timestamped migration.');
+const trialMigration = fs.readFileSync(trialMigrationPath, 'utf8');
+assert.match(trialMigration, /add column if not exists trial_days smallint/i, 'Trial duration must be optional plan data.');
+assert.match(trialMigration, /trial_days is null or trial_days between 1 and 30/i, 'Trial duration must be bounded.');
+assert.match(trialMigration, /check\s*\(\s*\(source = 'trial' and trial_plan_id is not null\)\s+or source <> 'trial'\s*\)/i, 'A payment upgrade must be able to retain the original trial plan without violating the enrollment constraint.');
+assert.match(trialMigration, /create unique index if not exists enrollments_one_trial_per_user[\s\S]*?where source = 'trial'/i, 'A user may receive at most one trial enrollment.');
+assert.match(trialMigration, /for update of p/i, 'Trial grants must serialize concurrent starts on the account row.');
+assert.match(trialMigration, /trial_expires_at := trial_granted_at \+ make_interval\(days => configured_trial_days\)/i, 'Trial expiry must be calculated by PostgreSQL.');
+assert.match(trialMigration, /revoke all on function public\.start_user_trial\(uuid, text\)\s+from public, anon, authenticated/i, 'Trial mutation must not be callable by browser roles.');
+assert.match(trialMigration, /grant execute on function public\.start_user_trial\(uuid, text\)\s+to service_role/i, 'Only the trusted server role may grant a trial.');
+const trialFunctionSource = fs.readFileSync(path.join(root, 'supabase/functions/start-trial/index.ts'), 'utf8');
+assert.match(trialFunctionSource, /admin\.auth\.getUser\(token\)/, 'Trial requests must validate the user token server-side.');
+assert.match(trialFunctionSource, /email_confirmed_at/, 'Trial eligibility must require a verified account.');
+assert.match(trialFunctionSource, /admin\.rpc\('start_user_trial'/, 'Trial grants must use the atomic database function.');
+assert.match(trialFunctionSource, /Number\(plan\.trial_days\) <= 30/, 'Trial eligibility responses must stay within the configured maximum duration.');
+assert.match(trialFunctionSource, /\.from\('enrollments'\)[\s\S]*?\.eq\('user_id', user\.id\)[\s\S]*?existingEnrollment/, 'Trial offers must hide for users with enrollment history.');
+assert.match(fs.readFileSync(path.join(root, 'supabase/config.toml'), 'utf8'), /\[functions\.start-trial\]\s+verify_jwt = true/, 'The start-trial function must require gateway JWT verification.');
+assert.match(fs.readFileSync(path.join(root, 'modules/trialService.js'), 'utf8'), /functions\.invoke\('start-trial'/, 'The learner must call the configured start-trial Edge Function.');
+assert.match(appSource, /TrialService\.getEligibility\(\)[\s\S]*?Mulai uji coba gratis[\s\S]*?Start .*free trial/, 'Locked learner access must show a bilingual CTA only after server eligibility succeeds.');
+assert.match(appSource, /TrialService\.startTrial\(plan\.id\)/, 'The learner CTA must request the one-time server grant.');
 const lessonFunctionSource = fs.readFileSync(
     path.join(root, 'supabase/functions/get-lesson/index.ts'),
     'utf8'
@@ -217,6 +287,9 @@ assert.match(lessonFunctionSource, /requestSchema\s*=\s*z\.object/, 'The Edge Fu
 assert.match(lessonFunctionSource, /maxRequestBodyBytes\s*=\s*2048/, 'The Edge Function must bound request body size.');
 assert.match(lessonFunctionSource, /admin\.auth\.getUser\(token\)/, 'The Edge Function must verify the access token server-side.');
 assert.match(lessonFunctionSource, /email_confirmed_at/, 'The Edge Function must require verified email.');
+assert.match(lessonFunctionSource, /TextDecoder\(\)\.decode\(bytes\)/, 'Owner assurance parsing must support UTF-8 token claims.');
+assert.match(lessonFunctionSource, /if \(profileError\)[\s\S]*?SERVICE_UNAVAILABLE[\s\S]*?if \(!profile \|\| profile\.status !== 'active'\)/, 'Profile query failures must not be reported as inactive accounts.');
+assert.match(lessonFunctionSource, /if \(topicError\)[\s\S]*?SERVICE_UNAVAILABLE[\s\S]*?if \(!topic\)/, 'Topic query failures must not be reported as missing topics.');
 assert.match(lessonFunctionSource, /expires_at\.is\.null,expires_at\.gt\.\$\{now\}/, 'Full-access entitlements must enforce expiry.');
 assert.match(lessonFunctionSource, /getUser\(token\)[\s\S]*?getVerifiedTokenAssurance\(token\)[\s\S]*?aal2/, 'Owner lesson access must verify the token before requiring MFA assurance.');
 assert.match(lessonFunctionSource, /UPSTASH_REDIS_REST_TOKEN[\s\S]*?rateLimitPerMinute/, 'The Edge Function must rate limit lesson requests.');

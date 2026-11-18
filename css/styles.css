@@ -499,12 +499,14 @@ img, svg { display: block; max-width: 100%; }
 }
 
 .purchase-options__note,
-.purchase-options__error {
+.purchase-options__error,
+.trial-options__error {
   margin: 0;
   text-align: center;
 }
 
-.purchase-options__error {
+.purchase-options__error,
+.trial-options__error {
   color: var(--error);
 }
 

@@ -203,6 +203,10 @@ async function handleRequest(request: Request): Promise<Response> {
   const midtransOrderId = `EA-${crypto.randomUUID()}`;
   const orderId = crypto.randomUUID();
   const grossAmount = Number(plan.price_idr);
+  if (!Number.isSafeInteger(grossAmount) || grossAmount <= 0) {
+    console.error('create-order rejected an invalid plan price');
+    return jsonResponse(503, { code: 'PLAN_PRICE_INVALID' }, origin);
+  }
 
   const { error: orderInsertError } = await admin.from('orders').insert({
     id: orderId,

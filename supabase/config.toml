@@ -10,6 +10,9 @@ verify_jwt = true
 [functions.admin-content]
 verify_jwt = true
 
+[functions.start-trial]
+verify_jwt = true
+
 [functions.midtrans-webhook]
 # Midtrans cannot attach a Supabase JWT; the function verifies Midtrans's
 # signature before processing any notification.

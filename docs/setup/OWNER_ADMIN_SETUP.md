@@ -87,12 +87,15 @@ plans and the Midtrans webhook:
 1. Add active plan rows with prices you have chosen. Do not copy placeholder
    prices into production. `duration_months` supports `1`, `3`, `12`, or
    `null` for lifetime access.
+   The optional `trial_days` field (1–30) is configured directly in Supabase;
+   leave it `NULL` when no trial should be offered. The existing checkout plan
+   form does not edit this field.
 2. Set `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `MIDTRANS_SERVER_KEY`,
    `MIDTRANS_CLIENT_KEY`, `MIDTRANS_IS_PRODUCTION`, `APP_ORIGIN`,
    `UPSTASH_REDIS_REST_URL`, and `UPSTASH_REDIS_REST_TOKEN` as Edge Function
    secrets. Never expose the service-role, Midtrans server, or Redis token in
    the static build.
-3. Deploy `admin-plans`, `admin-content`, `create-order`, and `midtrans-webhook`. The checked-in
+3. Deploy `admin-plans`, `admin-content`, `create-order`, `start-trial`, and `midtrans-webhook`. The checked-in
    `supabase/config.toml` disables gateway JWT verification only for the
    webhook; the function verifies Midtrans's signature before processing.
 4. Configure the Midtrans payment notification URL as

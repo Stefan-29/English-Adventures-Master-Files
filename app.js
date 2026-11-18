@@ -2,6 +2,7 @@
 
 import { syncLocalProgressToSupabase } from './modules/progressSync.js';
 import { PaymentService } from './modules/paymentService.js';
+import { TrialService } from './modules/trialService.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM fully loaded, initializing App');
@@ -427,13 +428,13 @@ const App = {
         if (nextAction === 'login') {
             const login = document.createElement('a');
             login.className = 'topic-access-card__button';
-            login.href = 'auth.html';
+            login.href = 'auth.html?returnTo=home';
             login.textContent = 'Masuk / Daftar';
             actions.appendChild(login);
         } else if (nextAction === 'upgrade') {
             if (authenticationRequired) {
                 const login = document.createElement('a');
-                login.href = 'auth.html';
+                login.href = 'auth.html?returnTo=home';
                 login.textContent = 'Masuk / Daftar';
                 actions.appendChild(login);
             }
@@ -476,6 +477,17 @@ const App = {
             const { plans, canPurchase } = await PaymentService.getPurchaseOptions();
             if (!container.isConnected || this.currentGrammarModuleId !== topic.id) return;
             container.replaceChildren();
+
+            let trialPlans = [];
+            if (canPurchase) {
+                try {
+                    const eligibility = await TrialService.getEligibility();
+                    if (eligibility.eligible) trialPlans = eligibility.plans;
+                } catch (error) {
+                    console.error('Trial eligibility could not be checked:', error?.code || error?.message || 'unknown');
+                }
+            }
+            if (!container.isConnected || this.currentGrammarModuleId !== topic.id) return;
 
             if (!plans.length) {
                 const note = document.createElement('p');
@@ -537,6 +549,38 @@ const App = {
                     signIn.href = 'auth.html?returnTo=home';
                     signIn.textContent = 'Masuk untuk membeli';
                     planCard.appendChild(signIn);
+                }
+
+                const trialPlan = trialPlans.find(offer => offer.id === plan.id);
+                if (trialPlan) {
+                    const trial = document.createElement('button');
+                    trial.type = 'button';
+                    trial.className = 'topic-access-card__button';
+                    trial.textContent = `Mulai uji coba gratis ${trialPlan.trialDays} hari / Start ${trialPlan.trialDays}-day free trial`;
+                    trial.addEventListener('click', async () => {
+                        trial.disabled = true;
+                        trial.textContent = 'Memulai uji coba… / Starting trial…';
+                        try {
+                            await TrialService.startTrial(plan.id);
+                            this.switchGrammar(topic);
+                        } catch (error) {
+                            console.error('Free trial could not start:', error?.code || error?.message || 'unknown');
+                            trial.disabled = false;
+                            trial.textContent = 'Coba lagi / Try again';
+                            let status = planCard.querySelector('.trial-options__error');
+                            if (!status) {
+                                status = document.createElement('p');
+                                status.className = 'trial-options__error';
+                                status.setAttribute('role', 'alert');
+                                planCard.appendChild(status);
+                            }
+                            status.textContent = 'Uji coba belum dapat dimulai. Coba lagi atau hubungi guru. / Trial could not start. Try again or contact your teacher.';
+                            if (['TRIAL_ALREADY_USED', 'TRIAL_NOT_ELIGIBLE', 'TRIAL_UNAVAILABLE'].includes(error?.code)) {
+                                trial.remove();
+                            }
+                        }
+                    });
+                    planCard.appendChild(trial);
                 }
                 planList.appendChild(planCard);
             }

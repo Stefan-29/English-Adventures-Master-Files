@@ -1,3 +1,4 @@
+import { AuthService } from './authService.js';
 import { getSupabaseClient } from './supabaseClient.js';
 import { syncLocalProgressToSupabase } from './progressSync.js';
 
@@ -32,11 +33,9 @@ const copy = {
         privacy: 'Kebijakan privasi',
         terms: 'Ketentuan layanan',
         verifySent: 'Akun dibuat. Periksa email Anda untuk memverifikasi alamat sebelum masuk.',
-        loginSuccess: 'Berhasil masuk. Akses materi akan mengikuti status akun Anda.',
         resetSent: 'Jika akun dengan email tersebut tersedia, tautan pemulihan akan dikirim.',
         passwordUpdated: 'Kata sandi berhasil diperbarui. Silakan masuk.',
         verified: 'Email terverifikasi. Silakan masuk.',
-        oauthSuccess: 'Berhasil masuk. Anda dapat kembali ke halaman utama.',
         configError: 'Layanan akun belum dikonfigurasi. Hubungi pengelola.',
         generalError: 'Permintaan gagal. Periksa koneksi dan data Anda, lalu coba lagi.',
         rateError: 'Terlalu banyak percobaan. Tunggu sebentar sebelum mencoba lagi.',
@@ -79,11 +78,9 @@ const copy = {
         privacy: 'Privacy policy',
         terms: 'Terms of service',
         verifySent: 'Account created. Check your email to verify your address before signing in.',
-        loginSuccess: 'Signed in. Learning access will reflect your account status.',
         resetSent: 'If an account with that email exists, a recovery link will be sent.',
         passwordUpdated: 'Password updated. Please sign in.',
         verified: 'Email verified. Please sign in.',
-        oauthSuccess: 'Signed in. You can return to the home page.',
         configError: 'Account services are not configured yet. Contact the site owner.',
         generalError: 'The request failed. Check your connection and details, then try again.',
         rateError: 'Too many attempts. Wait a little before trying again.',
@@ -171,6 +168,27 @@ function errorMessage(error, fallbackKey = 'generalError') {
     return text(fallbackKey);
 }
 
+function getSafeReturnTo(params) {
+    const returnTo = params.get('returnTo');
+    return ['admin', 'home', 'payment'].includes(returnTo) ? returnTo : 'home';
+}
+
+function redirectAfterSignIn(params) {
+    const returnTo = getSafeReturnTo(params);
+    if (returnTo === 'admin') {
+        window.location.assign('admin/index.html');
+        return;
+    }
+    if (returnTo === 'payment') {
+        const orderId = params.get('orderId');
+        if (orderId && orderId.length <= 255) {
+            window.location.assign(`payment-return.html?order_id=${encodeURIComponent(orderId)}`);
+            return;
+        }
+    }
+    window.location.assign('index.html');
+}
+
 function setBusy(form, busy) {
     const button = form.querySelector('[type="submit"]');
     if (!button) return () => {};
@@ -185,7 +203,7 @@ function setBusy(form, busy) {
 
 async function withClient(task, fallbackKey) {
     try {
-        const client = await getSupabaseClient();
+        const client = AuthService.isMockMode() ? AuthService : await getSupabaseClient();
         await task(client);
     } catch (error) {
         if (error?.message === 'SUPABASE_NOT_CONFIGURED') {
@@ -235,22 +253,7 @@ handleForm(document.getElementById('login-form'), async client => {
     const { error } = await client.auth.signInWithPassword({ email, password });
     if (error) throw error;
     await syncLocalProgressToSupabase();
-    if (new URLSearchParams(window.location.search).get('returnTo') === 'admin') {
-        window.location.assign('admin/index.html');
-        return;
-    }
-    if (new URLSearchParams(window.location.search).get('returnTo') === 'home') {
-        window.location.assign('index.html');
-        return;
-    }
-    if (new URLSearchParams(window.location.search).get('returnTo') === 'payment') {
-        const orderId = new URLSearchParams(window.location.search).get('orderId');
-        if (orderId && orderId.length <= 255) {
-            window.location.assign(`payment-return.html?order_id=${encodeURIComponent(orderId)}`);
-            return;
-        }
-    }
-    showMessage(text('loginSuccess'), 'success');
+    redirectAfterSignIn(new URLSearchParams(window.location.search));
 }, 'loginError');
 
 handleForm(document.getElementById('signup-form'), async client => {
@@ -266,11 +269,21 @@ handleForm(document.getElementById('signup-form'), async client => {
         return showMessage(elements.guardianConsent.checked ? text('minorError') : text('consentError'), 'error');
     }
 
+    const returnTo = new URLSearchParams(window.location.search).get('returnTo');
+    const emailRedirect = new URL(`${window.location.origin}${window.location.pathname}`);
+    emailRedirect.searchParams.set('verified', '1');
+    if (['admin', 'home', 'payment'].includes(returnTo)) {
+        emailRedirect.searchParams.set('returnTo', returnTo);
+        const orderId = new URLSearchParams(window.location.search).get('orderId');
+        if (returnTo === 'payment' && orderId && orderId.length <= 255) {
+            emailRedirect.searchParams.set('orderId', orderId);
+        }
+    }
     const { error } = await client.auth.signUp({
         email,
         password,
         options: {
-            emailRedirectTo: `${window.location.origin}${window.location.pathname}?verified=1`,
+            emailRedirectTo: emailRedirect.toString(),
             data: {
                 display_name: displayName,
                 is_minor: isMinor,
@@ -316,11 +329,12 @@ async function startGoogleSignIn() {
         button.textContent = text('loading');
     }
     try {
-        const client = await getSupabaseClient();
+        const client = AuthService.isMockMode() ? AuthService : await getSupabaseClient();
         const { error } = await client.auth.signInWithOAuth({
             provider: 'google',
             options: {
-                redirectTo: `${window.location.origin}${window.location.pathname}${window.location.search}`
+                redirectTo: `${window.location.origin}${window.location.pathname}${window.location.search}`,
+                email: AuthService.getRole() === 'owner' ? 'stefanustankaemingk2@gmail.com' : 'learner@example.com'
             }
         });
         if (error) throw error;
@@ -359,21 +373,6 @@ withClient(async client => {
     if (error) throw error;
     if (data.session && !params.has('mode')) {
         await syncLocalProgressToSupabase();
-        if (params.get('returnTo') === 'admin') {
-            window.location.assign('admin/index.html');
-            return;
-        }
-        if (params.get('returnTo') === 'home') {
-            window.location.assign('index.html');
-            return;
-        }
-        if (params.get('returnTo') === 'payment') {
-            const orderId = params.get('orderId');
-            if (orderId && orderId.length <= 255) {
-                window.location.assign(`payment-return.html?order_id=${encodeURIComponent(orderId)}`);
-                return;
-            }
-        }
-        showMessage(text('oauthSuccess'), 'success');
+        redirectAfterSignIn(params);
     }
 }, 'generalError');

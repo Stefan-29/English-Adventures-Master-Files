@@ -48,13 +48,17 @@ confidential.
    Supabase supplies `SUPABASE_URL` and
    `SUPABASE_SERVICE_ROLE_KEY` to Edge Functions. Do not copy secret values
    into this guide or browser files.
-5. Deploy `get-lesson` with Supabase CLI and deploy only the generated `dist/`
-   directory to the static host. Set the host build command to `npm run build`
-   and output directory to `dist`. Set only the public `SUPABASE_URL`,
-   `SUPABASE_ANON_KEY`, and `WHATSAPP_NUMBER` variables for this static build.
+5. Deploy `get-lesson` and `start-trial` with Supabase CLI and deploy only the
+   generated `dist/` directory to the static host. Set the host build command
+   to `npm run build` and output directory to `dist`. Set only the public
+   `SUPABASE_URL`, `SUPABASE_ANON_KEY`, and `WHATSAPP_NUMBER` variables for
+   this static build.
 6. Verify an anonymous request and a free account without email verification
    receive no lesson JSON, a verified free account receives only an
    `is_free` topic, and an active enrollment receives full-access topics.
+   Also verify that an eligible verified learner sees a trial CTA only when a
+   plan has `trial_days` configured and that repeated/concurrent starts do
+   not create a second trial.
 
 The service-role key is used only inside Edge Functions; local content export
 does not require Supabase credentials. The function fails closed with `503` if the private bucket content or Upstash
@@ -71,10 +75,17 @@ does not store lesson JSON in local storage.
   free-topic status or active enrollment and expiry before reading Storage.
 - Owner access requires an active `owner` profile and `aal2` MFA assurance.
 - Denied requests return a status and error code without lesson data.
-- Locked topics show an Upgrade link and, when configured, a WhatsApp contact
-  link labelled “Hubungi guru untuk daftar”.
+- Locked topics show configured checkout options and, when configured, a
+  WhatsApp contact link labelled “Hubungi guru untuk daftar”.
+- A verified, active learner with no enrollment history may also see a free
+  trial CTA when an active plan has `trial_days` configured. Set
+  `trial_days` to an integer from 1 to 30 on the intended plan row; `NULL`
+  disables that plan's offer. The learner-facing check is server-backed, and
+  the one-time grant and expiry are calculated atomically in PostgreSQL.
+- Deploy `start-trial` with JWT verification enabled after applying
+  `20261111000000_free_trial_access.sql`. Plan trial duration is currently
+  configured in Supabase; it is not editable through the checkout plan form.
 
-This deliverable does not implement checkout or create enrollments from a
-payment. The Upgrade link is a placeholder for the payment flow in a later
-deliverable. Public topic metadata is intentionally readable by anonymous
-visitors.
+Paid enrollments remain created only by the verified payment webhook. Trial
+enrollments are a separate one-time path and never create or modify a checkout
+order. Public topic metadata is intentionally readable by anonymous visitors.
