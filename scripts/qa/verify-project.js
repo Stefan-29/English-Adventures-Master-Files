@@ -27,6 +27,10 @@ assert.ok(fs.existsSync(path.join(root, packageManifest.main)), 'The package ent
 assert.match(packageManifest.scripts.dev, /http-server\s+\./, 'The development server must serve the repository root.');
 assert.match(packageManifest.scripts.start, /http-server\s+dist/, 'Production preview must serve the static build.');
 assert.match(packageManifest.scripts.build, /scripts\/build-static-site\.js/, 'Production build must use the allowlisted static builder.');
+const netlifyConfig = fs.readFileSync(path.join(root, 'netlify.toml'), 'utf8');
+assert.match(netlifyConfig, /^\[build\]\s*$/m, 'Netlify must use an explicit build configuration.');
+assert.match(netlifyConfig, /^command\s*=\s*"npm run build"\s*$/m, 'Netlify must build the complete production site.');
+assert.match(netlifyConfig, /^publish\s*=\s*"dist"\s*$/m, 'Netlify must publish the generated dist directory.');
 assert.ok(fs.existsSync(path.join(root, 'config')), 'Topic configurations must remain at the served root.');
 assert.ok(fs.existsSync(path.join(root, 'modules')), 'Application modules must remain at the served root.');
 execFileSync(process.execPath, ['scripts/build-static-site.js'], { cwd: root, stdio: 'pipe' });

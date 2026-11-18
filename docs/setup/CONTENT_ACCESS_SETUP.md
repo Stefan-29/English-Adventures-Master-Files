@@ -49,8 +49,10 @@ confidential.
    `SUPABASE_SERVICE_ROLE_KEY` to Edge Functions. Do not copy secret values
    into this guide or browser files.
 5. Deploy `get-lesson` and `start-trial` with Supabase CLI and deploy only the
-   generated `dist/` directory to the static host. Set the host build command
-   to `npm run build` and output directory to `dist`. Set only the public
+   generated `dist/` directory to the static host. For Netlify's Git-based
+   builds, the checked-in `netlify.toml` runs `npm run build` and publishes
+   `dist/`; for a manual deploy, upload the contents of `dist/`, including the
+   `admin/` directory. Set only the public
    `SUPABASE_URL`, `SUPABASE_ANON_KEY`, and `WHATSAPP_NUMBER` variables for
    this static build.
 6. Verify an anonymous request and a free account without email verification
