@@ -19,6 +19,11 @@ dashboard.
 
 The owner must control and verify this email address. A matching unverified
 account is not authorized by the existing `public.is_owner()` policy.
+After email confirmation, sign in with the owner's password. The dashboard
+then requires a TOTP authenticator code as the second factor; this is the
+intended MFA check, not a second email verification. Use
+`/auth.html?mode=login` to keep the sign-in form open when a session already
+exists.
 
 ## 2. Configure authentication
 

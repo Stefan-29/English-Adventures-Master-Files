@@ -66,6 +66,8 @@ assert.match(authHtml, /id="reset-form"/, 'The auth page must provide password r
 assert.match(authHtml, /id="guardian-email"/, 'Minor signup must collect a guardian email.');
 assert.match(authHtml, /id="guardian-consent"/, 'Minor signup must require guardian consent attestation.');
 assert.match(authHtml, /id="language-toggle"/, 'The auth page must support a language toggle.');
+assert.match(appHtml, /href="auth\.html\?mode=login"/, 'The app footer must allow an active user to open the login page without redirecting home.');
+assert.match(authSource, /data\.session && !\['login', 'reset'\]\.includes\(params\.get\('mode'\)\)/, 'The auth page must keep explicit login and password-reset modes open for active sessions.');
 for (const [controlId, handler] of [
     ['language-toggle', /getElementById\('language-toggle'\)\.addEventListener\('click'/],
     ['tab-login', /elements\.loginTab\.addEventListener\('click'/],
@@ -306,8 +308,9 @@ assert.ok(appSource.includes("querySelector('.feedback-modal__backdrop')"), 'The
 assert.ok(appSource.includes("e.key === 'Escape'"), 'The feedback dialog must support Escape to close.');
 assert.ok(appSource.includes("setAttribute('aria-hidden', 'false')"), 'Opening the dialog must expose it to assistive technology.');
 for (const [, assetPath] of html.matchAll(/(?:src|href)="(?![a-z][a-z\d+.-]*:|#)([^"]+)"/gi)) {
+    const localPath = assetPath.split(/[?#]/, 1)[0];
     assert.ok(
-        fs.existsSync(path.join(root, assetPath)),
+        fs.existsSync(path.join(root, localPath)),
         `HTML references missing local asset: ${assetPath}`
     );
 }

@@ -371,7 +371,7 @@ if (params.get('mode') === 'reset' || hashParams.get('type') === 'recovery') {
 withClient(async client => {
     const { data, error } = await client.auth.getSession();
     if (error) throw error;
-    if (data.session && !params.has('mode')) {
+    if (data.session && !['login', 'reset'].includes(params.get('mode'))) {
         await syncLocalProgressToSupabase();
         redirectAfterSignIn(params);
     }
