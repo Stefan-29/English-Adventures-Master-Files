@@ -67,7 +67,7 @@ assert.match(authHtml, /id="guardian-email"/, 'Minor signup must collect a guard
 assert.match(authHtml, /id="guardian-consent"/, 'Minor signup must require guardian consent attestation.');
 assert.match(authHtml, /id="language-toggle"/, 'The auth page must support a language toggle.');
 assert.match(appHtml, /href="auth\.html\?mode=login"/, 'The app footer must allow an active user to open the login page without redirecting home.');
-assert.match(authSource, /data\.session && !\['login', 'reset'\]\.includes\(params\.get\('mode'\)\)/, 'The auth page must keep explicit login and password-reset modes open for active sessions.');
+assert.match(authSource, /params\.get\('verified'\) === '1'[\s\S]*?\['login', 'reset'\]\.includes\(params\.get\('mode'\)\)/, 'The auth page must keep email-verification, explicit login, and password-reset callbacks open for active sessions.');
 for (const [controlId, handler] of [
     ['language-toggle', /getElementById\('language-toggle'\)\.addEventListener\('click'/],
     ['tab-login', /elements\.loginTab\.addEventListener\('click'/],
