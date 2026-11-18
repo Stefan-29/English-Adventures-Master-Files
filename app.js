@@ -387,8 +387,8 @@ const App = {
     },
 
     ownerMfaUrl: function (topicId) {
-        const params = new URLSearchParams({ returnTo: 'topic', topicId });
-        return `admin/index.html?${params.toString()}`;
+        const params = new URLSearchParams({ mode: 'owner-mfa', returnTo: 'topic', topicId });
+        return `auth.html?${params.toString()}`;
     },
 
     renderTopicIndexError: function () {

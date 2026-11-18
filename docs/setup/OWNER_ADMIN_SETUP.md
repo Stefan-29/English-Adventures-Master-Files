@@ -75,8 +75,9 @@ verified owner account and completing TOTP MFA (`aal2`). Owner access does not
 depend on a learner trial or enrollment.
 
 If the owner opens a topic before completing MFA, the topic page directs them
-to `/admin/` for the required authenticator check and returns them to that topic
-after verification.
+to `/auth.html?mode=owner-mfa&returnTo=topic&topicId=...` for the required
+authenticator check, then returns them to that topic. This MFA flow is served
+from the published auth page and does not depend on `/admin/` being available.
 
 After applying `20261118000000_manual_access_management.sql` and publishing the
 updated `dist/` site:

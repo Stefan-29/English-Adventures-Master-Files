@@ -242,6 +242,23 @@
   background: var(--success-soft);
 }
 
+.mfa-qr {
+  display: block;
+  width: min(220px, 100%);
+  margin: 16px 0;
+  border: var(--border-1);
+  background: #ffffff;
+}
+
+.mfa-secret {
+  display: block;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: var(--surface-subtle);
+  overflow-wrap: anywhere;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
 .auth-terms {
   display: flex;
   flex-wrap: wrap;

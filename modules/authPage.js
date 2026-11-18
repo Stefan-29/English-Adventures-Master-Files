@@ -46,6 +46,15 @@ const copy = {
         invalidEmail: 'Masukkan alamat email yang valid.',
         shortPassword: 'Kata sandi harus memiliki minimal 10 karakter.',
         consentError: 'Centang persetujuan wali sebelum membuat akun.',
+        mfaTitle: 'Verifikasi dua langkah pemilik',
+        mfaInstructions: 'Masukkan kode enam digit dari aplikasi autentikator untuk membuka topik ini.',
+        mfaSetupInstructions: 'Pindai kode QR dengan aplikasi autentikator, lalu masukkan kode enam digit.',
+        mfaCodeLabel: 'Kode autentikasi enam digit',
+        mfaVerify: 'Verifikasi kode',
+        mfaManualKey: 'Kunci manual:',
+        mfaError: 'Verifikasi gagal. Periksa kode dan coba lagi.',
+        mfaAccountError: 'Sesi ini bukan akun pemilik aktif yang terverifikasi.',
+        mfaSignInRequired: 'Masuk dengan akun pemilik untuk menyelesaikan verifikasi dua langkah.',
         loading: 'Memproses…'
     },
     en: {
@@ -91,6 +100,15 @@ const copy = {
         invalidEmail: 'Enter a valid email address.',
         shortPassword: 'Password must be at least 10 characters.',
         consentError: 'Confirm guardian consent before creating the account.',
+        mfaTitle: 'Owner two-step verification',
+        mfaInstructions: 'Enter the six-digit code from your authenticator app to open this topic.',
+        mfaSetupInstructions: 'Scan the QR code with your authenticator app, then enter its six-digit code.',
+        mfaCodeLabel: 'Six-digit authentication code',
+        mfaVerify: 'Verify code',
+        mfaManualKey: 'Manual key:',
+        mfaError: 'Verification failed. Check the code and try again.',
+        mfaAccountError: 'This is not an active, verified owner account.',
+        mfaSignInRequired: 'Sign in with the owner account to complete two-step verification.',
         loading: 'Please wait…'
     }
 };
@@ -103,6 +121,7 @@ const elements = {
     signupPanel: document.getElementById('panel-signup'),
     resetPanel: document.getElementById('panel-reset'),
     updatePasswordPanel: document.getElementById('panel-update-password'),
+    ownerMfaPanel: document.getElementById('panel-owner-mfa'),
     minor: document.getElementById('is-minor'),
     guardianFields: document.getElementById('guardian-fields'),
     guardianEmail: document.getElementById('guardian-email'),
@@ -130,12 +149,15 @@ function clearMessage() {
 function setPanel(panel) {
     const isLogin = panel === 'login';
     const isSignup = panel === 'signup';
+    const isOwnerMfa = panel === 'owner-mfa';
     elements.loginPanel.hidden = !isLogin;
     elements.signupPanel.hidden = !isSignup;
     elements.resetPanel.hidden = panel !== 'reset';
     elements.updatePasswordPanel.hidden = panel !== 'update-password';
-    elements.loginTab.hidden = panel === 'reset' || panel === 'update-password';
-    elements.signupTab.hidden = panel === 'reset' || panel === 'update-password';
+    elements.ownerMfaPanel.hidden = !isOwnerMfa;
+    elements.loginTab.hidden = panel === 'reset' || panel === 'update-password' || isOwnerMfa;
+    elements.signupTab.hidden = panel === 'reset' || panel === 'update-password' || isOwnerMfa;
+    document.querySelector('.auth-tabs').hidden = isOwnerMfa;
     elements.loginTab.classList.toggle('is-active', isLogin);
     elements.signupTab.classList.toggle('is-active', isSignup);
     elements.loginTab.setAttribute('aria-selected', String(isLogin));
@@ -228,6 +250,155 @@ async function withClient(task, fallbackKey) {
         console.error('Authentication request failed:', error?.code || error?.status || 'unknown');
         showMessage(errorMessage(error, fallbackKey), 'error');
     }
+}
+
+function redirectToSelectedTopic(params) {
+    const topicId = getSafeTopicId(params);
+    if (!topicId) {
+        showMessage(text('mfaError'), 'error');
+        return;
+    }
+    const destination = new URL('/', window.location.origin);
+    destination.searchParams.set('topicId', topicId);
+    window.location.assign(destination);
+}
+
+function renderOwnerMfaForm(client, factor, params, { setup, qrCode, secret }) {
+    const controls = document.getElementById('mfa-controls');
+    controls.replaceChildren();
+    document.getElementById('mfa-instructions').textContent = text(
+        setup ? 'mfaSetupInstructions' : 'mfaInstructions'
+    );
+
+    if (setup) {
+        const image = document.createElement('img');
+        image.className = 'mfa-qr';
+        image.alt = 'Authenticator setup QR code';
+        image.src = qrCode;
+        controls.appendChild(image);
+
+        const secretLabel = document.createElement('p');
+        secretLabel.textContent = text('mfaManualKey');
+        const secretValue = document.createElement('code');
+        secretValue.className = 'mfa-secret';
+        secretValue.textContent = secret;
+        controls.append(secretLabel, secretValue);
+    }
+
+    const form = document.createElement('form');
+    const label = document.createElement('label');
+    label.htmlFor = 'owner-mfa-code';
+    label.textContent = text('mfaCodeLabel');
+    const input = document.createElement('input');
+    input.id = 'owner-mfa-code';
+    input.name = 'code';
+    input.type = 'text';
+    input.inputMode = 'numeric';
+    input.autocomplete = 'one-time-code';
+    input.pattern = '[0-9]{6}';
+    input.maxLength = 6;
+    input.required = true;
+    const button = document.createElement('button');
+    button.className = 'auth-submit';
+    button.type = 'submit';
+    button.textContent = text('mfaVerify');
+    form.append(label, input, button);
+    form.addEventListener('submit', async event => {
+        event.preventDefault();
+        if (!form.reportValidity()) return;
+        button.disabled = true;
+        try {
+            const { data: challenge, error: challengeError } = await client.auth.mfa.challenge({
+                factorId: factor.id
+            });
+            if (challengeError) throw challengeError;
+            const { error: verifyError } = await client.auth.mfa.verify({
+                factorId: factor.id,
+                challengeId: challenge.id,
+                code: input.value.trim()
+            });
+            if (verifyError) throw verifyError;
+            redirectToSelectedTopic(params);
+        } catch (error) {
+            console.error('Owner MFA verification failed:', error?.code || error?.name || 'unknown');
+            showMessage(text('mfaError'), 'error');
+            button.disabled = false;
+        }
+    });
+    controls.appendChild(form);
+}
+
+async function initializeOwnerMfa(client, params) {
+    setPanel('owner-mfa');
+    if (!getSafeTopicId(params)) {
+        showMessage(text('mfaError'), 'error');
+        return;
+    }
+
+    const { data: sessionData, error: sessionError } = await client.auth.getSession();
+    if (sessionError) throw sessionError;
+    if (!sessionData.session) {
+        const loginParams = new URLSearchParams(params);
+        loginParams.set('mode', 'login');
+        window.history.replaceState({}, '', `${window.location.pathname}?${loginParams}`);
+        setPanel('login');
+        showMessage(text('mfaSignInRequired'), 'error');
+        return;
+    }
+
+    const { data: profile, error: profileError } = await client
+        .from('profiles')
+        .select('role,status')
+        .eq('id', sessionData.session.user.id)
+        .maybeSingle();
+    if (profileError) throw profileError;
+    if (
+        profile?.role !== 'owner'
+        || profile.status !== 'active'
+        || !sessionData.session.user.email_confirmed_at
+    ) {
+        showMessage(text('mfaAccountError'), 'error');
+        return;
+    }
+
+    const { data: assurance, error: assuranceError } = await client.auth.mfa.getAuthenticatorAssuranceLevel();
+    if (assuranceError) throw assuranceError;
+    if (assurance.currentLevel === 'aal2') {
+        redirectToSelectedTopic(params);
+        return;
+    }
+
+    const { data: factors, error: factorsError } = await client.auth.mfa.listFactors();
+    if (factorsError) throw factorsError;
+    const verifiedFactor = factors.totp.find(factor => factor.status === 'verified');
+    if (verifiedFactor) {
+        renderOwnerMfaForm(client, verifiedFactor, params, { setup: false });
+        return;
+    }
+
+    for (const factor of factors.totp.filter(candidate => candidate.status === 'unverified')) {
+        const { error } = await client.auth.mfa.unenroll({ factorId: factor.id });
+        if (error) throw error;
+    }
+
+    const { data: enrollment, error: enrollmentError } = await client.auth.mfa.enroll({
+        factorType: 'totp',
+        friendlyName: 'English Adventures owner access'
+    });
+    if (enrollmentError) throw enrollmentError;
+    if (
+        typeof enrollment?.id !== 'string'
+        || typeof enrollment.totp?.qr_code !== 'string'
+        || !enrollment.totp.qr_code.startsWith('data:image/svg+xml')
+        || typeof enrollment.totp.secret !== 'string'
+    ) {
+        throw new Error('INVALID_MFA_ENROLLMENT_RESPONSE');
+    }
+    renderOwnerMfaForm(client, { id: enrollment.id }, params, {
+        setup: true,
+        qrCode: enrollment.totp.qr_code,
+        secret: enrollment.totp.secret
+    });
 }
 
 function handleForm(form, action, fallbackKey) {
@@ -385,15 +556,22 @@ const params = new URLSearchParams(window.location.search);
 const hashParams = new URLSearchParams(window.location.hash.slice(1));
 if (params.get('mode') === 'reset' || hashParams.get('type') === 'recovery') {
     setPanel('update-password');
+} else if (params.get('mode') === 'owner-mfa') {
+    setPanel('owner-mfa');
 } else if (params.get('verified') === '1') {
     setPanel('login');
     showMessage(text('verified'), 'success');
 }
 
 withClient(async client => {
+    if (params.get('mode') === 'owner-mfa') {
+        await initializeOwnerMfa(client, params);
+        return;
+    }
     const { data, error } = await client.auth.getSession();
     if (error) throw error;
     const shouldStayOnAuthPage = params.get('verified') === '1'
+        || params.get('mode') === 'owner-mfa'
         || ['login', 'reset'].includes(params.get('mode'));
     if (data.session && !shouldStayOnAuthPage) {
         await syncLocalProgressToSupabase();
